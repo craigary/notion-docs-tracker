@@ -270,6 +270,7 @@ const main = async () => {
   // }
 
   // Step 4: Send Telegram message
+  console.log({ updated: store.updatedItems, new: store.newItems })
 
   const updatedItems: ArticleInfo[] = store.updatedItems
     .filter((item): item is ArticleInfo & { type: 'article' } => item.type === 'article')
