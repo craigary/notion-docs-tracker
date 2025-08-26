@@ -30,6 +30,13 @@ jobs:
           NOTION_FRONTEND_DB_ID: ${{ secrets.NOTION_FRONTEND_DB_ID }}
           NOTION_BACKEND_DB_ID: ${{ secrets.NOTION_BACKEND_DB_ID }}
 
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN}}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID}}
+          TELEGRAM_TOPIC_ID: ${{ secrets.TELEGRAM_TOPIC_ID}}
+
+          HELP_DOCS_URL: ${{ secrets.HELP_DOCS_URL}}
+          TRANSLATION_URL: ${{ secrets.TRANSLATION_URL}}
+
       - name: Commit file changes
         uses: stefanzweifel/git-auto-commit-action@v6
         with:
