@@ -1,0 +1,25 @@
+{
+  "name": "bun",
+  "module": "./src/index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "bun ./src/index.ts --send-telegram=false --save-content=true",
+    "dev": "bun --watch ./src/save-content.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@notionhq/client": "^4.0.2",
+    "hast-util-from-html": "^2.0.3",
+    "hast-util-to-mdast": "^10.1.2",
+    "linkedom": "^0.18.12",
+    "mdast-util-gfm": "^3.1.0",
+    "mdast-util-to-markdown": "^2.1.2",
+    "yargs": "^18.0.0"
+  }
+}
