@@ -292,6 +292,8 @@ const main = async () => {
     })
 
     if (config.sendTelegram) {
+      console.log('Sending Telegram message...')
+      console.log(message)
       await sendMessage(message)
       console.log('Telegram message sent!')
     } else {
