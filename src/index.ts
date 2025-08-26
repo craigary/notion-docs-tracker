@@ -285,6 +285,8 @@ const main = async () => {
       return rest
     })
 
+  console.log({ updatedItems, newItems })
+
   if (newItems.length > 0 || updatedItems.length > 0) {
     const message = generateTelegramMessage({
       updatedDocs: updatedItems,
