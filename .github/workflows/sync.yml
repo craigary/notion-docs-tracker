@@ -1,0 +1,39 @@
+name: Sync Notion Docs
+
+on:
+  workflow_dispatch: # Allow manual triggering
+  schedule:
+    - cron: '0 0 * * *' # Run once a day at midnight UTC
+    # - cron: '*/30 * * * *' # Run every 30 minutes
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Set up Bun
+        uses: oven-sh/setup-bun@v2
+
+      - name: Install dependencies
+        run: bun install
+
+      - name: Run sync script
+        run: bun ./src/index.ts --send-telegram=true --save-content=true
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_FRONTEND_DB_ID: ${{ secrets.NOTION_FRONTEND_DB_ID }}
+          NOTION_BACKEND_DB_ID: ${{ secrets.NOTION_BACKEND_DB_ID }}
+
+      - name: Commit file changes
+        uses: stefanzweifel/git-auto-commit-action@v6
+        with:
+          commit_message: 'docs: Daily sync of Notion help articles'
+          commit_user_name: 'Notion Docs Tracker Bot'
+          commit_user_email: 'bot@users.noreply.github.com'
+          file_pattern: 'content/*.md'
