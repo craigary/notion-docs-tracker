@@ -2,8 +2,8 @@ import type { ArticleInfo } from '../../types'
 import config from '../../config'
 
 const escapeMarkdown = (text: string) => {
-  // Escape characters with special meaning in MarkdownV2.
-  return text.replace(/([_*[\\\\]()~`>#+\\-=|{}.!])/g, '\\$1')
+  // 只转义 title / 普通文本
+  return text.replace(/([_*[\]()~`>#+\-=|{}.!])/g, '\\$1')
 }
 
 export const sendMessage = async (message: string) => {
@@ -20,29 +20,9 @@ export const sendMessage = async (message: string) => {
   try {
     const url = `https://api.telegram.org/bot${config.telegramBotToken}/sendMessage`
 
-    const parsedMessage = message
-      .replace(/\_/g, '\\_')
-      .replace(/\*/g, '\\*')
-      .replace(/\[/g, '\\[')
-      .replace(/\]/g, '\\]')
-      .replace(/\(/g, '\\(')
-      .replace(/\)/g, '\\)')
-      .replace(/\~/g, '\\~')
-      .replace(/\`/g, '\\`')
-      .replace(/\>/g, '\\>')
-      .replace(/\#/g, '\\#')
-      .replace(/\+/g, '\\+')
-      .replace(/\-/g, '\\-')
-      .replace(/\=/g, '\\=')
-      .replace(/\|/g, '\\|')
-      .replace(/\{/g, '\\{')
-      .replace(/\}/g, '\\}')
-      .replace(/\./g, '\\.')
-      .replace(/\!/g, '\\!')
-
     const requestBody: any = {
       chat_id: config.telegramChatId,
-      text: parsedMessage,
+      text: message, // 🚨 不要再对整个 message 做 escape
       parse_mode: 'MarkdownV2',
       disable_web_page_preview: true,
       reply_markup: {
@@ -61,9 +41,7 @@ export const sendMessage = async (message: string) => {
 
     const response = await fetch(url, {
       method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
+      headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(requestBody),
     })
 
@@ -95,9 +73,10 @@ export const generateTelegramMessage = ({
     newDocs.forEach((doc, index) => {
       const emoji = doc.emoji || '📄'
       const name = escapeMarkdown(doc.title)
-      // Do not escape the URL itself
-      const url = doc.url ? `${emoji} [${name}](${doc.url})` : `${emoji} ${name}`
-      message += `${index + 1}\. ${url}\n`
+      const url = doc.url
+        ? `${emoji} [${name}](${doc.url})` // ✅ 链接部分不 escape
+        : `${emoji} ${name}`
+      message += `${index + 1}\\. ${url}\n` // ✅ 数字+点号要转义
     })
     message += '\n'
   }
@@ -107,12 +86,10 @@ export const generateTelegramMessage = ({
     updatedDocs.forEach((doc, index) => {
       const emoji = doc.emoji || '📄'
       const name = escapeMarkdown(doc.title)
-      // Do not escape the URL itself
       const url = doc.url ? `[${emoji} ${name}](${doc.url})` : `${emoji} ${name}`
-      message += `${index + 1}\. ${url}\n`
+      message += `${index + 1}\\. ${url}\n`
     })
   }
 
-  // Do not escape the whole message, only parts of it.
   return message
 }

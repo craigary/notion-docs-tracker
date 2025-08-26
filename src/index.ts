@@ -265,12 +265,7 @@ const main = async () => {
 
   console.log('Processing complete.')
 
-  // if (config.saveContent) {
-  //   commitChanges()
-  // }
-
   // Step 4: Send Telegram message
-
   const updatedItems: ArticleInfo[] = store.updatedItems
     .filter((item): item is ArticleInfo & { type: 'article' } => item.type === 'article')
     .map((item) => {
