@@ -20,9 +20,29 @@ export const sendMessage = async (message: string) => {
   try {
     const url = `https://api.telegram.org/bot${config.telegramBotToken}/sendMessage`
 
+    const parsedMessage = message
+      .replace(/\_/g, '\\_')
+      .replace(/\*/g, '\\*')
+      .replace(/\[/g, '\\[')
+      .replace(/\]/g, '\\]')
+      .replace(/\(/g, '\\(')
+      .replace(/\)/g, '\\)')
+      .replace(/\~/g, '\\~')
+      .replace(/\`/g, '\\`')
+      .replace(/\>/g, '\\>')
+      .replace(/\#/g, '\\#')
+      .replace(/\+/g, '\\+')
+      .replace(/\-/g, '\\-')
+      .replace(/\=/g, '\\=')
+      .replace(/\|/g, '\\|')
+      .replace(/\{/g, '\\{')
+      .replace(/\}/g, '\\}')
+      .replace(/\./g, '\\.')
+      .replace(/\!/g, '\\!')
+
     const requestBody: any = {
       chat_id: config.telegramChatId,
-      text: message,
+      text: parsedMessage,
       parse_mode: 'MarkdownV2',
       disable_web_page_preview: true,
       reply_markup: {
