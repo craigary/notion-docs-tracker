@@ -12,7 +12,9 @@ To open Notion Mail settings, go to `Settings` in the sidebar.
 
 ## Inbox
 
-Go to `Settings` in Notion Mail → `Inbox` to:
+Go to `Settings` in Notion Mail → `Inbox`. From here, you can:
+
+* Open the dropdown for `Language` to change the language you want to use Notion Mail with.
 
 * Open the dropdown for `Theme mode` to choose `Light` or `Dark` modes for Notion Mail, or follow your `System` settings.
 
@@ -21,6 +23,32 @@ Go to `Settings` in Notion Mail → `Inbox` to:
 * Open the dropdown for `Auto-advance` to determine where you want to be navigated after you archive or delete a thread. You can `Go to next thread`, `Go to previous thread`, or `Close thread`.
 
 * Open the dropdown for `Font size` and select `Small`, `Regular`, or `Large`.
+
+**Note:** Notion Mail is currently available in the following languages:
+
+* Japanese
+
+* Korean
+
+* French
+
+* German
+
+* Spanish
+
+* Portuguese
+
+* Danish
+
+* Dutch
+
+* Finnish
+
+* Norwegian
+
+* Swedish
+
+* Chinese (simplified and traditional)
 
 ## Notion AI
 

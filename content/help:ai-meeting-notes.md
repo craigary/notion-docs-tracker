@@ -8,19 +8,29 @@ coverImage: https://img.youtube.com/vi/f4ZYEZO3Sq0/maxresdefault.jpg
 category: Notion AI
 ---
 
-**Note:** AI Meeting Notes is only available on the desktop app. You must have version 4.7.0 of the app or higher. This feature isn’t currently available in Notion’s web app.
+**Note:** AI Meeting Notes is currently in beta and subject to the beta terms of your agreement.
 
 AI Meeting Notes takes detailed meeting notes for you so you can stay focused on the conversation you're having. Notion AI transcribes your meeting and identifies key points and action items that you can share with your entire team.
 
-AI Meeting Notes is currently in beta and subject to the beta terms of your agreement.
+## Who can use AI Meeting Notes?
 
-## Start AI Meeting Notes
+To use AI Meeting Notes:
+
+* You must be on Notion’s Business or Enterprise Plan.
+
+* You must be using Notion’s desktop app, version 4.7.0 or higher. This feature isn’t currently available in Notion’s web app.
+
+* If you’re using a Mac device, you must be using macOS 13 or later.
+
+* If you’re using a Windows device, make sure you’re on the latest version.
 
 Try AI Meeting Notes for free
 
-Take meetings without missing a beat. Notion's AI Meeting Notes captures, summarizes, and organizes your notes—so you can stay present and leave with clarity.
+Take meetings without missing a beat. Notion's AI Meeting Notes captures, summarizes, and organizes your notes so you can stay present and leave with clarity.
 
 [Get started](https://www.notion.com/signup?target=create_meeting_note\\\&feature_intent=meeting_notes)
+
+## Start AI Meeting Notes
 
 To start AI Meeting Notes, type `/meet` into any page in the desktop app. If you’re on a web browser, you’ll be prompted to open the Notion desktop app or download it if you haven’t already.
 
@@ -34,7 +44,7 @@ Write any agenda items or context under `Notes` before the meeting. When generat
 
 To transcribe your meeting:
 
-1. Select `Start transcribing`. By doing this, you’re confirming that everyone in the meeting has given their consent for the meeting to be transcribed.
+1. Select `Start transcribing`. By doing this, you’re confirming that everyone in the meeting has given their consent for the meeting to be recorded and transcribed.
 
 2. Once the meeting is over and you want to stop transcribing, select `Stop`. The AI summary will automatically start generating. Note that at least one minute of recorded audio is required to generate a summary.
 
@@ -68,9 +78,45 @@ To help you request consent, you’ll have a few easy options:
 
   * You can change the voice by clicking the slider icon at the top of the meeting notes block and selecting different voices for different languages. Notion will automatically use your meeting's language to play the appropriate voice.
 
-* **Say it out loud**: A simple ask works too. For example, you could ask, “Alright if I transcribe this meeting using Notion AI Meeting Notes?”
+* **Say it out loud**: A simple ask works too. For example, you could ask, “Alright if I record and transcribe this meeting using Notion AI Meeting Notes?”
 
 **Note:** The consent message plays through your **computer speakers**, not your conferencing mic. Be sure to unmute your speakers and disconnect any headphones so everyone in the room can hear it clearly.
+
+## Troubleshoot common issues
+
+### Notion keeps asking for screen and system audio access
+
+You may be getting a pop-up asking you to grant Notion access to your screen and system audio, even after you’ve already granted access. Sometimes, resetting these permissions can resolve the issue.
+
+**How to fix it**
+
+* In your device’s settings, revoke screen and system audio access for Notion. Then quit Notion, restart your device, open Notion, and follow the prompts to grant access.
+
+* Make sure you’re on the latest version of the Notion desktop app. If not, upgrade to the latest version and see if that fixes the issue.
+
+### AI Meeting Notes won’t launch, or transcription isn’t working
+
+Depending on which version of your operating system or the Notion app you’re on, AI Meeting Notes might not work properly and you might get an error telling you the feature couldn't launch.
+
+**How to fix it**
+
+* If you’re using a Mac device, make sure you’re using macOS 13 or later.
+
+* If you’re using a Windows device, make sure you’re on the latest version.
+
+* Make sure you’re on the latest version of the Notion app.
+
+* Reload your page or restart the app.
+
+### Can’t use the slash command (/meet) for AI Meeting Notes
+
+If you’re not able to see AI Meeting Notes in your slash menu, it’s possible that AI Meeting Notes has been turned off for your workspace.
+
+**How to fix it**
+
+* **If you’re a workspace owner**, go to `Settings` → `Notion AI` and toggle on `AI Meeting Notes`.
+
+* **If you’re not a workspace owner**, reach out to your workspace owner and ask if they can turn on AI Meeting Notes for your workspace.
 
 ## Connect AI Meeting Notes to Notion Calendar
 
@@ -100,13 +146,13 @@ There are a few ways to connect AI Meeting Notes with existing events in Notion 
 
 * Select an event in Notion Calendar, click on the `AI Meeting Notes and Docs` field, and add meeting notes.
 
-## Legal considerations for transcribing communications
+## Legal considerations for recording and transcribing communications
 
 Below is some general information on the laws and regulations that relate to transcriptions, as well as some best practices to consider when enabling AI Meeting Notes.
 
 **Note**: This is provided for informational purposes only and is **not** legal advice. Consult with your legal counsel to evaluate your specific use case to make sure that you use AI Meeting Notes in a legally compliant manner. You are responsible for ensuring that your use of Notion complies with all applicable laws and regulations. See our [Master Subscription Agreement](https://www.notion.com/Master-Subscription-Agreement-4e1c5dd3e3de45dfa4a8ed60f1a43da0) and [Content and Use Policy](https://www.notion.com/notion/Content-Use-Policy-1b9a773d5583486cb5c1d39a8d777a55) for more information.
 
-### Laws related to transcribing communications
+### Laws related to recording and transcribing communications
 
 In the United States, certain laws require consent of at least one of the participants before recording or transcribing a call or conversation. Others require you to obtain consent from every participant before recording or transcribing a call.
 
@@ -114,7 +160,7 @@ Outside the United States, such as in the European Union, there are similar laws
 
 In addition to consent requirements, there may also be laws governing how you use, disclose, and secure your call recordings or transcriptions. These laws may vary depending on where your participants are located, the business sector, and industry standards.
 
-### Some best practices for transcribing communications
+### Some best practices for recording and transcribing communications
 
 **Obtaining consent**
 
@@ -130,16 +176,101 @@ Determining which consent laws apply can be complicated when meeting participant
 
 * If new participants join a call after transcription has begun, stop and obtain consent from new participants before proceeding.
 
-* Make clear to your users how you plan to use and/or share transcriptions (or any information derived from them).
+* Make clear to your users how you plan to use and/or share recordings and transcriptions (or any information derived from them).
 
-* Make sure that you only use and share transcriptions in a way that is consistent with what you told your users and all applicable laws.
+* Make sure that you only use and share recordings and transcriptions in a way that is consistent with what you told your users and all applicable laws.
 
-* Keep transcriptions only for as long as you need.
+* Keep recordings and transcriptions only for as long as you need.
 
-AI Meeting Notes provides ways to disclose your use of the feature and obtain consent from meeting participants, but note that these are just a few examples of how you might obtain consent.
+AI Meeting Notes provides ways to disclose your use of the feature and obtain consent from meeting participants, which you can learn more about [here](https://www.notion.com/help/ai-meeting-notes#consent-message), but note that these are just a few examples of how you might obtain consent.
 
-## How Notion processes and stores captured audio and transcriptions
+## How Notion processes and stores audio and transcriptions
 
 AI Meeting Notes engages [sub-processors](https://www.notion.com/notion/Notion-s-List-of-Subprocessors-268fa5bcfa0f46b6bc29436b21676734?pvs=4) (OpenAI and Anthropic) to record the meeting, process the audio file into a transcription, and then produce insights, such as a meeting summary, action items, participants in the call, and more. **The audio file is immediately deleted within Notion after audio file processing is complete.**
 
-If you do not want the AI Meeting Notes feature available to your users, administrators may opt-out their workspace at any time via the toggle available in their console.
+If you are a workspace owner and do not want the AI Meeting Notes feature available to members of your workspace, you may opt-out your workspace at any time by going to `Settings` → `Notion AI` and toggling off `Workspace availability`.
+
+## Local audio storage
+
+**Note:** This feature is still rolling out to users. Thanks for your patience as we make it available to you soon!
+
+Local copies of recorded meeting audio are available to the user initiating AI Meeting Notes (the “recorder”). The 10 most recently recorded meeting audio files will be stored on the recorder’s local device and available to download. Only the recorder has the ability to download a locally saved audio file.
+
+This capability is turned off by default for all plans. If you want local audio storage enabled to your users, you may opt-in your workspace at any time by going to `Settings` → `Notion AI` and toggling on `Store audio locally`.
+
+## Delete transcription and audio
+
+### Delete a transcription
+
+A transcription can be deleted in two ways:
+
+* Directly in the AI Meeting Notes block, by clicking the slider icon → `Delete transcript`. This will also delete the accompanying locally stored audio from the recorder's device.
+
+* By deleting the parent page where the AI Meeting Notes block sits. Once deleted, the page will follow your workspace’s [data retention settings](https://www.notion.com/help/duplicate-delete-and-restore-content#what-happens-when-a-page-is-deleted).
+
+Enterprise Plan workspace owners can set an **automatic** deletion schedule for transcriptions by going to `Settings` → `Notion AI` and setting a deletion schedule for `Automatic transcript deletion`. Summaries and notes will remain in AI Meeting Notes blocks in your workspace, but all transcriptions will be automatically deleted following the chosen deletion schedule.
+
+### Delete locally stored audio
+
+You can choose to store audio recordings on the recorder’s local device. <!-- -->The recorder can delete locally stored audio from their local device at any time by clicking the slider icon in the AI Meeting Notes block, hovering over `Audio Recordings`, and selecting `Delete recordings`. This deletes all recordings for the specific AI Meeting Notes block.
+
+If an Enterprise Plan workspace owner has turned on both `Automatic transcript deletion` and `Store audio locally` in their settings, local audio recordings will follow the automatic deletion schedule selected for transcriptions. When a transcription is deleted following the automatic deletion schedule, the associated audio recordings stored on the recorder's local device will also be deleted. If a workspace owner sets transcriptions to be deleted immediately after the AI Meeting Notes summary is generated, then no audio will be stored locally on the recorder's device.
+
+**Note:&#x20;**&#x4F;nce the recorder downloads a locally stored meeting audio file, the audio file is within the recorder's sole control. If the recorder downloads an audio file, deletion of the downloaded audio file is up to the recorder. Similarly, if the recorder chooses to share an audio file with third parties, deletion of the distributed copies of the audio file is up to those third parties.
+
+
+## FAQs
+
+### What language is AI Meeting Notes available for?
+
+English, Chinese, Spanish, French, German, Japanese, Korean, Portuguese, Russian, Thai, Vietnamese, Danish, Finnish, Norwegian, Dutch, and Swedish.
+
+
+### Is AI Meeting Notes available offline?
+
+AI Meeting Notes is not currently supported while offline.
+
+
+### Does the summary take my notes into account?
+
+Yes. Both the transcript and notes are taken into account when creating the summary.
+
+
+### What is the minimum meeting time required in order for AI Meeting Notes to work?
+
+AI Meeting Notes requires at least 300 transcribed characters—roughly one minute of spoken content—to generate a summary.
+
+
+### How do I ensure all parties have provided consent?
+
+We recommend you obtain consent from all meeting participants before you start using AI Meeting Notes. While this step is currently manual, we're actively working on building in-product automation to make the process seamless in the future.
+
+
+### Who can access the transcription, notes, and summary from an AI Meeting Notes block?
+
+Meeting Notes inherit the permissions of the page they're saved on. If the transcription is captured on a private page, you'll need to manually share it with teammates to give them access.
+
+Audio for an AI Meeting Notes block is stored on the recorder's local device and only available to the recorder for download.
+
+
+### Can I turn off AI Meeting Notes?
+
+Yes, AI Meeting Notes can be turned off by a **workspace owner**.
+
+1. Click `Settings` in your sidebar.
+
+2. Select `Notion AI`.
+
+3. Toggle off `Workspace availability`.
+
+Local audio storage is off by default. To enable this capability, workspace owners can toggle on `Store audio locally`.
+
+
+### Is there a usage limit for AI Meeting Notes?
+
+Yes, AI Meeting Notes has a daily usage limit of 10 hours per user.
+
+
+### I get notifications when I join meetings asking if I want to use AI Meeting Notes. How does AI Meeting Notes know I am about to join a meeting?
+
+The Notion desktop app observes if a user has a process running on their computer that is actively using their microphone (e.g. Zoom) to provide these notifications. Notion does not listen to the audio coming from your microphone to provide these notifications. Notion records audio only when using AI Meeting Notes. This behavior can be disabled by going to `Settings` → `Notifications` and toggling off `Desktop meeting detection notifications`.
