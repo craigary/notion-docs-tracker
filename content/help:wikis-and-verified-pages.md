@@ -70,7 +70,9 @@ Once verification expires, page owners will be notified to re-verify the page.
 
 ### Verify individual pages in your workspace
 
-**Note:** This feature is only available for users on the Business Plan or Enterprise Plan.
+**Note:** To connect third-party apps to Notion AI, you must be on the Business or Enterprise Plan.
+
+Notion Mail is **free to connect** for all plans; you’ll need to sign up for Notion Mail before setting up the connection.
 
 You can verify pages that don’t belong to a wiki. To do this:
 
@@ -94,7 +96,9 @@ For a page to be verified, it must have at least one owner. To add owners to a v
 
 ### Verify pages in a database
 
-**Note:** This feature is only available for users on the Business Plan or Enterprise Plan.
+**Note:** To connect third-party apps to Notion AI, you must be on the Business or Enterprise Plan.
+
+Notion Mail is **free to connect** for all plans; you’ll need to sign up for Notion Mail before setting up the connection.
 
 While you can verify individual pages in a database following the instructions above, you can also add verification as a property to an entire database to verify all of the database’s pages.
 

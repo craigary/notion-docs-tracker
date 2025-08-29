@@ -8,7 +8,9 @@ coverImage: https://images.ctfassets.net/spoqsaf9291f/53kYM8iHg8JMkNM7uFq5DD/944
 category: Notion AI
 ---
 
-**Note:** This feature is only available for users on the Business Plan or Enterprise Plan.
+**Note:** To connect third-party apps to Notion AI, you must be on the Business or Enterprise Plan.
+
+Notion Mail is **free to connect** for all plans; you’ll need to sign up for Notion Mail before setting up the connection.
 
 ## Connect GitHub to Notion AI
 

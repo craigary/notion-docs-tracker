@@ -10,7 +10,7 @@ category: Pages & blocks
 
 ## Who can use pages offline?
 
-All Notion users on all plans can use pages offline. To do so, you’ll need to be using Notion’s desktop or mobile apps. This feature isn’t compatible with web browsers.
+All workspace members on all plans can use pages offline. To do so, you’ll need to be using Notion’s desktop or mobile apps. This feature isn’t available on web browsers.
 
 If you’re on a paid plan, Notion automatically downloads your **recently visited and favorited pages** for offline use as well.
 

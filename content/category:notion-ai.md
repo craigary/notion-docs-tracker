@@ -38,6 +38,6 @@ Notion’s commitment to AI safety
 
 Notion MCP
 
-Notion Mail AI Connector (beta)
-
 Gmail AI Connector (Beta)
+
+Notion Mail AI Connector (beta)
