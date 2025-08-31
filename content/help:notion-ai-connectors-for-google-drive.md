@@ -8,9 +8,7 @@ coverImage: https://images.ctfassets.net/spoqsaf9291f/2cW4DFrsu1VSoECYIWXNFx/d94
 category: Notion AI
 ---
 
-**Note:** To connect third-party apps to Notion AI, you must be on the Business or Enterprise Plan.
-
-Notion Mail is **free to connect** for all plans; you’ll need to sign up for Notion Mail before setting up the connection.
+**Note:** This feature is only available on the Business or Enterprise Plan.
 
 ## Connect Google Drive to Notion AI
 
