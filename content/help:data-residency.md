@@ -18,10 +18,10 @@ Only Enterprise Plan customers who are **sales-assisted** (in other words, custo
 
 Notion partners with Amazon Web Services to deliver reliable, high-performance data storage through regional data centers.
 
-| **Data region**          | **Backup region**    |
-| ------------------------ | -------------------- |
-| US-West-2 (Oregon)       | US-East-1 (Virginia) |
-| EU-Central-1 (Frankfurt) | EU-West-1 (Ireland)  |
+| **Data region**          | **Backup region**   |
+| ------------------------ | ------------------- |
+| US-West-2 (Oregon)       | US-East-2 (Ohio)    |
+| EU-Central-1 (Frankfurt) | EU-West-1 (Ireland) |
 
 ## Data stored in the data region
 

@@ -22,10 +22,10 @@ Data access consent
 
 Delete your account
 
+Change your language
+
 Log in & out
 
 Notion Faces
-
-Change your language
 
 Passkeys

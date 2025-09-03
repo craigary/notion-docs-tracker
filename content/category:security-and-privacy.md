@@ -18,10 +18,10 @@ Report inappropriate content
 
 Restrictions for customers based in Russia
 
-Data residency for Notion
-
 How to protect yourself from malvertising
 
 Shared Responsibilities Model
 
 Dormant account policy
+
+Data residency for Notion
