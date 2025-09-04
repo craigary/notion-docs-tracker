@@ -27,8 +27,8 @@ jobs:
         run: bun ./src/index.ts --send-telegram=true --save-content=true
         env:
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
-          NOTION_FRONTEND_DB_ID: ${{ secrets.NOTION_FRONTEND_DB_ID }}
-          NOTION_BACKEND_DB_ID: ${{ secrets.NOTION_BACKEND_DB_ID }}
+          NOTION_FRONTEND_DS_ID: ${{ secrets.NOTION_FRONTEND_DS_ID }}
+          NOTION_BACKEND_DS_ID: ${{ secrets.NOTION_BACKEND_DS_ID }}
 
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN}}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID}}

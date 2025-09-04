@@ -49,8 +49,8 @@ This project automatically tracks changes in Notion's official help documentatio
 
 2.  **Fill in the environment variables** in the `.env` file:
     - `NOTION_TOKEN`: Your Notion integration token.
-    - `NOTION_FRONTEND_DB_ID`: The ID of the Notion database to use as the front-end.
-    - `NOTION_BACKEND_DB_ID`: The ID of the Notion database to use as the back-end/metadata store.
+    - `NOTION_FRONTEND_DS_ID`: The ID of the Notion database to use as the front-end.
+    - `NOTION_BACKEND_DS_ID`: The ID of the Notion database to use as the back-end/metadata store.
     - `TELEGRAM_BOT_TOKEN`: The token for your Telegram bot.
     - `TELEGRAM_CHAT_ID`: The ID of the Telegram chat or channel where notifications will be sent.
     - `TELEGRAM_TOPIC_ID` (Optional): The ID of a specific topic/thread within the chat to send messages to.

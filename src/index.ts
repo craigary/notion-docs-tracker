@@ -77,7 +77,7 @@ const createBackendPage = async <
   const commonProperties = configItem.getCommonProperties(itemInfo)
   const backendProperties = configItem.getBackendProperties(itemInfo)
   await notionClient.pages.create({
-    parent: { type: 'data_source_id', data_source_id: config.backendDbId as string },
+    parent: { type: 'data_source_id', data_source_id: config.backendDsId as string },
     icon: configItem.getIcon(itemInfo),
     properties: {
       ...commonProperties,
@@ -237,11 +237,11 @@ const processItem = async <
 
 const main = async () => {
   // Step 1: Fetch existing frontend & backend reference
-  const frontendDbId = config.frontendDbId!
-  const backendDbId = config.backendDbId!
+  const frontendDsId = config.frontendDsId!
+  const backendDsId = config.backendDsId!
 
-  const frontendRef = await fetchExistingReference(frontendDbId)
-  const backendRef = await fetchExistingReference(backendDbId)
+  const frontendRef = await fetchExistingReference(frontendDsId)
+  const backendRef = await fetchExistingReference(backendDsId)
 
   store.frontendRef = frontendRef
   store.backendRef = backendRef

@@ -50,8 +50,8 @@ const config = {
 
   // Secrets from .env file
   notionToken: process.env.NOTION_TOKEN,
-  frontendDbId: process.env.NOTION_FRONTEND_DB_ID,
-  backendDbId: process.env.NOTION_BACKEND_DB_ID,
+  frontendDsId: process.env.NOTION_FRONTEND_DS_ID,
+  backendDsId: process.env.NOTION_BACKEND_DS_ID,
   telegramBotToken: process.env.TELEGRAM_BOT_TOKEN,
   telegramChatId: process.env.TELEGRAM_CHAT_ID,
   telegramTopicId: process.env.TELEGRAM_TOPIC_ID,
@@ -59,8 +59,8 @@ const config = {
 }
 
 // Validation
-if (!config.notionToken || !config.frontendDbId || !config.backendDbId) {
-  throw new Error('Missing required environment variables: NOTION_TOKEN, NOTION_FRONTEND_DB_ID, NOTION_BACKEND_DB_ID')
+if (!config.notionToken || !config.frontendDsId || !config.backendDsId) {
+  throw new Error('Missing required environment variables: NOTION_TOKEN, NOTION_FRONTEND_DS_ID, NOTION_BACKEND_DS_ID')
 }
 
 if (config.saveContent) {
