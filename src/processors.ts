@@ -75,7 +75,7 @@ export const articleConfig: Config<Article, ArticleInfo> = {
     if (itemInfo?.categoryKey) {
       return { type: 'page_id', page_id: store.frontendRef.get(itemInfo?.categoryKey)!.id }
     }
-    return { type: 'database_id', database_id: config.frontendDbId! }
+    return { type: 'data_source_id', data_source_id: config.frontendDbId! }
   },
 }
 
@@ -140,8 +140,8 @@ export const categoryConfig: Config<Category, CategoryInfo> = {
   }),
   parentPageInfoInFrontendDB: () => {
     return {
-      type: 'database_id',
-      database_id: config.frontendDbId!,
+      type: 'data_source_id',
+      data_source_id: config.frontendDbId!,
     }
   },
 }

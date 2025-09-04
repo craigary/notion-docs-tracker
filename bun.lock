@@ -4,7 +4,7 @@
     "": {
       "name": "bun",
       "dependencies": {
-        "@notionhq/client": "^4.0.2",
+        "@notionhq/client": "^5.0.0",
         "hast-util-from-html": "^2.0.3",
         "hast-util-to-mdast": "^10.1.2",
         "linkedom": "^0.18.12",
@@ -16,12 +16,12 @@
         "@types/bun": "latest",
       },
       "peerDependencies": {
-        "typescript": "^5",
+        "typescript": "^5.9.2",
       },
     },
   },
   "packages": {
-    "@notionhq/client": ["@notionhq/client@4.0.2", "", {}, "sha512-4pk3dm4umhjsRI0umCnJ8lCZh0TMiaMdkY0rz6FV4OqVuTsmYFV3pk+YTR5S8792ZY2Rm4lJHlLj05HQVKDuIg=="],
+    "@notionhq/client": ["@notionhq/client@5.0.0", "", {}, "sha512-eXq0bZTXN8+xwT6e3qlrH9QCUn8mQLJ9UkNgKSew2NKNV/hyKb2wmIzQAuass8a2Q6F1aMjMPi+EGLQwgbVlOA=="],
 
     "@types/bun": ["@types/bun@1.2.21", "", { "dependencies": { "bun-types": "1.2.21" } }, "sha512-NiDnvEqmbfQ6dmZ3EeUO577s4P5bf4HCTXtI6trMc6f6RzirY5IrF3aIookuSpyslFzrnvv2lmEWv5HyC1X79A=="],
 

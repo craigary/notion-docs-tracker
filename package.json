@@ -11,10 +11,10 @@
     "@types/bun": "latest"
   },
   "peerDependencies": {
-    "typescript": "^5"
+    "typescript": "^5.9.2"
   },
   "dependencies": {
-    "@notionhq/client": "^4.0.2",
+    "@notionhq/client": "^5.0.0",
     "hast-util-from-html": "^2.0.3",
     "hast-util-to-mdast": "^10.1.2",
     "linkedom": "^0.18.12",

@@ -14,8 +14,8 @@ import { articleConfig, categoryConfig, type Config } from './processors'
 
 // Func for step 1: Fetch from Front-end DB
 const fetchExistingReference = async (databaseId: string): Promise<Map<string, PageObjectResponse>> => {
-  const frontendDBRes = await collectPaginatedAPI(notionClient.databases.query, {
-    database_id: databaseId,
+  const frontendDBRes = await collectPaginatedAPI(notionClient.dataSources.query, {
+    data_source_id: databaseId,
   })
 
   const frontendRef = new Map()
@@ -77,7 +77,7 @@ const createBackendPage = async <
   const commonProperties = configItem.getCommonProperties(itemInfo)
   const backendProperties = configItem.getBackendProperties(itemInfo)
   await notionClient.pages.create({
-    parent: { type: 'database_id', database_id: config.backendDbId as string },
+    parent: { type: 'data_source_id', data_source_id: config.backendDbId as string },
     icon: configItem.getIcon(itemInfo),
     properties: {
       ...commonProperties,
