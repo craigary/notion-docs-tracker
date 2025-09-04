@@ -8,6 +8,8 @@ coverImage: https://img.youtube.com/vi/NM8oFVb8SAY/maxresdefault.jpg
 category: Databases
 ---
 
+Want to see multiple sets of data within the same database? Add a new data source or link an existing one to a database you’re already using. Learn more [here →](https://www.notion.com/help/data-sources-and-linked-databases)
+
 ## What is a database relation?
 
 Let's say you have two databases for your theoretical business 😉

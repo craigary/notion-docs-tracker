@@ -32,10 +32,18 @@ You can then search, filter, and sort by these property values. Learn more about
 
 [](//videos.ctfassets.net/spoqsaf9291f/1tPvNGamDPQ0ktYRBktG5W/4ba9d2380dc546833a4777f3aa1952ea/filter.mp4)
 
-## Database views display the same content in different ways
+## Databases can display the same content in different ways
 
 The contents of a database can be visualized as a table, list, board, calendar, gallery, timeline, or chart — whatever makes the information the most useful.
 
 Learn more about database views [here →](https://www.notion.com/help/views-filters-and-sorts#types-of-database-views)
 
 ![Switch between views](https://images.ctfassets.net/spoqsaf9291f/2KRCKUbMb1AYfqJUWafwSr/03dfbdd1149dfbc3525543d373925722/Group_158.png)
+
+## Databases can contain multiple sources
+
+Let’s say you want to create an all-in-one CRM database that stores information on contacts, companies, and deals. You can build your contact information, company information, and deal information all in the same database, while also treating them as separate data sources.
+
+Alternatively, maybe your team is currently managing projects and tasks in one database, and OKRs in another. You can link the OKR database in your projects and tasks database, bring all of these sources into one place so you can see all of your team’s progress side by side without jumping from one part of your workspace to another.
+
+Learn more about data sources [here →](https://www.notion.com/help/data-sources-and-linked-databases)

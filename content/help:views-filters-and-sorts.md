@@ -12,7 +12,9 @@ category: Databases
 
 ![View Layout](https://images.ctfassets.net/spoqsaf9291f/nfJxbTGWexijW7BSAEPZL/a39afeb87300553e7fb97fc7006d320d/layouts.png)
 
-There are six different ways to visualize your content within a database. Here's a high level overview of each layout:
+In addition to creating a new view of your database, you can link a view of **another** database from your workspace to your current database. For example, you can link a view of your task database from your projects database to manage all the work you’re doing in one place! Learn more [here →](https://www.notion.com/help/data-sources-and-linked-databases)
+
+There are many different ways to visualize your content within a database. Here's a high level overview of each layout:
 
 * [Table](https://www.notion.com/help/tables)**:&#x20;**&#x54;ables allow you to see your database pages as rows, with every property represented by a column.
 

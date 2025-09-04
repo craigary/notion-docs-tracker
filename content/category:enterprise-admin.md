@@ -40,10 +40,10 @@ Organization level controls
 
 Legal holds
 
-IP address restrictions
+Deploy Notion for Windows
 
 Manage teamspaces
 
-Network control
+IP address restrictions
 
-Deploy Notion for Windows
+Network control

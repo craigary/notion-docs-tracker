@@ -14,7 +14,13 @@ Databases are one of Notion’s fundamental features. They help you manage and o
 
 * **You can customize properties:&#x20;**&#x41;dd properties to contextualize, label, and augment any database item with things like dates, status, and links. [Learn more about database properties here →](https://www.notion.com/help/database-properties)
 
-* **You can toggle between multiple views:&#x20;**&#x59;our data isn't limited to a table. Visualize the information in a database as a list, calendar, chart, and mor&#x65;**&#x20;**— whatever makes the information most useful. [Learn more about views, filters, and sorts here →](https://www.notion.com/help/views-filters-and-sorts)
+* **You can visualize your data in different ways:&#x20;**&#x59;our data isn't limited to a table. Organize your database as a list, calendar, chart, and mor&#x65;**&#x20;**— whatever makes the information most useful. [Learn more about views, filters, and sorts here →](https://www.notion.com/help/views-filters-and-sorts)
+
+* **You can view multiple sets of data in one database.** For example:
+
+  * You can build an all-in-one CRM database where information on contacts, companies, and deals are managed all in the same database, while also being treated as separate [sources of data](https://www.notion.com/help/data-sources-and-linked-databases).
+
+  * Maybe your team is currently managing projects and tasks in one database, and OKRs in another. You can [link](https://www.notion.com/help/data-sources-and-linked-databases) the OKR database in your projects and tasks database, bring all of this data into one place so you can see all of your team’s progress side by side without jumping from one part of your workspace to another.
 
 ## Create a database
 
@@ -32,7 +38,9 @@ Let’s walk through some of the first steps you can take to set up a new databa
 
 2. **Add a property**: Give your database [properties](https://www.notion.com/help/database-properties) so you have more options for how to organize each page. A task tracking database might include a status property and a due date property.
 
-3. **Add a new view**: [Views](https://www.notion.com/help/views-filters-and-sorts) allow you to organize the information in your database in different ways. By default, your database will be displayed in Table view, but you can add as many views as you’d like. For example, you might want to organize your tasks in Calendar view.
+3. **Add a new view**: [Views](https://www.notion.com/help/views-filters-and-sorts) allow you to organize the information in your database in different ways. By default, your database will be displayed in Table view, but you can add as many views as you’d like.
+
+   * You can also use views to display data sources from across your workspace in the same database. Add a [linked view](https://www.notion.com/help/data-sources-and-linked-databases) of another data source, or even a view built using a [new data source](https://www.notion.com/help/data-sources-and-linked-databases).
 
 4. **Edit your view**: For each view, you can edit its name, its layout, the properties that are shown or hidden in it, and more. You can also filter, sort, and group the items in your database. For example, you might want to see a task requestor in one view but not in another.
 

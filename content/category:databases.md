@@ -22,7 +22,7 @@ Sub-items & dependencies
 
 Task databases & sprints
 
-Data sources & linked databases
+Data sources
 
 Optimize database load times & performance
 
@@ -42,8 +42,8 @@ Chart view
 
 Layouts
 
+Feed view
+
 Forms
 
 Unique ID
-
-Feed view

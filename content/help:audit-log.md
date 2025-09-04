@@ -22,19 +22,21 @@ To see your audit log:
 
 2. Go to the `Data & Compliance` tab and select `Audit log`.
 
-## Audit log events
+## Audit log event types
 
-Events are split into four main categories:
+Events are split into the following categories:
 
 1. **Page events:&#x20;**&#x54;his includes events users take on a single Notion page.
 
-2. **Teamspace events:** This includes events users take on one or more teamspaces.
+2. **Data source events:** This includes events about data sources in a database.
 
-3. **Workspace events:** This includes events users take on an entire Notion workspace.
+3. **Teamspace events:** This includes events users take on one or more teamspaces.
 
-4. **Account events:** This includes events about accounts of users in the workspace.
+4. **Workspace events:** This includes events users take on an entire Notion workspace.
 
-### Page events
+5. **Account events:** This includes events about accounts of users in the workspace.
+
+## Page events
 
 * **Page edited:** That a user edited the content of a page.
 
@@ -47,6 +49,8 @@ Events are split into four main categories:
 * **Page moved to trash:** That a user moved a page to Trash.
 
 * **Page deleted from trash:** That a user deleted a page from Trash.
+
+* **Page permanently deleted:&#x20;**&#x54;hat a page was permanently removed from Trash. This can be done by a user, but it can also be done automatically by Notion after 30 days, or within a [custom time frame](https://www.notion.com/help/custom-data-retention-settings) on Enterprise Plans.
 
 * **Page restored:** That a user restored a formerly deleted page from Trash.
 
@@ -90,6 +94,12 @@ Events are split into four main categories:
 
 * **Page unlocked:** That a page was unlocked.
 
+* **Downloaded audio recording from AI Meeting Notes block in {page name}**: That a user downloaded audio recording from an AI Meeting Notes block.
+
+* **Started initial transcription for AI Meeting Notes block**: That a user has started an AI Meeting Notes transcription.
+
+* **Deleted transcription from transcription block in {page name}**: That a transcript for AI Meeting Notes has been permanently deleted based on workspace settings.
+
 ### Page event audience
 
 For page events, workspace owners can also view the audience or visibility level of each target page.
@@ -106,7 +116,23 @@ To see the audience, hover over the page-related audit log event. The audience c
 
 Page event audience will also export as a column in CSV exports.
 
-### Teamspace events
+## Data source events
+
+* **Data source created:** That a user created a new data source in a database.
+
+* **Data source moved to trash:** That a user moved a data source to Trash.
+
+* **Data source deleted from trash:** That a user deleted a data source from Trash.
+
+* **Data source restored from trash:** That a user restored a formerly deleted data source from Trash.
+
+* **Data source moved:** That a user moved a data source from one database to another.
+
+* **Data source permission rule updated:** That a user added, removed, or changed a page-level access rule for a data source.
+
+* **Data source permanently deleted:** That a data source was permanently removed from Trash. This can be done by a user, but it can also be done automatically by Notion after 30 days, or [within a custom time frame](https://www.notion.com/help/custom-data-retention-settings) on Enterprise Plans.
+
+## Teamspace events
 
 * **Member added to teamspace:&#x20;**&#x54;hat a user added another user to the teamspace. Will specify “as Teamspace owner” if user is invited as a teamspace owner
 
@@ -164,7 +190,7 @@ Page event audience will also export as a column in CSV exports.
 
 * **Enabled teamspaces:&#x20;**&#x54;hat a user has enabled the teamspaces feature on a workspace
 
-### Workspace events
+## Workspace events
 
 * **Member invited:&#x20;**&#x54;hat a workspace owner or Membership admin invited a user to the workspace.
 
