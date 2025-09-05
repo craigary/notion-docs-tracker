@@ -82,6 +82,20 @@ To help you request consent, you’ll have a few easy options:
 
 **Note:** The consent message plays through your **computer speakers**, not your conferencing mic. Be sure to unmute your speakers and disconnect any headphones so everyone in the room can hear it clearly.
 
+## Choose a default database for AI Meeting Notes
+
+Want to store all of your AI Meeting Notes in one database for easy access? To set a default database for your meeting notes:
+
+1. Go to `Settings` → `Notion AI`.
+
+2. Open the dropdown menu next to `Default meetings database`.
+
+3. Find and select the database where you want your AI Meeting Notes to be stored.
+
+The next time you create a new AI Meeting Notes page (from an AI Meeting Notes notification, for example), the page will automatically be created inside your default database.
+
+Make sure each AI Meeting Notes page in your database is shared with the right people so they can access it.
+
 ## Troubleshoot common issues
 
 ### Notion keeps asking for screen and system audio access
@@ -128,9 +142,9 @@ To connect AI Meeting Notes to Notion Calendar for the first time:
 
    * If you don’t see that option, this means your workspace is already connected to Notion Calendar.
 
-2. In Notion Calendar, click your profile icon and go to `Settings`. From here, you can:
+2. At the top of Notion Calendar, click your profile icon → Settings → AI Meeting Notes.
 
-   * Choose where to store meeting notes (we recommend a meetings database).
+   * Choose where to store meeting notes (we recommend a meeting notes database). By default, this will be the `Private` section of your Notion workspace, but you can set it to any destination. Note that this setting is different from the default database that you can designate in **Notion** settings. If you want all your AI Meeting Notes to be stored in the same place, make sure to set the same default meeting notes location in both Notion Calendar and Notion!
 
    * Choose to auto-share meeting notes with event participants.
 
@@ -212,7 +226,7 @@ Enterprise Plan workspace owners can set an **automatic** deletion schedule for 
 
 ### Delete locally stored audio
 
-You can choose to store audio recordings on the recorder’s local device. <!-- -->The recorder can delete locally stored audio from their local device at any time by clicking the slider icon in the AI Meeting Notes block, hovering over `Audio Recordings`, and selecting `Delete recordings`. This deletes all recordings for the specific AI Meeting Notes block.
+You can choose to store audio recordings on the recorder’s local device. The recorder can delete locally stored audio from their local device at any time by clicking the slider icon in the AI Meeting Notes block, hovering over `Audio Recordings`, and selecting `Delete recordings`. This deletes all recordings for the specific AI Meeting Notes block.
 
 If an Enterprise Plan workspace owner has turned on both `Automatic transcript deletion` and `Store audio locally` in their settings, local audio recordings will follow the automatic deletion schedule selected for transcriptions. When a transcription is deleted following the automatic deletion schedule, the associated audio recordings stored on the recorder's local device will also be deleted. If a workspace owner sets transcriptions to be deleted immediately after the AI Meeting Notes summary is generated, then no audio will be stored locally on the recorder's device.
 
