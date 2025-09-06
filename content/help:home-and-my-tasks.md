@@ -42,7 +42,7 @@ Notion AI can answer questions by searching across world knowledge, pages in you
 
 Users on the Business and Enterprise Plans have access to multiple AI models — they can open the dropdown next to `Ask` and select from Notion AI, OpenAI's GPT, Anthropic's Claude, and Google's Gemini.
 
-**Note:&#x20;**&#x49;f you pick a model other than Notion AI, your workspace data won’t be referenced or used to generate any responses.
+**Note:&#x20;**&#x4B;eep in mind that depending on the model you choose, Notion AI may look only at information from the web to help you with your work. It may not be able to look at information from your workspace or connected apps.
 
 ### Research
 

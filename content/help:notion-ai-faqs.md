@@ -100,11 +100,11 @@ You can also indicate what source you want Notion AI to pull from when answering
 
 Try asking Notion AI “What’s the latest on our fall marketing campaign?”.
 
-Users on the Business and Enterprise Plans have access to multiple AI models when they use Notion AI via `Home` — they can open the dropdown next to `Ask` and select from Notion AI, OpenAI's GPT, Anthropic's Claude, and Google's Gemini. They can also click `🌐` in the `Ask` window to turn on web search.
+You have access to multiple AI models when chatting with Notion AI. To choose a specific AI model, select `Auto` in your chat with Agent. In the menu that appears, select the model you want to use.
 
 ![hc: model picker](https://images.ctfassets.net/spoqsaf9291f/6iWtaLPdBRjkEW6QkDRDDt/956ec016f8012dd8d0f142d21c1ca151/Reference_Visuals_Group_150.png)
 
-**Note:&#x20;**&#x49;f you pick a model other than Notion AI, your workspace data won’t be referenced or used to generate any responses.
+**Note:&#x20;**&#x4B;eep in mind that depending on the model you choose, Notion AI may look only at information from the web to help you with your work. It may not be able to look at information from your workspace or connected apps.
 
 If you’re on the Business or Enterprise Plan, you can also go to `Home` and toggle on `Research Mode` to conduct analysis on more complex or open-ended queries. You could try creating a report on a project or exploring a hypothesis you have.
 
