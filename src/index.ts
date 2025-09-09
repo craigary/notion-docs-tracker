@@ -133,15 +133,15 @@ const updateExistingPage = async <
     // 下面的代码可能出现错误，因为 Notion API 的 Bug ⬇️'
 
     // 只更新文章页面的数据，因为 Notion 的bug，如果页面是 nested，则无法通过 API 更新，而数据库刚好是 Nested。
-    if (configItem.type === 'article') {
-      await notionClient.pages.update({
-        page_id: itemInfoFromFrontendDB.id,
-        properties: {
-          ...commonProperties,
-          Status: { type: 'status', status: { name: 'In progress' } },
-        },
-      })
-    }
+    // if (configItem.type === 'article') {
+    await notionClient.pages.update({
+      page_id: itemInfoFromFrontendDB.id,
+      properties: {
+        ...commonProperties,
+        Status: { type: 'status', status: { name: 'In progress' } },
+      },
+    })
+    // }
 
     // 上面的代码出现错误 ⬆️
 
