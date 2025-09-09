@@ -34,7 +34,7 @@ For the best experience with Notion, make sure you’re using the latest version
 
 | Operating system | Version            |
 | ---------------- | ------------------ |
-| iOS              | iOS 16.0 or above  |
+| iOS              | iOS 17.0 or above  |
 | Android          | Android 8 or above |
 
 The following iOS devices aren't supported:
@@ -43,8 +43,18 @@ The following iOS devices aren't supported:
 
 * iPad Mini 4
 
+* iPad (5th generation) 2017
+
+* iPad Pro 9.7" 2016
+
+* iPad Pro 12.9" (1st generation) 2015
+
+* iPhone X 2017
+
+* iPhone 8 and 8 Plus 2017
+
+* iPhone 7
+
 * iPhone 6
 
 * iPhone 6s
-
-* iPhone 7
