@@ -160,14 +160,6 @@ This menu contains many options, including:
 
 * `Export`: Download the page as a file to your computer. Databases get saved as CSV files, while non-database pages get saved as Markdown files. You can also export your page or database as PDF or HTML.
 
-### Help and support
-
-Looking for help with Notion? Click the Notion AI face at the bottom right of Notion → `•••` and select from these options:
-
-* `Get Notion support` will open a chat with Notion.
-
-* `More help` will show you `Help & documentation`, let you `Contact sales`, see `Keyboard shortcuts`, and check out `What's new?` with Notion.
-
 ## Team vs. personal workspaces
 
 A workspace operates slightly differently if you're using it with a team than if you're using it on your own:
