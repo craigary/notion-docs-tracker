@@ -134,7 +134,7 @@ From this panel, you can:
 
   [](//videos.ctfassets.net/spoqsaf9291f/5h52ABRsuNlR8K7rXXp78T/564adeb6df335d44d5df80db237f9ca7/drag_and_drop_panel.mp4)
 
-  **Note:** The following properties can be edited via Notion Calendar:
+  **Note:** The following properties can be managed via Notion Calendar:
 
   * Title
 
@@ -142,9 +142,13 @@ From this panel, you can:
 
   * Status
 
-  * Select
+  * Select and multi-select
 
   * Checkboxes
+
+  * ID (read only)
+
+  * Person (read only)
 
 * Click the slider icon at the top of the panel to:
 
