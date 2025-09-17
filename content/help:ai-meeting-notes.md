@@ -18,17 +18,25 @@ To use AI Meeting Notes:
 
 * You must be on Notion’s Business or Enterprise Plan.
 
-* You must be using Notion’s desktop app, version 4.7.0 or higher. This feature isn’t currently available in Notion’s web app.
+* If you’re using Notion’s desktop app, you must be on version 4.7.0 or higher.
 
-* If you’re using a Mac device, you must be using macOS 13 or later.
+  * If you’re using a Mac device, you must be using macOS 13 or later.
 
-* If you’re using a Windows device, make sure you’re on the latest version.
+  * If you’re using a Windows device, you must be on the latest version.
 
 Try AI Meeting Notes for free
 
 Take meetings without missing a beat. Notion's AI Meeting Notes captures, summarizes, and organizes your notes so you can stay present and leave with clarity.
 
 [Get started](https://www.notion.com/signup?target=create_meeting_note\\\&feature_intent=meeting_notes)
+
+AI Meeting Notes is available on the Notion app and browser. The Notion app provides the best experience, especially for video calls, because it captures all sides of the conversation using your system audio and mic. The browser is best suited for in-person conversations since it can only pick up audio from your microphone.
+
+If you're using this feature on your browser, a few things to note:
+
+* Only mic inputs will be transcribed. System audio won't be captured.
+
+* Audio from conferencing tools (Google Meet, Zoom, Microsoft Teams, etc) will not be captured if you are using headphones. If you’re not using headphones and your device’s volume isn’t too low, audio from conferencing tools may be captured.
 
 ## Start AI Meeting Notes
 
