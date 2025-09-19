@@ -224,3 +224,7 @@ To comment on a property while in a database page:
 3. Enter your comment.
 
 Once a comment has been made, you’ll see `💬` next to the property it’s attached to. You can select `💬` to see the comment and add to the conversation.
+
+## Assign permissions to people mentioned in person properties
+
+You can assign specific access levels to people mentioned in a person or created by property in a database page. Learn more about this [here →](https://www.notion.com/help/sharing-and-permissions#database-page-level-access)

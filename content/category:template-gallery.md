@@ -13,3 +13,7 @@ Selling on Marketplace
 Getting featured in Marketplace
 
 Marketplace guidelines & terms
+
+Become a Notion partner
+
+Offering services on Marketplace

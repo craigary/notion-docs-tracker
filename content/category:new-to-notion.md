@@ -23,3 +23,5 @@ Start with a template
 Share your work
 
 Collaborate with people
+
+Badges & certifications

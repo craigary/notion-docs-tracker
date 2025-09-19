@@ -8,13 +8,7 @@ coverImage: https://img.youtube.com/vi/x2Ov8tsfXhU/maxresdefault.jpg
 category: Sharing & collaboration
 ---
 
-## Ways to share
-
-There are several different ways you can share the pages and databases you build in Notion with folks inside and outside your workspace. Below is an overview of all the ways to share.
-
-## Share menu
-
-Select `Share` at the top of any page to open its share menu. Here, you can:
+Select `Share` at the top of any page to:
 
 * Invite someone to the page.
 
@@ -26,47 +20,7 @@ Select `Share` at the top of any page to open its share menu. Here, you can:
 
 ![Sharing & permissions - share menu](https://images.ctfassets.net/spoqsaf9291f/23AarIKXH9Leog04ZjSPie/402c55b221810b5f4e393a9cc33bbc59/share_menu__1_.png)
 
-Select `•••` at the top of any page, then open the `Publish` tab to [share your page to the web as a Notion Site](https://www.notion.com/help/public-pages-and-web-publishing) and manage it.
-
-## General access
-
-You can manage general access to your page by selecting `Share` at the top of a page and configuring `General access`. Here, you can choose to share your page with:
-
-* `Only people invited`: This means only you and people you invite can access your page.
-
-* `Everyone at {your workspace}`: This means other workspace members can access your page using search or using the link.
-
-  * Open the dropdown next to `Everyone at {your workspace}` and toggle on `Hide in search` to hide this page from search results for any users who haven’t visited the page before or don’t already have the link to the page.
-
-* `Anyone on the web with link`: This means that anyone who has the link to your page can access it, even if they aren’t part of your workspace or aren’t a Notion user. Note that page visitors will need to be logged into Notion if they want to comment on or edit your page.
-
-  * If you want access to this link to expire, open the dropdown next to `Anyone on the web with link`. Open the dropdown next to `Link expires` and select a time or date.
-
-  * Enterprise workspace owners can disable these public sharing links by going to `Settings` → `Security` and toggling on `Disable publishing sites, forms and public links`.
-
-For each group of people you grant general access to, you can assign a [permission level](https://www.notion.com/help/sharing-and-permissions#permission-levels).
-
-**Note:** Pages inside a default teamspace are accessible by everyone in your workspace. A default teamspace is a teamspace that everyone in a workspace must be part of by default.
-
-To find out if a given teamspace is a default teamspace:
-
-1. Select `•••` next to the name of a teamspace in your sidebar.
-
-2. Select `Teamspace settings`.
-
-3. In the `Members` tab, look for `Permissions`. If you see `Default`, this means that teamspace is a default teamspace.
-
-## Share with a teamspace
-
-Teamspaces are dedicated spaces for every team within your organization or company. Each teamspace has its own members and permission levels, which can be customized by its teamspace owners. [Learn more about adding members and assigning permissions in teamspaces →](https://www.notion.com/help/intro-to-teamspaces)
-
-There are two ways to share Notion pages with any teamspace that you’re a member of:
-
-* Hover over the name of a teamspace in your sidebar and create a new page inside of that teamspace by clicking the `+` that appears.
-
-* In your sidebar, drag a page into a teamspace.
-
-## Share with individuals or groups
+## Share a page with others
 
 Sometimes you'll want to share a page with only select members of your workspace — like a meeting doc for 1:1s with your manager, or notes for a small project team. To share a page with specific people:
 
@@ -80,9 +34,27 @@ Sometimes you'll want to share a page with only select members of your workspace
 
 When you share a page with specific workspace members, the page will appear in the `Shared` section of your sidebar. Learn more about sidebar sections [here →](https://www.notion.com/help/navigate-with-the-sidebar#sidebar-sections)
 
-![Sharing & permissions - share with group](https://images.ctfassets.net/spoqsaf9291f/42acXXdXP29Na1D59mNrbC/6995189096367fdb1b9fb8ab18f7ca9e/share_menu_group.png)
+### Share a page with a teamspace
 
-### Share with guests
+Teamspaces are dedicated spaces for every team within your organization or company. Each teamspace has its own members and permission levels, which can be customized by its teamspace owners. [Learn more about adding members and assigning permissions in teamspaces →](https://www.notion.com/help/intro-to-teamspaces)
+
+There are two ways to share Notion pages with any teamspace that you’re a member of:
+
+* Hover over the name of a teamspace in your sidebar and create a new page inside of that teamspace by clicking the `+` that appears.
+
+* In your sidebar, drag a page into a teamspace.
+
+**Note:** Pages inside a default teamspace are accessible by everyone in your workspace. A default teamspace is a teamspace that everyone in a workspace must be part of by default.
+
+To find out if a given teamspace is a default teamspace:
+
+1. Select `•••` next to the name of a teamspace in your sidebar.
+
+2. Select `Teamspace settings`.
+
+3. In the `Members` tab, look for `Permissions`. If you see `Default`, this means that teamspace is a default teamspace.
+
+### Share a page with a guest
 
 **Note:**
 
@@ -100,15 +72,27 @@ Guests are people who aren’t part of your Notion workspace. This could be a co
 
 Once you’ve invited someone to your page as a guest, they’ll receive an email with a link to the page. To access your page, your guest will need their own Notion account.
 
-## Stop sharing
+## General access
 
-Seeing other people in a page you didn't mean to share? Want to make a page private? There are a few ways you can stop sharing your pages with others:
+You can manage general access to your page by selecting `Share` at the top of a page and configuring `General access`. Here, you can choose to share your page with:
 
-* In your sidebar, drag a page into your `Private` section so that only you can see it.
+* `Only people invited`: This means only you and people you invite can access your page.
 
-* Select `Share` at the top of a page. Then, open the dropdown next to a workspace, group, or individuals who currently have access and select `Remove`.
+* `Everyone at {your workspace}`: This means other workspace members can access your page using search or using the link.
 
-## Permission levels
+  * Open the dropdown next to `Everyone at {your workspace}` and toggle on `Hide in search` to hide this page from search results for any users who haven’t visited the page before or don’t already have the link to the page.
+
+* `Anyone on the web with link`: This means that anyone who has the link to your page can access it, even if they aren’t part of your workspace or aren’t a Notion user. Note that page visitors will need to be logged into Notion if they want to comment on or edit your page.
+
+  * If you want access to this link to expire, open the dropdown next to `Anyone on the web with link`. Open the dropdown next to `Link expires` and select a time or date.
+
+  * Enterprise workspace owners can disable these public sharing links by going to `Settings` → `Security` and toggling on `Disable publishing sites, forms and public links`.
+
+For each group of people you grant general access to, you can assign an access level.
+
+![Sharing & permissions - share with group](https://images.ctfassets.net/spoqsaf9291f/42acXXdXP29Na1D59mNrbC/6995189096367fdb1b9fb8ab18f7ca9e/share_menu_group.png)
+
+## Access levels
 
 For every person, group, or teamspace you share a page with, you can assign a different permission level. This helps to keep private information private and gives you granular, precise control over your work.
 
@@ -126,7 +110,7 @@ Here are the different permission levels in Notion:
 
 There are also different actions that people can take in a workspace depending on their role in the workspace. To learn more, read [this article →](https://www.notion.com/help/add-members-admins-guests-and-groups#who%E2%80%99s-who-in-a-workspace)
 
-### Edit permission levels
+### Edit access levels
 
 **Note:** If someone has requested a change in their permissions on a page you own, you’ll be able to see, approve, and reject those requests from your `Inbox`.
 
@@ -140,13 +124,109 @@ To change someone’s permission level for a specific page:
 
 ![Sharing & permissions - edit permissions](https://images.ctfassets.net/spoqsaf9291f/7pJacMitIXaEO1t2RwCQyj/b74f1d94770d4991064e7f70d2c9a23c/Group_75.png)
 
-### Inherited permissions
+## Stop sharing
+
+Seeing other people in a page you didn't mean to share? Want to make a page private? There are a few ways you can stop sharing your pages with others:
+
+* In your sidebar, drag a page into your `Private` section so that only you can see it.
+
+* Select `Share` at the top of a page. Then, open the dropdown next to a workspace, group, or individuals who currently have access and select `Remove`.
+
+## Database page-level access
+
+**Note:** This feature is only available on the Business or Enterprise Plan.
+
+If your database has at least one person property, you’ll be able to assign specific permissions to the people in that person property. For example:
+
+* You might have an IT ticket database where you want ticket creators to be able to edit their tickets, but not accidentally make changes to tickets created by others.
+
+* You might be a recruiter working with many candidates, but only want hiring managers to see information about their own candidates.
+
+* You might be working with a team of contractors who should only be able to view and edit their own tasks in a database.
+
+Permissions you assign through a person property will apply across all views of your database. They’ll also reflect in linked views of the database.
+
+To set permissions for a person property or created by property:
+
+1. Open a database. This must be the source database and not a linked view of it.
+
+2. Click `Share` at the top of the database.
+
+3. Under `Page-level access`, select `Add a new rule`.
+
+4. Select a person or created by property from your database.
+
+5. Select an access level.
+
+6. Select `Create rule`.
+
+![hc: create page level access rule](https://images.ctfassets.net/spoqsaf9291f/4dBW9LSawH5dnFXsKhFCTG/8f14d0bef3f4354512478c073a0f79f6/Sept_17_Screenshot_from_MWN.png)
+
+If your database contains multiple data sources, each data source can have its own permission rules. You’ll be able to toggle between data sources when you set these permissions in the `Share` menu.
+
+![hc: choose data source for page level access rule](https://images.ctfassets.net/spoqsaf9291f/3Otvh0zGLubR5sFLJVsLTR/3fe9bf9244eeceb1810a3a98fe3604e7/Sept_17_Screenshot_from_MWN__1_.png)
+
+You can create new permissions for additional person properties in your database by clicking `Add a new rule`.
+
+**Note:** By default, when a person is mentioned in these properties, they’ll be notified. User groups are **not** notified by default. To change these settings or learn more about these notifications, see [here →](https://www.notion.com/help/updates-and-notifications#notifications)
+
+### What others see when you set up page-level access
+
+How others can interact with a database’s content once you’ve assigned page-level access depends on whether they have access to the database or not.
+
+**If someone has access to the database**
+
+Let’s say that you have `Full access` to a task database. Your direct report Anna has `Can comment` access.
+
+Then, you create a page-level access rule that gives people in the assignee person property `Can edit` access. You assign Task 1 to Anna.
+
+In addition to being able to view and comment on all pages of the database, Anna can now also edit Task 1 as a result of the page-level rule.
+
+**If someone doesn’t have access to the database**
+
+Let’s say that you have `Full access` to a task database. Nobody else has any level of access.
+
+Then, you create a page-level access rule that gives people in the assignee person property `Can edit` access. You assign Task 1 to Anna. If Anna tries to visit your task database, she’ll get an error message. This is because she doesn’t have access to your task database and she only has access to Task 1. There are two ways Anna will be able to view and work on Task 1:
+
+1. When you assign Anna to a task and grant her access via a page-level rule, Anna will get a notification in Notion telling that she got assigned to Task 1. She can then open the task from her inbox.
+
+2. Create a linked view of your task database in a page and give Anna access to that page. Anna will be able to access and edit Task 1 in the linked view. Additionally, any other tasks you assign to Anna in that database will be accessible to Anna via the linked view.
+
+To create a linked view of a database:
+
+1. In a page, type `/linked`.
+
+2. In the slash menu, select `Linked view of data source`.
+
+3. In the menu that appears, find and select the database you want to link to.
+
+4. The database you select will show up as a copy of the original, which can be filtered and sorted differently without changing the original.
+
+Because Anna only has access to her tasks via page-level access rules, she won’t be able to create new pages in the database. To allow new page creation, you’ll need to create a form.
+
+**Note:** If you’re noticing that someone is able to take actions that don’t align with the permissions you set for them, note that Notion respects the broadest level of access given to a user. For example, let's say Member A is part of a person property in your database that has `Can view` permissions to a page. Later on, you give everyone in your workspace `Full access` to the database. In this case, Member A will also get full access to the database’s pages because they are a member of your workspace.
+
+Make sure anyone whose access you’re restricting through page-level access doesn’t have greater access through another part of the `Share` menu.
+
+Learn more about access levels [here →](https://www.notion.com/help/sharing-and-permissions)
+
+### Delete a permission rule
+
+To delete a permission rule for a specific person or created by property:
+
+1. Select `Share` at the top of the database.
+
+2. Open the dropdown menu for an existing rule.
+
+3. Select `Delete permission rule`.
+
+## Inherited permissions
 
 When you create a subpage inside of a page, that subpage will take on the permissions of its parent page. To change this, go into a subpage and update the permissions there.
 
 Teamspace owners can set default permissions for content in their teamspace. This will apply to every new page created in the teamspace, and if you want to change them, you’ll have to make changes at the page level.
 
-### Permission overrides
+## Permission overrides
 
 Notion respects the **broadest level of access** given to a user. For example, let's say you give Member A `Can view` permissions to a page. Then you give everyone in your workspace `Full access`, Member A will also get full access because they are a member of your workspace.
 
