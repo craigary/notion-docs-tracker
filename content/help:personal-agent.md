@@ -4,9 +4,11 @@ emoji: 🤝🏼
 description: With your personal Agent, you don’t just have a teammate that thinks with you, but one that gets work done for you — just the way you want 🤝🏼
 url: https://www.notion.com/help/personal-agent
 key: help:personal-agent
-coverImage: https://img.youtube.com/vi/Pqm3eQhz7xI/maxresdefault.jpg
+coverImage: https://img.youtube.com/vi/yasGTeAsV6s/maxresdefault.jpg
 category: Notion AI
 ---
+
+Custom Agents are coming soon. Sign up for updates [here →](https://notion.notion.site/26fefdeead05803ca7a6cd2cdd7d112f)
 
 Notion AI Agent is your personalized teammate. Whatever you can do in Notion, your personal Agent can also do for you — empowered by all of the context from your workspace and connected apps. Your Agent also learns your style and ways of working, and you can also name it and dress it up with accessories.
 

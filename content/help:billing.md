@@ -10,7 +10,11 @@ category: Plans, billing & payment
 
 ## You’re billed upfront
 
-You always pay for Notion at the start of your billing interval. If you make changes in the middle of a billing interval, we'll prorate how much you're charged, so that you only pay for what you actually used. These prorations will be applied at the start of the next billing interval.
+You always pay for Notion at the start of your billing interval.
+
+If you **upgrade your plan** in the middle of your billing interval, the new plan will take effect immediately and start a new billing period. You’ll be charged immediately for the new plan. The amount due will be reduced by a prorated amount based on the time remaining in your previous billing period for your current plan.
+
+If you **add members** mid‑cycle, we’ll charge for the portion of the interval they’re in the workspace. Proration applies only when you add members during a billing interval; if you **remove members**, billing decreases take effect at your next billing cycle and are not prorated mid‑cycle.
 
 ## You’re billed per member, per workspace
 
@@ -36,11 +40,11 @@ You’ll be asked if you’d like to upgrade the guest to a member — select `S
 
 Here’s what happens when you add or remove members.
 
-| **When you add members to your workspace**                                                                                                                     | **When you remove members from your workspace**                                                                                                                                                                 |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Regardless of whether you're paying yearly or monthly, we review how many members you've added and issue invoices on a monthly basis.                          | You have access to any existing paid seats until the end of your current billing interval. You can add new members before the end of your current billing interval to fill these seats at no additional charge. |
-| Because you pay at the beginning of every billing interval, changes made in the middle of a billing interval are reflected retroactively in your next invoice. | At the end of your current billing interval, we recalculate the total number of paid seats in use in your workspace and bill you accordingly.                                                                   |
-| You only pay for the fraction of the billing interval that a member belonged to your workspace.                                                                |                                                                                                                                                                                                                 |
+| **When you add members to your workspace**                                                                                                                                              | **When you remove members from your workspace**                                                                                                                                                 |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Regardless of whether you're paying yearly or monthly, we review how many members you've added and issue invoices on a monthly basis.                                                   | You have access to any existing paid seats until the end of your current billing interval. You can reassign an open seat to a different member at no additional charge until the interval ends. |
+| Because you pay at the beginning of every billing interval, changes made in the middle of a billing interval are reflected retroactively in your next invoice.                          | At the end of your current billing interval, we recalculate the total number of paid seats in use in your workspace and bill you accordingly.                                                   |
+| We prorate charges for added members for the remainder of the current billing interval. You only pay for the fraction of the billing interval that a member belonged to your workspace. | No proration for removals. Any decrease in member count is reflected at your next billing cycle.                                                                                                |
 
 Let’s look at a quick example of what happens when you remove members from your workspace.
 
@@ -70,11 +74,9 @@ You can choose to pay for Notion on a yearly or monthly basis. This impacts both
 
 * **Your bill adjusts for your paid seat count either once a year or once a month.**
 
-  * If you pay yearly, the number of licenses you are paying for will be recalculated and reflected in your billing **once a year**, on the same calendar date as when you first purchased Notion.
+  * Monthly: If you add members mid‑month, you’ll be charged for the days from the add date through your next renewal date. If you remove members, your bill will decrease starting on your next monthly renewal date.
 
-  * This is the only time during the year when your billing will change to reflect any paid seats that have been removed from your workspace.
-
-  * If you pay monthly, this recalculation will occur **once a month** on the same calendar date. Your billing will reflect any paid seats that have been removed from your workspace.
+  * Annual: If you add members mid‑year, you’ll receive a prorated invoice for the remainder of the annual term through your next annual renewal date. If you remove members, your bill will decrease at your next annual renewal date.
 
   * When your plan renews, you will only be billed for the number of members currently in the workspace. This means your bill will go down if you have removed members since your last bill, and it will go up if you have added members since your last bill.
 

@@ -110,7 +110,7 @@ There are a variety of options you can adjust:
 
 * You can decide if you’d like inline comments on your page to be displayed as they are by `Default` (with the comment visible alongside the commenter’s profile photo), or displayed in a `Minimal` way (with only the number of comments showing, which you can click to expand).
 
-* You can decide if you’d like your [page discussions](https://www.notion.com/help/comments-mentions-and-reminders), or comments that are added at the page level, to be `Expanded` (with all comments showing) or `Off` (not showing).
+* You can decide if you’d like your [page discussions](https://www.notion.com/help/comments-mentions-and-reminders), or comments that are added at the page level, to show or not show in your layout.
 
 * You can choose to show or hide `Property icons`. If you hide property icons, only property names will be visible in pages.
 

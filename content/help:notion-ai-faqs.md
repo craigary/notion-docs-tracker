@@ -36,7 +36,7 @@ Play
 
 Uh-oh! It looks like your ad blocker is preventing the video from playing.
 
-Please watch it on [YouTube](https://www.youtube.com/watch?v=Pqm3eQhz7xI)
+Please watch it on [YouTube](https://www.youtube.com/watch?v=yasGTeAsV6s)
 
 ![](https://www.notion.com/front-static/illustrated-icons/catLookingUp.png)
 
@@ -49,6 +49,8 @@ You can personalize your Agent’s appearance and personality and teach it how t
 * [Personal Agent](https://www.notion.com/help/personal-agent)
 
 * [Get started with your personal Agent in Notion](https://www.notion.com/help/guides/get-started-with-your-personal-agent-in-notion)
+
+Custom Agents are coming soon. Sign up for updates [here →](https://notion.notion.site/26fefdeead05803ca7a6cd2cdd7d112f)
 
 ## Enterprise Search
 

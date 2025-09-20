@@ -40,7 +40,7 @@ When you add members to your workspace on a yearly plan, you'll receive an invoi
 
 ## Removing members from a workspace
 
-When you remove members from your workspace, **you have access to any existing paid seats until the end of your current billing interval. You can add new members before the end of your current billing interval to fill these seats at no additional charge.**
+When you remove members from your workspace, billing decreases take effect at your next billing cycle and are not prorated mid‑cycle. **You have access to any existing paid seats until the end of your current billing interval. You can add new members before the end of your current billing interval to fill these seats at no additional charge.**
 
 At the end of your billing interval, we’ll recalculate the total number of paid seats in use in your workspace and bill you accordingly.
 
