@@ -28,21 +28,19 @@ To enable sub-items:
 
 3. In the menu that appears, select `Sub-items` → `Turn on sub-items`.
 
-### View sub-items
+### View and filter sub-items
 
 Depending on your database view, there are a few ways you can view your sub-items. To adjust the way sub-items show up in your database:
 
 1. Open the settings menu at the top of your database.
 
-2. Under `Database settings`, select `More settings`.
+2. In the menu that appears, select `Sub-items`.
 
-3. In the menu that appears, select `Sub-items` → `Show as`.
+3. Open the dropdown menu under `Display options` and select your desired option.
 
 For table, list, and timeline views, you can choose:
 
 * `Nested in toggle`: This will allow you to open and close toggles in parent items to show or hide sub-items within them.
-
-* `Parents only`: Sub-items won’t be shown. To see them, you'll have to go into the parent item page.
 
 * `Flattened list`: This will show all of your parent and sub-items in a flat list. In other words, sub-items won’t be indented in the list to distinguish them from parent items.
 
@@ -50,9 +48,25 @@ For board, calendar, and gallery views, you can choose:
 
 * `Card property`: This will show all your sub-items on the card for your parent item.
 
-* `Parents only`: Sub-items won’t be shown. To see them, you'll have to go into the parent item page.
-
 * `Flattened list`: This will show all of your parent and sub-items as separate items.
+
+To adjust the way sub-items are impacted by **filters** you apply to your database:
+
+1. Open the settings menu at the top of your database.
+
+2. In the menu that appears, select `Sub-items`.
+
+3. Open the dropdown menu under `Filter options` or `Include` (depending on your current display option) and select your desired option.
+
+For table, list, and timeline views, you can choose:
+
+* `Parents only`: Parents that match your filters will display, along with the number of sub-items they have.
+
+* `Parents and sub-items`: Parents and sub-items that match your filters will display.
+
+* `Sub-items only`: Sub-items that match your filters will display.
+
+For board, calendar, and gallery views, only the `Parents only` filter option is supported.
 
 ### Move, duplicate, and delete items with sub-items
 

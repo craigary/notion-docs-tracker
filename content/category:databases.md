@@ -40,10 +40,10 @@ Gallery view
 
 Chart view
 
-Unique ID
+Feed view
 
 Forms
 
-Feed view
-
 Layouts
+
+Unique ID

@@ -148,6 +148,8 @@ To delete a filter:
 
 3. Open the filter you want to delete and in the menu that appears, select `•••` → `Delete filter`.
 
+If you have sub-items turned on in your database, you can learn more about how to filter them [here →](https://www.notion.com/help/tasks-and-dependencies#sub-items)
+
 ## Sorts
 
 You can sort your database so that items are displayed based on properties appearing in ascending or descending order. For example, you can order database pages based on priority, when they were last edited, or alphabetically.

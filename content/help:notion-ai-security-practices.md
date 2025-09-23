@@ -134,7 +134,15 @@ Notion AI is included in the scope of Notion’s SOC 2 Type 2 report and ISO 270
 
 Notion AI enables HIPAA compliance by utilizing LLM provider’s zero-retention APIs and allows for the processing of protected health information (PHI).
 
-## What controls can be added?
+## What controls exist or can be added?
+
+### Are there settings I can enable?
+
+Workspace owners on any Notion plan can go to `Settings` → `Notion AI` and adjust settings for Notion AI’s web search functionality. There are two settings available:
+
+* `Enable web search for workspace`: Turn this on if you want Notion AI to be able to search the web for information when answering questions.
+
+* `Require confirmation for web requests`: Turn this on if you want Notion AI to request confirmation before looking at external websites.
 
 ### Can data loss prevention (DLP) be configured to alert for data being used by Notion AI?
 
@@ -154,11 +162,13 @@ Notion does not claim ownership of your input or the generated output. This is a
 
 **Learn more**
 
+* [Shared responsibilities model](https://www.notion.com/help/shared-responsibilities-model)
+
+* [Notion's commitment to AI safety](https://www.notion.com/help/ai-safety)
+
 * [Enterprise Search security & privacy practices](https://www.notion.com/help/enterprise-search-security-and-privacy-practices)
 
 * [What is Notion AI?](https://www.notion.com/help/notion-ai-faqs)
-
-* [Notion's commitment to AI safety](https://www.notion.com/help/ai-safety)
 
 * [Security practices](https://www.notion.com/help/security-and-privacy)
 

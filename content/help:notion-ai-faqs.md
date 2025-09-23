@@ -140,6 +140,24 @@ Notion AI can help you create databases, complete with views and properties, inc
 
 * [Three key databases for teams, and how to use them](https://www.notion.com/help/guides/three-key-databases-for-teams-and-how-to-use-them#customize-databases-to-see-what-you-need-when-you-need-it)
 
+## Notion AI settings
+
+Workspace owners on any Notion plan can go to `Settings` → `Notion AI` and adjust the following settings:
+
+* `Share data to improve Notion AI`: Allow data from your workspace to be shared with Notion to help improve Notion AI.
+
+* `AI Connectors`: Set up [Notion AI Connectors](https://www.notion.com/help/notion-ai-connectors) for your various third-party apps.
+
+* `AI Web Search`:
+
+  * `Enable web search for workspace`: Turn this on if you want Notion AI to be able to search the web for information when answering questions.
+
+  * `Require confirmation for web requests`: Turn this on if you want Notion AI to request confirmation before looking at external websites.
+
+* `Personalization`: Give your personal Agent a name, accessories, and instructions for how to behave.
+
+* `AI Meeting Notes`: Turn on various settings for AI Meeting Notes, including audio storage, transcript deletion, and more. Learn more about these settings [here →](https://www.notion.com/help/ai-meeting-notes)
+
 ## Notion AI keyboard shortcut
 
 By default, you can use the keyboard shortcut `shift` + `cmd/ctrl` + `J` to engage Notion AI whenever you need it, even when you’re not working in Notion. To customize this shortcut, go to `Settings` → `Preferences` and enter your desired shortcut next to `Keyboard shortcut for Notion AI`.
@@ -177,3 +195,10 @@ Your feedback isn’t used to train Notion AI. Instead, it’s shared with the N
 * [Notion AI security & privacy practices](https://www.notion.com/help/notion-ai-security-practices)
 
 * [Enterprise Search security & privacy practices](https://www.notion.com/help/enterprise-search-security-and-privacy-practices)
+
+
+## FAQs
+
+### Can I turn off web search for Notion AI?
+
+Yes — workspace owners can disable web search for Notion AI across their entire workspace. To do this, go to `Settings` → `Notion AI` and under `AI Web Search`, toggle off `Enable web search for workspace`.
