@@ -50,15 +50,29 @@ Notion Calendar defaults to a calendar when you create new events. To set a defa
 
 ### Hide a calendar
 
-If you want to hide a calendar, select `👁️` next to its name. This will take all events on that calendar away from view and the icon will have a strikethrough. To show a calendar, select `👁️` again.
+If you want to hide a calendar, select `👁️` next to its name <!-- -->in the left sidebar of Notion Calendar<!-- -->. This will take all events on that calendar away from view and the icon will have a strikethrough. To show a calendar, select `👁️` again.
 
-### Change a calendar's color or name
+### Change a calendar's color
 
-On desktop or web, select a calendar, then enter a new name or select a new color.
+On desktop or web, hover over the name of a calendar in your left sidebar. Then, select `•••` and choose a new color.
 
 ## Manage your events
 
 **Note:&#x20;**&#x4F;n mobile, you can’t update an event’s details unless they were created on mobile and you’re the organizer. If you need to make changes, you can do so on desktop or web.
+
+### View a calendar’s upcoming events
+
+To view all of the upcoming events you have in a specific calendar, click on its name in the left sidebar of Notion Calendar. From here, you can also:
+
+* Select the slider icon at the top of the panel to change the calendar’s color. This will allow you to:
+
+  * Choose whether to include the calendar’s events in your menu bar.
+
+  * Manage event blocking for the calendar.
+
+  * Set default conferencing for the calendar.
+
+* Select `+` at the top of the panel to create a new event on the calendar.
 
 ### Create events
 
