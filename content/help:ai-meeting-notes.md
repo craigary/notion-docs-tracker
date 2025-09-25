@@ -214,8 +214,6 @@ If you are a workspace owner and do not want the AI Meeting Notes feature availa
 
 ## Local audio storage
 
-**Note:** This feature is still rolling out to users. Thanks for your patience as we make it available to you soon!
-
 Local copies of recorded meeting audio are available to the user initiating AI Meeting Notes (the “recorder”). The 10 most recently recorded meeting audio files will be stored on the recorder’s local device and available to download. Only the recorder has the ability to download a locally saved audio file.
 
 This capability is turned off by default for all plans. If you want local audio storage enabled to your users, you may opt-in your workspace at any time by going to `Settings` → `Notion AI` and toggling on `Store audio locally`.

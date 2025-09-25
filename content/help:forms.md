@@ -185,7 +185,3 @@ If you’re a workspace owner on an Enterprise Plan, you can prevent workspace m
 2. In the `Security` tab, toggle on `Disable publishing sites, forms, and public links`.
 
 Any forms already live on the web will be taken down once you turn this setting on. Note that turning this setting on will also prevent members of your workspace from publishing [Notion Sites](https://www.notion.com/help/public-pages-and-web-publishing).
-
-## Report a form
-
-If you would like to report inappropriate content in a form, write an email to email protected with a link to the form you’d like to report. If you can, include information about why you’re reporting the form.

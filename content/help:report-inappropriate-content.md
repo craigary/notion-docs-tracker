@@ -81,7 +81,3 @@ Any page you report will be added to our customer experience team's queue for re
 ### Request a DMCA takedown
 
 In cases where public page content misappropriates or infringes on intellectual property or copyrighted material, users may also request for this content to be taken down by submitting a [DMCA notice](https://www.notion.com/notion/DMCA-Policy-69d880bd37fe496a9b7c64ccc65e024d).
-
-## How to report a form
-
-If you would like to report inappropriate content in a [form](https://www.notion.com/help/forms), write an email to email protected with a link to the form you’d like to report. If you can, include information about why you’re reporting the form.
