@@ -44,6 +44,8 @@ To change your email address:
 
 5. Copy the verification code sent to your new email address, paste it into Notion, and click `Change email`.
 
+If you get an error telling you that your new email is already being used with a different account, you first need to [delete the account](https://www.notion.com/help/delete-your-account) tied to that email and then try again.
+
 ## Set, change, or remove your password
 
 If you want to log into Notion using a permanent password instead of temporary login codes:

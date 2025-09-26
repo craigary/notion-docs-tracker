@@ -12,7 +12,7 @@ Notion badges and certifications can be earned through [Notion Academy.](https:/
 
 Once you’ve become a Notion expert through badges and certifications, you can also become a Notion Solution partner.
 
-![hc: badges and certifications](https://images.ctfassets.net/spoqsaf9291f/74z0FooVEi7OqSrISpqqHP/d3a4bfbe250a439aa90b3d7e43986dd0/Certifications_and_Consultants.png)
+![hc: badges and certifications](https://images.ctfassets.net/spoqsaf9291f/74z0FooVEi7OqSrISpqqHP/7de0ddb588ff62527cce7eef588f4db4/image__3_.png)
 
 ## What badges can I earn?
 

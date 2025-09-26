@@ -16,6 +16,8 @@ Data accessible by your workspace owner
 
 Report inappropriate content
 
+How Notion 3.0 protects against prompt injection risks
+
 Restrictions for customers based in Russia
 
 Data residency for Notion

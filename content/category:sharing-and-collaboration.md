@@ -26,6 +26,6 @@ Intro to teamspaces
 
 People profiles
 
-Create & manage groups
-
 Who’s who in a workspace
+
+Create & manage groups

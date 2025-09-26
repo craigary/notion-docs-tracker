@@ -22,15 +22,15 @@ Content search
 
 Transfer content from a deprovisioned user
 
-Add security & compliance integrations
-
 Audit log
 
 Workspace analytics
 
-Enterprise connection settings
+Add security & compliance integrations
 
 Managed users
+
+Enterprise connection settings
 
 Custom data retention settings
 
@@ -42,8 +42,8 @@ Legal holds
 
 Deploy Notion for Windows
 
-Manage teamspaces
-
 IP address restrictions
+
+Manage teamspaces
 
 Network control

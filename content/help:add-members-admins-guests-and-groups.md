@@ -120,17 +120,27 @@ Once the guest submits a request to access a page, a notification will be sent t
 
 Members of a workspace can request to add guests to it. This feature is available on Enterprise Plans only, and only workspace owners can enable or disable it.
 
-### Enable guest requests
+### Enable guest addition and guest requests
 
-To allow members to request adding guests to workspace pages, workspace owners can:
+To allow members to directly add guests to workspace pages, workspace owners can:
 
 1. Go to `Settings` → `Security`.
 
-2. Make sure `Disable members inviting guests to pages` is turned on, then turn on `Allow members to request adding guests`. Workspace owners can `Disable guests` without removing existing guests from the workspace. They still have the option to remove all existing guests if desired.
+2. In the `Members & guests` tab, turn on `Allow members to invite guests to pages`.
 
-Once this is turned on, members will have to submit a request before they can invite a guest. Workspace owners are exempt and can continue to invite guests directly.
+To allow members to request adding a guest to workspace pages, workspace owners can:
 
-**Note:&#x20;**`Allow members to request adding guests` is a workspace level setting, and will override the any teamspace level guest setting. This means if a teamspace allows guests, but the workspace has enabled guest requests, members will have to submit guest invite requests to add guests to pages in the teamspace.
+1. Go to `Settings` → `Security`.
+
+2. In the `Members & guests` tab, turn on `Allow members to request adding guests`.
+
+Once this is turned on, members and workspace admins will have to submit a request before they can invite a guest. Workspace owners are exempt and can continue to invite guests directly.
+
+**Note:**
+
+* When `Allow members to invite guests to pages` is turned off, **nobody except workspace owners** can invite guests. **Members and workspace admins** won’t be able to invite guests, and can instead request to add guests if their workspace allows it.
+
+* `Allow members to request adding guests` is a workspace level setting, and will override any teamspace level guest setting. This means if a teamspace allows guests, but the workspace has enabled guest requests, members will have to submit guest invite requests to add guests to pages in the teamspace.
 
 ### Request to invite a guest
 

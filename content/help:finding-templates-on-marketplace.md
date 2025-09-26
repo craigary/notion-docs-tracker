@@ -70,6 +70,8 @@ After you make a purchase, you’ll see a message on your screen that the purcha
 
 * Once you’ve added your template to your workspace, it can be duplicated multiple times in that Notion workspace. However, the creator may have chosen to prevent you from moving the template to another workspace using Move to or by sharing. This means duplicating the template to another workspace or copying certain blocks from the template and pasting them into a page in another Notion workspace won’t be allowed.
 
+* If you're on the Free Plan, you can still use or turn off automations in a duplicated template, but won’t be able to edit them or create new ones.
+
 * If you add a template that contains a form, make sure you set up a separate version of the form from scratch so that all of your form responses go to you and not the original form’s creator.
 
 * After you’ve duplicated a template to your workspace, you might see some blocks that say `No access`. These blocks are most likely not meant to be part of the template, and you can delete them from your workspace.
