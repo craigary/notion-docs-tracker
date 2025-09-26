@@ -56,6 +56,7 @@ const createNewFrontendPage = async <
     properties: {
       ...commonProperties,
       Name: { title: [{ type: 'text', text: { content: itemInfo.title } }] },
+      Status: { type: 'status', status: { name: 'Not Started' } },
     },
     children: frontendPageChildren,
   })
@@ -84,6 +85,7 @@ const createBackendPage = async <
       ...backendProperties,
       Name: { title: [{ type: 'text', text: { content: itemInfo.title } }] },
       Frontend: { type: 'relation', relation: [{ id: frontendPageId }] },
+      Status: { type: 'status', status: { name: 'Not Started' } },
     },
   })
 
