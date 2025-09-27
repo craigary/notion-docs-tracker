@@ -60,8 +60,6 @@ The `•••` menu contains additional options, including but not limited to:
 
 * `Page history`**:** View past versions of the page going back seven days (extended for paid plans).
 
-* `Show deleted pages`**:** Opens up `Trash` so you can restore or permanently remove pages you've deleted.
-
 * `Export`**:** Download the page as a file. Databases get saved as CSV files, while non-database pages get saved in Markdown. You can also export either as PDF or HTML.
 
 * `Move to`**:** This opens up a menu where you can choose any other workspace or page to move the current page into.

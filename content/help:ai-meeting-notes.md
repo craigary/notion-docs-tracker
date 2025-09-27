@@ -28,7 +28,7 @@ Try AI Meeting Notes for free
 
 Take meetings without missing a beat. Notion's AI Meeting Notes captures, summarizes, and organizes your notes so you can stay present and leave with clarity.
 
-[Get started](https://www.notion.com/signup?target=create_meeting_note\\\&feature_intent=meeting_notes)
+[Get started](https://www.notion.com/signup?from=marketing\&pathname=ai-meeting-notes)
 
 AI Meeting Notes is available on the Notion app and browser. The Notion app provides the best experience, especially for video calls, because it captures all sides of the conversation using your system audio and mic. The browser is best suited for in-person conversations since it can only pick up audio from your microphone.
 

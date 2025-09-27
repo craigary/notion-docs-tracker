@@ -154,8 +154,6 @@ This menu contains many options, including:
 
 * `Version history`: View past versions of the page going back several days, depending on what plan you're on.
 
-* `Recover pages`: Opens up `Trash` so you can restore or permanently remove sub-pages you've deleted.
-
 * `Import or sync from`: You can add documents and data from a number of other apps (Evernote, Trello, Google Docs, etc.) to the page.
 
 * `Export`: Download the page as a file to your computer. Databases get saved as CSV files, while non-database pages get saved as Markdown files. You can also export your page or database as PDF or HTML.
