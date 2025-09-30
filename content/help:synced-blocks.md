@@ -18,7 +18,7 @@ To sync blocks across pages, multiple locations in the same page, or workspaces:
 
 2. Click `⋮⋮` next to your selected blocks. Select `Turn into` → `Synced block`.
 
-3. Click `Copy and sync`, then paste the blocks wherever you’d like.
+3. Select the copy icon, then paste the blocks wherever you’d like.
 
    [](//videos.ctfassets.net/spoqsaf9291f/6fDwELKc7zJfuEbMUknXob/8829a1725dc3d85605ca24a85bc0ee2c/copy_and_sync.mp4)
 
@@ -36,7 +36,7 @@ You’ll also see the following at the top of a synced block:
 
   * You’ll see `ORIGINAL` next to the name of the page where the synced block was created.
 
-* `Copy and sync`, which you can click to copy the synced block and paste it somewhere else.
+* A copy icon, which you can click to copy the synced block and paste it somewhere else.
 
 ## Unsync all blocks
 

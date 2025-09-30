@@ -139,11 +139,15 @@ To apply conditional color to a database view:
 
 5. Open the dropdown next to your property name and set a rule for your color setting.
 
+6. Select a `Page background` color.
+
    * If applicable, your database pages will match the color of the property values associated with them by default. For example, if your priority property has `P0` in red and `P1` in orange and you’re coloring your database by priority, all P0 pages will be displayed in red and all P1 pages will be displayed in orange. You can change this at any time!
 
      [](//videos.ctfassets.net/spoqsaf9291f/7fEfW2szncwyh71ZRKDNpA/8fda071947403ea9412db8e2d4594047/conditional_color.mp4)
 
-6. Select `Add another` to create additional color conditions for your database view.
+7. If you're in table view, open the menu next to `Apply to` and choose whether you’d like to apply the color to the entire row or just the property that your rule applies to.
+
+8. Select `Add another` to create additional color conditions for your database view.
 
 ### How conditional color can be applied
 
@@ -184,6 +188,8 @@ To apply conditional color to a database view:
 * Conditional color settings are created at the view level. Different database views can have different conditional color settings, and conditional color settings applied to one database view won’t automatically apply to the database’s other views. However, when you duplicate a view, its color settings will also be duplicated.
 
 * Conditional color applies at the page level; at this time, you can’t have specific properties colored in a page or card. Color applies to a page’s entire background.
+
+* To apply conditional color to a property and not an entire database page, you must be in a **table view** of a database.
 
 ### Delete a color setting
 

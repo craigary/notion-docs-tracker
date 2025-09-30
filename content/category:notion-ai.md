@@ -38,12 +38,12 @@ Notion’s commitment to AI safety
 
 Notion MCP
 
-Research Mode
-
-Gmail AI Connector (Beta)
-
-Notion Mail AI Connector (beta)
-
 Enterprise Search
 
 Personal Agent
+
+Gmail AI Connector (Beta)
+
+Research Mode
+
+Notion Mail AI Connector (beta)

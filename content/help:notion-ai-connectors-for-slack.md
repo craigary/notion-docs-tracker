@@ -12,6 +12,8 @@ category: Notion AI
 
 There are lots of other ways to use Slack and Notion together. Learn more about our Slack integration [here →](https://www.notion.com/help/slack)
 
+Notion AI answers are generated using LLMs like GPT-5 and Claude. You should double-check all answers for accuracy.
+
 ## Connect Slack to Notion AI
 
 **Note:** If you’re using Slack Enterprise Grid, please reach out to your sales representative to get your Notion AI connector set up.
