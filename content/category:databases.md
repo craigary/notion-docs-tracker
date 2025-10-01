@@ -40,10 +40,12 @@ Gallery view
 
 Chart view
 
-Feed view
-
-Layouts
+Unique ID
 
 Forms
 
-Unique ID
+Layouts
+
+Feed view
+
+Map view
