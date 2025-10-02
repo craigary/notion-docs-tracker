@@ -40,10 +40,12 @@ Notion MCP
 
 Enterprise Search
 
-Personal Agent
+Notion Mail AI Connector (beta)
 
-Gmail AI Connector (Beta)
+Microsoft Outlook AI Connector
 
 Research Mode
 
-Notion Mail AI Connector (beta)
+Gmail AI Connector (Beta)
+
+Personal Agent
