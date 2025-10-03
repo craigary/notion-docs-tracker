@@ -224,15 +224,13 @@ To make sure your automation is working properly, we’ll help you understand wh
 
   * You won’t be able to save the automation until you make the required corrections.
 
-* If your automation has **worked before but runs into an error**, the automation will be paused and you’ll get a notification. This situation might occur when:
+- If your automation has **worked before but runs into an error**, the automation will be paused.
 
-  * A database that your automation is adding to or editing is missing.
+  * We’ll notify you about errors in certain cases, including when a database or database property that your automation is updating is missing, or a third-party connection like Gmail or Slack is no longer valid or needs to be authenticated.
 
-  * A database property that your automation is editing is missing.
+  * In other cases, including when formulas don’t execute properly or there are issues with webhooks, you may not be notified.
 
-  * A third-party connection, like to Gmail or Slack, is no longer valid or needs to be authenticated.
-
-* You can click on the notification to go directly to the broken automation and fix it so it can be used again. Once your automation is fixed, you’ll need to turn it on, or un-pause it, manually. To do this:
+- You can click on the notification to go directly to the broken automation and fix it so it can be used again. Once your automation is fixed, you’ll need to turn it on, or un-pause it, manually. To do this:
 
   1. Open the database that your automation is tied to and select `•••` → `Automations`.
 
@@ -240,11 +238,11 @@ To make sure your automation is working properly, we’ll help you understand wh
 
   3. Toggle on `Active`.
 
-* Automations may fail if they attempt to perform date calculations (such as `dateAdd`) on a field that is empty or undefined when the automation runs.
+- Automations may fail if they attempt to perform date calculations (such as `dateAdd`) on a field that is empty or undefined when the automation runs.
 
   * As a solution, create a filtered view that only includes items where the field is not empty, and configure the automation to run only on that view.
 
-* Automations may fail if they’re applied to a database view that filters out relevant entries. Make sure the automation runs on a view that includes all the items it needs to act on.
+- Automations may fail if they’re applied to a database view that filters out relevant entries. Make sure the automation runs on a view that includes all the items it needs to act on.
 
 ## Edit, pause, or delete database automations
 

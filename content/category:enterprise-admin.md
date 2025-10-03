@@ -24,26 +24,26 @@ Transfer content from a deprovisioned user
 
 Audit log
 
-Add security & compliance integrations
-
 Workspace analytics
 
-Enterprise connection settings
+Add security & compliance integrations
 
 Managed users
 
-Deploy Notion for macOS
+Enterprise connection settings
 
 Custom data retention settings
+
+Deploy Notion for macOS
+
+Organization level controls
+
+Legal holds
 
 Deploy Notion for Windows
 
 IP address restrictions
 
 Manage teamspaces
-
-Organization level controls
-
-Legal holds
 
 Network control
