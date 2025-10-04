@@ -4,7 +4,7 @@ emoji: 🗺️
 description: Visualize addresses on a map 🗺️
 url: https://www.notion.com/help/maps
 key: help:maps
-coverImage: https://images.ctfassets.net/spoqsaf9291f/6VrRf3FKY0KOy5Yh4IbKOB/79c8be4a2b8fd6d1d1401c91793f32f5/Reference_Visuals_Group_167.png
+coverImage: https://images.ctfassets.net/spoqsaf9291f/6VrRf3FKY0KOy5Yh4IbKOB/44835febcd83c6abdd64239f829f2135/Reference_Visuals_Group_168.png
 category: Databases
 ---
 

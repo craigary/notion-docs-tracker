@@ -378,4 +378,4 @@ To export your audit log:
 
 3. Select `Export`.
 
-**Note:** An exported audit log will <!-- -->show all applicable events within the chosen date range, up until 2 hours before the export time.
+**Note:** An exported audit log will show all applicable events within your desired date range. You'll be able to view data going back 365 days up until 2 hours before the time of export.
