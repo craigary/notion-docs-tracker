@@ -149,10 +149,12 @@ Yes! To do this:
 Yes! [Learn more about simple tables here →](https://www.notion.com/help/columns-headings-and-dividers#simple-tables)
 
 
-### How can I turn a full page database into an inline database?
+### How can I turn a full-page database into an inline database, or vice versa?
 
-1. If it's not already, drag the database from your sidebar into another page. It will become sub-page
+To change a full-page database into an inline database:
 
-2. Go to that page, c<!-- -->lick the `⋮⋮` button next to the database sub-page and select `Turn into inline`.
+1. Drag the full-page database from your sidebar into another page. It will become a sub-page of that page.
 
-   * Click the `⋮⋮` button and select `Turn into page `to change it back.
+2. Open the parent page, click the **`⋮⋮`** button next to the database sub-page, and select `Turn into inline`.
+
+To change an inline database to a full-page database, drag an inline database block into your sidebar as a top-level page.

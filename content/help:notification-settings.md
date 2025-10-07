@@ -63,7 +63,7 @@ Go to `Settings` → `Notifications` to adjust your settings for:
 
 ### I'm not receiving any mobile or email notifications, but I have them enabled.
 
-If you have Notion open on a mobile device or computer, you won't receive push or email notifications for reminders — you'll only see the badge next to `All Updates`.
+If you have Notion open on a mobile device or computer, you won't receive push or email notifications for reminders — you'll only see the badge next to `Inbox`.
 
 If Notion is not open on your mobile device or computer, then you will receive a push or email notification.
 

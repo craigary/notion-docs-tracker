@@ -20,9 +20,9 @@ You can connect multiple calendars to Notion Calendar. Connected accounts and th
 
 To add a calendar to Notion Calendar:
 
-1. Go to `Settings` → `Calendars`.
+1. Go to `Settings`.
 
-2. Select `Connect` next to the type of calendar you want to add.
+2. Under `Calendar accounts` in the sidebar, select `Add calendar account`.
 
 Apple requires you to use an [app-specific password](https://support.apple.com/102654) for Notion Calendar to connect your iCloud account. To get this app-specific password:
 
@@ -40,17 +40,31 @@ Have a Notion database you’d like to view and manage in Notion Calendar? Any d
 
 ### Remove a calendar
 
-You can remove any calendar from Notion Calendar. To do this, go to `Settings` → `Calendars`. Next to the calendar you want to remove, select `Disconnect`.
+You can remove any calendar from Notion Calendar. To do this:
+
+1. Go to `Settings`.
+
+2. Under `Calendar accounts` in the sidebar, select the calendar account you want to remove.
+
+3. Select `Disconnect`.
 
 Want to change the Notion account you’ve linked to Notion Calendar? [Follow the instructions here →](https://www.notion.com/help/manage-your-google-and-notion-calendar-accounts#change-your-primary-google-account)
 
 ### Set a default calendar
 
-Notion Calendar defaults to a calendar when you create new events. To set a default calendar, go to `Settings` → `Calendars` → `Default calendar` and pick the calendar you want to set as your default — this can be a [Notion database](https://www.notion.com/help/use-notion-calendar-with-notion#connect-notion-database-entries-to-notion-calendar), too! On desktop, you can also set a default calendar by clicking the square next to a calendar’s name in the left sidebar.
+Notion Calendar defaults to a calendar when you create new events. This can be a [Notion database](https://www.notion.com/help/use-notion-calendar-with-notion#connect-notion-database-entries-to-notion-calendar), too! To set a default calendar:
+
+1. Go to `Settings`.
+
+2. Under `Calendar accounts` in the sidebar, select the account associated with your desired default calendar.
+
+3. Hover over the name of your desired default calendar and select `•••` → `Make default calendar`.
+
+Alternatively, on desktop, you can also right-click on a calendar in your sidebar and select `Make default calendar`.
 
 ### Hide a calendar
 
-If you want to hide a calendar, select `👁️` next to its name <!-- -->in the left sidebar of Notion Calendar<!-- -->. This will take all events on that calendar away from view and the icon will have a strikethrough. To show a calendar, select `👁️` again.
+If you want to hide a calendar, select `👁️` next to its name in the left sidebar of Notion Calendar. This will take all events on that calendar away from view and the icon will have a strikethrough. To show a calendar, select `👁️` again.
 
 ### Change a calendar's color
 

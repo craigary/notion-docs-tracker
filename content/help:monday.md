@@ -90,7 +90,7 @@ The Monday.com importer helps you bring your all Monday.com boards into Notion.
 If a missing column is linked to a board that **hasn’t been imported**, it won’t appear in Notion. To resolve this, make sure to import any related boards along with the main data.
 
 
-### Are all column types are supported?
+### Are all column types supported?
 
 A few Monday.com columns are not yet supported in the import, including:
 

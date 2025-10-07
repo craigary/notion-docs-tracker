@@ -124,15 +124,7 @@ To downgrade your plan:
 
 4. You’ll receive confirmation of your downgrade, and see when your current plan ends.
 
-**Note:**
-
-* If you want to downgrade your plan and purchase the Notion AI add-on at the same time:
-
-  * You’ll be billed for Notion AI at a prorated cost for the remainder of your current billing period.
-
-  * Your plan downgrade will go into effect after your current billing period ends.
-
-* If you’re subscribed to the Plus Plan with the AI add-on via Google Play Store and you want to remove AI from your plan, you’ll need to downgrade to the Free Plan first and then upgrade to the Plus Plan (with no Notion AI add-on).
+**Note:&#x20;**&#x49;f you’re subscribed to the Plus Plan with the AI add-on via Google Play Store and you want to remove AI from your plan, you’ll need to downgrade to the Free Plan first and then upgrade to the Plus Plan (with no Notion AI add-on).
 
 
 ## FAQs

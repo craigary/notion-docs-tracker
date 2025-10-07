@@ -26,7 +26,7 @@ You’ll see an overview of information regarding content in your workspace, inc
 
 Select the `Members`, `Content` or `Search` tabs to get more thorough breakdowns. If you’re not a workspace owner, you’ll only have access to `Content`.
 
-**Note:** When you export workspace analytics, you'll be able to view data going back 365 days.
+**Note:** Workspace analytics show data going back 365 days. To save historical data, you'll want to regularly go to the `Members` and `Content` tabs of your workspace analytics and `Export to CSV`.
 
 [](//videos.ctfassets.net/spoqsaf9291f/7qEZ5WcXnoNnVOMFFWYEkC/5c809df3a135d364627b7bf265116200/analyticstabs.mp4)
 

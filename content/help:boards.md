@@ -175,13 +175,15 @@ Depending on the type of properties you have in your database, you’ll see some
 
 ## FAQs
 
-### How can I turn a full page database into an inline database?
+### How can I turn a full-page database into an inline database, or vice versa?
 
-1. If it's not already, drag the database from your sidebar into another page. It will become sub-page
+To change a full-page database into an inline database:
 
-2. Go to that page, c<!-- -->lick the `⋮⋮` button next to the database sub-page and select `Turn into inline`.
+1. Drag the full-page database from your sidebar into another page. It will become a sub-page of that page.
 
-   * Click the `⋮⋮` button and select `Turn into page `to change it back.
+2. Open the parent page, click the **`⋮⋮`** button next to the database sub-page, and select `Turn into inline`.
+
+To change an inline database to a full-page database, drag an inline database block into your sidebar as a top-level page.
 
 
 ### I don’t want my database pages to open on the side or in the center of my page. Is there anyway to open a database page in full-screen by default?
@@ -195,7 +197,7 @@ Yes! To do this:
 
 ### Is there a way to add background colors to board cards?
 
-Not at the moment, unfortunately. It's a popular feature request though, so definitely on our radar! For the time being, you can use Select and Multi-select properties to add a pop of color to your cards 🎨
+Yes! Learn more about conditional color [here →](https://www.notion.com/help/database-properties#conditional-color)
 
 
 ### Any way to group by a relation or formula property?

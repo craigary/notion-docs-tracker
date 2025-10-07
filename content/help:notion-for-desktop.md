@@ -128,7 +128,7 @@ For the time being, hopefully you can access Notion with your Chrome, Firefox, o
 
 ### How do I update to the latest version?
 
-Notion updates automatically! If you click the Notion AI face <!-- -->→ `•••` → `More help` at the bottom right of Notion, you'll see the last time your app was updated.
+Notion updates automatically! <!-- -->If you click `?` → `More` in your left sidebar, you'll see the last time your app was updated.
 
 If Notion hasn't updated for a few days, you can usually force an update by refreshing with the keyboard shortcut `cmd/ctrl` + `r`.
 

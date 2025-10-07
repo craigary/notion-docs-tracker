@@ -451,17 +451,17 @@ There are two possible reasons for this:
 2. Your organization may have limited access to content via 3rd party integrations or IP addresses. Please confirm with your workspace or organization administrator and ask to have Notion’s integration approved if this is the case. Here are instructions for specific integrations: [GitHub, ](https://docs.github.com/en/organizations/keeping-your-organization-secure)[Jira, ](https://support.atlassian.com/security-and-access-policies/docs/manage-your-users-third-party-apps/)[Slack, ](https://slack.com/help/articles/222386767-Manage-app-approval-for-your-workspace)[Asana, ](https://asana.com/guide/help/premium/admin-console#gl-apps)[Trello.](https://help.trello.com/article/1078-enterprise-admin-dashboard)
 
 
-### What do connections have access to in my workspace?
+### What do security and compliance connections have access to in my workspace?
 
 * SIEM integrations will be authorized to receive event logs on all workspace activity.
 
-* DLP integrations will be authorized:
+* DLP integrations will be authorized to:
 
-  * to receive event logs on all workspace activity.
+  * Receive event logs on all workspace activity.
 
-  * to view content, view comments, edit content, edit comments, and create comments in **all&#x20;**&#x70;ages.
+  * Vew content, view comments, edit content, edit comments, and create comments in **all&#x20;**&#x70;ages.
 
-  * to see basic information about all workspace members and guests, including their names, profile images, and email addresses.
+  * See basic information about all workspace members and guests, including their names, profile images, and email addresses.
 
 
 ### I’m not seeing SIEM events even after connecting. What should I do?

@@ -150,13 +150,9 @@ To connect AI Meeting Notes to Notion Calendar for the first time:
 
    * If you don’t see that option, this means your workspace is already connected to Notion Calendar.
 
-2. At the top of Notion Calendar, click your profile icon → Settings → AI Meeting Notes.
+2. At the top of Notion Calendar, click your profile icon → `Settings`. <!-- -->You’ll find a list of your connected Notion workspaces under the `Notion workspaces` section of the settings sidebar. For each connected workspace, you can:
 
    * Choose where to store meeting notes (we recommend a meeting notes database). By default, this will be the `Private` section of your Notion workspace, but you can set it to any destination. Note that this setting is different from the default database that you can designate in **Notion** settings. If you want all your AI Meeting Notes to be stored in the same place, make sure to set the same default meeting notes location in both Notion Calendar and Notion!
-
-   * Choose to auto-share meeting notes with event participants.
-
-     * This will only occur with event participants who are also in your Notion workspace.
 
    * Choose to auto-add meeting notes to new events.
 

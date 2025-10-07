@@ -105,7 +105,7 @@ To enable Just-in-Time provisioning if you’re on the Enterprise Plan, go to yo
 
 ## FAQs
 
-### Why is the current Enable SAML SSO greyed out?
+### Why can't I enable SAML SSO?
 
 The most common reason is that you have not yet verified ownership of a domain. If this is the case, you'll notice that you either don’t have any domains listed in the verify email domain section or the domain is pending verification.
 

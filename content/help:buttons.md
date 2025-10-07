@@ -178,7 +178,7 @@ To delete your button:
 Yes! You'll be able to specify whether you want the @-mention to input a fixed date or user, or the date or user upon duplication.
 
 
-### What permission level does one need to interact with a button?
+### What permission level do I need to interact with a button?
 
 A user must have `Full access` or `Can edit` permissions to interact with a button on a page.
 

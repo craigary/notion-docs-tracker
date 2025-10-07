@@ -8,33 +8,59 @@ coverImage: https://images.ctfassets.net/spoqsaf9291f/2anV8A4mfTxgPeF3A5fWrw/ab5
 category: Notion Calendar
 ---
 
-## Settings on mobile
+If you’re using Notion Calendar on desktop or browser, you can go to settings by selecting your profile picture → `Settings`.
 
 If you’re using Notion Calendar for mobile, you can go to settings by selecting `≡` in the top left corner → `⚙️`.
 
-If you’re using Notion Calendar on desktop or browser, you can go to settings by selecting your profile picture → `Settings`.
+## General settings
+
+Open the `General` tab of your settings to adjust the following:
+
+* **Calendar view:** Choose to display weekends, declined events, or week numbers in your calendar.
+
+* **Start week on:** Choose which day you want each week to start on.
+
+* **Calendar navigation:** Choose whether you want the keyboard shortcut `T` to go to today, or align today in your calendar view.
+
+* **Meetings:** Choose how much in advance an upcoming meeting should be shown in your context panel.
+
+* **Language:** Choose which language you want to use Notion Calendar in.
+
+* **Time format:** Choose how you want the time to be formatted.
+
+* **Time zones:** Choose whether you’d like Notion Calendar to ask you if you’d like to change your time zone when you’re in a different location.
+
+* **Location:** Choose to open location links in Apple Maps or Google Maps.
+
+* **Theme:** Choose from `Auto`, `Light mode`, or `Dark mode`.
+
+* **System startup:** Choose whether you’d like to open Notion Calendar on system startup.
+
+## Profile settings
+
+Open the `Profile` tab of your settings to adjust the following:
+
+* Your profile photo.
+
+* Your full name.
+
+* Your username.
+
+* The primary account you use to log into Notion Calendar.
+
+You can also `Delete Notion Calendar account` from your profile settings.
 
 ## Notification settings
 
-### Upcoming meeting notifications
+Open the `Notifications` tab of your settings to adjust the following:
 
-Upcoming meeting notifications remind you about meetings you have as early as five minutes before.
+* **Default event reminders:** Open your Google Calendar notification settings to adjust the reminder settings for each connected calendar.
 
-To adjust these notifications, go to `Settings` → `Notifications`. From there, you can decide how early you want to be notified about a meeting, and what sound you want notifications to play.
+* **Event invite notifications:** Choose to get notified when you’re invited to an event, or when an existing invitation is updated.
 
-### Default event reminders
+* **Upcoming meeting notifications:** Choose how early you want to be notified about a meeting, and what sound you want notifications to play.
 
-Default event reminders are configurable by calendar. These are tied to your Google Calendar notification settings. To adjust these notifications, go to `Settings` → `Notifications` → `Google Calendar Settings`.
-
-### System notifications
-
-You can receive Notion Calendar desktop notifications by allowing them in your device’s settings.
-
-### Browser notifications
-
-To receive Notion Calendar browser notifications, go to <https://calendar.notion.so/settings/notifications>. If notifications are turned off, go to your browser’s settings and make sure to allow notifications from <https://calendar.notion.so>.
-
-### iCloud email notifications
+You can receive Notion Calendar desktop notifications by allowing them in your device’s settings. To receive Notion Calendar browser notifications, go to <https://calendar.notion.so/settings/notifications>. If notifications are turned off, go to your browser’s settings and make sure to allow notifications from <https://calendar.notion.so>.
 
 If you have one email address connected to both a Google Calendar and an iCloud Calendar, but you want events from iCloud to go to your Google Calendar, you can set up iCloud email notifications following the instructions [here →](https://support.apple.com/guide/icloud/receive-emails-updates-shared-calendars-mm8074582205/icloud)
 
@@ -52,79 +78,57 @@ To ensure your menu bar is always visible on your screen:
 
 * On Windows: Click `^` in your taskbar, then drag the Notion Calendar icon to where you want it in your taskbar.
 
-### Turn off the menu bar calendar
+Open the `Menu bar` tab of your settings to adjust the following:
 
-If you don’t want to see or use the menu bar, go to `Settings` → `Menu bar` and turn off `Menu bar calendar`.
+* **Menu bar calendar:** Turn the menu bar on or off.
 
-### Choose what events you want to see in the menu bar
+* **Include events:** Choose how many days’ worth of events you want the menu bar to show. You can also include or exclude `All-day events`, `Events without participants`, or `Events without conferencing/location`.
 
-Choose which calendars you want included in the menu bar by going to `Settings` → `Menu bar`.
+* **Preview upcoming event in menu bar:** Choose how much in advance you want the menu bar to tell you about an upcoming event. You can also turn on or turn off the ability for the menu bar to show you an `Event title` or `Event time`.
 
-In the dropdown under `Include events:`, select how many days’ worth of events you want the menu bar to show. You can also include or exclude `All-day events`, `Events without participants`, or `Events without conferencing/location`.
+If you want to hide an entire calendar from the menu bar, right-click the calendar from the left sidebar of Notion Calendar. Then, turn off `Events included in menu bar`. This will also turn off upcoming meeting notifications for this calendar.
 
-If you want to hide an entire calendar from the menu bar, select the calendar from the left sidebar of Notion Calendar. Then, in the right context panel, turn off `Events included in menu bar`. This will also turn off upcoming meeting notifications for this calendar.
+## Conferencing settings
 
-### Choose how you want to see events in the menu bar
+Open the `Conferencing` tab of your settings to [connect to your conferencing providers](https://www.notion.com/help/notion-calendar-integrations). Default conferencing for each calendar can be set in each calendar’s settings, which you can learn more about below →
 
-You can customize how you want the menu bar to display events. Go to `Settings` → `Menu bar`. In the dropdown under `Preview upcoming event in menu bar:`, select how much in advance you want the menu bar to tell you about an upcoming event.
+## Calendar account settings
 
-You can also turn on or turn off the ability for the menu bar to show you an `Event title` or `Event time`.
+You’ll find each of your connected calendar accounts under the `Calendar accounts` section of the settings sidebar. For each connected calendar account, you can:
+
+* Choose a default Notion workspace for that account. This is the workspace you want Notion Calendar to search for event attachments, create AI Meeting Notes in, and more.
+
+* Choose default conferencing for that account. This is the conferencing tool you want to use when you add conferencing links to your events.
+
+* `Disconnect` the account.
+
+You can also select `Add calendar account` in the sidebar to connect another calendar.
+
+## Notion workspace settings
+
+You’ll find each of your connected Notion workspaces under the `Notion workspaces` section of the settings sidebar. For each connected workspace, you can:
+
+* Choose a default database to store AI Meeting Notes.
+
+* Choose to automatically add AI Meeting Notes to new events.
+
+* `Disconnect` the workspace.
+
+You can also select `Add Notion workspace` in the sidebar to connect another calendar.
 
 ## Calendar view settings
 
-### Change the number of days displayed
+* **Change the number of days displayed:** Select `±` to the immediate right of the last date displayed in Notion Calendar. From there, select `-` or `+` to adjust how many days you’re able to see in your calendar at once.
 
-Select `±` to the immediate right of the last date displayed in Notion Calendar. From there, select `-` or `+` to adjust how many days you’re able to see in your calendar at once.
+  * If you’re on mobile, open the left sidebar menu and select `1 day`, `2 days`, or `3 days`.
 
-If you’re on mobile, open the left sidebar menu and select `1 day`, `2 days`, or `3 days`.
+* **All-day section:** You can collapse or expand the section of your calendar that shows all-day events by clicking on the two arrows in your zone column or pressing `ctrl/⌘` + `K` > `Collapse all-day section` or `Expand all-day section`.
 
-### Show or hide week numbers
+* **Change interface scale:** On desktop with Notion Calendar open, go to `View` in the top bar of your screen. Hover over `Interface scale` and select `Zoom In`, `Zoom Out`, or `Actual Size`.
 
-Week numbers can help you see how far you are in the year. Go to `Settings` → `General` and under `Calendar view`, turn on or turn off `Week numbers`.
-
-### Show or hide weekends
-
-To show or hide weekends from your calendar, go to `Settings` → `General` and under `Calendar view`, turn on or turn off `Weekends`.
-
-### Hide declined events
-
-To hide a declined event from your calendar, go to settings. Under `Calendar view`, turn off `Declined events`. You can turn this setting back on if you want your calendar to show declined events.
-
-### All-day section
-
-You can collapse or expand the section of your calendar that shows all-day events by clicking on the two arrows in your zone column or pressing `ctrl/⌘` + `K` > `Collapse all-day section` or `Expand all-day section`.
-
-### Change the start of the week
-
-To set a starting day of the week, go to `Settings` → `General` and under `Start week on:`, choose a day of the week.
-
-On mobile, you can adjust this in your device’s settings.
-
-### Timezone
-
-Notion Calendar displays the system timezone. To adjust your time for Notion Calendar, you'll need to change it on your computer's system settings.
-
-### Resize your grid
-
-On desktop with Notion Calendar open, go to `View` in the top bar of your screen and select `Zoom Hours In` or `Zoom Hours Out` to adjust your calendar’s density.
+* **Resize your grid:** On desktop with Notion Calendar open, go to `View` in the top bar of your screen and select `Zoom Hours In` or `Zoom Hours Out` to adjust your calendar’s density.
 
 If the keyboard shortcut for `Zoom hours in` isn’t working on Windows, you can change this in Windows settings. Find the `Input language hot keys` setting and make sure that `Ctrl + Shift` is not selected, so that it can be used for Notion Calendar. You can learn more about reassigning hot keys for your keyboard [here →](https://support.microsoft.com/en-us/topic/how-do-i-reassign-hot-keys-for-my-keyboard-703f897c-ad72-db5d-8e64-0928873d712f#:~:text=To%20reassign%20a%20key\&text=Select%20the%20Start%20button%2C%20and,to%20reassign%2C%20select%20a%20command.)
-
-### Change interface scale
-
-On desktop with Notion Calendar open, go to `View` in the top bar of your screen. Hover over `Interface scale` and select `Zoom In`, `Zoom Out`, or `Actual Size`.
-
-## Light and dark mode
-
-To use Notion Calendar in light or dark mode, go to `Settings` → `General` → `Theme` → `Auto`, `Light mode`, or `Dark mode`.
-
-## Change language
-
-To change the language in Notion Calendar go to `Settings` → `General` → `Language`. Changing your language will cause the app to refresh.
-
-## Username
-
-Your username is visible to others when you share scheduling links, as in calendar.notion.so/meet/username. To change your username, go to `Settings` → `Profile` → `Username` and enter the username you want to use. Select `Update` to save your changes.
 
 **Learn more**
 

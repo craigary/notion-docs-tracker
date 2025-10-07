@@ -167,7 +167,7 @@ To run a calculation on a property:
 
 ### Is there a way to add conditional formatting? Like change the color of projects plotted on my timeline or background color of cells in the table?
 
-Not yet, unfortunately. It's a popular feature request though, so definitely on our radar! For the time being, you can use `Select` and `Multi-select` properties to add a pop of color to your timeline 🎨
+Yes! Learn more about conditional color [here →](https://www.notion.com/help/database-properties#conditional-color)
 
 
 ### Why can't I delete the Name property when showing table in my timeline?
@@ -189,10 +189,12 @@ Yes! To do this:
 Yes! [Learn more about simple tables here →](https://www.notion.com/help/columns-headings-and-dividers#simple-tables)
 
 
-### How can I turn a full page database into an inline database?
+### How can I turn a full-page database into an inline database, or vice versa?
 
-1. If it's not already, drag the database from your sidebar into another page. It will become sub-page
+To change a full-page database into an inline database:
 
-2. Go to that page, c<!-- -->lick the `⋮⋮` button next to the database sub-page and select `Turn into inline`.
+1. Drag the full-page database from your sidebar into another page. It will become a sub-page of that page.
 
-   * Click the `⋮⋮` button and select `Turn into page `to change it back.
+2. Open the parent page, click the **`⋮⋮`** button next to the database sub-page, and select `Turn into inline`.
+
+To change an inline database to a full-page database, drag an inline database block into your sidebar as a top-level page.

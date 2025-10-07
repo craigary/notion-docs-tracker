@@ -30,9 +30,9 @@ Notion Calendar integrates with conferencing tools like Zoom, Microsoft Teams, a
 
 ### Set a default conferencing option
 
-A default conferencing option allows you to automatically add conferencing to an event that has at least one other participant when you’re using Notion Calendar on desktop. To set Zoom as this default option, go to `Settings` → `Conferencing` → `Default conferencing`, then in the dropdown, select `Zoom`.
+A default conferencing option allows you to automatically add conferencing to an event that has at least one other participant when you’re using Notion Calendar on desktop.
 
-### Zoom
+Default conferencing is set at the calendar level. In Notion Calendar, go to `Settings` and select a calendar in the `Calendar accounts` section of the settings sidebar. Open the `Default conferencing` menu and select your preferred conferencing tool.
 
 **Connect your Zoom account**
 

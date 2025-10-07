@@ -306,8 +306,6 @@ If your workspace is above the guest limit for your [plan](https://www.notion.co
 You may have the `Disable Export` setting enabled in the `Security` tab of `Settings` in your left sidebar. You'll need to be an admin in your workspace and on desktop to change this.
 
 
-### Can I limit access to different parts of a database? Can you make it so that some people can see certain database views or properties, but not others?
+### Can I limit access to different parts of a database? Can I make it so that some people can see certain database pages, but not others?
 
-Currently, there isn't a way to share a database while limiting access to specific filters or properties. If one page in a database is more sensitive, you can remove users from that page so that it can’t be seen by everyone with access to the database.
-
-When you share a specific database page with someone, they will be able to see all properties from the database when viewing that page.
+You can assign specific permissions to people who are tagged in a person property or created by property in your database. Learn about database page-level access [here →](https://www.notion.com/help/sharing-and-permissions#database-page-level-access)

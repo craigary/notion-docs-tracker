@@ -24,11 +24,11 @@ To connect your Notion workspaces to Notion Calendar:
 
 1. Open Notion Calendar on desktop or web.
 
-2. Go to `Settings` → `Notion`.
+2. Go to `Settings`.
 
-3. Next to `Add Notion workspace`, select `Connect`.
+3. Under `Notion workspaces`, select `Add Notion workspace`.
 
-4. Give Notion Calendar access to Notion by selecting `Allow access`. If the integration is successful, you’ll see it appear in your settings.
+4. Give Notion Calendar access to Notion. If the integration is successful, you’ll see it appear in your settings.
 
 **Note:**
 
@@ -42,13 +42,7 @@ To connect your Notion workspaces to Notion Calendar:
 
 When you create an event in Notion Calendar, you’ll see an `AI Meeting Notes and Docs` field in the event. Click into this field to add meeting notes or another Notion page to the event details. From here, you can:
 
-* Create an [AI Meeting Notes](https://www.notion.com/help/ai-meeting-notes) page for the event. You can adjust your AI Meeting Notes settings by clicking your profile icon → `Settings` → `AI Meeting Notes`. From here, you can:
-
-  * Adjust the location for meeting notes.
-
-  * Select to auto-share to share meeting notes with internal participants.
-
-  * Select to auto-add meeting notes to new events.
+* Create an [AI Meeting Notes](https://www.notion.com/help/ai-meeting-notes) page for the event. You can also go to Notion Calendar `Settings` and select a particular workspace under the `Notion workspaces` section of the settings sidebar to choose a default database to store AI Meeting Notes, and choose to automatically add AI Meeting Notes to new events.
 
 * Make a new Notion page by selecting `Add blank Notion page`. Give your page a title and indicate where you want that page to live, and in which Notion workspace. Select `Create` when you’re done.
 

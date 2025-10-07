@@ -22,13 +22,11 @@ To view your upcoming invoice:
 
 Your invoice might look different from what you expect, and this could be for several reasons:
 
-* You've added or subtracted members from your workspace during the billing interval. This can impact your invoice — learn more about this in this article.
+* You've added or subtracted members from your workspace during the billing interval. This can impact your invoice — learn more about this in [this article](https://www.notion.com/help/members-and-billing).
 
 * You changed your billing interval from monthly to yearly, or vice versa.
 
 * You upgraded your plan during a billing interval. In this case, we charge you your previous rate for the time you had that plan, and your new rate for the time you had your upgraded plan. It's a blend of both!
-
-* You've applied credits to your balance due.
 
 ## Unpaid invoices
 
