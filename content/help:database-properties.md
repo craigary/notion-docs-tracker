@@ -34,6 +34,7 @@ category: Databases
 | Last edited by   | Records the person who edited the item last. Auto-updated and not editable.                                                                                                                          |
 | Button           | Automate specific actions with one click. Learn more [here →](https://www.notion.com/help/database-buttons)                                                                                          |
 | ID               | Automatically creates a numerical ID for each item. IDs are unique and cannot be manually changed.                                                                                                   |
+| Place            | Accepts a location via location services, a location name, or an address. Learn more [here →](https://www.notion.com/help/maps)                                                                      |
 
 * Notion AI can save you time by autofilling certain types of database properties! [Learn more here →](https://www.notion.com/help/creating-and-editing-with-ai#autofill)
 
@@ -184,6 +185,12 @@ To apply conditional color to a database view:
   * Person
 
   * Checkbox
+
+  * Formulas
+
+  * Relations
+
+  * Rollups
 
 * Conditional color settings are created at the view level. Different database views can have different conditional color settings, and conditional color settings applied to one database view won’t automatically apply to the database’s other views. However, when you duplicate a view, its color settings will also be duplicated.
 
