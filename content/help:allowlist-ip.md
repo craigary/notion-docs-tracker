@@ -14,7 +14,17 @@ These cannot be managed in your Notion account, so please contact your security 
 
 ### Notion IP addresses and domains
 
-Notion is hosted in US-West-2 (Oregon) and EU-Central-1 (Frankfurt)<!-- -->. [Click here](https://notion.notion.site/Allowlist-IP-addresses-and-Domains-5e18ffb8ddeb40c3879c1fd8edd3f06e?pvs=4) for the complete list of Notion affiliated IP addresses.
+Notion is hosted in US-West-2 (Oregon) and EU-Central-1 (Frankfurt).
+
+**Notion owned IP address blocks:**
+
+* `131.149.232.0/21`
+
+* `208.103.161.0/24`
+
+* `2602:F79A::/36`
+
+[Click here](https://notion.notion.site/Allowlist-IP-addresses-and-Domains-5e18ffb8ddeb40c3879c1fd8edd3f06e?pvs=4) for the complete list of Notion affiliated IP addresses.
 
 **Notion owned domains:**
 

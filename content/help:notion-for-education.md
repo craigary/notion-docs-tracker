@@ -14,19 +14,18 @@ Having issues upgrading to the Plus Plan for education? Try the solutions in [th
 
 There are two types of free Plus Plans for education:
 
-* The Education Plus Plan for individual students and teachers is a free Plus Plan for a one-member workspace. It’s available for students or teachers signed in with their education institution's email per the WHED. You may also be eligible for 50% off Notion AI if you’re on this plan. You can check your eligibility by going to `Settings` → `Explore plans` and selecting `Add to plan` next to `Notion AI`. Offer [terms and conditions](https://notion.notion.site/Notion-AI-Add-On-Student-Discount-Terms-and-Conditions-92f6a23077da41508f5928e9ad8c6dc6) apply.
+* The Education Plus Plan for individual students and teachers is a free Plus Plan for a one-member workspace. It’s available for students or teachers signed in with their education institution's email per the WHED.
 
 * Our student org offer is a free Plus Plan for a workspace with unlimited members. It’s available for verified student orgs who have submitted an application [here →](https://www.notion.com/notion-for-student-orgs-apply)
 
 Check out more of the differences below:
 
-| **Plus Plan for individual students and teachers**                                                                                                                                                                                                                                                                                                                                                                  | **Plus Plan for student organizations**                                                                         |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
-| **One** [member](https://www.notion.com/help/add-members-admins-guests-and-groups#members) per workspace                                                                                                                                                                                                                                                                                                            | **Unlimited** [members](https://www.notion.com/help/add-members-admins-guests-and-groups#members) per workspace |
-| Up to 100 [guests](https://www.notion.com/help/add-members-admins-guests-and-groups#guests) per workspace                                                                                                                                                                                                                                                                                                           | Up to 100 [guests](https://www.notion.com/help/add-members-admins-guests-and-groups#guests) per workspace       |
-| Unlimited uploads                                                                                                                                                                                                                                                                                                                                                                                                   | Unlimited uploads                                                                                               |
-| Edit history for any page going back 30 days                                                                                                                                                                                                                                                                                                                                                                        | Edit history for any page going back 30 days                                                                    |
-| May be eligible for **50% off&#x20;**[Notion AI](https://www.notion.com/help/notion-ai-faqs); offer [terms and conditions](https://notion.notion.site/Notion-AI-Add-On-Student-Discount-Terms-and-Conditions-92f6a23077da41508f5928e9ad8c6dc6) apply. This offer consists of the following features:• Chatting with Notion AI • Writing assistance • Notion AI-powered blocks • Translation • Autofill in databases |                                                                                                                 |
+| **Plus Plan for individual students and teachers**                                                        | **Plus Plan for student organizations**                                                                         |
+| --------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| **One** [member](https://www.notion.com/help/add-members-admins-guests-and-groups#members) per workspace  | **Unlimited** [members](https://www.notion.com/help/add-members-admins-guests-and-groups#members) per workspace |
+| Up to 100 [guests](https://www.notion.com/help/add-members-admins-guests-and-groups#guests) per workspace | Up to 100 [guests](https://www.notion.com/help/add-members-admins-guests-and-groups#guests) per workspace       |
+| Unlimited uploads                                                                                         | Unlimited uploads                                                                                               |
+| Edit history for any page going back 30 days                                                              | Edit history for any page going back 30 days                                                                    |
 
 To see a complete list of features that are included in the Plus Plan or to learn about other plans offered by Notion, visit our [pricing page →](https://www.notion.com/pricing)
 
@@ -59,44 +58,6 @@ Once you’ve met the above requirements, follow these steps **in the desktop or
 4. If you satisfy all requirements above for access to the plan but don't see `Get free education plan`, please write into email protected to request your school domain get access. If your institution is recognized by and listed in the WHED, your domain will be allowlisted and receive access.
 
 **Note:** Unfortunately, you must have a valid educational email address to upgrade to the Plus Plan. We don’t accept student IDs or other documentation to verify a student or educator status at this time. Thank you for your understanding!
-
-**Individual students and teachers may be eligible for 50% off Notion AI.&#x20;**&#x54;his offer includes the following features:
-
-Chatting with Notion AI
-
-* Writing assistance
-
-* Notion AI-powered blocks
-
-* Translation
-
-* Autofill in databases
-
-Offer [terms and conditions](https://notion.notion.site/Notion-AI-Add-On-Student-Discount-Terms-and-Conditions-92f6a23077da41508f5928e9ad8c6dc6) apply. Anyone who's already subscribed to Notion AI won’t be eligible for this discount.
-
-**Note:** This Notion AI offer for individual students and teachers is only available for 12 months upon redemption, and provides access to the following features:
-
-* Chatting with Notion AI
-
-* Writing assistance
-
-* Notion AI-powered blocks
-
-* Translation
-
-* Autofill in databases
-
-* Notion AI in Notion Mail
-
-To take advantage of this offer:
-
-1. Make sure you’re signed into Notion with your educational email.
-
-2. If you haven’t already, follow the steps above to get on the free Plus Plan for individual students and teachers.
-
-3. Go to `Settings` in your sidebar → `Explore plans`.
-
-4. Next to `Notion AI`, select `Add to plan` and follow the prompts to subscribe.
 
 ### Student organizations
 
@@ -153,7 +114,8 @@ You can also use our templates to build a foundation for your education workspac
 
 ### Are there any discounts for students?
 
-The Education Plus Plan for individual students is a free Plus Plan for a one-member workspace. It’s available for students signed in with their education institution's email per the WHED. You may also be eligible for 50% off Notion AI if you’re on this plan. Offer [terms and conditions](https://notion.notion.site/Notion-AI-Add-On-Student-Discount-Terms-and-Conditions-92f6a23077da41508f5928e9ad8c6dc6) apply.\
+The Education Plus Plan for individual students is a free Plus Plan for a one-member workspace. It’s available for students signed in with their education institution's email per the WHED. Offer [terms and conditions](https://notion.notion.site/Notion-AI-Add-On-Student-Discount-Terms-and-Conditions-92f6a23077da41508f5928e9ad8c6dc6) apply.\
+\
 With the Plus plan, students can organize plans, tasks and notes across school and life with unlimited pages & blocks, file uploads, more features to customize and publish your site, and 30-day version history.\
 \
 Just sign in with your school email address, by scrolling down the Billing in-product page and selecting Get free Education plan.\

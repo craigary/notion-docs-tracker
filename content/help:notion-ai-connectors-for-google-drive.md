@@ -68,7 +68,7 @@ You can narrow your search to just Google Drive by opening the `All sources` tog
 
 ## Best practices and example prompts
 
-The Google Drive AI onnector is most helpful for gathering insights from presentations, reports, and other files you have in Google Drive. It's not able to perform data analysis on spreadsheets.
+The Google Drive AI Connector is most helpful for gathering insights from presentations, reports, and other files you have in Google Drive. It's not able to perform data analysis on spreadsheets.
 
 You could try prompting Notion AI with the following:
 

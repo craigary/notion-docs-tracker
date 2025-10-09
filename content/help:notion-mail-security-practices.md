@@ -112,7 +112,7 @@ Notion Mail shares the list of Notion’s third-party Subprocessors [here](https
 
 **Is Notion Mail SOC 2 compliant?**
 
-Notion Mail is SOC 2 Type I compliant and working towards SOC 2 Type II.
+Notion Mail is SOC 2 Type II compliant.
 
 **Is Notion Mail HIPAA compliant?**
 

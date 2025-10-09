@@ -1,5 +1,5 @@
 ---
-title: Become a Notion partner
+title: Become a Notion Solutions Partner
 emoji: 🤝🏼
 description: Learn how to become a certified Notion partner 🤝🏼
 url: https://www.notion.com/help/become-a-notion-partner
@@ -12,6 +12,8 @@ category: Marketplace
 
 The Notion Partner Program connects customers with verified experts who help them set up, optimize, and scale Notion. Whether you’re a freelancer, consultancy, or systems integrator, the program offers recognition for your skills, access to exclusive resources, and visibility in our global partner Marketplace.
 
+You can learn more about our solutions partner program [here →](https://www.notion.com/partners/solutions-partner-program?utm_feeditemid=\&utm_device=c\&utm_term=\&utm_source=Google\&utm_medium=paidsearch\&utm_campaign=RL_PMax_AMER_EPD_MetadataAudiences\&gad_source=1\&gad_campaignid=22696122220\&gbraid=0AAAAAot8BGVgdCZM6h3lwZ0XyhgPafHPd\&gclid=CjwKCAjwxfjGBhAUEiwAKWPwDhRyRxDi1vvuDVqx3qI9wsOPXjkhF_BArTo8QrAE-vl1P9cjKMeDGxoCSEYQAvD_BwE)
+
 ## Types of partners and how to become a partner
 
 ### Consulting partners
@@ -22,11 +24,11 @@ To become a consulting partner, you must do all of the following:
 
 * Complete all three badges (Essentials, Workflows, Advanced).
 
-* Apply to become a consulting partner.
+* Apply to become a consulting partner [here →](http://notion.so/profile/services)
 
 * Once approved, pass the **Administrator** and **Service Specialist** certifications.
 
-* Meet our client experience requirements. Learn more about these [here →](https://www.notion.com/partners/solutions-partner-program)
+* Meet our client experience requirements. Learn more about these [here →](https://www.notion.com/partners/solutions-partner-tiers-and-requirements)
 
 After you’ve become an official consulting partner, you can submit your profile to be listed on Marketplace. Learn more about Marketplace [here →](https://www.notion.com/help/offering-services-on-marketplace)
 
