@@ -136,22 +136,16 @@ Notion maintains a comprehensive security and privacy program to provide advance
 
 ## FAQs
 
-### What data do we process? 
+### What data does Notion process? 
 
 Notion is committed to your safety and privacy. For detailed information on the data we process, please refer to our[ Data Processing Addendum](https://www.notion.com/notion/Data-Processing-Addendum-361b540101274b1fa7e16b90402b0d99?pvs=4).
 
 
-### If we decide to leave Notion, what happens to our data? 
-
-You can delete your data through two methods:
-
-* Use the instructions on this [help page](https://www.notion.com/help/delete-your-account).
-
-* Sending an email to email protected.
-
-If you accidentally deleted your data, please contact email protected.
+### If I decide to leave Notion, what happens to my data?
 
 For information around how long Notion will maintain data, please refer to the [Data Processing Addendum](https://www.notion.com/notion/Data-Processing-Addendum-361b540101274b1fa7e16b90402b0d99).
+
+Follow the instructions [here](https://www.notion.com/help/delete-your-account) to delete your data.
 
 
 ### If there was a disaster with Notions Systems and my Notion Instance was impacted, how does Notion restore itself? 

@@ -14,8 +14,8 @@ Getting featured in Marketplace
 
 Marketplace guidelines & terms
 
-Offering services on Marketplace
+Finding services on Marketplace
 
 Become a Notion Solutions Partner
 
-Finding services on Marketplace
+Offering services on Marketplace

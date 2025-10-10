@@ -76,7 +76,7 @@ You can also bring up your computer's emoji picker with the shortcut `ctrl` +�
 
 * Type `"` followed by `space` to create a quote block.
 
-## Create & style your content
+## Create and style your content
 
 * Press `enter` to insert a line of text.
 
@@ -136,9 +136,11 @@ Note: Windows machines might have `ctrl` + `shift` bound already by another func
 
 * Press `cmd/ctrl` + `shift` + `U` to go up one level in the page hierarchy.
 
+* In a table, press `cmd/ctrl` + `R` or `cmd/ctrl` + `D` to fill cells right or down (respectively) when you have multiple cells selected.
+
 * Duplicate any content on a Notion page by holding down `option/alt` as you drag and drop.
 
-## Edit & move blocks
+## Edit and move blocks
 
 Everything in Notion is a block — from a line of type (or paragraph) to an image or embed. These shortcuts let you edit whole blocks once they're selected.
 

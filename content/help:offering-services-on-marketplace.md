@@ -26,7 +26,11 @@ Interested in becoming a partner? Learn more [here →](https://www.notion.com/h
 
 * You can choose to be listed or unlisted.
 
+  ![hc: services on marketplace](https://images.ctfassets.net/spoqsaf9291f/7jRFEo0616ZHNeJa4Ezu2x/eaa7173ddf9834bd4eff00bf619e2119/Consulting_Partners_Image.png)
+
 * You can also choose to be accepting leads or not currently accepting leads.
+
+  [](//videos.ctfassets.net/spoqsaf9291f/4kTDVPBIgYheyaf2XXSdFG/91f4785a714ff1cd2e68a50f394788c6/booking_link_and_status.mp4)
 
 ## Manage your team
 
@@ -52,13 +56,19 @@ Once you’ve invited a member, they’ll need to sign up for Notion or log in w
 
 ## Accept leads
 
+[](//videos.ctfassets.net/spoqsaf9291f/3Tq4Ji4Eex156UxvcJl5jR/5226798355e65a0a222034d593b66151/accept_project.mp4)
+
 * Customers can request to book with you. You can accept or reject based on the information they provide. If you accept, an automated email with your booking link will be sent to the customer.
 
-* You can configure your booking link by clicking the icon at the top of [https://www.notion.so/profile/services](https://www.notion.com/profile/services).
+* You can configure your booking link by clicking `⚙️` at the top of [https://www.notion.so/profile/services](https://www.notion.com/profile/services).
+
+  ![hc: booking link marketplace](https://images.ctfassets.net/spoqsaf9291f/2swM8cAe8jc4ryZR9sZU84/4822451f6bbd415024e82a186ab20dc6/Consulting_Partners_Image__1_.png)
 
 * Customers can also reach out directly using your contact email.
 
 ## Manage projects
+
+![hc: manage marketplace projects](https://images.ctfassets.net/spoqsaf9291f/6wkr1Vb0tGMSipIbls47rA/bd8ef2f13d823b5de1f3930db9854b9c/Consulting_Partners_Image__2_.png)
 
 * Tracking deals in your Marketplace profile contributes to service revenue totals and allows you to qualify for higher tiers.
 
