@@ -78,4 +78,6 @@ To use this API, Enterprise Plan workspace owners can:
 
 If a user has left and rejoined a workspace within the last 30 days, workspace owners will be able to restore their private pages, shared pages, group membership, and teamspace membership.
 
-To do this, simply add a member back to your workspace and their content and access will be automatically restored once they rejoin.
+To do this, simply go to `Settings` → `People` or `Members` (depending on your plan) and add a member back to your workspace. Once they’re readded, select the arrow next to their name in the same settings to restore their access and content.
+
+![hc: restore user's content and access](https://images.ctfassets.net/spoqsaf9291f/6TbvNKuv6fAnhJ2yGOlPMq/edd01cd49e71be1523ab54434b194e74/Reference_Visuals_Group_172.png)

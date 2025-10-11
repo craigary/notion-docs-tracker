@@ -24,7 +24,7 @@ Notion uses a billing model that charges you based on the number of seats, or li
 
 Go to `Settings` in your sidebar → `People` to view how many paid seats a workspace has, how many members are currently in your workspace, and when you'll be billed next. You can easily manage workspace members here.
 
-![hc: manage paid seats and members](https://images.ctfassets.net/spoqsaf9291f/4Rg9bxVHKFhjrTokxyyL50/b9fef877788afa036e93d4a8df6d0744/MembersTab8-12.png)
+![hc: manage paid seats and members](https://images.ctfassets.net/spoqsaf9291f/4Rg9bxVHKFhjrTokxyyL50/13886e8d17bdb3fabcbcc787e9ed22ed/Reference_Visuals_Group_173.png)
 
 ### Accidental member additions
 
