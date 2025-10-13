@@ -4,7 +4,7 @@ emoji: 📣
 description: Notion is built for collaboration, so there are many ways to share your work with other people. Our permission levels ensure that your collaborators access your content exactly the way you want them to 📣
 url: https://www.notion.com/help/sharing-and-permissions
 key: help:sharing-and-permissions
-coverImage: https://img.youtube.com/vi/x2Ov8tsfXhU/maxresdefault.jpg
+coverImage: https://img.youtube.com/vi/mvaNaZ4-E4c/maxresdefault.jpg
 category: Sharing & collaboration
 ---
 

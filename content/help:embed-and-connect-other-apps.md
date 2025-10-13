@@ -4,7 +4,7 @@ emoji: 🦾
 description: You can embed virtually any online content within Notion pages — from video and audio players to Tweets, Loom videos, Invision mockups, and entire Miro boards. Enrich your Notion pages with other apps, PDFs, forms, and interactive maps 🦾
 url: https://www.notion.com/help/embed-and-connect-other-apps
 key: help:embed-and-connect-other-apps
-coverImage: https://img.youtube.com/vi/oGkyq7bBP-Y/maxresdefault.jpg
+coverImage: https://img.youtube.com/vi/KMfJV5GyCEw/maxresdefault.jpg
 category: Data & integrations
 ---
 

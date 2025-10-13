@@ -4,7 +4,7 @@ emoji: 📁
 description: You can view the same database in multiple ways, and switch back and forth between them depending on your needs. Within a view, you can add filters and sorts to easily categorize your content 📁
 url: https://www.notion.com/help/views-filters-and-sorts
 key: help:views-filters-and-sorts
-coverImage: https://img.youtube.com/vi/R36CkcdT2b4/maxresdefault.jpg
+coverImage: https://img.youtube.com/vi/Nx114VWepoI/maxresdefault.jpg
 category: Databases
 ---
 
