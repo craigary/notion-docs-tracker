@@ -12,11 +12,9 @@ category: Notion Calendar
 
 You can integrate Notion Calendar with Notion to:
 
-* Add Notion pages to your events.
+* Add Notion pages and [AI Meeting Notes](https://www.notion.com/help/ai-meeting-notes) to your events.
 
 * View and manage Notion databases in your calendar, as long as the databases have a date property.
-
-* Connect [AI Meeting Notes](https://www.notion.com/help/ai-meeting-notes) to your events.
 
 ## Connect Notion workspaces to Notion Calendar
 
@@ -137,6 +135,8 @@ From this panel, you can:
   * Status
 
   * Select and multi-select
+
+  * Text (rich text formatting is supported, but functions and mentions are not)
 
   * Checkboxes
 

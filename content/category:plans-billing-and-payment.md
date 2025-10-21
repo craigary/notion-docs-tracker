@@ -32,6 +32,4 @@ What happens when I downgrade my plan?
 
 Sales tax
 
-Understanding Notion’s pricing changes
-
 Can’t upgrade to the Plus Plan for students and educators

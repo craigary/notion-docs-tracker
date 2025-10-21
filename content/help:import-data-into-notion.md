@@ -4,7 +4,7 @@ emoji: 🚚
 description: Like most people, you probably have data, documents, and notes scattered across many files and apps. You can centralize your information in one place by moving it all into Notion 🚚
 url: https://www.notion.com/help/import-data-into-notion
 key: help:import-data-into-notion
-coverImage: https://img.youtube.com/vi/KMfJV5GyCEw/maxresdefault.jpg
+coverImage: https://images.ctfassets.net/spoqsaf9291f/67yzLvBO0WtiN5WQjFz4fG/e77527f9c2c3ee2ac69c8f58aa14444d/How_to_submit_a_template_-_hero.png
 category: Data & integrations
 ---
 

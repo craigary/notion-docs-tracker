@@ -10,9 +10,9 @@ category: Data & integrations
 
 **Note:&#x20;**&#x4F;n Enterprise Plans, the following can be restricted to workspace owners:
 
-* The ability to [add connections](https://www.notion.com/help/add-and-manage-connections-with-the-api#enterprise-connection-settings)
+* The ability to [add connections](https://www.notion.com/help/add-and-manage-connections-with-the-api#add-connections-in-your-workspace) and decide who can connect or disconnect integrations at the page level.
 
-* The ability to [install workspace-wide security and compliance integrations](https://www.notion.com/help/add-security-and-compliance-integrations)
+* The ability to [install workspace-wide security and compliance integrations](https://www.notion.com/help/add-security-and-compliance-integrations).
 
 ## Add connections in your workspace
 
@@ -33,6 +33,24 @@ Connections built with the API follow a similar permission system to the sharin
 * The connection will now appear in the `•••` menu for the page.
 
 * If you want to remove a connection from a page, hover over its name and then press `Disconnect`.
+
+### Manage connections in pages
+
+**Note:** This feature is only available to users on the Enterprise Plan.
+
+Workspace owners on the Enterprise Plan can decide what pages an integration can access, as well as who can connect integrations to or disconnect integrations from pages. To do this:
+
+1. Go to `Settings` → `Connections`.
+
+2. In the `Member` tab, select `•••` next to a connection.
+
+3. In the menu that appears, select `Manage page access`.
+
+4. Under `Select pages`, find and select specific pages that you want to give permission to the integration to access.
+
+5. Under `Who can manage page access`, open the dropdown menu. Select `Default` if you want all workspace owners and members to be able to manage access. Select `Workspace owners` if you want only workspace owners to be able to manage access.
+
+If you choose to allow only `Workspace owners` to manage access, that means only workspace owners will be able to go into the `•••` menu at the top of a page → `Connections` to connect or disconnect internal and public integrations from that page. Members won’t be able to take this action.
 
 ## Manage connections in your workspace
 
@@ -59,6 +77,8 @@ Connections built with the API follow a similar permission system to the sharin
   * View users with access to the connection
 
   * Disconnect the connection
+
+Looking for a way to monitor and respond to real-time changes in your Notion workspaces? Try [integration webhooks](https://www.notion.com/help/create-integrations-with-the-notion-api#integration-webhooks)!
 
 ## Install from a developer
 

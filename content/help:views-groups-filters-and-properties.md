@@ -18,7 +18,7 @@ Views in Notion Mail surface emails in ways that matter to you. They take what�
 
 3. A view that organizes your emails by whether they require a follow up or not.
 
-Views allow for flexibility and customization — for example, you can include emails from across multiple labels in one view, include or exclude archived emails, and group within views for even more granular information. Each views is made up of a unique combination of filters, groups, and properties, which we’ll dive into below.
+Views allow for flexibility and customization — for example, you can include emails from across multiple labels in one view, include or exclude archived emails, and group within views for even more granular information. Each view is made up of a unique combination of filters, groups, and properties, which we’ll dive into below.
 
 When you create a Notion Mail account, you’ll see a `Views` section of your sidebar with some views already created for you based on the emails and labels you had before. Click into a view to explore how it’s organized. You can also click into the filter, group, and edit icons at the top of any view to see how your current view is configured and customize it based on your needs.
 

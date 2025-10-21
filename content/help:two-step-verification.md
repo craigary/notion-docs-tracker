@@ -14,7 +14,7 @@ category: Settings
 
 * Not be in an organization that requires login via identity provider (such as Okta, Microsoft Azure, Google Workspace, etc.).
 
-Two-<!-- -->step verification adds an extra layer of protection to your Notion account.
+Two-step verification adds an extra layer of protection to your Notion account.
 
 By enabling two-step verification, you can help keep your Notion account and your organization more secure. This feature is available to all plan types and can be set up easily in your account settings.
 
@@ -50,9 +50,19 @@ If you want to set up two-step verification using a code sent to your phone numb
 
 3. If this is your first added two-step method, make sure to save your backup codes.
 
+## Authenticate with your backup code
+
+To authenticate using your backup code:
+
+1. Sign into Notion using your email address and password.
+
+2. When prompted to complete two-step authentication, click `Try another method`.
+
+3. Click `Use backup code`.
+
 ## Change or remove verification methods
 
-You can have up to four verification methods, two authenticators and two phone numbers. <!-- -->To change your verification methods:
+You can have up to four verification methods, two authenticators and two phone numbers. To change your verification methods:
 
 1. Go to `Settings` in your sidebar → `{your name}`.
 

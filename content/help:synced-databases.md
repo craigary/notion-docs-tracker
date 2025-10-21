@@ -4,7 +4,7 @@ emoji: 📬
 description: Bring your favorite tools into Notion with synced databases, to keep all of your info in one easily accessible hub 📬
 url: https://www.notion.com/help/synced-databases
 key: help:synced-databases
-coverImage: https://images.ctfassets.net/spoqsaf9291f/4Bl8KBdZcWXeTHJDeLj6JU/65cb09f960742198edd908070827ae4e/Synced_Databases_-_hero.png
+coverImage: https://img.youtube.com/vi/Gtjeb4xkWHo/maxresdefault.jpg
 category: Data & integrations
 ---
 

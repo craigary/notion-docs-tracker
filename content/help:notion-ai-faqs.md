@@ -14,7 +14,7 @@ Notion AI is your built-in, personalized teammate. No need to switch back and fo
 
 At a glance, Notion AI can do the following. We’ll dive into its features in more detail in this article.
 
-* Takes on entire tasks for you and chats with you via [personal Agent](https://www.notion.com/help/notion-ai-faqs#personal-agent). Your personal Agent can use context from your workspace and connected apps to create and edit pages and databases.
+* Takes on entire tasks for you and chats with you via [Personal Agent](https://www.notion.com/help/notion-ai-faqs#personal-agent). Your Personal Agent can use context from your workspace and connected apps to create and edit pages and databases.
 
 * Searches your workspace and connected apps like Slack and Google Drive via [Enterprise Search](https://www.notion.com/help/notion-ai-faqs#enterprise-search) and Notion AI Connectors.
 
@@ -40,7 +40,7 @@ Please watch it on [YouTube](https://www.youtube.com/watch?v=yasGTeAsV6s)
 
 ![](https://www.notion.com/front-static/illustrated-icons/catLookingUp.png)
 
-Your personal Agent not only thinks for you — it actually does the work for you. It can take on tasks from beginning to end, looking at your workspace and connected apps, then even creating or editing content (pages, databases, charts, and much more) in your workspace on your behalf.
+Your Personal Agent not only thinks for you — it actually does the work for you. It can take on tasks from beginning to end, looking at your workspace and connected apps, then even creating or editing content (pages, databases, charts, and much more) in your workspace on your behalf.
 
 You can personalize your Agent’s appearance and personality and teach it how to work with and for you, so it can be a truly customized teammate built into your workspace.
 
@@ -154,7 +154,7 @@ Workspace owners on any Notion plan can go to `Settings` → `Notion AI` and adj
 
   * `Require confirmation for web requests`: Turn this on if you want Notion AI to request confirmation before looking at external websites.
 
-* `Personalization`: Give your personal Agent a name, accessories, and instructions for how to behave.
+* `Personalization`: Give your Personal Agent a name, accessories, and instructions for how to behave.
 
 * `AI Meeting Notes`: Turn on various settings for AI Meeting Notes, including audio storage, transcript deletion, and more. Learn more about these settings [here →](https://www.notion.com/help/ai-meeting-notes)
 

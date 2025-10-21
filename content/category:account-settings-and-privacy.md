@@ -22,9 +22,9 @@ Data access consent
 
 Delete your account
 
-Notion Faces
-
 Log in & out
+
+Notion Faces
 
 Passkeys
 

@@ -28,7 +28,7 @@ Notion Mail is available on the following platforms:
 
 You can also access Notion Mail by selecting `✉️` at the bottom of your Notion sidebar.
 
-**Note:** Notion Mail will support Windows and mobile soon.
+**Note:** Notion Mail will support Windows soon.
 
 ![hc: notion mail sidebar entry point](https://images.ctfassets.net/spoqsaf9291f/YesoHUnXZpu4zI0FMxI0w/82acc75d8c7a62f4b4c6a1962ce59648/App_Switcher_Notion_Mail.png)
 

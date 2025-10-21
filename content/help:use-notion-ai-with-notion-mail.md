@@ -10,7 +10,7 @@ category: Notion Mail
 
 **Note:**
 
-* Everyone can try Notion Mail’s AI features for free. Once you’re ready to unlock unlimited access, you’ll need to purchase the Notion AI add-on for your Notion workspace following the instructions [here →](https://www.notion.com/help/purchase-add-ons#notion-ai-add-on)
+* Everyone can try Notion Mail’s AI features for free. Once you’re ready to unlock unlimited access, you’ll need to upgrade to Notion's Business or Enterprise Plan.
 
 * If you're using Notion Mail with an email that isn't connected to a workspace that has Notion AI, [change your email](https://www.notion.com/help/account-settings#change-your-email-address) in your Notion AI-enabled workspace to the one you're using with Notion Mail. You'll then be able to use Notion AI features in Notion Mail.
 

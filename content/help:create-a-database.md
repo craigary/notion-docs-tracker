@@ -4,7 +4,7 @@ emoji: 📈
 description: Now we'll create a database and use it to show off essential database actions and features. You'll get to play with database properties, views, filters, and sorts - let's get into it 📈
 url: https://www.notion.com/help/create-a-database
 key: help:create-a-database
-coverImage: https://images.ctfassets.net/spoqsaf9291f/4TlJQBAgbEwCH1otCiKmRD/2a99a687e60b1f80695fd959de6fcc12/Create_a_database_-_hero.png
+coverImage: https://img.youtube.com/vi/Nx114VWepoI/maxresdefault.jpg
 category: Getting started
 ---
 

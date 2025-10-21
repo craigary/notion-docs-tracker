@@ -4,7 +4,7 @@ emoji: 🔗
 description: See live, synced visualizations of links from popular platforms right in your workspace — no need to switch between apps or lose context 🔗
 url: https://www.notion.com/help/link-previews
 key: help:link-previews
-coverImage: https://images.ctfassets.net/spoqsaf9291f/2m3dDw9vnYBiZRupN7od9t/11b6a3d794ba5d112d276e9fe1c90cf2/Link_previews.png
+coverImage: https://img.youtube.com/vi/Gtjeb4xkWHo/maxresdefault.jpg
 category: Data & integrations
 ---
 

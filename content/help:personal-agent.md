@@ -1,7 +1,7 @@
 ---
 title: Personal Agent
 emoji: 🤝🏼
-description: With your personal Agent, you don’t just have a teammate that thinks with you, but one that gets work done for you — just the way you want 🤝🏼
+description: With your Personal Agent, you don’t just have a teammate that thinks with you, but one that gets work done for you — just the way you want 🤝🏼
 url: https://www.notion.com/help/personal-agent
 key: help:personal-agent
 coverImage: https://img.youtube.com/vi/yasGTeAsV6s/maxresdefault.jpg
@@ -10,7 +10,7 @@ category: Notion AI
 
 Custom Agents are coming soon. Sign up for updates [here →](https://notion.notion.site/26fefdeead05803ca7a6cd2cdd7d112f)
 
-Notion AI Agent is your personalized teammate. Whatever you can do in Notion, your personal Agent can also do for you — empowered by all of the context from your workspace and connected apps. Your Agent also learns your style and ways of working, and you can also name it and dress it up with accessories.
+Notion AI Agent is your personalized teammate. Whatever you can do in Notion, your Personal Agent can also do for you — empowered by all of the context from your workspace and connected apps. Your Agent also learns your style and ways of working, and you can also name it and dress it up with accessories.
 
 **Note:**
 
@@ -40,9 +40,9 @@ Find the friendly face at the bottom of Notion to chat with your Agent. As soon 
 
 ![hc: personal agent ui](https://images.ctfassets.net/spoqsaf9291f/5nzOWLKeT1C8AQpaoSSNYO/a38ddcd94fcb09e1aedfacb4daf6bd1f/Reference_Visuals_Group_166.png)
 
-## What your personal Agent can do
+## What your Personal Agent can do
 
-* Take multiple actions on your behalf, using the context of your workspace and connected apps. If you have a task you need to complete, Agent can do it for you — from searching for specific knowledge to using that information to create pages or databases that you and your team can action on.
+* Take multiple actions on your behalf, using the context of your workspace and connected apps. If you have a task you need to complete, your Personal Agent can do it for you — from searching for specific knowledge to using that information to create pages or databases that you and your team can action on.
 
   Try these prompts:
 
@@ -50,7 +50,7 @@ Find the friendly face at the bottom of Notion to chat with your Agent. As soon 
 
   * "Document our deployment process by reconciling recent deployment notes, runbooks, and incident postmortems. Output a step-by-step SOP with preflight checks and rollback steps, and highlight areas needing owner confirmation."
 
-* Answer questions about content in your workspace and your connected apps like Slack via Notion AI Connectors. Agent can query your databases too, including specific properties.
+* Answer questions about content in your workspace and your connected apps like Slack via Notion AI Connectors. Your Personal Agent can query your databases too, including specific properties.
 
   Try these prompts:
 
@@ -66,7 +66,7 @@ Find the friendly face at the bottom of Notion to chat with your Agent. As soon 
 
   * "Based on our PRD and alpha feedback, draft three launch email versions for enterprise, SMB, and trial users. Include quotes and apply learnings from recent releases."
 
-* Create and edit databases. Agent can create or edit database views and properties, including relations to other databases.
+* Create and edit databases. Your Personal Agent can create or edit database views and properties, including relations to other databases.
 
   Try these prompts:
 
@@ -94,13 +94,13 @@ Personalize your Agent with instructions and memories so that it can truly be a 
 
 To personalize your Agent:
 
-1. Click your personal Agent’s face in the bottom right corner of Notion.
+1. Click your Personal Agent’s face in the bottom right corner of Notion.
 
 2. In the chat window, click on its face again.
 
 3. In the window that appears, give your Agent a name and accessories.
 
-4. You can also select `Add instructions` to give your personal Agent instructions on how to behave. You can choose an existing page from your workspace, pick from some templates, or `Create your own` page.
+4. You can also select `Add instructions` to give your Personal Agent instructions on how to behave. You can choose an existing page from your workspace, pick from some templates, or `Create your own` page.
 
 ![hc: personalize agent](https://images.ctfassets.net/spoqsaf9291f/2FzNcpGRbGfjaTUuoTRBmI/2a7489994bbb30bc5711ac5d12216b74/Sept_17_Screenshot_from_Personal_Agent.png)
 
@@ -116,15 +116,15 @@ In this page, you can:
 
 * Describe how you want your Agent to talk to you as you chat. For example, you can tell Agent to only respond to you in lowercase, or to have a humorous personality.
 
-* Add notes for your personal Agent to remember and consider as it works with you. This could be information about your particular role at your organization, your personality traits, and more.
+* Add notes for your Personal Agent to remember and consider as it works with you. This could be information about your particular role at your organization, your personality traits, and more.
 
-* Give your personal Agent specific Notion pages, Slack channels, files, and more that it should look at first when responding to a chat with you.
+* Give your Personal Agent specific Notion pages, Slack channels, files, and more that it should look at first when responding to a chat with you.
 
-Your personal Agent will always reference your instructions in its interactions with you. As you work, you can also tell your Agent to update these instructions with more information about yourself, which you can always edit. You can also come back to the personalization menu and change your Agent’s instructions, or even create multiple pages of instructions if you want to be able to switch up your Agent’s behavior.
+Your Personal Agent will always reference your instructions in its interactions with you. As you work, you can also tell your Agent to update these instructions with more information about yourself, which you can always edit. You can also come back to the personalization menu and change your Personal Agent’s instructions, or even create multiple pages of instructions if you want to be able to switch up your Personal Agent’s behavior.
 
 ## Switch chat mode
 
-As you’re using your personal Agent, you can change the way your chat appears on your screen. To do this:
+As you’re using your Personal Agent, you can change the way your chat appears on your screen. To do this:
 
 1. Select `Switch chat mode` at the top of the chat window.
 
@@ -142,9 +142,9 @@ You can access the last 30 days’ worth of conversations you’ve had with your
 
 3. Search for a previous chat. Chats will be named based on what the conversation was about.
 
-## What your personal Agent can’t do
+## What your Personal Agent can’t do
 
-Your personal Agent can't:
+Your Personal Agent can't:
 
 * Answer questions using content that’s in a non-PDF embed, like a transcript from a video.
 
@@ -160,8 +160,8 @@ Your personal Agent can't:
 
 * Manage any workspace level settings, like member roles, billing, security features, and more.
 
-## Give your personal Agent feedback
+## Give your Personal Agent feedback
 
-Do you have feedback about your personal Agent? Use the thumbs up and thumbs down in a chat to let us know how it’s doing. If you give your Agent a thumbs down, you’ll also have the opportunity to provide us with more information about why.
+Do you have feedback about your Personal Agent? Use the thumbs up and thumbs down in a chat to let us know how it’s doing. If you give your Agent a thumbs down, you’ll also have the opportunity to provide us with more information about why.
 
-Your feedback isn’t used to train your Agent. Instead, it’s shared with the Notion team to help us improve the experience. Read more about how we use your data [here →](https://www.notion.com/help/notion-ai-security-practices#how-is-my-data-protected)
+Your feedback isn’t used to train your Personal Agent. Instead, it’s shared with the Notion team to help us improve the experience. Read more about how we use your data [here →](https://www.notion.com/help/notion-ai-security-practices#how-is-my-data-protected)

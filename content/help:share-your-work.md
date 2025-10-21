@@ -4,7 +4,7 @@ emoji: 🗣
 description: Share any Notion page you create with select people, your whole team, or the entire web. It's up to you. Here's a quick overview of how to share 🗣
 url: https://www.notion.com/help/share-your-work
 key: help:share-your-work
-coverImage: https://images.ctfassets.net/spoqsaf9291f/4CgnT1pWdUZRUahPRvukMM/08133d85de8c564ca3f9d5382d7d16b2/Share_your_work_-_hero.png
+coverImage: https://img.youtube.com/vi/mvaNaZ4-E4c/maxresdefault.jpg
 category: Getting started
 ---
 

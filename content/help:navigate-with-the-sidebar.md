@@ -4,7 +4,7 @@ emoji: 🧭
 description: Notion's left-hand sidebar makes it easy to structure all the content in your workspace. Here's everything you need to know on how to organize, rearrange, and find your pages within the sidebar 🧭
 url: https://www.notion.com/help/navigate-with-the-sidebar
 key: help:navigate-with-the-sidebar
-coverImage: https://img.youtube.com/vi/2aDk-misv58/maxresdefault.jpg
+coverImage: https://img.youtube.com/vi/lsmgy5oszmu/maxresdefault.jpg
 category: Workspace & sidebar
 ---
 
@@ -27,6 +27,8 @@ At the top of your sidebar, you'll see several features and menu options. Here's
 * **Search:** Click to open Notion's search window, where you can either type what you're looking for or jump to a recently visited page. The shortcut `cmd/ctrl` + `K` also brings it up. 
 
 * **Home:** Click to see the pages and tasks that need your attention. [Learn more about Home here →](https://www.notion.com/help/home-and-my-tasks)
+
+* **Notion AI:&#x20;**&#x43;lick to search and research with Notion AI. [Learn more about Notion AI here →](https://www.notion.com/help/notion-ai-faqs)
 
 * **Inbox:** Click to see all your notifications in one place. This menu combines revisions that were made on pages you have created, new mentions of you across your workspace, and new work assignments. A red notification badge will appear here when you have unread notifications.
 

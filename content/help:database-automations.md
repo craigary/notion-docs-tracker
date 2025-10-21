@@ -4,7 +4,7 @@ emoji: 🔁
 description: Improve your efficiency by automating the most tedious parts of your work 🔁
 url: https://www.notion.com/help/database-automations
 key: help:database-automations
-coverImage: https://img.youtube.com/vi/R8IOW72zfMY/maxresdefault.jpg
+coverImage: https://img.youtube.com/vi/55zNDdiEZRg/maxresdefault.jpg
 category: Automations
 ---
 

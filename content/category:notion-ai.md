@@ -18,9 +18,9 @@ GitHub AI Connector
 
 Google Drive AI Connector
 
-Jira AI Connector (beta)
-
 Linear AI Connector
+
+Jira AI Connector (beta)
 
 Microsoft Teams AI Connector (beta)
 
@@ -40,12 +40,12 @@ Notion MCP
 
 Microsoft Outlook AI Connector
 
+Notion Mail AI Connector (beta)
+
 Personal Agent
 
-Enterprise Search
-
-Notion Mail AI Connector (beta)
+Research Mode
 
 Gmail AI Connector (Beta)
 
-Research Mode
+Enterprise Search

@@ -8,7 +8,7 @@ coverImage: https://img.youtube.com/vi/tfrgpkksRfs/maxresdefault.jpg
 category: Notion Calendar
 ---
 
-Notion Calendar is the next-generation calendar for professionals and teams. It allows you to bring events from Google Calendar and Notion databases together so you can keep track of everything that’s important to you in one place. It also has plenty of features to help you manage your events across calendars, schedule time with others, and more. [Learn more about what Notion Calendar is and what makes it special →](https://www.notion.com/product/calendar)
+Notion Calendar is the next-generation calendar for professionals and teams. It allows you to bring events from your calendars and Notion databases together so you can keep track of everything that’s important to you in one place. It also has plenty of features to help you manage your events across calendars, schedule time with others, and more. [Learn more about what Notion Calendar is and what makes it special →](https://www.notion.com/product/calendar)
 
 ## Download Notion Calendar
 
@@ -32,7 +32,7 @@ Learn more about Notion Calendar apps [here →](https://www.notion.com/help/not
 
 If you have a Notion account, you can sign up for Notion Calendar with your Notion account. If you don’t already have a Notion account, no problem — when you sign up for Notion Calendar, a Notion account will be created for you using the same email address.
 
-Once you’re signed up, you can [integrate at least one of your calendars](https://www.notion.com/help/manage-your-calendars-and-events) to get started. Additionally, you can [connect Notion workspaces to Notion Calendar](https://www.notion.com/help/use-notion-calendar-with-notion) so that you can bring any <!-- -->databases with date properties<!-- --> from those workspaces into Notion Calendar. Additionally, you’ll be logged into the same session across Notion Calendar and Notion so that signing into and out of one will also sign you into and out of the other.
+Once you’re signed up, you can [integrate at least one of your calendars](https://www.notion.com/help/manage-your-calendars-and-events) to get started. Additionally, you can [connect Notion workspaces to Notion Calendar](https://www.notion.com/help/use-notion-calendar-with-notion) so that you can bring any databases with date properties from those workspaces into Notion Calendar. Additionally, you’ll be logged into the same session across Notion Calendar and Notion so that signing into and out of one will also sign you into and out of the other.
 
 When signing up for Notion Calendar, use an email address that you’ll always be able to access. For example, you might want to use a personal account rather than a work account in case you decide to leave your work organization. The account you use to sign up will be your primary account and you need access to the primary account to access Notion Calendar. You can always connect any work accounts or secondary accounts after signup!
 
