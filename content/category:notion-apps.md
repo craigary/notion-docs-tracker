@@ -19,3 +19,5 @@ Notion beta program
 Mobile widgets
 
 Web Clipper
+
+Notion New Tab extension
