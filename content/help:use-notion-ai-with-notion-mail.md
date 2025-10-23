@@ -18,23 +18,23 @@ category: Notion Mail
 
 ## Label emails
 
-**Note:&#x20;**&#x41;t this time, Notion AI can only add labels to new emails. Notion AI won’t add labels to emails that were in your inbox before your label was created. Notion AI also doesn't work on existing labels you've already created; it only works on labels you create using Notion AI.
-
 Notion AI can filter through your incoming emails, adding certain labels to them and saving them as a view. For example, you can ask Notion AI to label all of your purchase-related emails as `Purchases`. You could also tag emails from specific senders or email domains. To use Notion AI to auto label your future emails:
 
 1. Click `Auto label` at the top of your inbox.
 
-2. Enter a prompt for Notion AI to follow to label your mail. Alternatively, pick a suggestion in the window that opens.
+2. Select from a suggested label or select `Create` to make your own.
 
-3. Once you’ve finished writing your prompt, select `Split {label description}` if you want all emails with that label to be moved out of your Inbox and only accessible via their own view. Select `Keep {label description}` if you want to keep all emails with that label in your Inbox, as well as in their own view.
+3. Enter a name for your label, along with instructions for Notion AI to use to identify emails that you want to label.
 
-4. Notion AI will give you a sample of your emails based on your label name or prompt. Select `✅` next to the ones that are most relevant to your prompt.
+4. Select `⬆️`. Notion AI will give you a sample of your emails matching your label name and instructions.
 
-5. Before you create your label, click the current label name and inbox behavior to make any changes.
+5. Select `Continue`.
 
-6. Select `Save`. This will automatically create a view in your sidebar with relevant emails included.
+6. If you want Notion AI to label your past emails, open the dropdown menu under `Do you want to auto label past emails?` and select a time frame.
 
-Once you’ve asked Notion AI to sort your mail in this way, a new view will be created in your `Views` that shows a filtered version of your mail with only the relevant Notion AI auto label applied.
+7. Select `Show in inbox` if you want to keep all emails with your label in your Inbox, as well as in their own view. Select `Filter from inbox` if you want all emails with your label to be moved out of your Inbox and only accessible via their own view.
+
+8. Select `Save`. This will automatically create a view in your sidebar with relevant emails included.
 
 You can also create an auto label with a specific email open. Let's say you have an email from your favorite clothing brand open in Notion Mail and want future emails from similar brands to be auto labeled. To do this:
 
@@ -54,11 +54,15 @@ If you want to change the description for an existing auto label:
 
 1. Go to `Settings` → `Notion AI`.
 
-2. Select ••• next to the label you want to edit → `Edit`.
+2. Select `•••` next to the label you want to edit → `Edit`.
 
-3. Provide details about what kind of emails you want your auto label applied to.
+3. Update your label’s name and instructions.
 
-4. Select `Save` → `Confirm`.
+4. Select `⬆️`. Notion AI will give you a sample of your emails matching your label name and instructions.
+
+5. If you’d like, toggle on `Re-label past emails` and select a time frame to have Notion AI label your emails based on any updated instructions. You can also toggle on `Remove labels` to have Notion AI take the label off of any emails that no longer match your updated instructions.
+
+6. Select `Save` → `Confirm`.
 
 Changes to your auto label will be applied to all your future emails moving forward.
 

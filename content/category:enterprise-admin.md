@@ -24,9 +24,9 @@ Transfer content from a deprovisioned user
 
 Audit log
 
-Add security & compliance integrations
-
 Workspace analytics
+
+Add security & compliance integrations
 
 Managed users
 

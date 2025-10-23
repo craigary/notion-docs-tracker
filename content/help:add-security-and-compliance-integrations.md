@@ -338,10 +338,6 @@ For page events, the page audience describes the visibility level of the target 
 
 * **user.logout**: A user logged out of an account.
 
-* **user.settings.analytics\_tracking\_setting\_updated**: A user changed the setting to track whether their workspace or page activity is recorded in workspace analytics.
-
-* **user.settings.email\_updated**: A user updated their email in the account settings.
-
 * **user.settings.login\_method.mfa\_backup\_code\_updated**: A user updated their MFA (Multi-Factor Authentication) back-up code settings.
 
 * **user.settings.login\_method.mfa\_sms\_updated**: A user updated their MFA (Multi-Factor Authentication) SMS (Short Message Service) settings.
@@ -353,14 +349,6 @@ For page events, the page audience describes the visibility level of the target 
 * **user.settings.login\_method.password\_removed**: A user removed a password from their account.
 
 * **user.settings.login\_method.password\_updated**: A user updated their password.
-
-* **user.settings.preferred\_name\_updated**: A user updated their preferred name in the account settings.
-
-* **user.settings.profile\_photo\_updated**: A user updated their profile photo in the account settings.
-
-* **user.settings.support\_access\_granted**: Notion’s support team was granted temporary access to the user’s account.
-
-* **user.settings.support\_access\_revoked**: Support access to the user’s account was revoked.
 
 **Integration**
 
