@@ -40,29 +40,25 @@ If you're using this feature on your browser, a few things to note:
 
 ## Start AI Meeting Notes
 
-To start AI Meeting Notes, type `/meet` into any page in the desktop app. If you’re on a web browser, you’ll be prompted to open the Notion desktop app or download it if you haven’t already.
-
-Write any agenda items or context under `Notes` before the meeting. When generating the summary, Notion AI will take these notes into consideration.
-
-**Tip:&#x20;**&#x59;ou can also access AI Meeting Notes directly from the `Upcoming events` tile in [Home](https://www.notion.com/help/home).
-
-![HC: AI Meeting Notes](https://images.ctfassets.net/spoqsaf9291f/2wIymhTp0123btQpVbApgK/0f53efa6d85cc0f62eec706533f025c1/Random_Image_1__1_.png)
-
-### Start and stop transcription
-
-To transcribe your meeting:
-
-1. Select `Start transcribing`. By doing this, you’re confirming that everyone in the meeting has given their consent for the meeting to be recorded and transcribed.
-
-2. Once the meeting is over and you want to stop transcribing, select `Stop`. The AI summary will automatically start generating. Note that at least one minute of recorded audio is required to generate a summary.
-
-3. If you’d like to resume your recording, click the slider icon at the top of the meeting notes block → `Resume transcription`.
-
 **Note:** To use AI Meeting Notes, Notion requires access to your system audio and screen recording permissions.
 
 This allows us to transcribe other participants' audio when you're using headphones during virtual meetings.
 
-### Change summary format
+To create AI Meeting Notes, type `/meet` into any page in the desktop app. If you’re on a web browser, you’ll be prompted to open the Notion desktop app or download it if you haven’t already.
+
+![HC: AI Meeting Notes](https://images.ctfassets.net/spoqsaf9291f/2wIymhTp0123btQpVbApgK/0f53efa6d85cc0f62eec706533f025c1/Random_Image_1__1_.png)
+
+**Tip:&#x20;**&#x59;ou can also access AI Meeting Notes directly from the `Upcoming events` tile in [Home](https://www.notion.com/help/home).
+
+* Write any agenda items or context under `Notes` before the meeting. When generating the summary, Notion AI will take these notes into consideration.
+
+* Once the meeting has started, select `Start transcribing`. By doing this, you’re confirming that everyone in the meeting has given their consent for the meeting to be recorded and transcribed.
+
+* Once the meeting is over and you want to stop transcribing, select `Stop`. The AI summary will automatically start generating. Note that at least one minute of recorded audio is required to generate a summary.
+
+* If you’d like to resume your recording, click the slider icon at the top of the meeting notes block → `Resume transcription`.
+
+## Change summary format
 
 AI Meeting Notes can structure notes based on the type of meeting you’re having, like a sales call, standup, or team meeting. To change the format of your AI Meeting Notes summary:
 
@@ -76,6 +72,8 @@ AI Meeting Notes can structure notes based on the type of meeting you’re havin
 
 ## Consent message
 
+**Note:** The consent message plays through your **computer speakers**, not your conferencing mic. Be sure to unmute your speakers and disconnect any headphones so everyone in the room can hear it clearly.
+
 Once the block is selected, you will be reminded to **disclose your use of AI Meeting Notes and obtain consent** from all meeting participants before proceeding.
 
 To help you request consent, you’ll have a few easy options:
@@ -87,8 +85,6 @@ To help you request consent, you’ll have a few easy options:
   * You can change the voice by clicking the slider icon at the top of the meeting notes block and selecting different voices for different languages. Notion will automatically use your meeting's language to play the appropriate voice.
 
 * **Say it out loud**: A simple ask works too. For example, you could ask, “Alright if I record and transcribe this meeting using Notion AI Meeting Notes?”
-
-**Note:** The consent message plays through your **computer speakers**, not your conferencing mic. Be sure to unmute your speakers and disconnect any headphones so everyone in the room can hear it clearly.
 
 ## Choose a default database for AI Meeting Notes
 
@@ -150,7 +146,7 @@ To connect AI Meeting Notes to Notion Calendar for the first time:
 
    * If you don’t see that option, this means your workspace is already connected to Notion Calendar.
 
-2. At the top of Notion Calendar, click your profile icon → `Settings`. <!-- -->You’ll find a list of your connected Notion workspaces under the `Notion workspaces` section of the settings sidebar. For each connected workspace, you can:
+2. At the top of Notion Calendar, click your profile icon → `Settings`. You’ll find a list of your connected Notion workspaces under the `Notion workspaces` section of the settings sidebar. For each connected workspace, you can:
 
    * Choose where to store meeting notes (we recommend a meeting notes database). By default, this will be the `Private` section of your Notion workspace, but you can set it to any destination. Note that this setting is different from the default database that you can designate in **Notion** settings. If you want all your AI Meeting Notes to be stored in the same place, make sure to set the same default meeting notes location in both Notion Calendar and Notion!
 
@@ -163,6 +159,46 @@ There are a few ways to connect AI Meeting Notes with existing events in Notion 
 * In the `Upcoming events` section of Notion `Home`, hover over an event and select the AI Meeting Notes icon. You won’t see this option for all-day events.
 
 * Select an event in Notion Calendar, click on the `AI Meeting Notes and Docs` field, and add meeting notes.
+
+## Meetings in sidebar
+
+**Note:** This feature is still rolling out to users. Thanks for your patience as we make it available to you soon!
+
+Select `Meetings` in your Notion sidebar to manage your AI Meeting Notes in one place. Here, you can view your upcoming meetings and your previous AI Meeting Notes.
+
+### Upcoming meetings
+
+Prepare for your upcoming meetings in this section. You can easily see what meetings are coming next, prepare your meeting notes in advance, and start your transcription directly from here.
+
+You can hover over an upcoming meeting and:
+
+* Quickly `Join meeting` without having to leave Notion.
+
+* `Create meeting note` in a specific page or database in your workspace. Before the meeting starts, you can create the AI Meeting Notes in advance and add any notes or agenda items in advance of the meeting. Once the meeting starts, you can easily access the AI Meeting Notes, and start transcribing right away.
+
+**Note:**
+
+* You’ll need to [connect Notion Calendar to your Notion workspace](https://www.notion.com/help/use-notion-calendar-with-notion#connect-notion-workspaces-to-notion-calendar) to see your upcoming meetings in the `Meetings` tab. You’ll also see a nudge in the `Meetings` tab to make the connection if you haven’t yet.
+
+* The email you use for your Notion workspace must match the email you use for Notion Calendar.
+
+* Only events tied to your Notion workspace email will appear in `Upcoming meetings`.
+
+* If your [Upcoming events](https://www.notion.com/help/home-and-my-tasks#upcoming-events) in `Home` is set to `Mirror calendar app`, note that any calendars you’ve hidden in Notion Calendar will also not be reflected in the `Meetings` tab.
+
+### AI Meeting Notes list view
+
+In the `Meetings` tab, you’ll also be able to see a consolidated view of all your meeting notes. The list view in your `Meetings` tab is different from your [default database for storing AI Meeting Notes](https://www.notion.com/help/ai-meeting-notes#choose-a-default-database-for-ai-meeting-notes) — it shows you meeting notes you created as well as meeting notes linked to calendar events that you attended, regardless of where those meeting notes are stored in your workspace. This allows you to quickly find any notes you need.
+
+Here, you can filter, sort, and search your notes. You can also easily rename and open them.
+
+You can also open the slider menu at the top of the list to adjust view settings. For example, you can choose which properties are visible or adjust how your meeting notes are grouped.
+
+Select `New` at the top of the list view to create new AI Meeting Notes.
+
+### Hide meetings tab
+
+If you don’t want the `Meetings` tab in your Notion sidebar, you can turn it off by going to `Settings` → `Notion AI` and toggling on `Hide meetings tab`.
 
 ## Legal considerations for recording and transcribing communications
 

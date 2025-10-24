@@ -42,29 +42,31 @@ To connect your Slack workspace to Notion AI:
 
    ![hc: notion ai connector set up in slack](https://images.ctfassets.net/spoqsaf9291f/2pxvevkde57cZHRFdnOcbJ/bef67dcdcb3f9c0218127794b25a051c/Help_Existing_AI_Connectors.png)
 
-4. **If you’re a Slack workspace owner**, you’ll be able to select the Slack workspace and channels you want to connect. You can select `All public channels` or specific public channels. You also have the option to include public channels created in the future. This won’t include public channels containing external users, like Slack Connect channels. You also won’t be able to connect any private channels or private DMs.
+4. **If you’re a Slack workspace owner**, you’ll be able to select the Slack workspace and channels you want to connect. You can select `All public channels` or specific public channels. You also have the option to include public channels created in the future. This won’t include public channels containing external users, like Slack Connect channels.
 
-   * **If you’re not a Slack workspace owner**, you can request this integration. Your Slack workspace owner or approved Slack members will be notified. Once your request is approved, you can choose the Slack channels you want to connect. **Make sure you’re requesting the integration for the right Notion workspace!**
+   * **If you’re not a Slack workspace owner**, you can request this integration. Your Slack workspace owner or approved Slack members will be notified. **Make sure you’re requesting the integration for the right Notion workspace!**
 
 5. Once Notion AI has joined those public channels, depending on how your Slack owner has set up your [workspace settings](https://slack.com/help/articles/115002695043-Manage-join-and-leave-messages-), a message will be sent in those public channels to say Notion AI has joined them and will join all future public channels. **This message won’t show up in Slack channels with external users.**
+
+   * Additionally, individual members of a Notion workspace where the Slack AI Connector has been set up can connect private channels and direct messages to Notion. Each user can only see what they have access to in Slack!
 
 Once the integration is set up, it will be able to find messages going back a year from when the setup is complete. For example, if you connect Slack with Notion AI on June 1, 2024, Notion AI will be able to find information from messages in Slack sent on June 1, 2023 and later.
 
 This process can take up to 36 hours.
 
-### Which Slack channels can be connected to Notion AI?
+### Which Slack channels and messages can be connected to Notion AI?
 
 When you connect Slack to Notion AI, you have the option to select specific public Slack channels you’d like to connect. Alternatively, you can choose to connect all public channels, including ones that are created in the future.
 
 These public channels will not include any Slack Connect channels that you use to communicate with external partners.
+
+On top of this, individual members of a Notion workspace where the Slack AI Connector has been set up have the option to connect their private channels and direct messages to Notion. Each user can only see what they have access to in Slack!
 
 **Note:**
 
 * The Slack AI connector doesn't index Canvases and Lists.
 
 * You can't automatically opt-in to all public channels; this needs to be set up manually by admins and users.
-
-* At this time, you also can’t connect private Slack DMs and private Slack channels to Notion AI. Content from bots is also excluded from search results.
 
 * New messages may need about 30 minutes to be indexed before they appear in search results.
 
@@ -113,7 +115,7 @@ You can narrow your search to just Slack by opening the `All sources` toggle in 
 
 Notion AI will honor existing permissions according to our existing [Notion AI Security Practices](https://www.notion.com/help/notion-ai-security-practices). Users will not be able to generate content or receive responses based on resources they do not have access to.
 
-Specific to third party content, Notion AI is handling both private and public content with security in mind, only ingesting content according to the permissions mapping between Slack and Notion users.
+Specific to third party content, Notion AI is handling both private and public content with security in mind, only fetching content according to the permissions mapping between Slack and Notion users.
 
 
 ### How are permissions mapped?
@@ -164,19 +166,14 @@ No, Notion AI only searches public Slack channels, and during initial setup, our
 
 Additionally, you have the option to continuously include all public channels that are created after initial setup. This configuration requires approvals via the Notion workspace owner and the Slack admin.
 
+On top of this, individual members of a Notion workspace where the Slack AI Connector has been set up have the option to connect their private channels and direct messages to Notion. Each user can only see what they have access to in Slack!
+
 
 ### How does Notion store or reference my Slack data in its systems?
 
 Slack<!-- --> content is stored as embeddings using vector databases like Turbopuffer. These embeddings allow for efficient searches and comparisons across different pieces of text to provide accurate and relevant responses to your questions.
 
 Notion’s vector databases have been vetted by our Security team as well as by an external auditor to obtain their SOC2 Type II certification. See [this article](https://www.notion.com/help/notion-ai-security-practices) for more information.
-
-
-### Why does the “This app is not approved by Slack” banner appear?
-
-Users will see a This app is not approved by Slack banner because Slack does not approve apps that enable certain types of search functionality, like searching Slack content externally, making formal approval for Notion AI unlikely.
-
-However, the integration is secure, follows Slack’s policies, and is commonly connected directly through Notion. The lack of approval is a policy limitation, not a security issue. Notion AI only accesses data users are authorized to see, stores it securely in a SOC2 Type II environment, and does not use customer data to train AI models.
 
 
 ### I connected the wrong Notion workspace. How can I disconnect my Slack workspace from Notion?

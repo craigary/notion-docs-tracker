@@ -14,7 +14,7 @@ category: Notion Mail
 
 * If you're using Notion Mail with an email that isn't connected to a workspace that has Notion AI, [change your email](https://www.notion.com/help/account-settings#change-your-email-address) in your Notion AI-enabled workspace to the one you're using with Notion Mail. You'll then be able to use Notion AI features in Notion Mail.
 
-* If you want to use Notion AI features in Notion Mail with multiple email addresses, each of those email addresses will need to be connected to a Notion workspace that has the Notion AI add-on. This means that you can purchase the add-on for each of your Notion accounts that you want to use Notion Mail with, or add your desired email addresses as members in an existing Notion workspace that has Notion AI added. Note that these are billable actions.
+* If you want to use Notion AI features in Notion Mail with multiple email addresses, each of those email addresses will need to be connected to a Notion workspace that has Notion AI.
 
 ## Label emails
 

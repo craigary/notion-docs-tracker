@@ -16,7 +16,7 @@ category: Notion AI
 
 * You must be a Google Drive admin and Notion workspace owner.
 
-* Your workspace must be on the Business or Enterprise Plan and have more than one member.
+* Your workspace must be on the Business or Enterprise Plan.
 
 * You must be on one of Google Workspace’s paid plans as listed [here](https://workspace.google.com/lp/business/).
 

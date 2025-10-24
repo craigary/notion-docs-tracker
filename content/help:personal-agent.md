@@ -30,7 +30,7 @@ Find the friendly face at the bottom of Notion to chat with your Agent. As soon 
 
 * Enter your question or query. With Agent, you can now ask more complex questions and ask it to handle multi-step tasks.
 
-  * By default, Agent will take in the context of the page you’re currently in. You can also give it additional context by selecting `@` at the top of the text field, then selecting a particular page or person in your workspace.
+  * By default, Agent will take in the context of the page you’re currently in. You can give it additional context by selecting `@` at the top of the text field, then selecting a particular page or person in your workspace. Additionally, you can select `All sources` in a chat and select one or multiple sources that you want Agent to look at.
 
   * You can also @-mention specific pages or people directly in your query.
 
