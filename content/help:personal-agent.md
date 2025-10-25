@@ -74,13 +74,13 @@ Find the friendly face at the bottom of Notion to chat with your Agent. As soon 
 
   * "Create a four‑week LinkedIn calendar using our latest blogs, release notes, and webinars. Link sources and avoid launch conflicts."
 
-* Ingest files like PDFs and answer questions about them, or turn them into structured pages or databases.
+* Ingest files like PDFs and CSVs and answer questions about them, or turn them into structured pages or databases.
 
   Try uploading a file with these prompts:
 
   * “What are the key action items from this document?”
 
-  * "Analyze customer feedback responses from CSV. Produce themes, sentiment, and specific recommendations with citations back to each source note."
+  * "Analyze customer feedback responses from this CSV. Produce themes, sentiment, and specific recommendations with citations back to each source note."
 
 * Analyze data and generate summaries and insights.
 

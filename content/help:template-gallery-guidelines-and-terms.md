@@ -54,7 +54,7 @@ These are the guiding principles for content that is published in the Notion Mar
 
 2. Originality: Your Work must be original content or use content that you have the rights to use. Your Work should offer unique value compared to existing content on the Notion Marketplace.
 
-3. User Experience: Your Work should be easy to use and understand, with clear instructions in the form of call-outs, videos or placeholder content for customization and use. They should be structured in a way that's intuitive for new and existing users alike.
+3. User Experience: Your Work should be easy to use and understand, with clear instructions in the form of call-outs, videos or placeholder content for customization and use. They should be structured in a way that’s intuitive for new and existing users alike. Templates should be submitted as standalone pages rather than database subpages to ensure optimal functionality and user experience.
 
 4. Privacy and Security: Your Work must respect user privacy and data security. If Your Work requests personal information it must clearly explain its use and comply with applicable data protection regulations.
 
@@ -66,7 +66,7 @@ These are the guiding principles for content that is published in the Notion Mar
 
 8. Recent: Submissions must reflect the latest Notion features and best practices.
 
-9. Accurate: Listings must have descriptions, images and videos that accurately reflect the content and language of Your Work. If Your Work is sold, the price must be clearly stated and in the currency in which it is sold.
+9. Accurate: Listings must have descriptions, images and videos that accurately reflect the content and language of Your Work. Screenshots must meet our quality and presentation standards. If Your Work is sold, the price must be clearly stated and in the currency in which it is sold.
 
 ## Customer contact information
 

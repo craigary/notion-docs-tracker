@@ -18,10 +18,10 @@ Report inappropriate content
 
 How to protect yourself from malvertising
 
+How Notion 3.0 protects against prompt injection risks
+
 Data residency for Notion
 
 Shared Responsibilities Model
 
 Dormant account policy
-
-How Notion 3.0 protects against prompt injection risks

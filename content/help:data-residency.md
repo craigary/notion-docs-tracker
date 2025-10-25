@@ -12,7 +12,9 @@ Data residency, along with [Notion's security practices](https://www.notion.com/
 
 ## Who can use this feature?
 
-Only Enterprise Plan customers who are **sales-assisted** (in other words, customers who are working with an account team), can **migrate their existing data to the EU region**.**&#x20;**&#x43;ustomers who aren't currently working with an account team cannot switch regions at this time. Contact your account team to set up data residency migration for an existing workspace. If you do not contact your account team and receive confirmation of data residency migration, your workspace will remain hosted in the United States.
+Only Enterprise Plan customers who are **sales-assisted** (in other words, customers who are working with an account team), can **migrate their existing data to the EU region**.**&#x20;**&#x43;ontact your account team to set up data residency migration for an existing workspace. If you do not contact your account team and receive confirmation of data residency migration, your workspace will remain hosted in the United States.
+
+Customers who aren't currently working with an account team can request migrations by contacting email protected.
 
 ## How does data residency work?
 

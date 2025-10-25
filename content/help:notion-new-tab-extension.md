@@ -10,7 +10,7 @@ category: Notion apps
 
 ## Install the extension
 
-Download the Notion New Tab extension for Google Chrome here →
+Download the Notion New Tab extension for Google Chrome [here →](https://chromewebstore.google.com/detail/notion-new-tab/kjcicdfeimjbphbhfhhemfkfhogikick?authuser=0\&hl=en)
 
 If you’re not already logged into Notion in your browser, you’ll be prompted to log in or create an account.
 
