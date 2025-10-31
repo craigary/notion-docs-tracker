@@ -46,6 +46,6 @@ Research Mode
 
 Microsoft Outlook AI Connector
 
-Personal Agent
+Notion Agent
 
 Notion Mail AI Connector (beta)
