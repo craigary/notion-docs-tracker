@@ -58,6 +58,12 @@ To create AI Meeting Notes, type `/meet` into any page in the desktop app. If yo
 
 * If you’d like to resume your recording, click the slider icon at the top of the meeting notes block → `Resume transcription`.
 
+## Transcript segmentation and citations
+
+When AI Meeting Notes detects that the person speaking has changed, it will start transcribing on a new line. However, speakers won’t be identified or labeled.
+
+You’ll also find citations to your transcript in your meeting notes summary. Hover over a citation to see the snippet of your transcript that’s been referenced. You can also click on a citation to jump to the corresponding line in your transcript.
+
 ## Change summary format
 
 AI Meeting Notes can structure notes based on the type of meeting you’re having, like a sales call, standup, or team meeting. To change the format of your AI Meeting Notes summary:
