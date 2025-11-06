@@ -206,7 +206,7 @@ You can export all your files from WorkFlowy at once!
 
 ## PDF
 
-**Note:** This feature is in beta, which means it’s still a work in progress. Thank you for your patience!
+**Note:&#x20;**&#x54;his feature is in beta, which means it’s still a work in progress and may not be available to you yet. Thank you for your patience!
 
 There are several ways to import a PDF into Notion:
 

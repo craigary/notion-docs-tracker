@@ -50,7 +50,7 @@ Find the friendly face at the bottom of Notion to chat with your Agent. As soon 
 
   * "Document our deployment process by reconciling recent deployment notes, runbooks, and incident postmortems. Output a step-by-step SOP with preflight checks and rollback steps, and highlight areas needing owner confirmation."
 
-* Answer questions about content in your workspace and your connected apps like Slack via Notion AI Connectors. Your Notion Agent can query your databases too, including specific properties.
+* Answer questions about content in your workspace and your connected apps like Slack via Notion AI Connectors. Your Notion Agent can query your databases too, including specific properties. It can also read comments and search version history.
 
   Try these prompts:
 
@@ -66,7 +66,7 @@ Find the friendly face at the bottom of Notion to chat with your Agent. As soon 
 
   * "Based on our PRD and alpha feedback, draft three launch email versions for enterprise, SMB, and trial users. Include quotes and apply learnings from recent releases."
 
-* Create and edit databases. Your Notion Agent can create or edit database views and properties, including relations to other databases.
+* Create and edit databases. Your Notion Agent can create or edit database views, including maps and forms. It can also create or edit properties, including relations to other databases.
 
   Try these prompts:
 
@@ -85,6 +85,8 @@ Find the friendly face at the bottom of Notion to chat with your Agent. As soon 
 * Analyze data and generate summaries and insights.
 
   Try this prompt: “Can you compare actuals vs. budget, and highlight variances over 10% with explanations?”
+
+* Create, edit, and evaluate formulas.
 
 ## Personalize your Agent
 
@@ -150,7 +152,7 @@ Your Notion Agent can't:
 
 * Create forms, database automations, database templates, database page layouts, or advanced properties like formulas, rollups, or buttons.
 
-* Read, create, or edit comments, both inline and at the top of a page.
+* Create or edit comments, both inline and at the top of a page.
 
 * Share pages or change page permission levels.
 
