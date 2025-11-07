@@ -84,7 +84,7 @@ Learn more about logging in and out of Notion in [this article →](https://www.
 
 ## Delete your account
 
-Learn more about deleting your account [here →](https://www.notion.com/help/account-settings)
+Learn more about deleting your account [here →](https://www.notion.com/help/delete-your-account)
 
 ## Log out of all your devices
 
