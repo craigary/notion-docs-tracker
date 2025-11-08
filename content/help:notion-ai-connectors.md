@@ -20,17 +20,17 @@ Today, [Notion AI](https://www.notion.com/help/notion-ai-faqs) enables you to as
 
 Notion AI Connectors are available for the following apps:
 
-| **Chat**                                                                               | **Knowledge**                                                                                                            | **Projects**                                                         | **Notion apps**                                                                              |
-| -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
-| [Slack](https://www.notion.com/help/notion-ai-connectors-for-slack)                    | [Google Drive](https://www.notion.com/help/notion-ai-connectors-for-google-drive)                                        | [Jira](https://www.notion.com/help/jira-ai-connector)                | [Notion Mail](https://www.notion.com/help/notion-mail-ai-connector) (available on all plans) |
-| [Microsoft Teams](https://www.notion.com/help/notion-ai-connector-for-microsoft-teams) | [Microsoft SharePoint & OneDrive](https://www.notion.com/help/notion-ai-connector-for-microsoft-sharepoint-and-onedrive) | [GitHub](https://www.notion.com/help/notion-ai-connector-for-github) |                                                                                              |
-|                                                                                        |                                                                                                                          | [Linear](https://www.notion.com/help/notion-ai-connector-for-linear) |                                                                                              |
+| **Chat**                                                                               | **Knowledge**                                                                                                            | **Projects**                                                         | **Email and calendars**                                                         | **Notion apps**                                                                                      |
+| -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| [Slack](https://www.notion.com/help/notion-ai-connectors-for-slack)                    | [Google Drive](https://www.notion.com/help/notion-ai-connectors-for-google-drive)                                        | [Jira](https://www.notion.com/help/jira-ai-connector)                | [Gmail](https://www.notion.com/help/notion-ai-connector-for-gmail)              | [Notion Mail](https://www.notion.com/help/notion-mail-ai-connector) (available on all plans)         |
+| [Microsoft Teams](https://www.notion.com/help/notion-ai-connector-for-microsoft-teams) | [Microsoft SharePoint & OneDrive](https://www.notion.com/help/notion-ai-connector-for-microsoft-sharepoint-and-onedrive) | [GitHub](https://www.notion.com/help/notion-ai-connector-for-github) | [Microsoft Outlook](https://www.notion.com/help/microsoft-outlook-ai-connector) | [Notion Calendar](https://www.notion.com/help/notion-calendar-ai-connector) (available on all plans) |
+|                                                                                        |                                                                                                                          | [Linear](https://www.notion.com/help/notion-ai-connector-for-linear) |                                                                                 |                                                                                                      |
 
 You can search your connected apps via Notion AI Connectors in the following places:
 
 * The Notion AI chat in the bottom right of Notion.
 
-* The Notion AI widget at the top of `Home`.
+* `Notion AI` in your sidebar.
 
 * `Search` in your sidebar.
 

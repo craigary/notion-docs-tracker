@@ -18,9 +18,9 @@ GitHub AI Connector
 
 Google Drive AI Connector
 
-Linear AI Connector
-
 Jira AI Connector (beta)
+
+Linear AI Connector
 
 Microsoft Teams AI Connector (beta)
 
@@ -38,14 +38,16 @@ Notion’s commitment to AI safety
 
 Notion MCP
 
-Enterprise Search
-
-Gmail AI Connector (Beta)
-
-Research Mode
+Notion Calendar AI Connector (beta)
 
 Microsoft Outlook AI Connector
 
-Notion Agent
+Research Mode
+
+Enterprise Search
 
 Notion Mail AI Connector (beta)
+
+Gmail AI Connector (Beta)
+
+Notion Agent

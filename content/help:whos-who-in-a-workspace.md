@@ -54,8 +54,6 @@ Guests share many capabilities with members, except:
 
 * They can't be given workspace-wide access. They must be invited to individual pages in order to view them and their sub-pages.
 
-* They can't create new pages outside of the ones they have access to.
-
 * They can't be added to groups of members.
 
 * They can't adjust workspace settings or billing information.
@@ -63,6 +61,8 @@ Guests share many capabilities with members, except:
 * They can't add new members to your workspace.
 
 * They can't add new integrations to your workspace.
+
+Once a guest has requested to join your workspace as a member, they’ll be able to create private pages in your workspace.
 
 ## Workspace owners
 
@@ -108,7 +108,7 @@ To remove a member or guest from a workspace, a workspace owner or a membership 
 
    * Open the dropdown for a member’s role or access level, then select `Remove from workspace`.
 
-   * Open the dropdown for a guest’s pages or select `•••` next to a guest,<!-- --> then select `Remove` or `Remove from workspace`.
+   * Open the dropdown for a guest’s pages or select `•••` next to a guest, then select `Remove` or `Remove from workspace`.
 
 **Note:**
 
