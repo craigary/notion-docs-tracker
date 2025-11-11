@@ -124,8 +124,6 @@ To downgrade your plan:
 
 4. You’ll receive confirmation of your downgrade, and see when your current plan ends.
 
-**Note:&#x20;**&#x49;f you’re subscribed to the Plus Plan with the AI add-on via Google Play Store and you want to remove AI from your plan, you’ll need to downgrade to the Free Plan first and then upgrade to the Plus Plan (with no Notion AI add-on).
-
 
 ## FAQs
 
