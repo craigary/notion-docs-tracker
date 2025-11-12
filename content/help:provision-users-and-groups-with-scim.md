@@ -84,6 +84,14 @@ To control whether users will receive invitations to workspaces and groups via e
 
 2. In the `General` tab, toggle on `Suppress invite emails from SCIM provisioning` if you don’t want to send emails to users.
 
+### Provision restricted members through SCIM
+
+To provision a [restricted member](https://www.notion.com/help/whos-who-in-a-workspace#restricted-members) through SCIM, you must set the SCIM ‘role’ attribute to ‘restricted\_member’:
+
+`"urn:ietf:params:scim:schemas:extension:notion:2.0:User": { role: string // "owner" | "membership_admin" | "member" | "restricted_member" }`
+
+To transition a page guest to a restricted member through SCIM, you must use `POST /scim/v2/Users`.
+
 ## Service Provider Configuration
 
 * `GET /ServiceProviderConfig`

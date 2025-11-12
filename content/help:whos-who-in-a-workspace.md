@@ -12,6 +12,8 @@ A Notion workspace can have several types of users or roles:
 
 * Members
 
+* (Enterprise Plan only) Restricted members
+
 * Guests
 
 * Workspace owners
@@ -29,6 +31,40 @@ Members are individuals **in your company or organization**. These could be coll
 Members can be added to workspaces on the Free Plan at no charge. Workspaces with more than one member will be able to use up to 1,000 blocks in that workspace. If you want unlimited block usage on the Free Plan, you’ll need to make sure your workspace only contains one person. To do this, you can avoid adding new members, remove existing members, and add any collaborators as [guests](https://www.notion.com/help/add-members-admins-guests-and-groups). You can learn more about this [here →](https://www.notion.com/help/understanding-block-usage)
 
 On paid plans, you’ll pay for each member that’s added to the workspace.
+
+## Restricted members
+
+**Note:** This feature is only available to users on the Enterprise Plan.
+
+Restricted members share many capabilities with regular workspace members — they can create private pages, use Notion AI (<!-- -->respecting restricted members’ permissions),<!-- --> log in with SSO, be added to permission groups, and more. **They also affect your billing in the same way as adding a workspace member.**
+
+There are a few ways that restricted members are different from regular workspace members, including:
+
+* They need to be added to specific teamspaces and pages to be able to access them.
+
+* They can’t create teamspaces.
+
+* They can only share pages with members who have been added to the same teamspaces and pages as them.
+
+* They can only @-mention members with whom they share access to a page or teamspace.
+
+You can find controls related to restricted members in `Settings` — learn more [here →](https://www.notion.com/help/workspace-settings#workspace-security)
+
+### Restricted members in teamspaces
+
+The teamspace member role encapsulates both members and restricted members. This means that a restricted member can’t have a lower level of access than a regular member.
+
+If you want to assign a lower level of access to restricted members in a teamspace, you’ll need to use permission groups or individual permissions. To do this:
+
+1. Create a new IDP or permission group that includes all **workspace members** that should be part of the teamspace. For example, you could call it “Teamspace A members”.
+
+2. Change the teamspace member’s access level to the level that you want to assign to **restricted members**.
+
+   ![hc: change regular member access level in a teamspace](https://images.ctfassets.net/spoqsaf9291f/43tutzDbshTboBD6nNMFwM/90e9f1c61ff1561689c7c85ab9786abc/Image_from_Notion.png)
+
+3. Add the permission group (for example, “Teamspace A members”) to the teamspace, and give it the access level you’d like.
+
+   ![hc: assign permission group to restricted members in a teamspace](https://images.ctfassets.net/spoqsaf9291f/5Rcztor4H3dhGIyzifSr7B/c60cd83780268e8cf588eb30096d6988/Image_from_Notion__1_.png)
 
 ## Guests
 
@@ -121,3 +157,20 @@ To remove a member or guest from a workspace, a workspace owner or a membership 
 * [Manage members & guests](https://www.notion.com/help/add-members-admins-guests-and-groups)
 
 * [Notion pricing](https://www.notion.com/pricing)
+
+
+## FAQs
+
+### How can I decide whether to add someone as a guest or a restricted member?
+
+You can add someone as a guest if:
+
+* You don’t need to manage them through SCIM or permission groups.
+
+* They only need access to a very specific list of pages.
+
+You can add someone as a restricted member if:
+
+* They need a broader level of access to your workspace, like the ability to interact with all pages in a teamspace.
+
+* You want them to be able to use AI features in your workspace, with Notion AI respecting the restricted member’s permissions.
