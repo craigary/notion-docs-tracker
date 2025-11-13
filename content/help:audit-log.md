@@ -364,6 +364,8 @@ Page event audience will also export as a column in CSV exports.
 
 * **Preferred name changed:** That a user has updated their account's preferred name
 
+* **Authorized via Workspace SAML**: Verified workspace access via SAML SSO.
+
 **Note:&#x20;**&#x49;f you are trying to find a deleted user or a user who has changed their name to a new name, the best way to do this is through an exported audit log.
 
 ## Export your audit log

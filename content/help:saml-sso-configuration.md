@@ -88,6 +88,26 @@ In the event of IdP or SAML failure, certain users will be able to bypass SAML S
 
 * If a SAML configuration is managed at the workspace level, only workspace owners will be able to bypass SSO.
 
+## Require SAML SSO authorization for workspace access
+
+**Note:** This feature is only available to users on the Enterprise Plan.
+
+Workspace-level SAML authorization allows enterprises to require SAML SSO for workspace access, regardless of a user's email domain. This enables safer external collaboration in your workspace.
+
+To enable workspace-level SAML authorization:
+
+1. Open the workspace switcher and select `Manage organization`. You may need to `Set up organization` first if you haven’t already. Learn more [here →](https://www.notion.com/help/organization-level-controls)
+
+2. In the `General` tab of your organization settings, toggle on `Require SAML authorization for workspace access`.
+
+   ![hc: workspace-level saml authorization setting](https://images.ctfassets.net/spoqsaf9291f/1epns43NOHbsOt45SlSx05/ef7d1f5d68e0bc9372279469ce64b1c8/SAML_Authorization_Highlight_1.png)
+
+**Note:** Before enabling, ensure all members are added to your Identity Provider (IdP) to prevent accidental lockouts from the workspace.
+
+When enabled, members of the affected workspaces who haven’t already authorized with your organization’s IdP will be met with an additional authorization screen. They’ll need to go through SAML SSO to continue viewing your organization’s workspaces.
+
+![hc: authorization screen for workspace saml](https://images.ctfassets.net/spoqsaf9291f/3NFHwX8Ulb7frDAnADxv2e/d5afcf93870db935512871e2ebdad146/User_Auth_Page_-_SAML_Authorization.png)
+
 ## Just-in-Time (JIT) provisioning
 
 Notion supports Just-in-Time provisioning when using SAML SSO. This allows someone signing in via SAML SSO to join the workspace automatically as a member.

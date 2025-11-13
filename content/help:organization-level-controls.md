@@ -56,7 +56,9 @@ The `General` tab gives you a birds-eye view of your organization, including its
 
 * Select `Manage email domains` to verify the email domains associated with your organization.
 
-* Set up [SAML Single sign-on](https://www.notion.com/help/saml-sso-configuration)` (SSO)`and [SCIM provisioning](https://www.notion.com/help/provision-users-and-groups-with-scim) for your workspaces.
+* Set up [SAML Single sign-on](https://www.notion.com/help/saml-sso-configuration)` (SSO)` and [SCIM provisioning](https://www.notion.com/help/provision-users-and-groups-with-scim) for your workspaces.
+
+* Require users to authorize with SAML SSO when trying to access workspaces in your organization.
 
 * Delete your organization.
 

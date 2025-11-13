@@ -350,6 +350,8 @@ For page events, the page audience describes the visibility level of the target 
 
 * **user.settings.login\_method.password\_updated**: A user updated their password.
 
+* **Authorized via Workspace SAML**: Verified workspace access via SAML SSO.
+
 **Integration**
 
 * **integration.created**: A developer created an internal integration and associated it with the workspace.
