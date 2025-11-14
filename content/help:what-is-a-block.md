@@ -1,10 +1,10 @@
 ---
 title: What is a block?
 emoji: 🧱
-description: Think of Notion as a bottomless bin of building blocks. Build whatever you want, however you want! Every page you create in Notion will be composed of many "blocks," in the same way a LEGO castle is composed of many LEGO bricks 🧱
+description: Think of Notion as a bottomless bin of building blocks. Build whatever you want, however you want 🧱
 url: https://www.notion.com/help/what-is-a-block
 key: help:what-is-a-block
-coverImage: https://images.ctfassets.net/spoqsaf9291f/1whCueND7aKDj7djO0JXgq/cf9a7c16114c54ad9f780df7fbdbe7fa/What_is_a_block_-_hero_v2.png
+coverImage: https://img.youtube.com/vi/GJlXHJYctOQ/maxresdefault.jpg
 category: Getting started
 ---
 
