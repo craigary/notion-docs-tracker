@@ -38,6 +38,8 @@ Notion’s commitment to AI safety
 
 Notion MCP
 
+Google Calendar AI Connector
+
 Notion Calendar AI Connector (beta)
 
 Microsoft Outlook AI Connector

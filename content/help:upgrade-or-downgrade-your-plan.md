@@ -181,7 +181,7 @@ Whether you're on a monthly or yearly billing schedule, your account may be char
 
 Your Notion subscription, annual or monthly, will automatically renew until you cancel it. You can cancel your subscription by going to `Settings` in the left-hand sidebar on a desktop computer, then selecting `Billing`, then `Change plan`. After you cancel, you’ll still have access to all the paid features until the end of your billing cycle.
 
-Learn more about billing in [this article](https://www.notion.com/help/billing-and-payment-info).
+Learn more about billing in [this article](https://www.notion.com/help/billing).
 
 
 ### What happens if my payment fails? Like if my credit card expires?
