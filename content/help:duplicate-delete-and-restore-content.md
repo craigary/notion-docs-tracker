@@ -74,7 +74,9 @@ On both iOS and Android, `Trash` is located in the `•••` menu in the t
 
 **Note:** A new version of a particular page will be recorded every 10 minutes as you actively edit it. Two minutes after you’ve made your last edit on a page, we will record another version.
 
-If you're on an Enterprise Plan, you can view the history of all changes made to **a page** **including** who made those changes and when. **If you're not on the Enterprise Plan, a more limited history of changes made to a page is available.&#x20;**&#x59;ou can view and restore past versions of any Notion page going back:
+If you're on an Enterprise Plan, you can view the history of all changes made to a page, including who made those changes and when.
+
+If you're not on the Enterprise Plan, a more limited history of changes made to a page is available.**&#x20;**&#x59;ou can view and restore past versions of any Notion page going back:
 
 * 7 days if you're on a Free Plan.
 
