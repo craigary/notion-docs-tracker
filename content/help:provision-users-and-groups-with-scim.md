@@ -114,30 +114,30 @@ To transition a page guest to a restricted member through SCIM, you must use `PO
 
 The table below outlines the mapping between SCIM user attributes and Notion user profile fields. Organization owners choose which attributes to send to Notion and may update such attributes at any time. Notion processes the attributes you send through the Notion SCIM API to improve the experience of provisioning and managing users and groups.
 
-| **SCIM Attribute**             | **Notion User Profile Field**                                                                                                             |
-| ------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| userName                       | Email (This field is required)                                                                                                            |
-| name.formatted                 | Name (The recommended name field. Since Notion has a single name field, you can create an expression in Okta to combine any name fields.) |
-| name.familyName                | Name (Can use in combination with name.givenName as an alternative to name.formatted.)                                                    |
-| name.givenName                 | Name (Can use in combination with name.familyName as an alternative to name.formatted.)                                                   |
-| photos                         | Profile Photo                                                                                                                             |
-| title                          | Title                                                                                                                                     |
-| enterprise.manager.value       | Manager (This should be an email address)                                                                                                 |
-| enterprise.manager.displayName | Manager                                                                                                                                   |
-| phoneNumbers                   | Phone Number                                                                                                                              |
-| addresses                      | Address                                                                                                                                   |
-| enterprise.division            | Division                                                                                                                                  |
-| enterprise.department          | Department                                                                                                                                |
-| enterprise.costCenter          | Cost Center                                                                                                                               |
-| enterprise.organization        | Organization                                                                                                                              |
-| enterprise.employeeNumber      | Employee Number                                                                                                                           |
-| roles                          | Roles                                                                                                                                     |
-| timezone                       | Timezone                                                                                                                                  |
-| locale                         | Locale                                                                                                                                    |
-| preferredLanguage              | Preferred Language                                                                                                                        |
-| userType                       | UserType                                                                                                                                  |
-| emails                         | Email                                                                                                                                     |
-| active                         | Active                                                                                                                                    |
+| **SCIM Attribute**  | **Notion User Profile Field**                                                                                                             | **External Namespace**                                           |
+| ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
+| userName            | Email (This field is required)                                                                                                            | `urn:ietf:params:scim:schemas:core:2.0:User`                     |
+| name.formatted      | Name (The recommended name field. Since Notion has a single name field, you can create an expression in Okta to combine any name fields.) | `urn:ietf:params:scim:schemas:core:2.0:User`                     |
+| name.familyName     | Name (Can use in combination with name.givenName as an alternative to name.formatted.)                                                    | `urn:ietf:params:scim:schemas:core:2.0:User`                     |
+| name.givenName      | Name (Can use in combination with name.familyName as an alternative to name.formatted.)                                                   | `urn:ietf:params:scim:schemas:core:2.0:User`                     |
+| photos              | Profile Photo                                                                                                                             | `urn:ietf:params:scim:schemas:core:2.0:User`                     |
+| title               | Title                                                                                                                                     | `urn:ietf:params:scim:schemas:core:2.0:User`                     |
+| phoneNumbers        | Phone Number                                                                                                                              | `urn:ietf:params:scim:schemas:core:2.0:User`                     |
+| addresses           | Address                                                                                                                                   | `urn:ietf:params:scim:schemas:core:2.0:User`                     |
+| roles               | Role                                                                                                                                      | `urn:ietf:params:scim:schemas:core:2.0:User`                     |
+| locale              | Locale                                                                                                                                    | `urn:ietf:params:scim:schemas:core:2.0:User`                     |
+| preferredLanguage   | Preferred Language                                                                                                                        | `urn:ietf:params:scim:schemas:core:2.0:User`                     |
+| userType            | User Type                                                                                                                                 | `urn:ietf:params:scim:schemas:core:2.0:User`                     |
+| emails              | Email                                                                                                                                     | `urn:ietf:params:scim:schemas:core:2.0:User`                     |
+| active              | Active                                                                                                                                    | `urn:ietf:params:scim:schemas:core:2.0:User`                     |
+| manager.value       | Manager (This should be an email address)                                                                                                 | `urn:ietf:params:scim:schemas:extension:``enterprise``:2.0:User` |
+| manager.displayName | Manager                                                                                                                                   | `urn:ietf:params:scim:schemas:extension:``enterprise``:2.0:User` |
+| division            | Division                                                                                                                                  | `urn:ietf:params:scim:schemas:extension:``enterprise``:2.0:User` |
+| department          | Department                                                                                                                                | `urn:ietf:params:scim:schemas:extension:``enterprise``:2.0:User` |
+| costCenter          | Cost Center                                                                                                                               | `urn:ietf:params:scim:schemas:extension:``enterprise``:2.0:User` |
+| organization        | Organization                                                                                                                              | `urn:ietf:params:scim:schemas:extension:``enterprise``:2.0:User` |
+| employeeNumber      | Employee Number                                                                                                                           | `urn:ietf:params:scim:schemas:extension:``enterprise``:2.0:User` |
+| role                | Notion workspace role ("owner" \| "membership\_admin" \| "member")                                                                        | `urn:ietf:params:scim:schemas:extension:``notion``:2.0:User`     |
 
 * `GET /Users`
 

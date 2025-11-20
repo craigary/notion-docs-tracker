@@ -24,9 +24,9 @@ Transfer content from a deprovisioned user
 
 Audit log
 
-Workspace analytics
-
 Add security & compliance integrations
+
+Workspace analytics
 
 Enterprise connection settings
 

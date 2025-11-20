@@ -29,3 +29,5 @@ People profiles
 Create & manage groups
 
 Who’s who in a workspace
+
+People Directory
