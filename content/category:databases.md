@@ -40,12 +40,12 @@ Gallery view
 
 Chart view
 
-Unique ID
-
-Forms
-
 Layouts
 
 Feed view
 
+Forms
+
 Map view
+
+Unique ID

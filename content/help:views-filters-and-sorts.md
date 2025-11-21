@@ -148,7 +148,7 @@ To delete a filter:
 
 3. Open the filter you want to delete and in the menu that appears, select `•••` → `Delete filter`.
 
-If you have sub-items turned on in your database, you can learn more about how to filter them [here →](https://www.notion.com/help/tasks-and-dependencies#sub-items)
+If you have sub-items turned on for your database, your visibility settings for sub-items will also impact your filtered results. Learn more about sub-item visibility<!-- --> [here →](https://www.notion.com/help/tasks-and-dependencies#sub-items)
 
 ## Sorts
 
