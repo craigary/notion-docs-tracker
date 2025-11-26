@@ -72,7 +72,7 @@ Here is an example of an embedding from [OpenAI](https://platform.openai.com/doc
 
 **How are embeddings protected?**
 
-Despite embeddings only being a numerical representation of Customer Data, Notion still treats embeddings with the same level of security and privacy considerations as Customer Data. All our Customer Data commitments outlined in our Master Service Agreement (MSA) and Data Processing Agreement (DPA) apply to embeddings. View our [Terms and Privacy Page](https://notion.notion.site/Terms-and-Privacy-28ffdd083dc3473e9c2da6ec011b58ac) for more information.
+Notion treats embeddings with the same level of security and privacy considerations as Customer Data. All our Customer Data commitments outlined in our Master Service Agreement (MSA) and Data Processing Agreement (DPA) apply to embeddings. View our [Terms and Privacy Page](https://notion.notion.site/Terms-and-Privacy-28ffdd083dc3473e9c2da6ec011b58ac) for more information.
 
 We store embeddings with vector databases like Turbopuffer. These vector databases have been vetted by our security team as well as an external auditor to obtain their SOC 2 Type 2 certification.
 
