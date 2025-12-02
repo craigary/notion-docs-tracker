@@ -19,11 +19,12 @@ Notion is currently available in the following languages, and we're working on a
 | German                  | Spanish (Spain)       |
 | Spanish (Latin America) | Portuguese (Brazil)   |
 | Chinese (simplified)    | Chinese (traditional) |
-| Dutch (beta)            | Norwegian (beta)      |
-| Swedish (beta)          | Danish (beta)         |
-| Finnish (beta)          | Korean                |
+| Dutch                   | Norwegian             |
+| Swedish                 | Danish                |
+| Finnish                 | Korean                |
 | Vietnamese              | Thai                  |
 | Bahasa Indonesia        |                       |
+|                         |                       |
 
 ## Change your language
 

@@ -106,6 +106,10 @@ To turn sub-items off:
 
 3. In the menu that appears, select `Sub-items` → `Turn off sub-items`.
 
+### Restricted pages
+
+Depending on the permissions of the database and the individual pages in the database, you may not be able to view all pages. `Nested in toggle` view will retain sub-item tree structure even if some pages are restricted.
+
 ## Dependencies
 
 Adding a dependency lets you connect tasks to each other in a linear way. Use a dependency when you want to communicate related tasks to your team.

@@ -114,6 +114,8 @@ You may be getting a pop-up asking you to grant Notion access to your screen and
 
 **How to fix it**
 
+* Try closing other applications and browser tabs to free up memory, then try again.
+
 * In your device’s settings, revoke screen and system audio access for Notion. Then quit Notion, restart your device, open Notion, and follow the prompts to grant access.
 
 * Make sure you’re on the latest version of the Notion desktop app. If not, upgrade to the latest version and see if that fixes the issue.

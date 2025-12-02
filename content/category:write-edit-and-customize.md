@@ -30,6 +30,6 @@ Math equations
 
 Keyboard shortcuts
 
-Use pages offline
-
 Duplicate public pages
+
+Use pages offline

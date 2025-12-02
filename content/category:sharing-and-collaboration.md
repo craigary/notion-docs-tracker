@@ -24,9 +24,9 @@ Page analytics
 
 Intro to teamspaces
 
-People profiles
-
 Create & manage groups
+
+People profiles
 
 Who’s who in a workspace
 
