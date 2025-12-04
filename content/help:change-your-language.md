@@ -23,8 +23,8 @@ Notion is currently available in the following languages, and we're working on a
 | Swedish                 | Danish                |
 | Finnish                 | Korean                |
 | Vietnamese              | Thai                  |
-| Bahasa Indonesia        |                       |
-|                         |                       |
+| Bahasa Indonesia        | Arabic                |
+| Hebrew                  |                       |
 
 ## Change your language
 
@@ -37,3 +37,15 @@ To change your display language:
 3. Select your language.
 
 **Note:** On mobile, your Notion app language will follow the language ranking in your system preferences.
+
+## Right-to-left languages
+
+Notion supports auto-detection of language direction in most text-based blocks, except for simple tables.
+
+Additionally, once you go to `Settings` → `Preferences` → `Language & Time` and set your Notion display language to Arabic or Hebrew:
+
+* The Notion interface will be mirrored for those languages in your desktop and mobile app.
+
+* You can manually set text direction at the block level. To do this, hover over a block, then select `⋮⋮`. In the menu that appears, hover over `Text direction` and select your desired direction.
+
+  * To always show text direction controls, even when your language is left-to-right, go to `Settings` → `Preferences` → `Language & Time`. Then, `toggle on Always show direction controls`.
