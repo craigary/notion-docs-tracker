@@ -70,8 +70,6 @@ You can customize your Site’s header, which is all of the information displaye
 
    * `Search`: This allows visitors to search your Notion Site.
 
-   * `Duplicate as template`: This allows your site visitors to duplicate your Notion Site as a Notion page in their own workspace.
-
    * `Notion watermark`: This is the `Built with Notion` watermark. You can only turn this off if your Notion Site is using a custom domain.
 
 4. Under `Navigation`, select `Add page` to help your visitors easily and quickly navigate to another page on your Site.

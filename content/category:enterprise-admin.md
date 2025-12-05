@@ -36,14 +36,14 @@ Deploy Notion for macOS
 
 Custom data retention settings
 
-Organization level controls
+Network control
+
+IP address restrictions
+
+Manage teamspaces
 
 Legal holds
 
 Deploy Notion for Windows
 
-Manage teamspaces
-
-IP address restrictions
-
-Network control
+Organization level controls

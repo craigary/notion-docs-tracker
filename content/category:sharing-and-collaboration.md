@@ -28,6 +28,6 @@ Create & manage groups
 
 People profiles
 
-Who’s who in a workspace
-
 People Directory
+
+Who’s who in a workspace

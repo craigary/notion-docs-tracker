@@ -4,7 +4,7 @@ emoji: 📄
 description: Every page you create in Notion is a fresh canvas where you can add whatever content you want. Follow these steps to create your first one 📄
 url: https://www.notion.com/help/create-your-first-page
 key: help:create-your-first-page
-coverImage: https://img.youtube.com/vi/powfWYn6570/maxresdefault.jpg
+coverImage: https://img.youtube.com/vi/GJlXHJYctOQ/maxresdefault.jpg
 category: Getting started
 ---
 

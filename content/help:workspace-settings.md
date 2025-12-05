@@ -162,6 +162,10 @@ Depending on how you're using your workspace, you may want to keep the data you 
 
 * `Allow members to request adding guests`: Let members ask to invite guests to workspace pages.
 
+* `Who can add restricted members to Teamspaces`: Choose whether workspace owners, workspace and teamspace owners, or any member can add restricted members to a teamspace.
+
+* `Who can add restricted members to pages`: Choose whether workspace owners, any member with admin approval, or any member can add restricted members to a page.
+
 * `Once pages are moved to Trash, delete them after`: This allows you to choose how long pages will be deleted after being moved to Trash.
 
 * `After pages are deleted from Trash, retain them for`: This allows you to choose how long pages can be retained after being deleted from Trash.

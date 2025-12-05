@@ -18,65 +18,53 @@ category: Workspace & sidebar
 
 Your `Home` tab allows you to:
 
-* Get answers to questions, research topics, and build databases with Notion AI.
-
 * View your recently visited pages.
+
+* Use and create shortcuts.
 
 * Connect your calendar to see your upcoming events.
 
 * See all of your tasks.
 
-## Notion AI
-
-**Note:**
-
-* To use the Notion AI widget, you’ll need to have Notion AI in your workspace or have complimentary AI responses.
-
-* Files in apps connected via Notion AI connectors aren’t searchable. Files will have to live in your Notion workspace to be searchable.
-
-The Notion AI widget in `Home` has three components.
-
-### Ask
-
-Notion AI can answer questions by searching across world knowledge, pages in your workspace that you have access to, and even [apps like Slack or Google Drive](https://www.notion.com/help/notion-ai-connectors-beta). You can click `🌐` to turn on web search, as well as open the `All sources` dropdown menu to search specific sources.
-
-Users on the Business and Enterprise Plans have access to multiple AI models — they can open the dropdown next to `Ask` and select from Notion AI, OpenAI's GPT, Anthropic's Claude, and Google's Gemini.
-
-**Note:&#x20;**&#x4B;eep in mind that depending on the model you choose, Notion AI may look only at information from the web to help you with your work. It may not be able to look at information from your workspace or connected apps.
-
-### Research
-
-Notion AI can conduct analysis on more complex or open-ended queries. You could try creating a report on a project or exploring a hypothesis you have. When you’re in Research Mode, Notion AI can:
-
-* Look at information across your workspace, connected apps, as well as search the web. You can open the `All sources` dropdown menu to narrow your search to specific sources. You can also click `🌐` to turn off web search.
-
-* Find pages in databases.
-
-* Identify whether a page is part of a database and query it.
-
-* Filter and sort a database based on its properties. For example, you can ask Notion AI to look at all projects in a database that are due before a certain date and have a status of `In progress`.
-
-* Read database pages within a page.
-
-Once you enter your query, Notion AI will show you the sources that it’s using to gather insights and generate a report. You can click `👍🏼` or `👎🏼` to help Notion AI improve, or ask follow up questions to continue your research. Once Notion AI is done researching your query, you can `Copy` the information it’s provided or `Save as page` to keep the report in your workspace.
-
-**Note:&#x20;**&#x52;esearch Mode can take up to 10 minutes based on how complex your query is.
-
-### Build
-
-Give Notion AI a prompt to use to build you a database. You’ll see how Notion AI sets up the database based on the information you give it. You can turn specific elements of the database on or off, as well as give Notion AI further instructions to adjust your database.
-
-**Note:**
-
-* Notion AI can create new databases but can’t edit existing databases.
-
-* Notion AI can’t create pages in your database, [database automations](https://www.notion.com/help/database-automations), [forms](https://www.notion.com/help/forms), [charts](https://www.notion.com/help/charts), or [database page templates](https://www.notion.com/help/database-templates).
-
-* Databases created with `Build` mode in `Home` will be added to your workspace as a new page. If you want to use Notion AI to build a database in a specific page, navigate to that page and create a new database with Notion AI in that page. You can also move your database created by AI to another page in your workspace.
-
 ## Recently visited
 
 View your 20 most recently visited pages. Scroll to the left to see more.
+
+## Shortcuts
+
+Shortcuts help you quickly take actions from Home.
+
+### Create a shortcut
+
+To create a shortcut in Home:
+
+1. Go to `Home`. Under `Shortcuts`, select `+`.
+
+2. Give your shortcut a name and an action. For example, you can have your button open your personal to-do list, or add a page to a specific database.
+
+3. Add more actions if you’d like.
+
+4. Select `Done`.
+
+### Edit a shortcut
+
+To edit a shortcut:
+
+1. Go to `Home`.
+
+2. Hover over a shortcut and select `•••` → `Edit`.
+
+3. Change the shortcut’s name or action.
+
+4. Select `Done`.
+
+### Delete a shortcut
+
+To delete a shortcut:
+
+1. Go to `Home`.
+
+2. Hover over a shortcut and select `•••` → `Delete`.
 
 ## Upcoming events
 

@@ -16,12 +16,12 @@ Data accessible by your workspace owner
 
 Report inappropriate content
 
-How to protect yourself from malvertising
+Data residency for Notion
+
+Dormant account policy
 
 How Notion 3.0 protects against prompt injection risks
 
-Data residency for Notion
-
 Shared Responsibilities Model
 
-Dormant account policy
+How to protect yourself from malvertising

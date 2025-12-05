@@ -4,7 +4,7 @@ emoji: 🗃
 description: Databases in Notion are collections of pages. Here, we'll introduce you to the general structure of a database, walk you through the different menus and options, and deep dive into how to open and edit pages within a database. 🗃
 url: https://www.notion.com/help/intro-to-databases
 key: help:intro-to-databases
-coverImage: https://img.youtube.com/vi/npaNKlAO7g8/maxresdefault.jpg
+coverImage: https://img.youtube.com/vi/Nx114VWepoI/maxresdefault.jpg
 category: Databases
 ---
 
@@ -45,16 +45,6 @@ Let’s walk through some of the first steps you can take to set up a new databa
 4. **Edit your view**: For each view, you can edit its name, its layout, the properties that are shown or hidden in it, and more. You can also filter, sort, and group the items in your database. For example, you might want to see a task requestor in one view but not in another.
 
 ## Full-page vs. inline databases
-
-![]()
-
-Play
-
-Uh-oh! It looks like your ad blocker is preventing the video from playing.
-
-Please watch it on [YouTube](https://www.youtube.com/watch?v=7o3Hc-7qf2Q)
-
-![](https://www.notion.com/front-static/illustrated-icons/catLookingUp.png)
 
 ### Full-page databases
 

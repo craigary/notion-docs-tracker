@@ -40,16 +40,16 @@ Notion MCP
 
 Microsoft Outlook AI Connector
 
-Notion Agent
-
 Notion Mail AI Connector (beta)
 
-Notion Calendar AI Connector (beta)
+Research Mode
+
+Notion Agent
 
 Google Calendar AI Connector
+
+Notion Calendar AI Connector (beta)
 
 Enterprise Search
 
 Gmail AI Connector (Beta)
-
-Research Mode

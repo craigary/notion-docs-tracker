@@ -12,7 +12,7 @@ Navigate with the sidebar
 
 Create, join & leave workspaces
 
-Create & navigate teamspaces
+Create, join & leave teamspaces
 
 Search in your workspace
 

@@ -127,7 +127,7 @@ Here are some use cases for tables from our team and the Notion community:
 
 ### Is there a way to add background colors to specific cells? Or conditional formatting?
 
-Not at the moment, unfortunately. It's a popular feature request though, so definitely on our radar! For the time being, you can use Select and Multi-select properties to add a pop of color to your table 🎨
+Yes! Learn more about conditional color [here →](https://www.notion.com/help/database-properties#conditional-color)
 
 
 ### Why can't I delete the Name property?

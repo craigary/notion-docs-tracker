@@ -4,7 +4,7 @@ emoji: 🛠
 description: Have you ever wanted to connect the data between two tables? You're in luck! Notion's relation property is designed to help you express useful relationships between items in different databases 🛠
 url: https://www.notion.com/help/relations-and-rollups
 key: help:relations-and-rollups
-coverImage: https://img.youtube.com/vi/NM8oFVb8SAY/maxresdefault.jpg
+coverImage: https://img.youtube.com/vi/mWQyAkOFA_A/maxresdefault.jpg
 category: Databases
 ---
 
