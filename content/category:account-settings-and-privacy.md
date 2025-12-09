@@ -24,8 +24,8 @@ Delete your account
 
 Passkeys
 
-Change your language
-
 Notion Faces
 
 Log in & out
+
+Change your language
