@@ -36,7 +36,7 @@ You own your Customer Data, including any content you submit or upload to the No
 
 You control your Customer Data. You determine what content and data will be uploaded to Notion. Once Customer Data is uploaded you manage access to your workspace by allocating user logins to individuals.
 
-You also control the administration of the Customer Data by managing you groups, permissions and the user credentials that are under your control.
+You also control the administration of the Customer Data by managing your groups, permissions and the user credentials that are under your control.
 
 ### How does Notion use my Account Information?
 
