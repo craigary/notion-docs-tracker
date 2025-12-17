@@ -250,6 +250,8 @@ AI Meeting Notes provides ways to disclose your use of the feature and obtain co
 
 AI Meeting Notes engages [sub-processors](https://www.notion.com/notion/Notion-s-List-of-Subprocessors-268fa5bcfa0f46b6bc29436b21676734?pvs=4&_gl=1*194m45c*_gcl_au*MzQwNzAzMzQ2LjE3NTA4NzAxNTY.*_ga*NDk0ODAwMzMxLjE3NDI5MjQyMTk.*_ga_9ZJ8CB186L*czE3NTc5NTcyNjQkbzI2MCRnMSR0MTc1Nzk1NzU2NSRqNjAkbDAkaDA.) (OpenAI, Anthropic, Fireworks, and Baseten Labs, Inc.) to record the meeting, process the audio file into a transcription, and then produce insights, such as a meeting summary, action items, participants in the call, and more.
 
+When you use AI Meeting Notes in the Notion app or browser, the audio file is processed and then immediately deleted. When you use AI Meeting Notes on the Notion mobile app, the audio file is uploaded and stored temporarily during processing. After successful processing for the mobile app, the audio file is immediately deleted. If processing fails, the file is retained for up to three days to reattempt processing.
+
 If you are a workspace owner and do not want the AI Meeting Notes feature available to members of your workspace, you may opt-out your workspace at any time by going to `Settings` → `Notion AI` and toggling off `Workspace availability`.
 
 ## Local audio storage
