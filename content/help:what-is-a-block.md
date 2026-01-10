@@ -4,7 +4,7 @@ emoji: 🧱
 description: Think of Notion as a bottomless bin of building blocks. Build whatever you want, however you want 🧱
 url: https://www.notion.com/help/what-is-a-block
 key: help:what-is-a-block
-coverImage: https://img.youtube.com/vi/GJlXHJYctOQ/maxresdefault.jpg
+coverImage: https://img.youtube.com/vi/tefoC3wP8n0/maxresdefault.jpg
 category: Getting started
 ---
 
