@@ -102,7 +102,19 @@ My tasks shows all tasks assigned to you from all of the Task databases in your 
 
 ### Customize My tasks
 
-You can adjust what tasks you see in the My tasks widget by hovering over the widget and selecting `•••`. You can choose your preferred layout, filter and sort your tasks, or adjust which task properties you want the widget to show.
+From the My Tasks Settings panel, you can customize which data sources feed into My Tasks, choose your preferred layout, filter and sort your tasks, and adjust which task properties appear in the widget.
+
+My Tasks supports **up to 10 data sources**. To select your data sources:
+
+1. Scroll down to `My Tasks` in Home.
+
+2. Click `Settings`
+
+3. Under `Data source settings`, choose `Task sources`
+
+4. Select **up to 10 sources**.
+
+5. Click `Done`.
 
 ### Create a task from My tasks
 
