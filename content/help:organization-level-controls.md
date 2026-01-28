@@ -18,7 +18,7 @@ To manage organization level controls, Enterprise workspace owners need to first
 
    ![hc: set up organization](https://images.ctfassets.net/spoqsaf9291f/afp51ubPh4c4TYyOENccZ/9e9565631ce2f516ab815b448887492a/Reference_Visuals_Group_129.png)
 
-2. If you don’t already have an approved email domain, follow the prompts to set one up, then select `Verify domain`. When you’re done, select `Configure organization`.
+2. If you don’t already have an approved email domain, you have the option to add one here. Follow the prompts to set one up, then select `Verify domain`. When you’re done, select `Configure organization`.
 
    * [Learn more about verifying domains here](https://www.notion.com/help/domain-management#verify-a-domain-for-your-organization)!
 

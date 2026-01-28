@@ -136,6 +136,8 @@ From this panel, you can:
 
   * Select and multi-select
 
+  * Database page icon
+
   * Text (rich text formatting is supported, but functions and mentions are not)
 
   * Checkboxes

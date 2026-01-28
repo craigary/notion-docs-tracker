@@ -128,6 +128,30 @@ Version history works a bit differently on mobile that it does on the web or de
 
 ![Page history mobile](https://images.ctfassets.net/spoqsaf9291f/3TPcf2ROsyHpDDG7AIhQ1s/4bacdc4db573552d34839112afee7b78/Delete_and_Restore_Reference_Visuals__1_.png)
 
+## Delete properties from a database
+
+There are many ways to delete properties from a database in Notion.
+
+1. Click on the Settings menu in the corner of the database you want to edit.
+
+2. Select `Edit Properties.`
+
+3. Click on the property you want to delete.
+
+4. Select `Delete property.`
+
+### What happens when a property is deleted
+
+Deleted properties can be viewed, restored, or permanently deleted from the Settings menu. To view deleted properties in a database:
+
+1. Click on the Settings menu in the corner of the database you want to edit.
+
+2. Select `Edit Properties.`
+
+3. Scroll down to `Deleted Properties.`
+
+To restore a property, click the arrow. To permanently delete a property, click the trash can. Deleting a property from `Deleted Properties` is **permanent&#x20;**&#x61;nd cannot be restored.
+
 
 ## FAQs
 

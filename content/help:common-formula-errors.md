@@ -26,6 +26,8 @@ Unlike formula properties in databases, formulas in automations expect a specifi
 
 Make sure the formula returns the correct type of value. For example, if writing a formula to set the value of a Person property of a page, the formula must return a user or list of users, not a date. Alternatively, if evaluating a specific condition on an array type property (ex.: multi-select), make sure to use `.includes` instead of `==` in your `if()` statement.
 
+A common cause of this error is using a different type to represent an empty value. For example, in a formula like if(Date, Date.dateAdd(1, “day”), ""), the return type is unknown because it could either be date or text (due to the ""). This can be fixed by using empty() to represent empty values instead, so the repaired formula would look like if(Date, Date.dateAdd(1, "day"), empty()).
+
 ## Formula depth limit reached
 
 Notion formulas can only be **15 layers deep**. Every time a formula references another formula or rollup, it adds a layer. This applies even if the formula is in a different database.
@@ -66,15 +68,11 @@ Use functions like `.first()` or `.at(0)` to get the first element, or loop thro
 
 ## Undefined value
 
-When formulas run on an empty value (ex.: Date, Person, etc), the automation will get an error and automatically pause.
+If a formula unexpectedly encounters an empty value (most commonly a date or person value), the automation will receive an error and automatically pause.
 
 **How to fix it**
 
-Use `if` and `empty()` to check whether a value is present before running the Person or Date function on it.
-
-For example, if your formula runs on a Person property named “Owner”, create the following if statement to force a value: `if(empty(This page.Person.first()), “No person”, This page.Person.first().name())`. This ensures that even if there is no Owner, the automation will safely execute.
-
-Alternatively, set up a view that filters to the Date or Person value being defined, and apply their automation to that view.
+Use if or ifs to check that a property being operated on has a value. For example, instead of Date.dateAdd(1, "day"), it is preferable to use if(Date, Date.dateAdd(1, "day"), empty()). This ensures that dateAdd is only performed when Date's value present, and explicitly tells the automation to clear the property being updated when Date is not populated. Alternatively, set up a view with a filter that guarantees the value of the property you are operating on exists, and configure the automation to only run on pages in that view.
 
 ## Common syntax errors
 

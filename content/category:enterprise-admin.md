@@ -28,21 +28,21 @@ Workspace analytics
 
 Add security & compliance integrations
 
-Enterprise connection settings
-
 Managed users
 
-Deploy Notion for macOS
+Enterprise connection settings
 
 Custom data retention settings
 
+Deploy Notion for macOS
+
 Network control
+
+Legal holds
 
 IP address restrictions
 
 Manage teamspaces
-
-Legal holds
 
 Deploy Notion for Windows
 

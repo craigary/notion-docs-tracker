@@ -150,7 +150,7 @@ Your Notion Agent can't:
 
 * Answer questions using content that’s in a non-PDF embed, like a transcript from a video.
 
-* Create forms, database automations, database templates, database page layouts, or advanced properties like formulas, rollups, or buttons.
+* Create new database automations, database templates, database page layouts, or advanced properties like formulas, rollups, or buttons.
 
 * Create or edit comments, both inline and at the top of a page.
 
