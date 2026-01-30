@@ -22,8 +22,6 @@ Go to `Settings` in Notion Mail → `Inbox`. From here, you can:
 
 * Open the dropdown for `Auto-advance` to determine where you want to be navigated after you archive or delete a thread. You can `Go to next thread`, `Go to previous thread`, or `Close thread`.
 
-* Open the dropdown for `Font size` and select `Small`, `Regular`, or `Large`.
-
 **Note:** Notion Mail is currently available in the following languages:
 
 * Japanese

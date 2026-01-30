@@ -28,13 +28,13 @@ Workspace analytics
 
 Add security & compliance integrations
 
-Managed users
-
 Enterprise connection settings
 
-Custom data retention settings
+Managed users
 
 Deploy Notion for macOS
+
+Custom data retention settings
 
 Network control
 
@@ -44,6 +44,6 @@ IP address restrictions
 
 Manage teamspaces
 
-Deploy Notion for Windows
-
 Organization level controls
+
+Deploy Notion for Windows

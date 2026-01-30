@@ -16,13 +16,13 @@ The SharePoint and OneDrive AI Connector is currently in beta and subject to the
 
 ## Connect SharePoint and OneDrive to Notion AI
 
-**Who can****&#x20;connect SharePoint and OneDrive to Notion AI?**
+**Who can connect SharePoint and OneDrive to Notion AI?**
 
 * You must be a Microsoft 365 Admin and Notion workspace owner.
 
 * You must be on a Business or Enterprise Plan.
 
-Permissions for specific content will follow Microsoft – users will only see content they have access to.
+This connector respects Microsoft permissions—users will only see content they have access to through direct or modern group access. Classic (legacy) groups are not supported.
 
 **How do I connect SharePoint and OneDrive?**
 
@@ -130,7 +130,7 @@ The system syncs content updates and permission changes from SharePoint/OneDrive
 
 ### How long does it take for the integration to complete and how far back does it look?
 
-Once the integration is set up, it will be able to find documents created or viewed up to one year before the setup completion.
+Once the integration is set up, <!-- -->Notion user<!-- --> will be able to find documents created or viewed up to one year before the setup completion.
 
 Depending on the amount of content during this timeframe, the process can take up to 36 hours.
 

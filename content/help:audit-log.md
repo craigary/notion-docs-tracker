@@ -22,6 +22,10 @@ To see your audit log:
 
 2. Go to the `Data & Compliance` tab and select `Audit log`.
 
+HC: \[audit log groups]
+
+Some groups of Audit Log events are created as a consequence of the same user action. To inspect individual Audit Log events to see if they are part of a group, hover over the Audit Log row and click the magnifying glass to filter for related events.
+
 ## Audit log event types
 
 Events are split into the following categories:
