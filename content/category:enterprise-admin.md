@@ -32,18 +32,18 @@ Enterprise connection settings
 
 Managed users
 
-Deploy Notion for macOS
-
 Custom data retention settings
 
-Network control
-
-Legal holds
-
-IP address restrictions
+Deploy Notion for macOS
 
 Manage teamspaces
 
 Organization level controls
 
+Legal holds
+
 Deploy Notion for Windows
+
+Network control
+
+IP address restrictions

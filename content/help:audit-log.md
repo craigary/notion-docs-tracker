@@ -22,51 +22,51 @@ To see your audit log:
 
 2. Go to the `Data & Compliance` tab and select `Audit log`.
 
-HC: \[audit log groups]
+Some groups of Audit Log events are created as a consequence of the same user action.
 
-Some groups of Audit Log events are created as a consequence of the same user action. To inspect individual Audit Log events to see if they are part of a group, hover over the Audit Log row and click the magnifying glass to filter for related events.
+To inspect individual Audit Log events to see if they are part of a group, hover over the Audit Log row and click the magnifying glass to filter for related events.
 
 ## Audit log event types
 
 Events are split into the following categories:
 
-1. **Page events:&#x20;**&#x54;his includes events users take on a single Notion page.
+1. **Page events:&#x20;**&#x54;his includes events about a single Notion page.
 
 2. **Data source events:** This includes events about data sources in a database.
 
 3. **Teamspace events:** This includes events users take on one or more teamspaces.
 
-4. **Workspace events:** This includes events users take on an entire Notion workspace.
+4. **Workspace events:** This includes events about an entire Notion workspace.
 
 5. **Account events:** This includes events about accounts of users in the workspace.
 
 ## Page events
 
-* **Page edited:** That a user edited the content of a page.
+* **Page edited:** That a user, an integration, or an external AI tool edited the content of a page.
 
-* **Page property edited:** That a user edited a page’s property, like a page title or a database property.
+* **Page property edited:** That a user, an integration, or an external AI tool edited a page's property, like a page title or a database property.
 
-* **Page viewed:** That a user viewed a page.
+* **Page viewed:** That a user viewed a page or an integration or external AI tool read page data.
 
-* **Page created:** That a user created a new page nested under another page.
+* **Page created:** That a user, an integration, or an external AI tool created a new page or database.
 
-* **Page moved to trash:** That a user moved a page to Trash.
+* **Page moved to trash:** That a user or an integration moved a page to Trash.
 
 * **Page deleted from trash:** That a user deleted a page from Trash.
 
 * **Page permanently deleted:&#x20;**&#x54;hat a page was permanently removed from Trash. This can be done by a user, but it can also be done automatically by Notion after 30 days, or within a [custom time frame](https://www.notion.com/help/custom-data-retention-settings) on Enterprise Plans.
 
-* **Page restored:** That a user restored a formerly deleted page from Trash.
+* **Page restored:** That a user or an integration restored a formerly deleted page from Trash.
 
 * **Page exported:** That a user exported a page.
 
-* **Page moved:** That a user moved a page.
+* **Page moved:** That a user, an integration, or an external AI tool moved a page.
 
 * **Page permission update:** That a member or guest’s page permissions were updated.
 
 * **Page shared to web:** That a user enabled sharing (or disabled sharing) a page to the web.
 
-* **File uploaded:** That a user uploaded a file.
+* **File uploaded:** That a user or an integration uploaded a file.
 
 * **File downloaded:** That a user opened or downloaded `file name` from a certain page.
 
@@ -78,9 +78,11 @@ Events are split into the following categories:
 
 * **Comment added:** That a user added a new comment on a page.
 
-* **Comment updated:** That a user edited a comment.
+* **Comment updated:** That a user or an integration edited a comment.
 
-* **Comment deleted:** That a user deleted a comment.
+* **Comment deleted:** That a user or an integration deleted a comment.
+
+* **Comments read:&#x20;**&#x54;hat an external AI tool read comments from a page.
 
 * **Page suggestion created:** That a user suggested an edit in a page.
 
@@ -94,9 +96,9 @@ Events are split into the following categories:
 
 * **Page suggestion comment deleted:** That a user deleted a comment on a suggested edit in a page.
 
-* **Page locked:&#x20;**&#x54;hat a page was locked.
+* **Page locked:&#x20;**&#x54;hat a user or an integration locked a page.
 
-* **Page unlocked:** That a page was unlocked.
+* **Page unlocked:** That a user or an integration unlocked a page.
 
 * **Downloaded audio recording from AI Meeting Notes block in {page name}**: That a user downloaded audio recording from an AI Meeting Notes block.
 
@@ -122,19 +124,21 @@ Page event audience will also export as a column in CSV exports.
 
 ## Data source events
 
-* **Data source created:** That a user created a new data source in a database.
+* **Data source created:** That a user, an integration, or an external AI tool created a new data source in a database.
 
-* **Data source moved to trash:** That a user moved a data source to Trash.
+* **Data source moved to trash:** That a user or an integration moved a data source to Trash.
 
 * **Data source deleted from trash:** That a user deleted a data source from Trash.
 
-* **Data source restored from trash:** That a user restored a formerly deleted data source from Trash.
+* **Data source restored from trash:** That a user or an integration restored a formerly deleted data source from Trash.
 
 * **Data source moved:** That a user moved a data source from one database to another.
 
 * **Data source permission rule updated:** That a user added, removed, or changed a page-level access rule for a data source.
 
 * **Data source permanently deleted:** That a data source was permanently removed from Trash. This can be done by a user, but it can also be done automatically by Notion after 30 days, or [within a custom time frame](https://www.notion.com/help/custom-data-retention-settings) on Enterprise Plans.
+
+* **Data source schema edited:&#x20;**&#x54;hat a user, integration, or external AI tool added, removed, or changed properties in a data source schema.
 
 ## Teamspace events
 
@@ -300,7 +304,7 @@ Page event audience will also export as a column in CSV exports.
 
 * **Workspace analytics tracking toggled:&#x20;**&#x54;hat the user enabled or disabled workspace analytics within the workspace
 
-* **Content search queried**: That a workspace owner has used the [content search](https://www.notion.com/help/admin-content-search) functionality to find workspace content
+* **Content search queried**: That a workspace owner, an integration, or an external AI tool used the content search functionality to find workspace content.
 
 * **Content search results exported**: That a workspace owner has exported the results from a [content search](https://www.notion.com/help/admin-content-search) query.
 
@@ -337,6 +341,22 @@ Page event audience will also export as a column in CSV exports.
 * **Custom emoji updated:** That a custom emoji was updated.
 
 * **Custom emoji deleted:** That a custom emoji was deleted.
+
+* **User information read:&#x20;**&#x54;hat an integration or external AI tool read user information from the workspace.
+
+* **MCP server connected:&#x20;**&#x54;hat an external AI tool was connected to the workspace.
+
+* **MCP allowlist disabled:&#x20;**&#x54;hat a workspace owner disabled the MCP allowlist.
+
+* **External AI tool name changed:&#x20;**&#x54;hat a user changed the name of an external MCP AI tool.
+
+* **MCP allowlist enabled:&#x20;**&#x54;hat a workspace owner enabled the MCP allowlist.
+
+* **MCP client added to allowlist:&#x20;**&#x54;hat a workspace owner added an external AI tool to the allowlist.
+
+* **Team information read:&#x20;**&#x54;hat an external AI tool read team information from the workspace.
+
+* **MCP client removed from allowlist:&#x20;**&#x54;hat a workspace owner removed an integration or external AI tool from the allowlist.
 
 ### Account events
 

@@ -22,9 +22,9 @@ To access workspace analytics, click on `Settings` in your sidebar and click `An
 
 You’ll find workspace analytics in the ⚙️ Settings menu
 
-You’ll see an overview of information regarding content in your workspace, including most active teamspaces, viewers and editors.
+You'll see an overview of information regarding content in your workspace, including most active teamspaces, viewers and editors.
 
-Select the `Members`, `Content` or `Search` tabs to get more thorough breakdowns. If you’re not a workspace owner, you’ll only have access to `Content`.
+Select the `Members`, `Content`, `AI`, or `Search` tabs to get more thorough breakdowns. If you're not a workspace owner, you'll only have access to `Content`.
 
 **Note:** Workspace analytics show data going back 365 days. To save historical data, you'll want to regularly go to the `Members` and `Content` tabs of your workspace analytics and `Export to CSV`.
 
@@ -60,6 +60,18 @@ To search for pages:
 
 **Note:&#x20;**&#x4F;nly pages a member has access to will appear in their Content tab.
 
+### AI analytics
+
+Go to the `AI` tab in workspace analytics to see how your team is using AI across the workspace. Track metrics like Active AI members, AI actions, and AI actions per user to understand adoption and usage.
+
+View data across all AI features, or filter by Agents, Connectors, or Meeting notes to see which features your team uses most. You can also see the top 100 pages that appear in AI responses.
+
+To export this data to CSV, click the download icon at the top of the table.
+
+**Note:** <!-- -->The AI tab refreshes once daily, so you won't see real-time data.
+
+![AI analytics tab](https://images.ctfassets.net/spoqsaf9291f/0xPdccF8OMI6HZkNnaqXN/c950f69de7d2c420211d71412c63f05b/Screenshot_2026-02-04_at_3.19.21%C3%A2__PM.png)
+
 ### Search behavior
 
 In the `Search` tab, you can understand what workspace members are searching for, the number of times and the click-through rate of each query. These metrics can help you identify potential gaps in your documentation as well as help you make changes to content to improve discovery.
@@ -93,3 +105,11 @@ In the `Search` tab, you can understand what workspace members are searching for
 * `Most active editors`: Members ranked by number of total edits.
 
 * `All Time`: Metrics that include "All Time" ranges will go back to your Enterprise Plan start date.
+
+* `AI action`: A user-initiated interaction with an AI feature, like sending a question to an Agent, asking an Agent to generate a page summary, or using AI meeting notes to transcribe a conversation.
+
+* `Active AI members`: Number of unique members with at least one AI action in a particular period.
+
+* `AI utilization`: Percentage of active members who are also using AI.
+
+* `AI actions per user`: Average AI actions per active AI member in a selected time range.
