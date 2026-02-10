@@ -48,6 +48,14 @@ When you create an event in Notion Calendar, you’ll see an `AI Meeting Notes a
 
 * Once you attach a Notion page to an event, you’ll be able to access it quickly and easily before a meeting, both from inside Notion Calendar and your menu bar.
 
+## Share meeting notes with workspace participants
+
+By default, meeting notes you create are **private to you**. You can choose to automatically share notes created from a Notion calendar event with meeting participants who are members of your workspace.
+
+To do so, go to **`Settings`** → **`Notion AI`** and toggle on **`Auto-share with internal calendar event participants`**.
+
+You can always manually adjust sharing settings after creation. [Learn more about how to share AI meeting notes here](https://www.notion.com/help/ai-meeting-notes#control-who-can-access-your-meeting-notes).
+
 ## Connect Notion database entries to Notion Calendar
 
 **Note:** To be connected to Notion Calendar, a Notion database must have a date property.

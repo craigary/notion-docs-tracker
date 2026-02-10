@@ -92,6 +92,30 @@ To help you request consent, you’ll have a few easy options:
 
 * **Say it out loud**: A simple ask works too. For example, you could ask, “Alright if I record and transcribe this meeting using Notion AI Meeting Notes?”
 
+## Control who can access your meeting notes
+
+By default, meeting notes you create are **private to you**. You can choose to automatically share notes created from a Notion calendar event with meeting participants who are members of your workspace.
+
+To do so, go to **`Settings`** → **`Notion AI`** and toggle on **`Auto-share with internal calendar event participants`**.
+
+#### **When auto-sharing is disabled:**
+
+* Meeting notes remain private to you.
+
+* After creating notes from a Notion calendar event, you'll see an option to "share with participants" if you want to grant access.
+
+* You can always manually share using Notion's standard sharing controls.
+
+#### When auto-sharing is enabled:
+
+* Meeting notes created from Notion calendar entry points (Meetings tab, desktop notifications, calendar header) will be automatically shared with meeting participants who are members of your workspace.
+
+* Participants will receive access to view and edit the meeting notes.
+
+* You can still manually adjust sharing settings after creation.
+
+**Note:** <!-- -->Auto-share is a personal setting. Each workspace member can configure their own preference for meeting notes they create.
+
 ## Choose a default database for AI Meeting Notes
 
 Want to store all of your AI Meeting Notes in one database for easy access? To set a default database for your meeting notes:

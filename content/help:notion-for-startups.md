@@ -1,44 +1,56 @@
 ---
 title: Notion for startups
 emoji: 🚀
-description: Eligible startups can get 3 or 6 months free of Notion's Business Plan, including Notion AI. To qualify, you must be a new, non-paying Notion customer and meet our program requirements. Learn more below 🚀
+description: Eligible startups can get 1-6 months free of Notion's Business Plan, including Notion AI. To qualify, you must be a new, non-paying Notion customer and meet our program requirements. Learn more below 🚀
 url: https://www.notion.com/help/notion-for-startups
 key: help:notion-for-startups
 coverImage: https://images.ctfassets.net/spoqsaf9291f/zerLUlSxmwZCYikOJ4XtC/da4a3967d3a4eaa169c6a941c2c044aa/Notion_for_startups_-_hero.png
 category: Plans, billing & payment
 ---
 
-## How to apply
+Notion helps companies move faster and extend runway by consolidating multiple tools into one workspace—docs, wiki, project management, and AI.
 
-Notion helps startups extend their runway by consolidating multiple tools in one: docs, wiki, project management, and now AI. Our [Notion for Startups program](https://www.notion.com/startups) offers eligible startups up to 6 months free of Notion's Business Plan, which includes Notion AI. [Terms and conditions](https://www.notion.com/notion/Notion-for-Startup-Terms-936b74c0323745a186b1497747074020) apply.
+Our [Notion for Startups program](https://www.notion.com/startups) offers eligible companies **up to 6 months free** of Notion’s Business Plan (which includes Notion AI). [Terms and conditions](https://www.notion.com/notion/Notion-for-Startup-Terms-936b74c0323745a186b1497747074020) apply.
 
-* If you are affiliated with one of our partners, you can receive 6 months free and Notion AI towards the Business Plan. To redeem this offer, reach out to your partner directly for their code to include in the form. Apply and see a full list of partners [here](https://www.notion.com/startups-apply).
+* **Partner-affiliated startups:&#x20;**&#x47;et **6 months free&#x20;**&#x6F;n the Business Plan (including Notion AI). Request a code from your partner and include it in the application. See the full partner list and apply [here](https://www.notion.com/startups-apply).
 
-* If you are a startup that's not affiliated with one of our partners, we still offer 3 months free and Notion AI towards a new Business Plan! Apply [here](https://www.notion.com/startups-apply).
+* **Non-partner startups:&#x20;**&#x47;et **3 months free&#x20;**&#x6F;n a new Business Plan (including Notion AI). Apply [here](https://www.notion.com/startups-apply).
 
-## How to use the offer
+* **SMBs (including service-based businesses) or teams under 10 employees:&#x20;**&#x47;et **1 month free&#x20;**&#x6F;n a new Business Plan (including Notion AI). Apply [here](https://www.notion.com/startups-apply).
 
-If approved, our team will send you an email confirming that the free Business Plan has been applied to your account. The Business Plan will be added to your workspace and ready to use immediately.
+**How to use the offer**
+
+If approved, we’ll email you to confirm the free Business Plan has been applied to your workspace. The upgrade takes effect right away, so you can start using Business Plan features immediately.
 
 
 ## FAQs
 
 ### Which offer can I receive?
 
-If you are affiliated with one of our partners and meet the program requirements you are able to receive 6 months free towards our Business Plan, including Notion AI. If you are not affiliated with a partner but still meet the program requirements, you can still receive 3 months free of Plus, including Notion AI. Fill out our [form](https://www.notion.com/startups-apply) to check!
+If you’re affiliated with one of our partners **and** meet the program requirements, you may be eligible for **6 months free** of Notion’s **Business Plan** (including Notion AI). If you’re not affiliated with a partner but still meet the requirements, you may be eligible for **3 months free** of the **Business Plan** (including Notion AI).
+
+If you’re an **SMB (including service-based businesses)** or have **fewer than 10 employees**, you may be eligible for a **1 month** offer instead. This typically applies when a company doesn’t meet our startup eligibility criteria or we’re unable to fully verify startup status based on the information provided.
+
+Submit our [form](https://www.notion.com/startups-apply) to check your eligibility.
 
 
 ### What are the program requirements? 
 
-If you **do&#x20;**&#x77;ork with one of our partners, you must:
+We offer different trial lengths depending on your eligibility and how you apply (partner-affiliated vs. non-partner). If you **work with one of our partners** and want to be considered for the **6 month** offer, you must:
 
-* Have a **valid Notion domain.**
+* Have a **valid Notion domain**.
 
-* Have a valid public company website and email address.
+* Provide a **public company website&#x20;**&#x61;nd a **company email address**.
 
-* Have **fewer than 100** employees.
+* Have **fewer than 100 employees**.
 
-* Be a **new**, **non-paying** Notion customer.
+* Be a **new, non-paying&#x20;**&#x4E;otion customer (i.e., not currently on a paid plan).
+
+If you’re **not affiliated with a partner**, you may still qualify for a **3 month** offer if you meet our startup eligibility criteria and we can verify your application details.
+
+If your company is an **SMB (including service-based businesses)**, has **fewer than 10 employees**, or we’re **unable to fully verify startup eligibility** based on the information provided, you may be eligible for a **1 month** offer instead.
+
+**Note:** The 3 month and 6 month offers are intended for **startups** building scalable, tech-related products or services. Incomplete or unclear information (e.g., an inactive website, limited company presence, or insufficient business details) can also impact our ability to verify eligibility.
 
 
 ### Where can I get my partner’s key to redeem the 6 months?
@@ -91,3 +103,26 @@ To get started, here are customized resources for startups:
 * [Notion Champions](https://www.notion.com/notion/Notion-Champions-20f977eb5fdd40d4a7a396f1742c3ea5): Learn and swap best practices from the community as you implement Notion for your team, get early access to beta features, and more.
 
 * [Notion Academy](https://www.notion.com/help/notion-academy/course/setups-for-startup-teams): Watch video-based tutorials on how to custom build workflows for your team.
+
+
+### Why did I receive a 1 month trial instead of 3 or 6 months?
+
+You received a 1 month trial because either:
+
+1. **You have under 10 employees** – SMBs with fewer than 10 employees receive our 1 month trial offer, or
+
+2. **You're an SMB or service-based business** rather than a startup, or
+
+3. **We couldn't fully verify your startup status** with the information provided in your application
+
+The 3 month and 6 month offers are designed specifically for **startups** building scalable tech-related products or services. SMBs, service-based businesses, consultancies, agencies, and companies under 10 employees receive the 1 month trial.
+
+You may have also received a 1 month trial if one or more of the following apply:
+
+* **Inactive or incomplete website:** Your website appears to be a domain parking page, shows errors, or doesn't clearly describe your business
+
+* **Limited business presence:** Only personal social media profiles were provided instead of company pages
+
+* **Insufficient information:** Not enough details were available to verify your business legitimacy
+
+* **Solo applicant:** The application suggests a single individual rather than a company
