@@ -24,9 +24,9 @@ Transfer content from a deprovisioned user
 
 Audit log
 
-Workspace analytics
-
 Add security & compliance integrations
+
+Workspace analytics
 
 Enterprise connection settings
 
@@ -36,14 +36,16 @@ Custom data retention settings
 
 Deploy Notion for macOS
 
-Manage teamspaces
+Network control
 
 Organization level controls
 
 Legal holds
 
+IP address restrictions
+
+Manage teamspaces
+
 Deploy Notion for Windows
 
-Network control
-
-IP address restrictions
+Set up Microsoft Intune with Notion (iOS and Android)
