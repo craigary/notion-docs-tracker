@@ -38,13 +38,23 @@ You’ll also see the following at the top of a synced block:
 
 * A copy icon, which you can click to copy the synced block and paste it somewhere else.
 
-## Unsync all blocks
+## Unsyncing blocks
 
-**Unsyncing all blocks will break their connection, making each one independent.** Once unsynced, you can edit any block without affecting the others. Any page links within a block will stay active, even after unsyncing.
+Unsyncing a synced block breaks the connection between it and its other copies. After you unsync, each block becomes independent, so edits you make won’t affect the others. Any page links inside the block will still work after unsyncing.
 
-1. Hover over a synced block.
+To unsync a single copy from a synced block:
+
+1. Hover over the copy.
+
+2. Select `•••` → `Unsync`.
+
+To unsync all blocks at once:
+
+1. Hover over the original synced block.
 
 2. Select `•••` → `Unsync all`.
+
+**Note:** If a synced block has more than 10 copies, clicking `Unsync all`, or deleting the original synced block, will remove all copies.
 
 ![Unsync all](https://images.ctfassets.net/spoqsaf9291f/6UdwEYder1JajXtPivwmVK/c5c45af4e619502ab6fc47ddd8bf4c39/Unsync_all.png)
 
@@ -54,3 +64,8 @@ You’ll also see the following at the top of a synced block:
 ### I added a synced block to another page, but no one else can edit it.
 
 Whomever you share the page with needs to have edit access to the original block to be able to edit any synced copies.
+
+
+### I deleted the original synced block and then clicked Undo. Why didn't all the synced copies come back?
+
+If a synced block has more than 10 copies, deleting the original will also remove all copies. Undo won't restore them in this case. To prevent losing multiple copies, unsync individual blocks one at a time instead of deleting the original or using `Unsync all`.
