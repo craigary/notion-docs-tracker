@@ -24,8 +24,10 @@ Delete your account
 
 Passkeys
 
-Notion Faces
-
 Log in & out
 
+Notion Faces
+
 Change your language
+
+Secondary emails

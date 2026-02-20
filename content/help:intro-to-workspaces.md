@@ -48,7 +48,13 @@ The control panel at the top of your sidebar contains several key features:
 
 * **Home:&#x20;**&#x43;lick to see the pages and tasks that need your attention. [Learn more about Home here →](https://www.notion.com/help/home-and-my-tasks)
 
+* **Meetings:&#x20;**&#x43;lick to see upcoming meetings and notes so you can quickly prep for a meeting, or review what happened after.
+
+* **Notion AI:**&#x43;lick to search and research with Notion AI. [Learn more about Notion AI here →](https://www.notion.com/help/notion-ai-faqs)
+
 * **Inbox:** Click to see all your notifications in one place. This menu combines revisions that were made on pages you follow, mentions of you across your workspace, and new work assignments. A red notification badge will appear here when you have unread notifications. [Learn more about inbox here →](https://www.notion.com/help/updates-and-notifications)
+
+* **Library:&#x20;**&#x43;lick to browse and manage all content across your workspace. [Learn more about Library here →](https://www.notion.com/help/manage-your-library)
 
 ### Sidebar sections
 

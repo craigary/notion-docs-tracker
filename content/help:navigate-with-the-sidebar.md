@@ -1,7 +1,7 @@
 ---
 title: Navigate with the sidebar
 emoji: 🧭
-description: Notion's left-hand sidebar makes it easy to structure all the content in your workspace. Here's everything you need to know on how to organize, rearrange, and find your pages within the sidebar 🧭
+description: Notion's sidebar makes it easy to structure all the content in your workspace. Here's everything you need to know on how to organize, rearrange, and find your pages within the sidebar 🧭
 url: https://www.notion.com/help/navigate-with-the-sidebar
 key: help:navigate-with-the-sidebar
 coverImage: https://img.youtube.com/vi/lsmgy5oszmu/maxresdefault.jpg
@@ -28,9 +28,13 @@ At the top of your sidebar, you'll see several features and menu options. Here's
 
 * **Home:** Click to see the pages and tasks that need your attention. [Learn more about Home here →](https://www.notion.com/help/home-and-my-tasks)
 
+* **Meetings:&#x20;**&#x43;lick to see upcoming meetings and notes so you can quickly prep for a meeting, or review what happened after.
+
 * **Notion AI:&#x20;**&#x43;lick to search and research with Notion AI. [Learn more about Notion AI here →](https://www.notion.com/help/notion-ai-faqs)
 
 * **Inbox:** Click to see all your notifications in one place. This menu combines revisions that were made on pages you have created, new mentions of you across your workspace, and new work assignments. A red notification badge will appear here when you have unread notifications.
+
+* **Library:&#x20;**&#x43;lick to browse and manage all content across your workspace. [Learn more about Library here →](https://www.notion.com/help/manage-your-library)
 
 ## Sidebar sections
 
@@ -156,33 +160,31 @@ There are several ways to create new pages using Notion's sidebar:
 
 It doesn't take much to move pages around your sidebar. Just drag and drop!
 
-**A few things we'll point out:**
-
 * Nest pages by dragging one into another. You'll see the selected page highlight blue.
 
 * You can also drag pages out of pages they were once nested inside.
 
-* We'll say it one more time here: If you drag a page from a shared section (`Teamspaces` or `Shared`) into `Private`, other folks will lose access. So make sure that's what you want to do.
+* If you drag a page from a shared section (`Teamspaces` or `Shared`) into `Private`, others will lose access.
 
 ## Resize or hide your sidebar
 
-Your sidebar is elastic — configure it however is most helpful for you.
+Your sidebar is flexible. You can configure it however is most helpful for you.
 
 * Just click and drag the right edge to resize it.
 
-* Click the `<<` that appears on hover to collapse your sidebar completely. It'll slide back out when you hover over the left-hand edge of the window.
-
-* You can reopen it by clicking the `☰` button at the top left.
+* Click the **<<** icon to collapse or expand your sidebar.
 
 * You can also collapse or hide the `Favorites`, `Workspace`, `Shared`, or `Private` sections of your sidebar. Just click on those headings to hide or reveal them.
 
 ## Delete pages
 
-There are two ways to delete pages from your sidebar:
+There are a few ways to delete pages from your sidebar:
 
 * Click on the `•••` icon that appears when you hover over a page and select `Delete`.
 
 * Drag a page from your workspace into the `Trash`. This will delete all the sub-pages nested within that page, including database items.
+
+* Go to `Library` and select the section name. Then, click `Remove from sidebar`.
 
 
 ## FAQs
@@ -195,8 +197,3 @@ Click on your current workspace's name at the very top left of your sidebar. Scr
 ### My sidebar doesn't have any sections. How do I turn those on?
 
 The sidebar sections reflect the sharing settings of your account. If you have more than one person in your workspace, a `Teamspaces` section appears in the sidebar for your collaborative work with that person, and the `Private` section is there for your personal pages that are only visible to you.
-
-
-### Can I rename the sidebar sections or add my own custom sections?
-
-Not at the moment, unfortunately 😓 If your sidebar is feeling cluttered, you can always consolidate some of your pages under more top-level pages. 

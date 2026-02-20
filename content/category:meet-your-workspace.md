@@ -10,6 +10,8 @@ Intro to workspaces
 
 Navigate with the sidebar
 
+Manage your Library
+
 Create, join & leave workspaces
 
 Create, join & leave teamspaces
