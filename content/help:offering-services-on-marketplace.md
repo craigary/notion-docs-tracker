@@ -78,13 +78,39 @@ Once you’ve invited a member, they’ll need to sign up for Notion or log in w
 
 * When the project concludes, you’ll mark the deal complete. Your customer will be asked to provide a review and satisfaction survey via email.
 
-## Register projects sourced outside Marketplace
+## Register leads (beta)
 
-* Registering deals in Marketplace isn't required, but it's highly recommended. Doing so contributes to your service revenue and allows you to qualify for higher tiers, among other benefits (like workspace access in the future).
+We are running a beta program where Consultants earn when you source and qualify referral opportunities that convert to an eligible sales-assisted contract.
 
-* You can register projects sourced outside Marketplace at [https://www.notion.so/profile/services](https://www.notion.com/profile/services) by selecting `Add client`. You'll need to add a signed SOW, as well as start and end dates.
+**How Lead Registration works (today)**
 
-* Your client must accept the project to confirm the engagement.
+1. Navigate to the Lead tab in Services and select “Add Lead”
+
+2. Submit basic lead info (name, email, company URL), don’t worry about the other details
+
+3. We validate eligibility in real time
+
+4. If the email domain has a free or doesn't exist in CRM → eligible for referral revenue share
+
+5. If the email domain already has a paid workspace or has an assigned AE → not eligible (co-sell logic coming later)
+
+6. The eligibility response will be viewable after you click submit.
+
+7. First eligible registration gets credit; 6-month conversion window
+
+When you register an eligible lead, a member of the Notion team will reach out to get your set up in Partnerstack to pay out potential revenue share.
+
+**Referral Revenue Share**
+
+For a deal to qualify for revenue share, the workspace must reach the **sales-assisted contract threshold**:
+
+* **Minimum ARR:**$10,000 in fixed, per-seat subscription fees
+
+* **Minimum Seats:** \~30 Enterprise seats **and/or** \~42 Business seats
+
+* **Payment Method:**&#x43;lient must pay via **invoice** (sales-assisted contract that has a minimum term of 12 months). Credit card / self-serve billing alone does not qualify.
+
+If your lead meets that eligibility criteria in 6 months after registering the lead, you will earn revenue share on the 12 months following that conversion. The % of ARR for revenue share is determined by your Tier.
 
 
 ## FAQs

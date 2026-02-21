@@ -16,8 +16,8 @@ Marketplace guidelines & terms
 
 Become a Notion Solutions Partner
 
+Template localization on Marketplace
+
 Finding services on Marketplace
 
 Offering services on Marketplace
-
-Template localization on Marketplace
