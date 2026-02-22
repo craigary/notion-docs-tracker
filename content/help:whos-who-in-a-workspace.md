@@ -34,7 +34,7 @@ On paid plans, you’ll pay for each member that’s added to the workspace.
 
 ## Restricted members
 
-**Note:** This feature is only available to users on the Enterprise Plan.
+**Note:** This feature is only available to users on the Enterprise Plan. Domain verification is not required to enable this feature.
 
 Restricted members share many capabilities with regular workspace members — they can create private pages, use Notion AI (<!-- -->respecting restricted members’ permissions),<!-- --> log in with SSO, be added to permission groups, and more. **They also affect your billing in the same way as adding a workspace member.**
 

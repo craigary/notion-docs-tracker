@@ -90,7 +90,7 @@ In the event of IdP or SAML failure, certain users will be able to bypass SAML S
 
 ## Require SAML SSO authorization for workspace access
 
-**Note:** This feature is only available to users on the Enterprise Plan.
+**Note:** This feature is only available to users on the Enterprise Plan. Domain verification is not required to enable this feature.
 
 Workspace-level SAML authorization allows enterprises to require SAML SSO for workspace access, regardless of a user's email domain. This enables safer external collaboration in your workspace.
 

@@ -64,7 +64,7 @@ First, you’ll need to add Notion to Microsoft Endpoint Manager.
 
 1. Sign in to the [Microsoft Intune admin center](https://intune.microsoft.com).
 
-2. Go to `Apps`**&#x20;**→<!-- --> `All apps`**&#x20;**→ `Add`**.**
+2. Go to `Apps`**&#x20;**→ `All apps`**&#x20;**→ `Add`**.**
 
 3. Add Notio&#x6E;**&#x20;**&#x66;rom the iOS store app or Android store app.
 
@@ -76,11 +76,11 @@ First, you’ll need to add Notion to Microsoft Endpoint Manager.
 
 App protection policies control how corporate data is handled within Notion. You'll need to create separate policies for iOS and Android.
 
-1. In the Intune admin center, go to `Apps`**&#x20;**→ `App protection policies.`
+1. In the Intune admin center, go to `Apps`**&#x20;**→ `App protection policies`**.**
 
-2. Click `Create policy`**&#x20;**&#x61;nd select **iOS/iPadOS&#x20;**&#x6F;r **Android.**
+2. Click `Create policy`**&#x20;**&#x61;nd select `iOS/iPadOS`**&#x20;**&#x6F;r `Android`**.**
 
-3. Under `Apps`, select Notio&#x6E;**&#x20;**&#x66;rom the list of managed apps.
+3. Under `Apps`, select Notio&#x6E;**&#x20;**&#x66;rom the list of managed apps. <!-- -->Alternatively, click `Add` and select `Custom apps`. Then, enter the bundle identifier "notion.id."
 
 4. Choose the protection settings you want.
 

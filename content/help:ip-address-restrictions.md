@@ -8,7 +8,7 @@ coverImage: https://images.ctfassets.net/spoqsaf9291f/5StPeXrRtUwpJVSJprYDWk/544
 category: Workspace administration
 ---
 
-You can restrict access to your organization’s workspaces by configuring a list of allowed IP addresses that [managed users](https://www.notion.com/help/managed-users-dashboard) can log in from.
+You can restrict access to your organization’s workspaces by setting an allowlist of IP addresses that [managed users](https://www.notion.com/help/managed-users-dashboard) can use to log in to Notion.
 
 This can be useful if you want to restrict account access to users connecting from specific locations (such as your office) or through a specific VPN.
 
@@ -40,7 +40,7 @@ To create a list of allowed IP address for your organization:
 
 ## How IP address restrictions impact managed users
 
-Any managed user attempting to log in with an IP address that doesn’t match an address on the allowed list will see an error message, and they won’t be able to proceed.
+Any managed user attempting to log in with an IP address that doesn’t match an address on the allowed list will see an error message, and they won’t be able to proceed. <!-- -->If a user is already logged in and leaves the allowed IP address, they will be logged out.
 
 ![hc: restricted ip address error message](https://images.ctfassets.net/spoqsaf9291f/43CdtjFnBV5vBAh0B3Rfu9/e8f0bcaf4e7d580cf9ff5b85ebe6c083/IP_Address_Restrictions_Reference__1_.png)
 

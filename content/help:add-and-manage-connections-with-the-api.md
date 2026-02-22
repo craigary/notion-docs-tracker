@@ -36,7 +36,7 @@ Connections built with the API follow a similar permission system to the sharin
 
 ### Manage connections in pages
 
-**Note:** This feature is only available to users on the Enterprise Plan.
+**Note:** This feature is only available to users on the Enterprise Plan. Domain verification is not required to enable this feature.
 
 Workspace owners on the Enterprise Plan can decide what pages an integration can access, as well as who can connect integrations to or disconnect integrations from pages. To do this:
 

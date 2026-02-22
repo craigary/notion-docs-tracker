@@ -8,7 +8,7 @@ coverImage: https://images.ctfassets.net/spoqsaf9291f/3mNzn5Pj4FIYYqnfjuEclf/e1a
 category: Workspace administration
 ---
 
-**Note:** This feature is only available to users on the Enterprise Plan.
+**Note:** This feature is only available to users on the Enterprise Plan. Domain verification is not required to enable this feature.
 
 ## Page deletion
 

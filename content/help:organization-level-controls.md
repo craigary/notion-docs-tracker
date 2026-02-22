@@ -8,7 +8,7 @@ coverImage: https://images.ctfassets.net/spoqsaf9291f/1hLVkexczfU4pbkYrPQ65O/a86
 category: Workspace administration
 ---
 
-**Note:** This feature is only available to users on the Enterprise Plan.
+**Note:** This feature is only available to users on the Enterprise Plan. Domain verification is not required to enable this feature.
 
 ## Who can apply organization level controls?
 

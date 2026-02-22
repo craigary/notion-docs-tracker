@@ -8,7 +8,7 @@ coverImage: https://images.ctfassets.net/spoqsaf9291f/7pVbSMHPMzmGzpUcLVOGUs/b17
 category: Workspace administration
 ---
 
-**Note:** This feature is only available to users on the Enterprise Plan.
+**Note:** This feature is only available to users on the Enterprise Plan. Domain verification is not required to enable this feature.
 
 If your organization has multiple Enterprise workspaces, you can view and manage content across all of those workspaces in one place. Learn more about organization level controls [here →](https://www.notion.com/help/organization-level-controls)
 

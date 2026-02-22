@@ -8,7 +8,7 @@ coverImage: https://images.ctfassets.net/spoqsaf9291f/3EvinCberMWv1O39Xd0N2N/1ed
 category: Workspace administration
 ---
 
-**Note:** This feature is only available to users on the Enterprise Plan.
+**Note:** This feature is only available to users on the Enterprise Plan. Domain verification is not required to enable this feature.
 
 Workspace owners on the Enterprise Plan have access to additional settings for managing connections within the workspace.
 

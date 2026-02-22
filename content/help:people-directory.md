@@ -54,7 +54,7 @@ Everyone can edit their own profile page in the People Directory. Only workspace
 
 ## Sync SCIM properties to the People Directory
 
-**Note:** This feature is only available to users on the Enterprise Plan.
+**Note:** This feature is only available to users on the Enterprise Plan. Domain verification is not required to enable this feature.
 
 If your Enterprise workspace has [SCIM](https://www.notion.com/help/provision-users-and-groups-with-scim) set up, you can automatically import data from your HRIS provider into the People Directory. To do this:
 
