@@ -10,6 +10,10 @@ Security practices
 
 Privacy practices
 
+Custom Agents security features
+
+Security best practices for Agent connections
+
 GDPR at Notion
 
 Data accessible by your workspace owner
@@ -18,10 +22,10 @@ Report inappropriate content
 
 Dormant account policy
 
+How Notion 3.0 protects against prompt injection risks
+
 Data residency for Notion
 
 Shared Responsibilities Model
 
 How to protect yourself from malvertising
-
-How Notion 3.0 protects against prompt injection risks
