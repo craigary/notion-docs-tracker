@@ -14,9 +14,9 @@ How adding & removing members impacts billing
 
 Invoices
 
-Custom Agent pricing
-
 Payment methods
+
+Custom Agent pricing
 
 Refunds
 
@@ -34,6 +34,6 @@ What happens when I downgrade my plan?
 
 Sales tax
 
-Can’t upgrade to the Plus Plan for students and educators
-
 Notion credits dashboard
+
+Can’t upgrade to the Plus Plan for students and educators

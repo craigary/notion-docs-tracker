@@ -1,5 +1,10 @@
 import { execSync } from 'child_process'
-import { collectPaginatedAPI, isFullPage, type CreatePageParameters, type PageObjectResponse } from '@notionhq/client'
+import {
+  collectPaginatedAPI,
+  isFullPage,
+  type CreatePageParameters,
+  type PageObjectResponse
+} from '@notionhq/client'
 import { notionClient } from './notion/client'
 import { fetchAllNotionHelpDocs } from './website'
 import { fetchCategoryContent } from './website/category'
@@ -13,14 +18,16 @@ import { getPagePropertyValue } from './utils/notion'
 import { articleConfig, categoryConfig, type Config } from './processors'
 
 // Func for step 1: Fetch from Front-end DB
-const fetchExistingReference = async (databaseId: string): Promise<Map<string, PageObjectResponse>> => {
+const fetchExistingReference = async (
+  databaseId: string
+): Promise<Map<string, PageObjectResponse>> => {
   const frontendDBRes = await collectPaginatedAPI(notionClient.dataSources.query, {
-    data_source_id: databaseId,
+    data_source_id: databaseId
   })
 
   const frontendRef = new Map()
 
-  frontendDBRes.forEach((page) => {
+  frontendDBRes.forEach(page => {
     if (isFullPage(page)) {
       const key = getPagePropertyValue(page, 'Identifier')
       if (key) {
@@ -42,7 +49,7 @@ const createNewFrontendPage = async <
   console.log(`New ${configItem.type} spotted, creating in front-end DB...`)
   store.newItems.push({
     type: configItem.type,
-    ...itemInfo,
+    ...itemInfo
   } as unknown as StoreItem)
 
   const commonProperties = configItem.getCommonProperties(itemInfo)
@@ -56,9 +63,9 @@ const createNewFrontendPage = async <
     properties: {
       ...commonProperties,
       Name: { title: [{ type: 'text', text: { content: itemInfo.title } }] },
-      Status: { type: 'status', status: { name: 'Not Started' } },
+      Status: { type: 'status', status: { name: 'Not Started' } }
     },
-    children: frontendPageChildren,
+    children: frontendPageChildren
   })
 
   // 存下来，这个用于处理分类时非常有用，因为之后如果创建新页面，需要找到它归属的分类页，这时候就需要用这个查找了。
@@ -85,8 +92,8 @@ const createBackendPage = async <
       ...backendProperties,
       Name: { title: [{ type: 'text', text: { content: itemInfo.title } }] },
       Frontend: { type: 'relation', relation: [{ id: frontendPageId }] },
-      Status: { type: 'status', status: { name: 'Not Started' } },
-    },
+      Status: { type: 'status', status: { name: 'Not Started' } }
+    }
   })
 
   // If saveContent is enabled, save content to files and commit to GitHub
@@ -107,10 +114,12 @@ const updateExistingPage = async <
   const hashInfoInBackendDB = getPagePropertyValue(itemInfoFromBackendDB, 'Hash')
 
   if (hashInfoInBackendDB !== itemInfo.hash) {
-    console.log(`${configItem.type === 'article' ? 'Article' : 'Category'} ${itemInfo.title} has been updated.`)
+    console.log(
+      `${configItem.type === 'article' ? 'Article' : 'Category'} ${itemInfo.title} has been updated.`
+    )
     store.updatedItems.push({
       type: configItem.type,
-      ...itemInfo,
+      ...itemInfo
     } as unknown as StoreItem)
 
     const commonProperties = configItem.getCommonProperties(itemInfo)
@@ -126,10 +135,10 @@ const updateExistingPage = async <
         Name: { title: [{ type: 'text', text: { content: itemInfo.title } }] },
         Frontend: {
           type: 'relation',
-          relation: [{ id: itemInfoFromFrontendDB.id }],
+          relation: [{ id: itemInfoFromFrontendDB.id }]
         },
-        Status: { type: 'status', status: { name: 'In progress' } },
-      },
+        Status: { type: 'status', status: { name: 'In progress' } }
+      }
     })
 
     // 下面的代码可能出现错误，因为 Notion API 的 Bug ⬇️'
@@ -140,8 +149,8 @@ const updateExistingPage = async <
       page_id: itemInfoFromFrontendDB.id,
       properties: {
         ...commonProperties,
-        Status: { type: 'status', status: { name: 'In progress' } },
-      },
+        Status: { type: 'status', status: { name: 'In progress' } }
+      }
     })
     // }
 
@@ -161,7 +170,7 @@ const processItem = async <
   item: T,
   configItem: Config<T, U>
 ) => {
-  await new Promise((resolve) => setTimeout(resolve, config.wait))
+  await new Promise(resolve => setTimeout(resolve, config.wait))
 
   console.log(`Processing ${configItem.type}: ${item.title}`)
 
@@ -177,7 +186,12 @@ const processItem = async <
       if (!itemInfoFromBackendDB) {
         await createBackendPage(itemInfo, configItem, itemInfoFromFrontendDB.id)
       } else {
-        await updateExistingPage(itemInfo, configItem, itemInfoFromFrontendDB, itemInfoFromBackendDB)
+        await updateExistingPage(
+          itemInfo,
+          configItem,
+          itemInfoFromFrontendDB,
+          itemInfoFromBackendDB
+        )
       }
     }
   } catch (error) {
@@ -186,7 +200,7 @@ const processItem = async <
       type: configItem.type,
       name: item.title,
       key: item.key,
-      error,
+      error
     })
   }
 }
@@ -255,14 +269,14 @@ const main = async () => {
   console.log('Processing categories...')
   for (let i = 0; i < categories.length; i += config.concurrency) {
     const batch = categories.slice(i, i + config.concurrency)
-    await Promise.all(batch.map((category) => processItem(category, categoryConfig)))
+    await Promise.all(batch.map(category => processItem(category, categoryConfig)))
   }
 
   // Step 3.2: Process Articles
   console.log('Processing articles...')
   for (let i = 0; i < articles.length; i += config.concurrency) {
     const batch = articles.slice(i, i + config.concurrency)
-    await Promise.all(batch.map((article) => processItem(article, articleConfig)))
+    await Promise.all(batch.map(article => processItem(article, articleConfig)))
   }
 
   console.log('Processing complete.')
@@ -270,14 +284,14 @@ const main = async () => {
   // Step 4: Send Telegram message
   const updatedItems: ArticleInfo[] = store.updatedItems
     .filter((item): item is ArticleInfo & { type: 'article' } => item.type === 'article')
-    .map((item) => {
+    .map(item => {
       const { type, ...rest } = item
       return rest
     })
 
   const newItems: ArticleInfo[] = store.newItems
     .filter((item): item is ArticleInfo & { type: 'article' } => item.type === 'article')
-    .map((item) => {
+    .map(item => {
       const { type, ...rest } = item
       return rest
     })
@@ -285,7 +299,7 @@ const main = async () => {
   if (newItems.length > 0 || updatedItems.length > 0) {
     const message = generateTelegramMessage({
       updatedDocs: updatedItems,
-      newDocs: newItems,
+      newDocs: newItems
     })
 
     if (config.sendTelegram) {

@@ -44,10 +44,6 @@ category: Security & privacy
 
 * **Hosting:** Notion is hosted on one Amazon Web Services (AWS), one of the major cloud service providers.
 
-* **Recovery Time Objective (RTO):** Estimated at 2 hours
-
-* **Recovery Point Objective (RPO):** Estimated at 24 hours
-
 ## Corporate security
 
 * **Employee training:** Security training is required during the employee onboarding process, and annually thereafter. Employees also must read and acknowledge Notion’s Code of Conduct and the Security policy. Developer training is also conducted on at least an annual basis.
@@ -129,7 +125,7 @@ Notion maintains a comprehensive security and privacy program to provide advance
 
 * **BSI C5 (Cloud Computing Compliance Controls Catalogue):&#x20;**&#x42;SI C5 is a security standard developed by the German Federal Office for Information Security. It outlines baseline security controls for cloud service providers. C5 includes additional control requirements relating to data location, service provisioning, place of jurisdiction, existing certifications, information disclosure obligations, and a full-service description.
 
-* **PCI DSS:&#x20;**&#x54;he Payment Card Industry (PCI) Data Security Standards (DSS) is a global information security standard designed to prevent fraud through increased control of credit card data. Organizations of all sizes must follow PCI DSS standards if they accept payment cards from the five major credit card brands, Visa, MasterCard, American Express, Discover, and the Japan Credit Bureau (JCB). Compliance with PCI DSS is required for any organization that stores, processes, or transmits payment and cardholder data. Notion services are certified as compliant under PCI-DSS version 4.0 at Merchant Level 2 (1-6 million transactions per year).
+* **PCI DSS:&#x20;**&#x54;he Payment Card Industry (PCI) Data Security Standards (DSS) is a global information security standard designed to prevent fraud through increased control of credit card data. Notion is compliant with PCI-DSS Merchant Level 2 requirements, ensuring secure handling of payment card data in our payment processing operations. However, our PCI-DSS compliance does not apply to Customer Data, and customers are prohibited from inputting or storing payment card information (PCI data) within their Notion workspaces, as explicitly outlined in our [Data Processing Addendum](https://notion.notion.site/Data-Processing-Addendum-361b540101274b1fa7e16b90402b0d99).
 
 * **K-FSI:&#x20;**&#x4E;otion has successfully completed the Korean Financial Security Institute (K-FSI) Cloud Service Provider (CSP) Security and Safety Evaluation—demonstrating our commitment to meeting key regulatory requirements for cloud services in Korea’s financial sector. Financial institutions can review our K-FSI CSP audit results, which are scoped to SaaS service controls, to support their vendor risk assessments and internal compliance needs.
 

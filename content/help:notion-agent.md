@@ -10,7 +10,7 @@ category: Notion AI
 
 Custom Agents are coming soon. Sign up for updates [here →](https://notion.notion.site/26fefdeead05803ca7a6cd2cdd7d112f)
 
-Notion AI Agent is your personalized teammate. Whatever you can do in Notion, your Notion Agent can also do for you — empowered by all of the context from your workspace and connected apps. Your Agent also learns your style and ways of working, and you can also name it and dress it up with accessories.
+Notion Agent is your AI teammate inside Notion. It can help you create and edit pages and databases using context from your workspace and connected apps. You can personalize how it responds with [skills and instructions](http://www.notion.com/help/customize-your-notion-agent-with-instructions-and-skills).
 
 **Note:**
 
@@ -18,9 +18,7 @@ Notion AI Agent is your personalized teammate. Whatever you can do in Notion, yo
 
 * You can always undo any changes made by your Notion Agent.
 
-- As you chat with your Notion Agent, give it a thumbs up or thumbs down to let us know how it’s doing. If you give a thumbs down, you’ll also be able to tell us why.
-
-- Get inspiration for the best ways to work with your Notion Agent here →
+* As you chat with your Notion Agent, give it a thumbs up or thumbs down to let us know how it’s doing. If you give a thumbs down, you’ll also be able to tell us why.
 
 ## How to work with your Agent
 
@@ -90,13 +88,11 @@ Find the friendly face at the bottom of Notion to chat with your Agent. As soon 
 
 ## Personalize your Agent
 
-**Note:** When you personalize your Agent, any traits and instructions you've given it will only apply when you chat with your Agent — they won’t apply to any content your Agent creates or edits in a page or database.
-
-Personalize your Agent with instructions and memories so that it can truly be a customized, tailored teammate.
+Personalize your Agent with instructions so that it can truly be a customized, tailored teammate. You can also create skills for reusable prompts. Learn more about setting skills and instructions for your Agent to follow in [this article](http://www.notion.com/help/customize-your-notion-agent-with-instructions-and-skills).
 
 To personalize your Agent:
 
-1. Click your Notion Agent’s face in the bottom right corner of Notion.
+1. Click your Notion Agent’s face in the bottom corner of Notion.
 
 2. In the chat window, click on its face again.
 

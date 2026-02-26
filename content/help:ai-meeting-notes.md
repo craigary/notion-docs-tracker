@@ -16,7 +16,9 @@ AI Meeting Notes takes detailed meeting notes for you so you can stay focused on
 
 To use AI Meeting Notes:
 
-* You must be on Notion’s Business or Enterprise Plan.
+* You must be on Notion’s Business or Enterprise Plan to use AI Meeting Notes.
+
+* AI Meeting Notes is also available for eligible mobile subscriptions where Notion AI is included.
 
 * If you’re using Notion’s desktop app, you must be on version 4.7.0 or higher.
 

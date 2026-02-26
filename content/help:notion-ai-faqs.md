@@ -42,6 +42,8 @@ Please watch it on [YouTube](https://www.youtube.com/watch?v=yasGTeAsV6s)
 
 Your Notion Agent not only thinks for you — it actually does the work for you. It can take on tasks from beginning to end, looking at your workspace and connected apps, then even creating or editing content (pages, databases, charts, and much more) in your workspace on your behalf.
 
+You can personalize your Agent’s appearance, and use [instructions and skills](http://www.notion.com/help/customize-your-notion-agent-with-instructions-and-skills) to shape how it responds.
+
 You can personalize your Agent’s appearance and personality and teach it how to work with and for you, so it can be a truly customized teammate built into your workspace.
 
 **Learn more about Agents**
@@ -49,8 +51,6 @@ You can personalize your Agent’s appearance and personality and teach it how t
 * [Notion Agent](https://www.notion.com/help/personal-agent)
 
 * [Get started with your Notion Agent](https://www.notion.com/help/guides/get-started-with-your-personal-agent-in-notion)
-
-Custom Agents are coming soon. Sign up for updates [here →](https://notion.notion.site/26fefdeead05803ca7a6cd2cdd7d112f)
 
 ## Enterprise Search
 

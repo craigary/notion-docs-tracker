@@ -38,22 +38,24 @@ Notion’s commitment to AI safety
 
 Notion MCP
 
-Box AI Connector
+Notion Mail AI Connector (beta)
 
-Notion Agent
+Research Mode
 
 Google Calendar AI Connector
 
 Notion Calendar AI Connector (beta)
 
-Asana AI Connector
+Microsoft Outlook AI Connector
 
 Enterprise Search
 
 Gmail AI Connector (Beta)
 
-Microsoft Outlook AI Connector
+Asana AI Connector
 
-Notion Mail AI Connector (beta)
+Customize your Notion Agent with instructions & skills
 
-Research Mode
+Box AI Connector
+
+Notion Agent
