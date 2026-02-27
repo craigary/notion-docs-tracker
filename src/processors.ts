@@ -22,32 +22,32 @@ export type Config<T, U> = {
 export const articleConfig: Config<Article, ArticleInfo> = {
   type: 'article',
   fetchContent: fetchArticleContent,
-  getCommonProperties: (itemInfo) => ({
+  getCommonProperties: itemInfo => ({
     Identifier: {
       type: 'rich_text',
-      rich_text: [{ text: { content: itemInfo.key } }],
+      rich_text: [{ text: { content: itemInfo.key } }]
     },
     URL: { url: itemInfo.url },
     Category: {
       type: 'select',
-      select: { name: itemInfo.category.replaceAll(',', '') },
-    },
+      select: { name: itemInfo.category.replaceAll(',', '') }
+    }
   }),
-  getBackendProperties: (itemInfo) => ({
+  getBackendProperties: itemInfo => ({
     Hash: {
       type: 'rich_text',
-      rich_text: [{ text: { content: itemInfo.hash } }],
+      rich_text: [{ text: { content: itemInfo.hash } }]
     },
     Content: {
       type: 'rich_text',
-      rich_text: splitByGraphemes(itemInfo.content).map((i) => ({
-        text: { content: i },
-      })),
+      rich_text: splitByGraphemes(itemInfo.content).map(i => ({
+        text: { content: i }
+      }))
     },
     'Reference Times': { type: 'number', number: itemInfo.referenceTimes },
-    'Ref Has Hash': { type: 'checkbox', checkbox: itemInfo.refHasHash },
+    'Ref Has Hash': { type: 'checkbox', checkbox: itemInfo.refHasHash }
   }),
-  getFrontendPageChildren: (itemInfo) =>
+  getFrontendPageChildren: itemInfo =>
     createBlocks([
       itemInfo.coverImage
         ? { type: 'image', image: { type: 'external', external: { url: itemInfo.coverImage } } }
@@ -55,93 +55,102 @@ export const articleConfig: Config<Article, ArticleInfo> = {
       itemInfo.description
         ? {
             type: 'paragraph',
-            paragraph: { rich_text: [{ type: 'text', text: { content: '简介' }, annotations: { bold: true } }] },
+            paragraph: {
+              rich_text: [{ type: 'text', text: { content: '简介' }, annotations: { bold: true } }]
+            }
           }
         : null,
       itemInfo.description
         ? {
             type: 'paragraph',
-            paragraph: { rich_text: [{ type: 'text', text: { content: itemInfo.description } }] },
+            paragraph: { rich_text: [{ type: 'text', text: { content: itemInfo.description } }] }
           }
         : null,
-      { type: 'divider', divider: {} },
+      { type: 'divider', divider: {} }
     ]),
-  getIcon: (itemInfo) =>
-    itemInfo.emoji
-      ? { type: 'emoji', emoji: itemInfo.emoji as unknown as EmojiIcon['emoji'] }
-      : { type: 'external', external: { url: config.notionIconUrl } },
+  getIcon: itemInfo => {
+    const emoji = itemInfo?.emoji?.trim()
+    return emoji
+      ? { type: 'emoji', emoji: emoji as unknown as EmojiIcon['emoji'] }
+      : { type: 'external', external: { url: config.notionIconUrl } }
+  },
 
-  parentPageInfoInFrontendDB: (itemInfo) => {
+  parentPageInfoInFrontendDB: itemInfo => {
     if (itemInfo?.categoryKey) {
       return { type: 'page_id', page_id: store.frontendRef.get(itemInfo?.categoryKey)!.id }
     }
     return { type: 'data_source_id', data_source_id: config.frontendDsId! }
-  },
+  }
 }
 
 export const categoryConfig: Config<Category, CategoryInfo> = {
   type: 'category',
   fetchContent: fetchCategoryContent,
-  getCommonProperties: (itemInfo) => ({
+  getCommonProperties: itemInfo => ({
     Identifier: {
       type: 'rich_text',
-      rich_text: [{ text: { content: itemInfo.key } }],
+      rich_text: [{ text: { content: itemInfo.key } }]
     },
     Category: {
       type: 'select',
-      select: { name: itemInfo.title.replaceAll(',', '') },
+      select: { name: itemInfo.title.replaceAll(',', '') }
     },
-    URL: { url: itemInfo.url },
+    URL: { url: itemInfo.url }
   }),
-  getBackendProperties: (itemInfo) => ({
+  getBackendProperties: itemInfo => ({
     Hash: {
       type: 'rich_text',
-      rich_text: [{ text: { content: itemInfo.hash } }],
+      rich_text: [{ text: { content: itemInfo.hash } }]
     },
     Content: {
       type: 'rich_text',
-      rich_text: splitByGraphemes(itemInfo.content).map((i) => ({
-        text: { content: i },
-      })),
-    },
+      rich_text: splitByGraphemes(itemInfo.content).map(i => ({
+        text: { content: i }
+      }))
+    }
   }),
-  getFrontendPageChildren: (itemInfo) =>
+  getFrontendPageChildren: itemInfo =>
     createBlocks([
       itemInfo.coverImage
         ? {
             type: 'image',
-            image: { type: 'external', external: { url: itemInfo.coverImage } },
+            image: { type: 'external', external: { url: itemInfo.coverImage } }
           }
         : null,
       itemInfo.description
         ? {
             type: 'paragraph',
-            paragraph: { rich_text: [{ type: 'text', text: { content: '简介' }, annotations: { bold: true } }] },
+            paragraph: {
+              rich_text: [{ type: 'text', text: { content: '简介' }, annotations: { bold: true } }]
+            }
           }
         : null,
       itemInfo.description
         ? {
             type: 'paragraph',
-            paragraph: { rich_text: [{ type: 'text', text: { content: itemInfo.description } }] },
+            paragraph: { rich_text: [{ type: 'text', text: { content: itemInfo.description } }] }
           }
         : null,
       { type: 'divider', divider: {} },
-      { type: 'heading_3', heading_3: { rich_text: [{ type: 'text', text: { content: '文章列表' } }] } },
+      {
+        type: 'heading_3',
+        heading_3: { rich_text: [{ type: 'text', text: { content: '文章列表' } }] }
+      },
       { type: 'divider', divider: {} },
       { type: 'divider', divider: {} },
       {
         type: 'toggle',
-        toggle: { rich_text: [{ type: 'text', text: { content: '.' } }] },
-      },
+        toggle: { rich_text: [{ type: 'text', text: { content: '.' } }] }
+      }
     ]),
   getIcon: () => ({
     type: 'external',
-    external: { url: config.notionIconUrl },
+    external: { url: config.notionIconUrl }
   }),
   parentPageInfoInFrontendDB: () => {
     return {
       type: 'data_source_id',
-      data_source_id: config.frontendDsId!,
+      data_source_id: config.frontendDsId!
     }
-  },
+  }
 }

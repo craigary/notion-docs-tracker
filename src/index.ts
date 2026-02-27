@@ -47,16 +47,13 @@ const createNewFrontendPage = async <
   configItem: Config<T, U>
 ) => {
   console.log(`New ${configItem.type} spotted, creating in front-end DB...`)
-  store.newItems.push({
-    type: configItem.type,
-    ...itemInfo
-  } as unknown as StoreItem)
 
   const commonProperties = configItem.getCommonProperties(itemInfo)
   const frontendPageChildren = configItem.getFrontendPageChildren(itemInfo)
 
   const parent = configItem.parentPageInfoInFrontendDB(itemInfo)
 
+  console.log(`Creating frontend page for: ${itemInfo.title}`)
   const frontendPage = await notionClient.pages.create({
     parent,
     icon: configItem.getIcon(itemInfo),
@@ -67,6 +64,13 @@ const createNewFrontendPage = async <
     },
     children: frontendPageChildren
   })
+  console.log(`Frontend page created successfully: ${frontendPage.id}`)
+
+  // 只有在成功创建后才添加到 newItems
+  store.newItems.push({
+    type: configItem.type,
+    ...itemInfo
+  } as unknown as StoreItem)
 
   // 存下来，这个用于处理分类时非常有用，因为之后如果创建新页面，需要找到它归属的分类页，这时候就需要用这个查找了。
   store.frontendRef.set(itemInfo.key, frontendPage as PageObjectResponse)
@@ -84,7 +88,9 @@ const createBackendPage = async <
 ) => {
   const commonProperties = configItem.getCommonProperties(itemInfo)
   const backendProperties = configItem.getBackendProperties(itemInfo)
-  await notionClient.pages.create({
+
+  console.log(`Creating backend page for: ${itemInfo.title}`)
+  const backendPage = await notionClient.pages.create({
     parent: { type: 'data_source_id', data_source_id: config.backendDsId as string },
     icon: configItem.getIcon(itemInfo),
     properties: {
@@ -95,10 +101,13 @@ const createBackendPage = async <
       Status: { type: 'status', status: { name: 'Not Started' } }
     }
   })
+  console.log(`Backend page created successfully: ${backendPage.id}`)
 
   // If saveContent is enabled, save content to files and commit to GitHub
   if (config.saveContent) {
-    writeFileEnsureDir(`./content/${itemInfo.key}.md`, itemInfo.content)
+    console.log(`Saving content to file: ./content/${itemInfo.key}.md`)
+    await writeFileEnsureDir(`./content/${itemInfo.key}.md`, itemInfo.content)
+    console.log(`Content saved successfully`)
   }
 }
 
@@ -158,7 +167,9 @@ const updateExistingPage = async <
 
     // If saveContent is enabled, save content to files and commit to GitHub
     if (config.saveContent) {
-      writeFileEnsureDir(`./content/${itemInfo.key}.md`, itemInfo.content)
+      console.log(`Saving updated content to file: ./content/${itemInfo.key}.md`)
+      await writeFileEnsureDir(`./content/${itemInfo.key}.md`, itemInfo.content)
+      console.log(`Content saved successfully`)
     }
   }
 }
@@ -280,6 +291,20 @@ const main = async () => {
   }
 
   console.log('Processing complete.')
+
+  // Log failed items if any
+  if (store.failedItems.length > 0) {
+    console.error(`\n⚠️  Failed to process ${store.failedItems.length} items:`)
+    store.failedItems.forEach(item => {
+      console.error(`  - ${item.type}: ${item.name} (${item.key})`)
+      console.error(`    Error:`, item.error)
+    })
+  }
+
+  console.log(`\n📊 Summary:`)
+  console.log(`  - New items: ${store.newItems.length}`)
+  console.log(`  - Updated items: ${store.updatedItems.length}`)
+  console.log(`  - Failed items: ${store.failedItems.length}`)
 
   // Step 4: Send Telegram message
   const updatedItems: ArticleInfo[] = store.updatedItems
