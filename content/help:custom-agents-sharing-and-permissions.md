@@ -152,7 +152,7 @@ Restrict who can create Custom Agents:
 
 2. Enter `Agents `tabs and go to `Control who can create agents`.
 
-3. Choose who can create agents: `Workspace owners only `(default), `All workspace members`, `Workspace owners + added groups only.`
+3. Choose who can create agents: `All workspace members `(default), `Workspace owners only`, or `Workspace owners + added groups only.`
 
 ![Agent creation settings within Notion Ai.](https://images.ctfassets.net/spoqsaf9291f/2DY5bCPMynBG0uIUeaFRS1/4f673a9ad0923294abafd9d9c999b091/agents_creation_settings.png)
 
