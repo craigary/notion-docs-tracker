@@ -36,7 +36,7 @@ On paid plans, you’ll pay for each member that’s added to the workspace.
 
 **Note:** This feature is only available to users on the Enterprise Plan. Domain verification is not required to enable this feature.
 
-Restricted members share many capabilities with regular workspace members — they can create private pages, use Notion AI (<!-- -->respecting restricted members’ permissions),<!-- --> log in with SSO, be added to permission groups, and more. **They also affect your billing in the same way as adding a workspace member.**
+Restricted members share many capabilities with regular workspace members — they can create private pages, use Notion AI (respecting restricted members’ permissions), log in with SSO, be added to permission groups, and more. **They also affect your billing in the same way as adding a workspace member.**
 
 There are a few ways that restricted members are different from regular workspace members, including:
 
@@ -72,17 +72,9 @@ Guests are individuals **external to your company or organization** who you invi
 
 * People who have a different organization email domain.
 
-* Contractors or interns who are working with you temporarily.
-
 * Clients who you want to provide feedback on your work.
 
 * Friends, family, or mentors that you want to have contribute to or review your work.
-
-### Guest limits
-
-Unlike members, **guests are free to invite to your workspace as long as you stay within** [your plan’s guest limit](https://www.notion.com/pricing). If your workspace is above this limit, any new users that you share content with will be automatically added as members and not guests if they have the same organization email domain.
-
-To ensure you’re adding users as guests and not members, you’ll need to remove existing guests so you’re below your limit, upgrade to a plan with a higher limit, or work with our sales team (for eligible customers).
 
 ### Guests vs. members
 

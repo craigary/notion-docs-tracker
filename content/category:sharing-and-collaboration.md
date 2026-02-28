@@ -24,10 +24,10 @@ Page analytics
 
 Intro to teamspaces
 
+People Directory
+
 Create & manage groups
 
 People profiles
-
-People Directory
 
 Who’s who in a workspace
