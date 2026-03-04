@@ -94,6 +94,28 @@ To help you request consent, you’ll have a few easy options:
 
 * **Say it out loud**: A simple ask works too. For example, you could ask, “Alright if I record and transcribe this meeting using Notion AI Meeting Notes?”
 
+#### **Automatic consent message option**
+
+You can choose to have an audio message play automatically at the start of each transcription to let others know you are using AI Meeting Notes.
+
+**If you are a workspace owner:&#x20;**&#x79;ou can turn this functionality on for all users in your workspace by going to `Settings` → `Notion AI` → `AI Meeting Notes `and updating the Enforce consent for all workspace members setting.
+
+**If you are in a workspace where this setting has been enabled by the workspace owner:** the consent message will play each time you use AI Meeting Notes. Remember to unmute your speakers and disconnect any headphones before starting transcription so meeting participants can hear the consent message clearly.
+
+**If you are in a workspace where automatic consent message isn't enabled:** you can turn this setting on for yourself. You will see a message in the meeting notes block asking you to choose your default consent option:
+
+* Get consent myself: continue obtaining consent from all participants manually
+
+* Automatically play audio: have the audio consent message play automatically at the start of each transcription
+
+This message disappears after you select your default consent option. You can update your preference at any time:
+
+* Go to `Settings` → `Notion AI` → `AI Meeting Notes` and update the `Auto play consent message on start` option.
+
+* Open the slider menu at the top of the AI Meeting Notes block and update the
+
+  `Auto-play consent` setting there.
+
 ## Control who can access your meeting notes
 
 By default, meeting notes you create are **private to you**. You can choose to automatically share notes created from a Notion calendar event with meeting participants who are members of your workspace.
