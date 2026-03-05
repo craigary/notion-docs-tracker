@@ -86,7 +86,7 @@ The form builder lets you decide what your form will look like and how it will w
 
    * `Duplicate question` or `Delete question`.
 
-6. Select `•••` at the top of your form builder → `Customize form`. From here, you can adjust the submission experience for your respondents, like the submit button's `Color` and `Text`, as well as the `Confirmation title` and `Confirmation body`.
+6. Select `Form settings` at the top of your form builder → `Submit screen`. From here, you can adjust the submission experience for your respondents, like the submit button's `Color` and `Text`, as well as the `Confirmation title` and `Confirmation body`. You can also choose to receive an email copy of each submission.
 
 7. Once you’re done setting up your form, select `Preview` at the top to see what your form will look like when you share it with others.
 

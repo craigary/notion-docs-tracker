@@ -28,6 +28,8 @@ Notion offers a suite of AI-powered capabilities, integrated seamlessly across y
 
 Notion AI appears seamlessly in your workspace but leverages technology from several AI Subprocessors to provide you with the service. Check out our [Subprocessor Page](https://notion.notion.site/Notion-s-List-of-Subprocessors-268fa5bcfa0f46b6bc29436b21676734) for a complete list of our current Subprocessors, and learn more about Notion AI [here →](https://www.notion.com/help/category/notion-ai)
 
+Learn more about security features for Custom Agents [here](https://www.notion.com/help/custom-agents-security-features).
+
 ## How does Notion AI work?
 
 ### Who are Notion’s Large Language Model Provider&#x73;**?**
