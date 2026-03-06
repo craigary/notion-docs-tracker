@@ -14,9 +14,9 @@ How adding & removing members impacts billing
 
 Invoices
 
-Payment methods
-
 Custom Agent pricing
+
+Payment methods
 
 Refunds
 

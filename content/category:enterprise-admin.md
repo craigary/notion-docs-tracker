@@ -38,7 +38,7 @@ Custom data retention settings
 
 Network control
 
-Set up Microsoft Intune with Notion (iOS and Android)
+IP address restrictions
 
 Organization level controls
 
@@ -48,4 +48,4 @@ Manage teamspaces
 
 Deploy Notion for Windows
 
-IP address restrictions
+Set up Microsoft Intune with Notion (iOS and Android)

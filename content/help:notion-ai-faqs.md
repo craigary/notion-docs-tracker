@@ -52,6 +52,8 @@ You can personalize your Agent’s appearance and personality and teach it how t
 
 * [Get started with your Notion Agent](https://www.notion.com/help/guides/get-started-with-your-personal-agent-in-notion)
 
+* [Use instructions and skills to customize your Notion Agent](http://www.notion.com/help/customize-your-notion-agent-with-instructions-and-skills)
+
 ## Enterprise Search
 
 ![hc: enterprise search](https://images.ctfassets.net/spoqsaf9291f/1ypcK0AJrlYVSSkDEVFD0P/9ec910be12fac8110cb52e80fe6eb013/Sept_15_Screenshot_from_Personal_Agent__1_.png)
@@ -95,6 +97,14 @@ Notion AI can transcribe your meetings and summarize your meeting notes. AI Meet
 * [AI Meeting Notes (beta)](https://www.notion.com/help/ai-meeting-notes)
 
 * [Preserve perfect meeting memory with AI Meeting Notes](https://www.notion.com/help/guides/preserve-perfect-meeting-memory-with-ai-meeting-notes)
+
+## Generate an image with Notion AI
+
+Create new images and edit existing ones using Notion AI. This is helpful for things like diagrams, flowcharts, and visual notes that you can refine with additional instructions.
+
+AI image generation is available on Business and Enterprise plans. Workspace owners and admins can also control whether it’s enabled.
+
+Learn more about how to create images with Notion AI in [this article](https://www.notion.com/help/create-and-edit-images-with-notion-ai).
 
 ## Notion AI inline
 
