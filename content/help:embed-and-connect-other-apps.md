@@ -163,11 +163,9 @@ You can embed a view-only Google Calendar into Notion if the Gmail address you u
 
 2. Under `Access permissions` check `Make available to public` with `See all event details` selected.
 
-3. If you're using a work email, you may see `Make available to team` as an option. This works too!
+3. Under `Integrate calendar`, copy the URL in the box labeled `Public URL to this calendar`:
 
-4. Under `Integrate calendar`, copy the URL in the box labeled `Public URL to this calendar`:
-
-5. Paste that URL into Notion and select `Create Embed` from the menu that appears.
+4. Paste that URL into Notion and select `Create Embed` from the menu that appears.
 
 ### Integrate Slack
 

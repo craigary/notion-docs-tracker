@@ -20,6 +20,8 @@ Once a workspace is deleted:
 
 * You'll be returned to another workspace you belong to, or the sign up page for Notion if you don't belong to any others.
 
+Deleting a workspace **does not cancel a subscription.&#x20;**&#x54;o cancel your subscription, [downgrade your plan](https://www.notion.com/help/upgrade-or-downgrade-your-plan#downgrade-your-plan) before deleting.
+
 ## Delete a workspace
 
 To delete a workspace:
