@@ -174,7 +174,7 @@ To delete a workspace, organization owners can follow these steps:
 
 ### Consolidate workspaces
 
-The workspace consolidation tool is available to Enterprise customers through their Notion Account Management team. Learn more about workspace consolidation support [here](https://notion.notion.site/Notion-Workspace-Consolidation-Guide-0eca1f05f2614ff6818c86c3b3fb0357?pvs=4).
+The workspace consolidation tool is available to sales-assisted Enterprise customers through their Notion Account Management team. Learn more about workspace consolidation support [here](https://notion.notion.site/Notion-Workspace-Consolidation-Guide-0eca1f05f2614ff6818c86c3b3fb0357?pvs=4).
 
 
 ## FAQs

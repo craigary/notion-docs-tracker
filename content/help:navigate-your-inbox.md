@@ -60,8 +60,6 @@ You can take the following actions when you have an email open:
 
 * Open the `•••` menu to `Mark as spam` or `Report phishing`.
 
-**Note:&#x20;**&#x41;t this time, you can’t download your email as a PDF or turn your email into a Notion page.
-
 ## Shortcuts and command palette
 
 ![hc: notion mail shortcuts](https://images.ctfassets.net/spoqsaf9291f/5afnSIB4xd4mvXDwqHFGLr/1a42dadea73726823e54e73d222efb0c/Notion_Mail_Feedback.png)

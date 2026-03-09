@@ -76,7 +76,7 @@ While you're drafting an email, Notion AI can help you write your message in jus
 
 ## Draft emails
 
-Soon, you can prompt Notion AI to draft entire email responses on your behalf.
+Notion AI can draft entire email responses on your behalf. To do this, select an email thread and click `Ask AI.`
 
 **Learn more**
 
