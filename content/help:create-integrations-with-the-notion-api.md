@@ -20,7 +20,7 @@ Visit our [developer hub](http://developers.notion.com/) for documentation, re
 
 3. Click the `Develop your own integrations` link at the bottom.
 
-4. [My integrations](https://www.notion.com/my-integrations) will open in your default browser. Click the `+ New integration` button.
+4. [My integrations](https://www.notion.com/profile/integrations/internal) will open in your default browser. Click the `+ New integration` button.
 
 5. Provide a `Name` for your integration. Optionally, you can also upload an image to use as a `Logo`.
 
