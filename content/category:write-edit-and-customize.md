@@ -33,3 +33,5 @@ Keyboard shortcuts
 Use pages offline
 
 Duplicate public pages
+
+Presentation mode

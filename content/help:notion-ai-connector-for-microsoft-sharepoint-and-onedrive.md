@@ -36,7 +36,11 @@ To connect SharePoint and OneDrive to your Notion workspace:
 
 3. A Microsoft page should automatically open, asking to accept application permissions. Click `Accept`.
 
-4. Once the installation is complete, return to Notion. You'll see a `Connection is in progress` screen. Click `Done`.
+4. Once the installation is complete, return to Notion. You'll see a `Connection is in progress` screen.
+
+5. To only include only specific sites or users, choose `Customize connected content`. To move forward with the full selection, click `Got it`.
+
+6. Click `Done`.
 
 ![HC: Sharepoint OneDrive Complete](https://images.ctfassets.net/spoqsaf9291f/4hwB6uByv6baWNUASZKebe/9539f338a72ec57c5fc44995b8d596a9/Onboarding_SharePoint__1_.png)
 

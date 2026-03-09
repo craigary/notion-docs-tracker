@@ -119,7 +119,7 @@ Because instructions and skills are pages, [sharing](https://www.notion.com/help
 
 ### Can I use Notion AI instructions with Custom Agents?
 
-No. Personal instructions apply to your personal Agent. [Custom Agents](https://www.notion.com/help/custom-agent) have their own instructions inside the agent setup.
+No. <!-- -->Notion Agent instructions only apply to your Notion Agent. [Custom Agents](https://www.notion.com/help/custom-agent) have their own instructions <!-- -->and permissions as part of their setup.
 
 
 ### Will my Notion Agent use skills automatically?
