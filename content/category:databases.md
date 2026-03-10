@@ -36,6 +36,8 @@ Calendar view
 
 List view
 
+Dashboards view
+
 Gallery view
 
 Chart view
@@ -44,8 +46,8 @@ Feed view
 
 Layouts
 
-Unique ID
-
 Map view
+
+Unique ID
 
 Forms

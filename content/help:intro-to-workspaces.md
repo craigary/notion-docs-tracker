@@ -4,7 +4,7 @@ emoji: 🏠
 description: Everything you do in Notion takes place in a workspace. It's your virtual home to organize information and create exactly the way you want — as just one person, together as a team, or across a whole company. Expand, edit, and mold it to fit your needs 🏠
 url: https://www.notion.com/help/intro-to-workspaces
 key: help:intro-to-workspaces
-coverImage: https://img.youtube.com/vi/lsmgy5oszmu/maxresdefault.jpg
+coverImage: https://img.youtube.com/vi/lSmgY5OsZmU/maxresdefault.jpg
 category: Workspace & sidebar
 ---
 
