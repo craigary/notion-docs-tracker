@@ -73,6 +73,14 @@ We take a comprehensive approach to security: preventing attacks and minimizing 
 
 Like email protection against phishing, our security measures work effectively in most situations, but no system offers perfect protection against all attacks. Users should be cautious with unfamiliar content and follow best security practices.
 
+#### Choosing the right model
+
+When working with Notion AI, you may use the model picker to control the model that you work with. If you hover over the model, you’ll see details like the speed, intelligence, and cost. Smaller models are generally faster and cheaper to work with, but we’ve applied a warning that they “may be more vulnerable to prompt injection”.
+
+While Notion maintains security controls that help protect against prompt injection, your model choice also plays a role. AI models vary in size in terms of parameters (the internal, trainable numerical values that shape how the models operate). The more parameters a model has, the better it tends to perform on complex tasks, including distinguishing legitimate instructions from malicious ones. Smaller models tend to be more susceptible to following adversarial instructions, increasing the risk that they perform unintended actions when processing external content.
+
+For workflows involving sensitive data or content from external or untrusted sources, such as uploaded files, shared documents, or web content, consider selecting a larger model. Regardless of which model you use, careful handling of untrusted content is one of the most effective steps you can take to protect your data.
+
 ## Securing Custom Agents
 
 Learn more about security best practices for agent connections in [this article](https://www.notion.com/help/security-best-practices-for-agent-connections).

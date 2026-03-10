@@ -18,7 +18,7 @@ For general Notion AI security practices, see [Notion AI security & privacy prac
 
 Custom Agents include multiple layers of protection to help you avoid sharing sensitive information.​
 
-## Admin controls
+### Admin controls
 
 Workspace admins can manage Custom Agents across the organization through an Agent Directory, creation controls, content search, audit logs, AI analytics, and ownership transfer tools to maintain visibility and control over all agents in the workspace.
 
@@ -99,3 +99,11 @@ Custom Agents ask for confirmation before accessing unexpected external links:
 * If an agent generates a URL that wasn't in your original prompt, it pauses and asks for confirmation.
 
 * You'll receive a notification to review and approve the URL before the agent proceeds.
+
+### Choosing the right model
+
+When working with Notion AI, you may use the model picker to control the model that you work with. If you hover over the model, you’ll see details like the speed, intelligence, and cost. Smaller models are generally faster and cheaper to work with, but we’ve applied a warning that they “may be more vulnerable to prompt injection”.
+
+While Notion maintains security controls that help protect against [prompt injection](https://www.notion.com/help/how-notion-protects-against-prompt-injection-risks), your model choice also plays a role. AI models vary in size in terms of parameters (the internal, trainable numerical values that shape how the models operate). The more parameters a model has, the better it tends to perform on complex tasks, including distinguishing legitimate instructions from malicious ones. Smaller models tend to be more susceptible to following adversarial instructions, increasing the risk that they perform unintended actions when processing external content.
+
+For workflows involving sensitive data or content from external or untrusted sources, such as uploaded files, shared documents, or web content, consider selecting a larger model. Regardless of which model you use, careful handling of untrusted content is one of the most effective steps you can take to protect your data.
