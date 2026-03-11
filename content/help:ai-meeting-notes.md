@@ -66,17 +66,49 @@ When AI Meeting Notes detects that the person speaking has changed, it will star
 
 You’ll also find citations to your transcript in your meeting notes summary. Hover over a citation to see the snippet of your transcript that’s been referenced. You can also click on a citation to jump to the corresponding line in your transcript.
 
-## Change summary format
+## Change summary instructions
 
-AI Meeting Notes can structure notes based on the type of meeting you’re having, like a sales call, standup, or team meeting. To change the format of your AI Meeting Notes summary:
+AI Meeting Notes can structure notes based on the type of meeting you’re having, like a sales call, standup, or team meeting. To change how your AI Meeting Notes creates a summary:
 
-1. Click the slider icon at the top of the block.
+1. Go to `Instructions` at the bottom of the meeting notes block.
 
-2. Hover over `Format` and select one of the options.
+2. Click the dropdown to change the instructions from Auto.
 
-   * Format changes only apply to new recordings or when you resume transcription. To update an existing summary with a new format, click `Retry summary`.
+   * Instruction changes only apply to new recordings or when you resume transcription. To update an existing summary with new instructions, click `Retry summary`.
 
 **Tip:** Connect AI Meeting Notes to Notion Calendar so you can start notes with one click directly from your calendar, and connect existing notes to calendar events. Click the slider icon at the top of the AI Meeting Notes block to set it up!
+
+### Create custom summary instructions
+
+In addition to built-in instructions, you can create custom instructions to define the structure of your meeting summaries. To add custom instructions:
+
+1. Go to `Instructions` at the bottom of the meeting notes block.
+
+2. Click the dropdown to change the format from Auto.
+
+3. Click `+ Add custom instructions`.
+
+4. A template page will open — edit it to define your preferred structure and instructions.
+
+5. Your custom instructions will now appear in the instructions list and can be selected for any meeting.
+
+**Sharing and privacy for custom summaries**
+
+Custom summary instructions are **private by default** — only you can see and use them.
+
+If a meeting note uses private custom instructions, users who also have access to the meeting block will see their own default instructions applied to the summary instead.
+
+### Set default summary instructions
+
+You can set any summary instructions — including custom ones — as your default so it's applied automatically to all new meetings.
+
+1. Go to `Instructions` at the bottom of the meeting notes block.
+
+2. Click the dropdown.
+
+3. Hover over the instructions you want to use as default.
+
+4. Click **`•••`** → `Set as default`
 
 ## Consent message
 
@@ -94,7 +126,7 @@ To help you request consent, you’ll have a few easy options:
 
 * **Say it out loud**: A simple ask works too. For example, you could ask, “Alright if I record and transcribe this meeting using Notion AI Meeting Notes?”
 
-#### **Automatic consent message option**
+#### Automatic consent message option
 
 You can choose to have an audio message play automatically at the start of each transcription to let others know you are using AI Meeting Notes.
 
@@ -120,9 +152,9 @@ This message disappears after you select your default consent option. You can up
 
 By default, meeting notes you create are **private to you**. You can choose to automatically share notes created from a Notion calendar event with meeting participants who are members of your workspace.
 
-To do so, go to **`Settings`** → **`Notion AI`** and toggle on **`Auto-share with internal calendar event participants`**.
+To do so, go to `Settings` → `Notion AI` and toggle on `Auto-share with internal calendar event participants`.
 
-#### **When auto-sharing is disabled:**
+#### When auto-sharing is disabled
 
 * Meeting notes remain private to you.
 
@@ -130,7 +162,7 @@ To do so, go to **`Settings`** → **`Notion AI`** and toggle on **`Auto-share w
 
 * You can always manually share using Notion's standard sharing controls.
 
-#### When auto-sharing is enabled:
+#### When auto-sharing is enabled
 
 * Meeting notes created from Notion calendar entry points (Meetings tab, desktop notifications, calendar header) will be automatically shared with meeting participants who are members of your workspace.
 
@@ -384,3 +416,8 @@ Yes, AI Meeting Notes has a daily usage limit of 10 hours per user.
 ### I get notifications when I join meetings asking if I want to use AI Meeting Notes. How does AI Meeting Notes know I am about to join a meeting?
 
 The Notion desktop app observes if a user has a process running on their computer that is actively using their microphone (e.g. Zoom) to provide these notifications. Notion does not listen to the audio coming from your microphone to provide these notifications. Notion records audio only when using AI Meeting Notes. This behavior can be disabled by going to `Settings` → `Notifications` and toggling off `Desktop meeting detection notifications`.
+
+
+### Can I convert an existing Notion page into a meeting summary template?
+
+Not at this time. Custom instructions must be created directly from Instructions at the bottom of the meeting notes block.
