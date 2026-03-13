@@ -32,20 +32,20 @@ Enterprise connection settings
 
 Managed users
 
-Custom data retention settings
-
 Deploy Notion for macOS
 
-Organization level controls
-
-IP address restrictions
-
-Manage teamspaces
+Custom data retention settings
 
 Network control
 
-Deploy Notion for Windows
+Legal holds
+
+IP address restrictions
 
 Set up Microsoft Intune with Notion (iOS and Android)
 
-Legal holds
+Manage teamspaces
+
+Deploy Notion for Windows
+
+Organization level controls
