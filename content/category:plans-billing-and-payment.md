@@ -34,6 +34,6 @@ What happens when I downgrade my plan?
 
 Sales tax
 
-Notion credits dashboard
-
 Can’t upgrade to the Plus Plan for students and educators
+
+Notion credits dashboard
