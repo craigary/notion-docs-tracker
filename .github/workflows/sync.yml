@@ -1,0 +1,38 @@
+name: Sync Notion Docs
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - uses: oven-sh/setup-bun@v2
+
+      - run: bun install --frozen-lockfile
+
+      - run: bun ./src/index.ts --send-telegram=true --save-content=true
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_FRONTEND_DATASOURCE_ID: ${{ secrets.NOTION_FRONTEND_DATASOURCE_ID }}
+          NOTION_BACKEND_DATASOURCE_ID: ${{ secrets.NOTION_BACKEND_DATASOURCE_ID }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TELEGRAM_TOPIC_ID: ${{ secrets.TELEGRAM_TOPIC_ID }}
+
+      - name: Commit generated content
+        run: |
+          git config user.name 'Notion Docs Tracker Bot'
+          git config user.email 'bot@users.noreply.github.com'
+          git add content/
+          git diff --cached --quiet || git commit -m "docs: daily sync of Notion docs content"
+          git push

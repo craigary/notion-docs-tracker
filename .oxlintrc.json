@@ -1,0 +1,19 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": ["typescript", "unicorn", "oxc"],
+  "categories": {
+    "correctness": "error",
+    "suspicious": "warn"
+  },
+  "rules": {
+    "no-explicit-any": "warn"
+  },
+  "overrides": [
+    // {
+    //   "files": ["src/notion/category-synced-block.ts", "src/notion/views.ts"],
+    //   "rules": {
+    //     "no-explicit-any": "off"
+    //   }
+    // }
+  ]
+}
