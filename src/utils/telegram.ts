@@ -25,8 +25,8 @@ export async function sendMessage(message: string) {
     reply_markup: {
       inline_keyboard: [
         [
-          { text: '📚 阅读官方帮助文档', url: config.helpDocsUrl },
-          { text: '🀄 阅读中文版帮助文档', url: config.translationUrl }
+          { text: '📚 查看帮助文档', url: config.helpDocsUrl },
+          { text: '🀄 查看中文翻译', url: config.translationUrl }
         ]
       ]
     }
