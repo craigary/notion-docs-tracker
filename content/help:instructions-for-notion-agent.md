@@ -43,9 +43,15 @@ A simple rule of thumb is that if you’d correct the same Notion Agent behavior
 
 ## Create an Instructions page
 
+**From Settings**
+
 1. Go to `Settings` → `Notion AI` → `Add Instructions`.
 
 2. Choose to `Create your own`, use a template, or `Use existing page`.
+
+### From an existing page
+
+1. From any page, go to ••• → `Use with AI` → `Use as AI Instruction`
 
 ## Where to manage Instructions
 

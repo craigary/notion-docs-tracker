@@ -11,13 +11,13 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/3YdwMwZLM4TOOtw3zhRapu/92
 3 help:gdpr-at-notion
 4 help:ai-safety
 5 help:notion-ai-security-practices
-6 help:custom-agents-security-features
-7 help:security-best-practices-for-agent-connections
+6 help:security-best-practices-for-agent-connections
+7 help:custom-agents-security-features
 8 help:enterprise-search-security-and-privacy-practices
 9 help:data-accessible-by-your-workspace-owner
 10 help:report-inappropriate-content
 11 help:how-notion-protects-against-prompt-injection-risks
-12 help:dormant-account-policy
+12 help:shared-responsibilities-model
 13 help:data-residency
 14 help:how-to-protect-yourself-from-malvertising
-15 help:shared-responsibilities-model
+15 help:dormant-account-policy

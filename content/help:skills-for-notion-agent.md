@@ -47,11 +47,17 @@ A simple rule of thumb is that if you’d copy and paste the same prompt twice, 
 
 ## Create a Skill
 
+**From Settings**
+
 1. Go to `Settings` → `Notion AI` → `Skills`.
 
 2. Select `+ Add a Skill`.
 
 3. Create a new Skill page or choose an existing page.
+
+**From an existing page**
+
+1. From any page, go to ••• → `Use with AI` → `Use as AI Skill`
 
 ## Where to manage Skills
 
