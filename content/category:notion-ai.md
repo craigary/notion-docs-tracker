@@ -7,14 +7,14 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/7j6zHBFAMtPgTdqjZQq46w/c7
 ---
 
 1 help:notion-ai-faqs
-2 help:autofill
-3 help:notion-agent
+2 help:notion-agent
+3 help:autofill
 4 help:ai-meeting-notes
 5 help:notion-ai-connectors
 6 help:notion-ai-connector-for-github
 7 help:notion-ai-connectors-for-google-drive
-8 help:notion-ai-connector-for-linear
-9 help:jira-ai-connector
+8 help:jira-ai-connector
+9 help:notion-ai-connector-for-linear
 10 help:notion-ai-connector-for-microsoft-teams
 11 help:notion-ai-connector-for-microsoft-sharepoint-and-onedrive
 12 help:notion-ai-connectors-for-slack
@@ -22,14 +22,14 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/7j6zHBFAMtPgTdqjZQq46w/c7
 14 help:notion-mcp
 15 help:create-and-edit-images-with-notion-ai
 16 help:salesforce-ai-connector
-17 help:asana-ai-connector
+17 help:research-mode
 18 help:box-ai-connector
-19 help:microsoft-outlook-ai-connector
+19 help:notion-mail-ai-connector
 20 help:google-calendar-ai-connector
 21 help:instructions-for-notion-agent
 22 help:notion-calendar-ai-connector
-23 help:skills-for-notion-agent
-24 help:enterprise-search
-25 help:research-mode
-26 help:notion-mail-ai-connector
-27 help:notion-ai-connector-for-gmail
+23 help:enterprise-search
+24 help:skills-for-notion-agent
+25 help:notion-ai-connector-for-gmail
+26 help:asana-ai-connector
+27 help:microsoft-outlook-ai-connector

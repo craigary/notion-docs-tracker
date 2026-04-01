@@ -97,7 +97,7 @@ In addition to built-in instructions, you can create custom instructions to defi
 
 Custom summary instructions are **private by default** — only you can see and use them.
 
-If a meeting note uses private custom instructions, users who also have access to the meeting block will see their own default instructions applied to the summary instead.
+If a meeting note uses private custom instructions, users who have access to the meeting block will still see the same summary. However, the Instructions setting will show their own default instructions instead.
 
 ### Set default summary instructions
 
