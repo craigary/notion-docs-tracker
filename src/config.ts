@@ -33,11 +33,6 @@ const argv = yargs(hideBin(Bun.argv))
       type: 'string',
       default: Bun.env.TRANSLATION_URL ?? 'https://the-block.club/help',
       description: 'Chinese translation URL for Telegram buttons'
-    },
-    'notion-version': {
-      type: 'string',
-      default: '2026-03-11',
-      description: 'Notion-Version header for the official API'
     }
   })
   .help()
@@ -55,7 +50,6 @@ const config = {
   saveContent: argv['save-content'],
   helpDocsUrl: argv['help-docs-url'],
   translationUrl: argv['translation-url'],
-  notionVersion: argv['notion-version'],
   notionToken,
   frontendDatasourceId,
   backendDatasourceId,

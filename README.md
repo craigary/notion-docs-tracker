@@ -24,6 +24,7 @@ cp .env.example .env
 
 - `bun start` runs the sync locally with Telegram disabled
 - `bun run sync` runs the sync locally and saves Markdown into `./content`
+- `bun run unlock:frontend-pages` unlocks all locked pages in the frontend data source
 - `bun run check` runs `tsc --noEmit`
 - `bun run format` runs `oxfmt` for the repository while skipping `./content`
 - `bun run format:check` checks formatting without writing files

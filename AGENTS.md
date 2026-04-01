@@ -10,7 +10,7 @@ Install dependencies with `bun install`. Run the sync locally with `bun start`. 
 
 ## Coding Style & Naming Conventions
 
-TypeScript is compiled in strict mode with `noUncheckedIndexedAccess` and `noImplicitOverride` enabled in [`tsconfig.json`](/Users/craighart/Developer/[dev]%20notion-related/notion-docs-tracker-rewrite/tsconfig.json). Keep new code in ESM style and preserve the current file layout. Use `DATASOURCE` terminology in config, env vars, and code paths; do not introduce new `DATABASE` or `DB` naming for the active Notion API surface. Frontend sync code must preserve translated `Name`, `Description`, body content, and icon for existing pages. Backend sync code is the source mirror and is allowed to update emoji and content metadata.
+TypeScript is compiled in strict mode with `noUncheckedIndexedAccess` and `noImplicitOverride` enabled in [`tsconfig.json`](/Users/craighart/Developer/[dev]%20notion-related/notion-docs-tracker-rewrite/tsconfig.json). Keep new code in ESM style and preserve the current file layout. Use `DATASOURCE` terminology in config, env vars, and code paths; do not introduce new `DATABASE` or `DB` naming for the active Notion API surface. Use the Notion SDK default version handling everywhere in this repo: do not pass `notionVersion`, do not add a `NOTION_VERSION` env var, and do not expose a `--notion-version` CLI option. Frontend sync code must preserve translated `Name`, `Description`, body content, and icon for existing pages. Backend sync code is the source mirror and is allowed to update emoji and content metadata.
 
 ## Testing Guidelines
 
