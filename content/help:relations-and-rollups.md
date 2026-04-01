@@ -153,7 +153,11 @@ Rollups help you aggregate data in your databases based on relations. Going back
 
   * The calculation you want to apply to them.
 
-* So, for our example, you'd choose to roll up the relation property `Items Purchased` and the `Price` property within those pages. Then you'd choose `Sum` as the calculation.
+  * The number formatting you want to display.
+
+  * The decimal point placement you want to set.
+
+* So, for our example, you'd choose to roll up the relation property `Items Purchased` and the `Price` property within those pages. Then you'd choose `Sum` as the calculation, the `Number format`, and lastly where to place your decimal point.
 
   * Doing this adds up the prices of each item related to a customer's name, giving you the total dollars they spent in your rollup column.
 

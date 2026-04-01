@@ -15,7 +15,7 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/fB3bs1S6denCTSAnrUsYx/f05
 7 help:data-access-consent
 8 help:delete-your-account
 9 help:secondary-emails
-10 help:notion-faces
-11 help:change-your-language
-12 help:log-in-and-out
-13 help:passkeys
+10 help:change-your-language
+11 help:notion-faces
+12 help:passkeys
+13 help:log-in-and-out

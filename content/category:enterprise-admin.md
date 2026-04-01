@@ -15,8 +15,8 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/2lKwICICVv9jnFRGGEPZC6/da
 7 help:admin-content-search
 8 help:transfer-content-deprovisioned-user
 9 help:audit-log
-10 help:workspace-analytics
-11 help:add-security-and-compliance-integrations
+10 help:add-security-and-compliance-integrations
+11 help:workspace-analytics
 12 help:managed-users-dashboard
 13 help:enterprise-connection-settings
 14 help:custom-data-retention-settings
@@ -25,6 +25,6 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/2lKwICICVv9jnFRGGEPZC6/da
 17 help:network-control
 18 help:organization-level-controls
 19 help:manage-teamspaces
-20 help:legal-holds
-21 help:deploy-notion-for-windows
+20 help:deploy-notion-for-windows
+21 help:legal-holds
 22 help:set-up-microsoft-intune-with-notion-ios-and-android
