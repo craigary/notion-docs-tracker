@@ -146,13 +146,15 @@ Every Custom Agent is different. Credit usage is impacted by a few factors you c
 
 Four factors affect efficiency:
 
-1. **Run frequency:&#x20;**&#x4D;ake every run count
+1. **Run frequency:&#x20;**&#x4D;ake every run count.
 
-2. **Context size:&#x20;**&#x42;e intentional about what your agent references
+2. **Context size:&#x20;**&#x42;e intentional about what your agent references.
 
-3. **Steps and reasoning:&#x20;**&#x4D;ake every tool call count
+3. **Steps and reasoning:&#x20;**&#x4D;ake every tool call count.
 
-4. **Model selection:&#x20;**&#x4C;et Notion choose for you or customize based on your needs
+4. **Model selection:&#x20;**&#x4C;et Notion choose for you or customize based on your needs.
+
+5. **Credit limits:&#x20;**&#x41;dmins and Agent owners can set **credit limits** for individual Custom Agents. When an agent reaches a credit limit, it will automatically pause for all users who have access. This prevents further credit usage until the limit is adjusted, or the month resets.
 
 Getting these right helps your agent run efficiently, delivers better results, and keeps costs predictable.
 
@@ -208,13 +210,23 @@ By default, your agent’s AI model is set to `Auto`, which lets Notion intellig
 
 Model choice affects credits per step. If quality is consistently higher than you need, consider a less expensive model.
 
+### 5. Keep costs predictable with agent credit limits
+
+Monthly credit limits give workspace admins and agent owners a straightforward way to set guardrails on agent spending without needing to monitor usage in real time.
+
+If a Custom Agent reaches a credit limit, it will automatically pause for all users who have access. This prevents further credit usage until the limit is adjusted, or the month resets. Admins and agent owners can set, adjust, or remove credit limits at any time.
+
+To set a credit limit: Go to the Custom Agent's **Settings → Credits → Monthly limit**.
+
+Credit limits are set **per agent,** and everyone's usage of a shared agent counts toward the same credit limit.
+
 ### Additional controls admins can use to manage credit usage
 
 Admins have extra controls to help manage Agent runs and keep credit usage efficient across the workspace.
 
 **For Business and Enterprise admins:**
 
-* **Disable Custom Agents at any time&#x20;**&#x74;o prevent unnecessary runs
+* **Turn off Custom Agents&#x20;****or set credit limits&#x20;****at any time&#x20;**&#x74;o prevent unnecessary runs
 
 * **Control who can create agents&#x20;**&#x62;y allowing everyone, workspace owners only, or selected members
 
