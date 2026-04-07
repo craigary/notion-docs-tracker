@@ -53,7 +53,7 @@ Go to `Settings` in Notion Mail → `Inbox`. From here, you can:
 
 Go to `Settings` in Notion Mail → `Notion AI` to:
 
-* `Create` an [auto label](https://www.notion.com/help/use-notion-ai-with-notion-mail#label-emails) that Notion AI can apply based on your prompt.
+* Create an [auto label](https://www.notion.com/help/use-notion-ai-with-notion-mail#label-emails) that Notion AI can apply based on your prompt.
 
 * See any existing auto labels you have, along with a description. Select `•••` next to an auto label to `Edit` or `Deactivate` it.
 
@@ -79,9 +79,19 @@ Go to `Settings` in Notion Mail → `Signature` to toggle Notion Mail’s `Defau
 
 Go to `Settings` in Notion Mail → `Account` to:
 
-* `Export your data`.
+* Export your data.
 
-* Permanently `Delete mail data`. This won’t delete your Notion account.
+* Delete your Notion Mail account by disconnecting the email address associated with it.
+
+  1. In Notion Mail, go to `Settings` → `Account`
+
+  2. Optional: select `Export your data` → `Export`
+
+  3. Under `Connected addresses`, select the email address you want to remove, then select `Disconnect`
+
+  4. In the confirmation window, select `Disconnect`.
+
+  This action deletes the Notion Mail account linked to the disconnected email. It includes all of your views, AI labels, and notification preferences. You can sign up for Notion Mail again at any time.
 
 **Note:** To log out of Notion Mail, you’ll need to log out of Notion.
 
