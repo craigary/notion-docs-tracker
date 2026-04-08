@@ -1,7 +1,7 @@
 ---
 title: "I can't log in"
-emoji: null
-description: null
+emoji: "🔐"
+description: "Troubleshoot login issues and regain access to your Notion account 🔐"
 url: "https://www.notion.com/help/cant-log-in"
 key: "help:cant-log-in"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/15MnehxCRUUA3LITX21Lar/7c80798bd5cce07c4b492cb6543419c7/Troubleshooting_Reference_Visuals.png"
@@ -27,19 +27,25 @@ If you don’t remember your Notion password, you can reset it. To do so:
 
 ## If you lost access to your email
 
-If you no longer have access to the email address you used to sign up for Notion, you can change this email in Notion settings. You’ll need to have a permanent password for your account already. To do so:
+If you no longer have access to the email address you used to sign up for Notion, you can update the email address on your account from your settings as long as you have a Notion password set.
+
+**To update your account email:**
 
 1. Go to `Settings` in your sidebar → `{your name}`.
 
-2. Under `Account security`, select `Change email`.
+2. Under `Account security`, click `Manage emails`.
 
-3. Enter your password, then select `Continue`.
+3. Click `Add email`, then enter the new email address you want to use.
 
-4. Enter your new email, then select `Send verification code`. Once you receive this code at your new email address, enter it.
+4. Select `Send verification code`, then enter the code sent to your new email address.
 
-5. Select `Change email`.
+5. Next to the new email address, open the `•••` menu and select `Make primary`.
 
-6. Log in again.
+6. (Optional) Remove the old email address by selecting `Remove`.
+
+**If you don’t have a Notion password set:**
+
+You may be asked to verify using your old email address. If you no longer have access to that email, you won’t be able to complete the change from settings.
 
 Still having trouble logging in? Contact us at email protected.
 
