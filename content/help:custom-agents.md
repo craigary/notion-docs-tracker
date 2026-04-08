@@ -79,7 +79,7 @@ You can build a Custom Agent from multiple locations. The primary entry point is
 
 [](//videos.ctfassets.net/spoqsaf9291f/4Tw3jRMhrmbB3nG4ceSMsR/8a7c8e6565d5786e2cb667d1e22fd7de/Create_a_new_Custom_Agent.mp4)
 
-2\. <!-- -->Choose how you want to start:
+2\. Choose how you want to start:
 
 * **Create with AI chat**
 
@@ -145,11 +145,9 @@ Notion triggers run your Agent based on events in your workspace. You can trigge
 
 * A page is added to a database.
 
-* A page is updated in a database.
+* A property is updated in a database.
 
 * A page is removed from a database.
-
-* The Custom Agent is @mentioned in a page or comment.
 
 **To add a Notion trigger:**
 

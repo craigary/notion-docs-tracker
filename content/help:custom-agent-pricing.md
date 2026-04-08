@@ -144,8 +144,6 @@ Starting May 4, 2026, admins can purchase Notion credits to keep Custom Agents r
 
 Every Custom Agent is different. Credit usage is impacted by a few factors you can adjust.
 
-Four factors affect efficiency:
-
 1. **Run frequency:&#x20;**&#x4D;ake every run count.
 
 2. **Context size:&#x20;**&#x42;e intentional about what your agent references.
@@ -226,7 +224,7 @@ Admins have extra controls to help manage Agent runs and keep credit usage effic
 
 **For Business and Enterprise admins:**
 
-* **Turn off Custom Agents&#x20;****or set credit limits&#x20;****at any time&#x20;**&#x74;o prevent unnecessary runs
+* **Turn off Custom Agents or set credit limits at any time&#x20;**&#x74;o prevent unnecessary runs
 
 * **Control who can create agents&#x20;**&#x62;y allowing everyone, workspace owners only, or selected members
 
