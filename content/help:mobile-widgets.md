@@ -9,11 +9,13 @@ category: "Notion apps"
 categoryKey: "category:notion-apps"
 ---
 
+Quickly access Notion right from your iPhone or Android home screen. Add a widget to open a specific page or database — or use the AI Home Screen Widget to jump straight into Notion AI (chat, camera, or voice) — making it easy to get to what you need, faster.
+
 ## iOS widget
 
 **Note:&#x20;**&#x4F;ur iOS widget is an app extension available only for iOS version 14.0 or above on iPhone or iPad.
 
-1. [Download](https://www.notion.com/mobile) the Notion iOS app from the Apple App Store.
+1. [Download](https://apps.apple.com/app/notion-notes-docs-projects/id1232780281) the Notion iOS app from the Apple App Store.
 
 2. On your iPhone home screen, long press on any app `icon` and then select `Edit Home Screen`.
 
@@ -45,13 +47,15 @@ categoryKey: "category:notion-apps"
 
 ## Types of widgets
 
-There's three widgets to choose from:
+There are four widgets to choose from:
 
-* Add one page as a widget for easy access, complete with icon and cover image.
+* Page: Add a page or database as a widget for easy access, complete with icon and cover image.
 
-* See the pages you visited most recently.
+* Favorites: Pin a few pages from the `Favorites` section of your sidebar.
 
-* Pin a few pages from the `Favorites` section of your sidebar.
+* Recents: See the pages you visited most recently.
+
+* AI shortcuts: Access shortcuts to Notion AI—chat, camera, and voice. You’ll need the latest app version.
 
 **Note:** [Custom emojis](https://www.notion.com/help/customize-and-style-your-content#page-icons-and-emojis) won’t render in mobile widgets.
 
