@@ -37,7 +37,7 @@ The Monday.com importer helps you bring your all Monday.com boards into Notion.
 
 * An assignee in Monday.co&#x6D;**&#x20;must be named&#x20;****`Owner`**, **`Assignee`**, or **`Person`** for that information to appear in Notion as an assignee. Any project or task board should only have one column to indicate an assignee.
 
-## Import duration & size
+## Size limits & timing
 
 * Imports can take anywhere from a few minutes to several hours depending on size. You'll receive an email notification once your import is complete.
 
@@ -45,9 +45,11 @@ The Monday.com importer helps you bring your all Monday.com boards into Notion.
 
   * **Tip:** Split large migrations into multiple batches.
 
+* Review the progress of your import in `Settings` → `Import`. There you can see the status of your import and completed imports.
+
 ## Import from Monday.com into Notion
 
-1. Go to `Settings` in your sidebar → `Import` → `Monday.com`.
+1. Go to `Settings` in your sidebar → `Import` → `Third party imports` → `Monday.com`.
 
 2. Enter your email and API token, which you can find using the instructions [here](https://developer.monday.com/api-reference/docs/authentication#accessing-api-tokens). Select `Authenticate` when you're done.
 

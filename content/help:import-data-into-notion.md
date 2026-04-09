@@ -41,6 +41,16 @@ You can also import data from a number of apps like Confluence, Asana, Evernote,
 
 * Or go to `Settings `in your sidebar → `Import`, then choose an app or file type.
 
+**Track your import progress:**
+
+As soon as you begin an import, you can view the upload time, status, and size.
+
+1. Go to `Settings` in your sidebar
+
+2. Navigate to `Import`
+
+3. Select the `In progress` or `Complete` tab
+
 ![Import UI](https://images.ctfassets.net/spoqsaf9291f/5UVDNOLoLTCBPecdPQHh6n/041b15ecabdad74d00c5b5a80b4f45ae/import_image__1_.png)
 
 **Some integrations have their own pages:**

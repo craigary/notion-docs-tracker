@@ -50,15 +50,19 @@ To add a synced database from Asana, simply paste a project link right into a No
 
 * Your Projects and Tasks databases are related to each other, in line with our [Projects & Tasks template](https://www.notion.com/templates/notion-projects-and-tasks).
 
-## Import duration & size
+## Size limits & timing
 
-* Reliable up to **\~6,000 tasks** and **\~200 projects**. Larger imports may fail.
+* Import up to **\~6,000 tasks** and **\~200 projects**. Larger imports may fail.
 
   * **Tip:&#x20;**&#x53;plit large migrations into multiple batches.
 
 * **Attachment rate limit:** Each workspace can import \~100–120 file attachments per day.
 
   * **Tip:&#x20;**&#x53;pread attachment-heavy imports across multiple days.
+
+* Once the import begins, you can safely close your browser. We'll send you an email when your import is complete.
+
+* Review the progress of your import in `Settings` → `Import`. There you can see the status of your import and completed imports.
 
 ## Import from Asana into Notion
 
@@ -74,7 +78,7 @@ To add a synced database from Asana, simply paste a project link right into a No
 
 **Import into Notion**
 
-1. Go to `Settings` in your sidebar → `Import` → `Asana`. Alternatively, use the `/asana` command in a page and select the option under `Import`.
+1. Go to `Settings` in your sidebar → `Import` → `Third party imports` → `Asana`. Alternatively, use the `/asana` command in a page and select the option under `Import`.
 
 2. Sign into Asana and grant the requested permissions.
 
@@ -120,7 +124,7 @@ Your Asana projects and tasks are imported into Projects and Tasks databases in 
 
 * **Calendar view:** Tasks by date with assignee and status.
 
-When your import completes, you'll receive an **import log** in the private section of your sidebar with a summary and the Notion teamspace your content was imported into.
+When your import completes, you'll receive an **import log** in the `Private` section of your sidebar with a summary and the Notion teamspace your content was imported into.
 
 ## Limitations
 
@@ -158,7 +162,7 @@ When your import completes, you'll receive an **import log** in the private sect
 
 ## Import logs
 
-When your import completes, you will receive an import log in the private section of your sidebar. In this log you will find a summary of your import, including the Notion teamspace that your Asana projects and tasks were imported into.
+When your import completes, you will receive an import log in the `Private` section of your sidebar. In this log you will find a summary of your import, including the Notion teamspace that your Asana projects and tasks were imported into.
 
 
 ## FAQs
@@ -172,7 +176,7 @@ These placeholder accounts will attribute comments and mentions. If and when the
 
 ### How long does it take for the Asana Importer tool to import a large number of tasks?
 
-Import times may range from a few minutes to several hours depending up on the size of the import. You will receive an email notification once the import is complete.
+Import times may range from a few minutes to several hours depending up on the size of the import. You will receive an email notification once the import is complete. You can track your import in `Settings` → `Import`, where you’ll see its status and any completed imports.
 
 
 ### Is there a limit to the number of tasks that can be imported at once?

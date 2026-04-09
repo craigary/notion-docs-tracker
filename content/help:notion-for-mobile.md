@@ -25,6 +25,14 @@ categoryKey: "category:notion-apps"
 
 [See our system requirements for mobile here →](https://www.notion.com/help/system-requirements-for-notion#mobile)
 
+## Notion AI
+
+There are a few ways to access Notion AI in a few different ways on mobile, depending on your device.
+
+### Notion AI home screen widget
+
+Add the [Notion AI home screen widget](https://www.notion.com/help/mobile-widgets) to open Notion AI from your home screen. From there, you can jump into AI chat, camera, or voice.
+
 ## Notion AI shortcut on iOS
 
 You can create a shortcut on your iOS device to quickly access [Notion AI](https://www.notion.com/help/notion-ai-faqs). There are several ways to get to Notion AI on your device:
@@ -33,9 +41,7 @@ You can create a shortcut on your iOS device to quickly access [Notion AI](https
 
 2. Search for Notion in [Spotlight](https://support.apple.com/guide/iphone/iph3c511548/ios).
 
-3. Open the `Shortcuts` app on your device. Look for `Notion` and tap `AI` to ask your question. If you want to save the Notion AI shortcut to your home screen, hold down on `AI`, then tap `Add to Home Screen`.
-
-4. If you have the iPhone 15 Pro, customize the [action button](https://support.apple.com/guide/iphone/iphe89d61d66/ios) so that it opens Notion AI.
+3. Customize the [action button](https://support.apple.com/guide/iphone/iphe89d61d66/ios) so that it opens Notion AI.
 
 ## Key differences between mobile and desktop
 

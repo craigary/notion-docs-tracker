@@ -42,13 +42,15 @@ It's important to have all your data in one spot. Here's a helpful tutorial for 
 
 * Macros → flattened content or closest Notion block type (e.g., Confluence Expand → Notion Toggle)
 
-## Import duration & size
+## Size limits & timing
 
-* Reliable up to **\~50k pages** or **30GB** in size. Larger imports may fail.
+* Import up to **\~50k pages** or **30GB** in size. Larger imports may fail.
 
   * **Tip:&#x20;**&#x46;or large spaces, split exports by subspace or sections and use the ZIP importer. If workspace size is >100GB, contact your account manager.
 
 * Once the import begins, you can safely close your browser — we'll send you an email when it's complete.
+
+* Review the progress of your import in **`Settings`** → **`Import`**. There you can see the status of your import and completed imports.
 
 ## Import from Confluence into Notion
 
@@ -74,7 +76,7 @@ It's important to have all your data in one spot. Here's a helpful tutorial for 
 
 1. Navigate to the Notion workspace you'd like to import your Confluence content into.
 
-2. Go to **`Settings`** in your sidebar → **`Import`** → **`Confluence`**.
+2. Go to **`Settings`** in your sidebar → **`Import`** → **`Third party imports`** → **`Confluence`**.
 
 3. Navigate to the **`.zip`** file exported from Confluence and select it for upload. You do not need to unzip the file - upload the entire archive.
 
