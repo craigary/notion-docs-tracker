@@ -111,7 +111,7 @@ You can build a Custom Agent from multiple locations. The primary entry point is
 
 To create clear instructions for your Agent, start with the job and outcome you want. Then add concrete steps, inputs, and outputs. Use examples when you have them.
 
-**Tip**: Use our Custom Agent templates as a starting point.
+**Tip**: Use our [Custom Agent templates](https://www.notion.com/custom-agent-templates) as a starting point.
 
 ## Configure triggers and schedules
 
@@ -167,7 +167,7 @@ Notion triggers run your Agent based on events in your workspace. You can trigge
 
 #### Use Slack triggers
 
-Slack triggers allow Agents to watch for events in public Slack channels. Private channels are not supported.
+Slack triggers allow Agents to watch for events in both public and private Slack channels.
 
 **Setup requirements**
 
@@ -245,13 +245,13 @@ Agents can optionally browse the web when needed. Use web access when your workf
 
 Custom Agents can read and write to Slack through a dedicated integration. Before connecting Slack to your Custom Agent, an admin must first connect the [Slack AI connector](https://www.notion.com/help/notion-ai-connectors-for-slack) to your workspace via the Notion AI Settings. Agents can do the following:
 
-* Read from public channels.
+* Read from select public and private channels.
 
-* Post messages, replies, and updates to channels.
+* Post messages, replies, and updates only to the specific channels you select.
 
 * React to threads and use information from Slack as context.
 
-Private messages and Slack grid are currently unsupported.
+Slack Enterprise Grid is not supported.
 
 **To connect Slack:**
 
@@ -432,6 +432,10 @@ To use Slack with Custom Agents:
   * The creator decides who can access it and at what level (`Full access`, `Can edit`, `Can interact`).
 
   * In Slack, anyone in a channel can see messages posted by that channel's agents.
+
+  * Anyone with access to the agent can see its outputs, even if they don’t have access to the underlying Slack private channel.
+
+Learn more about Custom Agent [sharing & permissions here →](https://www.notion.com/help/custom-agents-sharing-and-permissions)
 
 
 ### How will I know where this agent is going to run?

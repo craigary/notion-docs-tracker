@@ -9,7 +9,7 @@ category: "Notion AI"
 categoryKey: "category:notion-ai"
 ---
 
-**Note:** This feature is only available on the Business or Enterprise Plan.
+**Note:** This feature is only available on the Business and Enterprise Plans.
 
 Enterprise Search is a feature of Notion AI. It finds answers to your answers in just seconds, searching your workspace and your connected apps like Slack, Google Drive, Jira, and more.
 

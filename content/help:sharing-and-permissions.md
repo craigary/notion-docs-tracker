@@ -135,7 +135,7 @@ Seeing other people in a page you didn't mean to share? Want to make a page priv
 
 ## Database page-level access
 
-**Note:** This feature is only available on the Business or Enterprise Plan.
+**Note:** This feature is only available on the Business and Enterprise Plans.
 
 If your database has at least one person property, you’ll be able to assign specific permissions to the people in that person property. For example:
 

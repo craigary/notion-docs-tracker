@@ -9,7 +9,7 @@ category: "Notion AI"
 categoryKey: "category:notion-ai"
 ---
 
-**Note:** This feature is only available on the Business or Enterprise Plan.
+**Note:** This feature is only available on the Business and Enterprise Plans.
 
 There are lots of other ways to use Slack and Notion together. Learn more about our Slack integration [here →](https://www.notion.com/help/slack)
 

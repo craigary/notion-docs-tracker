@@ -49,11 +49,11 @@ When you create a Custom Agent, you explicitly choose what it can access in the 
 
 * **Notion pages and databases&#x20;**- Select specific pages or databases.
 
-* **Connected apps&#x20;**- Slack channels, MCP, Calendar, Mail.
+* **Connected apps&#x20;**- <!-- -->Select <!-- -->Slack channels, MCP, Calendar, Mail.
 
 * **Permission levels&#x20;**- Can view, Can comment, Can edit.
 
-By default, new agents have no access to all pages in the workspace. Creators must explicitly enable this and accept the warning modal.
+By default, new agents have no access to all pages in the workspace. Creators must explicitly enable this and accept the warning modal. Enterprise workspace admins can control who can create a Custom Agent, see all agents in a workspace, and disable triggers or override permissions on any agent.
 
 The agent can **only** access resources you explicitly give it permission to use. It can't access anything else in your workspace. There are no inherited permissions from anyone (whether the creator or the user of the agent).
 

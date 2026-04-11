@@ -101,6 +101,14 @@ Notion AI can transcribe your meetings and summarize your meeting notes. AI Meet
 
 ## Generate an image with Notion AI
 
+While in Beta, image generation has the following limits per user:
+
+* 10 image generations or edits per 24 hours
+
+* 30 image generations or edits per 30 days
+
+The limits reset on a rolling basis. If you see an error when creating or editing images, try again after the allotted window has passed.
+
 Create new images and edit existing ones using Notion AI. This is helpful for things like diagrams, flowcharts, and visual notes that you can refine with additional instructions.
 
 AI image generation is available on Business and Enterprise plans. Workspace owners and admins can also control whether it’s enabled.

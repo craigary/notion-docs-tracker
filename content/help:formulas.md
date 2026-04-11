@@ -111,7 +111,7 @@ Having trouble with your formula? Learn about common formula errors and how to t
 
 ## Create and edit formulas with Notion AI
 
-**Note:** This feature is only available on the Business or Enterprise Plan.
+**Note:** This feature is only available on the Business and Enterprise Plans.
 
 Know what you want your formula to do, but not quite sure how to build it? Want to make some tweaks to an existing formula? See an error in your formula, but don’t know how to fix it? Notion AI can help.
 

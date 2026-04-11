@@ -21,10 +21,10 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/2lKwICICVv9jnFRGGEPZC6/da
 13 help:managed-users-dashboard
 14 help:custom-data-retention-settings
 15 help:deploy-notion-for-macos
-16 help:organization-level-controls
-17 help:ip-address-restrictions
-18 help:set-up-microsoft-intune-with-notion-ios-and-android
-19 help:manage-teamspaces
+16 help:deploy-notion-for-windows
+17 help:organization-level-controls
+18 help:ip-address-restrictions
+19 help:set-up-microsoft-intune-with-notion-ios-and-android
 20 help:network-control
-21 help:deploy-notion-for-windows
+21 help:manage-teamspaces
 22 help:legal-holds

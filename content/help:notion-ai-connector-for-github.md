@@ -9,7 +9,7 @@ category: "Notion AI"
 categoryKey: "category:notion-ai"
 ---
 
-**Note:** This feature is only available on the Business or Enterprise Plan.
+**Note:** This feature is only available on the Business and Enterprise Plans.
 
 ## Connect GitHub to Notion AI
 

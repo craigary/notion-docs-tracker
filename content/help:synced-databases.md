@@ -9,7 +9,7 @@ category: "Data & integrations"
 categoryKey: "category:import-export-and-integrate"
 ---
 
-**Note:** This feature is only available on the Business or Enterprise Plan.
+**Note:** This feature is only available on the Business and Enterprise Plans.
 
 Synced databases allow you to sync data from other platforms as Notion databases. Syncs are continuous but only go one direction, meaning that data changes will need to happen on the original platform in order for updates to appear in Notion.
 

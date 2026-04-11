@@ -71,7 +71,7 @@ Once verification expires, page owners will be notified to re-verify the page.
 
 ### Verify individual pages in your workspace
 
-**Note:** This feature is only available on the Business or Enterprise Plan.
+**Note:** This feature is only available on the Business and Enterprise Plans.
 
 You can verify pages that don’t belong to a wiki. To do this:
 
@@ -95,7 +95,7 @@ For a page to be verified, it must have at least one owner. To add owners to a v
 
 ### Verify pages in a database
 
-**Note:** This feature is only available on the Business or Enterprise Plan.
+**Note:** This feature is only available on the Business and Enterprise Plans.
 
 While you can verify individual pages in a database following the instructions above, you can also add verification as a property to an entire database to verify all of the database’s pages.
 
