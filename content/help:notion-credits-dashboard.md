@@ -31,9 +31,9 @@ Click to expand
 
 ### Who can access it?
 
-Workspace admins on Business and Enterprise plans can access the Notion credits dashboard. To access the Notion credits dashboard, go to **Settings** → **Notion AI** → **Notion credits**.
+Workspace admins on Business and Enterprise plans can access the Notion credits dashboard. To access the Notion credits dashboard, go to **Settings** → **Access & billing** → **Notion credits**.
 
-![To access the Notion credits dashboard, go to Settings → Notion AI → Notion credits.](https://images.ctfassets.net/spoqsaf9291f/4IFZ674kfnSFvjyNWkvld6/21e478ff524121389e924891e55be57c/UBP_access_points.png)
+![To access the Notion credits dashboard, go to Settings → Notion AI → Notion credits.](https://images.ctfassets.net/spoqsaf9291f/4IFZ674kfnSFvjyNWkvld6/dc68009e7f358fd754c05e523c8f9caf/Notion_credits_dashboard_new_navigation_path.png)
 
 Permissions and access
 
@@ -71,7 +71,7 @@ Click to expand
 
 ## How to read the dashboard
 
-![Notion credits dashboard walkthrough](https://images.ctfassets.net/spoqsaf9291f/3mS31u9tCRihWhiAI8yL9/09ff1c5f84d1cd22eb6c7bfb02bf6bcf/Dashboard_walkthrough.png)
+![Notion credits dashboard walkthrough](https://images.ctfassets.net/spoqsaf9291f/3mS31u9tCRihWhiAI8yL9/a40c20906da32b958fd433709592d92e/How_to_read_the_dashboard__1-5_.png)
 
 ### 1) Usage summary
 
@@ -123,7 +123,7 @@ Admins can use the Notion credits dashboard and Custom Agent controls to monitor
 
 * Admins can disable a Custom Agent at any time to stop runs while you review activity, investigate unexpected usage, adjust instructions, or fine-tune the workflow before turning it back on.
 
-![Disable agents](https://images.ctfassets.net/spoqsaf9291f/5kjuhcd4ImkBovaHdESmw4/521f0e7d47e291964f7fa0224467378d/Disable_agents_.png)
+![Disable agents](https://images.ctfassets.net/spoqsaf9291f/5kjuhcd4ImkBovaHdESmw4/c6bfb5aefcfe9b3af8b5a6eca096d440/switch_off_agent.png)
 
 ### 2) Keep usage efficient
 
@@ -135,7 +135,7 @@ Admins have tools to manage Custom Agents across the workspace and beyond:
 
 * **Control who can create agents:&#x20;**&#x44;ecide whether everyone, only owners, or specific members can create Custom Agents to support a controlled rollout.
 
-![notion credits dashboard who can create agent](https://images.ctfassets.net/spoqsaf9291f/7vziOr75Ku4lgXQCQDWbx/182b89109c618aa971dd8edd0082176f/Create_agent_.png)
+![notion credits dashboard who can create agent](https://images.ctfassets.net/spoqsaf9291f/7r3vinRCRQVTGUJNsf9ZUB/a52ef96943d74a950cd877b5521f84f6/control_who_can_create_agents.png)
 
 * **Disable agent:&#x20;**&#x41;dmins can disable a Custom Agent anytime to immediately stop runs while they investigate unexpected credit usage or adjust the agent’s settings/instructions.
 

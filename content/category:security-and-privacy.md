@@ -9,10 +9,10 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/3YdwMwZLM4TOOtw3zhRapu/92
 1 help:security-and-privacy
 2 help:privacy
 3 help:gdpr-at-notion
-4 help:ai-safety
-5 help:notion-ai-security-practices
-6 help:custom-agents-security-features
-7 help:security-best-practices-for-agent-connections
+4 help:notion-ai-security-practices
+5 help:ai-safety
+6 help:security-best-practices-for-agent-connections
+7 help:custom-agents-security-features
 8 help:enterprise-search-security-and-privacy-practices
 9 help:data-accessible-by-your-workspace-owner
 10 help:report-inappropriate-content

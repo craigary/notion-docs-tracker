@@ -8,8 +8,8 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/nTY8OFImJy9voN7l6pJSt/49f
 
 1 help:intro-to-workspaces
 2 help:navigate-with-the-sidebar
-3 help:manage-your-library
-4 help:create-delete-and-switch-workspaces
+3 help:create-delete-and-switch-workspaces
+4 help:manage-your-library
 5 help:browse-join-and-create-teamspaces
 6 help:search
 7 help:home-and-my-tasks
