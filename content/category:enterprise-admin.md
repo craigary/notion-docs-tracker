@@ -19,8 +19,8 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/2lKwICICVv9jnFRGGEPZC6/da
 11 help:workspace-analytics
 12 help:enterprise-connection-settings
 13 help:managed-users-dashboard
-14 help:custom-data-retention-settings
-15 help:deploy-notion-for-macos
+14 help:deploy-notion-for-macos
+15 help:custom-data-retention-settings
 16 help:deploy-notion-for-windows
 17 help:organization-level-controls
 18 help:ip-address-restrictions

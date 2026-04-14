@@ -4,7 +4,7 @@ emoji: "🪄"
 description: "Learn what Skills are and how to create, manage, and use them in Notion Agent 🪄"
 url: "https://www.notion.com/help/skills-for-notion-agent"
 key: "help:skills-for-notion-agent"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/1Lao1zdrIYrip6AgrDz316/a2c88fd044d4cf691f1e4a0309eaef2a/skills.png"
+coverImage: "https://img.youtube.com/vi/tcgNauq4joo/maxresdefault.jpg"
 category: "Notion AI"
 categoryKey: "category:notion-ai"
 ---

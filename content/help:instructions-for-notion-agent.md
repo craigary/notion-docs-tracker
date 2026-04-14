@@ -4,7 +4,7 @@ emoji: "🧭"
 description: "Learn how Instructions shape what Notion Agent does, and how to write clear instructions 🧭"
 url: "https://www.notion.com/help/instructions-for-notion-agent"
 key: "help:instructions-for-notion-agent"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/15XfsFK0uxWTyjrPoub7Vf/8700ef1b6814b3c40c4675d2582427df/instructions.png"
+coverImage: "https://img.youtube.com/vi/tcgNauq4joo/maxresdefault.jpg"
 category: "Notion AI"
 categoryKey: "category:notion-ai"
 ---
