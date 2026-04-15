@@ -16,8 +16,8 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/3YdwMwZLM4TOOtw3zhRapu/92
 8 help:enterprise-search-security-and-privacy-practices
 9 help:data-accessible-by-your-workspace-owner
 10 help:report-inappropriate-content
-11 help:how-notion-protects-against-prompt-injection-risks
-12 help:data-residency
-13 help:shared-responsibilities-model
-14 help:how-to-protect-yourself-from-malvertising
-15 help:dormant-account-policy
+11 help:shared-responsibilities-model
+12 help:dormant-account-policy
+13 help:how-to-protect-yourself-from-malvertising
+14 help:how-notion-protects-against-prompt-injection-risks
+15 help:data-residency
