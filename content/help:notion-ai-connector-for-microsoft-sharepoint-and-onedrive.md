@@ -1,5 +1,5 @@
 ---
-title: "Microsoft SharePoint & OneDrive AI Connector (beta)"
+title: "Microsoft SharePoint & OneDrive AI Connector"
 emoji: null
 description: "Connect SharePoint & OneDrive to Notion AI."
 url: "https://www.notion.com/help/notion-ai-connector-for-microsoft-sharepoint-and-onedrive"
@@ -12,8 +12,6 @@ categoryKey: "category:notion-ai"
 The SharePoint and OneDrive AI Connector is a single Microsoft app and integration that gives Notion AI access to both SharePoint and OneDrive data.
 
 This integration enables powerful search and analysis across your stored files, making it simple to find company policies, analyze project documentation, and process Excel data.
-
-The SharePoint and OneDrive AI Connector is currently in beta and subject to the beta terms of your agreement.
 
 ## Connect SharePoint and OneDrive to Notion AI
 

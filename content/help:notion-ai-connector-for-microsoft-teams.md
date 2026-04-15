@@ -1,5 +1,5 @@
 ---
-title: "Microsoft Teams AI Connector (beta)"
+title: "Microsoft Teams AI Connector"
 emoji: null
 description: "Connect Notion AI to Microsoft Teams to keep all your work in context."
 url: "https://www.notion.com/help/notion-ai-connector-for-microsoft-teams"
@@ -10,8 +10,6 @@ categoryKey: "category:notion-ai"
 ---
 
 The Microsoft Teams AI Connector transforms collaboration by integrating AI into your daily workflow. This powerful tool lets you track project updates, search team discussions, access admin communications, and get automatic meeting summaries—all from within Teams.
-
-The Microsoft Teams AI Connector is currently in beta and subject to the beta terms of your agreement.
 
 ## Connect Microsoft Teams to Notion AI
 
