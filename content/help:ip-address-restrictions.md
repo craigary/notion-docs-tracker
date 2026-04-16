@@ -21,11 +21,11 @@ To set up allowed IP addresses, you must be an Enterprise [organization owner](h
 
 To create a list of allowed IP address for your organization:
 
-1. Open your workspace switcher in Notion and select `Manage organization`. This will take you to your organization level controls.
+1. In your sidebar click on your organization’s name, select `Settings`.
 
-2. Open the `Security` tab.
+2. From settings click on `Organization` → `Security`.
 
-3. Click `Allowed IP addresses`.
+3. Click `IP restrictions `/ `Allowed IP addresses`, then set the enforcement option to Require reauthentication. When enabled, the session ends as soon as a device leaves the allowed IP ranges, and the user must sign in again.
 
 4. Provide a name for your address (like “SF Office” or “NY Office”) and then enter the corresponding IP address. To set a range of IP addresses, you can use CIDR notation (e.g., 127.0.0.1/24).
 
@@ -35,13 +35,17 @@ To create a list of allowed IP address for your organization:
 
    * Ensure your own IP address is included in the allowed list. Otherwise, you'll receive an error message and your list of allowed IP addresses won’t be activated.
 
-6. Once your IP address allowed list is activated, you’re all set! Any user who tries to access the account will only be able to do so if they have the IP address on the allowed list.
+Once the allowed IP list is enabled, you’re all set. Users will only be able to access their accounts when they’re on an IP address included in the allowlist.
 
 ![hc: restricted ip address login error](https://images.ctfassets.net/spoqsaf9291f/4uJ4tMOCzfrdiJ9NT8qL40/04920a35e2ce7800170bf5d07b61e15d/IP_Address_Restrictions_Reference.png)
 
 ## How IP address restrictions impact managed users
 
-Any managed user attempting to log in with an IP address that doesn’t match an address on the allowed list will see an error message, and they won’t be able to proceed. <!-- -->If a user is already logged in and leaves the allowed IP address, they will be logged out.
+If a managed user attempts to sign in from an IP address that doesn’t match an address on the allowlist, they’ll see an error message and can’t proceed.
+
+Previously, IP address restrictions were effectively enforced at login time only. That meant once a user authenticated from an allowed IP, their session could remain active for up to 90 days (as long as they stayed signed in), even if the device later moved outside the allowed IP ranges.
+
+Now, admins can enable an enforcement option that ends the session as soon as a device leaves the allowed IP ranges. When this happens, the user must reauthenticate (sign in again).
 
 ![hc: restricted ip address error message](https://images.ctfassets.net/spoqsaf9291f/43CdtjFnBV5vBAh0B3Rfu9/e8f0bcaf4e7d580cf9ff5b85ebe6c083/IP_Address_Restrictions_Reference__1_.png)
 
