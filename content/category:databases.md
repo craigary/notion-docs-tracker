@@ -21,8 +21,8 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/1fkexDNoDJAwQduymONneL/9c
 13 help:timelines
 14 help:calendars
 15 help:lists
-16 help:dashboards
-17 help:galleries
+16 help:galleries
+17 help:dashboards
 18 help:charts
 19 help:feeds
 20 help:layouts
