@@ -21,12 +21,12 @@ Enterprise Plan customers who aren't currently working with an account team can 
 
 Notion partners with Amazon Web Services to deliver reliable, high-performance data storage through regional data centers.
 
-| **Data region**                        | **Backup region**                      |
-| -------------------------------------- | -------------------------------------- |
-| US-West-2 (Oregon)                     | US-East-2 (Ohio)                       |
-| EU-Central-1 (Frankfurt)               | EU-West-1 (Ireland)                    |
-| AP-Northeast-1 (Tokyo) (coming soon\*) | AP-Northeast-1 (Osaka) (coming soon\*) |
-| AP-Northeast-2 (Seoul) (coming soon\*) | AP-Northeast-2 (Seoul) (coming soon\*) |
+| **Data region**                        | **Backup region**                              |
+| -------------------------------------- | ---------------------------------------------- |
+| US-West-2 (Oregon)                     | US-East-2 (Ohio)                               |
+| EU-Central-1 (Frankfurt)               | EU-West-1 (Ireland)                            |
+| AP-Northeast-1 (Tokyo) (coming soon\*) | AP-Northeast-3<!-- --> (Osaka) (coming soon\*) |
+| AP-Northeast-2 (Seoul) (coming soon\*) | AP-Northeast-2 (Seoul) (coming soon\*)         |
 
 *\* Please contact your account team for more information about Notion’s hosting in Japan and Korea.*
 
