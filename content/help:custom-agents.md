@@ -171,7 +171,7 @@ Slack triggers allow Agents to watch for events in both public and private Slack
 
 **Setup requirements**
 
-Before you can set up a Slack trigger, a Slack workspace admin must first enable the Notion integration for Custom Agents. This gives Custom Agents the required read and write permissions to operate in Slack. Once the integration is enabled, you can configure triggers based on new messages or emoji reactions.
+Before you can set up a Slack trigger, <!-- -->a Slack workspace admin must first connect Slack for Custom Agents.<!-- --> This gives Custom Agents the required read and write permissions to operate in Slack. Once the integration is enabled, you can configure triggers based on new messages or emoji reactions.
 
 **Agents can watch for:**
 
@@ -183,7 +183,7 @@ Before you can set up a Slack trigger, a Slack workspace admin must first enable
 
 * The Custom Agent **mentioned&#x20;**&#x69;n a message.
 
-  * Note: To trigger an agent by mentioning it in Slack, your Slack workspace admin must first allow all members to create user groups. Once this setting is enabled, anyone can trigger the agent by mentioning its name the associated Slack channel.
+  * Note: To trigger an Agent by mentioning it in Slack, your Slack workspace admin must first allow all members to create user groups. Once this setting is enabled, anyone can trigger the Agent by mentioning its name in the associated Slack channel.
 
 **To add a Slack trigger:**
 
@@ -200,6 +200,16 @@ Before you can set up a Slack trigger, a Slack workspace admin must first enable
    * Any additional filters or conditions if available.
 
 4. Save.
+
+Whenever a Custom Agent is triggered in Slack, it can show an typing indicator (“Working on it…”) to signal that it’s processing the request. This doesn’t always mean the Agent will reply. You can switch this off anytime by going to the trigger settings.
+
+**To turn off the typing indicator:**
+
+1. Go to your Custom Agent.
+
+2. In` Triggers`, select the Slack trigger.
+
+3. Select` More settings`, then uncheck `Show typing indicator in Slack`.
 
 Note:
 
@@ -417,6 +427,13 @@ To use Slack with Custom Agents:
 2. When prompted during agent setup, connect the Slack app even if you already use Slack elsewhere in Notion.
 
 3. Approve access and configure which channels the agent can read or write to.
+
+
+### The Agent showed "Working on it..." in Slack, but never replied. Why?
+
+The “Working on it…” typing indicator appears as soon as a Custom Agent is triggered. Sometime the Agent will decide not to reply (based on instructions), or may time out before it can send a message. If this happens, the typing indicator will disappear automatically.
+
+If you want to avoid this, you can always turn off the typing indicator in the Slack trigger’s settings, or update the agent’s instructions so it’s more likely to respond to the situations you care about.
 
 
 ### Who can create and see Custom Agents?
