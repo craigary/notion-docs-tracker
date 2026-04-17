@@ -39,6 +39,10 @@ New databases are created as tables. After this, you can create a new view by se
 
 In the menu that appears, select a type of view. Then, give your view a name. You can click through your views to see your data in different ways.
 
+You can customize how your database tabs look — choose to show only the view’s name, only its icon, or both. Click a view tab within the database, select `Display as`, choose `Icon only`, `Text only`, or both.
+
+Only you will see this change. It won’t affect other people’s views, and it only applies to the database where you made the update.
+
 ![Switch between views](https://images.ctfassets.net/spoqsaf9291f/2KRCKUbMb1AYfqJUWafwSr/03dfbdd1149dfbc3525543d373925722/Group_158.png)
 
 You can reorder your views by dragging them. If you have a lot of views, you can select `{#} more...` next to your views to do this.
