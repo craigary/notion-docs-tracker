@@ -19,9 +19,9 @@ Notion credits are shared across your workspace and reset each month, so unused 
 
 How Notion credits are priced
 
-Notion credits cost $10 per 1,000 Notion credits, with each Custom Agent run using credits based on task complexity. You can purchase pre-set amounts in-product starting in the hundreds and scaling into the thousands based on your team’s needs.
+Monthly Notion credits cost $10 per 1,000 credit, with each Custom Agent run using credits based on how complex the task is. You can purchase credits in-product starting in the hundreds and scaling into the thousands based on your team’s needs.
 
-If you have an account team, you can purchase Notion credits through them with additional credit options available to fit your needs.
+If you have an account team, you can purchase Notion credits through them with additional options to fit your needs, including annual and on-demand credits.
 
 ## When do Notion credits go into effect?
 
