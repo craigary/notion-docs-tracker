@@ -25,7 +25,7 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/1fkexDNoDJAwQduymONneL/9c
 17 help:dashboards
 18 help:charts
 19 help:feeds
-20 help:layouts
-21 help:maps
-22 help:forms
-23 help:unique-id
+20 help:unique-id
+21 help:forms
+22 help:maps
+23 help:layouts
