@@ -97,7 +97,7 @@ Once your Notion Site is published, open the published page in Notion and select
 
 ## How visitors interact with your Notion Site
 
-**Note**: When you publish a Notion page to the web, the webpage’s metadata may include the names, profile photos, and email addresses associated with any Notion users that have contributed to the page.
+**Note**: <!-- -->When you publish a Notion page to the web or set sharing access for a Notion page to `Anyone on the web with link,` the webpage's metadata will include the names, profile photos, and email addresses associated with any Notion users that have contributed to the page.
 
 When you publish a Notion Site:
 

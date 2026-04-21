@@ -11,7 +11,7 @@ categoryKey: "category:notion-apps"
 
 ## Access the web app
 
-1. To use Notion in your browser, go to [www.notion.so](https://www.notion.so) and click `Log in` at the top right corner.
+1. To use Notion in your browser, go to [www.notion.com](https://www.notion.com) and click `Log in` at the top right corner.
 
 2. Log in using your email address.
 

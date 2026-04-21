@@ -45,7 +45,7 @@ To customize and claim a new `notion.site` domain:
 
 5. Select `Create domain`.
 
-Once you've set your own workspace domain, it will be displayed at the start of any public page URLs, such as `acme.notion.site`. The unique `acme.notion.site` URL is **only used for publicly shared pages** from within your workspace. Internally, you will still see the URL as `notion.so/acme`.
+Once you've set your own workspace domain, it will be displayed at the start of any public page URLs, such as `acme.notion.site`. The unique `acme.notion.site` URL is **only used for publicly shared pages** from within your workspace. Internally, you will still see the URL as `notion.com/acme`.
 
 **Note:**
 

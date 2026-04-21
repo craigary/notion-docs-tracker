@@ -99,6 +99,20 @@ Custom summary instructions are **private by default** — only you can see and 
 
 If a meeting note uses private custom instructions, users who have access to the meeting block will still see the same summary. However, the Instructions setting will show their own default instructions instead.
 
+**Shared custom instructions**
+
+Custom summary instructions are private by default. If someone shares an instructions page with you and you have access to view it, you can open the page — but it **won’t automatically appear** as an option in your meeting notes Instructions dropdown until you add it.
+
+To add a shared instructions page in your own meetings:
+
+1. Open the shared instructions page.
+
+2. Click `+ Add to my instructions `at the top of the page.
+
+If you open a meeting notes block where a shared instructions page is already selected, you will see it shown as the selected instruction even if you haven’t added it to your list yet.
+
+If you don’t have access to the selected instructions page, your Instructions setting will default to **Auto**.
+
 ### Set default summary instructions
 
 You can set any summary instructions — including custom ones — as your default so it's applied automatically to all new meetings.

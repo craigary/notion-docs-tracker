@@ -177,7 +177,7 @@ Just send a message to our support team at that address and we'll opt you out.
 
 ### My browser alerted me that Notion is using trackers. What do these trackers do?
 
-We use tracking code in order to effectively run ads (for example, tracking a visit to our marketing site). We isolate this to a sandboxed iframe on a subdomain ([aif.notion.so](http://aif.notion.so/)) — it's never activated on user pages.
+We use tracking code in order to effectively run ads (for example, tracking a visit to our marketing site). We isolate this to a sandboxed iframe on a subdomain ([aif.app.notion.com](https://aif.app.notion.com/)) — it's never activated on user pages.
 
 No user content is exposed to any third-party service.
 

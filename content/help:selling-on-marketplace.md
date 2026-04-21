@@ -1,5 +1,5 @@
 ---
-title: "Selling on Marketplace"
+title: "Selling templates on Marketplace"
 emoji: "🧑🏼‍🎨"
 description: "Learn how to sell your templates in the Notion Marketplace 🧑🏼‍🎨"
 url: "https://www.notion.com/help/selling-on-marketplace"
@@ -19,7 +19,7 @@ To sell in Marketplace, you’ll first need to go to [https://www.notion.so/prof
 
 ## Get verified for payments with Notion
 
-Notion uses Stripe to process payments. Creators will need to join the waitlist, get approved by the Notion team, and onboard with Stripe to start selling directly on Marketplace. To see if you’re eligible, see the list of eligible countries below →
+Notion uses Stripe to process payments. Creators will need to join the waitlist, get approved by the Notion team, and onboard with Stripe to start selling directly on Marketplace. To see if you’re eligible, see the list of eligible countries [below →](https://www.notion.com/help/selling-on-marketplace#eligible-countries)
 
 **Note:**
 
@@ -33,15 +33,15 @@ To set up payments:
 
 1. Go to [https://www.notion.so/profile](https://www.notion.com/profile).
 
-2. In the `Profile` tab, scroll down to the `Sell with Notion` section.
+2. In the `Settings` tab, scroll down to the `Sell templates with Notion` section.
 
-3. Select `Fill out survey` to provide Notion with information about yourself and your business. You’ll be added to a waitlist for review.
+3. Select `Apply` to provide Notion with information about yourself and your business. You’ll be added to a waitlist for review.
 
    * Please note that it may take a few months to get reviewed, and that Notion may approve or reject submissions at its discretion. You'll be notified by email when you have been approved or rejected.
 
 4. Once your submission has been reviewed and approved by the Notion team, you’ll be able to onboard with Stripe.
 
-5. Go back to the `Sell with Notion` section of your `Profile` tab and select `Get started`.
+5. Go back to the `Sell templates with Notion` section of your `Settings` tab and select `Get started`.
 
 6. Follow the prompts to complete onboarding through Stripe.
 

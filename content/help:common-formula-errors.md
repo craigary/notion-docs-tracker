@@ -5,8 +5,8 @@ description: "Learn about the common errors you might run into with formulas in 
 url: "https://www.notion.com/help/common-formula-errors"
 key: "help:common-formula-errors"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/15MnehxCRUUA3LITX21Lar/7c80798bd5cce07c4b492cb6543419c7/Troubleshooting_Reference_Visuals.png"
-category: "Formulas"
-categoryKey: "category:formulas"
+category: "Troubleshooting"
+categoryKey: "category:troubleshooting"
 ---
 
 If you’re unsure how to fix the errors in your formula, Notion AI can help. Learn more [here →](https://www.notion.com/help/formulas#create-and-edit-formulas-with-Notion-AI)

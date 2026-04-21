@@ -7,8 +7,8 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/7j6zHBFAMtPgTdqjZQq46w/c7
 ---
 
 1 help:notion-ai-faqs
-2 help:autofill
-3 help:notion-agent
+2 help:notion-agent
+3 help:autofill
 4 help:ai-meeting-notes
 5 help:notion-ai-connectors
 6 help:enterprise-search
@@ -21,15 +21,15 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/7j6zHBFAMtPgTdqjZQq46w/c7
 13 help:notion-ai-connectors-for-slack
 14 help:complimentary-ai-responses
 15 help:notion-mcp
-16 help:skills-for-notion-agent
-17 help:instructions-for-notion-agent
-18 help:box-ai-connector
-19 help:salesforce-ai-connector
-20 help:notion-ai-connector-for-gmail
-21 help:google-calendar-ai-connector
-22 help:notion-calendar-ai-connector
-23 help:create-and-edit-images-with-notion-ai
-24 help:asana-ai-connector
-25 help:microsoft-outlook-ai-connector
-26 help:notion-mail-ai-connector
-27 help:research-mode
+16 help:asana-ai-connector
+17 help:microsoft-outlook-ai-connector
+18 help:notion-mail-ai-connector
+19 help:skills-for-notion-agent
+20 help:instructions-for-notion-agent
+21 help:box-ai-connector
+22 help:create-and-edit-images-with-notion-ai
+23 help:research-mode
+24 help:google-calendar-ai-connector
+25 help:notion-calendar-ai-connector
+26 help:notion-ai-connector-for-gmail
+27 help:salesforce-ai-connector

@@ -8,4 +8,3 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/2qPdGvgZA8RD2WXSufJlCG/5f
 
 1 help:formulas
 2 help:formula-syntax
-3 help:common-formula-errors

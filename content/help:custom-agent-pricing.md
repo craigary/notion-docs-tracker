@@ -154,7 +154,7 @@ Every Custom Agent is different. Credit usage is impacted by a few factors you c
 
 Getting these right helps your agent run efficiently, delivers better results, and keeps costs predictable.
 
-### 5. Keep costs predictable with agent credit limits
+### Keep costs predictable with agent credit limits
 
 Monthly credit limits give workspace admins and agent owners a straightforward way to set guardrails on agent spending without needing to monitor usage in real time.
 

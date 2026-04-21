@@ -11,7 +11,7 @@ categoryKey: "category:troubleshooting"
 
 Check our [status page](https://status.notion.so/) and [X](https://twitter.com/NotionStatus) for live updates on any known issues.
 
-## General errors and solutions
+## General errors
 
 Some common error messages and issues you might encounter in Notion include:
 
@@ -31,9 +31,19 @@ Some common error messages and issues you might encounter in Notion include:
 
 * Not being able to access Notion or specific Notion pages
 
-The following may help resolve these errors:
+## General troubleshooting
 
-* Check our [status page](https://status.notion.so/) and [X](https://twitter.com/NotionStatus) for live updates on any known issues.
+The following suggestions may help resolve these errors:
+
+* Allowlist the URL \*.notion.com. You may need to update allow/deny rules in your organization’s network controls, like:
+
+  * Firewall or secure web gateway (URL/category filtering)
+
+  * DNS filtering / protective DNS policies
+
+  * Proxy allow/deny lists
+
+  * Security tools that block newly seen domains
 
 * Log out and log back into your Notion account.
 
@@ -62,8 +72,6 @@ The following may help resolve these errors:
   * If your Apple mobile device is on iOS 15 or earlier, these OS versions aren’t supported. If your device supports an upgrade to iOS 16 or later, upgrade it. If your device doesn’t support iOS 16 or later, you may still be able to use Notion, but the app may not work as expected.
 
 * Disable any VPNs that you may be using and try again.
-
-* Allowlist the [notion.so](http://notion.so) domain with your VPN and try again.
 
 ## "Offline" or "Connect to the internet"
 

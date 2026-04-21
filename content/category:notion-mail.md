@@ -1,6 +1,6 @@
 ---
 title: "Notion Mail"
-description: null
+description: "Get started with Notion Mail and learn everyday essentials, like inbox navigation, writing messages, and organizing with views and filters."
 url: "https://www.notion.com/help/category/notion-mail"
 key: "category:notion-mail"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/2SBfsPfdWN8oF5X5akzwxx/a4a1fbccc03420ee52f5d24846334b97/Notion_Mail_Logo__1_.png"
