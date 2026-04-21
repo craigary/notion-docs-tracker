@@ -33,8 +33,6 @@ Click to expand
 
 Workspace admins on Business and Enterprise plans can access the Notion credits dashboard. To access the Notion credits dashboard, go to **Settings** → **Access & billing** → **Notion credits**.
 
-![To access the Notion credits dashboard, go to Settings → Notion AI → Notion credits.](https://images.ctfassets.net/spoqsaf9291f/4IFZ674kfnSFvjyNWkvld6/dc68009e7f358fd754c05e523c8f9caf/Notion_credits_dashboard_new_navigation_path.png)
-
 Permissions and access
 
 Click to expand
@@ -70,8 +68,6 @@ Optimize credit usage
 Click to expand
 
 ## How to read the dashboard
-
-![Notion credits dashboard walkthrough](https://images.ctfassets.net/spoqsaf9291f/3mS31u9tCRihWhiAI8yL9/a40c20906da32b958fd433709592d92e/How_to_read_the_dashboard__1-5_.png)
 
 ### 1) Usage summary
 
