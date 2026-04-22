@@ -11,7 +11,9 @@ categoryKey: "category:notion-ai"
 
 ## Create a database with Notion AI
 
-You can create a database in just seconds using [Notion AI](https://www.notion.com/help/notion-ai-faqs). Creating a database with Notion AI is free; you're not required to have Notion AI for your workspace, nor will creating a database with Notion AI count toward your [complimentary Notion AI responses](https://www.notion.com/help/complimentary-ai-responses).
+You can create a database in just seconds using [Notion AI](https://www.notion.com/help/notion-ai-faqs).
+
+Creating a database with Notion AI is free on the Business or Enterprise plans. If you are not on those plans, Notion AI will use credits from your workspace, including [any complimentary credits](https://www.notion.com/help/complimentary-ai-responses) you may have available.
 
 ### From a page
 
@@ -91,9 +93,9 @@ You can let AI Autofill assign certain categories or keywords to items in your d
 
 4. Toggle on `AI Autofill`.
 
-5. Optionally, t<!-- -->oggle on `Generate new options`. When this is turned on, AI will generate new options to apply to any new database entries.
+5. Optionally, toggle on `Generate new options`. When this is turned on, AI will generate new options to apply to any new database entries.
 
-6. Optionally, <!-- -->Select `More` → `Auto-update on page edits` to set the property to update five minutes after changes are made to the page. You can also manually trigger AI to fill or update by hovering over a value and clicking the wand button that appears.
+6. Optionally, Select `More` → `Auto-update on page edits` to set the property to update five minutes after changes are made to the page. You can also manually trigger AI to fill or update by hovering over a value and clicking the wand button that appears.
 
 **Learn more**
 

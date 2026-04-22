@@ -5,7 +5,7 @@ description: "Track Custom Agent credit usage, forecast needs, and manage spend 
 url: "https://www.notion.com/help/notion-credits-dashboard"
 key: "help:notion-credits-dashboard"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/5kjXQLWOklXTAk8FjnbNHY/2486dba9d2f3370affca87f80d4a39a5/Group_180.png"
-category: "Plans, billing & payment"
+category: "Plans & billing"
 categoryKey: "category:plans-billing-and-payment"
 ---
 
@@ -31,7 +31,7 @@ Click to expand
 
 ### Who can access it?
 
-Workspace admins on Business and Enterprise plans can access the Notion credits dashboard. To access the Notion credits dashboard, go to **Settings** → **Access & billing** → **Notion credits**.
+Workspace admins on Business and Enterprise plans can access the Notion credits dashboard. To access the Notion credits dashboard, go to `Settings` → `Access & billing` → `Notion credits`.
 
 Permissions and access
 
@@ -68,6 +68,8 @@ Optimize credit usage
 Click to expand
 
 ## How to read the dashboard
+
+![Notion credits dashboard example image](https://images.ctfassets.net/spoqsaf9291f/2EVTerTq7PqpLXfaXi0gDG/f5febc8e4c596285a7f2d7d9aa8cd009/Notion_credits_dashboard_-_4_21_update.png)
 
 ### 1) Usage summary
 

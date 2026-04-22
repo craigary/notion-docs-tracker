@@ -5,7 +5,7 @@ description: "Learn how you're billed for Notion, and how you can change your bi
 url: "https://www.notion.com/help/billing"
 key: "help:billing"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/3azIm1WHsAmc9tIr9UjdLe/86866684f53bf6b0b1da9ccdd810d7a8/Billing___payment_info_-_hero.png"
-category: "Plans, billing & payment"
+category: "Plans & billing"
 categoryKey: "category:plans-billing-and-payment"
 ---
 

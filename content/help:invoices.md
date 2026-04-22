@@ -5,7 +5,7 @@ description: "Learn how to see and understand your invoice, as well as what happ
 url: "https://www.notion.com/help/invoices"
 key: "help:invoices"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/5XsHBVSvFNV4WhspE3hEPE/eab3710350a5e46fa5101d4a2151e3ac/Duplicate__delete___restore_content_-_hero.png"
-category: "Plans, billing & payment"
+category: "Plans & billing"
 categoryKey: "category:plans-billing-and-payment"
 ---
 

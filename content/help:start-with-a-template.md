@@ -5,7 +5,7 @@ description: "To help you take on a variety of challenges with Notion, we've cre
 url: "https://www.notion.com/help/start-with-a-template"
 key: "help:start-with-a-template"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/4PkiBedDxxC7DpoFobdLKN/718f58bccc815944ad2a4b8858efcc50/Reference_visuals__1_.png"
-category: "Getting started"
+category: "Get started"
 categoryKey: "category:new-to-notion"
 ---
 

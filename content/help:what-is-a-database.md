@@ -5,7 +5,7 @@ description: "Databases are a core feature in Notion that help you manage and or
 url: "https://www.notion.com/help/what-is-a-database"
 key: "help:what-is-a-database"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/3azIm1WHsAmc9tIr9UjdLe/86866684f53bf6b0b1da9ccdd810d7a8/Billing___payment_info_-_hero.png"
-category: "Getting started"
+category: "Get started"
 categoryKey: "category:new-to-notion"
 ---
 

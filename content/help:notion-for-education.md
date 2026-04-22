@@ -5,7 +5,7 @@ description: "Whether you’re a student or a teacher, Notion is here to help ba
 url: "https://www.notion.com/help/notion-for-education"
 key: "help:notion-for-education"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/6EbxSWOuOzlo2LqKR3OSsi/09c777139517d36dea063dcb290fcc4f/Notion_for_students___teachers_-_hero.png"
-category: "Plans, billing & payment"
+category: "Plans & billing"
 categoryKey: "category:plans-billing-and-payment"
 ---
 

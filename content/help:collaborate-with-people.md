@@ -5,7 +5,7 @@ description: "Notion has several features designed to improve and increase the v
 url: "https://www.notion.com/help/collaborate-with-people"
 key: "help:collaborate-with-people"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/3oRXIXEWN14ymuR87cirAN/241c9ea1fd897d13b916ff469d33c672/Who-s_Who_in_a_Workspace__1_.png"
-category: "Getting started"
+category: "Get started"
 categoryKey: "category:new-to-notion"
 ---
 

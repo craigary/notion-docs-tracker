@@ -5,7 +5,7 @@ description: "Notion’s billing model looks at the number of members in your wo
 url: "https://www.notion.com/help/members-and-billing"
 key: "help:members-and-billing"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/ZPIpjGDflVkd9GQhac9Rx/d612b8bc3dab47f502d9d49d90618395/Tasks_and_depencenies.png"
-category: "Plans, billing & payment"
+category: "Plans & billing"
 categoryKey: "category:plans-billing-and-payment"
 ---
 

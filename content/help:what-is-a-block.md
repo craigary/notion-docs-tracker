@@ -5,7 +5,7 @@ description: "Think of Notion as a bottomless bin of building blocks. Build what
 url: "https://www.notion.com/help/what-is-a-block"
 key: "help:what-is-a-block"
 coverImage: "https://img.youtube.com/vi/tefoC3wP8n0/maxresdefault.jpg"
-category: "Getting started"
+category: "Get started"
 categoryKey: "category:new-to-notion"
 ---
 

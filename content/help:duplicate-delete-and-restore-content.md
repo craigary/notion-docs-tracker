@@ -77,7 +77,9 @@ Archive is currently in Beta and subject to the terms of your agreement.
 
 Archive is only available for users on Business and Enterprise plans.
 
-Archiving helps you mark pages as no longer current without deleting them.
+Archiving a page allows you to mark pages as no longer current without deleting them.
+
+### How to archive pages and databases:
 
 1. Open the page you want to archive.
 
@@ -85,7 +87,9 @@ Archiving helps you mark pages as no longer current without deleting them.
 
 3. Select `Archive`.
 
-4. After you archive it, you will see an **Archived** banner at the top of the page.
+After archiving a page, you will see a yellow banner at the top of the page. It will show your name and the date it was archived.
+
+To unarchive a page, go to the banner at the top of the page and click Unarchive.
 
 ### What happens when a page is archived
 
@@ -103,7 +107,7 @@ Archiving is different from deleting — archived pages are still accessible. Wh
 
 * If you archive content in databases, the content will be filtered out of the view going forward. Archived pages can be viewed by going to the database’s `Settings` → `View archived pages`.
 
-To unarchive a page, go to the banner at the top of the page and click `Unarchive.`
+Learn more about archiving content → [Archive pages](https://www.notion.com/help/archive-pages)
 
 ## Version history
 

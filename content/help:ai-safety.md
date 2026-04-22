@@ -5,8 +5,8 @@ description: "Read about Notion’s approach to AI safety 🛡️"
 url: "https://www.notion.com/help/ai-safety"
 key: "help:ai-safety"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/4cBManwE4Muz3k8Qek1Vda/e6c35d9ee50fdc54634d422cbe277453/add-security-and-compliance-integrations.png"
-category: "Security & privacy"
-categoryKey: "category:security-and-privacy"
+category: "Notion AI security"
+categoryKey: "category:notion-ai-security"
 ---
 
 Notion develops Notion AI in a responsible and secure manner with the goal of building beautiful tools for your life’s work. Notion continuously assesses its AI safety practices as the industry evolves, to ensure we are doing the best we can to protect our customers' Notion workspaces and related customer data.

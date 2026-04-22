@@ -5,8 +5,8 @@ description: "At Notion, we want to be transparent with our customers about our 
 url: "https://www.notion.com/help/notion-ai-security-practices"
 key: "help:notion-ai-security-practices"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/7p7r9IQJhKKOhgrXa1QFoG/e8d045240fb448b29e0368488108e69e/notion-ai-security-practices.png"
-category: "Security & privacy"
-categoryKey: "category:security-and-privacy"
+category: "Notion AI security"
+categoryKey: "category:notion-ai-security"
 ---
 
 ## What is Notion AI?

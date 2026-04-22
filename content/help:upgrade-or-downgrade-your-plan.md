@@ -5,7 +5,7 @@ description: "We offer four different pricing plans for every type of user and t
 url: "https://www.notion.com/help/upgrade-or-downgrade-your-plan"
 key: "help:upgrade-or-downgrade-your-plan"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/HamXGdAIqZVfkkEppYvFF/120543b8fea941308507cbef91f24252/Plan_Downgrade_Reference_Visuals.png"
-category: "Plans, billing & payment"
+category: "Plans & billing"
 categoryKey: "category:plans-billing-and-payment"
 ---
 

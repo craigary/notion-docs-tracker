@@ -5,8 +5,8 @@ description: "Everything you do in Notion takes place in a workspace. It's your 
 url: "https://www.notion.com/help/intro-to-workspaces"
 key: "help:intro-to-workspaces"
 coverImage: "https://img.youtube.com/vi/lSmgY5OsZmU/maxresdefault.jpg"
-category: "Workspace & sidebar"
-categoryKey: "category:meet-your-workspace"
+category: "Get started"
+categoryKey: "category:new-to-notion"
 ---
 
 ## Workspace basics

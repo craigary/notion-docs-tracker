@@ -5,7 +5,7 @@ description: "Learn more about block usage depending on your plan and how many p
 url: "https://www.notion.com/help/understanding-block-usage"
 key: "help:understanding-block-usage"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/1whCueND7aKDj7djO0JXgq/cf9a7c16114c54ad9f780df7fbdbe7fa/What_is_a_block_-_hero_v2.png"
-category: "Plans, billing & payment"
+category: "Plans & billing"
 categoryKey: "category:plans-billing-and-payment"
 ---
 

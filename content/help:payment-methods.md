@@ -5,7 +5,7 @@ description: "Here’s how to set up payment for your Notion plan 💳"
 url: "https://www.notion.com/help/payment-methods"
 key: "help:payment-methods"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/3U5atTkwmb8g8ikcGou50d/7f1423f7189bd7a10051b985ef776c43/Payments_Reference_Visuals.png"
-category: "Plans, billing & payment"
+category: "Plans & billing"
 categoryKey: "category:plans-billing-and-payment"
 ---
 

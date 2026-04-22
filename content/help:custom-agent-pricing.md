@@ -5,7 +5,7 @@ description: "Everything you need to know about Notion credits for Custom Agents
 url: "https://www.notion.com/help/custom-agent-pricing"
 key: "help:custom-agent-pricing"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/18cMIFOLXTfDVVWZgobE7C/3cfda622276bfd65931474aa47843373/credits.png"
-category: "Plans, billing & payment"
+category: "Plans & billing"
 categoryKey: "category:plans-billing-and-payment"
 ---
 

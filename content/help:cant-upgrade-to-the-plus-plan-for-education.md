@@ -5,7 +5,7 @@ description: "Try the following fixes if you’re not able to upgrade to the fre
 url: "https://www.notion.com/help/cant-upgrade-to-the-plus-plan-for-education"
 key: "help:cant-upgrade-to-the-plus-plan-for-education"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/15MnehxCRUUA3LITX21Lar/7c80798bd5cce07c4b492cb6543419c7/Troubleshooting_Reference_Visuals.png"
-category: "Plans, billing & payment"
+category: "Plans & billing"
 categoryKey: "category:plans-billing-and-payment"
 ---
 

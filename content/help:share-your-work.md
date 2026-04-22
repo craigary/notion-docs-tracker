@@ -5,7 +5,7 @@ description: "Share any Notion page you create with select people, your whole te
 url: "https://www.notion.com/help/share-your-work"
 key: "help:share-your-work"
 coverImage: "https://img.youtube.com/vi/mvaNaZ4-E4c/maxresdefault.jpg"
-category: "Getting started"
+category: "Get started"
 categoryKey: "category:new-to-notion"
 ---
 

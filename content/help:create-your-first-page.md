@@ -5,7 +5,7 @@ description: "Every page you create in Notion is a fresh canvas where you can ad
 url: "https://www.notion.com/help/create-your-first-page"
 key: "help:create-your-first-page"
 coverImage: "https://img.youtube.com/vi/tefoC3wP8n0/maxresdefault.jpg"
-category: "Getting started"
+category: "Get started"
 categoryKey: "category:new-to-notion"
 ---
 

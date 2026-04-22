@@ -5,7 +5,7 @@ description: "Get more information about how taxes are applied to your Notion bi
 url: "https://www.notion.com/help/sales-tax"
 key: "help:sales-tax"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/4KSdHLrl9E73I3HbNbFrsK/ac3e82a194d2ddc736346f259f61bc70/sales-tax.png"
-category: "Plans, billing & payment"
+category: "Plans & billing"
 categoryKey: "category:plans-billing-and-payment"
 ---
 
