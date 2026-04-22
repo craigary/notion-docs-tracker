@@ -19,6 +19,6 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/1qGgHCH80dWW0ZnIUl1O7t/c2
 11 help:math-equations
 12 help:keyboard-shortcuts
 13 help:use-pages-offline
-14 help:duplicate-public-pages
-15 help:archive-pages
+14 help:archive-pages
+15 help:duplicate-public-pages
 16 help:presentation-mode

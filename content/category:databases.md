@@ -21,11 +21,11 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/1fkexDNoDJAwQduymONneL/9c
 13 help:timelines
 14 help:calendars
 15 help:lists
-16 help:dashboards
-17 help:galleries
+16 help:galleries
+17 help:dashboards
 18 help:charts
 19 help:feeds
 20 help:layouts
-21 help:maps
-22 help:unique-id
+21 help:unique-id
+22 help:maps
 23 help:forms

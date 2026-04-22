@@ -19,8 +19,8 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/2lKwICICVv9jnFRGGEPZC6/da
 11 help:add-security-and-compliance-integrations
 12 help:managed-users-dashboard
 13 help:enterprise-connection-settings
-14 help:deploy-notion-for-macos
-15 help:custom-data-retention-settings
+14 help:custom-data-retention-settings
+15 help:deploy-notion-for-macos
 16 help:deploy-notion-for-windows
 17 help:manage-teamspaces
 18 help:ip-address-restrictions

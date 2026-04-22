@@ -185,3 +185,14 @@ More resources
 * Learn what [Custom Agents](https://www.notion.com/help/custom-agent) are and how they work
 
 * Understand [sharing settings and permissions](https://www.notion.com/help/custom-agents-sharing-and-permissions) for Custom Agents
+
+
+## FAQs
+
+### Does Autofill use Notion credits?
+
+Autofill has two options: Basic and Custom Agent.
+
+* **Basic Autofill&#x20;**&#x69;s included on Business and Enterprise plans, and does not use Notion credits.
+
+* **Custom Agent Autofill&#x20;**&#x75;ses Notion credits because it runs with Custom Agent capabilities (like using richer context and more advanced reasoning).

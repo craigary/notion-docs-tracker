@@ -6,6 +6,6 @@ key: "category:notion-ai-security"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/2HM5BPlsww5fF5gJDpI71B/94b7676aa48c86aa4d3fe90583812b4a/New_to_Notion_-_Chapter_Hero.png"
 ---
 
-1 help:notion-ai-security-practices
-2 help:ai-safety
+1 help:ai-safety
+2 help:notion-ai-security-practices
 3 help:complimentary-ai-responses
