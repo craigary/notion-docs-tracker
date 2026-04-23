@@ -5,8 +5,8 @@ description: null
 url: "https://www.notion.com/help/notion-ai-connector-for-gmail"
 key: "help:notion-ai-connector-for-gmail"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/wulKPiF24CtxGfmNgzGVt/2f57b700663a6ba3c845ac842826175a/Gmail.png"
-category: "Notion AI"
-categoryKey: "category:notion-ai"
+category: "Notion AI Connectors"
+categoryKey: "category:notion-ai-connectors"
 ---
 
 ## Connect Gmail to Notion AI

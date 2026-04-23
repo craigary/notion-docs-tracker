@@ -128,9 +128,9 @@ Link mentions are another way to incorporate links into your Notion page. They a
 
 **Note:&#x20;**&#x4F;n Enterprise Plans, the following can be restricted to workspace owners:
 
-* The ability to [add connections](https://www.notion.com/help/add-and-manage-connections-with-the-api#add-connections-in-your-workspace) and decide who can connect or disconnect integrations at the page level.
+* The ability to [add connections](https://www.notion.com/help/add-and-manage-connections-with-the-api#add-connections-in-your-workspace) and decide who can connect or disconnect them at the page level.
 
-* The ability to [install workspace-wide security and compliance integrations](https://www.notion.com/help/add-security-and-compliance-integrations).
+* The ability to [install workspace-wide security and compliance connections](https://www.notion.com/help/add-security-and-compliance-integrations).
 
 ### Integrate with Zoom
 

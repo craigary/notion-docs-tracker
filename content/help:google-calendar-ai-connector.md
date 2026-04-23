@@ -5,8 +5,8 @@ description: "Learn how to connect Google Calendar events to Notion AI 🗓️"
 url: "https://www.notion.com/help/google-calendar-ai-connector"
 key: "help:google-calendar-ai-connector"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/4nJT1AkgCgN4sM42KBIz0u/a88db17365009adbcde7961a2947fd51/Google_Calendar_AI_Connector_from_Figma.png"
-category: "Notion AI"
-categoryKey: "category:notion-ai"
+category: "Notion AI Connectors"
+categoryKey: "category:notion-ai-connectors"
 ---
 
 **Note:** This feature is only available on the Business and Enterprise Plans.

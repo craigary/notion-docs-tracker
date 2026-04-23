@@ -5,8 +5,8 @@ description: "With Notion AI Connectors, you can use Notion as a single place to
 url: "https://www.notion.com/help/notion-ai-connectors"
 key: "help:notion-ai-connectors"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/3k1FtgOXYJLRMQPTlNLAqf/f93d19f3dfa0e08592f42aa496f428bd/Reference_Visuals_Group_149.png"
-category: "Notion AI"
-categoryKey: "category:notion-ai"
+category: "Notion AI Connectors"
+categoryKey: "category:notion-ai-connectors"
 ---
 
 **Note:** To connect third-party apps to Notion AI, you must be on the Business or Enterprise Plan.

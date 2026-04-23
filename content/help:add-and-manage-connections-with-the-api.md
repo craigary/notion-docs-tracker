@@ -1,5 +1,5 @@
 ---
-title: "Add & manage integrations"
+title: "Add & manage connections"
 emoji: "🤖"
 description: "You can connect other software to Notion, automate actions within your workspace, and access connections built by our partners 🤖"
 url: "https://www.notion.com/help/add-and-manage-connections-with-the-api"
@@ -11,13 +11,13 @@ categoryKey: "category:import-export-and-integrate"
 
 **Note:&#x20;**&#x4F;n Enterprise Plans, the following can be restricted to workspace owners:
 
-* The ability to [add connections](https://www.notion.com/help/add-and-manage-connections-with-the-api#add-connections-in-your-workspace) and decide who can connect or disconnect integrations at the page level.
+* The ability to [add connections](https://www.notion.com/help/add-and-manage-connections-with-the-api#add-connections-in-your-workspace) and decide who can connect or disconnect them at the page level.
 
-* The ability to [install workspace-wide security and compliance integrations](https://www.notion.com/help/add-security-and-compliance-integrations).
+* The ability to [install workspace-wide security and compliance connections](https://www.notion.com/help/add-security-and-compliance-integrations).
 
 ## Add connections in your workspace
 
-Members can add connections to a workspace in `Settings` → `Connections`. Workspace owners can add connections to a workspace in `Settings` → `Connections`. Once a connection is added, it can be added to more pages.
+Both Members and Workspace owners can add connections to a workspace in `Settings` → `Connections`. Once a connection is added, it can then be added to individual pages and databases in the `•••` menu under `Connections`.
 
 ## Add connections to pages
 
@@ -39,7 +39,7 @@ Connections built with the API follow a similar permission system to the sharin
 
 **Note:** This feature is only available to users on the Enterprise Plan. Domain verification is not required to enable this feature.
 
-Workspace owners on the Enterprise Plan can decide what pages an integration can access, as well as who can connect integrations to or disconnect integrations from pages. To do this:
+Workspace owners on the Enterprise Plan can decide what pages a connection can access, as well as who can connect or disconnect them from pages. To do this:
 
 1. Go to `Settings` → `Connections`.
 
@@ -47,7 +47,7 @@ Workspace owners on the Enterprise Plan can decide what pages an integration can
 
 3. In the menu that appears, select `Manage page access`.
 
-4. Under `Select pages`, find and select specific pages that you want to give permission to the integration to access.
+4. Under `Select pages`, find and select specific pages that you want to give permission to the connection to access.
 
 5. Under `Who can manage page access`, open the dropdown menu. Select `Default` if you want all workspace owners and members to be able to manage access. Select `Workspace owners` if you want only workspace owners to be able to manage access.
 
@@ -61,11 +61,11 @@ If you choose to allow only `Workspace owners` to manage access, that means only
 
 * Here, you'll see two tabs, `Members` and `Workspaces`.
 
-  * From the `Members` tab, you can manage the integrations that members can access in the workspace. Specifically, you can limit integration access to an approved list of integrations, view who is using an internal integration and disconnect the use of any integration in the workspace.
+  * From the `Members` tab, you can manage the connections that members can access in the workspace. Specifically, you can limit connections access to an approved list of connections, view who is using an internal connection and disconnect the use of any integration in the workspace.
 
-    * Note: Only Enterprise Workspace Owners can limit integration access to an approved list of integrations.
+    * Note: Only Enterprise Workspace Owners can limit connection access to an approved list of connections.
 
-  * From the `Workspaces` tab, you can install and manage Security & Compliance integrations for their entire Enterprise workspace.
+  * From the `Workspaces` tab, you can install and manage Security & Compliance <!-- -->connections<!-- --> for their entire Enterprise workspace.
 
 ![Add & manage integrations - integration menu](https://images.ctfassets.net/spoqsaf9291f/4o8nQj3zUQeC4cAw0idh0v/e068d8fbb27c219490085ec64d859b00/Integration_-_Share_3.png)
 
@@ -79,11 +79,11 @@ If you choose to allow only `Workspace owners` to manage access, that means only
 
   * Disconnect the connection
 
-Looking for a way to monitor and respond to real-time changes in your Notion workspaces? Try [integration webhooks](https://www.notion.com/help/create-integrations-with-the-notion-api#integration-webhooks)!
+Looking for a way to monitor and respond to real-time changes in your Notion workspaces? Try [connection webhooks](https://www.notion.com/help/create-integrations-with-the-notion-api#integration-webhooks)!
 
 ## Install from a developer
 
-### [Check out our integration gallery →](https://www.notion.com/integrations/all)
+Check out our [Connections gallery →](https://www.notion.com/integrations/all)
 
 ### Install directly from a partner platform via OAuth
 
@@ -105,20 +105,20 @@ Notion has partnered directly with several services (such as [Zapier](https://w
 
 ![Add & manage integrations - public integration menu](https://images.ctfassets.net/spoqsaf9291f/2ij6nANbGgyau3YlzfAHoa/04de0f513c6ba2f64d87b638c2a40512/Integration_Menu_-_Public.png)
 
-**Tip:** Want to see some partner integrations in action? [Check out this guide →](https://www.notion.com/help/guides/visual-link-previews-streamline-collaboration)
+**Tip:** Want to see partner integrations in action? [Check out this guide →](https://www.notion.com/help/guides/visual-link-previews-streamline-collaboration)
 
-### Install via internal integration token
+### Connect via installation access token
 
-Some partner platforms require an internal integration token in order to link to your workspace.
+Some partner platforms require an installation access token in order to link to your workspace.
 
-* In this case, first follow these instructions to create a corresponding internal integration for your workspace.
+* In this case, first follow these instructions to create a corresponding internal connection for your workspace.
 
-* Once you've created the internal integration, navigate to `Settings` in your sidebar and then the `Connections` tab.
+* Once you've created the internal connection, navigate to `Settings` in your sidebar and then the `Connections` tab.
 
-* Click the `•••` menu next to the existing connection that you'd like to link to a partner platform, and press `Copy internal integration token`.
+* Click the `•••` menu next to the existing connection that you'd like to link to a partner platform, and press `Copy installation access token`.
 
 ![Add & manage integrations - internal integration token](https://images.ctfassets.net/spoqsaf9291f/1EdzyxZuVOL043FzByZb62/d955d0171a63a62e6181831ce716416e/Integration_menu_-_Token.png)
 
-* Paste this internal integration token into the corresponding field on the partner platform's set up form.
+* Paste this installation access token into the corresponding field on the partner platform's set up form.
 
-**Note:** Notion does not support troubleshooting for partner integrations. Please direct any feedback and questions to the respective partner's support team.
+**Note:** Notion does not support troubleshooting for partner connections. Please direct any feedback and questions to the respective partner's support team.

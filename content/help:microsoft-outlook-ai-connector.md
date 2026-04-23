@@ -5,8 +5,8 @@ description: "Connect your emails from Microsoft Outlook to Notion AI 📮"
 url: "https://www.notion.com/help/microsoft-outlook-ai-connector"
 key: "help:microsoft-outlook-ai-connector"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/3E1IruTfe6Z0yB5m8fCq70/bdee658eb717a4745abd61e0505f9371/Outlook_AI_Connector_from_Figma.png"
-category: "Notion AI"
-categoryKey: "category:notion-ai"
+category: "Notion AI Connectors"
+categoryKey: "category:notion-ai-connectors"
 ---
 
 **Note:** <!-- -->This feature is only available on the Enterprise Plan.

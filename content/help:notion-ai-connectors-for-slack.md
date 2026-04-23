@@ -5,13 +5,13 @@ description: "Learn how to connect your Slack workspace to your Notion workspace
 url: "https://www.notion.com/help/notion-ai-connectors-for-slack"
 key: "help:notion-ai-connectors-for-slack"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/5R5Xs1T5Or2XqdzaiiBq8n/f774676f6acd55a13277974b1881640d/Slack_connectors.png"
-category: "Notion AI"
-categoryKey: "category:notion-ai"
+category: "Notion AI Connectors"
+categoryKey: "category:notion-ai-connectors"
 ---
 
 **Note:** This feature is only available on the Business and Enterprise Plans.
 
-There are lots of other ways to use Slack and Notion together. Learn more about our Slack integration [here →](https://www.notion.com/help/slack)
+There are lots of other ways to use Slack and Notion together. Learn more about our Slack connection [here →](https://www.notion.com/help/slack)
 
 Notion AI answers are generated using LLMs like GPT-5 and Claude. You should double-check all answers for accuracy.
 
@@ -45,13 +45,13 @@ To connect your Slack workspace to Notion AI:
 
 4. **If you’re a Slack workspace owner**, you’ll be able to select the Slack workspace and channels you want to connect. You can select `All public channels` or specific public channels. You also have the option to include public channels created in the future. This won’t include public channels containing external users, like Slack Connect channels.
 
-   * **If you’re not a Slack workspace owner**, you can request this integration. Your Slack workspace owner or approved Slack members will be notified. **Make sure you’re requesting the integration for the right Notion workspace!**
+   * **If you’re not a Slack workspace owner**, you can request this connection. Your Slack workspace owner or approved Slack members will be notified. **Make sure you’re requesting the connection for the right Notion workspace!**
 
 5. Once Notion AI has joined those public channels, depending on how your Slack owner has set up your [workspace settings](https://slack.com/help/articles/115002695043-Manage-join-and-leave-messages-), a message will be sent in those public channels to say Notion AI has joined them and will join all future public channels. **This message won’t show up in Slack channels with external users.**
 
    * Additionally, individual members of a Notion workspace where the Slack AI Connector has been set up can connect private channels and direct messages to Notion. Each user can only see what they have access to in Slack!
 
-Once the integration is set up, it will be able to find messages going back a year from when the setup is complete. For example, if you connect Slack with Notion AI on June 1, 2024, Notion AI will be able to find information from messages in Slack sent on June 1, 2023 and later.
+Once the connection is set up, it will be able to find messages going back a year from when the setup is complete. For example, if you connect Slack with Notion AI on June 1, 2024, Notion AI will be able to find information from messages in Slack sent on June 1, 2023 and later.
 
 This process can take up to 36 hours.
 
