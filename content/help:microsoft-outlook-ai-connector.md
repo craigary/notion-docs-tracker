@@ -52,9 +52,9 @@ Notion AI can read all Microsoft Outlook emails associated with the connected ac
 Yes. Notion AI strictly follows existing permissions as outlined in our [Notion AI Security Practices](https://www.notion.com/help/notion-ai-security-practices). Users can only generate content and receive responses about emails they have permission to access in Microsoft Outlook.
 
 
-### How long does it take for the integration to complete and how far back does it look?
+### How long does it take for the connection to complete and how far back does it look?
 
-Once the integration is complete, Notion AI will be able to search all your emails immediately; there's no setup delay.
+Once the <!-- -->connection<!-- --> is complete, Notion AI will be able to search all your emails immediately; there's no setup delay.
 
 
 ### How long does it take for Notion AI to read new Microsoft Outlook content?
@@ -69,7 +69,7 @@ Yes, absolutely! In Notion AI, open the `All sources` menu and select `Outlook`.
 
 ### Who can access Microsoft Outlook content using Notion AI?
 
-Individuals who are both a Microsoft Outlook and a Notion workspace member can use this integration. Notion AI maps Microsoft members to Notion members. Permission changes are synced immediately.
+Individuals who are both a Microsoft Outlook and a Notion workspace member can use this <!-- -->connection<!-- -->. Notion AI maps Microsoft members to Notion members. Permission changes are synced immediately.
 
 
 ### How does Notion store or reference my Outlook data in its systems?
@@ -84,7 +84,7 @@ Not at this time. The workspace admin will only be able to connect one Notion wo
 
 ### How can I disconnect Microsoft Outlook and Notion?
 
-Workspace owners can disconnect projects after the initial integration is complete by going to `Settings` → `Notion AI`. Select `⚙️` next to `Outlook` → `Settings` → `Disconnect`.
+Workspace owners can disconnect projects after the initial <!-- -->connection<!-- --> is complete by going to `Settings` → `Notion AI`. Select `⚙️` next to `Outlook` → `Settings` → `Disconnect`.
 
 
 ### What happens to my Microsoft Outlook data if I disconnect?
