@@ -5,7 +5,7 @@ description: "Connect your Custom Agents to external systems and data sources wi
 url: "https://www.notion.com/help/mcp-connections-for-custom-agents"
 key: "help:mcp-connections-for-custom-agents"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/5yUrXL0g6goX2lRQ3wa8se/f6cfdb89cfe49af29470cd7de1f3e735/mcp.png"
-category: "Custom Agents"
+category: "Custom Agents & Database Agents"
 categoryKey: "category:custom-agents"
 ---
 
@@ -62,6 +62,8 @@ You can connect to the following apps without any additional configuration:
 * [Intercom](https://developers.intercom.com/docs/guides/mcp)
 
 * [Wiz](https://www.wiz.io/blog/introducing-mcp-server-for-wiz)
+
+* ****[n8n](https://docs.n8n.io/advanced-ai/mcp/accessing-n8n-mcp-server/)****
 
 ## How to add a pre-configured MCP connection
 

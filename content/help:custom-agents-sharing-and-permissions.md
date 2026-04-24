@@ -5,7 +5,7 @@ description: "Learn how Custom Agent permissions work in Notion, and why they di
 url: "https://www.notion.com/help/custom-agents-sharing-and-permissions"
 key: "help:custom-agents-sharing-and-permissions"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/136G6jgrCreFy3jLeY0C62/785595f51b4785d6a9baf9bf330d1f6c/custom_agents__1_.png"
-category: "Custom Agents"
+category: "Custom Agents & Database Agents"
 categoryKey: "category:custom-agents"
 ---
 

@@ -15,5 +15,5 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/2SBfsPfdWN8oF5X5akzwxx/a4
 7 help:notion-mail-settings
 8 help:notion-mail-keyboard-shortcuts
 9 help:notion-mail-security-practices
-10 help:cant-log-into-notion-mail
-11 help:notion-mail-for-mobile
+10 help:notion-mail-for-mobile
+11 help:cant-log-into-notion-mail

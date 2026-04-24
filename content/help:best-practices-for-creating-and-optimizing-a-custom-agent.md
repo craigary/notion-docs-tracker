@@ -5,7 +5,7 @@ description: "Best practices to make your Custom Agent more reliable by clarifyi
 url: "https://www.notion.com/help/best-practices-for-creating-and-optimizing-a-custom-agent"
 key: "help:best-practices-for-creating-and-optimizing-a-custom-agent"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/44JzG7eAS2RgKEZvv3nAhF/37b07971c4b7848cb1ef580ad6758dd5/Group_184.png"
-category: "Custom Agents"
+category: "Custom Agents & Database Agents"
 categoryKey: "category:custom-agents"
 ---
 

@@ -5,7 +5,7 @@ description: "Automate your email workflows without ever leaving Notion 📬"
 url: "https://www.notion.com/help/connect-mail-to-custom-agents"
 key: "help:connect-mail-to-custom-agents"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/3nDcdnr55ZxnKwDqmQurY0/38cbd9f8fb3c89437466706b9936697f/mail_in_custom_agents__1_.png"
-category: "Custom Agents"
+category: "Custom Agents & Database Agents"
 categoryKey: "category:custom-agents"
 ---
 

@@ -5,7 +5,7 @@ description: "Manage your schedule and automate meetings without ever leaving No
 url: "https://www.notion.com/help/connect-calendar-to-custom-agents"
 key: "help:connect-calendar-to-custom-agents"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/4re3I3OgAkvLKpyGQWIOVz/3e2ecb8796ea628b7610a70f34aba8f0/Group_178.png"
-category: "Custom Agents"
+category: "Custom Agents & Database Agents"
 categoryKey: "category:custom-agents"
 ---
 
