@@ -15,7 +15,7 @@ Notion’s [Marketplace](https://www.notion.com/marketplace) is the trusted plac
 
 Partners work with individuals, teams, small businesses, and enterprises — from basic workspace setup to large-scale enterprise implementations.
 
-Depending on your certifications and what type of partner you are, the services you offer through Marketplace may include workflow design, workspace architecture, training, change management, API development, integrations, and license resell (Solutions Partners only).
+Depending on your certifications and what type of partner you are, the services you offer through Marketplace may include workflow design, workspace architecture, training, change management, API development, connections, and license resell (Solutions Partners only).
 
 Interested in becoming a partner? Learn more [here →](https://www.notion.com/help/become-a-notion-partner)
 

@@ -1,5 +1,5 @@
 ---
-title: "Sharing & collaboration"
+title: "Share & collaborate"
 description: "You can share your Notion pages with clients, teammates, collaborators, or the internet! Here, we'll cover how to share content and work with others in Notion."
 url: "https://www.notion.com/help/category/sharing-and-collaboration"
 key: "category:sharing-and-collaboration"
@@ -15,7 +15,7 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/4ChxFzgUCcD4paR3D7rLSO/fe
 7 help:suggested-edits
 8 help:page-analytics
 9 help:intro-to-teamspaces
-10 help:create-and-manage-groups
-11 help:people-profiles
-12 help:people-directory
-13 help:whos-who-in-a-workspace
+10 help:whos-who-in-a-workspace
+11 help:create-and-manage-groups
+12 help:people-profiles
+13 help:people-directory

@@ -1,11 +1,11 @@
 ---
-title: "Integrate Jira"
+title: "Connect Jira"
 emoji: "🔗"
 description: "Connect Jira with Notion for a seamless experience that keeps you and your team up to date 🔗"
 url: "https://www.notion.com/help/jira"
 key: "help:jira"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/6wTbBubsbDgXZRpOxVncyr/9b96bcdabaa672f8751089c0e219c1a7/Group_91.png"
-category: "Data & integrations"
+category: "Import & export your data"
 categoryKey: "category:import-export-and-integrate"
 ---
 

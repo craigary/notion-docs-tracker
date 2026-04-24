@@ -5,7 +5,7 @@ description: "Learn about our security and privacy practices for Enterprise Sear
 url: "https://www.notion.com/help/enterprise-search-security-and-privacy-practices"
 key: "help:enterprise-search-security-and-privacy-practices"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/6cOVzKdeMZt3WUSzjOlxYv/f209d951b6b63650d7f3eb76d0ec5f25/Reference_Visuals.png"
-category: "Security & privacy"
+category: "Privacy & security"
 categoryKey: "category:security-and-privacy"
 ---
 

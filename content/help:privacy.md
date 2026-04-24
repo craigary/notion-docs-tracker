@@ -5,7 +5,7 @@ description: "Privacy is important to us — learn about how we handle privacy a
 url: "https://www.notion.com/help/privacy"
 key: "help:privacy"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/4wnAiHwxmCXnmOVLPsh0tN/25ccda722bfa5d14bccdfd5969e341e8/privacy.png"
-category: "Security & privacy"
+category: "Privacy & security"
 categoryKey: "category:security-and-privacy"
 ---
 

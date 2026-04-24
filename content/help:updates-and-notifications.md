@@ -5,7 +5,7 @@ description: "Your inbox and notifications help you stay on top of work that nee
 url: "https://www.notion.com/help/updates-and-notifications"
 key: "help:updates-and-notifications"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/pMkOH1ep2PvdYRnA3lgIc/80224c00880eabf1d9501e9f906f1a28/Group_65__1_.png"
-category: "Sharing & collaboration"
+category: "Share & collaborate"
 categoryKey: "category:sharing-and-collaboration"
 ---
 

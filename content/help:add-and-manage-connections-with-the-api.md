@@ -5,7 +5,7 @@ description: "You can connect other software to Notion, automate actions within 
 url: "https://www.notion.com/help/add-and-manage-connections-with-the-api"
 key: "help:add-and-manage-connections-with-the-api"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/1neDuGJ46KUWNDW9IDoar3/768bd7ba261f18fbd755110a7b732bb5/Add___manage_integrations_with_the_API_-_hero.png"
-category: "Data & integrations"
+category: "Import & export your data"
 categoryKey: "category:import-export-and-integrate"
 ---
 
@@ -51,7 +51,7 @@ Workspace owners on the Enterprise Plan can decide what pages a connection can a
 
 5. Under `Who can manage page access`, open the dropdown menu. Select `Default` if you want all workspace owners and members to be able to manage access. Select `Workspace owners` if you want only workspace owners to be able to manage access.
 
-If you choose to allow only `Workspace owners` to manage access, that means only workspace owners will be able to go into the `•••` menu at the top of a page → `Connections` to connect or disconnect internal and public integrations from that page. Members won’t be able to take this action.
+If you choose to allow only Workspace owners to manage access, that means only they will be able to <!-- -->connect or disconnect internal and public connections from a page. Members won’t be able to take this action.
 
 ## Manage connections in your workspace
 
@@ -65,7 +65,7 @@ If you choose to allow only `Workspace owners` to manage access, that means only
 
     * Note: Only Enterprise Workspace Owners can limit connection access to an approved list of connections.
 
-  * From the `Workspaces` tab, you can install and manage Security & Compliance <!-- -->connections<!-- --> for their entire Enterprise workspace.
+  * From the `Workspaces` tab, you can install and manage Security & Compliance connections for their entire Enterprise workspace.
 
 ![Add & manage integrations - integration menu](https://images.ctfassets.net/spoqsaf9291f/4o8nQj3zUQeC4cAw0idh0v/e068d8fbb27c219490085ec64d859b00/Integration_-_Share_3.png)
 
@@ -105,7 +105,7 @@ Notion has partnered directly with several services (such as [Zapier](https://w
 
 ![Add & manage integrations - public integration menu](https://images.ctfassets.net/spoqsaf9291f/2ij6nANbGgyau3YlzfAHoa/04de0f513c6ba2f64d87b638c2a40512/Integration_Menu_-_Public.png)
 
-**Tip:** Want to see partner integrations in action? [Check out this guide →](https://www.notion.com/help/guides/visual-link-previews-streamline-collaboration)
+**Tip:** Want to see partner connections in action? [Check out this guide →](https://www.notion.com/help/guides/visual-link-previews-streamline-collaboration)
 
 ### Connect via installation access token
 

@@ -5,7 +5,7 @@ description: "Need to share your content in PDF, CSV, or HTML format? We got you
 url: "https://www.notion.com/help/export-your-content"
 key: "help:export-your-content"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/5QYAa7i9G378hb10RlJJAZ/e2de536ed651244ac2394a5ce1d5b39d/Export_your_content_-_hero.png"
-category: "Data & integrations"
+category: "Import & export your data"
 categoryKey: "category:import-export-and-integrate"
 ---
 

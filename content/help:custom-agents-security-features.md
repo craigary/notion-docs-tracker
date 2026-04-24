@@ -5,7 +5,7 @@ description: "We know your workspace data is important. Here's a look at the bui
 url: "https://www.notion.com/help/custom-agents-security-features"
 key: "help:custom-agents-security-features"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/QWXBOsXfXilDrUsflt30u/fc404cf0b2615b3aae63d1d93f01fe2b/security_best_practices.png"
-category: "Security & privacy"
+category: "Privacy & security"
 categoryKey: "category:security-and-privacy"
 ---
 

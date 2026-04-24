@@ -5,7 +5,7 @@ description: "It's easy to work with others in Notion. Add members to collaborat
 url: "https://www.notion.com/help/add-members-admins-guests-and-groups"
 key: "help:add-members-admins-guests-and-groups"
 coverImage: "https://img.youtube.com/vi/2DNoq4dmmh8/maxresdefault.jpg"
-category: "Sharing & collaboration"
+category: "Share & collaborate"
 categoryKey: "category:sharing-and-collaboration"
 ---
 

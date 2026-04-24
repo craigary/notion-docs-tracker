@@ -71,7 +71,7 @@ At the moment, you can't do the following while using Notion Calendar for mobile
 
 * Create scheduling snippets.
 
-* Set up integrations or create meetings with auto-generated conferencing links (you need to add a conferencing link manually) or attached Notion pages.
+* Set up <!-- -->connection<!-- -->s or create meetings with auto-generated conferencing links (you need to add a conferencing link manually) or attached Notion pages.
 
 * Set Notion Calendar as your default calendar app.
 

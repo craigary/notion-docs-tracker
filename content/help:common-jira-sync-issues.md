@@ -5,7 +5,7 @@ description: "Here’s a list of common issues you might run into with Jira Sync
 url: "https://www.notion.com/help/common-jira-sync-issues"
 key: "help:common-jira-sync-issues"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/15MnehxCRUUA3LITX21Lar/7c80798bd5cce07c4b492cb6543419c7/Troubleshooting_Reference_Visuals.png"
-category: "Data & integrations"
+category: "Import & export your data"
 categoryKey: "category:import-export-and-integrate"
 ---
 

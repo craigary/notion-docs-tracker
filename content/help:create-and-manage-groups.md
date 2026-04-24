@@ -5,7 +5,7 @@ description: "Groups in Notion allow you to bring people together and collaborat
 url: "https://www.notion.com/help/create-and-manage-groups"
 key: "help:create-and-manage-groups"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/7yeAygbOMGjCu58qywlkiL/bb56d1c34680c77456692dc182356a03/Create_and_Manage_Groups.png"
-category: "Sharing & collaboration"
+category: "Share & collaborate"
 categoryKey: "category:sharing-and-collaboration"
 ---
 

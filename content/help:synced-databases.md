@@ -5,7 +5,7 @@ description: "Bring your favorite tools into Notion with synced databases, to ke
 url: "https://www.notion.com/help/synced-databases"
 key: "help:synced-databases"
 coverImage: "https://img.youtube.com/vi/Gtjeb4xkWHo/maxresdefault.jpg"
-category: "Data & integrations"
+category: "Import & export your data"
 categoryKey: "category:import-export-and-integrate"
 ---
 
@@ -33,11 +33,11 @@ More apps will be supported in the future!
 
 ### **Jira**
 
-Learn how to set up a synced database for Jira and what else you can do with our Jira integration [here →](https://www.notion.com/help/jira#synced-databases)
+Learn how to set up a synced database for Jira and what else you can do with our Jira <!-- -->connection<!-- --> [here →](https://www.notion.com/help/jira#synced-databases)
 
 ### **GitHub**
 
-Learn how to set up a synced database for GitHub and what else you can do with our GitHub integration [here →](https://www.notion.com/help/github#create-a-synced-database)
+Learn how to set up a synced database for GitHub and what else you can do with our GitHub <!-- -->connection<!-- --> [here →](https://www.notion.com/help/github#create-a-synced-database)
 
 ### **Asana**
 

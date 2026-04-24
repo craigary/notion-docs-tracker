@@ -5,7 +5,7 @@ description: "Easily import all of your Asana projects and tasks directly into N
 url: "https://www.notion.com/help/asana"
 key: "help:asana"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/5OqbtcTllJfeg9Ly1tHnT5/f48dd48f5f61f15fb9d4cc3e939bfb98/asana_importer_hc.png"
-category: "Data & integrations"
+category: "Import & export your data"
 categoryKey: "category:import-export-and-integrate"
 ---
 

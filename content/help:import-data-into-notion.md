@@ -5,7 +5,7 @@ description: "If your docs, notes, and spreadsheets are spread across different 
 url: "https://www.notion.com/help/import-data-into-notion"
 key: "help:import-data-into-notion"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/67yzLvBO0WtiN5WQjFz4fG/e77527f9c2c3ee2ac69c8f58aa14444d/How_to_submit_a_template_-_hero.png"
-category: "Data & integrations"
+category: "Import & export your data"
 categoryKey: "category:import-export-and-integrate"
 ---
 
@@ -53,7 +53,7 @@ As soon as you begin an import, you can view the upload time, status, and size.
 
 ![Import UI](https://images.ctfassets.net/spoqsaf9291f/5UVDNOLoLTCBPecdPQHh6n/041b15ecabdad74d00c5b5a80b4f45ae/import_image__1_.png)
 
-**Some integrations have their own pages:**
+**Some connections have their own pages:**
 
 * For Confluence, click [this article →](https://www.notion.com/help/import-from-confluence)
 

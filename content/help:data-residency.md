@@ -5,7 +5,7 @@ description: "Learn about Notion’s data residency offering 🗃️"
 url: "https://www.notion.com/help/data-residency"
 key: "help:data-residency"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/4TlJQBAgbEwCH1otCiKmRD/2a99a687e60b1f80695fd959de6fcc12/Create_a_database_-_hero.png"
-category: "Security & privacy"
+category: "Privacy & security"
 categoryKey: "category:security-and-privacy"
 ---
 

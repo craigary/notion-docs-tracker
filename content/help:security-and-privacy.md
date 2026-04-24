@@ -5,7 +5,7 @@ description: "We know you've entrusted us with valuable data, and we take its se
 url: "https://www.notion.com/help/security-and-privacy"
 key: "help:security-and-privacy"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/3G9lsSF7xET8hko0HHDzoM/a8f7c018fd8e54bf938a609742b6fd7e/Security___privacy_-_hero.png"
-category: "Security & privacy"
+category: "Privacy & security"
 categoryKey: "category:security-and-privacy"
 ---
 
@@ -112,7 +112,7 @@ categoryKey: "category:security-and-privacy"
 
 * [Manage Teamspaces](https://www.notion.com/help/manage-teamspaces): Workspace owners can get an overview of all teamspaces in the workspace, modify their settings, and access additional management tools.
 
-* [SIEM and DLP Integrations: ](https://www.notion.com/help/add-security-and-compliance-integrations)Notion can integrate with your DLP or SIEM of choice to detect events.
+* [SIEM and DLP Connections: ](https://www.notion.com/help/add-security-and-compliance-integrations)Notion can integrate with your DLP or SIEM of choice to detect events.
 
 ## Compliance
 

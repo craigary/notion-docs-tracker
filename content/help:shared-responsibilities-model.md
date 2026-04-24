@@ -5,7 +5,7 @@ description: "This Shared Responsibilities Model makes sure that Notion and its 
 url: "https://www.notion.com/help/shared-responsibilities-model"
 key: "help:shared-responsibilities-model"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/5QtuH5YjQCv9PwrYCjRkIU/38e5755c6c0af1fd28f726bfee087cb6/Share_Responsibility_Model.png"
-category: "Security & privacy"
+category: "Privacy & security"
 categoryKey: "category:security-and-privacy"
 ---
 

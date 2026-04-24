@@ -5,7 +5,7 @@ description: "Gain insight into how your content is performing by tracking page 
 url: "https://www.notion.com/help/page-analytics"
 key: "help:page-analytics"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/7q4V83zvLrnzIIiDKyUzDu/c11f2ff1365d5c3cc5b9337c55181f24/Invoices___proration_-_hero.png"
-category: "Sharing & collaboration"
+category: "Share & collaborate"
 categoryKey: "category:sharing-and-collaboration"
 ---
 

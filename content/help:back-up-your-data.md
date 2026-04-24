@@ -5,7 +5,7 @@ description: "Your data is safe in Notion. Everything is stored in the cloud, an
 url: "https://www.notion.com/help/back-up-your-data"
 key: "help:back-up-your-data"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/BO1C6zEIsWDPlWz6l6cfz/1ee39d1e040f6d10fa3c34ba512c7200/Back_up_your_data_-_hero.png"
-category: "Data & integrations"
+category: "Import & export your data"
 categoryKey: "category:import-export-and-integrate"
 ---
 

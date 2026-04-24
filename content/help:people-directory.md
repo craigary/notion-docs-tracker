@@ -5,7 +5,7 @@ description: "View information about all the members in your Notion workspace ðŸ
 url: "https://www.notion.com/help/people-directory"
 key: "help:people-directory"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/55aXJD4v1MJwiz9fwhd1Fd/22af034cc19e136e96d37ff6d3158871/Reference_Visuals_Image_29.png"
-category: "Sharing & collaboration"
+category: "Share & collaborate"
 categoryKey: "category:sharing-and-collaboration"
 ---
 

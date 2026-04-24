@@ -5,7 +5,7 @@ description: "To ensure the trust and safety of everyone who interacts with Noti
 url: "https://www.notion.com/help/report-inappropriate-content"
 key: "help:report-inappropriate-content"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/spHk2GT4tU2ynGhhdEO9N/cd902d50b296cb5d16a18aa928634012/Report_inappropriate_content_-_hero.png"
-category: "Security & privacy"
+category: "Privacy & security"
 categoryKey: "category:security-and-privacy"
 ---
 

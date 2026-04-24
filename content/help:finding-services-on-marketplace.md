@@ -11,7 +11,7 @@ categoryKey: "category:template-gallery"
 
 ## Hire a partner
 
-* You can browse our directory of consulting partners and reach out to discuss working together. Consultants can help with workspace setup, migrations, integrations, custom templates, training, and more.
+* You can browse our directory of consulting partners and reach out to discuss working together. Consultants can help with workspace setup, migrations, <!-- -->connections<!-- --> custom templates, training, and more.
 
 * To reach out to a potential Consulting Partner, you must complete a form to provide more information about your project. They can accept or reject your invitation based on fit and availability. If they accept, they'll provide a booking link for a discovery call.
 

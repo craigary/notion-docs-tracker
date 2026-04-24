@@ -11,7 +11,7 @@ categoryKey: "category:enterprise-admin"
 
 **Note:** This article is for users on the Enterprise Plan. If you’re on the Business Plan, check out this article to learn how to verify a domain for your workspace, and [this article](https://www.notion.com/help/saml-sso-configuration) to learn how to set up SAML SSO for your workspace.
 
-Domain management features allows Enterprise [organization owners](https://www.notion.com/help/organization-level-controls#who-can-apply-organization-level-controls) to claim ownership over an email address domain associated with their workspace. This unlocks the ability to configure SAML SSO for an organization, build Notion integrations using link previews, and control who can create workspaces.
+Domain management features allows Enterprise [organization owners](https://www.notion.com/help/organization-level-controls#who-can-apply-organization-level-controls) to claim ownership over an email address domain associated with their workspace. This unlocks the ability to configure SAML SSO for an organization, build Notion <!-- -->connections <!-- -->using link previews, and control who can create workspaces.
 
 ## Verify a domain for your organization
 
@@ -41,9 +41,9 @@ To verify a domain for your workspace:
 
 * You must verify a domain within one week of adding the domain. After a week, the verification code will expire and you’ll have to repeat the steps above.
 
-## Verify a domain for an integration
+## Verify a domain for a connection
 
-If you’re building an integration with Notion, like link previews, you’ll need to verify your domain in the integration management page and not in Notion. You can find the full instructions in our [developer guides →](https://developers.notion.com/)
+If you’re building a <!-- -->connection<!-- --> with Notion, like link previews, you’ll need to verify your domain in the <!-- -->connections <!-- -->management page and not in Notion. You can find the full instructions in our [developer guides →](https://developers.notion.com/)
 
 ## Customize permissions for workspace creation using your domain
 
@@ -214,7 +214,7 @@ Users from your verified domain will be restricted from creating new workspaces.
 
 ### What can workspace owners do with domain management?
 
-Domain management features help Workspace owners better control and secure their workspaces. You can [configure SAML SSO](https://www.notion.com/help/saml-sso-configuration) for your workspace, build Notion integrations using [link previews](https://www.notion.com/help/link-previews-and-synced-databases#link-previews), and [control who can create workspaces](https://www.notion.com/help/domain-management#workspace-creation-permissions)
+Domain management features help Workspace owners better control and secure their workspaces. You can [configure SAML SSO](https://www.notion.com/help/saml-sso-configuration) for your workspace, build Notion <!-- -->connections<!-- --> using [link previews](https://www.notion.com/help/link-previews-and-synced-databases#link-previews), and [control who can create workspaces](https://www.notion.com/help/domain-management#workspace-creation-permissions)
 
 
 ### What is visible to workspace owners with domain management?

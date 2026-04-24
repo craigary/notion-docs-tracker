@@ -5,7 +5,7 @@ description: "See live, synced visualizations of links from popular platforms ri
 url: "https://www.notion.com/help/link-previews"
 key: "help:link-previews"
 coverImage: "https://img.youtube.com/vi/Gtjeb4xkWHo/maxresdefault.jpg"
-category: "Data & integrations"
+category: "Import & export your data"
 categoryKey: "category:import-export-and-integrate"
 ---
 

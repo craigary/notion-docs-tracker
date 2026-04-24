@@ -5,7 +5,7 @@ description: "Teamspaces streamline access to information, creating a dedicated 
 url: "https://www.notion.com/help/intro-to-teamspaces"
 key: "help:intro-to-teamspaces"
 coverImage: "https://img.youtube.com/vi/dwRIudDva6Y/maxresdefault.jpg"
-category: "Sharing & collaboration"
+category: "Share & collaborate"
 categoryKey: "category:sharing-and-collaboration"
 ---
 

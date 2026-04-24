@@ -5,7 +5,7 @@ description: "Easily import your data from Monday into Notion 📥"
 url: "https://www.notion.com/help/monday"
 key: "help:monday"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/4JRJhAOp3ywUCOzbPXmTMO/47a27659e090c3cffdf49f875aa628b9/Group_19__1_.png"
-category: "Data & integrations"
+category: "Import & export your data"
 categoryKey: "category:import-export-and-integrate"
 ---
 

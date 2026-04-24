@@ -1,17 +1,17 @@
 ---
-title: "Integrate GitHub"
+title: "Connect GitHub"
 emoji: "🧮"
 description: "Connect Notion and GitHub so you can keep your workflows in sync 🧮"
 url: "https://www.notion.com/help/github"
 key: "help:github"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/6hWH8Qhv0JreyWyujm0AwU/e531399268bd8ad05b6dd7c380490829/GitHub.png"
-category: "Data & integrations"
+category: "Import & export your data"
 categoryKey: "category:import-export-and-integrate"
 ---
 
-Notion's integration with GitHub allows you to seamlessly connect your development workflows. You can link GitHub content directly in Notion pages, pull GitHub information into Notion databases, and sync pull requests with Notion tasks to keep your team informed of project statuses. Read on to learn about the different features of the integration and how you can set them up.
+Notion's connection with GitHub allows you to seamlessly connect your development workflows. You can link GitHub content directly in Notion pages, pull GitHub information into Notion databases, and sync pull requests with Notion tasks to keep your team informed of project statuses. Read on to learn about the different features of the <!-- -->connection<!-- --> and how you can set them up.
 
-## Set up GitHub integration
+## Set up GitHub connection
 
 **Note:** You can only connect one Notion workspace to a GitHub organization. If you’d like to connect a different Notion workspace to your GitHub organization, you’ll first have to [disconnect](https://www.notion.com/help/github#disconnect-github-from-notion) your current Notion workspace.
 
@@ -145,4 +145,4 @@ To disconnect GitHub from Notion, you’ll need to be a Notion workspace owner.
 
 3. Next to GitHub, select `•••` → `Disconnect all users`.
 
-When you disconnect GitHub from Notion, nobody in your workspace will be able to use the integration until it’s set up again.
+When you disconnect GitHub from Notion, nobody in your workspace will be able to use the <!-- -->connection<!-- --> until it’s set up again.

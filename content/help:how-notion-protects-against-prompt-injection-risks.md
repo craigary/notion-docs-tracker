@@ -5,7 +5,7 @@ description: "Learn about how we protect against prompt injection risks 🔐"
 url: "https://www.notion.com/help/how-notion-protects-against-prompt-injection-risks"
 key: "help:how-notion-protects-against-prompt-injection-risks"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/7j6zHBFAMtPgTdqjZQq46w/c7122959cc1a5d45f4886bbe1827f61c/notion-ai.png"
-category: "Security & privacy"
+category: "Privacy & security"
 categoryKey: "category:security-and-privacy"
 ---
 

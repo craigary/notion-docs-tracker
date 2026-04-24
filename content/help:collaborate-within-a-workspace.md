@@ -5,7 +5,7 @@ description: "There's no limit on the number of people who can view and edit the
 url: "https://www.notion.com/help/collaborate-within-a-workspace"
 key: "help:collaborate-within-a-workspace"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/4pwlxC9LgVKJy3P0piC1eQ/16314583c879498467e650f665cd7817/notion-calendar-for-teams.png"
-category: "Sharing & collaboration"
+category: "Share & collaborate"
 categoryKey: "category:sharing-and-collaboration"
 ---
 

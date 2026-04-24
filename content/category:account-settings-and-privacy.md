@@ -10,12 +10,11 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/fB3bs1S6denCTSAnrUsYx/f05
 2 help:notification-settings
 3 help:workspace-settings
 4 help:two-step-verification
-5 help:allowlist-ip
-6 help:hipaa
-7 help:data-access-consent
-8 help:delete-your-account
+5 help:hipaa
+6 help:data-access-consent
+7 help:delete-your-account
+8 help:notion-faces
 9 help:secondary-emails
 10 help:passkeys
 11 help:log-in-and-out
 12 help:change-your-language
-13 help:notion-faces

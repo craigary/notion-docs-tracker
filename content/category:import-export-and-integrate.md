@@ -1,5 +1,5 @@
 ---
-title: "Data & integrations"
+title: "Import & export your data"
 description: "Notion makes it easy to connect and move content to and from other tools you use. Integrate Notion with other apps natively, or build your own integrations with our API!"
 url: "https://www.notion.com/help/category/import-export-and-integrate"
 key: "category:import-export-and-integrate"

@@ -35,7 +35,7 @@ Keep in mind that Enterprise Search can even look closely at databases — inclu
 
 ## Connect your third-party apps
 
-Set up Notion AI Connectors to enhance your search with information from your team’s other tools. Connectors are available for Slack, Microsoft Teams, Google Drive, Jira, and more. Learn about all of the available integrations and how to get started [here →](https://www.notion.com/help/notion-ai-connectors)
+Set up Notion AI Connectors to enhance your search with information from your team’s other tools. Connectors are available for Slack, Microsoft Teams, Google Drive, Jira, and more. Learn about all of the available connections and how to get started [here →](https://www.notion.com/help/notion-ai-connectors)
 
 ## Change the scope of your search
 

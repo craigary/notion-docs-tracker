@@ -5,7 +5,7 @@ description: "Learn about the different kinds of people in a workspace 👥"
 url: "https://www.notion.com/help/whos-who-in-a-workspace"
 key: "help:whos-who-in-a-workspace"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/3oRXIXEWN14ymuR87cirAN/241c9ea1fd897d13b916ff469d33c672/Who-s_Who_in_a_Workspace__1_.png"
-category: "Sharing & collaboration"
+category: "Share & collaborate"
 categoryKey: "category:sharing-and-collaboration"
 ---
 
@@ -89,7 +89,7 @@ Guests share many capabilities with members, except:
 
 * They can't add new members to your workspace.
 
-* They can't add new integrations to your workspace.
+* They can't add new <!-- -->connections<!-- --> to your workspace.
 
 Once a guest has requested to join your workspace as a member, they’ll be able to create private pages in your workspace.
 

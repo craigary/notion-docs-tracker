@@ -5,7 +5,7 @@ description: "To maintain proper functioning of the Notion service, Notion maint
 url: "https://www.notion.com/help/dormant-account-policy"
 key: "help:dormant-account-policy"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/3I3CC03tPU7fwY1GPrepKv/956d7710706f2a9707637e84b278f75b/Dormant_Account_Policy.png"
-category: "Security & privacy"
+category: "Privacy & security"
 categoryKey: "category:security-and-privacy"
 ---
 

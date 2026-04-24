@@ -5,8 +5,8 @@ description: "Contact your security team to allowlist these Notion IP addresses 
 url: "https://www.notion.com/help/allowlist-ip"
 key: "help:allowlist-ip"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/4ckVqrv5hMHZcHvv5rTQQR/429e0fef5c0820591fc479562935f562/allowlist-ip.png"
-category: "Settings"
-categoryKey: "category:account-settings-and-privacy"
+category: "Privacy & security"
+categoryKey: "category:security-and-privacy"
 ---
 
 Notion provides a fixed range of outgoing IP addresses, as well as domains that you can allowlist, helping you increase the security of your network.

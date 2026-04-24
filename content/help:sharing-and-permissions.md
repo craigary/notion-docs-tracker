@@ -5,7 +5,7 @@ description: "Notion is built for collaboration, so there are many ways to share
 url: "https://www.notion.com/help/sharing-and-permissions"
 key: "help:sharing-and-permissions"
 coverImage: "https://img.youtube.com/vi/mvaNaZ4-E4c/maxresdefault.jpg"
-category: "Sharing & collaboration"
+category: "Share & collaborate"
 categoryKey: "category:sharing-and-collaboration"
 ---
 

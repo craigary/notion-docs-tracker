@@ -5,7 +5,7 @@ description: "Collaborate with others by suggesting edits to content that you’
 url: "https://www.notion.com/help/suggested-edits"
 key: "help:suggested-edits"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/7rxE1Qc0cOIrtwt5OYumdO/53e57f19fc4b733a95f744ca00728991/Group_81.png"
-category: "Sharing & collaboration"
+category: "Share & collaborate"
 categoryKey: "category:sharing-and-collaboration"
 ---
 

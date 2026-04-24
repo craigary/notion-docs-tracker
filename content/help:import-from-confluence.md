@@ -5,7 +5,7 @@ description: "Import your Confluence data right into Notion 📥"
 url: "https://www.notion.com/help/import-from-confluence"
 key: "help:import-from-confluence"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/3wbZVuYIYC1TY0Qw18GuDk/9e0576569ed2e5fb2b5e112f84d0fcfd/confluence_importer_hc.png"
-category: "Data & integrations"
+category: "Import & export your data"
 categoryKey: "category:import-export-and-integrate"
 ---
 

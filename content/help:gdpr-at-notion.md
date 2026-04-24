@@ -5,7 +5,7 @@ description: "At Notion, we're committed to the success of our customers and the
 url: "https://www.notion.com/help/gdpr-at-notion"
 key: "help:gdpr-at-notion"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/3SYy9BDRtoRhNbDQ2PQZ6u/82f14a7cf8ea071143f45175a3fe656a/GPDR_at_Notion_-_hero.png"
-category: "Security & privacy"
+category: "Privacy & security"
 categoryKey: "category:security-and-privacy"
 ---
 

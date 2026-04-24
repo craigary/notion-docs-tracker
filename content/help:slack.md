@@ -5,7 +5,7 @@ description: "Bring Notion and Slack together so your team can work better from 
 url: "https://www.notion.com/help/slack"
 key: "help:slack"
 coverImage: "https://img.youtube.com/vi/fdA1qqfV5v4/maxresdefault.jpg"
-category: "Data & integrations"
+category: "Import & export your data"
 categoryKey: "category:import-export-and-integrate"
 ---
 

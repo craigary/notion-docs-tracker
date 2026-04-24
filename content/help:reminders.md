@@ -5,7 +5,7 @@ description: "Notion can help remind you or other people about what’s importan
 url: "https://www.notion.com/help/reminders"
 key: "help:reminders"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/4yzyxTI2A967HQ4H3l9qR9/f14d71ecec8f7583a0b7832f292529f4/Reference_Visuals_Reminders.png"
-category: "Sharing & collaboration"
+category: "Share & collaborate"
 categoryKey: "category:sharing-and-collaboration"
 ---
 

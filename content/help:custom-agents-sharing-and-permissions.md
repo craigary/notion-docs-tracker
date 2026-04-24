@@ -49,7 +49,7 @@ When you create a Custom Agent, you explicitly choose what it can access in the 
 
 * **Notion pages and databases&#x20;**- Select specific pages or databases.
 
-* **Connected apps&#x20;**- <!-- -->Select <!-- -->Slack channels, MCP, Calendar, Mail.
+* **Connected apps&#x20;**- Select Slack channels, MCP, Calendar, Mail.
 
 * **Permission levels&#x20;**- Can view, Can comment, Can edit.
 
@@ -143,8 +143,6 @@ To access the **Agent Directory**, go to `Settings`, select `Notion AI` from the
 
 ![Image of agent directory within Notion AI.](https://images.ctfassets.net/spoqsaf9291f/7uJls8AxeFIEqV3sfbWuzT/75deef28ea52d389a8642ece9026bcc3/Agent_Directory.png)
 
-## Enterprise plan controls
-
 ### Creation controls
 
 Restrict who can create Custom Agents:
@@ -156,6 +154,8 @@ Restrict who can create Custom Agents:
 3. Choose who can create agents: `All workspace members `(default), `Workspace owners only`, or `Workspace owners + added groups only.`
 
 ![Agent creation settings within Notion Ai.](https://images.ctfassets.net/spoqsaf9291f/2DY5bCPMynBG0uIUeaFRS1/4f673a9ad0923294abafd9d9c999b091/agents_creation_settings.png)
+
+## Enterprise plan controls
 
 ### Content Admin Search
 

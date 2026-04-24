@@ -37,7 +37,7 @@ Partner certifications are only available through to approved applicants of our 
 
 * **Sales Specialist Certification (Coming soon):** Solution positioning and business value articulation.
 
-* **Technical Specialist Certification (Coming soon):** Advanced customization and integration (requires Administrator).
+* **Technical Specialist Certification (Coming soon):** Advanced customization and connections (requires Administrator).
 
 ## What do I need to do to get certified?
 
