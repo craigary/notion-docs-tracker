@@ -112,7 +112,7 @@ You can narrow your search to just Slack by opening the `All sources` toggle in 
 
 ## FAQs
 
-### Does this integration respect existing Notion AI permissions?
+### Does this connection respect existing Notion AI permissions?
 
 Notion AI will honor existing permissions according to our existing [Notion AI Security Practices](https://www.notion.com/help/notion-ai-security-practices). Users will not be able to generate content or receive responses based on resources they do not have access to.
 
@@ -136,7 +136,7 @@ Through account mapping and real-time event subscriptions, Notion conducts ongoi
 
 ### Are guests supported?
 
-No, this integration is not available for guests in your Notion workspace, or guests in your Slack workspace (like people external to your organization that you may communicate with using Slack Connect).
+No, this connection is not available for guests in your Notion workspace, or guests in your Slack workspace (i.e.: people external to your organization that you may communicate with using Slack Connect).
 
 
 ### Will external Slack Connect channels be indexed?
@@ -149,9 +149,9 @@ No, all external messages and channels will be excluded.
 Yes, we do! Please reach out to your sales representative to get started.
 
 
-### How long does it take for the integration to complete for public channels?
+### How long does it take for the connection to complete for public channels?
 
-Once the integration is set up, it will be able to find messages going back a year from when the setup is complete.
+Once the connection is set up, it will be able to find messages going back a year from when the setup is complete.
 
 For example, if you connect Slack with Notion AI on June 1, 2024, Notion AI will be able to find information from messages in Slack sent on June 1, 2023 and later. Depending on the amount of content shared in your public channels during this time frame, this process can take up to 36 hours.
 

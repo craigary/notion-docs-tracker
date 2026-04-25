@@ -5,7 +5,7 @@ description: "Get early access to new mobile features before anyone else, and he
 url: "https://www.notion.com/help/notion-for-mobile-beta-version"
 key: "help:notion-for-mobile-beta-version"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/22rr0pA35XNmyGoq6HNz48/1de31582287cdbb7257efd80ff431736/Notion_for_mobile_beta_-_hero.png"
-category: "Notion apps"
+category: "Desktop, web & mobile navigation"
 categoryKey: "category:notion-apps"
 ---
 

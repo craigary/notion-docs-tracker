@@ -5,7 +5,7 @@ description: "See what Notion’s system requirements are for desktop, web, and 
 url: "https://www.notion.com/help/system-requirements-for-notion"
 key: "help:system-requirements-for-notion"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/26t6oaGfYSkRZo9P5bb0g6/a214b27db31378e92779ea1faeb46312/system-requirements-for-notion__1_.png"
-category: "Notion apps"
+category: "Desktop, web & mobile navigation"
 categoryKey: "category:notion-apps"
 ---
 

@@ -5,7 +5,7 @@ description: "Download our extension to open Notion in a new Google Chrome tab ð
 url: "https://www.notion.com/help/notion-new-tab-extension"
 key: "help:notion-new-tab-extension"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/7IDOPNGE1tNbdJ2Mn5tLCl/d75fa369fd727a883b714fec01d8ae8e/Reference_Visuals_Notion_Tab__1_.png"
-category: "Notion apps"
+category: "Desktop, web & mobile navigation"
 categoryKey: "category:notion-apps"
 ---
 

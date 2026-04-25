@@ -1,5 +1,5 @@
 ---
-title: "Notion apps"
+title: "Desktop, web & mobile navigation"
 description: "You can use Notion on desktop, web, or mobile. Read on to explore the differences and get the most out of Notion on each platform."
 url: "https://www.notion.com/help/category/notion-apps"
 key: "category:notion-apps"

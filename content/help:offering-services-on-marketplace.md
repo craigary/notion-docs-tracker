@@ -61,7 +61,7 @@ Once you’ve invited a member, they’ll need to sign up for Notion or log in w
 
 * Customers can request to book with you. You can accept or reject based on the information they provide. If you accept, an automated email with your booking link will be sent to the customer.
 
-* You can configure your booking link by clicking `⚙️` at the top of <https://www.notion.com/profile/services>.
+* You can configure your booking link by clicking `⚙️` at the top of [https://www.notion.so/profile/services](https://www.notion.com/profile/services).
 
   ![hc: booking link marketplace](https://images.ctfassets.net/spoqsaf9291f/2swM8cAe8jc4ryZR9sZU84/4822451f6bbd415024e82a186ab20dc6/Consulting_Partners_Image__1_.png)
 

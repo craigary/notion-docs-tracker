@@ -5,7 +5,7 @@ description: "Troubleshoot login issues and regain access to your Notion account
 url: "https://www.notion.com/help/cant-log-in"
 key: "help:cant-log-in"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/15MnehxCRUUA3LITX21Lar/7c80798bd5cce07c4b492cb6543419c7/Troubleshooting_Reference_Visuals.png"
-category: "Troubleshooting"
+category: "Troubleshoot"
 categoryKey: "category:troubleshooting"
 ---
 
@@ -15,7 +15,7 @@ Check our [status page](https://status.notion.so/) and [X](https://twitter.com/N
 
 If you don’t remember your Notion password, you can reset it. To do so:
 
-1. Go to [app.notion.com/login](https://www.app.notion.so/login) in your web browser.
+1. Go to [notion.so/login](https://www.notion.com/login) in your web browser.
 
 2. Select `Forgot password?`, enter your email address, then select `Send reset link`.
 

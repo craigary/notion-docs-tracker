@@ -35,7 +35,7 @@ Start by configuring Notion to support provisioning with Azure AD. To do this:
 
 3. Copy an existing token or select `Add token` to create a new token.
 
-   * Notion’s SCIM tenant URL is <https://www.notion.com/scim/v2>, which you’ll use later.
+   * Notion’s SCIM tenant URL is [https://www.notion.so/scim/v2](https://www.notion.com/scim/v2), which you’ll use later.
 
 ### Step 2: Add Notion from the Azure AD application gallery
 

@@ -4,7 +4,7 @@ emoji: "🎮"
 description: "Manage all of your organization’s workspaces and apply settings at the organization level in one place 🎮"
 url: "https://www.notion.com/help/organization-level-controls"
 key: "help:organization-level-controls"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/1hLVkexczfU4pbkYrPQ65O/a866199a6aa3a69d394b57731bbb8dec/Mar_4_Screenshot_from_Figma__1_.png"
+coverImage: "https://images.ctfassets.net/spoqsaf9291f/1hLVkexczfU4pbkYrPQ65O/03a49ec5aaaf40bd13e153d3119376ea/Enterprise_Admin_Console.png"
 category: "Workspace administration"
 categoryKey: "category:enterprise-admin"
 ---
@@ -128,3 +128,33 @@ From the `Analytics` tab of your organization level settings, you can do the fol
 * See popular search queries.
 
 * Drill down by workspace and filter by specific date ranges.
+
+## Notion credits (multi-workspace contracts)
+
+Organization owners can use the Notion credits dashboard to track credit usage and manage on-demand spend across all workspaces in their organization. This is available if your organization is on a multi-workspace contract.
+
+![HC: org-level Notion credits dashboard](https://images.ctfassets.net/spoqsaf9291f/2nUZOdl2889Dpej0GAxk4d/de100c5497bebbc3794df9d2d28ee702/06_Org-level_dashboard__1_.png)
+
+### Track credit usage across workspaces
+
+From the Notion credits dashboard, organization owners can:
+
+* See total credit usage across the organization
+
+* Compare credit usage across workspaces
+
+### Manage on-demand spend for all workspaces
+
+Organization owners can also manage whether on-demand spend is turned on for workspaces under the contract.
+
+* If on-demand spend is on, agents can continue running after your credits run out.
+
+* If on-demand spend is off, agents will stop once your credits run out.
+
+You can manage on-demand spend at two levels:
+
+* **Contract-wide:&#x20;**&#x54;urn on-demand spend on or off for the entire contract.
+
+* **Per workspace:&#x20;**&#x49;f on-demand spend is on at the contract level, each workspace can be managed individually by workspace owners at the workspace level, and by Organization owners at the contract level.
+
+If you turn off on-demand spend for the entire contract, it will be turned off for all workspaces.

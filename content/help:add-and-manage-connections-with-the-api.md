@@ -51,7 +51,7 @@ Workspace owners on the Enterprise Plan can decide what pages a connection can a
 
 5. Under `Who can manage page access`, open the dropdown menu. Select `Default` if you want all workspace owners and members to be able to manage access. Select `Workspace owners` if you want only workspace owners to be able to manage access.
 
-If you choose to allow only Workspace owners to manage access, that means only they will be able to <!-- -->connect or disconnect internal and public connections from a page. Members won’t be able to take this action.
+If you choose to allow only Workspace owners to manage access, that means only they will be able to connect or disconnect internal and public connections from a page. Members won’t be able to take this action.
 
 ## Manage connections in your workspace
 
@@ -61,13 +61,13 @@ If you choose to allow only Workspace owners to manage access, that means only
 
 * Here, you'll see two tabs, `Members` and `Workspaces`.
 
-  * From the `Members` tab, you can manage the connections that members can access in the workspace. Specifically, you can limit connections access to an approved list of connections, view who is using an internal connection and disconnect the use of any integration in the workspace.
+  * From the `Members` tab, you can manage the connections that members can access in the workspace. Specifically, you can limit connections access to an approved list of connections, view who is using an internal connection and disconnect the use of any connection in the workspace.
 
     * Note: Only Enterprise Workspace Owners can limit connection access to an approved list of connections.
 
   * From the `Workspaces` tab, you can install and manage Security & Compliance connections for their entire Enterprise workspace.
 
-![Add & manage integrations - integration menu](https://images.ctfassets.net/spoqsaf9291f/4o8nQj3zUQeC4cAw0idh0v/e068d8fbb27c219490085ec64d859b00/Integration_-_Share_3.png)
+![Add & manage connections - connection menu](https://images.ctfassets.net/spoqsaf9291f/4o8nQj3zUQeC4cAw0idh0v/e068d8fbb27c219490085ec64d859b00/Integration_-_Share_3.png)
 
 * Click the `•••` next to an connection to see additional options:
 
@@ -95,7 +95,7 @@ Notion has partnered directly with several services (such as [Zapier](https://w
 
 * Connections are workspace-specific! Click the workspace name at the top right to switch to another workspace if needed. Then, press `Select pages`.
 
-![Add & manage integrations - OAuth](https://images.ctfassets.net/spoqsaf9291f/6MsEvgRLe5IrVKITLG1fQN/4626b76d1ddd630c1059f125d7346341/OAuth.png)
+![Add & manage connections - OAuth](https://images.ctfassets.net/spoqsaf9291f/6MsEvgRLe5IrVKITLG1fQN/4626b76d1ddd630c1059f125d7346341/OAuth.png)
 
 * Now, you'll see a list of all of the pages in the selected workspace. Choose the pages you would like the connection to be able to access, and then press `Allow access`.
 
@@ -103,7 +103,7 @@ Notion has partnered directly with several services (such as [Zapier](https://w
 
 * Click the `•••` menu next to the connection name to visit the developer's website, contact the developer's support team, or disconnect the connection from your workspace.
 
-![Add & manage integrations - public integration menu](https://images.ctfassets.net/spoqsaf9291f/2ij6nANbGgyau3YlzfAHoa/04de0f513c6ba2f64d87b638c2a40512/Integration_Menu_-_Public.png)
+![Add & manage connections - public connection menu](https://images.ctfassets.net/spoqsaf9291f/2ij6nANbGgyau3YlzfAHoa/04de0f513c6ba2f64d87b638c2a40512/Integration_Menu_-_Public.png)
 
 **Tip:** Want to see partner connections in action? [Check out this guide →](https://www.notion.com/help/guides/visual-link-previews-streamline-collaboration)
 
@@ -117,7 +117,7 @@ Some partner platforms require an installation access token in order to link to 
 
 * Click the `•••` menu next to the existing connection that you'd like to link to a partner platform, and press `Copy installation access token`.
 
-![Add & manage integrations - internal integration token](https://images.ctfassets.net/spoqsaf9291f/1EdzyxZuVOL043FzByZb62/d955d0171a63a62e6181831ce716416e/Integration_menu_-_Token.png)
+![Add & manage connections - internal connection token](https://images.ctfassets.net/spoqsaf9291f/1EdzyxZuVOL043FzByZb62/d955d0171a63a62e6181831ce716416e/Integration_menu_-_Token.png)
 
 * Paste this installation access token into the corresponding field on the partner platform's set up form.
 

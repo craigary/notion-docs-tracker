@@ -5,7 +5,7 @@ description: "The Web Clipper lets you save any web page off the internet to you
 url: "https://www.notion.com/help/web-clipper"
 key: "help:web-clipper"
 coverImage: "https://img.youtube.com/vi/nzHBSxiWGIw/maxresdefault.jpg"
-category: "Notion apps"
+category: "Desktop, web & mobile navigation"
 categoryKey: "category:notion-apps"
 ---
 

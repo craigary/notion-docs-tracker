@@ -21,4 +21,3 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/6AgTvtIGqhd9VVRXw0Ry87/1c
 13 help:github
 14 help:slack
 15 help:jira
-16 help:common-jira-sync-issues

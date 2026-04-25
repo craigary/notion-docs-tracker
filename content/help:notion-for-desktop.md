@@ -5,7 +5,7 @@ description: "You can use Notion on your Mac or PC as a downloadable desktop app
 url: "https://www.notion.com/help/notion-for-desktop"
 key: "help:notion-for-desktop"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/4WMSDtdzR2zyWWByTFT4vE/13d2321d5d2671bce13e2285d823a2f3/Notion_for_desktop_-_hero.png"
-category: "Notion apps"
+category: "Desktop, web & mobile navigation"
 categoryKey: "category:notion-apps"
 ---
 

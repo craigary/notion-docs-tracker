@@ -5,7 +5,7 @@ description: "You can download Notion on your iOS or Android device for easy acc
 url: "https://www.notion.com/help/notion-for-mobile"
 key: "help:notion-for-mobile"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/6oxvX78BayTpGuHpyPxRBB/116d5902929fc11a3c5d1d837fd4c5fb/Notion_for_mobile_-_hero.png"
-category: "Notion apps"
+category: "Desktop, web & mobile navigation"
 categoryKey: "category:notion-apps"
 ---
 

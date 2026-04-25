@@ -5,8 +5,8 @@ description: "Having trouble getting into Notion Mail? Here are some reasons you
 url: "https://www.notion.com/help/cant-log-into-notion-mail"
 key: "help:cant-log-into-notion-mail"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/15MnehxCRUUA3LITX21Lar/7c80798bd5cce07c4b492cb6543419c7/Troubleshooting_Reference_Visuals.png"
-category: "Notion Mail"
-categoryKey: "category:notion-mail"
+category: "Troubleshoot"
+categoryKey: "category:troubleshooting"
 ---
 
 ## Policy enforced error

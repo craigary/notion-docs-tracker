@@ -5,7 +5,7 @@ description: "Quickly access your Notion pages right from your iPhone or Android
 url: "https://www.notion.com/help/mobile-widgets"
 key: "help:mobile-widgets"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/skQk7xOXbUBgWB8cSMpKz/efc9c530a4f59f577bc672221237f09b/Mobile_widgets_-_hero.png"
-category: "Notion apps"
+category: "Desktop, web & mobile navigation"
 categoryKey: "category:notion-apps"
 ---
 

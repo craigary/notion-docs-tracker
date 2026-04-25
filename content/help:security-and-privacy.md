@@ -112,7 +112,7 @@ categoryKey: "category:security-and-privacy"
 
 * [Manage Teamspaces](https://www.notion.com/help/manage-teamspaces): Workspace owners can get an overview of all teamspaces in the workspace, modify their settings, and access additional management tools.
 
-* [SIEM and DLP Connections: ](https://www.notion.com/help/add-security-and-compliance-integrations)Notion can integrate with your DLP or SIEM of choice to detect events.
+* [SIEM and DLP Integrations: ](https://www.notion.com/help/add-security-and-compliance-integrations)Notion can integrate with your DLP or SIEM of choice to detect events.
 
 ## Compliance
 

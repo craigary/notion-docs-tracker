@@ -5,7 +5,7 @@ description: null
 url: "https://www.notion.com/help/notion-error-messages"
 key: "help:notion-error-messages"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/15MnehxCRUUA3LITX21Lar/7c80798bd5cce07c4b492cb6543419c7/Troubleshooting_Reference_Visuals.png"
-category: "Troubleshooting"
+category: "Troubleshoot"
 categoryKey: "category:troubleshooting"
 ---
 

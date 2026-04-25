@@ -27,8 +27,6 @@ A well-designed Custom Agent uses fewer credits and delivers better results. Her
 
   * 🚫 *"Read the Projects database, then write the weekly update. Then read the #support Slack channel and add to the weekly update."*
 
-* **Set the model to Auto.** Auto intelligently picks the right model for the task, balancing quality and credit usage.
-
 New to Custom Agents?
 
 Start with [Custom Agents](https://www.notion.com/help/custom-agent) to learn what they are, how they work, and what you can connect them to.
@@ -176,8 +174,6 @@ A well-designed agent runs faster and avoids unnecessary work. Three factors aff
 * How much content it reads, and
 
 * How many steps it takes to complete a task
-
-By default, your agent's AI model is set to `Auto`, which lets Notion select the best model for each task. This works well for most Agents, but you can choose a specific model at any time.
 
 ### 1. Reduce how often your agent runs
 
