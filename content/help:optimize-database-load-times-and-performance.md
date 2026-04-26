@@ -9,13 +9,13 @@ category: "Databases"
 categoryKey: "category:databases"
 ---
 
-We’re always working to improve your experience with Notion, and we appreciate your feedback and patience. If your databases aren’t feeling very fast when you use them, there are a few reasons why this might be happening, and a few ways you can make improvements.
+If your databases feel slow, there are a few possible causes and a few ways to improve performance.
 
 ## Things that can slow your database down
 
 * Number of pages: If your database has a ton of pages, it might be slower to load.
 
-* Number of properties: The more visible properties your database has, the longer it might take to load.
+* **Number of properties:&#x20;**&#x54;he more visible properties your database has, the longer it might take to load. To help keep databases performant, each database can have up to 500 properties. If you reach the limit, you won’t be able to add new properties until you remove some.
 
 * Complex sorts and filters: If your database has a sort or filter on properties like title, text, formula, or rollup, the logic behind it can make load times longer.
 
@@ -48,6 +48,16 @@ Adding filters based on simple properties such as select, multi-select, status, 
 ### Hide unnecessary properties
 
 If some properties are less important in your database view, hiding them may improve responsiveness and interactivity.
+
+### If you can’t add a new property
+
+If you see an error when trying to add a new property, your database may have reached the [500-property limit](https://www.notion.com/help/database-properties#property-count-limit).
+
+To get back under the limit:
+
+* Delete unused properties (especially ones that aren’t used in any views).
+
+* Audit select and multi-select properties. If you have multiple properties that serve the same purpose, consider merging them.
 
 ### Delete any unused pages
 
