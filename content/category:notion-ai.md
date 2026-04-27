@@ -7,8 +7,8 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/7j6zHBFAMtPgTdqjZQq46w/c7
 ---
 
 1 help:notion-ai-faqs
-2 help:autofill
-3 help:notion-agent
+2 help:notion-agent
+3 help:autofill
 4 help:ai-meeting-notes
 5 help:enterprise-search
 6 help:notion-ai-connector-for-github

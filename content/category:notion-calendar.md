@@ -13,7 +13,7 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/52docHdtStFPQdXlKPYq2u/9c
 5 help:time-zones
 6 help:manage-your-google-and-notion-calendar-accounts
 7 help:notion-calendar-settings
-8 help:notion-calendar-integrations
+8 help:notion-calendar-connections
 9 help:use-notion-calendar-with-notion
 10 help:notion-calendar-for-teams
 11 help:notion-calendar-keyboard-shortcuts
