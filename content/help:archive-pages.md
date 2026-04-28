@@ -1,7 +1,7 @@
 ---
 title: "Archive pages"
 emoji: "🗄️"
-description: "Notion lets you archive pages and databases instead of deleting them. If you need them again, they’re easy to recover. 🗄️"
+description: "Notion lets you archive pages instead of deleting them. If you need them again, they’re easy to recover. 🗄️"
 url: "https://www.notion.com/help/archive-pages"
 key: "help:archive-pages"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/ugv6z89XTHBVzVSWzpLwu/344125d7e766d22f61bc7fa747dac36a/Archive_pages.png"
@@ -9,15 +9,13 @@ category: "Pages & blocks"
 categoryKey: "category:write-edit-and-customize"
 ---
 
-Archive lets you retire content without deleting it. Archive pages or databases when content is outdated or no longer useful, but you still want to preserve context, history, and links.
+Archive lets you retire content without deleting it. Archive pages when content is outdated or no longer useful, but you still want to preserve context, history, and links.
 
 Archiving is different from deleting — archived pages are still accessible.
 
-HC: Archive is in beta/subject to terms
-
 Archive is currently in beta and subject to the terms of your agreement. Archive is only available for users on Business and Enterprise plans.
 
-## What happens when a page or database is archived
+## What happens when a page is archived
 
 When you archive a page:
 
@@ -27,7 +25,7 @@ When you archive a page:
 
 * Pages will have an archive icon 🗄️ after their name.
 
-* If you archive content in databases, the content will be filtered out of the view.
+* If you archive a page in a database, the content will be filtered out of the view.
 
   * Archived pages can be viewed by going to the database’s `Settings `→ `View archived pages`.
 
@@ -37,7 +35,9 @@ When you archive a page:
 
 Anyone with permission to edit a page can archive or unarchive it.
 
-## How to archive pages and databasesOpen the page or database you want to archive.
+## How to archive pages
+
+Open the page you want to archive:
 
 1. In the top-right corner of the page, click `•••`.
 

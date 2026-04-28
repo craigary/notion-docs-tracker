@@ -116,7 +116,7 @@ categoryKey: "category:security-and-privacy"
 
 ## Compliance
 
-Notion maintains a comprehensive security and privacy program to provide advanced security features that are designed to protect your data in accordance with various regulatory and industry standards. If you’d like a copy of the compliance reports, please reach out to email protected for our Trust portal.
+Notion maintains a comprehensive security and privacy program to provide advanced security features that are designed to protect your data in accordance with various regulatory and industry standards. <!-- -->To obtain Notion's independent audit reports (e.g., SOC 2 Type II report, ISO 27001 certificate), please visit our [Trust Center](https://trustcenter.notion.com).
 
 * **SOC 2 Type 2**: The SOC 2 Type 2 is an audit repor&#x74;**&#x20;**&#x70;erformed by an independent third-party certifie&#x64;**&#x20;**&#x62;y the American Institute of Certified Public Accountants (AICPA) to evaluate a service organization's controls related to the Trust Services Criteria (TSC). The SOC 2 Type 2 report assesses the effectiveness of these controls over a period of time and is intended to provide assurance to customers and stakeholders that the organization has implemented adequate controls to protect their data.
 
