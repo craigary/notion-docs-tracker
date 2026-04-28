@@ -231,7 +231,7 @@ Pause or switch off a Custom Agent anytime to immediately stop credit usage whil
 
 ### 4. Optimize efficiency to reduce credits per run
 
-View agent-level insights to understand total runs and performance across your workspace. Identify high-usage agents, then tune them to reduce unnecessary runs or extra steps.
+Agent-level insights will be available soon. They’ll help you see total runs and performance across your workspace, spot high-usage agents, and reduce unnecessary runs or extra steps.
 
 ![HC: view agent insightss](https://images.ctfassets.net/spoqsaf9291f/4QclXZuMjYGpNkBwZV7c2i/c1cfe629e1ccd50aebeac8e8d54d831d/insights_chart_english__2___1_.png)
 

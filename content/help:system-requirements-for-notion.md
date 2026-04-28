@@ -24,10 +24,10 @@ For the best experience with Notion, make sure you’re using the latest version
 
 [Learn more about Notion for web here →](https://www.notion.com/help/notion-for-web)
 
-| Browser               | Version                                                                                           |
-| --------------------- | ------------------------------------------------------------------------------------------------- |
-| Chrome                | The last two major [Extended stable](https://support.google.com/chrome/a/answer/9027636) releases |
-| Firefox, Safari, Edge | The last two major releases                                                                       |
+| Browser               | Version                                                                                             |
+| --------------------- | --------------------------------------------------------------------------------------------------- |
+| Chrome                | The last eight major [Extended stable](https://support.google.com/chrome/a/answer/9027636) releases |
+| Firefox, Safari, Edge | The last two major releases                                                                         |
 
 ## Mobile
 
