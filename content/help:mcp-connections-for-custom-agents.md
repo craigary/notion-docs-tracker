@@ -5,7 +5,7 @@ description: "Connect your Custom Agents to external systems and data sources wi
 url: "https://www.notion.com/help/mcp-connections-for-custom-agents"
 key: "help:mcp-connections-for-custom-agents"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/5yUrXL0g6goX2lRQ3wa8se/f6cfdb89cfe49af29470cd7de1f3e735/mcp.png"
-category: "Custom Agents & Database Agents"
+category: "Custom Agents"
 categoryKey: "category:custom-agents"
 ---
 

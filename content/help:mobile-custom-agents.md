@@ -5,7 +5,7 @@ description: "Use Custom Agents on the go — start new chats, continue conversa
 url: "https://www.notion.com/help/mobile-custom-agents"
 key: "help:mobile-custom-agents"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/3YoHBiVX8z7Ml2j0EtK6rh/4c9fa6ebeb263c98a025c56ee841a7e2/Custom_agents_mobile.png"
-category: "Custom Agents & Database Agents"
+category: "Custom Agents"
 categoryKey: "category:custom-agents"
 ---
 

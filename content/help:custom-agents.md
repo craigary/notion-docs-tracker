@@ -5,7 +5,7 @@ description: "With Custom Agents, you build shared workflows that automate recur
 url: "https://www.notion.com/help/custom-agents"
 key: "help:custom-agents"
 coverImage: "https://img.youtube.com/vi/ojAvnSdsc1I/maxresdefault.jpg"
-category: "Custom Agents & Database Agents"
+category: "Custom Agents"
 categoryKey: "category:custom-agents"
 ---
 
