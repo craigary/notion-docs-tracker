@@ -9,6 +9,6 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/2HM5BPlsww5fF5gJDpI71B/94
 1 help:notion-ai-connectors
 2 help:notion-ai-connector-for-microsoft-teams
 3 help:notion-ai-connectors-for-slack
-4 help:google-calendar-ai-connector
-5 help:microsoft-outlook-ai-connector
+4 help:microsoft-outlook-ai-connector
+5 help:google-calendar-ai-connector
 6 help:notion-ai-connector-for-gmail
