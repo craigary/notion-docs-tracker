@@ -5,8 +5,8 @@ description: "For anyone who needs to visualize their projects plotted chronolog
 url: "https://www.notion.com/help/timelines"
 key: "help:timelines"
 coverImage: "https://img.youtube.com/vi/I4CtApkWoRk/maxresdefault.jpg"
-category: "Databases"
-categoryKey: "category:databases"
+category: "Database views"
+categoryKey: "category:database-views"
 ---
 
 ## Create a timeline

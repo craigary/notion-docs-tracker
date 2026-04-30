@@ -5,8 +5,8 @@ description: "You can view the same database in multiple ways, and switch back a
 url: "https://www.notion.com/help/views-filters-and-sorts"
 key: "help:views-filters-and-sorts"
 coverImage: "https://img.youtube.com/vi/Nx114VWepoI/maxresdefault.jpg"
-category: "Databases"
-categoryKey: "category:databases"
+category: "Database views"
+categoryKey: "category:database-views"
 ---
 
 ## Types of database views

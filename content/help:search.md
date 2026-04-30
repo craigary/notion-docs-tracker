@@ -5,8 +5,8 @@ description: "Notion is designed for you to add as many layers of information as
 url: "https://www.notion.com/help/search"
 key: "help:search"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/1EAjpBexcA1109GPKOGcFd/a5f3e73ade6f52c9fb12c4e2adcf6b34/Search_in_your_workspace_-_hero.png"
-category: "Workspace & sidebar"
-categoryKey: "category:meet-your-workspace"
+category: "Sidebar navigation"
+categoryKey: "category:sidebar-navigation"
 ---
 
 ## Use search

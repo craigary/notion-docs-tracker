@@ -5,7 +5,7 @@ description: "Learn how to create your own personalized portrait with Notion Fac
 url: "https://www.notion.com/help/notion-faces"
 key: "help:notion-faces"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/6OnLYruM5brPYY1vDuGIkJ/d1868a1f9090ccac8233f0f6fdacd6e4/Notion_Faces_Hero__2_.png"
-category: "Settings"
+category: "Settings & preferences"
 categoryKey: "category:account-settings-and-privacy"
 ---
 

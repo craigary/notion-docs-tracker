@@ -5,7 +5,7 @@ description: "Notion is set up to notify you if you're mentioned in a page or da
 url: "https://www.notion.com/help/notification-settings"
 key: "help:notification-settings"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/2CG1qQy792xiIQXGBLSXNw/d2a407d531c13de9520ae3f13a97c228/Notification_settings_-_hero.png"
-category: "Settings"
+category: "Settings & preferences"
 categoryKey: "category:account-settings-and-privacy"
 ---
 

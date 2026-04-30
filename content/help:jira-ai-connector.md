@@ -5,8 +5,8 @@ description: "Connect Notion AI with your Jira site to seamlessly bring in infor
 url: "https://www.notion.com/help/jira-ai-connector"
 key: "help:jira-ai-connector"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/6x1aZwUhMiZmaRHStYIDK/9863ed867e5c62d8f6f5636cffa8f94c/Notion_AI_Connector_for_Jira.png"
-category: "Notion AI"
-categoryKey: "category:notion-ai"
+category: "Notion AI Connectors"
+categoryKey: "category:notion-ai-connectors"
 ---
 
 **Note:**

@@ -5,7 +5,7 @@ description: "Notion employees will only ever access your data for the purposes 
 url: "https://www.notion.com/help/data-access-consent"
 key: "help:data-access-consent"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/2Ab5WASKsWfCZVr3qXKtdD/e2ddc7e837a6fc2ebf853b1553ed73da/Data_access_consent_-_hero.png"
-category: "Settings"
+category: "Settings & preferences"
 categoryKey: "category:account-settings-and-privacy"
 ---
 

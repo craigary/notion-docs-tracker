@@ -5,8 +5,8 @@ description: "Lists are simple and minimalist database views. They're ideal for 
 url: "https://www.notion.com/help/lists"
 key: "help:lists"
 coverImage: "https://img.youtube.com/vi/Qhvix00IE0k/maxresdefault.jpg"
-category: "Databases"
-categoryKey: "category:databases"
+category: "Database views"
+categoryKey: "category:database-views"
 ---
 
 ## Create a list

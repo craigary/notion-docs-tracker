@@ -5,8 +5,8 @@ description: "Calendars let you visualize how database items connect to certain 
 url: "https://www.notion.com/help/calendars"
 key: "help:calendars"
 coverImage: "https://img.youtube.com/vi/PoYepEsN0HY/maxresdefault.jpg"
-category: "Databases"
-categoryKey: "category:databases"
+category: "Database views"
+categoryKey: "category:database-views"
 ---
 
 ## Create a calendar

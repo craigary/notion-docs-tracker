@@ -5,8 +5,8 @@ description: "Display database pages in stacked-card format making it easy to br
 url: "https://www.notion.com/help/feeds"
 key: "help:feeds"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/5rqTtloUnQExpgHuBmJksP/0ed08bfcc24278df8c942c508f84021e/Legal_holds.png"
-category: "Databases"
-categoryKey: "category:databases"
+category: "Database views"
+categoryKey: "category:database-views"
 ---
 
 Feed view displays database pages as a linear, stacked cards format, like a blog or social media site, making it easy to browse and engage with team content. Feed view is great for team updates, project status sharing, or any other company communications.

@@ -5,7 +5,7 @@ description: "Here are all the ways you can log into Notion. You can also log ou
 url: "https://www.notion.com/help/log-in-and-out"
 key: "help:log-in-and-out"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/7babmlXbtgZ8XwseESoGXZ/57853265cde28a15b566a51a816a1418/how-to-protect-yourself-from-malvertising.png"
-category: "Settings"
+category: "Settings & preferences"
 categoryKey: "category:account-settings-and-privacy"
 ---
 

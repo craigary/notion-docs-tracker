@@ -5,7 +5,7 @@ description: "Deleting a workspace is a permanent action. Read on to understand 
 url: "https://www.notion.com/help/delete-a-workspace"
 key: "help:delete-a-workspace"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/4HiZbdaOLg0ObQhH9lfCj7/414bc3aca88632d0c2e7e873a82d01b0/Delete_visual_reference.png"
-category: "Workspace & sidebar"
+category: "Workspace settings"
 categoryKey: "category:meet-your-workspace"
 ---
 

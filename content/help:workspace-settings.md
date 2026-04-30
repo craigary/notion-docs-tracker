@@ -5,8 +5,8 @@ description: "When you sign up for Notion, you can create multiple workspaces co
 url: "https://www.notion.com/help/workspace-settings"
 key: "help:workspace-settings"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/36DSq2EcSv3Q9uUUnRXdMo/9f8e7900ef53569a84c8625097bcc271/Workspace_settings_-_hero.png"
-category: "Settings"
-categoryKey: "category:account-settings-and-privacy"
+category: "Workspace settings"
+categoryKey: "category:meet-your-workspace"
 ---
 
 **Note:** Many of these settings are only visible if you're an admin on a Plus Plan or Enterprise Plan. They don't appear in the mobile app at all. [Contact sales to learn more about our Enterprise plan →](https://notionup.typeform.com/to/FbZ6Tk)

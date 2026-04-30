@@ -1,16 +1,13 @@
 ---
-title: "Workspace & sidebar"
+title: "Workspace settings"
 description: "Your Notion workspace is the home for all your content. You can work in your workspace alone or share your workspace with collaborators — it's up to you! Here, we'll teach you how to create, join, and use workspaces."
 url: "https://www.notion.com/help/category/meet-your-workspace"
 key: "category:meet-your-workspace"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/nTY8OFImJy9voN7l6pJSt/49f2ab8321a129c333da27277bd22ee7/Meet_your_Workspace_-_Chapter_Hero.png"
 ---
 
-1 help:navigate-with-the-sidebar
-2 help:create-delete-and-switch-workspaces
-3 help:manage-your-library
-4 help:browse-join-and-create-teamspaces
-5 help:search
-6 help:home-and-my-tasks
-7 help:workspaces-on-mobile
-8 help:delete-a-workspace
+1 help:create-delete-and-switch-workspaces
+2 help:workspace-settings
+3 help:browse-join-and-create-teamspaces
+4 help:workspaces-on-mobile
+5 help:delete-a-workspace

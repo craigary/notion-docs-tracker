@@ -5,8 +5,8 @@ description: "Anyone on any Notion plan can connect Notion Calendar to Notion AI
 url: "https://www.notion.com/help/notion-calendar-ai-connector"
 key: "help:notion-calendar-ai-connector"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/7gmpTAUpDLEDZKJqcrHgB0/ee6443167da37ddfd1670b982206a103/Notion_Calendar_Reference.png"
-category: "Notion AI"
-categoryKey: "category:notion-ai"
+category: "Notion AI Connectors"
+categoryKey: "category:notion-ai-connectors"
 ---
 
 **Note:** The Notion Calendar AI Connector is currently in beta and subject to the beta terms of your agreement.

@@ -5,7 +5,7 @@ description: "Add multiple email addresses to a single Notion account. 📨"
 url: "https://www.notion.com/help/secondary-emails"
 key: "help:secondary-emails"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/3sVx6yqPBL92vCmBcGf5EX/2737ea79369b8fb999887a5f4a54648a/notion-mail-security-practices.png"
-category: "Settings"
+category: "Settings & preferences"
 categoryKey: "category:account-settings-and-privacy"
 ---
 

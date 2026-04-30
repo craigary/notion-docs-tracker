@@ -5,8 +5,8 @@ description: "You can embed virtually any online content within Notion pages —
 url: "https://www.notion.com/help/embed-and-connect-other-apps"
 key: "help:embed-and-connect-other-apps"
 coverImage: "https://img.youtube.com/vi/Gtjeb4xkWHo/maxresdefault.jpg"
-category: "Import & export your data"
-categoryKey: "category:import-export-and-integrate"
+category: "Connections"
+categoryKey: "category:connections"
 ---
 
 ## Insert an embed

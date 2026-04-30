@@ -5,7 +5,7 @@ description: "When you're brand new to Notion, it's best to keep it simple and s
 url: "https://www.notion.com/help/create-delete-and-switch-workspaces"
 key: "help:create-delete-and-switch-workspaces"
 coverImage: "https://img.youtube.com/vi/8DvGO0lqBaA/maxresdefault.jpg"
-category: "Workspace & sidebar"
+category: "Workspace settings"
 categoryKey: "category:meet-your-workspace"
 ---
 

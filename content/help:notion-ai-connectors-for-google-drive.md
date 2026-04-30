@@ -5,8 +5,8 @@ description: "Get answers from your Google Drive files without having to leave N
 url: "https://www.notion.com/help/notion-ai-connectors-for-google-drive"
 key: "help:notion-ai-connectors-for-google-drive"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/2cW4DFrsu1VSoECYIWXNFx/d944f19f651723732e16ffb25b896da6/Google_Drive_connectors__2_.png"
-category: "Notion AI"
-categoryKey: "category:notion-ai"
+category: "Notion AI Connectors"
+categoryKey: "category:notion-ai-connectors"
 ---
 
 **Note:** This feature is only available on the Business and Enterprise Plans.

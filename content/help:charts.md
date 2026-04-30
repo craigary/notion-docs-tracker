@@ -5,8 +5,8 @@ description: "Charts help visualize the vast amount of information in your datab
 url: "https://www.notion.com/help/charts"
 key: "help:charts"
 coverImage: "https://img.youtube.com/vi/dVUMX5sd68Q/maxresdefault.jpg"
-category: "Databases"
-categoryKey: "category:databases"
+category: "Database views"
+categoryKey: "category:database-views"
 ---
 
 **Note:** Everyone on a paid plan can create unlimited charts. Members on the Free Plan can try one chart for free. Learn more about charts availability [here →](https://www.notion.com/help/charts#chart-view-availability)

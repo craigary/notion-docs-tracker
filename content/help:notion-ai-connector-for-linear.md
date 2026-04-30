@@ -5,8 +5,8 @@ description: null
 url: "https://www.notion.com/help/notion-ai-connector-for-linear"
 key: "help:notion-ai-connector-for-linear"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/1b5mzSyCfFYoIFkFCCetvv/f226b1ee8ba3b7a1990eeadeb1970318/Linear.png"
-category: "Notion AI"
-categoryKey: "category:notion-ai"
+category: "Notion AI Connectors"
+categoryKey: "category:notion-ai-connectors"
 ---
 
 ## Connect Linear to Notion AI

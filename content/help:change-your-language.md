@@ -5,7 +5,7 @@ description: "Here’s how you can change your language in Notion 💬"
 url: "https://www.notion.com/help/change-your-language"
 key: "help:change-your-language"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/1U66Yt010JBauFwGs4JUvu/c17b5021962fb3ffa73f6d4f32fac594/Reference_Visuals_Comments.png"
-category: "Settings"
+category: "Settings & preferences"
 categoryKey: "category:account-settings-and-privacy"
 ---
 

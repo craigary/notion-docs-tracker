@@ -5,8 +5,8 @@ description: "Boards are helpful for showing items in a database as they move th
 url: "https://www.notion.com/help/boards"
 key: "help:boards"
 coverImage: "https://img.youtube.com/vi/_efKZce3eDY/maxresdefault.jpg"
-category: "Databases"
-categoryKey: "category:databases"
+category: "Database views"
+categoryKey: "category:database-views"
 ---
 
 Board view groups your database pages by a specific property. Whereas kanban boards typically group to-do items by their status, board views in Notion can be grouped by status, assignee, priority, and more depending on what you need. They can also show you exactly what you want to see via filters, sorts, and custom database properties.

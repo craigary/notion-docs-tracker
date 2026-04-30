@@ -4,7 +4,7 @@ emoji: "📶"
 description: "Connect your Custom Agents to external systems and data sources with MCP 📶"
 url: "https://www.notion.com/help/mcp-connections-for-custom-agents"
 key: "help:mcp-connections-for-custom-agents"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/5yUrXL0g6goX2lRQ3wa8se/f6cfdb89cfe49af29470cd7de1f3e735/mcp.png"
+coverImage: "https://img.youtube.com/vi/i0n6K5doPlI/maxresdefault.jpg"
 category: "Custom Agents"
 categoryKey: "category:custom-agents"
 ---

@@ -5,8 +5,8 @@ description: "Bring Notion and Slack together so your team can work better from 
 url: "https://www.notion.com/help/slack"
 key: "help:slack"
 coverImage: "https://img.youtube.com/vi/fdA1qqfV5v4/maxresdefault.jpg"
-category: "Import & export your data"
-categoryKey: "category:import-export-and-integrate"
+category: "Connections"
+categoryKey: "category:connections"
 ---
 
 Notion's integration with Slack enables seamless communication between the two platforms. You can send Slack messages to Notion databases and receive Slack notifications for Notion activities. Read on to learn about the different features of the integration and how you can set them up.

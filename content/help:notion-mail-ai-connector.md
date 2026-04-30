@@ -5,8 +5,8 @@ description: "Anyone on any Notion plan can connect Notion Mail to Notion AI ðŸ“
 url: "https://www.notion.com/help/notion-mail-ai-connector"
 key: "help:notion-mail-ai-connector"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/2SBfsPfdWN8oF5X5akzwxx/a4a1fbccc03420ee52f5d24846334b97/Notion_Mail_Logo__1_.png"
-category: "Notion AI"
-categoryKey: "category:notion-ai"
+category: "Notion AI Connectors"
+categoryKey: "category:notion-ai-connectors"
 ---
 
 **Note:** The Notion Mail AI Connector is currently in beta and subject to the beta terms of your agreement.

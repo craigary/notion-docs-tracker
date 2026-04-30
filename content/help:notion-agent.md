@@ -9,7 +9,9 @@ category: "Notion AI"
 categoryKey: "category:notion-ai"
 ---
 
-Notion Agent is your AI teammate inside Notion. It can help you create and edit pages and databases using context from your workspace and connected apps. You can personalize how it responds with [skills and instructions](http://www.notion.com/help/customize-your-notion-agent-with-instructions-and-skills).
+Notion Agent is your AI teammate inside Notion. It can help you create and edit pages and databases using context from your workspace and connected apps.
+
+Notion Agent has the same permissions you do. If you can't view or edit specific content, your Agent can't either. You can personalize how your Agent responds with [skills and instructions](http://www.notion.com/help/customize-your-notion-agent-with-instructions-and-skills), and update its settings so it waits until you [approve plans](https://www.notion.com/help/review-and-approve-plans-before-notion-ai-runs) before making changes. You can always undo any changes made by your Notion Agent.
 
 **Note:**
 

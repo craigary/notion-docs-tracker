@@ -5,8 +5,8 @@ description: "In a Notion database, you can add a formula property that lets you
 url: "https://www.notion.com/help/formulas"
 key: "help:formulas"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/2qPdGvgZA8RD2WXSufJlCG/5fa2a9262a76a9168b642ac730908fc9/formula_basics_hero.png"
-category: "Formulas"
-categoryKey: "category:formulas"
+category: "Databases"
+categoryKey: "category:databases"
 ---
 
 Notion formulas can perform helpful calculations using your existing database properties, built-ins, and functions.

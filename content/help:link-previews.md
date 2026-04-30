@@ -5,8 +5,8 @@ description: "See live, synced visualizations of links from popular platforms ri
 url: "https://www.notion.com/help/link-previews"
 key: "help:link-previews"
 coverImage: "https://img.youtube.com/vi/Gtjeb4xkWHo/maxresdefault.jpg"
-category: "Import & export your data"
-categoryKey: "category:import-export-and-integrate"
+category: "Connections"
+categoryKey: "category:connections"
 ---
 
 Link previews allow you to see live, synced visualizations of links directly in Notion.**&#x20;This is currently supported for several platforms:**

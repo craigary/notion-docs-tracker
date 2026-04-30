@@ -5,7 +5,7 @@ description: "There are tons of account settings and preferences to adjust in No
 url: "https://www.notion.com/help/account-settings"
 key: "help:account-settings"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/s0OYm0S0rybp2h3hdS72B/8a5ed8f27b9a017f92f480e98ba9ecec/Account_settings_-_hero.png"
-category: "Settings"
+category: "Settings & preferences"
 categoryKey: "category:account-settings-and-privacy"
 ---
 

@@ -5,8 +5,8 @@ description: "Learn how to create a dashboard view, add and arrange widgets, and
 url: "https://www.notion.com/help/dashboards"
 key: "help:dashboards"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/YMKjsIquapvJc0bzFpMOx/cfc103bb19fb5cef551b2e72985542bb/dashboard.png"
-category: "Databases"
-categoryKey: "category:databases"
+category: "Database views"
+categoryKey: "category:database-views"
 ---
 
 Dashboard views turn any database into an at-a-glance control center. Instead of switching between multiple views, you can arrange widgets like tables, boards, calendars, charts, and timelines into a single layout.

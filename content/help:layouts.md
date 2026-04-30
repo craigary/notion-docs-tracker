@@ -5,8 +5,8 @@ description: "Create an organized layout for your tasks, goals, journal, or anyt
 url: "https://www.notion.com/help/layouts"
 key: "help:layouts"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/1JhmGEelQl3xaWh6KTvN1L/7f5e076fe8fa246f1739608d07060e86/Reference_visuals_Oct_22_Screenshot_1.png"
-category: "Databases"
-categoryKey: "category:databases"
+category: "Database views"
+categoryKey: "category:database-views"
 ---
 
 Layouts let you customize the way properties are organized in your database pages. With layouts, you can make pages in one database look distinct from pages in another database, depending on their use. For example, pages in your database for weekly marketing reports can be built to look very different from your database for team tasks.

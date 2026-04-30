@@ -5,8 +5,8 @@ description: "Learn how to create, share, and gather information using forms �
 url: "https://www.notion.com/help/forms"
 key: "help:forms"
 coverImage: "https://img.youtube.com/vi/O8O8eGl0nNs/maxresdefault.jpg"
-category: "Databases"
-categoryKey: "category:databases"
+category: "Database views"
+categoryKey: "category:database-views"
 ---
 
 Forms make it easy to collect information from others, even if those people aren’t part of your Notion workspace or don’t use Notion at all. **All members on all Notion plans** can create and use forms.

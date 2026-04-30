@@ -5,8 +5,8 @@ description: "Connect Notion and GitHub so you can keep your workflows in sync ð
 url: "https://www.notion.com/help/github"
 key: "help:github"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/6hWH8Qhv0JreyWyujm0AwU/e531399268bd8ad05b6dd7c380490829/GitHub.png"
-category: "Import & export your data"
-categoryKey: "category:import-export-and-integrate"
+category: "Connections"
+categoryKey: "category:connections"
 ---
 
 Notion's connection with GitHub allows you to seamlessly connect your development workflows. You can link GitHub content directly in Notion pages, pull GitHub information into Notion databases, and sync pull requests with Notion tasks to keep your team informed of project statuses. Read on to learn about the different features of the <!-- -->connection<!-- --> and how you can set them up.

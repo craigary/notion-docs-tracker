@@ -5,7 +5,7 @@ description: "Teamspaces help keep your content organized into specific areas. K
 url: "https://www.notion.com/help/browse-join-and-create-teamspaces"
 key: "help:browse-join-and-create-teamspaces"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/3UqsoFNRkeXw9Jqu91X8tx/e8cff98e37ac1e16686a408094d0ba1b/browse-join-and-create-teamspaces.png"
-category: "Workspace & sidebar"
+category: "Workspace settings"
 categoryKey: "category:meet-your-workspace"
 ---
 

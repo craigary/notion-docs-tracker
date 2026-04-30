@@ -5,8 +5,8 @@ description: "You can connect other software to Notion, automate actions within 
 url: "https://www.notion.com/help/add-and-manage-connections-with-the-api"
 key: "help:add-and-manage-connections-with-the-api"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/1neDuGJ46KUWNDW9IDoar3/768bd7ba261f18fbd755110a7b732bb5/Add___manage_integrations_with_the_API_-_hero.png"
-category: "Import & export your data"
-categoryKey: "category:import-export-and-integrate"
+category: "Connections"
+categoryKey: "category:connections"
 ---
 
 **Note:&#x20;**&#x4F;n Enterprise Plans, the following can be restricted to workspace owners:

@@ -8,4 +8,5 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/2HM5BPlsww5fF5gJDpI71B/94
 
 1 help:ai-safety
 2 help:notion-ai-security-practices
-3 help:complimentary-ai-responses
+3 help:enterprise-search-security-and-privacy-practices
+4 help:complimentary-ai-responses

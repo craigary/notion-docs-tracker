@@ -5,8 +5,8 @@ description: "Bring your favorite tools into Notion with synced databases, to ke
 url: "https://www.notion.com/help/synced-databases"
 key: "help:synced-databases"
 coverImage: "https://img.youtube.com/vi/Gtjeb4xkWHo/maxresdefault.jpg"
-category: "Import & export your data"
-categoryKey: "category:import-export-and-integrate"
+category: "Connections"
+categoryKey: "category:connections"
 ---
 
 **Note:** This feature is only available on the Business and Enterprise Plans.

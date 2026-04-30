@@ -5,8 +5,8 @@ description: "Notion's sidebar makes it easy to structure all the content in you
 url: "https://www.notion.com/help/navigate-with-the-sidebar"
 key: "help:navigate-with-the-sidebar"
 coverImage: "https://img.youtube.com/vi/lSmgY5OsZmU/maxresdefault.jpg"
-category: "Workspace & sidebar"
-categoryKey: "category:meet-your-workspace"
+category: "Sidebar navigation"
+categoryKey: "category:sidebar-navigation"
 ---
 
 ## Sidebar basics

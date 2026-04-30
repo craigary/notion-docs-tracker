@@ -5,8 +5,8 @@ description: "Use Library to find, organize, and manage pages across your worksp
 url: "https://www.notion.com/help/manage-your-library"
 key: "help:manage-your-library"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/6YfU0tKFUybgZdCYZ1ws43/b71239eff7723d6f64fde108e999bd7d/library_book.png"
-category: "Workspace & sidebar"
-categoryKey: "category:meet-your-workspace"
+category: "Sidebar navigation"
+categoryKey: "category:sidebar-navigation"
 ---
 
 Library helps you find and organize pages across your workspace, all from one place.

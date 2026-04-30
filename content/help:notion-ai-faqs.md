@@ -43,17 +43,17 @@ Please watch it on [YouTube](https://www.youtube.com/watch?v=yasGTeAsV6s)
 
 Your Notion Agent not only thinks for you — it actually does the work for you. It can take on tasks from beginning to end, looking at your workspace and connected apps, then even creating or editing content (pages, databases, charts, and much more) in your workspace on your behalf.
 
-You can personalize your Agent’s appearance, and use [instructions and skills](http://www.notion.com/help/customize-your-notion-agent-with-instructions-and-skills) to shape how it responds.
+You can [personalize your Agent’s appearance](https://www.notion.com/help/notion-agent#personalize-your-agent), and use [instructions and skills](http://www.notion.com/help/customize-your-notion-agent-with-instructions-and-skills) to shape how it responds. Set up [Plan Mode](https://www.notion.com/help/review-and-approve-plans-before-notion-ai-runs), so your Agent shows you changes for review and approval before it runs. Your Notion Agent is a customizable teammate built into your workspace, so you can teach it how to work with and for you.
 
-You can personalize your Agent’s appearance and personality and teach it how to work with and for you, so it can be a truly customized teammate built into your workspace.
-
-**Learn more about Agents**
+**Learn more about Notion Agent**
 
 * [Notion Agent](https://www.notion.com/help/personal-agent)
 
 * [Get started with your Notion Agent](https://www.notion.com/help/guides/get-started-with-your-personal-agent-in-notion)
 
 * [Use instructions and skills to customize your Notion Agent](http://www.notion.com/help/customize-your-notion-agent-with-instructions-and-skills)
+
+* [Review & approve plans before Notion AI runs](https://www.notion.com/help/review-and-approve-plans-before-notion-ai-runs)
 
 ## Enterprise Search
 

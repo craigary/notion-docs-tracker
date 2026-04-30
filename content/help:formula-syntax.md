@@ -5,8 +5,8 @@ description: "Notion formulas can operate on various properties and functions. H
 url: "https://www.notion.com/help/formula-syntax"
 key: "help:formula-syntax"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/55mOjF177kSIw5lHDAr45R/8ecbb0169375a9ab7d10e486bfff8cdb/Formula_Syntax_and_Functions__1_.png"
-category: "Formulas"
-categoryKey: "category:formulas"
+category: "Databases"
+categoryKey: "category:databases"
 ---
 
 * Looking for Notion formula basics? Check out [this article →](https://www.notion.com/help/formulas)
@@ -136,6 +136,7 @@ PM` `dateAdd(now(), 3, "years")` = `@August 30, 2026 5:55 PM`             |
 | **formatDate**    | Formats the date using a custom format string. The format string can contain the following text to represent parts of the date: `"YYYY"` for year, `"MM"` for month, `"DD"` for day, `"h" `for hour, `"mm"` for minute.                                                                                                           | `formatDate(now(), "MMMM D, Y")` = `"August 30, 2023"
 formatDate(now(), "MM/DD/YYYY")` = `"08/30/2023"
 formatDate(now(), "h:mm A")` = `"17:55 PM"`                                         |
+| **formatNumber**  |                                                                                                                                                                                                                                                                                                                                   | "Revenue: " + formatNumber(prop("Number"), "usd", 0).style("green")                                                                                                                        |
 | **parseDate**     | Returns the date parsed according to the ISO 8601 standard.                                                                                                                                                                                                                                                                       | `parseDate("2022-01-01")` = `@January 1, 2022` `parseDate("2022-01-01T00:00Z")` = `@December 31, 2021 4:00 PM`                                                                             |
 | **name**          | Returns the name of a person.                                                                                                                                                                                                                                                                                                     | `name(prop("Created By"))` `prop("Pioneers").map(name(current)).join(", ")` = `"Grace Hopper, Ada Lovelace"`                                                                               |
 | **email**         | Returns the email address of a person.                                                                                                                                                                                                                                                                                            | `email(prop("Created By"))` `prop("People").map(email(current)).join(", ")`                                                                                                                |

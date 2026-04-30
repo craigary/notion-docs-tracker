@@ -5,7 +5,7 @@ description: "Add an extra layer of account security with a second method of ver
 url: "https://www.notion.com/help/two-step-verification"
 key: "help:two-step-verification"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/3xRU46l5NI3NWJOjENHIiG/ca95ec28945a7fdab9bab06ee1f38173/2SV-hero.png"
-category: "Settings"
+category: "Settings & preferences"
 categoryKey: "category:account-settings-and-privacy"
 ---
 

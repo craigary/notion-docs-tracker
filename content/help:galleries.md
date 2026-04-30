@@ -5,8 +5,8 @@ description: "Gallery view is the best way to display databases with visual comp
 url: "https://www.notion.com/help/galleries"
 key: "help:galleries"
 coverImage: "https://img.youtube.com/vi/RNkpc84wYn8/maxresdefault.jpg"
-category: "Databases"
-categoryKey: "category:databases"
+category: "Database views"
+categoryKey: "category:database-views"
 ---
 
 ## Create a gallery

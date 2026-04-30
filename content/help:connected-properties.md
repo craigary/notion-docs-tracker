@@ -5,8 +5,8 @@ description: "Integrate your favorite tools directly into your Notion databases 
 url: "https://www.notion.com/help/connected-properties"
 key: "help:connected-properties"
 coverImage: "https://img.youtube.com/vi/Gtjeb4xkWHo/maxresdefault.jpg"
-category: "Import & export your data"
-categoryKey: "category:import-export-and-integrate"
+category: "Connections"
+categoryKey: "category:connections"
 ---
 
 Connected properties allow you to bring data from Google Drive, Figma, and more right into your databases.

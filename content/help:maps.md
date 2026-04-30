@@ -5,8 +5,8 @@ description: "Visualize addresses on a map 🗺️"
 url: "https://www.notion.com/help/maps"
 key: "help:maps"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/6VrRf3FKY0KOy5Yh4IbKOB/44835febcd83c6abdd64239f829f2135/Reference_Visuals_Group_168.png"
-category: "Databases"
-categoryKey: "category:databases"
+category: "Database views"
+categoryKey: "category:database-views"
 ---
 
 Map view lets you visualize database items on an interactive map. You can use it to plan a trip, see all the places you’ve visited before, plan field work, and more.

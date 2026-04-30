@@ -5,8 +5,8 @@ description: "Connect Jira with Notion for a seamless experience that keeps you 
 url: "https://www.notion.com/help/jira"
 key: "help:jira"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/6wTbBubsbDgXZRpOxVncyr/9b96bcdabaa672f8751089c0e219c1a7/Group_91.png"
-category: "Import & export your data"
-categoryKey: "category:import-export-and-integrate"
+category: "Connections"
+categoryKey: "category:connections"
 ---
 
 Notion’s connection with Jira allows you to do a few different things. You can insert Jira links into Notion pages to quickly access or preview them, or you can sync your Jira projects and work items to Notion databases so you can track all of your work in one place. Read on to learn about the different forms of the connection and how you can set them up.

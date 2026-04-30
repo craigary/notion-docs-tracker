@@ -5,8 +5,8 @@ description: "Home gives you quick access to Notion AI, important pages, upcomin
 url: "https://www.notion.com/help/home-and-my-tasks"
 key: "help:home-and-my-tasks"
 coverImage: "https://img.youtube.com/vi/X-hz2ResO1Q/maxresdefault.jpg"
-category: "Workspace & sidebar"
-categoryKey: "category:meet-your-workspace"
+category: "Sidebar navigation"
+categoryKey: "category:sidebar-navigation"
 ---
 
 ## What is Home?

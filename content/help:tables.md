@@ -5,8 +5,8 @@ description: "A table is the classic database view, but tables in Notion are mor
 url: "https://www.notion.com/help/tables"
 key: "help:tables"
 coverImage: "https://img.youtube.com/vi/-izAC1eour4/maxresdefault.jpg"
-category: "Databases"
-categoryKey: "category:databases"
+category: "Database views"
+categoryKey: "category:database-views"
 ---
 
 ## Create a table view
