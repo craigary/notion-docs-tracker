@@ -1,12 +1,12 @@
 ---
 title: "Security practices"
-emoji: "🔒"
+emoji: null
 description: "We know you've entrusted us with valuable data, and we take its security very seriously. We've provided a deep dive into our security practices 🔒"
 url: "https://www.notion.com/help/security-and-privacy"
 key: "help:security-and-privacy"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/3G9lsSF7xET8hko0HHDzoM/a8f7c018fd8e54bf938a609742b6fd7e/Security___privacy_-_hero.png"
-category: "Privacy & security"
-categoryKey: "category:security-and-privacy"
+category: "Admin & security"
+categoryKey: "category:admin-and-security"
 ---
 
 ## Data security
