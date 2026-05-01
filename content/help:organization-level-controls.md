@@ -133,7 +133,7 @@ From the `Analytics` tab of your organization level settings, you can do the fol
 
 Organization owners can use the Notion credits dashboard to track credit usage and manage on-demand spend across all workspaces in their organization. This is available if your organization is on a multi-workspace contract.
 
-![HC: org-level Notion credits dashboard](https://images.ctfassets.net/spoqsaf9291f/2nUZOdl2889Dpej0GAxk4d/de100c5497bebbc3794df9d2d28ee702/06_Org-level_dashboard__1_.png)
+![HC: org-level Notion credits dashboard](https://images.ctfassets.net/spoqsaf9291f/2nUZOdl2889Dpej0GAxk4d/ef17c0b53486b972765c26f8427f2ad1/Screenshot_2026-04-30_at_12.32.12%C3%A2__PM.png)
 
 ### Track credit usage across workspaces
 

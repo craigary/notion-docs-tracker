@@ -123,6 +123,18 @@ Any data put into a property is called a value. The way you edit values is diff
 
 * Editing values for `Relation` and `Rollup` properties requires multiple steps.
 
+## Property count limit
+
+To keep databases fast and reliable, each database can have up to 500 properties. If you reach this limit, you won’t be able to add new properties until you remove some.
+
+When you try to add a property beyond this limit, you’ll see an error message and the new property won’t be created.
+
+**If you hit the limit, try these steps:**
+
+* Delete unused properties you no longer need.
+
+* Consolidate similar properties (for example, combine multiple “Status” or “Category” properties).
+
 ## Conditional color
 
 **Note:&#x20;**&#x54;o apply conditional color to database pages, you must have `Can edit content` access, `Can edit` access, or `Full access` to that database. If you can only view or comment on a database, you can see color for database pages but can’t edit any color settings.

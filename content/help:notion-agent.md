@@ -13,13 +13,7 @@ Notion Agent is your AI teammate inside Notion. It can help you create and edit 
 
 Notion Agent has the same permissions you do. If you can't view or edit specific content, your Agent can't either. You can personalize how your Agent responds with [skills and instructions](http://www.notion.com/help/customize-your-notion-agent-with-instructions-and-skills), and update its settings so it waits until you [approve plans](https://www.notion.com/help/review-and-approve-plans-before-notion-ai-runs) before making changes. You can always undo any changes made by your Notion Agent.
 
-**Note:**
-
-* Your Agent has the same permissions you do — if you can't view or edit specific content, your Agent can't either.
-
-* You can always undo any changes made by your Notion Agent.
-
-* As you chat with your Notion Agent, give it a thumbs up or thumbs down to let us know how it’s doing. If you give a thumbs down, you’ll also be able to tell us why.
+**Tip:** <!-- -->As you chat with your Notion Agent, give it a thumbs up or thumbs down to let us know how it’s doing. If you give a thumbs down, you’ll also be able to tell us why.
 
 ## How to work with your Agent
 
