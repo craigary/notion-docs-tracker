@@ -1,9 +1,9 @@
 ---
 title: "Notion Calendar"
-description: "Notion Calendar is a free-to-use tool where you can view and manage your personal and work schedules in one place. Learn how to bring all of your commitments together, and even use Notion Calendar with Notion."
+description: null
 url: "https://www.notion.com/help/category/notion-calendar"
 key: "category:notion-calendar"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/52docHdtStFPQdXlKPYq2u/9c5323c8555d4ff8102159ccd97b3cb9/notion-calendar-apps.png"
+coverImage: null
 ---
 
 1 help:create-a-notion-calendar-account
