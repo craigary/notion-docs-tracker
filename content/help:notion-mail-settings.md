@@ -13,41 +13,81 @@ To open Notion Mail settings, go to `Settings` in the sidebar.
 
 ## Inbox
 
-Go to `Settings` in Notion Mail → `Inbox`. From here, you can:
+Go to Settings in Notion Mail → Inbox. From here, you can set up:
 
-* Open the dropdown for `Language` to change the language you want to use Notion Mail with.
+* `Language`: choose the language you want to use in Notion Mail.
 
-* Open the dropdown for `Theme mode` to choose `Light` or `Dark` modes for Notion Mail, or follow your `System` settings.
+* `Theme mode`: customize how Notion Mail shows up on your devices — keep your system settings or choose Light or Dark mode.
 
-* Open the dropdown for `Thread style` to make your email threads open in `Side peek`, `Center peek`, or as a `Full page`.
+* `Thread style`: choose <!-- -->how your email threads open — `Side peek`, `Center peek`, or as a `Full page`.
 
-* Open the dropdown for `Auto-advance` to determine where you want to be navigated after you archive or delete a thread. You can `Go to next thread`, `Go to previous thread`, or `Close thread`.
+* `Auto-advance`: choose where to <!-- -->go after archiving or deleting a thread — `Go to next thread`, Go to previous thread, or `Close thread`.
+
+* `High contrast mode`: toggle on or off a grey background for read emails.
 
 **Note:** Notion Mail is currently available in the following languages:
 
-* Japanese
-
-* Korean
-
-* French
-
-* German
-
-* Spanish
-
-* Portuguese
+* Chinese (simplified and traditional)
 
 * Danish
 
 * Dutch
 
+* English
+
 * Finnish
+
+* French
+
+* German
+
+* Indonesian
+
+* Japanese
+
+* Korean
 
 * Norwegian
 
+* Portuguese
+
+* Spanish
+
 * Swedish
 
-* Chinese (simplified and traditional)
+* Thai
+
+* Vietnamese
+
+## Account
+
+Go to `Settings` in Notion Mail → `Account` to:
+
+* `Notion account`: view the email associated with your Notion account
+
+* `Export your data`: download a copy of your mail data
+
+* `Connected addresses`: connect or disconnect your email addresses associated with your Mail account
+
+**To delete your Notion Mail account**
+
+1. Under `Connected addresses `select `Disconnect `next to the email address you want to remove.
+
+2. A confirmation window will appear, select `Disconnect`.
+
+This action deletes the Notion Mail account linked to the disconnected email. It will permanently delete all views, Al labels, and notification preferences for this email address. You can sign up for Notion Mail again at any time.
+
+**Note:** To log out of Notion Mail, you’ll need to log out of Notion.
+
+## Notifications
+
+Go to `Settings` in Notion Mail → `Notifications` to enable and customize notifications for:
+
+* `Mac OS`: Set your system preferences to enable or disable desktop notifications
+
+* `Enable notifications per view`: Choose which views can send notifications. **Inbox notifications are on by default**, and notifications for other views are **off by default&#x20;**— so you can opt in only to the views you care about.
+
+* `Enable notifications per sender`: Add specific email addresses that should alway&#x73;**&#x20;**&#x6E;otify you. This action can still trigger notifications even if the message lands in a view with notifications turned off.
 
 ## Notion AI
 
@@ -59,7 +99,11 @@ Go to `Settings` in Notion Mail → `Notion AI` to:
 
 ## Gmail filters
 
-Go to `Settings` in Notion Mail → `Gmail filters` to manage the Gmail filters that are currently applied to your incoming mail. Select `•••` next to a filter to `Edit` or `Delete` it.
+Go to `Settings` in Notion Mail → `Gmail filters` to:
+
+* Manage the Gmail filters that are currently applied to your incoming mail.
+
+* Select `•••`**` `**&#x6E;ext to a filter to `Edit`**` `**&#x6F;r `Delete`**` `**&#x69;t.
 
 ## Snippets
 
@@ -73,27 +117,13 @@ Go to `Settings` in Notion Mail → `Snippets` to:
 
 ## Signature
 
-Go to `Settings` in Notion Mail → `Signature` to toggle Notion Mail’s `Default signature` on or off. You can also select `Open` next to `Edit signature in Gmail` to make changes to your signature in Gmail settings.
+Go to `Settings` in Notion Mail → `Signature` to:
 
-## Account
+* T<!-- -->oggle Notion Mail’s `Default signature` on or off.
 
-Go to `Settings` in Notion Mail → `Account` to:
+* Enable or disable your signature on all replies and forwards → toggle on or off `Include on replies and forwards.`
 
-* Export your data.
-
-* Delete your Notion Mail account by disconnecting the email address associated with it.
-
-  1. In Notion Mail, go to `Settings` → `Account`
-
-  2. Optional: select `Export your data` → `Export`
-
-  3. Under `Connected addresses`, select the email address you want to remove, then select `Disconnect`
-
-  4. In the confirmation window, select `Disconnect`.
-
-  This action deletes the Notion Mail account linked to the disconnected email. It includes all of your views, AI labels, and notification preferences. You can sign up for Notion Mail again at any time.
-
-**Note:** To log out of Notion Mail, you’ll need to log out of Notion.
+* Make changes to your signature in Gmail settings → select `Open` next to `Edit signature in Gmail`. This action opens your Gmail settings.
 
 **Learn more**
 

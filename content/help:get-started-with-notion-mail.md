@@ -95,6 +95,20 @@ Also note the following:
 
 * Auto-reply
 
+## Customize your notifications
+
+Notion Mail lets you control which emails trigger notifications, so you stay on top of what matters — without getting pinged for everything. You can customize notifications at three levels:
+
+* **By account:** If you use multiple email accounts in Notion Mail, you can turn notifications on or off for each account independently.
+
+* **By view:** Choose which views can send notifications. **Inbox notifications are on by default**, and notifications for other views are **off by default** — so you can opt in only to the views you care about.
+
+* **By sender:** Add specific email addresses that should **always** notify you. VIP senders can still trigger notifications even if the message lands in a view with notifications turned off.
+
+To update these settings in Notion Mail go to `Settings` → `Notifications`.
+
+At launch, notification customization is only available for Gmail-connected accounts.
+
 **Learn more**
 
 * [Can't log into Notion Mail](https://www.notion.com/help/cant-log-into-notion-mail)

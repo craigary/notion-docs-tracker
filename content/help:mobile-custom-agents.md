@@ -13,8 +13,6 @@ categoryKey: "category:custom-agents"
 
 With Custom Agents on mobile, you can quickly find agents, start or continue chats, and respond to notifications from the Notion app on iOS and Android.
 
-Custom Agents are currently in Beta and subject to the Beta terms of your agreement.
-
 ### Find a Custom Agent in your workspace
 
 To locate and open an agent:

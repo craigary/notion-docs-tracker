@@ -11,8 +11,6 @@ categoryKey: "category:custom-agents"
 
 ## Use Custom Agents to automate work in Notion
 
-Custom Agents are currently in beta and subject to the beta terms of your agreement.
-
 Custom Agents automate recurring, manual workflows for your entire team. They run automatically in the background on set triggers using your existing docs and databases as context.
 
 Set them up once — building a workflow for repetitive tasks like weekly reports or triaging feedback — and it becomes a shared resource the whole team relies on.
@@ -171,7 +169,7 @@ Slack triggers allow Agents to watch for events in both public and private Slack
 
 **Setup requirements**
 
-Before you can set up a Slack trigger, <!-- -->a Slack workspace admin must first connect Slack for Custom Agents.<!-- --> This gives Custom Agents the required read and write permissions to operate in Slack. Once the integration is enabled, you can configure triggers based on new messages or emoji reactions.
+Before you can set up a Slack trigger, a Slack workspace admin must first connect Slack for Custom Agents. This gives Custom Agents the required read and write permissions to operate in Slack. Once the integration is enabled, you can configure triggers based on new messages or emoji reactions.
 
 **Agents can watch for:**
 

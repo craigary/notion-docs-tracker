@@ -9,8 +9,6 @@ category: "Privacy & security"
 categoryKey: "category:security-and-privacy"
 ---
 
-**Note:** Custom Agents are currently in beta and subject to the beta terms of your agreement.
-
 Custom Agents operate with their own independent permissions separate from individual user permissions. This means anyone who can use an agent might access information through it that they couldn't access directly. Custom Agent security features help you control this access to keep your data safe.
 
 For general Notion AI security practices, see [Notion AI security & privacy practices](https://www.notion.com/help/notion-ai-security-practices) and [How Notion 3.0 protects against prompt injection risks](https://www.notion.com/help/how-notion-protects-against-prompt-injection-risks).

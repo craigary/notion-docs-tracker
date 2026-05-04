@@ -14,5 +14,5 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/15MnehxCRUUA3LITX21Lar/7c
 6 help:cant-upload-or-view-a-file
 7 help:notion-error-messages
 8 help:record-har-files-for-troubleshooting
-9 help:common-jira-sync-issues
-10 help:cant-log-into-notion-mail
+9 help:cant-log-into-notion-mail
+10 help:common-jira-sync-issues

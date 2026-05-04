@@ -9,8 +9,6 @@ category: "Custom Agents"
 categoryKey: "category:custom-agents"
 ---
 
-**Note:** Custom Agents are currently in beta and subject to the beta terms of your agreement.
-
 Custom Agents automate work across your Notion workspace and connected tools. Understanding how permissions work helps you safely share agents while keeping your data secure.
 
 **Key difference from Notion Agent:**
@@ -141,7 +139,7 @@ Workspace admins can manage Custom Agents across the organization using the foll
 
 To access the **Agent Directory**, go to `Settings`, select `Notion AI` from the sidebar, enter the `Agents` tab. Browse or search for agents in your workspace.
 
-![Image of agent directory within Notion AI.](https://images.ctfassets.net/spoqsaf9291f/7uJls8AxeFIEqV3sfbWuzT/75deef28ea52d389a8642ece9026bcc3/Agent_Directory.png)
+![Image of agent directory within Notion AI.](https://images.ctfassets.net/spoqsaf9291f/6fYfD4V4o71mEhMVgfIMNw/253416820a83c31fb49fb58638b8bbdd/Agent_directory.png)
 
 ### Creation controls
 
@@ -153,7 +151,7 @@ Restrict who can create Custom Agents:
 
 3. Choose who can create agents: `All workspace members `(default), `Workspace owners only`, or `Workspace owners + added groups only.`
 
-![Agent creation settings within Notion Ai.](https://images.ctfassets.net/spoqsaf9291f/2DY5bCPMynBG0uIUeaFRS1/4f673a9ad0923294abafd9d9c999b091/agents_creation_settings.png)
+![Agent creation settings within Notion Ai.](https://images.ctfassets.net/spoqsaf9291f/1hnN3DrDy9ZOTg0pEXdAEn/4c85b6c7805f6a2e0b7eed5056e1ebf3/Creation_controls.png)
 
 ## Enterprise plan controls
 
@@ -169,7 +167,7 @@ To access Content search, go to `Settings` > `Content search` and use the Shared
 
 **Note:&#x20;**&#x41;ny page or database owner can remove an agent from their resource—even if they don't have access to the agent itself.
 
-![Content search](https://images.ctfassets.net/spoqsaf9291f/1drdK1xM5XPd0I6oOLW596/3955b04bdf85f090fc3649f9042e77b4/Content_search.png)
+![Content search](https://images.ctfassets.net/spoqsaf9291f/1drdK1xM5XPd0I6oOLW596/191d9a53553bc4f2af09189d5f5a395d/Content_search.png)
 
 ### Audit Log
 
@@ -179,7 +177,7 @@ To access Content search, go to `Settings` > `Content search` and use the Shared
 
 To access the Audit Log, go to `Settings` > `Audit log` and filter for Custom Agent events by choosing the agent from the `Users/Agents` dropdown.
 
-![Audit log](https://images.ctfassets.net/spoqsaf9291f/3A5wr7nqZWoJCSoGAu6day/0e1c5d29ae21ae3ade2474aa4483199a/audit_log.png)
+![Audit log](https://images.ctfassets.net/spoqsaf9291f/3A5wr7nqZWoJCSoGAu6day/6b91dd639815d58e7c2d1723a54e511c/Audit_log.png)
 
 ### AI Analytics
 
@@ -189,7 +187,7 @@ To access the Audit Log, go to `Settings` > `Audit log` and filter for Custom Ag
 
 To access AI Analytics Go to `Settings` > `Analytics` and enter the `AI` **tab.**
 
-![AI analytics](https://images.ctfassets.net/spoqsaf9291f/HCENMeWnF5QtrVSXPogbC/6d1ffe67ad8f5c738f17364fc309f69c/ai_analytics.png)
+![AI analytics](https://images.ctfassets.net/spoqsaf9291f/HCENMeWnF5QtrVSXPogbC/df41ce2254661696a6de5bb6e6194f13/AI_analytic.png)
 
 ### Transfer ownership
 
