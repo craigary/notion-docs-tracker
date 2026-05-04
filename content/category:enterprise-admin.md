@@ -1,9 +1,9 @@
 ---
 title: "Workspace administration"
-description: null
+description: "Notion grows with your team – and some teams need a little bit more power in their feature set! See how you can use Business or Enterprise plan features to better manage your team’s Notion workspace."
 url: "https://www.notion.com/help/category/enterprise-admin"
 key: "category:enterprise-admin"
-coverImage: null
+coverImage: "https://images.ctfassets.net/spoqsaf9291f/2lKwICICVv9jnFRGGEPZC6/da3074f583c755650d86e615520d429c/Enterprise_Features-_Chapter_Hero.png"
 ---
 
 1 help:saml-sso-configuration
