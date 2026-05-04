@@ -1,9 +1,9 @@
 ---
 title: "Troubleshoot"
-description: "Here's how you can troubleshoot common issues in Notion."
+description: null
 url: "https://www.notion.com/help/category/troubleshooting"
 key: "category:troubleshooting"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/15MnehxCRUUA3LITX21Lar/7c80798bd5cce07c4b492cb6543419c7/Troubleshooting_Reference_Visuals.png"
+coverImage: null
 ---
 
 1 help:reset-notion
