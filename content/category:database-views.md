@@ -12,10 +12,10 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/2HM5BPlsww5fF5gJDpI71B/94
 4 help:timelines
 5 help:calendars
 6 help:lists
-7 help:galleries
-8 help:dashboards
+7 help:dashboards
+8 help:galleries
 9 help:charts
-10 help:layouts
-11 help:feeds
+10 help:feeds
+11 help:layouts
 12 help:maps
 13 help:forms

@@ -125,11 +125,11 @@ When the change request is submitted, an email notification will be sent to the 
 
 ### Notification period
 
-Once an [organization owner](https://www.notion.com/help/organization-level-controls#who-can-apply-organization-level-controls) verifies a domain, an automated email will be sent to all workspace owners of workspaces created with that domain, notifying them that their workspaces are eligible to be claimed.
+Once an [organization owner](https://www.notion.com/help/organization-level-controls#who-can-apply-organization-level-controls) verifies a domain, an automated email will be sent to all workspace owners of workspaces <!-- -->that already exist with <!-- -->that domain, notifying them that their workspaces are eligible to be claimed.
 
 During this 14-day notification period, workspace owners can only request ownership transfers on single-member workspaces. They will be unable to delete single-member workspaces or claim multi-member workspaces.
 
-After a domain is verified, users who create new workspaces with a verified domain will be notified upon creation that their workspace is eligible to be claimed.
+**Note:&#x20;**&#x54;his notification email is **only sent** when the domain is first verified, not when new workspaces are created later.
 
 ### Export list of claimable workspaces
 
