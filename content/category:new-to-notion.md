@@ -6,8 +6,8 @@ key: "category:new-to-notion"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/2HM5BPlsww5fF5gJDpI71B/94b7676aa48c86aa4d3fe90583812b4a/New_to_Notion_-_Chapter_Hero.png"
 ---
 
-1 help:start-here
-2 help:intro-to-workspaces
+1 help:intro-to-workspaces
+2 help:start-here
 3 help:what-is-a-block
 4 help:create-your-first-page
 5 help:create-a-subpage
