@@ -9,7 +9,7 @@ category: "Notion Calendar"
 categoryKey: "category:notion-calendar"
 ---
 
-You can connect calendars from Apple and Google with Notion Calendar. AI Meeting Notes works with Microsoft Outlook, but Outlook events don’t appear in the Notion Calendar app yet.**&#x20;**&#x43;heck [What’s New](https://www.notion.com/releases) and [Notion Calendar on Twitter](https://twitter.com/notioncalendar) for updates.
+You can connect calendars from Apple and Google with Notion Calendar. We’re working on adding support for Microsoft Outlook — check <https://www.notion.com/releases> and <https://twitter.com/notioncalendar> for updates.
 
 Looking to adjust notifications, appearance, language, or what day your weeks start in Notion Calendar? Learn about Notion Calendar settings [here →](https://www.notion.com/help/notion-calendar-settings)
 

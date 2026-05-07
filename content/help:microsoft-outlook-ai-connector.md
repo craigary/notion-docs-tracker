@@ -9,8 +9,6 @@ category: "Notion AI Connectors"
 categoryKey: "category:notion-ai-connectors"
 ---
 
-**Note:** <!-- -->This feature is only available on the Enterprise Plan.
-
 ## Connect Microsoft Outlook to Notion AI
 
 **Who can connect Microsoft Outlook email to Notion AI?**
@@ -19,7 +17,7 @@ To connect Microsoft Outlook to Notion AI:
 
 * You must be a Microsoft 365 Admin and Notion workspace owner.
 
-* You must be on Notion’s Enterprise Plan.
+* You must be on Notion’s Business or Enterprise Plans.
 
 **How do I connect Microsoft Outlook email?**
 
