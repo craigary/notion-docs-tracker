@@ -1,9 +1,9 @@
 ---
 title: "Settings & preferences"
-description: "From language options to notification settings, there are lots of adjustments you can make to Notion so that it suits your personal workflow."
+description: null
 url: "https://www.notion.com/help/category/account-settings-and-privacy"
 key: "category:account-settings-and-privacy"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/fB3bs1S6denCTSAnrUsYx/f05af4e817ac48c4817ce9c83d52488d/Account_Settings___Privacy_-_Chapter_Hero.png"
+coverImage: null
 ---
 
 1 help:account-settings
@@ -12,9 +12,9 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/fB3bs1S6denCTSAnrUsYx/f05
 4 help:hipaa
 5 help:data-access-consent
 6 help:delete-your-account
-7 help:passkeys
-8 help:notion-faces
-9 help:secondary-emails
-10 help:log-in-and-out
-11 help:change-your-language
-12 help:manage-email-and-calendar-settings
+7 help:secondary-emails
+8 help:log-in-and-out
+9 help:change-your-language
+10 help:manage-email-and-calendar-settings
+11 help:passkeys
+12 help:notion-faces

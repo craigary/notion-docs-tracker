@@ -19,7 +19,7 @@ In your sidebar, select **`Library`**.
 
 ## Customize your sidebar
 
-With Library, you can remove sections from your sidebar to keep it clean. <!-- -->Customize which sections show in your sidebar, and choose how many favorites appear. <!-- -->If you remove a section from your sidebar, you can still access it later from your Library.
+With Library, you can remove sections from your sidebar to keep it clean. Customize which sections show in your sidebar, and choose how many favorites appear. If you remove a section from your sidebar, you can still access it later from your Library.
 
 1. Go to your Library.
 
@@ -44,6 +44,10 @@ At the top of Library, you’ll find tabs that help you browse different parts o
 * **Shared&#x20;**— Find pages shared with you.
 
 * **Private&#x20;**— Find your personal pages.
+
+* **AI Meeting Notes** — Find notes from meetings you attended, organized here for easy follow-up.
+
+* **Agents&#x20;**— Create a new Custom Agent, and view existing agents.
 
 ## Find pages faster
 

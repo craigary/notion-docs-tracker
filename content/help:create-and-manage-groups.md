@@ -1,7 +1,7 @@
 ---
 title: "Create & manage groups"
 emoji: "💼"
-description: "Groups in Notion allow you to bring people together and collaborate more easily 💼"
+description: "Groups in Notion allow you to bring people together and collaborate more easily. Learn about group owners, plus how to create and manage groups 💼"
 url: "https://www.notion.com/help/create-and-manage-groups"
 key: "help:create-and-manage-groups"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/7yeAygbOMGjCu58qywlkiL/bb56d1c34680c77456692dc182356a03/Create_and_Manage_Groups.png"
@@ -9,7 +9,7 @@ category: "Share & collaborate"
 categoryKey: "category:sharing-and-collaboration"
 ---
 
-You can set varying and granular permissions for different groups and teams without having to divide your people into different workspaces! Instead, create groups inside one workspace and grant them different levels of access page by page. Here's how.
+You can set varying permissions for different groups and teams without having to divide your people into different workspaces. Create groups inside one workspace and grant them different levels of access page by page.
 
 ## Create and edit groups
 
@@ -32,6 +32,42 @@ Workspace owners and membership admins can create and edit groups. To do this:
 7. You can always search someone's name or email to see which group they're in.
 
 ![HC: Manage groups](https://images.ctfassets.net/spoqsaf9291f/5SZvcOROmtVWj6Ps0iFUhj/528181945e993c0ab27a30583252ac67/Group_70__1_.png)
+
+## Add or manage group owners
+
+If your workspace allows members to create groups, any member can select `Create a group`. The person who creates the group will become a group owner by default.
+
+Workspace owners and membership admin can assign or manage a group owner.
+
+To add or manage group owners:
+
+1. Go to `Settings` → `Members`.
+
+2. Select the three-dot menu next to a member.
+
+3. Select `Make group owner` or `Remove from group`.
+
+Group owners can manage a specific group without needing to be a workspace owner or membership admin. Depending on your workspace settings, group owners can:
+
+* Add or remove members from the group.
+
+* Delete the group.
+
+* Rename the group.
+
+* Assign other group owners, and change owners to members.
+
+* Create teamspaces from a group, or remove teamspace associations from a group.
+
+Workspace owners and membership admins can assign one or more group owners to a group. Group owners can’t manage other groups unless they’re also a workspace owner or membership admin.
+
+## Synced (SCIM-managed) groups
+
+If your organization provisions groups through SCIM, some groups may be labeled `Synced`. These groups are managed by your identity provider (like Okta or Microsoft Entra ID).
+
+If you try to rename a synced group or change its membership in Notion, you’ll see a warning. Changes made in your identity provider can overwrite edits made in Notion.
+
+To learn more about SCIM provisioning, see [this article](https://www.notion.com/help/provision-users-and-groups-with-scim).
 
 ## Share a page with groups
 
@@ -87,3 +123,15 @@ We've seen people create multiple workspaces instead of groups to set granular p
 * On every page, grant different levels of access per group. Those access levels will hold true for all the sub-pages on that page.
 
 * So, for example, you could have a section of your workspace just for the engineering team. Create a group of all your engineers, then on the top-level page for that team, turn on `Full access` for only that group. Nest pages inside that page, and only the engineering team can access them, too!
+
+
+### Who can manage groups in my workspace?
+
+Workspace owners and membership admins can create and manage all groups.
+
+Group owners can manage membership, group owners and rename the groups they own.
+
+
+### Can I restrict who can create groups?
+
+On Enterprise plans, workspace owners can restrict group creation to workspace owners and membership admins only.

@@ -69,7 +69,7 @@ To delete a shortcut:
 
 ## Upcoming events
 
-If you use [Notion Calendar](https://www.notion.com/help/create-a-notion-calendar-account), you can see your schedule, join meetings, and access meeting docs and links using the Upcoming events widget in Home. If you haven’t already used Notion Calendar with Notion, you’re logged out of Notion Calendar, or you’re using the widget in a new or different Notion workspace, you can select `Connect to Notion Calendar` in the widget to set up your calendar.
+If you use [Notion Calendar](https://www.notion.com/help/create-a-notion-calendar-account), you can see your schedule, join <!-- -->and transcribe <!-- -->meetings, and access meeting docs and links using the Upcoming events widget in Home. If you haven’t already used Notion Calendar with Notion, you’re logged out of Notion Calendar, or you’re using the widget in a new or different Notion workspace, you can select `Connect to Notion Calendar` in the widget to set up your calendar.
 
 **Note:&#x20;**&#x49;f you’re using Notion for desktop, you may be prompted to sign into your Notion account on the web to set up the Upcoming events widget.
 
