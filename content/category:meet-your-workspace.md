@@ -7,7 +7,7 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/nTY8OFImJy9voN7l6pJSt/49f
 ---
 
 1 help:create-delete-and-switch-workspaces
-2 help:browse-join-and-create-teamspaces
-3 help:workspace-settings
+2 help:workspace-settings
+3 help:browse-join-and-create-teamspaces
 4 help:workspaces-on-mobile
 5 help:delete-a-workspace

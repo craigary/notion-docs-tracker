@@ -113,7 +113,7 @@ To create clear instructions for your Agent, start with the job and outcome you 
 
 ## Configure triggers and schedules
 
-Triggers determine when your Agent runs. You can combine multiple trigger types for a single Agent.
+Triggers determine when your agent runs. You can combine multiple trigger types for a single agent. You can also use filters to help your agent run only for the pages or messages you care about, or only when certain conditions you set are met (for example, a specific status or a keyword).
 
 #### Automate workflows with recurring, time-based schedules
 
@@ -137,7 +137,7 @@ Use recurring schedules to run Agents on a cadence.
 
 #### Use Notion triggers
 
-Notion triggers run your Agent based on events in your workspace. You can trigger Agents when:
+Notion triggers run your agent based on events in your workspace. You can trigger agents when:
 
 * A comment is added to a page.
 
@@ -146,6 +146,8 @@ Notion triggers run your Agent based on events in your workspace. You can trigge
 * A property is updated in a database.
 
 * A page is removed from a database.
+
+Some Notion triggers let you add filters, like matching specific property values or limiting runs to pages in a particular database view.
 
 **To add a Notion trigger:**
 
@@ -159,13 +161,13 @@ Notion triggers run your Agent based on events in your workspace. You can trigge
 
    * The event (for example, "page created in database").
 
-   * Any additional filters or conditions if available.
+   * Optional filters or conditions (for example, a specific status value or a database view).
 
 4. Save.
 
 #### Use Slack triggers
 
-Slack triggers allow Agents to watch for events in both public and private Slack channels.
+Slack triggers allow agents to watch for events in both public and private Slack channels.
 
 **Setup requirements**
 
@@ -181,7 +183,9 @@ Before you can set up a Slack trigger, a Slack workspace admin must first connec
 
 * The Custom Agent **mentioned&#x20;**&#x69;n a message.
 
-  * Note: To trigger an Agent by mentioning it in Slack, your Slack workspace admin must first allow all members to create user groups. Once this setting is enabled, anyone can trigger the Agent by mentioning its name in the associated Slack channel.
+  * Note: To trigger an agent by mentioning it in Slack, your Slack workspace admin must first allow all members to create user groups. Once this setting is enabled, anyone can trigger the Agent by mentioning its name in the associated Slack channel.
+
+You can add filters to reduce noise in high-traffic channels (for example, limit triggers to specific channels or event types).
 
 **To add a Slack trigger:**
 
@@ -195,11 +199,11 @@ Before you can set up a Slack trigger, a Slack workspace admin must first connec
 
    * The channel to monitor.
 
-   * Any additional filters or conditions if available.
+   * Optional filters (for example, only trigger when a message contains a specific keyword or phrase).
 
 4. Save.
 
-Whenever a Custom Agent is triggered in Slack, it can show an typing indicator (“Working on it…”) to signal that it’s processing the request. This doesn’t always mean the Agent will reply. You can switch this off anytime by going to the trigger settings.
+Whenever a Custom Agent is triggered in Slack, it can show a typing indicator (“Working on it…”) to signal that it’s processing the request. This doesn’t always mean the agent will reply. You can switch this off anytime by going to the trigger settings.
 
 **To turn off the typing indicator:**
 

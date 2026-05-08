@@ -17,33 +17,55 @@ If you manage your billing in-product, admins can purchase and monitor credit us
 
 If you have an account team, they can help you plan your credit needs and explore additional credit options.
 
-## When will Custom Agents start using credits?
+**Note:&#x20;**&#x49;f you’re on a Business or Enterprise plan and you run out of Notion credits, you’ll still be able to use other AI features (like AI Meeting Notes and Notion Agent) up to the fair use limit.
 
-Custom Agents begin using credits on May 4, 2026.
+## How Notion credits work
 
-If your workspace doesn’t have enough credits, Custom Agents will pause automatically until an admin adds more. Learn when you can [purchase credits](https://www.notion.com/help/custom-agent-pricing#purchase-notion-credits) below.
+Here’s what to know before you buy Notion credits:
 
-**If you already have Custom Agents running from the beta:**
+* **Get the full credit amount right away.&#x20;**&#x57;hen you purchase monthly credits, the full amount is available in your workspace right away. Credits are not prorated.
 
-* Your workspace gets promotional credits, so your agents don’t automatically pause on May 4, 2026. This gives you time to purchase credits.
+* **Credits reset monthly:&#x20;**&#x59;our credits reset to the amount you purchased. Any unused credits don’t carry over to the next month.
 
-**When you purchase credits:**
+* **Credits are shared across the workspace.** Credits are pooled at the workspace level. Any Custom Agents in the workspace draw from the same balance, regardless of who created or ran it.
 
-* Your credit billing aligns to your monthly service date (not the date you purchase credits). Your monthly service date is tied to when your Notion subscription started.
+* **Adjust credits month to month.&#x20;**&#x41;dmins can adjust the purchased amount up or down each billing cycle to match actual usage.
 
-  * For example, if your monthly service date is May 9, your credit billing starts on May 9.
+* **Credits are billed monthly.&#x20;**&#x46;or monthly subscribers, Notion credits are billed alongside your monthly subscription. For annual subscribers, Notion credits are billed separately on a monthly basis.
 
-* You can find your monthly service date in the Notion credits dashboard.
+* **You can purchase anytime.&#x20;**&#x49;f you run out of credits before they reset, you can always purchase more mid-cycle to keep agents running without interruption.
+
+## When does billing start for Custom Agents?
+
+Custom Agents can run for free until your next monthly service date (on or after May 4, 2026). Billing and credit usage begin on your next monthly service date, regardless of when you purchase credits beforehand.
+
+#### What is a monthly service date?
+
+Your monthly service date is based on the day you started your monthly or annual Notion subscription. It's the date each month when your Notion credits reset and any credit changes take effect (whether you're on a monthly or annual plan).
+
+If you purchase monthly Notion credits, this is also your billing date. You can find it in the [Noton credits dashboard](https://www.notion.com/help/custom-agent-pricing#track-usage-in-the-notion-credits-dashboard).
+
+#### When will I see charges?
+
+When you first purchase Notion credits, you will see charges on your next monthly service date, and that’s when credit consumption begins. For example, if your monthly service date is May 9, credit usage begins on May 9.
+
+Once billing and credit usage begins, any new purchases will be charged immediately going forward.
+
+#### What if we don’t purchase enough credits?
+
+Custom Agents will pause automatically at your next monthly service date until an admin adds more credits or your credits reset. To resume Custom Agents, admins will need to [purchase credits](https://www.notion.com/help/custom-agent-pricing#purchase-notion-credits) and switch agents back on.
+
+#### **If you used Custom Agents during the beta**
+
+Your agents will keep running until your first monthly service date (on or after May 4, 2026).
 
 ## Purchase Notion credits
 
-Admins can purchase Notion credits starting with the first monthly service date on or after May 4, 2026.
+Admins can purchase Notion credits at any time through the Notion credits dashboard.
 
-* **Purchase in-product:&#x20;**&#x42;uy what you need starting in the hundreds and scaling into the thousands in the [Notion credits dashboard.](https://www.notion.com/help/custom-agent-pricing#track-usage-in-the-notion-credits-dashboard)
+![HC: Notion credits dashboard](https://images.ctfassets.net/spoqsaf9291f/6VO6tMhJVcel0B9aHSnZRn/5a7e4b5b0f208cde35c390cf648bbcbd/%C3%A2____35_.png)
 
-* **Purchase through an account team:&#x20;**&#x59;our account team can help you plan and explore additional credit options.
-
-To purchase credits in the Notion credits dashboard:
+#### **Purchase in the Notion credits dashboard**
 
 * Go to `Settings `→ `Access & billing` → `Notion credits`.
 
@@ -53,23 +75,21 @@ To purchase credits in the Notion credits dashboard:
 
 You can set how much you want to buy starting in hundreds and scaling into the thousands.
 
-![HC: Notion credits dashboard](https://images.ctfassets.net/spoqsaf9291f/6VO6tMhJVcel0B9aHSnZRn/5a7e4b5b0f208cde35c390cf648bbcbd/%C3%A2____35_.png)
+#### Purchase through an account team
 
-## How Notion credits work
+Your account team can help you plan credit needs and explore additional options.
 
-Here’s what to know before you buy Notion credits:
+## Manage Notion credits
 
-* **Get the full credit amount right away:&#x20;**&#x57;hen you purchase monthly credits, the full amount is available in your workspace right away, regardless of where you are in your billing cycle. Credits are not prorated.
+Admins can manage monthly Notion credits from settings:
 
-* **Credits reset monthly:&#x20;**&#x4F;n your add-on service date, your credits refill to the amount you purchased. Any unused credits don’t carry over to the next month.
+1. Go to `Settings`→ `Access & billing` → `Billing`.
 
-* **Credits are shared across the workspace:&#x20;**&#x43;redits are pooled at the workspace level. Any Custom Agents in the workspace draw from the same balance, regardless of who created or ran it.
+2. Select `Manage credits`.
 
-* **Adjust credits month to month:&#x20;**&#x41;dmins can adjust the purchased amount up or down each billing cycle to match actual usage.
+3. Choose an amount.
 
-* **Credits are billed with your subscription:&#x20;**&#x4E;otion credits are billed with your Business or Enterprise plan.
-
-* **You can purchase anytime:&#x20;**&#x49;f you run out of credits before your monthly service date, you can purchase more mid-cycle to keep agents running without interruption.
+![Manage monthly Notion credits](https://images.ctfassets.net/spoqsaf9291f/3uDYDZaLh4JJnhW5NDb0Z6/00470c17ffe734e5f8de4eb3769b84c5/Screenshot_2026-05-01_at_3.17.57%C3%A2__PM.png)
 
 ## How Custom Agents use credits
 

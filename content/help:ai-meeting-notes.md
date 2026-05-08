@@ -263,44 +263,6 @@ There are a few ways to connect AI Meeting Notes with existing events in Notion 
 
 * Select an event in Notion Calendar, click on the `AI Meeting Notes and Docs` field, and add meeting notes.
 
-## Use AI Meeting Notes with Microsoft Outlook
-
-AI Meeting Notes works with Microsoft Outlook calendars, so you can capture, transcribe, and summarize Outlook meetings directly in Notion.
-
-**Connect your Outlook calendar**
-
-To use AI Meeting Notes with Outlook within Notion:
-
-1. Open your `Sidebar` in Notion → `{Workspace name}` → `Settings`.
-
-2. Under `Account` click into `Mail & Calendar`.
-
-3. Under `Connected calendars `→ `+ Add calendar` select Microsoft Outlook.
-
-4. Sign in and authorize access to your Outlook calendar account.
-
-Once you’re connected, upcoming Outlook meetings will appear in `Meetings` in your sidebar.
-
-**Using AI Meeting Notes with Outlook**
-
-From the `Meetings` tab, use AI Meeting Notes for your Outlook meetings to:
-
-* View both upcoming and previous meetings.
-
-* Get calendar-based notifications for upcoming meetings.
-
-* View auto-populated event details pulled from Outlook (like meeting title, attendees, and time).
-
-* Create meeting transcripts and get AI-generated summaries.
-
-* Auto-start transcription via audio detection.
-
-Some Outlook features aren’t available yet:
-
-* Viewing or editing Outlook events in the Notion Calendar app (desktop or mobile).
-
-* Advanced Outlook features (like group calendar support and rooms & resources).
-
 ## Meetings in sidebar
 
 **Note:** This feature is still rolling out to users. Thanks for your patience as we make it available to you soon!

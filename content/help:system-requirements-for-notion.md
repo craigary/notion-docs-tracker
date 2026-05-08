@@ -17,7 +17,7 @@ For the best experience with Notion, make sure you’re using the latest version
 
 | Operating system | Version                                             |
 | ---------------- | --------------------------------------------------- |
-| macOS            | macOS 11 or above                                   |
+| macOS            | macOS 12 or above                                   |
 | Windows          | Windows 10 version 21H2 or aboveWindows Server 2016 |
 
 ## Web
