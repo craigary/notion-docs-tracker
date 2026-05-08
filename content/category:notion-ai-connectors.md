@@ -17,7 +17,7 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/2HM5BPlsww5fF5gJDpI71B/94
 9 help:microsoft-outlook-ai-connector
 10 help:google-calendar-ai-connector
 11 help:notion-ai-connector-for-gmail
-12 help:box-ai-connector
-13 help:asana-ai-connector
-14 help:notion-calendar-ai-connector
-15 help:notion-mail-ai-connector
+12 help:notion-calendar-ai-connector
+13 help:notion-mail-ai-connector
+14 help:asana-ai-connector
+15 help:box-ai-connector
