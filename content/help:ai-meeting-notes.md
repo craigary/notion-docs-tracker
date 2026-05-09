@@ -61,9 +61,19 @@ To create AI Meeting Notes, type `/meet` into any page in the desktop app. If yo
 
 * If you’d like to resume your recording, click the slider icon at the top of the meeting notes block → `Resume transcription`.
 
-## Transcript segmentation and citations
+## Follow the transcript with speaker labels & citations
 
-When AI Meeting Notes detects that the person speaking has changed, it will start transcribing on a new line. However, speakers won’t be identified or labeled.
+When AI Meeting Notes detects that the person speaking has changed, it will start transcribing on a new line.
+
+On the desktop app, Notion can label speakers in the transcript so it’s easier to follow who said what. This works best for virtual one-on-one meetings, where Notion can capture both your microphone and your system audio. If your meeting note is linked to a calendar event, Notion can also label the other participant by name.
+
+In other meeting setups (like in-person conversations or group meetings), speaker labeling may be limited. You may not see reliable speaker labels if you’re:
+
+* In a live meeting where multiple people share one microphone.
+
+* In a group meeting with multiple speakers.
+
+* Using Notion in a browser or on the mobile app.
 
 You’ll also find citations to your transcript in your meeting notes summary. Hover over a citation to see the snippet of your transcript that’s been referenced. You can also click on a citation to jump to the corresponding line in your transcript.
 
@@ -241,27 +251,73 @@ If you’re not able to see AI Meeting Notes in your slash menu, it’s possible
 
 ## Connect AI Meeting Notes to Notion Calendar
 
-AI Meeting Notes becomes even more powerful with [Notion Calendar](https://www.notion.com/product/calendar). Effortlessly create, organize, and share meeting notes so you can stay present in meetings and keep your team in sync.
+AI Meeting Notes becomes even more powerful with [Notion Calendar](https://www.notion.com/product/calendar). <!-- -->Create, organize, and share meeting notes so you can stay present in meetings and keep your team in sync. Once you’re done, you can easily access the meeting summary right from the event.
 
-To connect AI Meeting Notes to Notion Calendar for the first time:
+#### Get started with AI Meeting Notes
 
-1. Click the slider icon at the top of an AI Meeting Notes block → `Connect Notion Calendar`.
+To connect AI Meeting Notes to Notion Calendar for the first time, you have three options:
+
+**In your sidebar in Notion**
+
+1. Open your sidebar
+
+2. Select `Meetings`
+
+3. Click `Connect your calendar`
+
+4. Choose your calendar provider → your browser will open and guide you through connecting your calendar.
+
+**In the AI Meeting Notes block:**
+
+1. Open a page with your AI Meeting Notes block
+
+2. Click the `Settings` icon at the top of an AI Meeting Notes block
+
+3. Choose `Connect` `Calendar`.
 
    * If you don’t see that option, this means your workspace is already connected to Notion Calendar.
 
-2. At the top of Notion Calendar, click your profile icon → `Settings`. You’ll find a list of your connected Notion workspaces under the `Notion workspaces` section of the settings sidebar. For each connected workspace, you can:
+**In Notion Calendar:**
 
-   * Choose where to store meeting notes (we recommend a meeting notes database). By default, this will be the `Private` section of your Notion workspace, but you can set it to any destination. Note that this setting is different from the default database that you can designate in **Notion** settings. If you want all your AI Meeting Notes to be stored in the same place, make sure to set the same default meeting notes location in both Notion Calendar and Notion!
+1. At the top of Notion Calendar, click your profile icon → `Settings`.
 
-   * Choose to auto-add meeting notes to new events.
+2. Under `Notion workspaces `→ choose your workspace.
 
-There are a few ways to connect AI Meeting Notes with existing events in Notion Calendar:
+3. Choose your `Default meetings database`. We recommend using a designated meeting notes database.
 
-* Click the slider icon at the top of an AI Meeting Notes block, hover over `Add calendar event`, and select from an upcoming event.
+If you choose a default meeting notes database in Notion, you’ll see the same one in Notion Calendar. Any meeting notes you create in Calendar will be saved there.
 
-* In the `Upcoming events` section of Notion `Home`, hover over an event and select the AI Meeting Notes icon. You won’t see this option for all-day events.
+Learn more about setting a default database for your meeting notes [here](https://www.notion.com/help/ai-meeting-notes#choose-a-default-database-for-ai-meeting-notes).
 
-* Select an event in Notion Calendar, click on the `AI Meeting Notes and Docs` field, and add meeting notes.
+#### After you connect AI Meeting Notes
+
+After you’re connected, you can create, open, and manage AI Meeting Notes directly from an event in Notion Calendar. Depending on the event and your settings, you’ll see different options for adding notes, starting a transcription, or viewing a summary.
+
+You won’t see the option to add AI Meeting Notes for all-day events.
+
+* `AI Meeting note`: If an event doesn’t have participants, conferencing, or a linked note yet, use the `AI meeting note `option in the event to get started. This allows you to create a new meeting note or link an existing Notion page.
+
+* `Add meeting note`: If an event has participants or conferencing, but doesn’t have a meeting note yet (and the meeting hasn’t started), you’ll see `Add meeting note`. This creates a linked meeting note using your saved preferences, then opens it in Notion for you to edit.
+
+* `Open meeting note`: If a meeting note is already linked, you’ll see `Open meeting note`. Select it to open the meeting note to get started.
+
+* `Join and transcribe`: Starting 15 minutes before a meeting, you may see `Join and transcribe `in your event (depending on your settings). This will either open the linked meeting notes page or create one within your Notion workspace.
+
+* `Transcribe meeting`: If an event doesn’t have conferencing details, you’ll see `Transcribe meeting `instead of `Join and transcribe`.
+
+* `View summary`: After the meeting, you can view the AI meeting notes summary by clicking on `View summary`
+
+By default, Notion Calendar will show `Join and transcribe` for your meetings if:
+
+* You’re the meeting organizer
+
+* You created the linked meeting note or it’s parent doc
+
+* It’s a recurring event that’s been transcribed in a prior instance.
+
+Change this in `Settings` → `Calendar accounts` → `{your email}` → `Preferred current meeting action`.
+
+.
 
 ## Meetings in sidebar
 
@@ -382,6 +438,8 @@ If an Enterprise Plan workspace owner has turned on both `Automatic transcript d
 
 English, Chinese, Spanish, French, German, Japanese, Korean, Portuguese, Russian, Thai, Vietnamese, Danish, Finnish, Norwegian, Dutch, and Swedish.
 
+[Speaker labeling](https://www.notion.com/help/ai-meeting-notes#follow-the-transcript-with-speaker-labels-&-citations) is currently available in English only.
+
 
 ### Is AI Meeting Notes available offline?
 
@@ -436,3 +494,8 @@ The Notion desktop app observes if a user has a process running on their compute
 ### Can I convert an existing Notion page into a meeting summary template?
 
 Not at this time. Custom instructions must be created directly from Instructions at the bottom of the meeting notes block.
+
+
+### How does Notion identify speakers in a transcript?
+
+Notion detects when speakers are shifting in audio, then uses context from non-audio sources (for example, audio source and calendar event information) to label speakers. [Speaker labeling](https://www.notion.com/help/ai-meeting-notes#follow-the-transcript-with-speaker-labels-&-citations) happens within a single meeting only.
