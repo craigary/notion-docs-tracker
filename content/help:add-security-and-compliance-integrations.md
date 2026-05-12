@@ -1,7 +1,7 @@
 ---
-title: "Add security & compliance integrations"
+title: "Add security & compliance connections"
 emoji: "🔐"
-description: "Learn how to add security and compliance integrations to your workspace 🔐"
+description: "Learn how to add security and compliance connections to your workspace 🔐"
 url: "https://www.notion.com/help/add-security-and-compliance-integrations"
 key: "help:add-security-and-compliance-integrations"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/4cBManwE4Muz3k8Qek1Vda/e6c35d9ee50fdc54634d422cbe277453/add-security-and-compliance-integrations.png"
@@ -9,21 +9,21 @@ category: "Workspace administration"
 categoryKey: "category:enterprise-admin"
 ---
 
-Only Enterprise workspace owners can install workspace-wide security and compliance integrations. To add a security and compliance integration:
+Only Enterprise workspace owners can install workspace-wide security and compliance connections. To add a security and compliance connection:
 
 1. Go to `Settings` → `Connections`.
 
 2. Open the `Workspace` tab.
 
-## Prerequisites for adding security and compliance integrations
+## Prerequisites for adding security and compliance connections
 
 * Your workspace must be on an Enterprise Plan.
 
-* Only a workspace owner can configure security and compliance integrations for a Notion workspace.
+* Only a workspace owner can configure security and compliance connections for a Notion workspace.
 
 * You must have admin privileges in the partner tool.
 
-## DLP partner integrations
+## DLP partner connections
 
 Integrating with a DLP solution will help detect the use of sensitive data in your workspace and take automated action to remediate data breaches quickly by alerting workspace owners, redacting content, or restricting page access.
 
@@ -37,7 +37,7 @@ Integrating with a DLP solution will help detect the use of sensitive data in yo
 
 3. Authenticate with your Nightfall credentials.
 
-4. You can find additional instructions [here](https://help.nightfall.ai/nightfall-ai/nightfall-for-notion), and learn more about the integration [here](https://www.nightfall.ai/integrations/notion).
+4. You can find additional instructions [here](https://help.nightfall.ai/nightfall-ai/nightfall-for-notion), and learn more about the connection [here](https://www.nightfall.ai/integrations/notion).
 
 ### Disconnecting by partner
 
@@ -45,11 +45,11 @@ Integrating with a DLP solution will help detect the use of sensitive data in yo
 
 1. In Notion, go to `Settings` → `Connections` → open the `Workspace` tab.
 
-2. Select `•••` beside the `Nightfall` integration → `Disconnect`.
+2. Select `•••` beside the `Nightfall` connection → `Disconnect`.
 
 3. In the [Nightfall application](http://app.nightfall.ai), select `Notion` in `My Integrations`, and remove the relevant Notion workspace from the `Workspaces` list.
 
-## SIEM partner integrations
+## SIEM partner connections
 
 Integrating with a SIEM solution will bring your Notion audit log information into a shared platform with the rest of your SaaS app logs in order to:
 
@@ -133,7 +133,7 @@ Integrating with a SIEM solution will bring your Notion audit log information in
 
 ### Setup tips by partner
 
-To set up most of this integration, you will need to manually provide a webhook URL or token.
+To set up most of this connection, you will need to manually provide a webhook URL or token.
 
 * [Datadog](https://docs.datadoghq.com/integrations/notion): The `Webhook URL` and `Token` are not required.
 
@@ -159,7 +159,7 @@ Events are split into five main categories:
 
 * **User events**: This includes events about accounts of users in the workspace.
 
-* **Integration events**:**&#x20;**&#x54;his includes events about internal integrations associated with the workspace.
+* **C****onnection events**:**&#x20;**&#x54;his includes events about internal connections associated with the workspace.
 
 ### Page audience
 
@@ -169,7 +169,7 @@ For page events, the page audience describes the visibility level of the target 
 
 * **Internal**: The page is shared with other members of the workspace only.
 
-* **External**: The page is shared with one or more guests outside of the workspace and/or with an integration bot.
+* **External**: The page is shared with one or more guests outside of the workspace and/or with an connection bot.
 
 * **Public**: The page is shared to the web.
 
@@ -189,17 +189,17 @@ For page events, the page audience describes the visibility level of the target 
 
 * **workspace.domain\_management.transfer\_request\_status\_updated**: A transfer request for a workspace created by a user with a verified domain was updated. (See [this article](https://www.notion.com/help/domain-management) for more information.)
 
-* **workspace.external\_account\_connected**: A public/external integration was connected to the workspace.
+* **workspace.external\_account\_connected**: A public/external connection was connected to the workspace.
 
-* **workspace.external\_account\_disconnected**: A public/external integration was disconnected from the workspace, or a workspace owner removed access to a public integration for all users in the workspace.
+* **workspace.external\_account\_disconnected**: A public/external connection was disconnected from the workspace, or a workspace owner removed access to a public connection for all users in the workspace.
 
 * **workspace.group.permissions.member\_added**: A workspace owner or membership admin added a new member to a group. A group is a defined collection of workspace members.
 
 * **workspace.group.permissions.member\_removed**: A workspace owner or membership admin removed a member from a group.
 
-* **workspace.integration\_added**: An integration was added to the workspace for the first time. (This event will only be emitted the first time an integration is added to a workspace.)
+* **workspace.connection\_added**: An connection was added to the workspace for the first time. (This event will only be emitted the first time an connection is added to a workspace.)
 
-* **workspace.integration\_removed**: All bots for a specific public integration are removed.
+* **workspace.connection\_removed**: All bots for a specific public connection are removed.
 
 * **workspace.members\_exported**: A list of workspace members was exported.
 
@@ -319,11 +319,11 @@ For page events, the page audience describes the visibility level of the target 
 
 * **page.permissions.guest\_role\_updated**: A guest’s page permissions were updated, changing their type of access.
 
-* **page.permissions.integration\_role\_added**: A user added an [integration](https://www.notion.com/help/add-and-manage-connections-with-the-api) to a page. Integrations of any type — internal or public/external — will trigger this event.
+* **page.permissions.connection\_role\_added**: A user added an [connection](https://www.notion.com/help/add-and-manage-connections-with-the-api) to a page. Connections of any type — internal or public/external — will trigger this event.
 
-* **page.permissions.integration\_role\_removed**: A user removed the page permissions for an integration (or “connection”), which will restrict the integration from having access to the page. Integrations of any type — internal or public/external — will trigger this event.
+* **page.permissions.connection\_role\_removed**: A user removed the page permissions for an connection (or “connection”), which will restrict the connection from having access to the page. Connections of any type — internal or public/external — will trigger this event.
 
-* **page.permissions.integration\_role\_updated**: A user updated the page permissions of an integration (or “connection”). Integrations of any type — internal or public/external — will trigger this event.
+* **page.permissions.connection\_role\_updated**: A user updated the page permissions of an connection (or “connection”). Connections of any type — internal or public/external — will trigger this event.
 
 * **page.permissions.member\_role\_added**: A member’s page permissions were added, which will allow them to access the page.
 
@@ -353,15 +353,15 @@ For page events, the page audience describes the visibility level of the target 
 
 * **Authorized via Workspace SAML**: Verified workspace access via SAML SSO.
 
-**Integration**
+C**onnection**
 
-* **integration.created**: A developer created an internal integration and associated it with the workspace.
+* **connection.created**: A developer created an internal connection and associated it with the workspace.
 
-* **integration.deleted**: An internal integration associated with the workspace was deleted. Deletions can occur in the My Integrations dashboard, or an admin can remove access to an internal integration for all users.
+* **connection.deleted**: An internal connection associated with the workspace was deleted. Deletions can occur in the My Connections dashboard, or an admin can remove access to an internal connection for all users.
 
-* **integration.secret\_reset**: The authentication secret for an internal integration was reset (or “refreshed”).
+* **connection.secret\_reset**: The authentication secret for an internal connection was reset (or “refreshed”).
 
-## Compliance partner integrations
+## Compliance partner connections
 
 ### Drata
 
@@ -383,7 +383,7 @@ To integrate Notion with Drata:
 
 3. Give Drata permission to access your Notion workspace, then select `Allow access`.
 
-Learn more about the integration [here →](https://help.drata.com/en/articles/9294590-connect-to-notion)
+Learn more about the connections [here →](https://help.drata.com/en/articles/9294590-connect-to-notion)
 
 
 ## FAQs
@@ -393,19 +393,19 @@ Learn more about the integration [here →](https://help.drata.com/en/articles/9
 There's a five minute delay built in to prevent these notifications from getting too noisy! email protected if you still aren't seeing them show up! We'll help out.
 
 
-### I'm trying to enable the integration in Slack's App Directory, but it just takes me to Notion's homepage.
+### I'm trying to enable the connection in Slack's App Directory, but it just takes me to Notion's homepage.
 
-Sorry for the confusion 🙈You can't enable the integration from Slack. You'll need to turn it on inside Notion with the instructions on this page.
-
-
-### What permissions are granted when the Slack integration is enabled?
-
-Notion's integration with Slack operates on a per-page basis. When you enable the Slack integration for a specific page in your Notion workspace, you're granting Notion access to publish updates to the Slack channel of your choosing.
+Sorry for the confusion. You can't enable the connection from Slack. You'll need to turn it on inside Notion with the instructions on this page.
 
 
-### Can I add more than one login for a link preview integration?
+### What permissions are granted when the Slack connection is enabled?
 
-You can! You can do so via `Settings` → `My connections`. For the desired integration, select “Connect another account”.
+Notion's connection with Slack operates on a per-page basis. When you enable the Slack connection for a specific page in your Notion workspace, you're granting Notion access to publish updates to the Slack channel of your choosing.
+
+
+### Can I add more than one login for a link preview connection?
+
+You can! You can do so via `Settings` → `My connections`. For the desired connection, select “Connect another account”.
 
 **Note**: Some applications do not support multi-account login in the browser (e.g. GitHub), so you might need to logout of whichever account is currently logged in on your browser to be prompted to login with a different account.
 
@@ -420,13 +420,13 @@ Run through these steps to try to resolve.
 
 2. Confirm no access restrictions for your organization.
 
-3. Delete your integration in Notion via the `My connection` settings. You may also want to revoke the integration the corresponding platform: [GitHub, ](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/reviewing-your-authorized-applications-oauth)[Jira, ](https://confluence.atlassian.com/jirasoftwareserver/allowing-oauth-access-939938965.html#AllowingOAuthaccess-revokingtokensRevokingOAuthaccesstokens)[Slack, ](https://slack.com/help/articles/360003125231-Remove-apps-and-custom-integrations-from-your-workspace)[Asana, ](https://asana.com/guide/help/fundamentals/settings#gl-apps)[Trello.](https://help.trello.com/article/1183-revoking-a-trello-token)
+3. Delete your connection in Notion via the `My connection` settings. You may also want to revoke the connection the corresponding platform: [GitHub, ](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/reviewing-your-authorized-applications-oauth)[Jira, ](https://confluence.atlassian.com/jirasoftwareserver/allowing-oauth-access-939938965.html#AllowingOAuthaccess-revokingtokensRevokingOAuthaccesstokens)[Slack, ](https://slack.com/help/articles/360003125231-Remove-apps-and-custom-integrations-from-your-workspace)[Asana, ](https://asana.com/guide/help/fundamentals/settings#gl-apps)[Trello.](https://help.trello.com/article/1183-revoking-a-trello-token)
 
 4. Try to unfurl again.
 
 5. Finally, if all else fails, reach out to support! Unfortunately, we cannot help resolve errors related to **Access denied** or **Content not found.** Please provide the following information when reaching out to support:
 
-   * Integration you’re trying to use
+   * C<!-- -->onnection you’re trying to use
 
    * Error message and code
 
@@ -439,14 +439,14 @@ There are two possible reasons for this:
 
 1. You may not have authenticated with the account that has access. You can connect multiple accounts either through `Settings` → `My connections`, or the error drop down.
 
-2. Your organization may have limited access to content via 3rd party integrations or IP addresses. Please confirm with your workspace or organization administrator and ask to have Notion’s integration approved if this is the case. Here are instructions for specific integrations: [GitHub, ](https://docs.github.com/en/organizations/keeping-your-organization-secure)[Jira, ](https://support.atlassian.com/security-and-access-policies/docs/manage-your-users-third-party-apps/)[Slack, ](https://slack.com/help/articles/222386767-Manage-app-approval-for-your-workspace)[Asana, ](https://asana.com/guide/help/premium/admin-console#gl-apps)[Trello.](https://help.trello.com/article/1078-enterprise-admin-dashboard)
+2. Your organization may have limited access to content via 3rd party connections or IP addresses. Please confirm with your workspace or organization administrator and ask to have Notion’s connection approved if this is the case. Here are instructions for specific connections: [GitHub, ](https://docs.github.com/en/organizations/keeping-your-organization-secure)[Jira, ](https://support.atlassian.com/security-and-access-policies/docs/manage-your-users-third-party-apps/)[Slack, ](https://slack.com/help/articles/222386767-Manage-app-approval-for-your-workspace)[Asana, ](https://asana.com/guide/help/premium/admin-console#gl-apps)[Trello.](https://help.trello.com/article/1078-enterprise-admin-dashboard)
 
 
 ### What do security and compliance connections have access to in my workspace?
 
-* SIEM integrations will be authorized to receive event logs on all workspace activity.
+* SIEM connections will be authorized to receive event logs on all workspace activity.
 
-* DLP integrations will be authorized to:
+* DLP connections will be authorized to:
 
   * Receive event logs on all workspace activity.
 

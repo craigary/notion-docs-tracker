@@ -66,12 +66,12 @@ There are two possible reasons for this:
 
 1. You may not have authenticated with the account that has access. You can connect multiple accounts either through `Settings` → `My connections`, or the error drop down.
 
-2. Your organization may have limited access to content via 3rd party integrations or IP addresses. Please confirm with your workspace or organization administrator and ask to have Notion’s integration approved if this is the case. Here are instructions for specific integrations: [GitHub, ](https://docs.github.com/en/organizations/keeping-your-organization-secure)[Jira, ](https://support.atlassian.com/security-and-access-policies/docs/manage-your-users-third-party-apps/)[Slack, ](https://slack.com/help/articles/222386767-Manage-app-approval-for-your-workspace)[Asana, ](https://asana.com/guide/help/premium/admin-console#gl-apps)[Trello.](https://help.trello.com/article/1078-enterprise-admin-dashboard)
+2. Your organization may have limited access to content via 3rd party connections or IP addresses. Please confirm with your workspace or organization administrator and ask to have Notion’s connection approved if this is the case. Here are instructions for specific connections: [GitHub, ](https://docs.github.com/en/organizations/keeping-your-organization-secure)[Jira, ](https://support.atlassian.com/security-and-access-policies/docs/manage-your-users-third-party-apps/)[Slack, ](https://slack.com/help/articles/222386767-Manage-app-approval-for-your-workspace)[Asana, ](https://asana.com/guide/help/premium/admin-console#gl-apps)[Trello.](https://help.trello.com/article/1078-enterprise-admin-dashboard)
 
 
-### Can I add more than one login for a link preview integration?
+### Can I add more than one login for a link preview connection?
 
-You can! You can do so via `Settings` → `My connections`. For the desired integration, select “Connect another account”.
+You can! You can do so via `Settings` → `My connections`. For the desired connection, select “Connect another account”.
 
 **Note**: Some applications do not support multi-account login in the browser (e.g. GitHub), so you might need to logout of whichever account is currently logged in on your browser to be prompted to login with a different account.
 
@@ -86,13 +86,13 @@ Run through these steps to try to resolve.
 
 2. Confirm no access restrictions for your organization.
 
-3. Delete your integration in Notion via the `My connection` settings. You may also want to revoke the integration the corresponding platform: [GitHub, ](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/reviewing-your-authorized-applications-oauth)[Jira, ](https://confluence.atlassian.com/jirasoftwareserver/allowing-oauth-access-939938965.html#AllowingOAuthaccess-revokingtokensRevokingOAuthaccesstokens)[Slack, ](https://slack.com/help/articles/360003125231-Remove-apps-and-custom-integrations-from-your-workspace)[Asana, ](https://asana.com/guide/help/fundamentals/settings#gl-apps)[Trello.](https://help.trello.com/article/1183-revoking-a-trello-token)
+3. Delete your connection in Notion via the `My connection` settings. You may also want to revoke the connection the corresponding platform: [GitHub, ](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/reviewing-your-authorized-applications-oauth)[Jira, ](https://confluence.atlassian.com/jirasoftwareserver/allowing-oauth-access-939938965.html#AllowingOAuthaccess-revokingtokensRevokingOAuthaccesstokens)[Slack, ](https://slack.com/help/articles/360003125231-Remove-apps-and-custom-integrations-from-your-workspace)[Asana, ](https://asana.com/guide/help/fundamentals/settings#gl-apps)[Trello.](https://help.trello.com/article/1183-revoking-a-trello-token)
 
 4. Try to unfurl again.
 
 5. Finally, if all else fails, reach out to support! Unfortunately, we cannot help resolve errors related to **Access denied** or **Content not found.** Please provide the following information when reaching out to support:
 
-   * Integration you’re trying to use
+   * C<!-- -->onnection you’re trying to use
 
    * Error message and code
 

@@ -25,7 +25,7 @@ Notion is currently available in the following languages, and we're working on a
 | Finnish                 | Korean                |
 | Vietnamese              | Thai                  |
 | Bahasa Indonesia        | Arabic                |
-| Hebrew                  |                       |
+| Hebrew                  | Italian               |
 
 ## Change your language
 

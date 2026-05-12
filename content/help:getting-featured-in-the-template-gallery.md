@@ -83,8 +83,6 @@ We also promote top creators using:
 
 Featured templates and creators get refreshed for every language at varying timeframes, from weekly to monthly. We only take new submissions into account for each refresh.
 
-We announce featured templates and creators in our Notion Community on [Circle](https://notioncommunity.typeform.com/to/z5YdqQ1u?typeform-source=admin.typeform.com).
-
 ### How we choose featured templates
 
 Selections for featured templates are at Notion's discretion. We also aim to amplify as many community creations in this section as possible. Featured templates are chosen based on:
@@ -98,10 +96,6 @@ Selections for featured templates are at Notion's discretion. We also aim to amp
 * **Popularity:** The template is finding a wide audience or trending
 
 * **Audience targeting:** The template solves a core use case for teams, companies, or an important subset of users
-
-## Nominate a template or creator
-
-Use [this form](https://notionup.typeform.com/to/KnxNpn5V) to nominate a template or creator for our editorial team's consideration. While our editors won't be able to respond directly to any nominations, they will read and consider all submissions.
 
 **Learn more**
 
