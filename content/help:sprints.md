@@ -65,9 +65,9 @@ All pages with the ID property can be accessed via a special URL with the ID num
 
 To use Sprints, you must have a Task database in Notion. You can turn any database in Notion into a Task database following [these instructions](https://www.notion.com/help/sprints#create-a-task-database).
 
-[](//videos.ctfassets.net/spoqsaf9291f/5VBPT8TlfPF351m2Qly6PS/06545e473c16680ed84c776d4879e891/mytasks2.mp4)
+[](//videos.ctfassets.net/spoqsaf9291f/5VBPT8TlfPF351m2Qly6PS/237f4cf6838eb68754e79913fef46a14/MyTasks_2.mp4)
 
-Turn task trackers into Task databases so all your tasks appear in Home.
+Turn regular databases into Task databases so all your tasks appear in Home.
 
 Once you have a Task database, you can add Sprints to your set-up. To do this:
 
