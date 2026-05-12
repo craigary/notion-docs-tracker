@@ -1,7 +1,7 @@
 ---
 title: "Review & approve plans before Notion AI runs"
 emoji: "☑"
-description: "Learn how to work with Plan Mode to view and sign-off on changes before Notion Agent takes action ☑"
+description: "Learn how to work with Plan mode to view and sign-off on changes before Notion Agent takes action ☑"
 url: "https://www.notion.com/help/review-and-approve-plans-before-notion-ai-runs"
 key: "help:review-and-approve-plans-before-notion-ai-runs"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/35merCOouhnEVwk1eQFnKO/3f77f5b36030609516f4760d1151f0a6/Group_192.png"
@@ -9,9 +9,9 @@ category: "Notion AI"
 categoryKey: "category:notion-ai"
 ---
 
-Plan Mode helps you and your [Notion Agent](https://www.notion.com/help/notion-agent) plan first, then act. When you turn it on, your Agent creates a plan you can preview before it makes changes.
+Plan mode helps you and your [Notion Agent](https://www.notion.com/help/notion-agent) plan first, then act. When you turn it on, your Agent creates a plan you can preview before it makes changes.
 
-Use Plan Mode when you want extra confidence before your Agent makes changes, like when you’re asking it to:
+Use Plan mode when you want extra confidence before your Agent makes changes, like when you’re asking it to:
 
 * Edit several pages.
 
@@ -19,19 +19,19 @@ Use Plan Mode when you want extra confidence before your Agent makes changes, li
 
 * Do a multi-step task where the request could be interpreted more than one way.
 
-## How Plan Mode works
+## How Plan mode works
 
-When you [turn on Plan Mode](https://www.notion.com/help/review-and-approve-plans-before-notion-ai-runs#turn-on-plan-mode), your [Notion Agent](https://www.notion.com/help/notion-agent) will ask a few clarifying questions about what you want (sometimes using multiple-choice format). Then, your Agent will create a plan page describing what it will do. You can review and adjust the plan via chat if needed.
+When you [turn on Plan mode](https://www.notion.com/help/review-and-approve-plans-before-notion-ai-runs#turn-on-plan-mode), your [Notion Agent](https://www.notion.com/help/notion-agent) will ask a few clarifying questions about what you want (sometimes using multiple-choice format). Then, your Agent will create a plan page describing what it will do. You can review and adjust the plan via chat if needed.
 
 Once you approve the plan, your Agent will make the changes.
 
-## Turn on Plan Mode
+## Turn on Plan mode
 
 1. Open Notion AI chat.
 
 2. Go to `Settings` → `Mode` → `Plan`.
 
-When Plan Mode is on, Notion Agent won’t make edits while it’s planning. It will focus on gathering context, asking questions, and writing up a plan.
+When Plan mode is on, Notion Agent won’t make edits while it’s planning. It will focus on gathering context, asking questions, and writing up a plan.
 
 ## Answer clarifying questions
 
@@ -71,13 +71,13 @@ If you’re not ready, don’t approve the plan yet. Ask for a smaller scope or 
 
 ## Keep in mind
 
-* **You need to turn on Plan Mode:&#x20;**&#x4E;otion Agent can’t switch on Plan Mode automatically.
+* **You need to turn on Plan mode:&#x20;**&#x4E;otion Agent can’t switch on Plan mode automatically.
 
 * **Planning is read-only:&#x20;**&#x4E;otion Agents won’t make edits until you approve the plan.
 
 * **Plan pages are regular Notion pages:&#x20;**&#x59;ou can keep them for reference or share them with your team.
 
-* **Availability may vary by surface:&#x20;**&#x50;lan Mode is designed for the [Notion Agent](https://www.notion.com/help/notion-agent) chat experience. If you don’t see it, it may not be available for you.
+* **Availability may vary by surface:&#x20;**&#x50;lan mode is designed for the [Notion Agent](https://www.notion.com/help/notion-agent) chat experience. If you don’t see it, it may not be available for you.
 
 More resources
 

@@ -13,7 +13,7 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/2SBfsPfdWN8oF5X5akzwxx/a4
 5 help:schedule-meetings-with-notion-mail
 6 help:use-notion-ai-with-notion-mail
 7 help:notion-mail-settings
-8 help:notion-mail-keyboard-shortcuts
-9 help:customize-notifications-in-notion-mail
+8 help:customize-notifications-in-notion-mail
+9 help:notion-mail-keyboard-shortcuts
 10 help:notion-mail-security-practices
 11 help:notion-mail-for-mobile
