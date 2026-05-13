@@ -6,8 +6,8 @@ key: "category:databases"
 coverImage: null
 ---
 
-1 help:intro-to-databases
-2 help:formulas
+1 help:formulas
+2 help:intro-to-databases
 3 help:formula-syntax
 4 help:database-properties
 5 help:relations-and-rollups
