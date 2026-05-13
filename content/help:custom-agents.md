@@ -1,12 +1,12 @@
 ---
 title: "Custom Agents"
-emoji: "🤖"
+emoji: null
 description: "With Custom Agents, you build shared workflows that automate recurring work for your team — running exactly how you need them, behind the scenes 🤖"
 url: "https://www.notion.com/help/custom-agents"
 key: "help:custom-agents"
 coverImage: "https://img.youtube.com/vi/ojAvnSdsc1I/maxresdefault.jpg"
-category: "Custom Agents"
-categoryKey: "category:custom-agents"
+category: "Notion AI"
+categoryKey: "category:notion-ai"
 ---
 
 ## Use Custom Agents to automate work in Notion
