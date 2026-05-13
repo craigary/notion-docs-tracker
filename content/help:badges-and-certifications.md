@@ -13,7 +13,7 @@ Notion badges and certifications can be earned through [Notion Academy.](https:/
 
 Once you’ve become a Notion expert through badges and certifications, you can also become a Notion Solution partner.
 
-![hc: badges and certifications](https://images.ctfassets.net/spoqsaf9291f/74z0FooVEi7OqSrISpqqHP/7de0ddb588ff62527cce7eef588f4db4/image__3_.png)
+![hc: badges and certifications](https://images.ctfassets.net/spoqsaf9291f/3a6ZL7dDXO98qh8KipoHdt/6ac1dd71e8b06e7cf4d489556035a8d5/Badge_cert_pathway.png)
 
 ## What badges can I earn?
 
@@ -35,9 +35,9 @@ Partner certifications are only available through to approved applicants of our 
 
 * **Service Specialist Certification:&#x20;**&#x49;mplementation and optimization (requires Administrator).
 
-* **Sales Specialist Certification (Coming soon):** Solution positioning and business value articulation.
+* **Sales Specialist Certification:** Solution positioning and business value articulation.
 
-* **Technical Specialist Certification (Coming soon):** Advanced customization and connections (requires Administrator).
+* **Technical Specialist Certification:&#x20;**&#x41;dvanced customization and connections (requires Administrator).
 
 ## What do I need to do to get certified?
 
@@ -51,7 +51,7 @@ To be eligible for the Administrator Certification, you’ll need to pass the fo
 
 When you purchase your certification exam, you will also have access to the Certified Admin learning path and courses. To pass our certification exams, you will need an exam score of 80% or higher.
 
-To be eligible for our partner certifications, you will need to have an approved Solution Partner application. For more details on how to apply, please visit our Solution Partner page.
+To be eligible for our partner certifications, you will need to have an approved Solution Partner application. For more details on how to apply, please visit our [Solution Partner](https://www.notion.com/partners/solutions-partner-program) page.
 
 ## How much does it cost to earn a badge or get certified?
 
@@ -93,7 +93,7 @@ Here’s an example of what you’ll see while taking the exam. The icon at the 
 
 ## What happens if I fail an exam?
 
-You’re allowed two retakes within 90 days from when you purchased your exam. If you fail the two retakes, you’ll need to wait 30 days and purchase the exam again.
+With one exam purchase, you can take the exam up to two times. If you use both attempts without passing, you'll need to repurchase the exam for more attempts.
 
 ## How can I ensure a smooth, hassle‑free test‑taking experience?
 

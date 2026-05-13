@@ -1,5 +1,5 @@
 ---
-title: "Gmail AI Connector (Beta)"
+title: "Gmail AI Connector"
 emoji: null
 description: null
 url: "https://www.notion.com/help/notion-ai-connector-for-gmail"
