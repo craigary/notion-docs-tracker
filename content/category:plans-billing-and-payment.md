@@ -10,8 +10,8 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/4DbuU1bqunhT31CLKhcIfX/1c
 2 help:billing
 3 help:members-and-billing
 4 help:invoices
-5 help:custom-agent-pricing
-6 help:payment-methods
+5 help:payment-methods
+6 help:custom-agent-pricing
 7 help:refunds
 8 help:notion-for-education
 9 help:notion-for-startups

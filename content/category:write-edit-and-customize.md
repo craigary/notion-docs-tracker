@@ -1,9 +1,9 @@
 ---
 title: "Pages & blocks"
-description: "At its simplest, Notion can be used as a straightforward text editor — but you can spruce up your Notion pages with all kinds of blocks that are flexible and customizable."
+description: null
 url: "https://www.notion.com/help/category/write-edit-and-customize"
 key: "category:write-edit-and-customize"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/1qGgHCH80dWW0ZnIUl1O7t/c2377b2f5b30daa54962918ff52c4396/Write__Edit___Customize_-_Chapter_Hero.png"
+coverImage: null
 ---
 
 1 help:writing-and-editing-basics
@@ -18,7 +18,7 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/1qGgHCH80dWW0ZnIUl1O7t/c2
 10 help:code-blocks
 11 help:math-equations
 12 help:keyboard-shortcuts
-13 help:archive-pages
-14 help:presentation-mode
-15 help:use-pages-offline
-16 help:duplicate-public-pages
+13 help:use-pages-offline
+14 help:duplicate-public-pages
+15 help:archive-pages
+16 help:presentation-mode

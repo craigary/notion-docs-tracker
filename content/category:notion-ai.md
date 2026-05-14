@@ -12,9 +12,9 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/7j6zHBFAMtPgTdqjZQq46w/c7
 4 help:ai-meeting-notes
 5 help:enterprise-search
 6 help:notion-mcp
-7 help:instructions-for-notion-agent
-8 help:skills-for-notion-agent
-9 help:salesforce-ai-connector
-10 help:create-and-edit-images-with-notion-ai
+7 help:review-and-approve-plans-before-notion-ai-runs
+8 help:create-and-edit-images-with-notion-ai
+9 help:instructions-for-notion-agent
+10 help:skills-for-notion-agent
 11 help:research-mode
-12 help:review-and-approve-plans-before-notion-ai-runs
+12 help:salesforce-ai-connector

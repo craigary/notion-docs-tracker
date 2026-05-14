@@ -86,9 +86,9 @@ The table below shows typical webhook volumes and what they might cost. Your act
 |                               |                                                                                                                                                                       |                    |                    |
 | ----------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------ | ------------------ |
 | **Volume of incoming events** | **Example**                                                                                                                                                           | **Events per day** | **Cost per month** |
-| **Low**                       | A Stripe webhook fires on subscription creates and cancels. The worker updates a Notion billing tracker with event details.                                           | 20                 | $1.38/month        |
-| **Medium**                    | A GitHub webhook fires on every PR merge across 10 repos. The worker logs each merge to a Notion changelog and notifies the relevant Slack channel.                   | 200                | $13.80/month       |
-| **High**                      | A Zendesk webhook fires on every ticket create and status change. The worker enriches each event with Salesforce account data and updates a Notion support dashboard. | 5,000              | $345.00/month      |
+| **Low**                       | A Stripe webhook fires on subscription creates and cancels. The worker updates a Notion billing tracker with event details.                                           | 20                 | $1.38              |
+| **Medium**                    | A GitHub webhook fires on every PR merge across 10 repos. The worker logs each merge to a Notion changelog and notifies the relevant Slack channel.                   | 200                | $13.80             |
+| **High**                      | A Zendesk webhook fires on every ticket create and status change. The worker enriches each event with Salesforce account data and updates a Notion support dashboard. | 5,000              | $345.00            |
 
 **Estimating monthly credits**
 
@@ -102,7 +102,33 @@ A Stripe webhook triggers on subscription creates and cancels, and you receive 3
 
 ## Track usage in the Notion CLI
 
-During the free beta, you can track Worker credit usage directly in the [CLI](https://www.notion.com/help/use-notion-from-your-terminal-with-notion-cli), including the last seven days of usage. Worker usage will also appear in the Notion credits dashboard by the end of May, so admins can track credit usage for Workers and Custom Agents in one place.
+During the free beta, you can track Worker credit usage <!-- -->over the last 30 days <!-- -->directly in the [CLI](https://www.notion.com/help/use-notion-from-your-terminal-with-notion-cli). <!-- -->Worker usage will also appear in the Notion credits dashboard by the end of May, allowing admins to track credit usage of their Workers and Custom Agents in one place.
+
+### **View usage for a specific Worker (detailed)**
+
+Shows a detailed breakdown for one Worker’s usage over the last 30 days. This includes estimated preview credits, execution count, and runtime/network metrics that help explain what’s driving usage.
+
+`% ntn workers usage
+ID 019e1dda-fbf0-7eb0-aa37-8d3c11ee6c2d
+Name ntn-worker-usage-validation
+Space ID b07104cd-477e-8123-9b74-0003e5d75c7b
+Window Last 30 days
+Estimated preview credits 0.39
+Executions 2
+Active CPU duration 4582 ms
+Wall duration 5138 ms
+Network transfer 0.02 MB in / 0.02 MB out`
+
+### **View usage across all Workers (summary)**
+
+Shows a summary of all Workers, including estimated preview credits used and executions over the last 30 days.
+
+`ntn workers usage --all
+ID NAME EST. CREDITS
+019e1dda-fbf0-7eb0-aa37-8d3c11ee6c2d ntn-worker-usage-validation 0.39`
+
+`EXECUTIONS WINDOW
+2 30d`
 
 ## Admin controls for Workers
 

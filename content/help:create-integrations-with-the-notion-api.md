@@ -1,7 +1,7 @@
 ---
-title: "Notion API integrations"
+title: "Notion API connections"
 emoji: "🏗️"
-description: "With Notion's API, you'll be able to create custom internal integrations. Some of our partners may also require an internal integration token in order to link their platform to your Notion workspace - below, we'll walk you through how to set this up 🏗️"
+description: "With Notion's API, you'll be able to create custom internal connections. Some of our partners may also require an internal connection token in order to link their platform to your Notion workspace - below, we'll walk you through how to set this up 🏗️"
 url: "https://www.notion.com/help/create-integrations-with-the-notion-api"
 key: "help:create-integrations-with-the-notion-api"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/12hDHQuwwWB60tA3rEbJ1c/7c76c8059fe7e69e02c82992de113d39/Create_integrations_with_the_Notion_API_-_hero.png"
@@ -9,45 +9,45 @@ category: "Connections"
 categoryKey: "category:connections"
 ---
 
-Visit our [developer hub](http://developers.notion.com/) for documentation, resources, and integration management tools.
+Visit our [developer hub](http://developers.notion.com/) for documentation, resources, and connection management tools.
 
 **Note:** Workspace owners manage all connections in a workspace. <!-- -->Learn more [here →](https://www.notion.com/help/enterprise-connection-settings)
 
-## Create an internal integration
+## Create an internal connection
 
-1. In your left sidebar, navigate to `Settings` and then the `Integrations` tab.
+1. In your left sidebar, navigate to `Settings` and then the `Connections` tab.
 
-2. Only Workspace owners will be able to access the `Integrations` tab and create integrations. If you are not an admin, please contact your Workspace admin or use a different workspace.
+2. Only Workspace owners will be able to access the `Connections` tab and create integrations. If you are not an admin, please contact your Workspace admin or use a different workspace.
 
-3. Click the `Develop your own integrations` link at the bottom.
+3. Click the `Develop your own connections` link at the bottom.
 
-4. [My integrations](https://www.notion.com/profile/integrations/internal) will open in your default browser. Click the `+ New integration` button.
+4. [My connections](https://www.notion.com/profile/integrations/internal) will open in your default browser. Click the `+ New connection `button.
 
-5. Provide a `Name` for your integration. Optionally, you can also upload an image to use as a `Logo`.
+5. Provide a `Name` for your connection. Optionally, you can also upload an image to use as a `Logo`.
 
-6. Use the dropdown menu to specify which `Associated workspace` you would like to use this integration with.
+6. Use the dropdown menu to specify which `Associated workspace` you would like to use this connection with.
 
    **Note:** Make sure you're logged into Notion on your web session with the same account that you used on desktop. Otherwise, you will not see the correct account and workspaces!
 
    ![Integration info](https://images.ctfassets.net/spoqsaf9291f/2wD6nPwE9Jcm7zHxH00YOw/78187a345065a2920c388143f3251d56/Integration_info.png)
 
-7. Your internal integration has been added successfully! You'll now be able to see it in your workspace, in the `Settings` menu → `Connections`.
+7. Your internal connection has been added successfully! You'll now be able to see it in your workspace, in the `Settings` menu → `Connections`.
 
-8. Click the `•••` next to the internal integration to retrieve the internal integration token. You'll need this token for any API-based automations or workflows your team creates, or to link your workspace to some partner platforms.
+8. Click the `•••` next to the internal connection to retrieve the internal connection token. You'll need this token for any API-based automations or workflows your team creates, or to link your workspace to some partner platforms.
 
 ![Integration info](https://images.ctfassets.net/spoqsaf9291f/2wD6nPwE9Jcm7zHxH00YOw/78187a345065a2920c388143f3251d56/Integration_info.png)
 
-**Note:** Internal integrations are workspace-specific, so to change the associated workspace, you'll have to create a new integration.
+**Note:** Internal connections are workspace-specific, so to change the associated workspace, you'll have to create a new connection.
 
 ![Integration menu - create](https://images.ctfassets.net/spoqsaf9291f/4SjzAtvGtNgrIqsV1vqARz/12dcc258e6238bc1176f6695c5f65a50/Integration_menu_-_create.png)
 
-## Create a public integration
+## Create a public connection
 
-All newly added integrations are internal initially. If you're a developer working on a public integration, first use the above instructions to create an internal integration.
+All newly added connections are internal initially. If you're a developer working on a public connection, first use the above instructions to create an internal connection.
 
-Then, follow the instructions in our [developer guide](https://developers.notion.com/docs/authorization) to convert it to a public integration.
+Then, follow the instructions in our [developer guide](https://developers.notion.com/docs/authorization) to convert it to a public connection.
 
-## Granular integration permissions
+## Granular connection permissions
 
 During the app setup process, developers will be able to choose the access level required from the user.
 
@@ -69,19 +69,19 @@ During the app setup process, developers will be able to choose the access level
 
 [](//videos.ctfassets.net/spoqsaf9291f/4WIemLpzP6uADZdktNCUNU/19fd1eb50d6ed462607cb011991a3f9d/integration_granular_permissions.mp4)
 
-When users install integrations, this access level will be displayed. It will also show in the `Share` menu of any pages that the integration that has been added to. [Learn more about installing integrations in a workspace →](https://www.notion.com/help/add-and-manage-connections-with-the-api)
+When users install connections, this access level will be displayed. It will also show in the `Share` menu of any pages that the connection that has been added to. [Learn more about installing connections in a workspace →](https://www.notion.com/help/add-and-manage-connections-with-the-api)
 
-## Integration webhooks
+## Connection webhooks
 
-Integration webhooks enable integrations to monitor and respond to changes in Notion workspaces in real-time.
+Connection webhooks enable connections to monitor and respond to changes in Notion workspaces in real-time.
 
-When changes occur in pages or databases shared with your [integration](https://www.notion.com/integrations/all), Notion automatically sends notifications to your webhook endpoint, allowing your integration to instantly update other tools, run automated tasks, or display the latest changes.
+When changes occur in pages or databases shared with your [connection](https://www.notion.com/integrations/all), Notion automatically sends notifications to your webhook endpoint, allowing your connection to instantly update other tools, run automated tasks, or display the latest changes.
 
-### Set up integration webhooks
+### Set up connection webhooks
 
 For instructions, please visit our [developer docs](https://developers.notion.com/reference/integration-webhooks).
 
-**Integration webhooks currently do not support notifications for:**
+**Connection webhooks currently do not support notifications for:**
 
 * User changes (including workspace membership changes, email/name updates, and permission modifications).
 
@@ -89,9 +89,9 @@ For instructions, please visit our [developer docs](https://developers.notion.co
 
 For these types of notifications, use the [audit log](https://www.notion.com/help/audit-log) instead.
 
-### Webhook actions vs. integration webhooks
+### Webhook actions vs. connection webhooks
 
-[Webhook actions](https://www.notion.com/help/webhook-actions#webhooks-limitations) and integration webhooks share some similarities—both have triggers and can send events to third-party services. However, integration webhooks offer broader capabilities:
+[Webhook actions](https://www.notion.com/help/webhook-actions#webhooks-limitations) and connection webhooks share some similarities—both have triggers and can send events to third-party services. However, connection webhooks offer broader capabilities:
 
 * They can monitor activity across multiple workspaces.
 
