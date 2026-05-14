@@ -9,8 +9,8 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/2HM5BPlsww5fF5gJDpI71B/94
 1 help:notion-ai-connectors
 2 help:notion-ai-connector-for-github
 3 help:notion-ai-connectors-for-google-drive
-4 help:notion-ai-connector-for-linear
-5 help:jira-ai-connector
+4 help:jira-ai-connector
+5 help:notion-ai-connector-for-linear
 6 help:notion-ai-connector-for-microsoft-teams
 7 help:notion-ai-connector-for-microsoft-sharepoint-and-onedrive
 8 help:notion-ai-connectors-for-slack

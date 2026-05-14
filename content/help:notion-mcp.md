@@ -116,12 +116,12 @@ Yes. Enterprise Admins can explicitly approve specific AI apps and MCP clients a
 Yes. Only admin-approved tools can connect, and MCP does not bypass Notion permissions.
 
 
-### Can admins see which AI tools users are connecting?
+### Can admins see which AI apps users are connecting?
 
 Enterprise Admins control which AI apps and MCP clients are allowed, and which ones have active connections in the workspace. Detailed visibility into which users are using each tool is not yet available.
 
 
-### Why is an AI tool not on the approved list, but still listed under Connected tools?
+### Why is an AI app not on the approved list, but still listed under Connected tools?
 
 If a tool was connected before it was removed from the approved list, it may still appear under Connected tools because we cannot revoke existing tokens for previously connected tools. Even so, Notion blocks every call from any AI app or MCP client that is not on the approved list, so it is functionally blocked.
 

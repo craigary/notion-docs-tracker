@@ -35,16 +35,33 @@ The tables below break down cost benchmarks for each type of Worker action. Use 
 
 ## Examples: scheduled sync credit usage
 
-The table below shows examples of usage. Your actual usage depends on how often your syncs run and how much a Worker does for each run.
+The examples below show types of sync usage. Your actual usage depends on how often your syncs run and how much a Worker does for each run.
 
 Syncing more data or handling several updates will cost more. If you have multiple syncs, multiple Workers, or Workers that run in response to many events, total usage may be higher.
 
-|                             |                                                                                                                                                           |                  |                    |
-| --------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- | ------------------ |
-| **Sync frequency**          | **Example**                                                                                                                                               | **Runs per day** | **Cost per month** |
-| **Daily (Low)**             | A nightly sync pulls closed Jira tickets into a Notion engineering log for weekly review.                                                                 | 1                | $0.07              |
-| **Hourly (Medium)**         | An hourly Zendesk sync refreshes open tickets and SLA risk in a Support Ops dashboard in Notion, so team leads can rebalance coverage throughout the day. | 24               | $1.66              |
-| **Every 15 minutes (High)** | A pipeline sync keeps a Notion sales tracker updated with Salesforce opportunity stages throughout the business day.                                      | 96               | $6.62              |
+**Example 1:** A nightly sync pulls closed Jira tickets into a Notion engineering log for weekly review.
+
+* **Sync frequency:&#x20;**&#x44;aily (Low)
+
+* **Runs per day: 1**
+
+* **Cost per month:** $0.07
+
+**Example 2:&#x20;**&#x41;n hourly Zendesk sync refreshes open tickets and SLA risk in a Support Ops dashboard in Notion, so team leads can rebalance coverage throughout the day.
+
+* **Sync frequency:&#x20;**&#x48;ourly (Medium)
+
+* **Runs per day:&#x20;**&#x32;4
+
+* **Cost per month:** $1.66
+
+**Example 3:&#x20;**&#x41; pipeline sync keeps a Notion sales tracker updated with Salesforce opportunity stages throughout the business day.
+
+* **Sync frequency:** Every 15 minutes (High)
+
+* **Runs per day:** 96
+
+* **Cost per month:** $6.62
 
 **Example of estimating monthly credits**
 
@@ -62,12 +79,35 @@ Workers can also power custom tools that Custom Agents use. For example, a Custo
 
 Tool-call usage depends on how often an agent calls a Worker. Each tool call counts as its own Worker run (so one agent run can generate multiple Worker runs).
 
-|                                 |                                                                                                                                                                                                                    |                        |                       |                    |
-| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------- | --------------------- | ------------------ |
-| **Volume of tool calls**        | **Example**                                                                                                                                                                                                        | **Worker runs**        | **Custom Agent runs** | **Cost per month** |
-| **Scheduled (Low)**             | A daily Bug Tracker agent reviews open Jira issues. Each run triggers the worker to fetch issue status, check for blockers, and write a summary to a Notion project page.                                          | 3 per Custom Agent run | 30 per month          | $0.21              |
-| **Activity-triggered (Medium)** | A RevOps agent runs when a deal moves stages in Salesforce. Each run triggers the worker to validate required fields, call Clearbit for enrichment, and write the record back to a Notion pipeline tracker.        | 4 per Custom Agent run | 3,000 per month       | $27.60             |
-| **Continuous (High)**           | A Support Eng agent runs on every inbound Zendesk ticket. Each run triggers the worker to fetch the ticket, pull Salesforce account context, apply routing rules from Notion, and post to the right Slack channel. | 5 per Custom Agent run | 9,000 per month       | $103.50            |
+**Example 1:&#x20;**&#x41; daily Bug Tracker agent reviews open Jira issues. Each run triggers the worker to fetch issue status, check for blockers, and write a summary to a Notion project page.
+
+* **Volume of tool calls:** Scheduled (low)
+
+* **Worker runs:** 3 per Custom Agent run
+
+* **Custom Agent runs:** 30 per month
+
+* **Cost per month:&#x20;**$0.21
+
+**Example 2:&#x20;**&#x41; RevOps agent runs when a deal moves stages in Salesforce. Each run triggers the worker to validate required fields, call Clearbit for enrichment, and write the record back to a Notion pipeline tracker.
+
+* **Volume of tool calls:&#x20;**&#x41;ctivity-triggered (Medium)
+
+* **Worker runs:** 4 per Custom Agent run
+
+* **Custom Agent runs:** 3,000 per month
+
+* **Cost per month:** $27.60
+
+**Example 3:** A Support Eng agent runs on every inbound Zendesk ticket. Each run triggers the worker to fetch the ticket, pull Salesforce account context, apply routing rules from Notion, and post to the right Slack channel.
+
+* **Volume of tool calls:&#x20;**&#x43;ontinuous (High)
+
+* **Worker runs:&#x20;**&#x35; per Custom Agent run
+
+* **Custom Agent runs:** 9,000 per month
+
+* **Cost per month:&#x20;**$103.50
 
 **Example of estimating monthly credits**
 
@@ -81,14 +121,31 @@ A Custom Agent makes 4 tool calls per run and runs 50 times per day. Each tool c
 
 ## Examples: Webhooks (alpha)
 
-The table below shows typical webhook volumes and what they might cost. Your actual usage depends on how many events your tools send and how many webhook triggers you’ve set up. Each incoming event that you handle counts as one Worker run, so total cost scales with your event volume.
+The examples below show typical webhook volumes and what they might cost. Your actual usage depends on how many events your tools send and how many webhook triggers you’ve set up. Each incoming event that you handle counts as one Worker run, so total cost scales with your event volume.
 
-|                               |                                                                                                                                                                       |                    |                    |
-| ----------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------ | ------------------ |
-| **Volume of incoming events** | **Example**                                                                                                                                                           | **Events per day** | **Cost per month** |
-| **Low**                       | A Stripe webhook fires on subscription creates and cancels. The worker updates a Notion billing tracker with event details.                                           | 20                 | $1.38              |
-| **Medium**                    | A GitHub webhook fires on every PR merge across 10 repos. The worker logs each merge to a Notion changelog and notifies the relevant Slack channel.                   | 200                | $13.80             |
-| **High**                      | A Zendesk webhook fires on every ticket create and status change. The worker enriches each event with Salesforce account data and updates a Notion support dashboard. | 5,000              | $345.00            |
+**Example 1:** A Stripe webhook fires on subscription creates and cancels. The worker updates a Notion billing tracker with event details.
+
+* **Volume of incoming events:&#x20;**&#x4C;ow
+
+* **Events per day:** 20
+
+* **Cost per month:** $1.38
+
+**Example 2:** A GitHub webhook fires on every PR merge across 10 repos. The worker logs each merge to a Notion changelog and notifies the relevant Slack channel.
+
+* **Volume of incoming events:&#x20;**&#x4D;edium
+
+* **Events per day:** 200
+
+* **Cost per month:** $13.80
+
+**Example 3:** A Zendesk webhook fires on every ticket create and status change. The worker enriches each event with Salesforce account data and updates a Notion support dashboard.
+
+* **Volume of incoming events:** High
+
+* **Events per day:** 5,000
+
+* **Cost per month:** $345.00
 
 **Estimating monthly credits**
 
@@ -102,7 +159,7 @@ A Stripe webhook triggers on subscription creates and cancels, and you receive 3
 
 ## Track usage in the Notion CLI
 
-During the free beta, you can track Worker credit usage <!-- -->over the last 30 days <!-- -->directly in the [CLI](https://www.notion.com/help/use-notion-from-your-terminal-with-notion-cli). <!-- -->Worker usage will also appear in the Notion credits dashboard by the end of May, allowing admins to track credit usage of their Workers and Custom Agents in one place.
+During the free beta, you can track Worker credit usage over the last 30 days directly in the [CLI](https://www.notion.com/help/use-notion-from-your-terminal-with-notion-cli). Worker usage will also appear in the Notion credits dashboard by the end of May, allowing admins to track credit usage of their Workers and Custom Agents in one place.
 
 ### **View usage for a specific Worker (detailed)**
 
@@ -132,11 +189,17 @@ ID NAME EST. CREDITS
 
 ## Admin controls for Workers
 
-You can manage Workers across your workspace by going to `Settings`, and selecting the Workers tab. From here, you can:
+You can manage Workers across your workspace by going to `Settings`, and selecting the Workers tab.
+
+![Workers tab](https://images.ctfassets.net/spoqsaf9291f/495geH0Kuqzpi2kFWOYy7P/2d9ffa5096daaf53bc37b4bc1ff637aa/Screenshot_2026-05-13_at_5.24.15%C3%A2__PM.png)
+
+From here, you can:
 
 * Switch Workers on or off for your workspace. By default, Workers are turned off.
 
 * Control who can use Workers, including specific people or user groups.
+
+![Who can use Workers](https://images.ctfassets.net/spoqsaf9291f/1wC7CX9vlMXtV3RYIvYTf3/e54a3b13564f12f2e83b3eec497e2e0c/Screenshot_2026-05-13_at_5.25.28%C3%A2__PM.png)
 
 * Track and manage individual Workers.
 
@@ -145,6 +208,8 @@ You can manage Workers across your workspace by going to `Settings`, and selecti
   * Disable or delete a Worker at any time.
 
   * Pause all Workers.
+
+![Manage Workers](https://images.ctfassets.net/spoqsaf9291f/3d8bOb0sclzPJNn7Qm2Nsq/fa658aa8b9e5d8dd0dd049fffa997334/Screenshot_2026-05-13_at_5.26.25%C3%A2__PM.png)
 
 ## Sizing credit needs for Workers
 
