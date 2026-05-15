@@ -1,5 +1,5 @@
 ---
-title: "Troubleshoot"
+title: "Fix a problem"
 description: null
 url: "https://www.notion.com/help/category/troubleshoot"
 key: "category:troubleshoot"

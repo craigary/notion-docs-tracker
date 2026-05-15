@@ -1,5 +1,5 @@
 ---
-title: "Plans & billing"
+title: "Manage your plan"
 description: null
 url: "https://www.notion.com/help/category/plans-and-billing"
 key: "category:plans-and-billing"

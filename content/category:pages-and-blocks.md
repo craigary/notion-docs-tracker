@@ -1,5 +1,5 @@
 ---
-title: "Pages & blocks"
+title: "Create & format pages"
 description: null
 url: "https://www.notion.com/help/category/pages-and-blocks"
 key: "category:pages-and-blocks"

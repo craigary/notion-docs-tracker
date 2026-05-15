@@ -1,5 +1,5 @@
 ---
-title: "Workspace & settings"
+title: "Workspace basics"
 description: null
 url: "https://www.notion.com/help/category/workspace-and-settings"
 key: "category:workspace-and-settings"
