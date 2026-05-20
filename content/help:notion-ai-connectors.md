@@ -13,7 +13,7 @@ categoryKey: "category:notion-ai"
 
 Notion Mail is **free to connect** for all plans; you’ll need to sign up for Notion Mail before setting up the connection.
 
-Ready to get started with Notion AI connectors? You’ll find app-specific information and instructions [here →](https://www.notion.com/help/category/notion-ai)
+Ready to get started with Notion AI connectors? You’ll find app-specific information and instructions [here →](https://www.notion.com/help/category/notion-ai-connectors)
 
 ## What are Notion AI Connectors?
 
@@ -69,7 +69,7 @@ It’s important to understand what Notion AI is most helpful for, as well as wh
 
 * Notion AI might have a more difficult time with aggregating lots of information from an app or multiple apps.
 
-- Each app has its own best practices, so make sure to read the [articles for each app](https://www.notion.com/help/category/notion-ai) you want to connect to learn more.
+- Each app has its own best practices, so make sure to [see the resources for each app](https://www.notion.com/help/category/notion-ai-connectors) you want to connect.
 
 - You can also pick up some prompting skills by reading [this guide →](https://www.notion.com/help/guides/how-to-get-better-answers-from-notion-ai)
 
