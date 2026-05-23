@@ -33,13 +33,15 @@ Notion lets you directly import the following file types:
 
 * ZIP (.zip)
 
-You can also import data from a number of apps like Confluence, Asana, Evernote, and Trello, among others.
+You can also import data from a number of apps like Confluence, Asana, Evernote, and Trello.
 
 **There are a couple of ways to start an import:**
 
 * Type `/`on any page and search for what you want to import (like `CSV `or `Trello`).
 
 * Or go to `Settings `in your sidebar → `Import`, then choose an app or file type.
+
+You can import several files in one go for PDFs, HTML, Markdown, Word (.docx), and plain text (.txt). CSV and ZIP use different import options, so you won’t be able to import multiple files at at the same time.
 
 **Track your import progress:**
 
@@ -321,7 +323,9 @@ Import Word documents (.docx) as Notion pages.
 
 1. Go to **`Settings`****&#x20;**→ **`Import`****&#x20;**→ **`Word`**.
 
-2. Upload whatever **`.docx`** files you want to import from your computer.
+2. Upload one or more **`.docx`** files you want to import from your computer.
+
+If you select multiple files, Notion will import them together and show progress.
 
 **What imports:**
 
@@ -401,15 +405,13 @@ You can import up to 5 GB per ZIP. Very high file counts can fail even under 5 G
 
 ## HTML
 
-You can import one HTML file at a time, or import multiple HTML files at once using a ZIP.
+You can import one HTML file at a time. Make sure all your HTML files and any images or assets they reference are in the same folder.
 
-1. Make sure all your HTML files and any images or assets they reference are in the same folder.
+* In Notion, go to `Settings`.
 
-2. In Notion, go to `Settings`.
+* Select `Import` then choose `HTML`.
 
-3. Select `Import` then choose `HTML`.
-
-If you have many HTML files to import, zip the folder first and use the ZIP importer instead.
+To import multiple HTML files, you can select multiple files at once during import. If you need to preserve a folder structure (and include many assets), you can also zip the folder and use the ZIP importer.
 
 **What imports:**
 
@@ -443,13 +445,13 @@ If you have many HTML files to import, zip the folder first and use the ZIP impo
 
 ## Text & Markdown
 
-You can import text and Markdown files one at a time — or import a whole folder at once using a ZIP.
+You can import text and Markdown files one at a time, or import a whole folder at once using a ZIP.
 
 1. Go to `Settings `in your sidebar → `Import` → `Text & Markdown`.
 
 2. Upload your `.md` or `.txt` file.
 
-To import multiple files at once, zip them first and import the ZIP.
+You can also select multiple .md/.txt files at once during import. If you want to preserve folder structure, zip a folder and import the ZIP.
 
 **What imports:**
 
@@ -565,8 +567,6 @@ CSV imports create a Notion database (rows → items/pages, columns → properti
 
 PDF imports convert your PDF into a Notion page (formatting may change).
 
-**Note:** This feature is in beta, which means it’s still a work in progress and may not be available to you yet.
-
 You can import a PDF in a few different ways. Notion will convert the text so it’s searchable (and works well with Notion AI). After import, you may need to do a little cleanup for formatting.
 
 * Use the slash command **`/import`****&#x20;**&#x61;nd select **`PDF`**.
@@ -574,6 +574,8 @@ You can import a PDF in a few different ways. Notion will convert the text so it
 * Use the slash command **`/pdf `**&#x61;nd select **`PDF`****&#x20;**— make sure you’re importing, not embedding!
 
 * Open **`Settings`****&#x20;**&#x61;nd select **`Import`****&#x20;**→ **`PDF`**.
+
+You can import one or multiple PDFs at once. When importing multiple files, you’ll see progress for each file.
 
 When your PDF’s contents are converted to a Notion page, it’s possible that some formatting elements of your PDF may not be preserved. For example:
 
@@ -654,3 +656,8 @@ If the "Export" tab does not appear in the Content Tools section of a workspace'
 ### I can't seem to import from Evernote China/Evernote Business.
 
 Unfortunately, our importer only supports the standard edition of Evernote at the moment. We're working on it!
+
+
+### Can I import multiple files at once?
+
+Yes. For PDF, HTML, Text & Markdown, and Word imports, you can select multiple files to import in one session. CSV and ZIP use separate import flows.

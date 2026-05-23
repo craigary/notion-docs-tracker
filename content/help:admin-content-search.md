@@ -5,7 +5,7 @@ description: "With content search, Enterprise workspace owners can now get a bir
 url: "https://www.notion.com/help/admin-content-search"
 key: "help:admin-content-search"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/7pVbSMHPMzmGzpUcLVOGUs/b17fee74e4e2c1fc12e91aaa734db051/Admin_Content_Search.png"
-category: "Workspace administration"
+category: "Administer your workspace"
 categoryKey: "category:enterprise-admin"
 ---
 

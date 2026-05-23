@@ -5,7 +5,7 @@ description: "Learn how to add security and compliance connections to your works
 url: "https://www.notion.com/help/add-security-and-compliance-integrations"
 key: "help:add-security-and-compliance-integrations"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/4cBManwE4Muz3k8Qek1Vda/e6c35d9ee50fdc54634d422cbe277453/add-security-and-compliance-integrations.png"
-category: "Workspace administration"
+category: "Administer your workspace"
 categoryKey: "category:enterprise-admin"
 ---
 
@@ -149,17 +149,19 @@ Below is a comprehensive list of webhook events that will be available in your S
 
 ### Event types
 
-Events are split into five main categories:
+Events are split into six main categories:
 
-* **Page events**: This includes events users take on a single Notion page.
+* **Page events:** Events users take on a single Notion page.
 
-* **Teamspace events**: This includes events users take on one or more teamspaces.
+* **Data source events:** Events about data sources (databases). Note: Some data source operations may emit as page.\* events for historical reasons.
 
-* **Workspace events**: This includes events users take on an entire Notion workspace.
+* **Workspace events:** Events users take on an entire Notion workspace.
 
-* **User events**: This includes events about accounts of users in the workspace.
+* **Account events:** Events about accounts of users in the workspace.
 
-* **C****onnection events**:**&#x20;**&#x54;his includes events about internal connections associated with the workspace.
+* **Teamspace events:&#x20;**&#x45;vents users take on one or more teamspaces.
+
+* **Form events:** Events about forms in the workspace.
 
 ### Page audience
 
@@ -169,7 +171,7 @@ For page events, the page audience describes the visibility level of the target 
 
 * **Internal**: The page is shared with other members of the workspace only.
 
-* **External**: The page is shared with one or more guests outside of the workspace and/or with an connection bot.
+* **External**: The page is shared with one or more guests outside of the workspace and/or with a integration bot.
 
 * **Public**: The page is shared to the web.
 
@@ -189,17 +191,17 @@ For page events, the page audience describes the visibility level of the target 
 
 * **workspace.domain\_management.transfer\_request\_status\_updated**: A transfer request for a workspace created by a user with a verified domain was updated. (See [this article](https://www.notion.com/help/domain-management) for more information.)
 
-* **workspace.external\_account\_connected**: A public/external connection was connected to the workspace.
+* **workspace.external\_account\_connected**: <!-- -->A public/external integration was connected to the workspace.
 
-* **workspace.external\_account\_disconnected**: A public/external connection was disconnected from the workspace, or a workspace owner removed access to a public connection for all users in the workspace.
+* **workspace.external\_account\_disconnected**: <!-- -->A public/external integration was disconnected from the workspace, or a workspace owner removed access to a public integration for all users in the workspace.
 
 * **workspace.group.permissions.member\_added**: A workspace owner or membership admin added a new member to a group. A group is a defined collection of workspace members.
 
 * **workspace.group.permissions.member\_removed**: A workspace owner or membership admin removed a member from a group.
 
-* **workspace.connection\_added**: An connection was added to the workspace for the first time. (This event will only be emitted the first time an connection is added to a workspace.)
+* **workspace.integration\_added**: An integration was added to the workspace for the first time. This event will only be emitted the first time an integration is added to a workspace.
 
-* **workspace.connection\_removed**: All bots for a specific public connection are removed.
+* **workspace.integration\_removed**: <!-- -->All bots for a specific public integration were removed from the workspace.
 
 * **workspace.members\_exported**: A list of workspace members was exported.
 
@@ -319,11 +321,11 @@ For page events, the page audience describes the visibility level of the target 
 
 * **page.permissions.guest\_role\_updated**: A guest’s page permissions were updated, changing their type of access.
 
-* **page.permissions.connection\_role\_added**: A user added an [connection](https://www.notion.com/help/add-and-manage-connections-with-the-api) to a page. Connections of any type — internal or public/external — will trigger this event.
+* **page.permissions.integration\_role\_added:&#x20;**&#x41; user added an integration to a page. Integrations of any type — internal or public/external — will trigger this event.
 
-* **page.permissions.connection\_role\_removed**: A user removed the page permissions for an connection (or “connection”), which will restrict the connection from having access to the page. Connections of any type — internal or public/external — will trigger this event.
+* **page.permissions.integration\_role\_removed**:<!-- --> A user removed the page permissions for an integration (or “connection”), which will restrict the integration from having access to the page. Integrations of any type — internal or public/external — will trigger this event.
 
-* **page.permissions.connection\_role\_updated**: A user updated the page permissions of an connection (or “connection”). Connections of any type — internal or public/external — will trigger this event.
+* **page.permissions.integration\_role\_updated**:<!-- --> A user updated the page permissions of a connection (or “connection”). Connections of any type — internal or public/external — will trigger this event.
 
 * **page.permissions.member\_role\_added**: A member’s page permissions were added, which will allow them to access the page.
 
@@ -353,13 +355,13 @@ For page events, the page audience describes the visibility level of the target 
 
 * **Authorized via Workspace SAML**: Verified workspace access via SAML SSO.
 
-C**onnection**
+**Workspace events**
 
-* **connection.created**: A developer created an internal connection and associated it with the workspace.
+* **integration.created**: <!-- -->A developer created an internal integration and associated it with the workspace.
 
-* **connection.deleted**: An internal connection associated with the workspace was deleted. Deletions can occur in the My Connections dashboard, or an admin can remove access to an internal connection for all users.
+* **integration.deleted**: <!-- -->An internal integration associated with the workspace was deleted. Deletions can occur in the My Integrations dashboard, or an admin can remove access to an internal integration for all users.
 
-* **connection.secret\_reset**: The authentication secret for an internal connection was reset (or “refreshed”).
+* **integration.secret\_reset**: An internal integration’s installation access token was reset (or “refreshed”).<!-- -->.
 
 ## Compliance partner connections
 

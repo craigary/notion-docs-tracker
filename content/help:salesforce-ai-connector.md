@@ -1,12 +1,12 @@
 ---
-title: "Salesforce AI Connector"
+title: "Salesforce AI Connector (beta)"
 emoji: "🔁"
 description: "Connect Notion AI with your Salesforce to seamlessly bring in information from your accounts, leads, opportunities, and contacts 🔁"
 url: "https://www.notion.com/help/salesforce-ai-connector"
 key: "help:salesforce-ai-connector"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/5kPfjQ1541RLvl1YLMsYt3/10ec0390f6f04ec2c9afb236b2383251/Group_175.png"
-category: "Notion AI"
-categoryKey: "category:notion-ai"
+category: "Notion AI Connectors"
+categoryKey: "category:notion-ai-connectors"
 ---
 
 ## Connect Salesforce to Notion AI

@@ -5,7 +5,7 @@ description: "Whatever you’re looking to accomplish, there’s a template for 
 url: "https://www.notion.com/help/finding-templates-on-marketplace"
 key: "help:finding-templates-on-marketplace"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/4PkiBedDxxC7DpoFobdLKN/718f58bccc815944ad2a4b8858efcc50/Reference_visuals__1_.png"
-category: "Marketplace"
+category: "Marketplace & templates"
 categoryKey: "category:template-gallery"
 ---
 

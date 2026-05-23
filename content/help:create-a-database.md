@@ -5,7 +5,7 @@ description: "Now we'll create a database and use it to show off essential datab
 url: "https://www.notion.com/help/create-a-database"
 key: "help:create-a-database"
 coverImage: "https://img.youtube.com/vi/Nx114VWepoI/maxresdefault.jpg"
-category: "Get started"
+category: "Notion basics"
 categoryKey: "category:new-to-notion"
 ---
 

@@ -5,7 +5,7 @@ description: "As an enterprise workspace owner, you have many ways you can manag
 url: "https://www.notion.com/help/managed-users-dashboard"
 key: "help:managed-users-dashboard"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/wHdtmHGUbZCr5FVQJhcyR/e226bbd130fcab1efb2f0e6770813c19/managed_users_hero.png"
-category: "Workspace administration"
+category: "Administer your workspace"
 categoryKey: "category:enterprise-admin"
 ---
 

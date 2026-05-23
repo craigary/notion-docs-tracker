@@ -5,7 +5,7 @@ description: "Audit logs give Enterprise organization owners access to detailed 
 url: "https://www.notion.com/help/audit-log"
 key: "help:audit-log"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/716WVYpSoYzNRkjGxmXt4n/f99b26d3e5beebd199410803d200d643/Audit_log_-_hero.png"
-category: "Workspace administration"
+category: "Administer your workspace"
 categoryKey: "category:enterprise-admin"
 ---
 

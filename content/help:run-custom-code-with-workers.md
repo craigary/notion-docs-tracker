@@ -5,7 +5,7 @@ description: "Learn what Workers are and what they’re used for 🔨"
 url: "https://www.notion.com/help/run-custom-code-with-workers"
 key: "help:run-custom-code-with-workers"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/10ig80bwIGSuLvk7s8BvBb/0f8100167146d7da1696ae18684aeb99/Group_195.png"
-category: "Developer Platform"
+category: "Explore developer tools"
 categoryKey: "category:developer-platform"
 ---
 
@@ -67,7 +67,7 @@ A few common examples:
 
 * Closing a task when a pull request merges.
 
-* Updating a CRM record when a subscription. changes
+* Updating a CRM record when a subscription changes.
 
 * Creating an onboarding doc when an offer is signed.
 

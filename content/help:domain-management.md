@@ -5,7 +5,7 @@ description: "This article will cover how to verify ownership of a domain and wh
 url: "https://www.notion.com/help/domain-management"
 key: "help:domain-management"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/3IqsZ71Q9AKGV1ZWA0gydy/ce6396c48205fcc5d8d2e5e2a11057bd/Group_49.png"
-category: "Workspace administration"
+category: "Administer your workspace"
 categoryKey: "category:enterprise-admin"
 ---
 

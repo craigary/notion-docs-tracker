@@ -1,11 +1,11 @@
 ---
-title: "Sharing & permissions"
+title: "Sharing & permissions settings"
 emoji: "📣"
 description: "Notion is built for collaboration, so there are many ways to share your work with other people. Our permission levels ensure that your collaborators access your content exactly the way you want them to 📣"
 url: "https://www.notion.com/help/sharing-and-permissions"
 key: "help:sharing-and-permissions"
 coverImage: "https://img.youtube.com/vi/mvaNaZ4-E4c/maxresdefault.jpg"
-category: "Share & collaborate"
+category: "Sharing & permissions"
 categoryKey: "category:sharing-and-collaboration"
 ---
 

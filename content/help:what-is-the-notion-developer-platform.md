@@ -5,7 +5,7 @@ description: "Learn what’s included with the Notion Developer Platform and how
 url: "https://www.notion.com/help/what-is-the-notion-developer-platform"
 key: "help:what-is-the-notion-developer-platform"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/3N6roTCCGn7DwTj2oBkxU2/521abf4f95499b9b4290fd441a1a2f53/Group_197.png"
-category: "Developer Platform"
+category: "Explore developer tools"
 categoryKey: "category:developer-platform"
 ---
 
@@ -20,6 +20,10 @@ The Developer Platform includes:
 * **External Agents API (private beta):&#x20;**&#x42;ring any external agent into Notion.
 
 * **Agent SDK (private alpha):&#x20;**&#x42;ring Notion Agents into any app.
+
+View an overview of all capabilities, stay up-to-date, and learn more about Notion’s Developer Platform.
+
+[Developer Platform documentation](https://developers.notion.com/guides/get-started/overview)
 
 ## What to know before you start
 
@@ -39,7 +43,7 @@ For more technical info, go to the [developer documentation.](https://developers
 
 ## Workers (public beta)
 
-[Notion Workers](https://www.notion.com/help/www.notion.com/help/run-custom-code-with-workers) let you run custom code that connects Notion to other systems. You can use them to power automations, database syncs, and custom agent tools.
+[Notion Workers](https://www.notion.com/help/run-custom-code-with-workers) let you run custom code that connects Notion to other systems. You can use them to power automations, database syncs, and custom agent tools.
 
 **Example:&#x20;**&#x53;ync Salesforce accounts into a Notion database nightly.
 

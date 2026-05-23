@@ -5,7 +5,7 @@ description: "Enterprise workspace owners have control over when users’ pages 
 url: "https://www.notion.com/help/custom-data-retention-settings"
 key: "help:custom-data-retention-settings"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/3mNzn5Pj4FIYYqnfjuEclf/e1a5fee27f27b885a9169478459e690b/Group_98.png"
-category: "Workspace administration"
+category: "Administer your workspace"
 categoryKey: "category:enterprise-admin"
 ---
 

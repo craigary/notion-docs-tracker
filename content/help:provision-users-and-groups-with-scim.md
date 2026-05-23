@@ -5,7 +5,7 @@ description: "You can provision and manage users and groups in your Notion works
 url: "https://www.notion.com/help/provision-users-and-groups-with-scim"
 key: "help:provision-users-and-groups-with-scim"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/2wnlyaUW3ASmq67cccMxks/9bffa290da4ed3a6065d9232dcd86c50/Provision_users___groups_with_SCIM__-_hero.png"
-category: "Workspace administration"
+category: "Administer your workspace"
 categoryKey: "category:enterprise-admin"
 ---
 

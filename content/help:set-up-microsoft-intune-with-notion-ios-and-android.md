@@ -5,7 +5,7 @@ description: "Set up Intune to manage Notion on iOS and Android mobile devices ð
 url: "https://www.notion.com/help/set-up-microsoft-intune-with-notion-ios-and-android"
 key: "help:set-up-microsoft-intune-with-notion-ios-and-android"
 coverImage: null
-category: "Workspace administration"
+category: "Administer your workspace"
 categoryKey: "category:enterprise-admin"
 ---
 

@@ -5,7 +5,7 @@ description: null
 url: "https://www.notion.com/help/network-control"
 key: "help:network-control"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/2fiL1MoGwFpWFSIxhW6FPT/56692c91b1cbaf5dc6e9a32d013ad55d/Network_Control_from_Figma.png"
-category: "Workspace administration"
+category: "Administer your workspace"
 categoryKey: "category:enterprise-admin"
 ---
 

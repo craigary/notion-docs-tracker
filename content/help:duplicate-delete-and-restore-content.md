@@ -141,6 +141,20 @@ To access version history for a page, you will need at least `Can edit` access.
 
 You can also see this information by clicking `🕘` at the top of any Notion page. You'll see a dropdown menu of all revisions and comments made on the current page by yourself and others. Click the `🕓` next to any revision to jump to that version in a new window.
 
+When you open version history, you can select a version and see the highlights of what changed. This makes it easier to review edits without manually comparing two versions side by side. You’ll see changes like:
+
+* Text edits (what was added, removed, or changed).
+
+* Blocks that were added or deleted.
+
+* Some non-text changes (like images, to-dos, callouts, and colors).
+
+* Some simple table and database changes.
+
+- Version history shows the main highlights, but it won’t capture every single change.
+
+- Detailed version comparison isn’t available on mobile.
+
 ### Restore past versions of a page
 
 * To recover only specific content blocks from a previous version, click on a certain version of a page, copy those blocks, and paste them into your current page.

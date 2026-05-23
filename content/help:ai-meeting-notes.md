@@ -498,4 +498,4 @@ Not at this time. Custom instructions must be created directly from Instructions
 
 ### How does Notion identify speakers in a transcript?
 
-Notion detects when speakers are shifting in audio, then uses context from non-audio sources (for example, audio source and calendar event information) to label speakers. [Speaker labeling](https://www.notion.com/help/ai-meeting-notes#follow-the-transcript-with-speaker-labels-&-citations) happens within a single meeting only.
+Notion detects when speakers are shifting in audio, then uses context from non-audio sources (for example, calendar event information) to label speakers. [Speaker labeling](https://www.notion.com/help/ai-meeting-notes#follow-the-transcript-with-speaker-labels-&-citations) happens within a single meeting only.

@@ -5,7 +5,7 @@ description: "Learn how to localize your templates in the Notion Marketplace. ðŸ
 url: "https://www.notion.com/help/template-localization-on-marketplace"
 key: "help:template-localization-on-marketplace"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/3VacyLu9F9LRCmVyNCVnsR/7c860c67b444eb28beb73ddc23b4408c/templatelocalization.png"
-category: "Marketplace"
+category: "Marketplace & templates"
 categoryKey: "category:template-gallery"
 ---
 

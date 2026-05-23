@@ -5,7 +5,7 @@ description: "Enterprise organization owners can restrict login to specific IP a
 url: "https://www.notion.com/help/ip-address-restrictions"
 key: "help:ip-address-restrictions"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/5StPeXrRtUwpJVSJprYDWk/54461e2b82a6026fec33cd0574ed5c3e/Reference_Visuals_Group_163.png"
-category: "Workspace administration"
+category: "Administer your workspace"
 categoryKey: "category:enterprise-admin"
 ---
 

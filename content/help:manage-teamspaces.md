@@ -5,7 +5,7 @@ description: "Workspace owners can get an overview of all teamspaces in the work
 url: "https://www.notion.com/help/manage-teamspaces"
 key: "help:manage-teamspaces"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/5PnqfTLNf758vzEsX8FzJS/2b8bf35f314df7fbb0bb82efcb7af944/manage_teamspaces.png"
-category: "Workspace administration"
+category: "Administer your workspace"
 categoryKey: "category:enterprise-admin"
 ---
 

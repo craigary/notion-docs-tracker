@@ -5,7 +5,7 @@ description: "Here's how to set up your Identity Provider for SAML SSO in Notion
 url: "https://www.notion.com/help/set-up-identity-provider-for-saml-sso"
 key: "help:set-up-identity-provider-for-saml-sso"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/mzbz1SsE5vsNjUFhmIhTb/555461515fdda4a6e27c704c6b2cc5cb/Scim_IDP_Reference_Visuals.png"
-category: "Workspace administration"
+category: "Administer your workspace"
 categoryKey: "category:enterprise-admin"
 ---
 

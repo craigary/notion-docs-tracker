@@ -5,7 +5,7 @@ description: "We’re constantly on the lookout for truly exceptional creators a
 url: "https://www.notion.com/help/getting-featured-in-the-template-gallery"
 key: "help:getting-featured-in-the-template-gallery"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/3p8fItTTo0rga26uroRCr/23ef20da0780cd1ac33905e90ec40f0a/getting-featured-in-the-template-gallery.png"
-category: "Marketplace"
+category: "Marketplace & templates"
 categoryKey: "category:template-gallery"
 ---
 

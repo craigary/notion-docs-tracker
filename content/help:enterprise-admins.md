@@ -5,7 +5,7 @@ description: "This one's for administrators of workspaces on the Enterprise Plan
 url: "https://www.notion.com/help/enterprise-admins"
 key: "help:enterprise-admins"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/1RDuOpVtHhH1NeGAi87VXT/297896a78e4345cd06c4965d02107309/Enterprise_admins_-_hero.png"
-category: "Workspace administration"
+category: "Administer your workspace"
 categoryKey: "category:enterprise-admin"
 ---
 

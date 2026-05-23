@@ -13,7 +13,7 @@ categoryKey: "category:account-settings-and-privacy"
 
 To change your profile photo, you'll need to be using Notion for desktop or web and follow these steps:
 
-1. Go to `Settings` in your sidebar → `{your name}`.
+1. In the sidebar, select the down arrow next to the workspace name to go to `Settings`. Then select `{your name}`.
 
 2. Select your current photo or your initial above `Add photo`.
 
@@ -23,7 +23,7 @@ To change your profile photo, you'll need to be using Notion for desktop or web 
 
 To change your preferred name in Notion:
 
-1. Go to `Settings` in your sidebar → `{your name}`.
+1. In the sidebar, select the down arrow next to the workspace name to go to `Settings` → `{your name}`.
 
 2. Under `Preferred name`, enter the name you want to use.
 
@@ -33,7 +33,7 @@ Your primary email address is where account notifications are sent by default. Y
 
 **To change your primary email address:**
 
-1. Go to `Settings` in your sidebar → `{your name}`.
+1. In the sidebar, select the down arrow next to the workspace na me to go to `Settings` → `{your name}`.
 
 2. Under `Account security`, click `Manage emails`.
 
@@ -75,7 +75,7 @@ If you get an error telling you that your new email is already being used with a
 
 If you want to log into Notion using a permanent password instead of temporary login codes:
 
-1. Go to `Settings` in your sidebar → `{your name}`.
+1. In the sidebar, select the down arrow next to the workspace name to go to `Settings` → `{your name}`.
 
 2. Select `Set a password`.
 
@@ -83,7 +83,7 @@ If you want to log into Notion using a permanent password instead of temporary l
 
 If you want to change or remove your password:
 
-1. Go to `Settings` in your sidebar → `{your name}`.
+1. In the sidebar, select the down arrow next to the workspace name to go to `Settings` → `{your name}`.
 
 2. Select `Change password`.
 
@@ -119,7 +119,7 @@ Learn more about logging out of all your devices [here →](https://www.notion.c
 
 To customize Notion's appearance on desktop:
 
-1. Go to `Settings` in your sidebar → `Preferences`.
+1. In the sidebar, select the down arrow next to the workspace name to go to `Settings` → `Preferences`.
 
 2. Open the dropdown next to `Appearance` and select one of the following options:
 
@@ -153,7 +153,7 @@ To customize Notion's appearance on mobile:
 
 If you're on web and you want any links to Notion pages to open in your desktop app:
 
-1. Go to `Settings` in your sidebar → `Preferences`.
+1. In the sidebar, select the down arrow next to the workspace name to go to `Settings` → `Preferences`.
 
 2. Toggle on `Open links in desktop app`.
 
@@ -183,7 +183,7 @@ To change your display language:
 
 Calendars in Notion will use Sunday or Monday as the first day of the week, depending on your region. That includes the date picker for reminders and calendar databases. If you prefer, you can change this manually. To do this:
 
-1. Go to `Settings` in your sidebar → `Preferences`.
+1. In the sidebar, select the down arrow next to the workspace name to go to `Settings` → `Preferences`.
 
 2. Under `Language & Time`, toggle on or off `Start week on Monday`.
 
@@ -191,7 +191,7 @@ Calendars in Notion will use Sunday or Monday as the first day of the week, depe
 
 To change your time zone:
 
-1. Go to `Settings` in your sidebar → `Preferences`.
+1. In the sidebar, select the down arrow next to the workspace name to go to `Settings` → `Preferences`.
 
 2. Under `Language & Time`, set your time zone manually or turn on `Automatically update time zone`.
 
@@ -215,7 +215,7 @@ If you don’t want your account to be recorded in page analytics, you can opt o
 
 To opt out of participating in analytics altogether:
 
-1. Go to `Settings` in your sidebar → `Preferences`.
+1. In the sidebar, select the down arrow next to the workspace name to go to `Settings` → `Preferences`.
 
 2. Under `Privacy`, open the dropdown next to `Show my view history` and select `Don't record`.
 
@@ -225,7 +225,7 @@ Learn more about page analytics [here →](https://www.notion.com/help/page-anal
 
 You can decide if users with your email address can see your name and profile picture when they invite you to a new workspace. To do so:
 
-1. Go to `Settings` in your sidebar → `Preferences`.
+1. In the sidebar, select the down arrow next to the workspace name to go to `Settings` → `Preferences`.
 
 2. Under `Privacy`, find `Profile discoverability`. Turn this on to make your profile discoverable to people with your email address, or turn it off to hide your profile from people with your email address.
 

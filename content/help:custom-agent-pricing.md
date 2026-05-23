@@ -5,8 +5,8 @@ description: "Everything you need to know about Notion credits for Custom Agents
 url: "https://www.notion.com/help/custom-agent-pricing"
 key: "help:custom-agent-pricing"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/18cMIFOLXTfDVVWZgobE7C/3cfda622276bfd65931474aa47843373/credits.png"
-category: "Plans & billing"
-categoryKey: "category:plans-billing-and-payment"
+category: "Custom Agents"
+categoryKey: "category:custom-agents"
 ---
 
 ## What are Notion credits?
@@ -249,9 +249,21 @@ Pause or switch off a Custom Agent anytime to immediately stop credit usage whil
 
 ![HC: switch off a custom agent](https://images.ctfassets.net/spoqsaf9291f/1fHvOe6FKw71oVHY2RjJuJ/f8cfd533f74675531084e9d30feed461/image__1_.png)
 
-### 4. Optimize efficiency to reduce credits per run
+### 4. Use Insights to optimize performance
 
-Agent-level insights will be available soon. They’ll help you see total runs and performance across your workspace, spot high-usage agents, and reduce unnecessary runs or extra steps.
+Insights helps agent creators and workspace admins understand activity in order to make targeted updates that improve performance. Use Insights to spot runs that take extra steps, fail and retry, or use a more expensive model than the job requires. Then, update the agent’s instructions or settings so it runs more efficiently.
+
+Open Insights directly within an agent to:
+
+* Monitor your agent’s activity and credit usage.
+
+* Identify runs that are more expensive than expected.
+
+* Review what models, tools, and triggers were used.
+
+* Find and fix failed runs so your agent works more reliably.
+
+To learn more about how to use Insights to reduce costs and improve your Custom Agent, see [this guide](https://www.notion.com/help/guides/best-practices-for-improving-your-custom-agent).
 
 ![HC: view agent insightss](https://images.ctfassets.net/spoqsaf9291f/4QclXZuMjYGpNkBwZV7c2i/c1cfe629e1ccd50aebeac8e8d54d831d/insights_chart_english__2___1_.png)
 

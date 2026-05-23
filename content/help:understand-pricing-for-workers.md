@@ -5,7 +5,7 @@ description: "Learn how Workers use Notion credits, what affects Worker credit u
 url: "https://www.notion.com/help/understand-pricing-for-workers"
 key: "help:understand-pricing-for-workers"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/2QZcOLJjPJCxL0KCt4xL7d/8387cc66cf47c3c1e434caf7d3fc250a/Group_193.png"
-category: "Developer Platform"
+category: "Explore developer tools"
 categoryKey: "category:developer-platform"
 ---
 
@@ -165,27 +165,13 @@ During the free beta, you can track Worker credit usage over the last 30 days di
 
 Shows a detailed breakdown for one Worker’s usage over the last 30 days. This includes estimated preview credits, execution count, and runtime/network metrics that help explain what’s driving usage.
 
-`% ntn workers usage
-ID 019e1dda-fbf0-7eb0-aa37-8d3c11ee6c2d
-Name ntn-worker-usage-validation
-Space ID b07104cd-477e-8123-9b74-0003e5d75c7b
-Window Last 30 days
-Estimated preview credits 0.39
-Executions 2
-Active CPU duration 4582 ms
-Wall duration 5138 ms
-Network transfer 0.02 MB in / 0.02 MB out`
+![View usage for a Worker](https://images.ctfassets.net/spoqsaf9291f/5Glwtx8EkWkEzzv5hkbzNj/59c2c5d4c75e5943213279f063079ae4/Screenshot_2026-05-18_at_5.10.45%C3%A2__PM.png)
 
 ### **View usage across all Workers (summary)**
 
 Shows a summary of all Workers, including estimated preview credits used and executions over the last 30 days.
 
-`ntn workers usage --all
-ID NAME EST. CREDITS
-019e1dda-fbf0-7eb0-aa37-8d3c11ee6c2d ntn-worker-usage-validation 0.39`
-
-`EXECUTIONS WINDOW
-2 30d`
+![View usage across workers](https://images.ctfassets.net/spoqsaf9291f/VtEG4wbVplyTfiqbNKksi/d8c887fe9f8c6d4f37f8d847c60fb3b4/Screenshot_2026-05-18_at_5.26.31%C3%A2__PM.png)
 
 ## Admin controls for Workers
 

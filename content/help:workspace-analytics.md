@@ -5,7 +5,7 @@ description: "Learn how your organization is interacting with content on your wo
 url: "https://www.notion.com/help/workspace-analytics"
 key: "help:workspace-analytics"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/593BzARypfkT2ALQ3ZGFU1/18f8351a980635587f46b7b8d12fc0aa/Workspace_analytics.png"
-category: "Workspace administration"
+category: "Administer your workspace"
 categoryKey: "category:enterprise-admin"
 ---
 

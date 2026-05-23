@@ -5,7 +5,7 @@ description: "Learn how to sell your templates in the Notion Marketplace ğŸ§‘ğŸ
 url: "https://www.notion.com/help/selling-on-marketplace"
 key: "help:selling-on-marketplace"
 coverImage: "https://img.youtube.com/vi/8o02_2B_MxM/maxresdefault.jpg"
-category: "Marketplace"
+category: "Marketplace & templates"
 categoryKey: "category:template-gallery"
 ---
 

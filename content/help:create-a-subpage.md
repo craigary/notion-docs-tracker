@@ -5,7 +5,7 @@ description: "There are no folders in Notion. Instead, you can organize pages in
 url: "https://www.notion.com/help/create-a-subpage"
 key: "help:create-a-subpage"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/6KMvNrneXYfZvt18MdqS2F/6dd0e4d5fe2ceb8508345196d63a1bc7/Create_a_subpage_-_hero.png"
-category: "Get started"
+category: "Notion basics"
 categoryKey: "category:new-to-notion"
 ---
 

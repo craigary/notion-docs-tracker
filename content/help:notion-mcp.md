@@ -79,7 +79,7 @@ Workspace owners on the Enterprise Plan can control whether members can connect 
 
 5. If you need to add more, click `Add approved AI apps` and use the modal to search and approve additional external AI apps
 
-6. Once an external AI app is on the approved list, any member in the workspace can connect the Notion MCP to that external AI app. It will be in the list of External AI tools as `Not Connected`.
+6. Once an external AI app is on the approved list, any member in the workspace can connect the Notion MCP to that external AI app. It will be in the list of External AI apps as `Not Connected`.
 
 ## Popular AI apps
 

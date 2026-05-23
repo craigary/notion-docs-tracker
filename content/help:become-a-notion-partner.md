@@ -5,7 +5,7 @@ description: "Learn how to become a certified Notion partner 🤝🏼"
 url: "https://www.notion.com/help/become-a-notion-partner"
 key: "help:become-a-notion-partner"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/5Wa5XU3bO1bA2F7LYg9mNQ/a865172b1af05e3497321b1e5cdebf9b/Become_a_Notion_Partner.png"
-category: "Marketplace"
+category: "Marketplace & templates"
 categoryKey: "category:template-gallery"
 ---
 

@@ -1,9 +1,9 @@
 ---
 title: "Notion AI Connectors"
-description: "Bring your team’s knowledge into Notion AI with connectors. This section walks through setting up connectors across popular tools (docs, tickets, chat, email, and calendars) so you can find answers and work with information without switching apps."
+description: null
 url: "https://www.notion.com/help/category/notion-ai-connectors"
 key: "category:notion-ai-connectors"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/2HM5BPlsww5fF5gJDpI71B/94b7676aa48c86aa4d3fe90583812b4a/New_to_Notion_-_Chapter_Hero.png"
+coverImage: null
 ---
 
 1 help:notion-ai-connectors
@@ -14,10 +14,11 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/2HM5BPlsww5fF5gJDpI71B/94
 6 help:notion-ai-connector-for-microsoft-teams
 7 help:notion-ai-connector-for-microsoft-sharepoint-and-onedrive
 8 help:notion-ai-connectors-for-slack
-9 help:asana-ai-connector
+9 help:notion-calendar-ai-connector
 10 help:notion-mail-ai-connector
-11 help:notion-calendar-ai-connector
-12 help:microsoft-outlook-ai-connector
-13 help:google-calendar-ai-connector
-14 help:notion-ai-connector-for-gmail
-15 help:box-ai-connector
+11 help:asana-ai-connector
+12 help:box-ai-connector
+13 help:microsoft-outlook-ai-connector
+14 help:google-calendar-ai-connector
+15 help:notion-ai-connector-for-gmail
+16 help:salesforce-ai-connector

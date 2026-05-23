@@ -5,7 +5,7 @@ description: "Notion provides Single Sign-On (SSO) functionality for Business an
 url: "https://www.notion.com/help/saml-sso-configuration"
 key: "help:saml-sso-configuration"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/hk1bRz3TSmKCYa44qqk3a/89ff18b7391cfa356d45bb68a2324c01/SAML-sso-help.png"
-category: "Workspace administration"
+category: "Administer your workspace"
 categoryKey: "category:enterprise-admin"
 ---
 

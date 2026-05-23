@@ -5,7 +5,7 @@ description: "Enterprise connection settings empower workspace owners with granu
 url: "https://www.notion.com/help/enterprise-connection-settings"
 key: "help:enterprise-connection-settings"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/3EvinCberMWv1O39Xd0N2N/1ed8baee3f128c1aba33293dba5633eb/Enterprise_connection.png"
-category: "Workspace administration"
+category: "Administer your workspace"
 categoryKey: "category:enterprise-admin"
 ---
 

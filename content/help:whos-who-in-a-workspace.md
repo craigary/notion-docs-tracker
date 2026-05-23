@@ -5,7 +5,7 @@ description: "Learn about the different kinds of people in a workspace 👥"
 url: "https://www.notion.com/help/whos-who-in-a-workspace"
 key: "help:whos-who-in-a-workspace"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/3oRXIXEWN14ymuR87cirAN/241c9ea1fd897d13b916ff469d33c672/Who-s_Who_in_a_Workspace__1_.png"
-category: "Share & collaborate"
+category: "Sharing & permissions"
 categoryKey: "category:sharing-and-collaboration"
 ---
 

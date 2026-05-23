@@ -5,7 +5,7 @@ description: "Manage all of your organization’s workspaces and apply settings 
 url: "https://www.notion.com/help/organization-level-controls"
 key: "help:organization-level-controls"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/1hLVkexczfU4pbkYrPQ65O/03a49ec5aaaf40bd13e153d3119376ea/Enterprise_Admin_Console.png"
-category: "Workspace administration"
+category: "Administer your workspace"
 categoryKey: "category:enterprise-admin"
 ---
 
