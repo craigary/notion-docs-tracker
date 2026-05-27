@@ -148,7 +148,7 @@ As you’re using your Notion Agent, you can change the way your chat appears on
 
 ## Chat history
 
-You can access the last 30 days’ worth of conversations you’ve had with your Agent at any time. To do this:
+You can access previous conversations you’ve had with your Agent at any time. To do this:
 
 1. Hover over `Notion AI` in your sidebar.
 
