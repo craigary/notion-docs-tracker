@@ -9,7 +9,7 @@ category: "Troubleshoot"
 categoryKey: "category:troubleshooting"
 ---
 
-Check our [status page](https://status.notion.so/) and [X](https://twitter.com/NotionStatus) for live updates on any known issues.
+Check our [status page](https://www.notion-status.com/) and [X](https://twitter.com/NotionStatus) for live updates on any known issues.
 
 HAR is an archive file format that records information about your Notion session. It might be helpful to record and share a HAR file with our support team so they can help you troubleshoot your issue.
 

@@ -64,7 +64,7 @@ The following categories of data may be stored in regions outside of the custome
 
 By default, your data will continue to reside in the United States. To migrate your organization's data to a data region, please contact your account team. Once the workspace is migrated, the categories of Customer Data described above will be deleted in the US after 30 days.
 
-Enterprise organizations can specify a default region for newly created workspaces in the Organization Console. Setting region to Europe will prevent needing to migrate net new workspaces.
+Enterprise organizations can specify a default region for newly created workspaces <!-- -->by going to the Organization Console → `Data & Compliance` → `Data Residency`. <!-- -->Setting the region to Europe will prevent needing to migrate net new workspaces.
 
 ![Data migration set region](https://images.ctfassets.net/spoqsaf9291f/1y5ltYVaaSbXOly3vW7TxJ/3392f4942fff8f4c9307d3b89857cfd1/image__2_.png)
 
