@@ -1,5 +1,5 @@
 ---
-title: "Build databases"
+title: "Databases"
 description: null
 url: "https://www.notion.com/help/category/databases"
 key: "category:databases"

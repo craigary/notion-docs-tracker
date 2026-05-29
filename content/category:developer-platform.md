@@ -1,5 +1,5 @@
 ---
-title: "Developer Platform"
+title: "Explore developer tools"
 description: null
 url: "https://www.notion.com/help/category/developer-platform"
 key: "category:developer-platform"

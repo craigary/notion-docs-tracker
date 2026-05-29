@@ -1,5 +1,5 @@
 ---
-title: "Work with Notion AI"
+title: "Notion AI"
 description: null
 url: "https://www.notion.com/help/category/notion-ai"
 key: "category:notion-ai"

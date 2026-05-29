@@ -6,8 +6,3 @@ key: "category:meet-your-workspace"
 coverImage: null
 ---
 
-1 help:create-delete-and-switch-workspaces
-2 help:browse-join-and-create-teamspaces
-3 help:workspace-settings
-4 help:workspaces-on-mobile
-5 help:delete-a-workspace

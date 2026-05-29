@@ -63,15 +63,19 @@ export async function fetchAllNotionHelpDocs() {
     nextDataJson.props.pageProps.helpPageSidebar.helpArticleTree
 
   const categories: Category[] = []
-  helpArticleTree.forEach(category => {
-    categories.push({
-      title: category.name,
-      slug: category.slug,
-      key: `category:${category.slug}` as const
+  helpArticleTree.forEach(parentCategory => {
+    const categoryArrUnderParent = parentCategory.entries.map(category => {
+      return {
+        title: category.name,
+        slug: category.slug,
+        key: `category:${category.slug}` as const
+      }
     })
+    categories.push(...categoryArrUnderParent)
   })
 
   const categoryOrderEntries = await Promise.all(
+
     categories.map(async category => {
       try {
         return [category.key, await fetchCategoryArticleOrders(category)] as const
@@ -84,6 +88,7 @@ export async function fetchAllNotionHelpDocs() {
       }
     })
   )
+
   const categoryOrdersByKey = new Map(categoryOrderEntries)
 
   const articles: Article[] = []

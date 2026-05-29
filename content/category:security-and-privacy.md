@@ -6,16 +6,3 @@ key: "category:security-and-privacy"
 coverImage: null
 ---
 
-1 help:security-and-privacy
-2 help:privacy
-3 help:gdpr-at-notion
-4 help:custom-agents-security-features
-5 help:security-best-practices-for-agent-connections
-6 help:allowlist-ip
-7 help:data-accessible-by-your-workspace-owner
-8 help:report-inappropriate-content
-9 help:data-residency
-10 help:shared-responsibilities-model
-11 help:how-to-protect-yourself-from-malvertising
-12 help:how-notion-protects-against-prompt-injection-risks
-13 help:dormant-account-policy

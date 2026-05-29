@@ -6,13 +6,3 @@ key: "category:troubleshooting"
 coverImage: null
 ---
 
-1 help:reset-notion
-2 help:cant-log-in
-3 help:cant-access-notion
-4 help:common-formula-errors
-5 help:cant-access-my-own-page
-6 help:cant-upload-or-view-a-file
-7 help:notion-error-messages
-8 help:record-har-files-for-troubleshooting
-9 help:cant-log-into-notion-mail
-10 help:common-jira-sync-issues

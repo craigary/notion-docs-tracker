@@ -42,9 +42,16 @@ function sanitizeArticleMarkdown(article: Article, bodyMarkdown: string) {
 
 export async function fetchArticleContent(article: Article): Promise<ArticleInfo> {
   const url = getHelpArticleUrl(article.slug)
-  const responseText = await fetch(url, { headers: genericHeaders }).then(response =>
-    response.text()
-  )
+
+  const articlePageRes = await fetch(url, { headers: genericHeaders })
+
+  if (articlePageRes.status === 404) {
+    throw new Error(`Article ${article.slug} not found (404) at ${url}`)
+  }
+
+  const responseText = await articlePageRes.text()
+
+
   const document = new DOMParser().parseFromString(responseText, 'text/html')
 
   const title = document.querySelector('h1')?.textContent?.trim()
