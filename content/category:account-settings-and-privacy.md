@@ -6,3 +6,15 @@ key: "category:account-settings-and-privacy"
 coverImage: null
 ---
 
+1 help:account-settings
+3 help:notification-settings
+7 help:two-step-verification
+7 help:change-your-language
+8 help:manage-email-and-calendar-settings
+9 help:hipaa
+9 help:secondary-emails
+10 help:data-access-consent
+10 help:passkeys
+11 help:delete-your-account
+11 help:notion-faces
+12 help:log-in-and-out

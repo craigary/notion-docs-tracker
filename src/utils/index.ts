@@ -19,9 +19,7 @@ export function ensureTrailingSlash(url: string) {
   return url.endsWith('/') ? url : `${url}/`
 }
 
-export function getHelpDocsIndexUrl() {
-  return config.helpDocsUrl
-}
+
 
 export function getHelpArticleUrl(slug: string) {
   return new URL(slug, ensureTrailingSlash(config.helpDocsUrl)).toString()

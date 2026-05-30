@@ -9,7 +9,7 @@ category: "Troubleshoot"
 categoryKey: "category:troubleshooting"
 ---
 
-Check our [status page](https://status.notion.so/) and [X](https://twitter.com/NotionStatus) for live updates on any known issues.
+Check our [status page](https://www.notion-status.com/) and [X](https://twitter.com/NotionStatus) for live updates on any known issues.
 
 **Note:**
 

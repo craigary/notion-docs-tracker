@@ -1,21 +1,19 @@
 import { DOMParser } from 'linkedom'
 
 import type { Article, Category } from '../../types'
-import { genericHeaders, getHelpCategoryUrl, getHelpDocsIndexUrl } from '../utils'
+import { genericHeaders, getHelpCategoryUrl } from '../utils'
+import config from '@/config'
 
-type HelpArticleTreeCategory = {
+type HelpCategoryTreeFromSidebar = {
   name: string
   slug: string
+  url: string
+  order: number
   entries: {
     name: string
     slug: string
-    emoji: string | null
+    url: string
   }[]
-}
-
-type CategoryPageField = {
-  order?: number
-  slug?: string
 }
 
 function parseNextData(responseText: string, errorContext: string) {
@@ -29,41 +27,44 @@ function parseNextData(responseText: string, errorContext: string) {
   return JSON.parse(nextData.textContent)
 }
 
-async function fetchCategoryArticleOrders(category: Category) {
+async function fetchHelpArticleByCategory(category: Category): Promise<Article[]> {
   const responseText = await fetch(getHelpCategoryUrl(category.slug), {
     headers: genericHeaders
   }).then(response => response.text())
 
   const nextDataJson = parseNextData(responseText, `Notion Help category ${category.slug}`)
-  const categoryFields = nextDataJson.props.pageProps.helpPagesInCategory as
-    | CategoryPageField[]
-    | undefined
 
-  if (!Array.isArray(categoryFields)) {
-    throw new Error(`Missing helpPagesInCategory array for category ${category.slug}`)
-  }
+  const articlesInCategory = (nextDataJson.props.pageProps.helpPagesInCategory as any[])
+    .filter((page: any) => page.fields?.title && page.fields?.slug)
+    .map((page: any, index: number) => {
+      return {
+        title: page.fields.title as string,
+        slug: page.fields.slug as string,
+        key: `help:${page.fields.slug}` as const,
+        emoji: (page.fields.emoji as string | null) ?? null,
+        category: category.title,
+        categoryKey: category.key,
+        order: (page.fields.order as number) ?? index + 1
+      }
+    })
 
-  return new Map(
-    categoryFields
-      .filter(
-        (field): field is Required<Pick<CategoryPageField, 'order' | 'slug'>> =>
-          typeof field.order === 'number' && typeof field.slug === 'string'
-      )
-      .map(field => [field.slug, field.order])
-  )
+  return articlesInCategory
 }
 
 export async function fetchAllNotionHelpDocs() {
-  const responseText = await fetch(getHelpDocsIndexUrl(), {
+  const responseText = await fetch(config.helpDocsUrl, {
     headers: genericHeaders
   }).then(response => response.text())
 
   const nextDataJson = parseNextData(responseText, 'Notion Help homepage')
-  const helpArticleTree: HelpArticleTreeCategory[] =
+
+  // 之前在这里可以通过侧边栏拿到所有的文章，但现在只能拿到分类。原来的文章被现在的分类代替了，原来的上级分类变成了一个没有意义的分类名称，里面没有实际内容
+  const helpCategoryTreeFromSidebar: HelpCategoryTreeFromSidebar[] =
     nextDataJson.props.pageProps.helpPageSidebar.helpArticleTree
 
   const categories: Category[] = []
-  helpArticleTree.forEach(parentCategory => {
+
+  helpCategoryTreeFromSidebar.forEach(parentCategory => {
     const categoryArrUnderParent = parentCategory.entries.map(category => {
       return {
         title: category.name,
@@ -74,44 +75,23 @@ export async function fetchAllNotionHelpDocs() {
     categories.push(...categoryArrUnderParent)
   })
 
-  const categoryOrderEntries = await Promise.all(
 
-    categories.map(async category => {
+
+  const categoryOrderEntries = await Promise.all(
+    categories.map(category => {
       try {
-        return [category.key, await fetchCategoryArticleOrders(category)] as const
+        return fetchHelpArticleByCategory(category)
       } catch (error) {
         console.warn(
           `Failed to fetch precise article order for category ${category.slug}, falling back to sidebar order.`,
           error
         )
-        return [category.key, new Map<string, number>()] as const
+        return [] as Article[]
       }
     })
   )
 
-  const categoryOrdersByKey = new Map(categoryOrderEntries)
 
-  const articles: Article[] = []
-  helpArticleTree.forEach(category => {
-    const categoryKey = `category:${category.slug}` as const
-    const preciseOrders = categoryOrdersByKey.get(categoryKey)
 
-    articles.push(
-      ...category.entries.map((article, index) => {
-        const preciseOrder = preciseOrders?.get(article.slug)
-
-        return {
-          title: article.name,
-          slug: article.slug,
-          key: `help:${article.slug}` as const,
-          emoji: article.emoji,
-          category: category.name,
-          categoryKey,
-          order: preciseOrder ?? index + 1
-        }
-      })
-    )
-  })
-
-  return { categories, articles }
+  return { categories, articles: categoryOrderEntries.flat() }
 }
