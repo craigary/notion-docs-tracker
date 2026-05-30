@@ -23,9 +23,23 @@ To see your audit log:
 
 2. Go to the `Data & Compliance` tab and select `Audit log`.
 
-Some groups of Audit Log events are created as a consequence of the same user action.
+Some groups of audit log events are created as a consequence of the same user action.
 
-To inspect individual Audit Log events to see if they are part of a group, hover over the Audit Log row and click the magnifying glass to filter for related events.
+To inspect individual audit log events to see if they are part of a group, hover over the audit log row and select the magnifying glass to filter for related events.
+
+## Stream audit log events to your SEIM
+
+You can use Notion’s custom SIEM integration to send a continuous stream of audit log events to your SIEM platform in real-time via webhooks. This includes all of the same audit log event types.
+
+To set up the custom SEIM integration:
+
+1. Open the workspace switcher and select the `Settings` button.
+
+2. Go to the `Connections` tab and select `Custom SIEM integration`. You may need to use the search bar or select `See all` for this option to appear.
+
+3. Select the `Connect` button, then enter your webhook URL into the `Webhook URL` field. You can retrieve this from within your SEIM account settings.
+
+4. Select the `Connect` button to finish the process. All events in the audit log are sent in real-time to your SIEM endpoint as JSON payloads.
 
 ## Audit log event types
 
@@ -297,7 +311,7 @@ Page event audience will also export as a column in CSV exports.
 
 * **Membership request resolved:&#x20;**&#x54;hat a user has resolved a workspace membership request
 
-* **Audit Log exported:&#x20;**&#x54;hat the user exported the Audit Log
+* **Audit Log exported:&#x20;**&#x54;hat the user exported the audit log
 
 * **User Analytics exported:&#x20;**&#x54;he the user exported the User Analytics table of [Workspace Analytics](https://www.notion.com/help/workspace-analytics)
 

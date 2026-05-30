@@ -39,7 +39,7 @@ When entering in your tax ID, the alphanumeric format to use is `12345678912`.
 
 Notion is required to charge Goods and Services Tax (GST), Québec Sales Tax (QST), Harmonized Sales Tax (HST), and Provincial Sales Tax (PST) on services provided to consumers and businesses, depending on the Canadian Province.
 
-When entering in your Federal tax ID, the alphanumeric format to use is `123456789`.
+When entering in your Federal tax ID, the alphanumeric format to use is `123456789RT0001`.
 
 **British Columbia**
 

@@ -1,5 +1,5 @@
 ---
-title: "Use Notion from your terminal with Notion CLI"
+title: "Use Notion from your terminal with Notion CLI (beta)"
 emoji: "👩🏽‍💻"
 description: "Learn the basics of using Notion from the command line, including how to get set up and common fixes 👩🏽‍💻"
 url: "https://www.notion.com/help/use-notion-from-your-terminal-with-notion-cli"

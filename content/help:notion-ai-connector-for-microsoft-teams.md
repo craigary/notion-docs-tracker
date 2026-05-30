@@ -25,11 +25,29 @@ The Microsoft Teams AI Connector transforms collaboration by integrating AI into
 
 * You must be on Notion’s Business or Enterprise Plan.
 
-Permissions for specific content will follow Microsoft – users will only see content they have access to.
+Permissions for specific content will follow Microsoft. Users will only see content they have access to. If your organization connects Microsoft Teams at the org level, permissions still work the same way.
+
+## Organization-level connection (for multi-workspace orgs)
+
+Some organizations have multiple Notion workspaces tied to the same Microsoft 365 account. If that’s you, you can connect Microsoft Teams at the organization level. Once it’s set up, you can use the same Microsoft account across workspaces.
+
+Before you setup an organization-level connection, you’ll first need to get in touch with your sales contact at Notion to make the change. If you already connected Teams in a single workspace, you’ll need to disconnect it first, then reconnect.
+
+With an org-level connection:
+
+* You don’t need to repeat Microsoft Teams setup for every workspace.
+
+* It can be easier to roll out Notion AI search across workspaces.
+
+* People can only search and reference Teams content they already have access to in Microsoft.
+
+* The first sync time and supported content stay the same.
+
+If you already have Microsoft Teams connected in one workspace, you may need to disconnect it there, then connect it again after org-level connection is in place.
 
 ![HC: Microsoft Teams](https://images.ctfassets.net/spoqsaf9291f/49JL8i1UzBrxBdhiI7Ui65/181cc2b4632088c0ef579215e64811df/Settings_V2_from_Notes.jpeg)
 
-**How do I connect Microsoft Teams?**
+## How do I connect Microsoft Teams?
 
 To connect Microsoft Teams to your Notion workspace:
 
@@ -46,6 +64,8 @@ To connect Microsoft Teams to your Notion workspace:
    * The initial Microsoft Teams sync may take up to 72 hours depending on the amount of data (channels, messages, and files). Subsequent syncs will be incremental and faster.
 
    * You can manage the connection by opening Notion AI at the bottom of your screen and clicking on → `Connect Microsoft Team` → `Settings`.
+
+If your organization is using an org-level connection, your IT admin can complete the Microsoft side of setup for you. In that case, you might need to finish setup in your Notion workspace.
 
 ## Best practices and example prompts
 
