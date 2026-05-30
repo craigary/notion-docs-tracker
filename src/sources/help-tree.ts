@@ -16,6 +16,15 @@ type HelpCategoryTreeFromSidebar = {
   }[]
 }
 
+type HelpPageInCategory = {
+  fields: {
+    title?: string
+    slug?: string
+    emoji?: string | null
+    order?: number
+  }
+}
+
 function parseNextData(responseText: string, errorContext: string) {
   const document = new DOMParser().parseFromString(responseText, 'text/html')
   const nextData = document.querySelector('script#__NEXT_DATA__')
@@ -34,17 +43,17 @@ async function fetchHelpArticleByCategory(category: Category): Promise<Article[]
 
   const nextDataJson = parseNextData(responseText, `Notion Help category ${category.slug}`)
 
-  const articlesInCategory = (nextDataJson.props.pageProps.helpPagesInCategory as any[])
-    .filter((page: any) => page.fields?.title && page.fields?.slug)
-    .map((page: any, index: number) => {
+  const articlesInCategory = (nextDataJson.props.pageProps.helpPagesInCategory as HelpPageInCategory[])
+    .filter(page => page.fields?.title && page.fields?.slug)
+    .map((page, index) => {
       return {
-        title: page.fields.title as string,
-        slug: page.fields.slug as string,
-        key: `help:${page.fields.slug}` as const,
-        emoji: (page.fields.emoji as string | null) ?? null,
+        title: page.fields.title!,
+        slug: page.fields.slug!,
+        key: `help:${page.fields.slug!}` as const,
+        emoji: page.fields.emoji ?? null,
         category: category.title,
         categoryKey: category.key,
-        order: (page.fields.order as number) ?? index + 1
+        order: page.fields.order ?? index + 1
       }
     })
 
