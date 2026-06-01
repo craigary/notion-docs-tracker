@@ -1,9 +1,9 @@
 ---
 title: "Privacy & security"
-description: null
+description: "Your security and privacy are crucial. Read on to learn more about how we keep you and your data safe."
 url: "https://www.notion.com/help/category/security-and-privacy"
 key: "category:security-and-privacy"
-coverImage: null
+coverImage: "https://images.ctfassets.net/spoqsaf9291f/3YdwMwZLM4TOOtw3zhRapu/921aab4d60915dab285934890cec92af/trust_and_safety_thumb.png"
 ---
 
 1 help:security-and-privacy
