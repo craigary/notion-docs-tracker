@@ -17,6 +17,8 @@ A Notion workspace can have several types of users or roles:
 
 * Guests
 
+* Temporary members
+
 * Workspace owners
 
 * (Enterprise Plan only) Membership admins
@@ -89,9 +91,23 @@ Guests share many capabilities with members, except:
 
 * They can't add new members to your workspace.
 
-* They can't add new <!-- -->connections<!-- --> to your workspace.
+* They can't add new connections to your workspace.
 
 Once a guest has requested to join your workspace as a member, they’ll be able to create private pages in your workspace.
+
+## Temporary members
+
+Temporary members are approved Notion Marketplace consultants who have been granted time-limited access to your workspace by an admin. They have the same access as regular members until their expiration date. Once that date passes, they lose access automatically.
+
+* Temporary members don’t use a paid seat.
+
+* Access expires automatically on the date set by an admin (up to one year).
+
+* Admins can extend or remove access at any time.
+
+* Only workspace admins can add temporary members.
+
+To learn how to add a temporary member, see [this article](https://www.notion.com/help/add-members-admins-guests-and-groups#add-a-temporary-member).
 
 ## Workspace owners
 

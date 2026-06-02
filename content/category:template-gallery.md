@@ -12,5 +12,5 @@ coverImage: null
 4 help:template-gallery-guidelines-and-terms
 5 help:finding-services-on-marketplace
 6 help:become-a-notion-partner
-7 help:template-localization-on-marketplace
-8 help:offering-services-on-marketplace
+7 help:offering-services-on-marketplace
+8 help:template-localization-on-marketplace

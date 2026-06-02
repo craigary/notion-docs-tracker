@@ -39,7 +39,7 @@ Notion is hosted in US-West-2 (Oregon), EU-Central-1 (Frankfurt), AP-Northeast-1
 
 * notion.site
 
-* notion.so
+* app.notion.com
 
 * api.notion.com
 
@@ -49,6 +49,6 @@ Notion is hosted in US-West-2 (Oregon), EU-Central-1 (Frankfurt), AP-Northeast-1
 
 * secure.notion-static.com
 
-* audioprocessor.www\.notion.so
+* audioprocessor.www\.notion.com
 
 Notion is hosted on CloudFlare, so we recommend allowlisting [Cloudflare IP addresses](https://www.cloudflare.com/ips/).

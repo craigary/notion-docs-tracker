@@ -73,7 +73,7 @@ Once the integration is set up, Notion Mail search will be available immediately
 
 ### How long does it take for Notion AI to read new emails?
 
-New emails will be available for search within 30 minutes of arriving in your inbox.
+New emails may take up to 3 hours to be indexed by Notion AI before they appear in search results. Larger data volumes may take additional time.
 
 
 ### Can I limit the scope of my search to only Notion Mail?

@@ -47,8 +47,6 @@ When you create an event in Notion Calendar, you’ll see the field `Add AI meet
 
 * `Change workspace`: Select a workspace to choose a default database to store your AI Meeting Notes.
 
-HC: Set your default meetings database in Notion
-
 **Note:** You can set your default meetings database in Notion or Notion Calendar. This setting syncs between both apps.
 
 Learn more → [AI Meeting Notes](https://www.notion.com/help/ai-meeting-notes)

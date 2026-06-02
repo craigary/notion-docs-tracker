@@ -15,12 +15,12 @@ coverImage: null
 7 help:admin-content-search
 8 help:transfer-content-deprovisioned-user
 9 help:audit-log
-10 help:add-security-and-compliance-integrations
 10 help:workspace-analytics
+10 help:add-security-and-compliance-integrations
 11 help:enterprise-connection-settings
 11 help:managed-users-dashboard
-12 help:deploy-notion-for-macos
 12 help:custom-data-retention-settings
+12 help:deploy-notion-for-macos
 16 help:network-control
 17 help:manage-teamspaces
 18 help:organization-level-controls
