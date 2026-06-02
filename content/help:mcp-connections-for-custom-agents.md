@@ -41,29 +41,39 @@ This means:
 
 You can connect to the following apps without any additional configuration:
 
-* [Linear](https://linear.app/docs/mcp)
+* [Amplitude](https://amplitude.com/docs/amplitude-ai/amplitude-mcp)
 
-* [Ramp](https://docs.ramp.com/developer-api/v1/mcp)
+* [Attio](https://docs.attio.com/mcp/overview)
+
+* [Box](https://docs.box.com/en/box-mcp/about-box-mcp-server)
+
+* [ClickHouse](https://clickhouse.com/docs/use-cases/AI/MCP/remote_mcp#enable-remote-mcp-server)
 
 * [Figma](https://developers.figma.com/docs/figma-mcp-server/)
 
 * [GitHub](https://github.com/github/github-mcp-server)
 
+* [HubSpot](https://developers.hubspot.com/mcp)
+
+* [Intercom](https://developers.intercom.com/docs/guides/mcp)
+
+* [Linear](https://linear.app/docs/mcp)
+
+* [Mercury](https://docs.mercury.com/docs/what-is-mercury-mcp)
+
+* [Miro](https://developers.miro.com/docs/miro-mcp)
+
+* [Mixpanel](https://docs.mixpanel.com/docs/mcp#notion)
+
+* [n8n](https://docs.n8n.io/advanced-ai/mcp/accessing-n8n-mcp-server/)
+
+* [Ramp](https://docs.ramp.com/developer-api/v1/mcp)
+
 * [Stripe](https://docs.stripe.com/mcp)
 
 * [Sentry](https://docs.sentry.io/product/sentry-mcp/)
 
-* [Attio](https://docs.attio.com/mcp/overview)
-
-* [HubSpot](https://developers.hubspot.com/mcp)
-
-* [Amplitude](https://amplitude.com/docs/amplitude-ai/amplitude-mcp)
-
-* [Intercom](https://developers.intercom.com/docs/guides/mcp)
-
-* [Wiz](https://www.wiz.io/blog/introducing-mcp-server-for-wiz)
-
-* ****[n8n](https://docs.n8n.io/advanced-ai/mcp/accessing-n8n-mcp-server/)****
+* [Wiz](https://www.wiz.io/blog/introducing-mcp-server-for-wiz)****
 
 ## How to add a pre-configured MCP connection
 

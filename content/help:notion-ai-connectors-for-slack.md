@@ -69,7 +69,7 @@ On top of this, individual members of a Notion workspace where the Slack AI Conn
 
 * You can't automatically opt-in to all public channels; this needs to be set up manually by admins and users.
 
-* New messages may need about 30 minutes to be indexed before they appear in search results.
+* New messages may take up to 3 hours to be indexed by Notion AI before they appear in search results. Larger data volumes may take additional time.
 
 ## Where can I use my Slack AI Connector?
 
@@ -158,7 +158,7 @@ For example, if you connect Slack with Notion AI on June 1, 2024, Notion AI will
 
 ### How long does it take for Notion AI to read new Slack messages?
 
-New messages in public channels may take 30 minutes to be searchable by Notion AI.
+New messages may take up to 3 hours to be indexed by Notion AI before they appear in search results. Larger data volumes may take additional time.
 
 
 ### If I connect Slack to Notion AI, does Notion AI automatically begin searching all of my Slack channels?
