@@ -13,11 +13,9 @@ categoryKey: "category:notion-ai-connectors"
 
 There are lots of other ways to use Slack and Notion together. Learn more about our Slack connection [here →](https://www.notion.com/help/slack)
 
-Notion AI answers are generated using LLMs like GPT-5 and Claude. You should double-check all answers for accuracy.
+Notion AI generates answers using LLMs like GPT-5 and Claude. Be sure to double-check all answers for accuracy.
 
 ## Connect Slack to Notion AI
-
-**Note:** If you’re using Slack Enterprise Grid, please reach out to your sales representative to get your Notion AI connector set up.
 
 **Who can connect Slack to Notion AI?**
 
@@ -27,9 +25,11 @@ Notion AI answers are generated using LLMs like GPT-5 and Claude. You should dou
 
 * If you’re a Notion workspace owner but not also approved to connect external apps to Slack, you’ll need approval from someone who has the appropriate Slack permissions to complete the connection.
 
+* If you’re using Slack Enterprise Grid, your organization may have multiple Slack workspaces under one org. Before you continue, make sure you’re in the right Slack workspace/team, then connect the channels you want Notion AI to use.
+
 **How do I connect my Slack workspace?**
 
-Make sure you're setting up the Slack AI connector in Notion; set up won't work if you initiate it in Slack.
+Make sure you're setting up the Slack AI connector in Notion. Setup won't work if you initiate it in Slack.
 
 To connect your Slack workspace to Notion AI:
 
@@ -103,7 +103,9 @@ You can narrow your search to just Slack by opening the `All sources` toggle in 
 
 * "Tell me the major updates from {channel name}."
 
-**Learn more**
+More resources
+
+* There are many other ways to use Slack and Notion together. Learn how to integrate Slack [in this article →](https://www.notion.com/help/slack?_gl=1*1lyima*_gcl_aw*R0NMLjE3NzIwNTU1MTAuQ2owS0NRanc5b2JJQmhDQUFSSXNBR0htMW1UXzBndlhBVF9XUXBnVG1Ed2dIZEtoa3FaZEF6S183WjVuRF9Yc2pyVFdJRWRYWTRxWmZRRWFBbF96RUFMd193Y0I.*_gcl_au*MTcyNzQ5MTgwMC4xNzY5NjQ3MTQ3LjE0MTU1NDU5MTIuMTc3Njc5ODg5OS4xNzc2Nzk4ODk4*_ga*MTg3MDc4NzEwMS4xNzY5NjQzODc4*_ga_9ZJ8CB186L*czE3NzczOTMyMjYkbzE3NiRnMSR0MTc3NzQwMjExMiRqNjAkbDAkaDA.)
 
 * [Notion AI Connectors](https://www.notion.com/help/notion-ai-connectors)
 
