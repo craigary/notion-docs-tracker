@@ -251,7 +251,7 @@ If you’re not able to see AI Meeting Notes in your slash menu, it’s possible
 
 ## Connect AI Meeting Notes to Notion Calendar
 
-AI Meeting Notes becomes even more powerful with [Notion Calendar](https://www.notion.com/product/calendar). <!-- -->Create, organize, and share meeting notes so you can stay present in meetings and keep your team in sync. Once you’re done, you can easily access the meeting summary right from the event.
+AI Meeting Notes becomes even more powerful with [Notion Calendar](https://www.notion.com/product/calendar). Create, organize, and share meeting notes so you can stay present in meetings and keep your team in sync. Once you’re done, you can easily access the meeting summary right from the event.
 
 #### Get started with AI Meeting Notes
 
@@ -421,7 +421,7 @@ A transcription can be deleted in two ways:
 
 * By deleting the parent page where the AI Meeting Notes block sits. Once deleted, the page will follow your workspace’s [data retention settings](https://www.notion.com/help/duplicate-delete-and-restore-content#what-happens-when-a-page-is-deleted).
 
-Enterprise Plan workspace owners can set an **automatic** deletion schedule for transcriptions by going to `Settings` → `Notion AI` and setting a deletion schedule for `Automatic transcript deletion`. Summaries and notes will remain in AI Meeting Notes blocks in your workspace, but all transcriptions will be automatically deleted following the chosen deletion schedule.
+Enterprise Plan workspace owners can set an **automatic** deletion schedule for transcriptions by going to `Settings` → `Notion AI` and setting a deletion schedule for `Automatic transcript deletion`. Summaries and notes will remain in AI Meeting Notes blocks in your workspace, but all transcriptions will be automatically deleted following the chosen deletion schedule. The automatic transcript deletion schedule will not delete transcripts in pages that are [legally held](https://www.notion.com/help/legal-holds).
 
 ### Delete locally stored audio
 
