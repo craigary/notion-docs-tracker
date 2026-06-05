@@ -1,6 +1,6 @@
 ---
 title: "Marketplace & templates"
-description: null
+description: "Notion's Marketplace makes it easy for users everywhere to build anything. Here, you can find templates for your use case or connect with a partner who can help you with your Notion setup."
 url: "https://www.notion.com/help/category/template-gallery"
 key: "category:template-gallery"
 coverImage: null

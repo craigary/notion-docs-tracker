@@ -1,6 +1,6 @@
 ---
 title: "Custom Agents"
-description: null
+description: "Build AI teammates that can take action in your workspace. Learn how to create and refine custom agents, then connect them to MCP, Calendar, and Mail to make them even more powerful."
 url: "https://www.notion.com/help/category/custom-agents"
 key: "category:custom-agents"
 coverImage: null

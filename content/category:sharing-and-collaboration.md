@@ -1,6 +1,6 @@
 ---
 title: "Sharing & permissions"
-description: null
+description: "You can share your Notion pages with clients, teammates, collaborators, or the internet! Here, we'll cover how to share content and work with others in Notion."
 url: "https://www.notion.com/help/category/sharing-and-collaboration"
 key: "category:sharing-and-collaboration"
 coverImage: null

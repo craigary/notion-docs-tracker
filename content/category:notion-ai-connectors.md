@@ -1,6 +1,6 @@
 ---
 title: "Notion AI Connectors"
-description: null
+description: "Bring your team’s knowledge into Notion AI with connectors. This section walks through setting up connectors across popular tools (docs, tickets, chat, email, and calendars) so you can find answers and work with information without switching apps."
 url: "https://www.notion.com/help/category/notion-ai-connectors"
 key: "category:notion-ai-connectors"
 coverImage: null

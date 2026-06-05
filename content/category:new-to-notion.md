@@ -1,6 +1,6 @@
 ---
 title: "Notion basics"
-description: null
+description: "Welcome to the connected workspace where better, faster work happens. Let’s cover all the things you need to know to begin exploring Notion."
 url: "https://www.notion.com/help/category/new-to-notion"
 key: "category:new-to-notion"
 coverImage: null

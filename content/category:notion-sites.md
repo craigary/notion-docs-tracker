@@ -1,6 +1,6 @@
 ---
 title: "Notion Sites"
-description: null
+description: "Launch a beautiful website in just minutes with Notion Sites. You can customize your Site's look and feel, connect custom domains, and more."
 url: "https://www.notion.com/help/category/notion-sites"
 key: "category:notion-sites"
 coverImage: null

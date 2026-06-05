@@ -1,6 +1,6 @@
 ---
 title: "Sidebar navigation"
-description: null
+description: "Find your way around Notion using the sidebar to organize and access your work and tasks."
 url: "https://www.notion.com/help/category/sidebar-navigation"
 key: "category:sidebar-navigation"
 coverImage: null

@@ -1,6 +1,6 @@
 ---
 title: "Pages & blocks"
-description: null
+description: "At its simplest, Notion can be used as a straightforward text editor — but you can spruce up your Notion pages with all kinds of blocks that are flexible and customizable."
 url: "https://www.notion.com/help/category/write-edit-and-customize"
 key: "category:write-edit-and-customize"
 coverImage: null

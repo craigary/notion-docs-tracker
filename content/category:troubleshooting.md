@@ -1,6 +1,6 @@
 ---
 title: "Troubleshoot"
-description: null
+description: "Here's how you can troubleshoot common issues in Notion."
 url: "https://www.notion.com/help/category/troubleshooting"
 key: "category:troubleshooting"
 coverImage: null

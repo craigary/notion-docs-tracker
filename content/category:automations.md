@@ -1,6 +1,6 @@
 ---
 title: "Automations"
-description: null
+description: "Learn about how Notion can help you automate your workflows."
 url: "https://www.notion.com/help/category/automations"
 key: "category:automations"
 coverImage: null

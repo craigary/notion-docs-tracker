@@ -1,6 +1,6 @@
 ---
 title: "Notion AI security"
-description: null
+description: "Get the basics on how Notion AI keeps your data safe. Understand what information Notion AI can access, how it’s used, and security safeguards."
 url: "https://www.notion.com/help/category/notion-ai-security"
 key: "category:notion-ai-security"
 coverImage: null

@@ -1,6 +1,6 @@
 ---
 title: "Databases"
-description: null
+description: "Databases are collections of Notion pages that help you organize information in a variety of ways. With multiple database views to choose from, you control how to display and search your content."
 url: "https://www.notion.com/help/category/databases"
 key: "category:databases"
 coverImage: null

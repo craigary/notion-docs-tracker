@@ -1,6 +1,6 @@
 ---
 title: "Administer your workspace"
-description: null
+description: "Notion grows with your team – and some teams need a little bit more power in their feature set! See how you can use Business or Enterprise plan features to better manage your team’s Notion workspace."
 url: "https://www.notion.com/help/category/enterprise-admin"
 key: "category:enterprise-admin"
 coverImage: null
