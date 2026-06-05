@@ -93,7 +93,7 @@ Once the Google Calendar integration is set up, Google Calendar search will be a
 
 ### How long does it take for Notion AI to read new Google Calendar events?
 
-New events will be available for search within 30 minutes after they are created.
+New events may take up to 3 hours to be indexed by Notion AI before they appear in search results. Larger data volumes may take additional time.
 
 
 ### Can I limit the scope of my search to only Google Calendar?

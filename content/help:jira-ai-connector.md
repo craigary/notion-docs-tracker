@@ -151,7 +151,7 @@ Setting up the integration can take up to 36 hours depending on the size of the 
 
 ### How long does it take for new content from Jira to reflect in Notion AI?
 
-We will start indexing new data as soon as 30 minutes and can take up to 36 hours for full indexing.
+New content may take up to 3 hours to be indexed by Notion AI before it appears in search results. Larger data volumes may take additional time.
 
 
 ### Can I limit the scope of my search to only Jira?

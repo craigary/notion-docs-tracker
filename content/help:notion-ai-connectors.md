@@ -112,9 +112,9 @@ For specifics, you can reference articles for each Notion AI Connector [here](ht
 
 ### How long does it take for new content to appear in Notion AI?
 
-Generally, new content is searchable and appears in Notion AI on an hourly basis. Some Connectors (Slack, GitHub, Teams) update every 30 minutes, but indexing can take up to 36 hours in some cases.
+New content may take up to 3 hours to be indexed by Notion AI before it appears in search results. Larger data volumes may take additional time.
 
-For specifics, you can reference articles for each Notion AI Connector [here](https://www.notion.com/help/category/notion-ai).
+For specifics, you can reference articles for each [Notion AI Connector](https://www.notion.com/help/category/notion-ai-connectors/all).
 
 
 ### What happens to my data if I disconnect?

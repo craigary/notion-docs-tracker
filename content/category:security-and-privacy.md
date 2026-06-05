@@ -12,10 +12,10 @@ coverImage: null
 5 help:security-best-practices-for-agent-connections
 5 help:custom-agents-security-features
 8 help:allowlist-ip
-9 help:how-to-protect-yourself-from-malvertising
+9 help:data-residency
 10 help:data-accessible-by-your-workspace-owner
-10 help:dormant-account-policy
+10 help:shared-responsibilities-model
 11 help:report-inappropriate-content
-11 help:how-notion-protects-against-prompt-injection-risks
-12 help:shared-responsibilities-model
-13 help:data-residency
+11 help:how-to-protect-yourself-from-malvertising
+12 help:how-notion-protects-against-prompt-injection-risks
+13 help:dormant-account-policy

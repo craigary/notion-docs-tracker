@@ -103,7 +103,7 @@ Changes should be reflected within the hour.
 
 ### How long does it take for Notion AI to read updates in Linear?
 
-Notion AI reads updates every 30 minutes through webhooks.
+New updates may take up to 3 hours to be indexed through webhooks. Larger data volumes may take additional time.
 
 
 ### How can I disconnect Linear from Notion?

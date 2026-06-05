@@ -21,7 +21,7 @@ Interested in becoming a partner? Learn more [here →](https://www.notion.com/h
 
 ## List your services on Marketplace
 
-* Once you pass your certifications, you're officially a Consulting Partner. The next step is to submit [your profile](https://www.notion.com/profile) for publishing in the Marketplace.
+* Once you pass your certifications, you're officially a Consulting Partner. The next step is to submit [your profile](https://app.notion.com/profile) for publishing in the Marketplace.
 
 * Your profile will be approved if the information is complete and accurate.
 
@@ -47,7 +47,7 @@ There can be up to 30 total members in a profile, made up of various roles:
 
 To add a group member, you’ll need to be the owner or admin for the profile. Then, you’ll want to:
 
-1. Go to [notion.com/profile/settings](https://www.notion.com/profile/settings) and select `Add member` under `Group members`.
+1. Go to [app.notion.com/profile/settings](https://app.notion.com/profile/settings) and select `Add member` under `Group members`.
 
 2. Follow the prompts to invite someone via email as an admin or member.
 
@@ -61,7 +61,7 @@ Once you’ve invited a member, they’ll need to sign up for Notion or log in w
 
 * Customers can request to book with you. You can accept or reject based on the information they provide. If you accept, an automated email with your booking link will be sent to the customer.
 
-* You can configure your booking link by clicking `⚙️` at the top of [https://www.notion.so/profile/services](https://www.notion.com/profile/services).
+* You can configure your booking link by clicking `⚙️` at the top of [app.notion.com/profile/services](https://app.notion.com/profile/services).
 
   ![hc: booking link marketplace](https://images.ctfassets.net/spoqsaf9291f/2swM8cAe8jc4ryZR9sZU84/4822451f6bbd415024e82a186ab20dc6/Consulting_Partners_Image__1_.png)
 

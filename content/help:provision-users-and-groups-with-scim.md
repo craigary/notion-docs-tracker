@@ -138,7 +138,11 @@ The table below outlines the mapping between SCIM user attributes and Notion use
 | costCenter          | Cost Center                                                                                                                               | `urn:ietf:params:scim:schemas:extension:``enterprise``:2.0:User` |
 | organization        | Organization                                                                                                                              | `urn:ietf:params:scim:schemas:extension:``enterprise``:2.0:User` |
 | employeeNumber      | Employee Number                                                                                                                           | `urn:ietf:params:scim:schemas:extension:``enterprise``:2.0:User` |
-| role                | Notion workspace role ("owner" \| "membership\_admin" \| "member")                                                                        | `urn:ietf:params:scim:schemas:extension:``notion``:2.0:User`     |
+| role                | Notion workspace role ("owner" \| "membership\_admin" \| "member")                                                                        | `urn:ietf:params:scim:schemas:extension:``notion``:2.0:Use`      |
+
+``
+
+Inline entry could not be loaded.
 
 * `GET /Users`
 

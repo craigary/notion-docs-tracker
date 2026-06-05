@@ -134,7 +134,7 @@ Setting up the integration can take up to 72 hours depending on the size of the 
 
 ### How long does it take for new content in GitHub to be reflected in Notion AI?
 
-After the initial setup, we will index new data every 30 minutes.
+After the initial setup, new data may take up to 3 hours to be indexed by Notion AI. Larger data volumes may take additional time.
 
 
 ### Can everyone in my Notion workspace access information from GitHub?

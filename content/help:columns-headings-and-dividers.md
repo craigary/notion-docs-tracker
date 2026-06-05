@@ -67,6 +67,26 @@ You can make the following adjustments to your table:
 
 **Note:&#x20;**&#x41;t this time, you can’t paste in multiple simple table cells at once.
 
+### Merge and unmerge cells
+
+You can merge cells in a simple table to create spanning headers and visually grouped sections.
+
+**To merge cells:**
+
+1. Select a rectangular group of cells.
+
+2. Open the cell menu and click `Merge cells`.
+
+The top-left (anchor) cell keeps all content. Other selected cells are cleared.
+
+**To unmerge cells:**
+
+1. Select a merged cell.
+
+2. Open the cell menu and click `Unmerge cells`.
+
+The anchor cell keeps its text. All covered cells are restored as empty individual cells.
+
 ### Convert a simple table to a database
 
 While a simple table lets you quickly visualize information, you can convert it to a database any time you need database functionality such as filters, sorts, or specific property value types. [Learn more about databases here →](https://www.notion.com/help/category/databases)

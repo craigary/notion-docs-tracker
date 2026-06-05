@@ -31,6 +31,94 @@ If you have multiple workspaces associated with your Notion account and you want
 
 6. Select `I understand, duplicate`.
 
+## Duplication error message troubleshooting
+
+If you’re seeing “Duplication failed” or a similar error message when attempting to move content from one workspace to another, review and try the list of common solutions below.
+
+### You reached the duplication rate limit
+
+Notion has a max duplication rate limit of 50,000 blocks per hour. Large sets of pages, databases, and nested content can quickly exceed this limit.
+
+If too much content is duplicated within a short period, you may see a more specific error, such as “Rate limit reached, please try again later”.
+
+To resolve this:
+
+* Split large content into small batches and duplicate each batch gradually over time.
+
+* Wait 1 hour before retrying the duplication.
+
+### The destination workspace can’t accept additional blocks
+
+The workspace you’re moving content to may have plan or workspace-level limitations that prevent new blocks from being created. This is most common with free plans and workspaces that have exceeded their block or usage limits.
+
+To resolve this:
+
+* Check if the destination workspace has usage restrictions.
+
+* Reduce the amount of content being duplicated.
+
+* Upgrade the destination workspace if needed.
+
+### The content being moved includes a locked or protected template
+
+Some Marketplace templates and protected content include blocks with restricted access. This content will duplicate successfully within the same workspace, but fail when an attempt is made to duplicate it to different workspaces.
+
+To resolve this:
+
+* Check if the source content originated from a locked Marketplace template.
+
+* Use an unlocked version of the template if available.
+
+* If needed, recreate the content structure manually within the destination workspace.
+
+### Permissions or account access issues
+
+The duplicating account must have the right permissions in both the source and destination workspaces. Duplication can fail if:
+
+* You’re logged into a different Notion account.
+
+* You don’t have permission to create content in the destination workspace.
+
+* Some nested pages or databases in the content you’re moving have restricted access.
+
+To resolve this:
+
+* Confirm you’re logged into the same account, and that this account has access to both workspaces.
+
+* Ensure you access to all nested pages and databases included in the move.
+
+* Ensure you have permissions to create pages in the destination workspace.
+
+### None of the above
+
+If none of the above resolves the issue, or if you’re not sure what’s causing it, try the solutions below.
+
+#### Test with a small page
+
+Try duplicating only a small page to the destination workspace. If the small page succeeds, the issue is most likely related to:
+
+* Content size
+
+* Duplication rate limits
+
+* Large databases or nested pages
+
+If the small page fails, check for account permissions issues or workspace limitations.
+
+#### Split large content into smaller batches
+
+For large migrations, try splitting content into small batches to move gradually over time. Keep each batch below the approximate 50,000 blocks per hour limit. When duplicating each batch:
+
+* Move smaller sections separately.
+
+* Avoid duplicating very large databases all at once.
+
+* Space out large duplication batches over time.
+
+#### Retry duplication after waiting 1 hour
+
+If a duplication effort fails, wait 1 hour before trying again. This resets the 50,000 blocks per hour limit.
+
 ## Duplicate content to another account
 
 **Tip:** If you want your Notion account to be associated with a new email address, simply change your email following the instructions [here →](https://www.notion.com/help/account-settings#account-security-settings)

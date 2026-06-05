@@ -19,6 +19,6 @@ coverImage: null
 12 help:math-equations
 13 help:keyboard-shortcuts
 13 help:duplicate-public-pages
-14 help:use-pages-offline
-15 help:archive-pages
-16 help:presentation-mode
+14 help:archive-pages
+15 help:presentation-mode
+16 help:use-pages-offline

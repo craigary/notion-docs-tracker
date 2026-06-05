@@ -159,7 +159,7 @@ A Stripe webhook triggers on subscription creates and cancels, and you receive 3
 
 ## Track usage in the Notion CLI
 
-During the free beta, you can track Worker credit usage over the last 30 days directly in the [CLI](https://www.notion.com/help/use-notion-from-your-terminal-with-notion-cli). Worker usage will also appear in the Notion credits dashboard by the end of May, allowing admins to track credit usage of their Workers and Custom Agents in one place.
+During the free beta, you can track Worker credit usage over the last 30 days directly in the [CLI](https://www.notion.com/help/use-notion-from-your-terminal-with-notion-cli). Later, Worker usage will also appear in the Notion credits dashboard, allowing admins to track credit usage of their Workers and Custom Agents in one place.
 
 ### **View usage for a specific Worker (detailed)**
 

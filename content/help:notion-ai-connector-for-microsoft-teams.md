@@ -103,7 +103,7 @@ The initial Microsoft Teams sync may take up to 72 hours depending on the amount
 
 ### How long does it take for Notion AI to read new Teams messages?
 
-New messages in public channels become searchable within 30 minutes.
+New messages in public channels may take up to 3 hours to be indexed by Notion AI before they appear in search results. Larger data volumes may take additional time.
 
 
 ### Can I limit the scope of my search to only Microsoft Teams or only Notion?

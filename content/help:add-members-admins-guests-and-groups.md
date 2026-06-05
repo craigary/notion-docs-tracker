@@ -73,6 +73,42 @@ To change a member's role in the workspace:
 
 ![hc: change a member's role](https://images.ctfassets.net/spoqsaf9291f/4lZ6ys8EdlNFzrkI2jwsfo/759070edc27ab91c6516c43ae568a524/Group_68.png)
 
+## Add a temporary member
+
+If you work with a Notion Marketplace consultant, you can grant them time-limited access to your workspace as a temporary member. They get member-level access until their expiration date, then lose access automatically. Temporary members don’t use a paid seat.
+
+To add a temporary member:
+
+1. Go to `Settings` → `People` or `Members` (depending on your plan).
+
+2. Go to the `Members` tab.
+
+3. Select `Add members` and type the email address of your consultant.
+
+4. Select `Temporary member` from the role dropdown.
+
+5. Set an expiration date (up to one year from today).
+
+6. Press `Invite`.
+
+They'll receive an email with a link to join your workspace. Once they accept, they'll appear in your member list with their expiration date shown.
+
+**Pending requests**
+
+After you send an invite, it will show as pending until the consultant accepts. You can view and manage pending invites in Settings → Members.
+
+**Extend or remove access**
+
+Admins can update a temporary member's expiration date or remove their access at any time:
+
+1. Go to `Settings` → `People `or `Members`.
+
+2. Find the temporary member in the list.
+
+3. Select` •••` next to their name.
+
+4. Choose `Edit expiration date` or `Remove from workspace`.
+
 ## Add a guest
 
 Learn about the difference between guests and members [here →](https://www.notion.com/help/whos-who-in-a-workspace#guests)

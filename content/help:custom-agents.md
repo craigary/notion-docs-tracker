@@ -255,25 +255,29 @@ Agents can optionally browse the web when needed. Use web access when your workf
 
 ### Give Custom Agents access to Slack
 
-Custom Agents can read and write to Slack through a dedicated integration. Before connecting Slack to your Custom Agent, an admin must first connect the [Slack AI connector](https://www.notion.com/help/notion-ai-connectors-for-slack) to your workspace via the Notion AI Settings. Agents can do the following:
+Custom Agents can read and write to Slack through a dedicated integration.
 
-* Read from select public and private channels.
+Before connecting Slack to your Custom Agent, an admin must first connect the Slack workspace to your Notion workspace via the [Slack AI connector](https://www.notion.com/help/notion-ai-connectors-for-slack).
+
+Once connected, Custom Agents can:
+
+* Read from select public and private Slack channels.
 
 * Post messages, replies, and updates only to the specific channels you select.
 
 * React to threads and use information from Slack as context.
 
-Slack Enterprise Grid is not supported.
+To give Custom Agents access to Slack:
 
-**To connect Slack:**
+* When setting up a Custom Agent, follow the prompt to connect Slack.
 
-1. When setting up the Agent, follow the prompt to connect Slack.
+* Make sure the Slack account uses the same email as your Notion account.
 
-2. Make sure the Slack account uses the same email as your Notion account.
+* Approve the requested scopes in Slack's authorization flow.
 
-3. Approve the requested scopes in Slack's authorization flow.
+* Choose which channels the agent can access.
 
-4. Choose which channels the agent can access.
+You can also connect to Custom Agents if your organization uses Slack Enterprise Grid.
 
 ## Choose a model for your Custom Agent
 

@@ -108,4 +108,4 @@ Legal holds use the audit log feature to identify user actions (view, edit, crea
 
 ### How do existing deletion settings impact legal holds?
 
-Enterprise workspace owners have the option to set an automatic transcript deletion schedule for AI Meeting Notes, which you can learn more about [here](https://www.notion.com/help/custom-data-retention-settings). The automatic transcript deletion schedule applies to your workspace regardless of legal holds. For example, if your workspace has a 1 week automatic transcript deletion schedule, when you export pages for a legal hold, pages with AI Meeting Notes blocks will contain transcriptions only if such transcriptions were generated within the last week of your legal holds export.
+Enterprise workspace owners have the option to set an automatic transcript deletion schedule for AI Meeting Notes, which you can learn more about [here](https://www.notion.com/help/custom-data-retention-settings). The automatic transcript deletion schedule will not delete transcripts in pages that are legally held.

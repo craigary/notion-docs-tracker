@@ -63,7 +63,7 @@ Only one Notion account can be linked to your Notion Calendar account, even if y
 
 This means that if you lose access to the Notion account you used to sign up for Notion Calendar, you’ll also lose access to your Notion Calendar.
 
-If you want to change your linked Notion account, or you’ve lost access to the Notion account that you use to log into Notion Calendar, fill out [this form](https://dev.notion.so/1b2b35e6e67f801e89d6d36e5169b21c?pvs=21) and provide us with the email address you’re currently using for Notion Calendar as well as the new email address you’d like to use. We’ll do our best to respond within 72 hours of your submission.
+If you want to change your linked Notion account, or you’ve lost access to the Notion account that you use to log into Notion Calendar, you can [update your email here](https://calendar.notion.so/change-email).
 
 ## Troubleshoot login issues
 
