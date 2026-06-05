@@ -21,7 +21,7 @@ The Notion sidebar allows you to:
 
 **Tip:&#x20;**&#x4F;pen and close your sidebar by clicking the `>>` and `<<` buttons. Or, use the keyboard shortcut `cmd`/`ctrl` + `\`!
 
-At the top of your sidebar, you'll see several features and menu options. Here's an overview of each of these.
+In your sidebar, you'll see several features and menu options. Here's an overview of each of these.
 
 * **Workspace switcher:** Click on your current workspace's name to switch between the workspaces you belong to, create a new one, add another account, or log out. You can also access your settings from inside the workspace switcher.
 
@@ -29,13 +29,81 @@ At the top of your sidebar, you'll see several features and menu options. Here's
 
 * **Home:** Click to see the pages and tasks that need your attention. [Learn more about Home here →](https://www.notion.com/help/home-and-my-tasks)
 
-* **Meetings:&#x20;**&#x43;lick to see upcoming meetings and notes so you can quickly prep for a meeting, or review what happened after.
+* **Chats with Notion AI:&#x20;**&#x43;lick to search and research with Notion AI. [Learn more about Notion AI here →](https://www.notion.com/help/notion-ai-faqs)
 
-* **Notion AI:&#x20;**&#x43;lick to search and research with Notion AI. [Learn more about Notion AI here →](https://www.notion.com/help/notion-ai-faqs)
+* **Meetings:&#x20;**&#x43;lick to see upcoming meetings and notes so you can quickly prep for a meeting, or review what happened after.
 
 * **Inbox:** Click to see all your notifications in one place. This menu combines revisions that were made on pages you have created, new mentions of you across your workspace, and new work assignments. A red notification badge will appear here when you have unread notifications.
 
 * **Library:&#x20;**&#x43;lick to browse and manage all content across your workspace. [Learn more about Library here →](https://www.notion.com/help/manage-your-library)
+
+## Navigating the sidebar
+
+### Top-level tabs
+
+The sidebar is organized into top-level tabs. Each tab has its own icon, contents, and purpose.
+
+### Home
+
+Your Home tab is organized in sections, including Upcoming events, Recents, Favorites, Agents, Teamspaces, Shared pages, Private pages, and Notion apps.
+
+My Tasks, Library, Marketplace, Help, and Trash sections are always accessible at the bottom of the Home tab.
+
+**Customize Home**
+
+To customize Home, click `•••` on the side of any section or the Home tab icon.
+
+* Show allows you to determine the number of items each section shows.
+
+* Move up or Move down adjusts where a section is displayed in Home.
+
+* Hide section hides a section from Home.
+
+* Customize sidebar allows you to hide multiple row items and sections at once.
+
+**Open in Library**
+
+Next to each section, click the book icon to Open in Library. From Library, you can browse and navigate the full list of workspace content within that section. Learn more about Library [in this article](https://www.notion.com/help/manage-your-library).
+
+### Chats with Notion AI
+
+Access Custom Agents and your Notion AI conversations to browse recent threads or pick up where you left off.
+
+**Agents**
+
+View Custom Agents you’ve created, sorted by recency of use. Click `•••` on the side of any Custom Agent and choose Remove from favorites or Add to favorites to adjust how it appears in your sidebar. You can also jump to the agent’s settings, copy the link to an agent, or delete an agent.
+
+**Chat history**
+
+Access previous chats with Notion AI, sorted by recency. A blue dot next to a chat means there is an unread response in the chat.
+
+Click `•••` on the side of any chat to customize how they appear in the sidebar: Rename, Change icon, Delete, or Open chats.
+
+### Meetings
+
+**Upcoming events**
+
+View and join any upcoming events. Click `•••` on the side of any event to view the Call ID, Workspace participants, or Open in calendar.
+
+**Meeting history**
+
+Access meeting notes from previous meetings, sorted by recency. Click `•••` on the side of any meeting note to Copy link to block, Duplicate, or Move to to add the meeting note to a page.
+
+### Inbox
+
+View all your notifications in one place, including mentions, comments, page updates, and reminders. Click a notification to go directly to the source page.
+
+Icons at the top of your inbox can bulk take actions like Mark all as read, Archive all, Archive read, or apply filters to the notification list.
+
+Click `•••` on the side of any notification to change page notification settings, mark a notification as read, or archive a notification.
+
+### Search
+
+Open the search modal to search content inside your workspace.
+
+### Quick entry points
+
+At the bottom of each tab, you can create a new chat with AI, page, meeting note, or database using the buttons.
 
 ## Sidebar sections
 
@@ -198,3 +266,15 @@ Click on your current workspace's name at the very top left of your sidebar. Scr
 ### My sidebar doesn't have any sections. How do I turn those on?
 
 The sidebar sections reflect the sharing settings of your account. If you have more than one person in your workspace, a `Teamspaces` section appears in the sidebar for your collaborative work with that person, and the `Private` section is there for your personal pages that are only visible to you.
+
+
+### Why don't I see a full-page Home anymore? Did you change the sidebar?
+
+Home changed from a full-page experience to a part of your sidebar, organized into sections like Recents, Favorites, Teamspaces, Agents, and more, that can be shaped to fit your workflow. <!-- -->This puts your workspace navigation, AI threads, and notifications in one consistent, customizable place.
+
+
+### What will I see if I'm on a Free or Plus plan, or if AI is turned off for my workspace?
+
+**Free and Plus plans**: You'll see the full sidebar layout, including the AI chat tab. You can use Notion AI with your available free AI credits.
+
+**AI turned off (Enterprise/Business)**: The AI chat tab will not appear. Instead, you'll see a `New` button in its place to create pages and other content.
