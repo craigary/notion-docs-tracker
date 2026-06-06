@@ -318,3 +318,8 @@ Autofill has two options: Basic and Custom Agent.
 * **Basic Autofill&#x20;**&#x69;s included on Business and Enterprise plans, and does not use Notion credits.
 
 * **Custom Agent Autofill&#x20;**&#x75;ses Notion credits because it runs with Custom Agent capabilities (like using richer context and more advanced reasoning).
+
+
+### What happens to Custom Agents if I downgrade my plan?
+
+If you downgrade your Notion plan to Free or Plus, all existing Custom Agents are **disabled**, but not deleted. The Custom Agent chat page and settings can be viewed, but not edited. Custom Agents can be re-enabled if you upgrade back to Business or Enterprise.

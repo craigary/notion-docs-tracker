@@ -15,8 +15,6 @@ Library helps you find and organize pages across your workspace, all from one pl
 
 In your sidebar, select **`Library`**.
 
-![Library UI](https://images.ctfassets.net/spoqsaf9291f/4Ji0N8YICHaDoQp2V81T64/139a00d63568ac56b06e6e8016cae21a/Screenshot_2026-01-23_at_11.45.16%C3%A2__AM__1_.png)
-
 ## Customize your sidebar
 
 With Library, you can remove sections from your sidebar to keep it clean. Customize which sections show in your sidebar, and choose how many favorites appear. If you remove a section from your sidebar, you can still access it later from your Library.

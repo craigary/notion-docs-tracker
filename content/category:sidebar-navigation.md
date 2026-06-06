@@ -9,4 +9,3 @@ coverImage: null
 2 help:navigate-with-the-sidebar
 3 help:manage-your-library
 5 help:search
-6 help:home-and-my-tasks
