@@ -1,9 +1,9 @@
 ---
 title: "Plans & billing"
-description: "Notion offers a number of plans tailored to a wide variety of needs. Learn how to change your plan and how Notion billing works."
+description: null
 url: "https://www.notion.com/help/category/plans-billing-and-payment"
 key: "category:plans-billing-and-payment"
-coverImage: null
+coverImage: "https://images.ctfassets.net/spoqsaf9291f/4DbuU1bqunhT31CLKhcIfX/1c184e50849e0798171ea692cb06a180/Plans__Billing___Payment.png"
 ---
 
 1 help:upgrade-or-downgrade-your-plan
