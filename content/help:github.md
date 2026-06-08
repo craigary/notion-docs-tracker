@@ -9,7 +9,7 @@ category: "Connections"
 categoryKey: "category:connections"
 ---
 
-Notion's connection with GitHub allows you to seamlessly connect your development workflows. You can link GitHub content directly in Notion pages, pull GitHub information into Notion databases, and sync pull requests with Notion tasks to keep your team informed of project statuses. Read on to learn about the different features of the <!-- -->connection<!-- --> and how you can set them up.
+Notion's connection with GitHub allows you to seamlessly connect your development workflows. You can link GitHub content directly in Notion pages, pull GitHub information into Notion databases, and sync pull requests with Notion tasks to keep your team informed of project statuses. Read on to learn about the different features of the connection and how you can set them up.
 
 ## Set up GitHub connection
 
@@ -81,6 +81,8 @@ The GitHub Pull Request property inside your Notion database will automatically 
 
 2. Search for and click `GitHub Pull Requests` to add this property to your database.
 
+   * If you don't see the GitHub Pull Requests properties list, go to `Settings` → `More Settings` → `Connections` → Add `GitHub Pull Request`.
+
 3. Make sure your database has a [Unique ID property](https://www.notion.com/help/unique-id). This property will be added to your database if it doesn’t already have one.
 
 4. To use the GitHub Pull Request property, make sure you’ve connected your GitHub account with Notion. Then, either add the Unique ID of the Notion task to the pull request, or paste the GitHub pull request URL into the property.
@@ -145,4 +147,4 @@ To disconnect GitHub from Notion, you’ll need to be a Notion workspace owner.
 
 3. Next to GitHub, select `•••` → `Disconnect all users`.
 
-When you disconnect GitHub from Notion, nobody in your workspace will be able to use the <!-- -->connection<!-- --> until it’s set up again.
+When you disconnect GitHub from Notion, nobody in your workspace will be able to use the connection until it’s set up again.
