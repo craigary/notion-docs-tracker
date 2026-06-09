@@ -22,8 +22,8 @@ coverImage: null
 12 help:deploy-notion-for-macos
 12 help:custom-data-retention-settings
 16 help:network-control
-17 help:legal-holds
-18 help:manage-teamspaces
+17 help:manage-teamspaces
+18 help:legal-holds
 19 help:organization-level-controls
 20 help:ip-address-restrictions
 21 help:set-up-microsoft-intune-with-notion-ios-and-android
