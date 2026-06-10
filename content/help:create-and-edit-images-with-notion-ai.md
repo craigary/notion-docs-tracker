@@ -11,13 +11,11 @@ categoryKey: "category:notion-ai"
 
 Create and edit images with Notion AI to make diagrams, flowcharts, and visual notes, then refine them with follow-up instructions. Workspace owners and admins control whether image generation is switched on for their workspace.
 
-* Image generation is in beta and subject to the beta terms of your agreement.
-
 * This is available on Business and Enterprise plans only.
 
 * Custom agents can’t generate images.
 
-**While in Beta, image generation has the following limits per user:**
+**Image generation has the following limits per user:**
 
 * 10 image generations or edits per 24 hours
 

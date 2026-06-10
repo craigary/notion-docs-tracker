@@ -125,7 +125,7 @@ Individual customer accounts are kept separate in our production environment. We
 
 Notion AI [Subprocessors](https://www.notion.com/notion/Notion-s-List-of-Subprocessors-268fa5bcfa0f46b6bc29436b21676734) have data retention policies that allow Notion to meet [our obligations to customers for the processing of data](https://notion.notion.site/Data-Processing-Addendum-361b540101274b1fa7e16b90402b0d99?pvs=4).
 
-When using Notion AI, our LLM providers utilize zero data retention for Enterprise plan workspaces, so no data is stored with LLM providers. For all non-Enterprise plan workspaces, LLM providers only retain Customer Data for 30 days or fewer before deletion. Notion AI is additionally powered by OpenAI's embeddings. OpenAI does not retain any Customer Data through their embeddings service.
+When using Notion AI, by default our LLM providers utilize zero data retention for Enterprise plan workspaces, so no data is stored with LLM providers. In addition, by default for all non-Enterprise plan workspaces, LLM providers only retain Customer Data for 30 days or fewer before deletion. However, there are certain AI-powered features that may require the use of data-retaining LLMs; in such cases, Notion will make available Workspace settings to enable administrators to turn on data-retaining LLMs. Otherwise, such data-retaining LLMs will remain off in your Workspace by default.
 
 Embeddings stored in vector databases are deleted within 60 days from when the page or workspace is deleted.
 

@@ -281,7 +281,9 @@ You can also connect to Custom Agents if your organization uses Slack Enterprise
 
 ## Choose a model for your Custom Agent
 
-Custom Agents can run on different large language models. This lets you balance speed, cost, and quality. You can adjust the model over time if your workflow changes or you see different performance needs. Supported models include Claude, GPT, and Gemini. Auto is the recommended default.
+Custom Agents can run on different large language models. This lets you balance speed, cost, and quality. You can adjust the model over time if your workflow changes or you see different performance needs.
+
+Supported models include Claude, GPT, Gemini, <!-- -->and Grok.<!-- --> Auto is the recommended default.
 
 Learn how usage is tracked in the [Notion credits dashboard](https://www.notion.com/help/notion-credits-dashboard#what-is-the-notion-credits-dashboard).
 
