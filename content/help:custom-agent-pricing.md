@@ -322,4 +322,23 @@ Autofill has two options: Basic and Custom Agent.
 
 ### What happens to Custom Agents if I downgrade my plan?
 
-If you downgrade your Notion plan to Free or Plus, all existing Custom Agents are **disabled**, but not deleted. The Custom Agent chat page and settings can be viewed, but not edited. Custom Agents can be re-enabled if you upgrade back to Business or Enterprise.
+If you downgrade your Notion plan to Free or Plus, all existing Custom Agents are switched off, but not deleted. You can view (but not edit) the Custom Agent chat page and settings. Custom Agents can continue if you upgrade back to Business or Enterprise.
+
+
+### Can I purchase Notion credits if I manage my subscription through the App Store or Google Play?
+
+Not directly. If your Notion subscription is managed through a mobile app store (Apple App Store or Google Play), you won't be able to purchase Notion credits from within Notion.\
+\
+To buy credits, you'll need to:
+
+* Cancel your mobile app store subscription.
+
+* Upgrade to a Notion plan directly on
+
+  [notion.com](http://notion.com)
+
+  (Business or Enterprise, with AI included).
+
+* Once your new subscription is active, an admin can purchase Notion credits from Settings → Access & billing → Notion credits.
+
+Make sure your new plan includes AI before purchasing credits. Notion credits are only available on Business and Enterprise plans.
