@@ -43,17 +43,19 @@ You’ll see a few components in this layout builder:
 
 ![hc: layout builder](https://images.ctfassets.net/spoqsaf9291f/10w87P4FowzSYNRaR1vEUc/efdcca6ce616e712407d0bdc229f980c/Help_Center_Layouts_Screenshot_Oct_16.png)
 
-## Heading and pinned properties
+## Heading & pinned properties
 
 To customize your `Heading`:
 
 1. Click on the `Heading`. You’ll see a list of your database properties to the right of the screen.
 
-2. Under `Unpinned properties`, click `📌` next to a property to pin it. You can pin up to **four properties**.
+2. Under `Unpinned properties`, click `📌` next to a property to pin it. <!-- -->You can pin up to **15 properties**.
 
 3. If you want to create new properties that you want pinned, click `Add a property` under `Pinned properties`.
 
 4. You can also open the dropdown next to `Backlinks` and choose whether you want to `Always show` backlinks, `Show on hover` only, or turn them `Off`. Learn more about backlinks [here →](https://www.notion.com/help/create-links-and-backlinks#backlinks)
+
+When you pin more properties than fit on screen, they appear in a horizontal scroller. Use the > and < arrows to scroll and see more.
 
 [](//videos.ctfassets.net/spoqsaf9291f/1k3tKMdSlEk4f9hZFgztGn/58c0b971e1103e69a30994c2552999fc/PinProperties_video.mp4)
 
@@ -117,7 +119,7 @@ There are a variety of options you can adjust:
 
 * You can make your page `Full width`.
 
-## Save and apply your layout
+## Save & apply your layout
 
 Once you’re done customizing your layout, click `Apply to all pages` at the top. Every page in your database will have the same layout, and new pages you create will also have that layout.
 

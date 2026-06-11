@@ -283,7 +283,7 @@ You can also connect to Custom Agents if your organization uses Slack Enterprise
 
 Custom Agents can run on different large language models. This lets you balance speed, cost, and quality. You can adjust the model over time if your workflow changes or you see different performance needs.
 
-Supported models include Claude, GPT, Gemini, <!-- -->and Grok.<!-- --> Auto is the recommended default.
+Supported models include Claude, GPT, Gemini, and Grok. Auto is the recommended default.
 
 Learn how usage is tracked in the [Notion credits dashboard](https://www.notion.com/help/notion-credits-dashboard#what-is-the-notion-credits-dashboard).
 
@@ -374,6 +374,50 @@ To restore a previous version of your Custom Agent:
 4. Select a version you want to restore.
 
 5. Confirm to revert the agent to that version.
+
+## Duplicate a Custom Agent
+
+Duplicating a Custom Agent lets you copy an existing agent and adapt it for a similar workflow, without rebuilding from scratch.
+
+**To duplicate a Custom Agent:**
+
+1. Open the Custom Agent you want to copy.
+
+2. Select `•••` and choose `Duplicate`.
+
+The duplicate opens as a private agent. You can review and update its settings before sharing or publishing.
+
+**What you need to duplicate an agent**
+
+* Permission to view and interact with the original agent.
+
+* Permission to create Custom Agents under your workspace’s admin controls. Check with your workspace admin if you’re unsure.
+
+**What carries over**
+
+* **Name:&#x20;**&#x54;he duplicate is named `{Original agent name} (1)`. You can rename it anytime.
+
+* **AI model:** The duplicate uses the same AI model as the original.
+
+* **Instructions:** Copied into a new page. If any links in the instructions point to pages you don’t have access to, those show up as no-access chips and won’t be added to the duplicate’s resources.
+
+* **Pages and databases:** Any Notion content the original agent used that you also have access to will carry over. Content you don’t have access to won’t be included.
+
+* **Triggers:** Triggers that use resources you have access to will carry over. If a trigger relies on something you can't access (like a Slack channel you’re not part of), that trigger won’t be included in the duplicate.
+
+**What you'll need to set up after duplicating**
+
+* **Connected tools (like Slack):** The duplicate doesn't inherit any tool connections. You'll need to reconnect tools like Slack on the new copy.
+
+* **Workers:** If the original agent had Workers set up, you’ll need to configure those again. They don’t carry over automatically.
+
+* **Run history:** The duplicate starts with a clean slate, no previous runs or activity from the original are included.
+
+* **Credit limits:** Any credit limits set on the original won't apply to the duplicate.
+
+**Privacy default**
+
+The duplicate is private by default, only you can see it. Share it from the `Share` menu when you’re ready.
 
 
 ## FAQs

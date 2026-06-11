@@ -27,6 +27,12 @@ A well-designed Custom Agent uses fewer credits and delivers better results. Her
 
   * 🚫 *"Read the Projects database, then write the weekly update. Then read the #support Slack channel and add to the weekly update."*
 
+* **Start from an existing agent when the workflow is similar.** If a workflow you need already exists as a Custom Agent, duplicate it instead of building from scratch. Open the agent, select `•••` and choose `Duplicate`.
+
+  * The copy is private by default.
+
+  * After duplicating, re-authenticate tools like Slack, check that triggers carried over as expected, and redeploy any Workers — they’re not included in the duplicate. This is especially useful for spinning up team variants of a working agent fast. Learn more about [duplicating a Custom Agent in this article.](https://www.notion.com/help/custom-agents#duplicate-a-custom-agent)
+
 New to Custom Agents?
 
 Start with [Custom Agents](https://www.notion.com/help/custom-agent) to learn what they are, how they work, and what you can connect them to.

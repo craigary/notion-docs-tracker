@@ -97,6 +97,20 @@ Share your Custom Agent with your team just like a Notion page by clicking `Shar
 
 * Delete the agent.
 
+## Duplicate a Custom Agent
+
+You can duplicate a Custom Agent to create a private copy you can adapt for your own workflow. The duplicate is private by default. Only you have access until you share it.
+
+When you duplicate a Custom Agent, Notion checks your own permissions — not the original agent’s — to decide what the duplicate includes:
+
+* **Resources (pages, databases):&#x20;**&#x4F;nly resources you have access to are kept. Resources you can’t access are dropped from the duplicate.
+
+* **Triggers:** Triggers that rely on resources you don’t have access to (for example, a private Slack channel) are dropped.
+
+* **Tools like Slack:** Not carried over automatically. You’ll need to re-authenticate any third-party connections on the duplicate.
+
+* **Instructions:** Cloned as a new page. References to pages you can’t access appear as no-access chips and are not added to the duplicate’s Tools and Access.
+
 ## Multiple users can collaborate to build and maintain a Custom Agent
 
 For integrations, Notion validates that anyone configuring the agent has access to the resource they're editing. For example, if you set up a Slack channel that only you can access, other editors can't edit or view that resource—they can only delete it or set up a new one.
