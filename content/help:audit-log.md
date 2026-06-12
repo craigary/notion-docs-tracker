@@ -19,9 +19,9 @@ By default, all events are shown in reverse chronological order. You can use the
 
 To see your audit log:
 
-1. Open the workspace switcher and select `Manage organization`. You may need to `Set up organization` first if you haven’t already. Learn more [here →](https://www.notion.com/help/organization-level-controls)
+1. Open the workspace switcher and select `Settings`. You may need to `Set up organization` first if you haven’t already. Learn more [here →](https://www.notion.com/help/organization-level-controls)
 
-2. Go to the `Data & Compliance` tab and select `Audit log`.
+2. Go to the `Admin` section and select `Audit log`.
 
 Some groups of audit log events are created as a consequence of the same user action.
 

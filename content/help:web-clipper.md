@@ -11,13 +11,11 @@ categoryKey: "category:notion-apps"
 
 ## On desktop
 
-Our desktop [Web Clipper](https://www.notion.com/web-clipper) is a browser extension available for Chrome, Firefox and Safari.
+Our desktop [Web Clipper](https://www.notion.com/web-clipper) is a browser extension available for Chrome and Safari.
 
 ### Install the extension
 
 * [Download](https://chrome.google.com/webstore/detail/notion-web-clipper/knheggckgoiihginacbkhaalnibhilkk?hl=en) the Chrome extension 🌈
-
-* [Download](https://addons.mozilla.org/en-US/firefox/addon/notion-web-clipper/) the Firefox add-on 🦊
 
 * [Download](https://apps.apple.com/us/app/notion-web-clipper/id1559269364?mt=12) the Safari extension 🧭
 
