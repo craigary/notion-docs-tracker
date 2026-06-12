@@ -23,11 +23,19 @@ Layouts also help you keep your database pages clean and easy to navigate, espec
 
 **Note:** While you can view layouts on mobile, you’ll only get the full layout builder experience on desktop or web.
 
-To build a layout:
+To build a layout on desktop or web:
 
 1. Open the database as a [full page (not inline)](https://www.notion.com/help/intro-to-databases#full-page-vs.-inline-databases) and select `•••` at the top.
 
 2. Select `Customize layout`. Use the page preview toggle under the database name to see how your layout changes will look for any page in the database.
+
+To build a layout on a smartphone or tablet:
+
+* Open a database page, tap `···`→ `Customize layout`.
+
+  * Alternatively, open database settings → `Customize layout`.
+
+* On a tablet, you can also tap the layout button that appears above the page title.
 
 [](//videos.ctfassets.net/spoqsaf9291f/5FibNdLT6w7Bs7crxnxnPC/d15b1072af9755283d7e9d051b99c7f6/page_toggle_layouts.mp4)
 
@@ -49,7 +57,7 @@ To customize your `Heading`:
 
 1. Click on the `Heading`. You’ll see a list of your database properties to the right of the screen.
 
-2. Under `Unpinned properties`, click `📌` next to a property to pin it. <!-- -->You can pin up to **15 properties**.
+2. Under `Unpinned properties`, click `📌` next to a property to pin it. You can pin up to **15 properties**.
 
 3. If you want to create new properties that you want pinned, click `Add a property` under `Pinned properties`.
 
@@ -68,6 +76,10 @@ Your main page area is the space underneath your page’s heading. It’s a larg
 Your `Property group` shows you the properties of your database page and can be displayed in the main page or in the details panel. Each layout has one `Property group`.
 
 All of your properties are displayed here to start, but when you pin a property to your `Heading` or move a property into its own module in the main page or the details panel, it will no longer be shown in your `Property group`.
+
+If your database has many properties, use the search box at the top of the property list to quickly find what you need.
+
+Type any part of a property name to filter the list in real time. The search works across collapsed sections and hidden properties too. Search is not case-sensitive.
 
 To customize your `Property group`:
 
