@@ -105,6 +105,8 @@ Here are the different permission levels in Notion:
 
 * `Can edit content`: This permission level is only found on **database pages**. People with this level of access can create and edit pages within the database, and edit property values for those pages. However, they will not be able to change the structure of the database and its properties, views, sorts, or filters. [Learn more about databases here →](https://www.notion.com/help/category/databases)
 
+* `Can create`: This permission level is only found on **database pages** and is available on Business and Enterprise plans. People with this level of access can create new pages within the database, but can’t view or edit existing pages they haven't been individually granted access to. This is useful when you want contributors to submit entries (like IT tickets, task requests, or form responses) without being able to see or modify other people's entries.
+
 * `Can comment`: Select this level of access for people who should only have the ability to comment on a page. They won’t be able to edit or share the content.
 
 * `Can view`: People with this level of access can read the content on the page, but they won’t be able to comment, edit, or share.

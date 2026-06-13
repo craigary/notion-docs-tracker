@@ -15,8 +15,8 @@ coverImage: null
 7 help:admin-content-search
 8 help:transfer-content-deprovisioned-user
 9 help:audit-log
-10 help:workspace-analytics
 10 help:add-security-and-compliance-integrations
+10 help:workspace-analytics
 11 help:managed-users-dashboard
 11 help:enterprise-connection-settings
 12 help:deploy-notion-for-macos
@@ -25,6 +25,6 @@ coverImage: null
 17 help:manage-teamspaces
 18 help:legal-holds
 19 help:organization-level-controls
-20 help:ip-address-restrictions
-21 help:set-up-microsoft-intune-with-notion-ios-and-android
-22 help:deploy-notion-for-windows
+20 help:set-up-microsoft-intune-with-notion-ios-and-android
+21 help:deploy-notion-for-windows
+22 help:ip-address-restrictions

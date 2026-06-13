@@ -15,7 +15,7 @@ coverImage: null
 7 help:suggested-edits
 8 help:page-analytics
 9 help:intro-to-teamspaces
-10 help:people-profiles
-11 help:people-directory
-12 help:create-and-manage-groups
-13 help:whos-who-in-a-workspace
+10 help:whos-who-in-a-workspace
+11 help:create-and-manage-groups
+12 help:people-profiles
+13 help:people-directory
