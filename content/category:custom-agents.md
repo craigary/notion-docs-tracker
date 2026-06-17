@@ -10,8 +10,8 @@ coverImage: null
 3 help:best-practices-for-creating-and-optimizing-a-custom-agent
 5 help:custom-agent-pricing
 6 help:use-custom-agents-on-slack-enterprise-grid
-6 help:custom-agents-sharing-and-permissions
-7 help:connect-calendar-to-custom-agents
-8 help:connect-mail-to-custom-agents
-9 help:mobile-custom-agents
+6 help:mobile-custom-agents
+7 help:custom-agents-sharing-and-permissions
+8 help:connect-calendar-to-custom-agents
+9 help:connect-mail-to-custom-agents
 17 help:mcp-connections-for-custom-agents

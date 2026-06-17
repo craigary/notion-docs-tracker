@@ -4,7 +4,7 @@ emoji: "🍎"
 description: "Whether you’re a student or a teacher, Notion is here to help balance your many responsibilities with its all-in-one workspace 🍎"
 url: "https://www.notion.com/help/notion-for-education"
 key: "help:notion-for-education"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/6EbxSWOuOzlo2LqKR3OSsi/09c777139517d36dea063dcb290fcc4f/Notion_for_students___teachers_-_hero.png"
+coverImage: null
 category: "Plans & billing"
 categoryKey: "category:plans-billing-and-payment"
 ---
@@ -121,7 +121,7 @@ With the Plus plan, students can organize plans, tasks and notes across school a
 \
 Just sign in with your school email address, by scrolling down the Billing in-product page and selecting Get free Education plan.\
 \
-Learn more about our student offers here: https\://www\.notion.so/help/notion-for-education
+Learn more about our student offers here: https\://www\.notion.com/help/notion-for-education
 
 
 ### How do I sign up for the free Education plan?

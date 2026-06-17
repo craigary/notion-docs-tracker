@@ -13,7 +13,7 @@ Marketplace is the best place to feature and sell your templates to Notion users
 
 ## Create a creator profile
 
-To sell in Marketplace, you’ll first need to go to [https://www.notion.so/profile](https://www.notion.com/profile) and set up your creator profile. This is a profile that’s separate from your Notion profile, where you can showcase your templates, add a profile photo and cover photo, and share more information about yourself.
+To sell in Marketplace, you’ll first need to go to <https://app.notion.com/profile> and set up your creator profile. This is a profile that’s separate from your Notion profile, where you can showcase your templates, add a profile photo and cover photo, and share more information about yourself.
 
 ![hc: creator profile](https://images.ctfassets.net/spoqsaf9291f/3KyD7leEAuP2CK98Mr9VjI/f74472c3563bc69cce2e29dfe3aedce0/Help_Center_Reference_draft_Marketplace.png)
 
@@ -31,7 +31,7 @@ Notion uses Stripe to process payments. Creators will need to join the waitlist,
 
 To set up payments:
 
-1. Go to [https://www.notion.so/profile](https://www.notion.com/profile).
+1. Go to <https://app.notion.com/profile>.
 
 2. In the `Settings` tab, scroll down to the `Sell templates with Notion` section.
 
@@ -65,7 +65,7 @@ Ready to submit your template? First, make sure your template has been published
 
 Once your template is published to the web, here’s how to submit it:
 
-1. Go to your creator dashboard at [https://www.notion.so/profile/templates](https://www.notion.com/profile/templates).
+1. Go to your creator dashboard at <https://app.notion.com/profile/templates>.
 
 2. Select `Start a New Template`.
 
@@ -83,7 +83,7 @@ Once your template is published to the web, here’s how to submit it:
 
 9. Select `Submit for review`. If you want to come back to your submission later, select `Save` instead.
 
-You can see the status of your submission at [https://www.notion.so/profile/templates](https://www.notion.com/profile/templates). If your template is approved:
+You can see the status of your submission at <https://app.notion.com/profile/templates>. If your template is approved:
 
 * The Notion team will add it to Marketplace and follow up with a link you can review and share.
 
@@ -93,7 +93,7 @@ You can see the status of your submission at [https://www.notion.so/profile/temp
 
 To edit an existing template:
 
-1. Go to [https://www.notion.so/profile/templates](https://www.notion.com/profile/templates).
+1. Go to <https://app.notion.com/profile/templates>.
 
 2. Hover over the template you want to edit and select `Edit Template`.
 
@@ -154,7 +154,7 @@ The amount we are refunding to a buyer will be taken out of your Stripe account.
 
 **Note:** You can only see analytics for templates sold directly through Marketplace. Templates that you sell third-party platforms won’t show up in your dashboard.
 
-You can see helpful numbers related to your templates by going to your creator dashboard at [https://www.notion.so/profile/analytics](https://www.notion.com/profile/analytics). Here, you’ll be able to see, sort, and filter data including:
+You can see helpful numbers related to your templates by going to your creator dashboard at <https://app.notion.com/profile/analytics>. Here, you’ll be able to see, sort, and filter data including:
 
 * How many times your content has been viewed.
 
@@ -166,7 +166,7 @@ You can see helpful numbers related to your templates by going to your creator d
 
 ## Coupons
 
-Creators can make coupons for their Notion products. Create and manage coupons at [https://www.notion.so/profile/coupons](https://www.notion.com/profile/coupons).
+Creators can make coupons for their Notion products. Create and manage coupons at <https://app.notion.com/profile/coupons>.
 
 When creating a coupon, creators can set:
 
@@ -240,7 +240,7 @@ There are two types of events you will receive once you have registered a webhoo
 
 ## Communicate with your customers
 
-If you choose to [collect users’ emails](https://www.notion.com/help/selling-on-marketplace#set-up-and-submit-a-template) when they purchase your template, you can send them updates on your templates, tips and tricks to utilize your templates, special offers, and more. To see your users’ emails, go to [https://www.notion.so/profile/templates](https://www.notion.com/profile/templates) and select `Download CSV` at the top of the page, in the banner that reads `You've made a sale!`.
+If you choose to [collect users’ emails](https://www.notion.com/help/selling-on-marketplace#set-up-and-submit-a-template) when they purchase your template, you can send them updates on your templates, tips and tricks to utilize your templates, special offers, and more. To see your users’ emails, go to <https://app.notion.com/profile/templates> and select `Download CSV` at the top of the page, in the banner that reads `You've made a sale!`.
 
 When communicating with your customers:
 
