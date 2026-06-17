@@ -198,45 +198,49 @@ To use webhooks, you must be a verified seller on the Marketplace.
 
 There are two types of events you will receive once you have registered a webhook: `marketplace.purchase` and `marketplace.refund`.
 
-**Each webhook will contain the following fields:**
+Each webhook contains:
 
-* `acquisitionId`: Unique identifier for the Marketplace transaction. If a product is refunded, the
+* `acquisitionId`: Unique identifier for the Marketplace transaction. If a product is refunded, the `marketplace.refund` webhook and original `marketplace.purchase` webhook will have the same `acquisitionId`.
 
-  `marketplace.refund` webhook’s and `marketplace.purchase` webhook’s `acquisitionId` will match.
+* `time`: The time the Marketplace transaction took place, as a Unix timestamp in milliseconds.
 
-* `time`: The date and time the Marketplace transaction took place.
+* `event`: Either `marketplace.purchase` or `marketplace.refund`.
 
-* `templateName`: The name of the template.
+* `productType`: The type of product purchased, such as `Template`, `Custom Agent`, or `Integration Listing`.
 
-* `templateSlug`: The unique slug of the template.
+* `name`: The product name.
 
-* `listingPrice`: The price the template is listed at in the Marketplace, before tax is applied. The amount will be displayed in cents.
+* `slug`: The product slug.
 
-* `event`: Either `marketplace.puchase` or `marketplace.refund`.
+* `templateName`: Legacy alias for `name`.
 
-**A webhook might also contain these fields:**
+* `templateSlug`: Legacy alias for `slug`.
 
-* `customerEmail`: Email of the customer, assuming they have opted-in to sharing their information with the template creator.
+* `listingPrice`: The listed Marketplace price before tax, in cents.
 
-* `totalCustomerPayment` (new version of `totalPrice`): The amount the customer paid, including tax. The amount will be displayed in cents. `totalPrice `will still be supported until June 2025.
+* `totalCustomerPayment`: The amount the customer paid, including tax, in cents.
 
-* `discountedPrice`: The discounted price of the product in case of a coupon. The amount will be displayed in cents.
+A webhook might also contain:
 
-* `taxAmount:`The tax or VAT collected on the payment based on the customer's region. (new!)
+* `customerEmail`: The customer’s email if available and shareable; otherwise this may be empty.
 
-* `sellerTransferAmount:`The amount after fees and tax that is paid to you as the seller. (new!)
+* `customerOptInEmail`: Whether the customer opted in to sharing their email, when available.
 
-* `couponCode`: The coupon used on the product.
+* `discountedPrice`: The discounted price before tax when a coupon is used, in cents.
 
-* `locale`: The locale of the product was sold in.
+* `taxAmount`: The tax or VAT collected on the payment, in cents.
 
-* `source`: The surface from which the customer made the transaction:
+* `sellerTransferAmount`: The amount paid to the seller after fees and tax, in cents.
 
-  * `in_app`: Logged in, on the desktop app.
+* `couponCode`: The coupon code used on the product.
 
-  * `mobile_app`: Logged in, on the mobile app.
+* `locale`: The locale the product was sold in.
 
-  * `web_gallery: `Logged out, on [notion.com/templates](https://www.notion.com/templates).
+* `source`: The surface where the customer made the transaction. Possible values include `in_app`, `mobile_app`, and `web_gallery.`
+
+* `refundReason`: For `marketplace.refund` events, the selected refund reason when available.
+
+* `customRefundReason`: For `marketplace.refund` events, the custom refund reason when available.
 
 ## Communicate with your customers
 
