@@ -63,6 +63,10 @@ Agents act only on the pages, databases, and external apps you explicitly grant 
 
 * Keep runs reviewable and reversible so you can safely iterate.
 
+#### **Audit log visibility (Enterprise)**
+
+Key configuration and access changes to Custom Agents (like instruction updates, permission changes, and integration additions) are recorded in the [Notion audit log](https://www.notion.com/help/audit-log#custom-agent-events). This helps Enterprise admins track agent changes for security and compliance reviews.
+
 ## Who can use Custom Agents?
 
 * You must be on Notion’s Business or Enterprise Plan. Learn more about [pricing for Custom Agents](https://www.notion.com/help/custom-agent-pricing).

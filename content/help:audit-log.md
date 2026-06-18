@@ -4,7 +4,7 @@ emoji: "🔦"
 description: "Audit logs give Enterprise organization owners access to detailed information about security and safety-related activity. This can help identify potential security issues, investigate suspicious behavior, and troubleshoot access 🔦"
 url: "https://www.notion.com/help/audit-log"
 key: "help:audit-log"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/716WVYpSoYzNRkjGxmXt4n/f99b26d3e5beebd199410803d200d643/Audit_log_-_hero.png"
+coverImage: null
 category: "Administer your workspace"
 categoryKey: "category:enterprise-admin"
 ---
@@ -54,6 +54,8 @@ Events are split into the following categories:
 4. **Workspace events:** This includes events about an entire Notion workspace.
 
 5. **Account events:** This includes events about accounts of users in the workspace.
+
+6. **Custom Agent events:** Events about Custom Agent configuration and access changes.
 
 ## Page events
 
@@ -406,6 +408,64 @@ Page event audience will also export as a column in CSV exports.
 * **Authorized via Workspace SAML**: Verified workspace access via SAML SSO.
 
 **Note:&#x20;**&#x49;f you are trying to find a deleted user or a user who has changed their name to a new name, the best way to do this is through an exported audit log.
+
+## Custom Agent events
+
+The audit log records key Custom Agent configuration and access changes so Enterprise admins and security teams can track who created or modified an agent, what it has access to, and how its settings changed over time.
+
+**Configuration events:**
+
+* **Agent created:&#x20;**&#x41; Custom Agent was created in the workspace.
+
+* **Agent updated:** An agent's name, description, or icon was changed.
+
+* **Agent instructions updated:&#x20;**&#x41;n agent's instructions page was edited.
+
+* **Agent model settings updated:** The model selection for an agent was changed.
+
+* **Agent integration added/removed/updated:** A connection was added to, updated, or removed from an agent.
+
+* **Agent Notion access added/removed/updated:** The pages or databases an agent can access were changed.
+
+* **Agent web access updated:** Web access was enabled or disabled for an agent.
+
+* **Agent trigger added/removed/updated:** A trigger was added, removed, or changed on an agent.
+
+* **Agent credit limits updated**: the credit limit for an agent was set, removed, or changed.
+
+* **Agent published:&#x20;**&#x41; Custom Agent was published and made available to workspace members.
+
+**Access events:**
+
+* **Agent permissions updated:&#x20;**&#x53;haring permissions for a Custom Agent were changed.
+
+* **Agent enabled/disabled:** An agent was enabled or disabled.
+
+* **Agent deleted:** A Custom Agent was deleted.
+
+* **Agent restored:** A deleted Custom Agent was restored.
+
+**Run events:**
+
+* **Agent was triggered**: A Custom Agent run was started (by a trigger, schedule, or manually).
+
+* **Run completed**: A Custom Agent run finished successfully.
+
+* **Run failed**: A Custom Agent run did not complete due to an error.
+
+**Page & content events:**
+
+* **Agent created a page / edited a page / deleted a page:** When a Custom Agent creates, edits, or deletes content during a run, these actions are recorded as standard page events in the audit log attributed to the agent. The human who triggered the run is also captured in the event metadata.
+
+**Workspace settings events**
+
+* **Custom agent creation policy updated:** The workspace policy controlling who can create Custom Agents was changed.
+
+* **Default agent credit limit set / removed:** The workspace-wide default credit limit for Custom Agents was set or removed.
+
+* **Group agent creation policy updated:** The Custom Agent creation permissions for a specific member group were changed.
+
+**Note:** Recording what an agent did during a specific run is not included.
 
 ## Export your audit log
 
