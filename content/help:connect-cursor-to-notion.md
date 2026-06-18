@@ -9,11 +9,11 @@ category: "External Agents"
 categoryKey: "category:external-agents"
 ---
 
+**Note:** Cursor in Notion is currently in beta and subject to the beta terms of your agreement.
+
 Cursor is an AI-powered code editor. When you connect it to Notion, you can use your workspace content as context for coding tasks without switching apps.
 
 Cursor agents are different from [Custom Agents.](https://www.notion.com/help/custom-agents) They run on Cursor's infrastructure, but your work and results stay in Notion.
-
-**Note:&#x20;**&#x43;ursor in Notion is currently in beta and subject to the beta terms of your agreement.
 
 ## Who can use Cursor with Notion
 

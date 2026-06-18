@@ -9,9 +9,9 @@ category: "External Agents"
 categoryKey: "category:external-agents"
 ---
 
-Claude Agents keep your workflow inside Notion, while Anthropic runs the agent behind the scenes. You get Claude’s coding and file-editing strengths, plus Notion as the place where your team collaborates. This lets you chat with Claude Agents directly in Notion, delegate work, and see results without switching apps.
-
 **Note:** Claude Agents in Notion is currently in beta and subject to the beta terms of your agreement.
+
+Claude Agents keep your workflow inside Notion, while Anthropic runs the agent behind the scenes. You get Claude’s coding and file-editing strengths, plus Notion as the place where your team collaborates. This lets you chat with Claude Agents directly in Notion, delegate work, and see results without switching apps.
 
 ## Who can use Claude Agents
 
@@ -50,16 +50,6 @@ Claude Agents can:
 * Browse the web.
 
 * Call other agents during a session.
-
-## How permissions work
-
-Claude agents can only see what you share with them.
-
-* To edit a page, the agent needs edit access to that page.
-
-* To work in a database, the agent needs access to that database with the right permissions.
-
-If something isn't working, check what the agent is shared on and what level of access it has.
 
 ## Set up a Claude Agent
 
