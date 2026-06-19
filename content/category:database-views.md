@@ -1,6 +1,6 @@
 ---
 title: "Database views"
-description: "Database views let you shape the same information to match how you work. Explore view types, plus how to use filters, sorts, groups, and layouts to find what you need and stay organized."
+description: null
 url: "https://www.notion.com/help/category/database-views"
 key: "category:database-views"
 coverImage: null
