@@ -235,7 +235,7 @@ Use the Notion credits dashboard to track usage over time and see which agents a
 
 ### 2. Set guardrails to prevent surprises
 
-Set credit limits from individual agents so they pause when they hit a threshold.
+Set credit limits for individual agents so they pause when they hit a threshold. In some cases, an agent may go over the limit in order to complete an ongoing task. If a task is already running when it hits the cap, we let it finish before stopping new usage.
 
 ![HC: set credit limit](https://images.ctfassets.net/spoqsaf9291f/EhzKTguV9VcYMMpBVGcVA/290894bba36e2f96f313757e54ce97b8/Group_8__1_.png)
 
