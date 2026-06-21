@@ -1,9 +1,9 @@
 ---
 title: "External Agents"
-description: null
+description: "Bring external AI agents into Notion so your work, context, and results stay together."
 url: "https://www.notion.com/help/category/external-agents"
 key: "category:external-agents"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/1wsKnG5rc0BX935bQDIrbv/b0e0d1f61155a9f3db4a505e143169ba/ship-illustration.png"
+coverImage: null
 ---
 
 1 help:use-claude-agents-in-notion
