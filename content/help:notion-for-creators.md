@@ -1,10 +1,10 @@
 ---
 title: "Notion for creators"
-emoji: "🧑🏼‍🎨"
-description: "Learn all about the Notion for Creators program 🧑🏼‍🎨"
+emoji: null
+description: "Learn all about the Notion for Creators program."
 url: "https://www.notion.com/help/notion-for-creators"
 key: "help:notion-for-creators"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/7r5TN8mSUq6Uz9Pri8C16G/b123689f0270afbd55e846c096170f7d/Notion_for_Creators.png"
+coverImage: null
 category: "Plans & billing"
 categoryKey: "category:plans-billing-and-payment"
 ---
