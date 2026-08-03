@@ -19,8 +19,6 @@ export function ensureTrailingSlash(url: string) {
   return url.endsWith('/') ? url : `${url}/`
 }
 
-
-
 export function getHelpArticleUrl(slug: string) {
   return new URL(slug, ensureTrailingSlash(config.helpDocsUrl)).toString()
 }
@@ -37,7 +35,9 @@ export function cleanImageUrl(url: string) {
   try {
     let nextUrl = url
 
-    if (nextUrl.startsWith('/')) {
+    if (nextUrl.startsWith('//')) {
+      nextUrl = `https:${nextUrl}`
+    } else if (nextUrl.startsWith('/')) {
       if (nextUrl.startsWith('/_next/image?url=')) {
         const encodedUrl = nextUrl.replace('/_next/image?url=', '').split('&')[0]
         nextUrl = decodeURIComponent(encodedUrl ?? '')

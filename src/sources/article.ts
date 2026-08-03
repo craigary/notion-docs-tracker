@@ -51,7 +51,6 @@ export async function fetchArticleContent(article: Article): Promise<ArticleInfo
 
   const responseText = await articlePageRes.text()
 
-
   const document = new DOMParser().parseFromString(responseText, 'text/html')
 
   const title = document.querySelector('h1')?.textContent?.trim()

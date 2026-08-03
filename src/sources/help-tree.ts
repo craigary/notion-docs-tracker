@@ -1,8 +1,9 @@
 import { DOMParser } from 'linkedom'
 
+import config from '@/config'
+
 import type { Article, Category } from '../../types'
 import { genericHeaders, getHelpCategoryUrl } from '../utils'
-import config from '@/config'
 
 type HelpCategoryTreeFromSidebar = {
   name: string
@@ -16,13 +17,12 @@ type HelpCategoryTreeFromSidebar = {
   }[]
 }
 
-type HelpPageInCategory = {
-  fields: {
-    title?: string
-    slug?: string
-    emoji?: string | null
-    order?: number
-  }
+// 新版分类页（/help/category/:slug/all）返回的文章列表结构，不再包含 emoji/order 字段
+// 文章顺序即数组顺序，slug 从 href 中提取
+type HelpArticleInCategory = {
+  id: string
+  title: string
+  href: string
 }
 
 function parseNextData(responseText: string, errorContext: string) {
@@ -36,24 +36,40 @@ function parseNextData(responseText: string, errorContext: string) {
   return JSON.parse(nextData.textContent)
 }
 
+function getHelpCategoryAllUrl(slug: string) {
+  return `${getHelpCategoryUrl(slug)}/all`
+}
+
 async function fetchHelpArticleByCategory(category: Category): Promise<Article[]> {
-  const responseText = await fetch(getHelpCategoryUrl(category.slug), {
+  const responseText = await fetch(getHelpCategoryAllUrl(category.slug), {
     headers: genericHeaders
   }).then(response => response.text())
 
   const nextDataJson = parseNextData(responseText, `Notion Help category ${category.slug}`)
 
-  const articlesInCategory = (nextDataJson.props.pageProps.helpPagesInCategory as HelpPageInCategory[])
-    .filter(page => page.fields?.title && page.fields?.slug)
+  const articlesInCategoryList = nextDataJson.props.pageProps.articles as
+    | HelpArticleInCategory[]
+    | undefined
+
+  if (!Array.isArray(articlesInCategoryList)) {
+    throw new Error(
+      `Failed to find pageProps.articles on category ${category.slug} (${getHelpCategoryAllUrl(category.slug)}).`
+    )
+  }
+
+  const articlesInCategory = articlesInCategoryList
+    .filter(page => page.title && page.href)
     .map((page, index) => {
+      const slug = page.href.replace(/^\/help\//, '').replace(/\/$/, '')
+
       return {
-        title: page.fields.title!,
-        slug: page.fields.slug!,
-        key: `help:${page.fields.slug!}` as const,
-        emoji: page.fields.emoji ?? null,
+        title: page.title,
+        slug,
+        key: `help:${slug}` as const,
+        emoji: null,
         category: category.title,
         categoryKey: category.key,
-        order: page.fields.order ?? index + 1
+        order: index + 1
       }
     })
 
@@ -67,9 +83,13 @@ export async function fetchAllNotionHelpDocs() {
 
   const nextDataJson = parseNextData(responseText, 'Notion Help homepage')
 
-  // 之前在这里可以通过侧边栏拿到所有的文章，但现在只能拿到分类。原来的文章被现在的分类代替了，原来的上级分类变成了一个没有意义的分类名称，里面没有实际内容
-  const helpCategoryTreeFromSidebar: HelpCategoryTreeFromSidebar[] =
-    nextDataJson.props.pageProps.helpPageSidebar.helpArticleTree
+  // 侧边栏树只提供分类（不再包含文章），文章列表改由每个分类的 /all 页面提供
+  const helpCategoryTreeFromSidebar: HelpCategoryTreeFromSidebar[] | undefined =
+    nextDataJson.props.pageProps.helpPageSidebar?.helpArticleTree
+
+  if (!Array.isArray(helpCategoryTreeFromSidebar)) {
+    throw new Error('Failed to find helpArticleTree on Notion Help homepage.')
+  }
 
   const categories: Category[] = []
 
@@ -84,15 +104,13 @@ export async function fetchAllNotionHelpDocs() {
     categories.push(...categoryArrUnderParent)
   })
 
-
-
-  const categoryOrderEntries = await Promise.all(
+  const categoryArticleEntries = await Promise.all(
     categories.map(category => {
       try {
         return fetchHelpArticleByCategory(category)
       } catch (error) {
         console.warn(
-          `Failed to fetch precise article order for category ${category.slug}, falling back to sidebar order.`,
+          `Failed to fetch articles for category ${category.slug}, skipping its articles.`,
           error
         )
         return [] as Article[]
@@ -100,7 +118,5 @@ export async function fetchAllNotionHelpDocs() {
     })
   )
 
-
-
-  return { categories, articles: categoryOrderEntries.flat() }
+  return { categories, articles: categoryArticleEntries.flat() }
 }
