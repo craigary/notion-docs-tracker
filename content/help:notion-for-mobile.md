@@ -4,14 +4,14 @@ emoji: "🤳"
 description: "You can download Notion on your iOS or Android device for easy access on the go. Read, edit and comment on any of your Notion content from the mobile app 🤳"
 url: "https://www.notion.com/help/notion-for-mobile"
 key: "help:notion-for-mobile"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/6oxvX78BayTpGuHpyPxRBB/116d5902929fc11a3c5d1d837fd4c5fb/Notion_for_mobile_-_hero.png"
+coverImage: null
 category: "Notion on desktop, web, & mobile"
 categoryKey: "category:notion-apps"
 ---
 
 ## Download the mobile app
 
-1. On your device's browser, go to [www.notion.so](https://www.notion.so).
+1. On your device's browser, go to [www.notion.com](https://www.notion.com).
 
 2. Click the button on the homepage to download Notion for your device.
 

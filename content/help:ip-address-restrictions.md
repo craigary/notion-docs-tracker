@@ -21,19 +21,17 @@ To set up allowed IP addresses, you must be an Enterprise [organization owner](h
 
 To create a list of allowed IP address for your organization:
 
-1. In your sidebar click on your organization’s name, select `Settings`.
+1. Open the workspace switcher and select `Manage organization`. You may need to `Set up organization` first if you haven’t already. Learn more [here →](https://www.notion.com/help/organization-level-controls)
 
-2. From settings click on `Organization` → `Security`.
+2. Go to the `Security` tab and select `Allowed IP addresses` in the IP Address Restrictions section.
 
-3. Click `IP restrictions `/ `Allowed IP addresses`, then set the enforcement option to Require reauthentication. When enabled, the session ends as soon as a device leaves the allowed IP ranges, and the user must sign in again.
+3. Select the `Add IP rule` button to set up your first allowed IP address. Provide a name for your address (like “SF Office” or “NY Office”) and then enter the corresponding IP address. To set a range of IP addresses, you can use CIDR notation (e.g., 127.0.0.1/24). We support both IPv4 and IPv6 addresses. Each rule can contain up to 16 IP addresses or CIDR ranges, so you can create multiple rules if you need more.
 
-4. Provide a name for your address (like “SF Office” or “NY Office”) and then enter the corresponding IP address. To set a range of IP addresses, you can use CIDR notation (e.g., 127.0.0.1/24).
+4. To ensure that no one gets locked out of their account before all IP restrictions are set, we recommend that you add the relevant IP addresses first, then activate the allowed list afterwards.
 
-   To ensure that no one gets locked out of their account before all IP restrictions are set, we recommend that you add the relevant IP addresses first, then activate the allowed list afterwards.
+5. After you've added a list of IP addresses that you want to approve for the account, select the `Enable allowed IP restrictions` toggle above the list to turn on IP address restriction.
 
-5. After you've added a list of IP addresses that you want to approve for the account, select the checkbox above the list → `Activate`.
-
-   * Ensure your own IP address is included in the allowed list. Otherwise, you'll receive an error message and your list of allowed IP addresses won’t be activated.
+   * Ensure your own IP address is included in the allowed list. If it's not, you'll see a pop-up warning. If you choose to proceed, you may get locked out of your account per your IP restriction settings.
 
 Once the allowed IP list is enabled, you’re all set. Users will only be able to access their accounts when they’re on an IP address included in the allowlist.
 
@@ -45,7 +43,11 @@ If a managed user attempts to sign in from an IP address that doesn’t match an
 
 Previously, IP address restrictions were effectively enforced at login time only. That meant once a user authenticated from an allowed IP, their session could remain active for up to 90 days (as long as they stayed signed in), even if the device later moved outside the allowed IP ranges.
 
-Now, admins can enable an enforcement option that ends the session as soon as a device leaves the allowed IP ranges. When this happens, the user must reauthenticate (sign in again).
+Admins can now control session behavior using the enforcement setting, which appears after restrictions are enabled.
+
+* **Maintain session (default)**: Sessions continue even if the device's IP leaves the allowed range. Restrictions are enforced at the next login.
+
+* **Require re-authentication**: The session ends as soon as the device's IP leaves the allowed range, and the user must sign in again.
 
 ![hc: restricted ip address error message](https://images.ctfassets.net/spoqsaf9291f/43CdtjFnBV5vBAh0B3Rfu9/e8f0bcaf4e7d580cf9ff5b85ebe6c083/IP_Address_Restrictions_Reference__1_.png)
 
@@ -62,3 +64,5 @@ When you’re managing IP addresses for your organization, you’ll have access 
 * Enabled IP allowlist: That a user either enabled the IP allowlist rules.
 
 * Disable IP allowlist: That a user either disabled the IP allowlist rules.
+
+* Changed enforcement mode: That an admin changed the session behavior setting.

@@ -7,10 +7,10 @@ coverImage: null
 ---
 
 2 help:views-filters-and-sorts
-10 help:layouts
-11 help:forms
-12 help:maps
-13 help:feeds
+10 help:forms
+11 help:maps
+12 help:feeds
+13 help:layouts
 14 help:tables
 15 help:boards
 16 help:timelines

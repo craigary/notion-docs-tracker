@@ -4,7 +4,7 @@ emoji: "🔒"
 description: "At Notion, we want to be transparent with our customers about our products and how we use AI to enhance our users’ experience. Below is an overview of Notion AI functionality and related security and privacy practices 🔒"
 url: "https://www.notion.com/help/notion-ai-security-practices"
 key: "help:notion-ai-security-practices"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/7p7r9IQJhKKOhgrXa1QFoG/e8d045240fb448b29e0368488108e69e/notion-ai-security-practices.png"
+coverImage: null
 category: "Notion AI security"
 categoryKey: "category:notion-ai-security"
 ---
@@ -125,7 +125,7 @@ Individual customer accounts are kept separate in our production environment. We
 
 Notion AI [Subprocessors](https://www.notion.com/notion/Notion-s-List-of-Subprocessors-268fa5bcfa0f46b6bc29436b21676734) have data retention policies that allow Notion to meet [our obligations to customers for the processing of data](https://notion.notion.site/Data-Processing-Addendum-361b540101274b1fa7e16b90402b0d99?pvs=4).
 
-When using Notion AI, by default our LLM providers utilize zero data retention for Enterprise plan workspaces, so no data is stored with LLM providers. In addition, by default for all non-Enterprise plan workspaces, LLM providers only retain Customer Data for 30 days or fewer before deletion. However, there are certain AI-powered features that may require the use of data-retaining LLMs; in such cases, Notion will make available Workspace settings to enable administrators to turn on data-retaining LLMs. Otherwise, such data-retaining LLMs will remain off in your Workspace by default.
+When using Notion AI, by default our LLM providers utilize zero data retention for Enterprise plan workspaces, so no data is stored with LLM providers. In addition, by default for all non-Enterprise plan workspaces, LLM providers only retain Customer Data for 30 days or fewer before deletion. However, there are certain AI-powered features that may require the use of data-retaining LLMs; in such cases, Notion will make available Workspace settings to enable administrators to turn on data-retaining LLMs. Otherwise, such data-retaining LLMs will remain off in your Workspace by default. <!-- -->In addition, the External Agents functionality has different data retention controls and practices. [Learn more →](https://www.notion.com/help/category/external-agents)
 
 Embeddings stored in vector databases are deleted within 60 days from when the page or workspace is deleted.
 

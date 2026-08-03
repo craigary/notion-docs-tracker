@@ -4,7 +4,7 @@ emoji: "🔑"
 description: "Here's how to set up your Identity Provider for SAML SSO in Notion 🔑"
 url: "https://www.notion.com/help/set-up-identity-provider-for-saml-sso"
 key: "help:set-up-identity-provider-for-saml-sso"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/mzbz1SsE5vsNjUFhmIhTb/555461515fdda4a6e27c704c6b2cc5cb/Scim_IDP_Reference_Visuals.png"
+coverImage: null
 category: "Administer your workspace"
 categoryKey: "category:enterprise-admin"
 ---
@@ -67,7 +67,7 @@ To set up in Notion in Entra ID:
 
    * In the `Reply URL (Assertion Consumer Service URL)` text box, use the ACS URL from Notion, found on the `Identity & provisioning` tab of `Settings` in your left-hand sidebar.
 
-   * In the `Sign on URL` text box, enter the following URL: `https://www.notion.so/login`.
+   * In the `Sign on URL` text box, enter the following URL: `https://app.notion.com/login`.
 
 3. In the `User attributes & claims` section, ensure the required claims are set to:
 

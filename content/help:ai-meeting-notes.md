@@ -61,6 +61,26 @@ To create AI Meeting Notes, type `/meet` into any page in the desktop app. If yo
 
 * If you’d like to resume your recording, click the slider icon at the top of the meeting notes block → `Resume transcription`.
 
+## Upload an audio recording
+
+You can upload an existing audio recording to a Meeting Notes block so Notion can transcribe and summarize it, even if the meeting wasn't recorded live in Notion.
+
+To upload an audio file:
+
+1. Open a page with a Meeting Notes block.
+
+2. Select the settings icon at the top of the Meeting Notes block.
+
+3. Choose `Upload audio`.
+
+4. Select an audio file from your device.
+
+Notion will transcribe the audio and generate a summary, just like a live recording.
+
+**Supported formats:** AAC, M4A, MP3, and WAV.
+
+**Note:** MOV, MP4, and Loom files are not currently supported for upload.
+
 ## Follow the transcript with speaker labels & citations
 
 When AI Meeting Notes detects that the person speaking has changed, it will start transcribing on a new line.
