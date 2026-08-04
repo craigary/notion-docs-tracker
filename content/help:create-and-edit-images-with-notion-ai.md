@@ -1,27 +1,21 @@
 ---
-title: "Create & edit images with Notion AI"
-emoji: "🌅"
-description: "Learn how to turn ideas into diagrams, flowcharts, and visual notes, then tweak them with AI 🌅"
+title: "Create & edit images with Notion Agent"
+emoji: null
+description: "Learn how to turn ideas into diagrams, flowcharts, and visual notes, then tweak them with AI."
 url: "https://www.notion.com/help/create-and-edit-images-with-notion-ai"
 key: "help:create-and-edit-images-with-notion-ai"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/1E1kvUJOov9E5ZVIsLmTBY/d7a7ceb190d2252f7c9af300df3928b6/AI_image_generation.png"
+coverImage: null
 category: "Notion AI"
 categoryKey: "category:notion-ai"
 ---
 
-Create and edit images with Notion AI to make diagrams, flowcharts, and visual notes, then refine them with follow-up instructions. Workspace owners and admins control whether image generation is switched on for their workspace.
+Create and edit images with Notion Agent to make diagrams, flowcharts, and visual notes, then refine them with follow-up instructions. Workspace owners and admins control whether image generation is switched on for their workspace.
 
 * This is available on Business and Enterprise plans only.
 
-* Custom agents can’t generate images.
+* To keep Notion AI fast and reliable, Business and Enterprise plans include a usage allowance for certain Notion AI features. Learn more about [managing usage allowance for Notion AI →](https://www.notion.com/help/manage-your-usage-allowance-for-notion-ai)
 
-**Image generation has the following limits per user:**
-
-* 10 image generations or edits per 24 hours
-
-* 30 image generations or edits per 30 days
-
-The limits reset on a rolling basis. If you see an error when creating or editing images, try again after the allotted window has passed.
+* [Custom Agents](https://www.notion.com/help/category/custom-agents) can’t generate images.
 
 ## Where you can create or edit images
 
@@ -29,7 +23,7 @@ The limits reset on a rolling basis. If you see an error when creating or editin
 
 * Edit an existing image with AI.
 
-* Chat with Notion AI to make or edit images (the chat uses key info from the page you’re viewing).
+* Chat with Notion Agent to make or edit images (the chat uses key info from the page you’re viewing).
 
 ## Create an image in an image block
 
@@ -37,11 +31,11 @@ The limits reset on a rolling basis. If you see an error when creating or editin
 
 2. In the image block, choose the `Notion AI `option.
 
-3. Tell Notion AI what you want to create. You can also pick a style to guide the result.
+3. Tell Notion Agent what you want to create. You can also pick a style to guide the result.
 
 4. Generate the image, then refine the prompt until it looks right.
 
-**Note:** On mobile, you can generate images only through Notion AI chat (not in image blocks, or for cover images).
+**Note:** On mobile, you can generate images only through Notion Agent chat (not in image blocks, or for cover images).
 
 ## Edit an existing image with AI
 
@@ -53,9 +47,9 @@ The limits reset on a rolling basis. If you see an error when creating or editin
 
 4. Refine with extra instructions until you're happy with the result.
 
-## Make or edit images in Notion AI chat
+## Make or edit images in Notion Agent chat
 
-You can ask Notion AI in chat to make or edit an image. This works well when you want the image to reflect content on your page.
+You can ask Notion Agent in chat to make or edit an image. This works well when you want the image to reflect content on your page.
 
 Try prompts like:
 
@@ -77,4 +71,4 @@ Image generation is only available on Business and Enterprise plans. If you don'
 
 ### Why am I getting an error?
 
-You may have hit your daily or monthly usage limit. Try again in 24 hours or 30 days.
+You may have hit your rolling, six-hour or monthly usage allowance for Notion AI. Learn more about what to do when certain Notion AI features are temporarily unavailable after [reaching your usage allowance →](https://www.notion.com/help/manage-your-usage-allowance-for-notion-ai#how-to-resume-using-notion-ai)

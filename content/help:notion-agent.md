@@ -1,7 +1,7 @@
 ---
 title: "Notion Agent"
-emoji: "🤝🏼"
-description: "With your Notion Agent, you don’t just have a teammate that thinks with you, but one that gets work done for you — just the way you want 🤝🏼"
+emoji: null
+description: "With your Notion Agent, you don’t just have a teammate that thinks with you, but one that gets work done for you — just the way you want."
 url: "https://www.notion.com/help/notion-agent"
 key: "help:notion-agent"
 coverImage: "https://img.youtube.com/vi/yasGTeAsV6s/maxresdefault.jpg"
@@ -11,7 +11,9 @@ categoryKey: "category:notion-ai"
 
 Notion Agent is your AI teammate inside Notion. It can help you create and edit pages and databases using context from your workspace and connected apps.
 
-Notion Agent has the same permissions you do. If you can't view or edit specific content, your Agent can't either. You can personalize how your Agent responds with [skills and instructions](http://www.notion.com/help/customize-your-notion-agent-with-instructions-and-skills), and update its settings so it waits until you [approve plans](https://www.notion.com/help/review-and-approve-plans-before-notion-ai-runs) before making changes. You can always undo any changes made by your Notion Agent.
+Notion Agent has the same permissions you do. If you can't view or edit specific content, your Agent can't either. You can personalize how your Agent responds with [skills and instructions](http://www.notion.com/help/customize-your-notion-agent-with-instructions-and-skills).
+
+To keep Notion AI fast and reliable, Business and Enterprise plans include a [usage allowance](https://www.notion.com/help/manage-your-usage-allowance-for-notion-ai) for certain Notion AI features, including Notion Agent.
 
 **Tip:** <!-- -->As you chat with your Notion Agent, give it a thumbs up or thumbs down to let us know how it’s doing. If you give a thumbs down, you’ll also be able to tell us why.
 
@@ -23,13 +25,15 @@ Find the friendly face at the bottom of Notion to chat with your Agent. As soon 
 
 * Enter your question or query. With Agent, you can now ask more complex questions and ask it to handle multi-step tasks.
 
-  * By default, Agent will take in the context of the page you’re currently in. If you selected specific blocks in your page, Agent will focus on those blocks in your chat. You can give it additional context by selecting `@` at the top of the text field, then selecting a particular page or person in your workspace. Additionally, you can select `All sources` in a chat and select one or multiple sources that you want Agent to look at.
+  * By default, Agent will take in the context of the page you’re currently in. If you selected specific blocks in your page, Agent will focus on those blocks in your chat. You can give it additional context by selecting `@` at the top of the text field, then selecting a particular page or person in your workspace. Additionally, you can select `All sources` in a chat and select one or multiple sources that you want Agent to look at. Any MCP servers you've connected will also appear here under `MCP servers`.
 
   * You can also @-mention specific pages or people directly in your query.
 
 * Select `📎` to upload a file for Agent to look at.
 
-* Select `Auto` to switch to another AI model. Keep in mind that depending on the model you choose, Agent may look only at information from the web to help you with your work. It may not be able to look at information from your workspace or connected apps.
+* Select `Auto` to switch to another AI model. Keep in mind that depending on the model you choose, Agent may look only at information from the web to help you with your work. It may not be able to look at information from your workspace or connected apps. Available models include Claude Fable 5 (Business and Enterprise plans only), Claude Sonnet 5, the newest GPT models, Gemini, and Grok. Claude Fable 5 is great for in-depth work like detailed research, long-form writing, and multi-step tasks. A workspace admin must switch this on in `Settings` → `Notion AI` before it shows up for you. Not sure which model to pick? Leave it on
+
+  `Auto` and Notion will choose a model for each task.
 
 ![hc: personal agent ui](https://images.ctfassets.net/spoqsaf9291f/5nzOWLKeT1C8AQpaoSSNYO/a38ddcd94fcb09e1aedfacb4daf6bd1f/Reference_Visuals_Group_166.png)
 
@@ -51,6 +55,8 @@ Find the friendly face at the bottom of Notion to chat with your Agent. As soon 
 
   * “Summarize this week’s conversations from my team Slack channel.”
 
+* Connect other apps you use through MCP servers. Once you connect an app and authenticate, your Agent can look up info in that app and may be able to take actions there for you. To connect an app, ask your Agent in chat, select `All sources` → `MCP servers` → `Add MCP server`, or go to `Settings` → `Connections` → `Discover`. Learn more about [connecting MCP servers to your Notion Agent →](https://www.notion.com/help/connect-mcp-servers-to-your-notion-agent)
+
 * Create and edit pages.
 
   Try these prompts:
@@ -67,6 +73,8 @@ Find the friendly face at the bottom of Notion to chat with your Agent. As soon 
 
   * "Create a four‑week LinkedIn calendar using our latest blogs, release notes, and webinars. Link sources and avoid launch conflicts."
 
+* Show results as an interactive table in chat. When your Agent works with data, it displays the results as a clean, interactive table right in the conversation. You don't need to open a separate database to see what the Agent found or created. This happens automatically whenever the Agent presents info within a table.
+
 * Ingest files like PDFs and CSVs and answer questions about them, or turn them into structured pages or databases.
 
   Try uploading a file with these prompts:
@@ -75,22 +83,23 @@ Find the friendly face at the bottom of Notion to chat with your Agent. As soon 
 
   * "Analyze customer feedback responses from this CSV. Produce themes, sentiment, and specific recommendations with citations back to each source note."
 
+* Work with files and create downloadable results. Sometimes you need more than a written answer, like a cleaned-up spreadsheet or a report you can download. In those cases, your Notion Agent can use a secure workspace to:
+
+  * Read files you upload (PDF, CSV, Excel/XLSX, Word/DOCX, PowerPoint/PPTX, ZIP).
+
+  * Do calculations (and run simple code if needed).
+
+  * Create new files you can download (spreadsheets, slide decks, PDFs, documents).
+
+Try this prompt: “Use a computer to analyze this spreadsheet and return an updated XLSX.”
+
 * Analyze data and generate summaries and insights.
 
   Try this prompt: “Can you compare actuals vs. budget, and highlight variances over 10% with explanations?”
 
 * Search, draft, send, and organize Gmail from Notion. If you've connected Gmail via Settings → Notion AI → AI connectors, your Agent can search your inbox, draft and send emails, archive or trash messages, manage labels, unsubscribe from senders, and more. If you use Notion Mail, it can also update email status, set reminders, and save emails as synced blocks in Notion. Write actions (like sending) will ask you to confirm before Agent takes action.
 
-Try these prompts:
-
-* "What's on my calendar today?"
-
-* "Find 30 minutes with \[teammate] this week."
-
-* "Create a meeting with \[teammate] tomorrow at 2pm."
-
-- Understand your schedule and create, update, or cancel calendar events from a conversation. If you've connected Calendar via `Settings` → `Notion AI` → `AI connectors`, you can find time with teammates, prep for upcoming meetings, reshuffle your calendar when priorities change, and time-block tasks — all from chat.\
-  If you have multiple calendars, ask Notion Agent to show a short preview of upcoming events so you can pick the right calendar. If you are not the organizer of an event, Notion Agent cannot cancel it on your behalf. Editing recurring event series is not supported.
+* **Note:** Notion Mail is shutting down on September 22, 2026. Agent email tools that connect through Gmail continue to work and are not affected. [Learn more →](http://notion.com/help/notion-mail-inbox-is-going-away-what-to-do-next)
 
 Try these prompts:
 
@@ -100,7 +109,45 @@ Try these prompts:
 
 * "Archive everything from this sender."
 
+- Schedule meetings and manage your calendar from chat, or create and edit external scheduling links. First, connect Calendar in `Settings` → `Notion AI` → `AI connectors`. Once connected, you can find time with teammates, prep for upcoming meetings, reshuffle your schedule when priorities change, and time-block tasks, all from chat. When you ask your Agent to find a time with teammates, it shows ranked meeting time suggestions with an interactive schedule grid, so you can compare everyone's availability and book in one click. If you have multiple calendars, your Agent will use the default, or ask which calendar to use.
+
+Try these prompts:
+
+* "Find a time for me and \[teammate] to meet this week."
+
+* "Schedule 30 minutes with \[person A] and \[person B] tomorrow afternoon."
+
+* "What's on my calendar today?"
+
+* "Prep me for my 3pm meeting."
+
+* “What RSVPs are pending?”
+
 - Create, edit, and evaluate formulas.
+
+## What your Notion Agent can’t do
+
+Your Notion Agent can't:
+
+* Answer questions using content that’s in a non-PDF embed, like a transcript from a video.
+
+* Create new database automations, database templates, database page layouts, or advanced properties like formulas, rollups, or buttons.
+
+* Create or edit comments, both inline and at the top of a page.
+
+* Share pages or change page permission levels.
+
+* Start AI Meeting Notes.
+
+* Create reminders.
+
+* Manage any workspace level settings, like member roles, billing, security features, and more.
+
+* Edit or cancel a calendar event if you’re not the organizer of an event.
+
+* Schedule or cancel calendar events on mobile (this is available on web and desktop only).
+
+* Connect new MCP servers on mobile (this is available on web and desktop only).
 
 ## Personalize your Agent
 
@@ -146,6 +193,20 @@ As you’re using your Notion Agent, you can change the way your chat appears on
 
 ![hc: switch chat mode](https://images.ctfassets.net/spoqsaf9291f/YUxk7SfW6xvvLs92dN4iN/fc6420ce07583849dd196888d2186bc9/Sept_17_Screenshot_from_Personal_Agent__2_.png)
 
+## Pin or unpin a chat
+
+Pinning a chat keeps it at the top of your Chat tab so you can jump back in quickly. This is helpful for conversations you return to often, like long-running projects or active threads.
+
+To pin a chat:
+
+* Open the chat, then click the pin icon in the corner of the chat window.
+
+* In the chat sidebar, hover over the chat row, click the three-dot menu **`•••`**, then select `Pin`.
+
+Pinned chats appear in a pinned section at the top of the Chat tab. To unpin a chat, follow the same steps.
+
+Pinning a chat isn’t available on mobile.
+
 ## Chat history
 
 You can access previous conversations you’ve had with your Agent at any time. To do this:
@@ -156,26 +217,17 @@ You can access previous conversations you’ve had with your Agent at any time. 
 
 3. Search for a previous chat. Chats will be named based on what the conversation was about.
 
-## What your Notion Agent can’t do
-
-Your Notion Agent can't:
-
-* Answer questions using content that’s in a non-PDF embed, like a transcript from a video.
-
-* Create new database automations, database templates, database page layouts, or advanced properties like formulas, rollups, or buttons.
-
-* Create or edit comments, both inline and at the top of a page.
-
-* Share pages or change page permission levels.
-
-* Start AI Meeting Notes.
-
-* Create reminders.
-
-* Manage any workspace level settings, like member roles, billing, security features, and more.
-
 ## Give your Notion Agent feedback
 
 Do you have feedback about your Notion Agent? Use the thumbs up and thumbs down in a chat to let us know how it’s doing. If you give your Agent a thumbs down, you’ll also have the opportunity to provide us with more information about why.
 
 Your feedback isn’t used to train your Notion Agent. Instead, it’s shared with the Notion team to help us improve the experience. Read more about how we use your data [here →](https://www.notion.com/help/notion-ai-security-practices#how-is-my-data-protected)
+
+
+## FAQs
+
+### Why can't I access certain models (for example: Claude Fable 5) anymore?
+
+Your workspace has reached the [usage allowance](https://www.notion.com/help/manage-your-usage-allowance-for-notion-ai). Some AI models are temporarily unavailable for features like Notion Agent, [Custom Agents](https://www.notion.com/help/category/custom-agents), [image generation](https://www.notion.com/help/create-and-edit-images-with-notion-ai), and page translation.
+
+Learn more about what to do when certain Notion AI features are temporarily unavailable after [reaching your usage allowance →](https://www.notion.com/help/manage-your-usage-allowance-for-notion-ai#how-to-resume-using-notion-ai)

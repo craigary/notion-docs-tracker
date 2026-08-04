@@ -1,7 +1,7 @@
 ---
 title: "Create a database"
-emoji: "📈"
-description: "Now we'll create a database and use it to show off essential database actions and features. You'll get to play with database properties, views, filters, and sorts - let's get into it 📈"
+emoji: null
+description: "Now we'll create a database and use it to show off essential database actions and features. You'll get to play with database properties, views, filters, and sorts - let's get into it."
 url: "https://www.notion.com/help/create-a-database"
 key: "help:create-a-database"
 coverImage: "https://img.youtube.com/vi/Nx114VWepoI/maxresdefault.jpg"
@@ -25,7 +25,11 @@ To create a new database:
 
 You can create a database in just seconds using [Notion AI](https://www.notion.com/help/notion-ai-faqs).
 
-Creating a database with Notion AI is free on the Business or Enterprise plans. If you are not on those plans, Notion AI will use credits from your workspace, including [any complimentary credits](https://www.notion.com/help/complimentary-ai-responses) you may have available.
+* Creating a database with Notion AI is free on the Business or Enterprise plans.
+
+* To keep Notion AI fast and reliable, Business and Enterprise plans include a usage allowance for certain Notion AI features.
+
+* If you are not on those plans, Notion AI will use credits from your workspace, including [any complimentary credits](https://www.notion.com/help/complimentary-ai-responses) you may have available.
 
 **From a page**
 
