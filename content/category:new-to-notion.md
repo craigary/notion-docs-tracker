@@ -67,7 +67,7 @@ When you move top-level pages, all their sub-pages go with them. They'll appear 
 
 ### What if I accidentally deleted something permanently? Any way to get it back?
 
-If you accidentally delete a page, a workspace, or even your entire account, we can help! Accidents happen 😅 Just send us a message in the app by clicking `?` at the bottom of your sidebar, or email us at [email protected](https://www.notion.com/cdn-cgi/l/email-protection#2d59484c406d404c4648434259444243034e4240).
+If you accidentally delete a page, a workspace, or even your entire account, we can help! Accidents happen 😅 Just send us a message in the app by clicking `?` at the bottom of your sidebar, or email us at [email protected](https://www.notion.com/cdn-cgi/l/email-protection#176372767a577a767c727978637e78793974787a).
 
 We keep backups of our database, which allows us to restore a snapshot of your content in the past 30 days if you need it.
 

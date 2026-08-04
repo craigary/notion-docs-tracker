@@ -12,12 +12,12 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/fB3bs1S6denCTSAnrUsYx/f05
 4 help:hipaa
 5 help:data-access-consent
 6 help:delete-your-account
-7 help:secondary-emails
-8 help:passkeys
-9 help:log-in-and-out
-10 help:manage-email-and-calendar-settings
-11 help:change-your-language
-12 help:notion-faces
+7 help:change-your-language
+8 help:secondary-emails
+9 help:passkeys
+10 help:notion-faces
+11 help:manage-email-and-calendar-settings
+12 help:log-in-and-out
 
 ## FAQ
 
@@ -51,6 +51,6 @@ If you'd like to change your account email to one that’s already tied to anoth
 
 ### What if I accidentally deleted something permanently? Any way to get it back?
 
-If you accidentally delete a page, a workspace, or even your entire account, we can help! Accidents happen 😅 Just send us a message in the app by clicking `?` at the bottom of your sidebar, or email us at [email protected](https://www.notion.com/cdn-cgi/l/email-protection#dbafbebab69bb6bab0beb5b4afb2b4b5f5b8b4b6).
+If you accidentally delete a page, a workspace, or even your entire account, we can help! Accidents happen 😅 Just send us a message in the app by clicking `?` at the bottom of your sidebar, or email us at [email protected](https://www.notion.com/cdn-cgi/l/email-protection#106475717d507d717b757e7f64797f7e3e737f7d).
 
 We keep backups of our database, which allows us to restore a snapshot of your content in the past 30 days if you need it.
