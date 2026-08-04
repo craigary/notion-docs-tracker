@@ -1,10 +1,10 @@
 ---
 title: "Organization level controls"
-emoji: "🎮"
+emoji: null
 description: "Manage all of your organization’s workspaces and apply settings at the organization level in one place 🎮"
 url: "https://www.notion.com/help/organization-level-controls"
 key: "help:organization-level-controls"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/1hLVkexczfU4pbkYrPQ65O/03a49ec5aaaf40bd13e153d3119376ea/Enterprise_Admin_Console.png"
+coverImage: null
 category: "Administer your workspace"
 categoryKey: "category:enterprise-admin"
 ---
@@ -158,3 +158,11 @@ You can manage on-demand spend at two levels:
 * **Per workspace:&#x20;**&#x49;f on-demand spend is on at the contract level, each workspace can be managed individually by workspace owners at the workspace level, and by Organization owners at the contract level.
 
 If you turn off on-demand spend for the entire contract, it will be turned off for all workspaces.
+
+### Set a credit limit per workspace
+
+Organization owners can set a credit limit for each workspace under the contract. This prevents any one workspace from using more than its share of the credit pool.
+
+When a workspace hits its limit, features that use Notion credits (like Custom Agents) pause for that workspace until the next monthly cycle, or until an org admin raises the limit.
+
+[Learn how to allocate credits to each workspace →](https://www.notion.com/help/allocate-credits-to-each-workspace)

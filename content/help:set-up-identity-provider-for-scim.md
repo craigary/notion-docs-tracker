@@ -1,10 +1,10 @@
 ---
 title: "Set up Identity Provider (IdP) for SCIM"
-emoji: "🪪"
-description: "Learn how to set up your Identity Provider to use SCIM in Notion 🪪"
+emoji: null
+description: "Learn how to set up your Identity Provider to use SCIM in Notion."
 url: "https://www.notion.com/help/set-up-identity-provider-for-scim"
 key: "help:set-up-identity-provider-for-scim"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/mzbz1SsE5vsNjUFhmIhTb/555461515fdda4a6e27c704c6b2cc5cb/Scim_IDP_Reference_Visuals.png"
+coverImage: null
 category: "Administer your workspace"
 categoryKey: "category:enterprise-admin"
 ---

@@ -1,10 +1,10 @@
 ---
 title: "Slack AI Connector"
-emoji: "💬"
-description: "Learn how to connect your Slack workspace to your Notion workspace so that you can find quick answers in Notion using information from your Slack conversations 💬"
+emoji: null
+description: "Learn how to connect your Slack workspace to your Notion workspace so that you can find quick answers in Notion using information from your Slack conversations."
 url: "https://www.notion.com/help/notion-ai-connectors-for-slack"
 key: "help:notion-ai-connectors-for-slack"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/5R5Xs1T5Or2XqdzaiiBq8n/f774676f6acd55a13277974b1881640d/Slack_connectors.png"
+coverImage: null
 category: "Notion AI Connectors"
 categoryKey: "category:notion-ai-connectors"
 ---

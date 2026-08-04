@@ -1,7 +1,7 @@
 ---
 title: "Notion for education"
-emoji: "🍎"
-description: "Whether you’re a student or a teacher, Notion is here to help balance your many responsibilities with its all-in-one workspace 🍎"
+emoji: null
+description: "Whether you’re a student or a teacher, Notion is here to help balance your many responsibilities with its all-in-one workspace."
 url: "https://www.notion.com/help/notion-for-education"
 key: "help:notion-for-education"
 coverImage: null
@@ -18,6 +18,8 @@ There are two types of free Plus Plans for education:
 * The Education Plus Plan for individual students and teachers is a free Plus Plan for a one-member workspace. It’s available for students or teachers signed in with their education institution's email per the WHED.
 
 * Our student org offer is a free Plus Plan for a workspace with unlimited members. It’s available for verified student orgs who have submitted an application [here →](https://www.notion.com/notion-for-student-orgs-apply)
+
+* The Plus Plan may not be available for every workspace.
 
 Check out more of the differences below:
 
@@ -40,7 +42,7 @@ Before you upgrade, **make sure** of the following:
 
 * **You’re signed in with your education institution email.** If you’re using a personal email address with your Notion account, you can change it to your educational email address following the instructions [here →](https://www.notion.com/help/account-settings#account-security-settings)
 
-* **Your school is an accredited institution recognized by and listed in the World Higher Education Database&#x20;**[here →](https://www.whed.net/home.php)
+* **Your school is an accredited institution recognized by and listed in the World Higher Education Database&#x20;**[**here →**](https://www.whed.net/home.php)
 
 * **You’re on the Free Plan.** If you’re currently paying for the Plus Plan, you can still take advantage of this offer. Downgrade to the Free Plan first by going to `Settings` in your sidebar → `Billing` → `Change plan`.
 
@@ -64,7 +66,7 @@ Once you’ve met the above requirements, follow these steps **in the desktop or
 
 Before you apply, **make sure** of the following:
 
-* **You're a student representing a student organization at an accredited institution recognized by and listed in the World Higher Education Database&#x20;**[here →](https://www.whed.net/home.php)****
+* **You're a student representing a student organization at an accredited institution recognized by and listed in the World Higher Education Database&#x20;**[**here →**](https://www.whed.net/home.php)****
 
 * **You're a member of the student organization's workspace.**
 
@@ -158,11 +160,6 @@ With the Plus Plan, student orgs can upload unlimited blocks and files, add memb
 [Sign your org up for the free offer here](https://www.notion.com/notion-for-student-orgs-apply).
 
 **Note:** This discount is only eligible for workspaces for volunteer student organizations. Workspaces that are not designated for student organizations with will not qualify for the discount.
-
-
-### What happens when I graduate or leave my educational institution?
-
-You can continue using your free Plus plan for education as long as it continues to be associated with your educational email address. We hope you’ll stick with us 🤞
 
 
 ### I’m a student who loves Notion. How can I get more involved?

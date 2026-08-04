@@ -1,10 +1,10 @@
 ---
 title: "Change your plan"
-emoji: "💸"
-description: "We offer four different pricing plans for every type of user and team. Here, we'll walk through each one and what it means to upgrade or downgrade your workspace 💸"
+emoji: null
+description: "We offer four different pricing plans for every type of user and team. Here, we'll walk through each one and what it means to upgrade or downgrade your workspace."
 url: "https://www.notion.com/help/upgrade-or-downgrade-your-plan"
 key: "help:upgrade-or-downgrade-your-plan"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/HamXGdAIqZVfkkEppYvFF/120543b8fea941308507cbef91f24252/Plan_Downgrade_Reference_Visuals.png"
+coverImage: null
 category: "Plans & billing"
 categoryKey: "category:plans-billing-and-payment"
 ---
@@ -13,11 +13,11 @@ categoryKey: "category:plans-billing-and-payment"
 
 For an in-depth guide to billing and payment, read [this article →](https://www.notion.com/help/billing)
 
-Notion offers a Free Plan as well as several paid plans. You can compare our plans and see their prices at [notion.com/pricing](https://www.notion.com/pricing). At a glance, our plans are:
+Notion offers a Free Plan as well as several paid plans. You can compare our plans and see their prices at [notion.com/pricing](https://www.notion.com/pricing). Plan availability can vary by workspace, so not every plan below may be offered to you. At a glance, our plans are:
 
 * Free Plan: This plan is meant for individuals who want to organize their personal projects and tasks.
 
-* Plus Plan: This plan is great for collaboration within small teams.
+* Plus Plan: This plan is great for collaboration within small teams. The Plus Plan may not be available for every workspace.
 
 * Business Plan: This plan allows businesses to work together using Notion AI and advanced integrations.
 
@@ -27,7 +27,9 @@ Notion offers a Free Plan as well as several paid plans. You can compare our pla
 
   * Organizations with more than 100 employees can [contact our sales team](https://www.notion.com/contact-sales) for more information.
 
-Our [Master Subscription Agreement](https://www.notion.com/notion/Master-Subscription-Agreement-4e1c5dd3e3de45dfa4a8ed60f1a43da0) serves as a contract for users who aren’t sales-assisted. In it, you’ll find information about our terms and conditions.
+Notion AI usage on the Free and Plus Plans is limited and intended for trying Notion AI. Upgrading from the Free Plan to the Plus Plan doesn’t renew your available Notion AI usage. To keep using Notion AI features, you’ll need to upgrade to a plan above that includes access.
+
+Our [Master Subscription Agreement](https://www.notion.com/notion/Master-Subscription-Agreement-4e1c5dd3e3de45dfa4a8ed60f1a43da0) sets out the terms and conditions that govern Notion subscriptions for organizations. Personal use is governed by our Personal Use Terms of Service.
 
 **Note:**
 
@@ -61,7 +63,7 @@ If you upgrade your plan in the middle of a billing interval:
 
 ### Upgrade on mobile
 
-If you’re on Notion on an iOS or Android device and you’re currently on the Free Plan with no other members, you’ll be able to upgrade from the Free Plan to the Plus Plan on that device.
+If you’re on Notion on an iOS or Android device and you’re currently on the Free Plan with no other members, you’ll be able to upgrade from the Free Plan to the Plus Plan on that device. The Plus Plan may not be available for every workspace.
 
 Plus Plan subscriptions purchased on mobile are limited to workspaces with only one member. If you want to upgrade to the Plus Plan for a workspace with multiple members, you’ll have to do that desktop or web.
 

@@ -1,10 +1,10 @@
 ---
 title: "Database buttons"
-emoji: "🔘"
-description: "Database buttons take actions on your behalf with one click 🔘"
+emoji: null
+description: "Database buttons take actions on your behalf with one click."
 url: "https://www.notion.com/help/database-buttons"
 key: "help:database-buttons"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/6EoS1qqpvfD8A4lCcwzdW7/49c952f4717e2aaf5e4e71f84cd30a27/Database_Buttons_-_Reference_Visuals.png"
+coverImage: null
 category: "Automations"
 categoryKey: "category:automations"
 ---

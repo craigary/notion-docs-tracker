@@ -1,10 +1,10 @@
 ---
 title: "Linear AI Connector"
 emoji: null
-description: null
+description: "Connect Notion AI with your Linear workspace to bring in information from your projects, issues, and comments."
 url: "https://www.notion.com/help/notion-ai-connector-for-linear"
 key: "help:notion-ai-connector-for-linear"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/1b5mzSyCfFYoIFkFCCetvv/f226b1ee8ba3b7a1990eeadeb1970318/Linear.png"
+coverImage: null
 category: "Notion AI Connectors"
 categoryKey: "category:notion-ai-connectors"
 ---

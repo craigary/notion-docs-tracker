@@ -1,13 +1,15 @@
 ---
 title: "Use Notion AI with Notion Mail"
-emoji: "🏷️"
-description: "Notion AI can help you stay organized by automatically labeling incoming emails that are important to you 🏷️"
+emoji: null
+description: "Notion AI can help you stay organized by automatically labeling incoming emails that are important to you."
 url: "https://www.notion.com/help/use-notion-ai-with-notion-mail"
 key: "help:use-notion-ai-with-notion-mail"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/7j6zHBFAMtPgTdqjZQq46w/c7122959cc1a5d45f4886bbe1827f61c/notion-ai.png"
+coverImage: null
 category: "Notion Mail"
 categoryKey: "category:notion-mail"
 ---
+
+Notion Mail is shutting down on September 22, 2026. [Learn what's changing and how to save your data →](http://notion.com/help/notion-mail-inbox-is-going-away-what-to-do-next)
 
 **Note:**
 

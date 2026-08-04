@@ -1,10 +1,10 @@
 ---
 title: "Notion IP addresses & domains"
-emoji: "🌐"
+emoji: null
 description: "Contact your security team to allowlist these Notion IP addresses or domains 🌐"
 url: "https://www.notion.com/help/allowlist-ip"
 key: "help:allowlist-ip"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/4ckVqrv5hMHZcHvv5rTQQR/429e0fef5c0820591fc479562935f562/allowlist-ip.png"
+coverImage: null
 category: "Privacy & security"
 categoryKey: "category:security-and-privacy"
 ---

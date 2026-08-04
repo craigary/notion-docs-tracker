@@ -1,10 +1,10 @@
 ---
 title: "Finding services on Marketplace"
-emoji: "🔍"
-description: "Here’s how to search for services and work with partners via Marketplace 🔍"
+emoji: null
+description: "Here’s how to search for services and work with partners via Marketplace."
 url: "https://www.notion.com/help/finding-services-on-marketplace"
 key: "help:finding-services-on-marketplace"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/3oRXIXEWN14ymuR87cirAN/241c9ea1fd897d13b916ff469d33c672/Who-s_Who_in_a_Workspace__1_.png"
+coverImage: null
 category: "Marketplace & templates"
 categoryKey: "category:template-gallery"
 ---

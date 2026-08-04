@@ -1,7 +1,7 @@
 ---
 title: "Selling templates on Marketplace"
-emoji: "🧑🏼‍🎨"
-description: "Learn how to sell your templates in the Notion Marketplace 🧑🏼‍🎨"
+emoji: null
+description: "Learn how to sell your templates in the Notion Marketplace."
 url: "https://www.notion.com/help/selling-on-marketplace"
 key: "help:selling-on-marketplace"
 coverImage: "https://img.youtube.com/vi/8o02_2B_MxM/maxresdefault.jpg"
@@ -113,7 +113,7 @@ Selling on Marketplace lets you share your creations with a wide audience alongs
 
 * Notion is the merchant of record.
 
-* Notion charges a 10% fee plus 40 cents per transaction to cover operational costs, including payment processing, purchase support, refund handling, and fraud monitoring.
+* Notion charges a 8% fee plus 40 cents per transaction to cover operational costs, including payment processing, purchase support, refund handling, and fraud monitoring.
 
 * Notion handles regional sales tax or VAT as part of each transaction. However, creators are responsible for reporting and paying any income taxes related to their marketplace earnings.
 
@@ -131,8 +131,7 @@ Selling on Marketplace lets you share your creations with a wide audience alongs
 
 **Remember!** If you are expecting a payout you didn't receive, it may be because:
 
-• Your balance is below the minimum payout threshold of $20 USD.\
-• Your funds are not yet eligible—funds are eligible to be paid out after 14 days.
+• Your balance is below the minimum payout threshold of $20 USD. • Your funds are not yet eligible—funds are eligible to be paid out after 14 days.
 
 ![Payout schedule](https://images.ctfassets.net/spoqsaf9291f/1LZuB5rmVZt5nERGLWF3Pf/64092782d01dd3c89f0fdb2ed258bb67/Random_Calendar.png)
 

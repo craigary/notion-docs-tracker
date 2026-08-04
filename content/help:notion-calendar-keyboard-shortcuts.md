@@ -1,10 +1,10 @@
 ---
 title: "Notion Calendar keyboard shortcuts"
-emoji: "⌨️"
-description: "Save even more time by using keyboard shortcuts in Notion Calendar ⌨️"
+emoji: null
+description: "Save even more time by using keyboard shortcuts in Notion Calendar."
 url: "https://www.notion.com/help/notion-calendar-keyboard-shortcuts"
 key: "help:notion-calendar-keyboard-shortcuts"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/1ZuuVO8iolDweJVAaLwFQJ/0a169e9ffb745af66c6f5393034275c6/keyboard-shortcuts.png"
+coverImage: null
 category: "Notion Calendar"
 categoryKey: "category:notion-calendar"
 ---

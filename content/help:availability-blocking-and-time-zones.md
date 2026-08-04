@@ -1,10 +1,10 @@
 ---
 title: "Scheduling & availability"
-emoji: "🤝🏼"
-description: "Notion Calendar allows you to easily set up time with others 🤝🏼"
+emoji: null
+description: "Notion Calendar allows you to easily set up time with others."
 url: "https://www.notion.com/help/availability-blocking-and-time-zones"
 key: "help:availability-blocking-and-time-zones"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/6MUDUMfiu4ANy5GQwLlrOD/d9ab6079a66316bf36ab0268d511af47/availability-blocking-and-time-zones.png"
+coverImage: null
 category: "Notion Calendar"
 categoryKey: "category:notion-calendar"
 ---

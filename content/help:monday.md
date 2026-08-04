@@ -1,10 +1,10 @@
 ---
 title: "Import from Monday.com"
-emoji: "📥"
-description: "Easily import your data from Monday into Notion 📥"
+emoji: null
+description: "Easily import your data from Monday into Notion."
 url: "https://www.notion.com/help/monday"
 key: "help:monday"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/4JRJhAOp3ywUCOzbPXmTMO/47a27659e090c3cffdf49f875aa628b9/Group_19__1_.png"
+coverImage: null
 category: "Import & export your data"
 categoryKey: "category:import-export-and-integrate"
 ---
@@ -49,7 +49,7 @@ The Monday.com importer helps you bring your all Monday.com boards into Notion.
 
 ## Import from Monday.com into Notion
 
-1. Go to `Settings` in your sidebar → `Import` → `Third party imports` → `Monday.com`.
+1. Go to `Settings` in your sidebar → `Import` → `Third party imports` → `Monday.com`. Alternatively, use the `/monday` command in a page and select the option under `Import`.
 
 2. Enter your email and API token, which you can find using the instructions [here](https://developer.monday.com/api-reference/docs/authentication#accessing-api-tokens). Select `Authenticate` when you're done.
 
@@ -61,11 +61,15 @@ The Monday.com importer helps you bring your all Monday.com boards into Notion.
 
    * `Full Import`: imports all your board types as regular databases in Notion. You can exclude project and task boards from this and import them separately to make full use of Notion's project and task databases.
 
-5. Select the folders and boards you want to import. You can also select the teamspace you want to send your imports to.
+5. Select the folders and boards you want to import.
 
-6. Select `Next` to start the import. You can close the import window, the import will continue in the background.
+6. Choose an import location for your boards. For each board, you can send it to a teamspace (where Notion will create new databases) or select an existing database.
 
-7. Once the import is complete, you'll receive an email confirmation.
+7. If you import into an existing database, map your properties. For incoming relation columns (such as sub‑items, subtasks, or other board relations), you can map them to an existing relation property on the destination database, or choose to create a new property. Mapping to an existing relation loads the related database so you can confirm the match and map to those properties.
+
+8. Select `Next` to start the import. You can close the import window, the import will continue in the background.
+
+9. Once the import is complete, you'll receive an email confirmation.
 
 ## What to expect after import
 

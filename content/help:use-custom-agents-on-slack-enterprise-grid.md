@@ -4,7 +4,7 @@ emoji: "💬"
 description: " Learn how to connect Custom Agents to Slack Enterprise Grid, choose the right workspace, and manage channel access securely 💬"
 url: "https://www.notion.com/help/use-custom-agents-on-slack-enterprise-grid"
 key: "help:use-custom-agents-on-slack-enterprise-grid"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/44JzG7eAS2RgKEZvv3nAhF/37b07971c4b7848cb1ef580ad6758dd5/Group_184.png"
+coverImage: null
 category: "Custom Agents"
 categoryKey: "category:custom-agents"
 ---

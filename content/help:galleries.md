@@ -1,7 +1,7 @@
 ---
 title: "Gallery view"
-emoji: "🖼️"
-description: "Gallery view is the best way to display databases with visual components, like mood boards, office directories, virtual recipe boxes, and more 🖼️"
+emoji: null
+description: "Gallery view is the best way to display databases with visual components, like mood boards, office directories, virtual recipe boxes, and more."
 url: "https://www.notion.com/help/galleries"
 key: "help:galleries"
 coverImage: "https://img.youtube.com/vi/RNkpc84wYn8/maxresdefault.jpg"

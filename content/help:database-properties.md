@@ -1,10 +1,10 @@
 ---
 title: "Database properties"
-emoji: "🧩"
-description: "Database properties add all kinds of context to your database items, like due dates, task owners, relevant URLs, last edited timestamps, and more. Use these properties to filter, sort, and search your data 🧩"
+emoji: null
+description: "Database properties add all kinds of context to your database items, like due dates, task owners, relevant URLs, last edited timestamps, and more. Use these properties to filter, sort, and search your data."
 url: "https://www.notion.com/help/database-properties"
 key: "help:database-properties"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/2C9kI0iZiHR4iAHoV6AIRP/030a34f9a7ae10d7ea78274319a5a18d/Database_properties_-_hero.png"
+coverImage: null
 category: "Databases"
 categoryKey: "category:databases"
 ---

@@ -1,13 +1,15 @@
 ---
 title: "Schedule meetings with Notion Mail"
-emoji: "📅"
-description: "With Notion Mail, scheduling time with others takes just a few clicks 📅"
+emoji: null
+description: "With Notion Mail, scheduling time with others takes just a few clicks."
 url: "https://www.notion.com/help/schedule-meetings-with-notion-mail"
 key: "help:schedule-meetings-with-notion-mail"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/52docHdtStFPQdXlKPYq2u/9c5323c8555d4ff8102159ccd97b3cb9/notion-calendar-apps.png"
+coverImage: null
 category: "Notion Mail"
 categoryKey: "category:notion-mail"
 ---
+
+Notion Mail is shutting down on September 22, 2026. [Learn what's changing and how to save your data →](http://notion.com/help/notion-mail-inbox-is-going-away-what-to-do-next)
 
 Notion Mail makes it easy to share your availability as you’re coordinating meetings in your emails. To use this feature, you’ll need to connect to Notion Calendar first. You can go to Notion Calendar by clicking the calendar icon at the bottom of your Notion Mail sidebar.
 

@@ -4,7 +4,7 @@ emoji: null
 description: "Connect SharePoint & OneDrive to Notion AI."
 url: "https://www.notion.com/help/notion-ai-connector-for-microsoft-sharepoint-and-onedrive"
 key: "help:notion-ai-connector-for-microsoft-sharepoint-and-onedrive"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/6Z8O3RBHj6Y5QikcxRgFtz/ff135abae01e478379ab692c905d3f35/Sharepoint.png"
+coverImage: null
 category: "Notion AI Connectors"
 categoryKey: "category:notion-ai-connectors"
 ---

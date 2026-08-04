@@ -1,10 +1,10 @@
 ---
 title: "Sub-items & dependencies"
-emoji: "🐣"
-description: "Use sub-items and dependencies to give depth to any workflow 🐣"
+emoji: null
+description: "Use sub-items and dependencies to give depth to any workflow."
 url: "https://www.notion.com/help/tasks-and-dependencies"
 key: "help:tasks-and-dependencies"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/ZPIpjGDflVkd9GQhac9Rx/d612b8bc3dab47f502d9d49d90618395/Tasks_and_depencenies.png"
+coverImage: null
 category: "Databases"
 categoryKey: "category:databases"
 ---

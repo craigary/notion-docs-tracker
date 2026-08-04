@@ -1,7 +1,7 @@
 ---
 title: "Style & customize your page"
-emoji: "🎨"
-description: "You can make Notion look and feel any way you want — like your brand, your team, your style. We've built in features so you can customize any page or workspace. No matter what, Notion makes your design look great 🎨"
+emoji: null
+description: "You can make Notion look and feel any way you want — like your brand, your team, your style. We've built in features so you can customize any page or workspace. No matter what, Notion makes your design look great."
 url: "https://www.notion.com/help/customize-and-style-your-content"
 key: "help:customize-and-style-your-content"
 coverImage: "https://img.youtube.com/vi/1rFGZMKaUK0/maxresdefault.jpg"

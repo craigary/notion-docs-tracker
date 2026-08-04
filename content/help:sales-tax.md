@@ -1,10 +1,10 @@
 ---
 title: "Sales tax"
-emoji: "🧮"
-description: "Get more information about how taxes are applied to your Notion bill in your region 🧮"
+emoji: null
+description: "Get more information about how taxes are applied to your Notion bill in your region."
 url: "https://www.notion.com/help/sales-tax"
 key: "help:sales-tax"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/4KSdHLrl9E73I3HbNbFrsK/ac3e82a194d2ddc736346f259f61bc70/sales-tax.png"
+coverImage: null
 category: "Plans & billing"
 categoryKey: "category:plans-billing-and-payment"
 ---
@@ -134,7 +134,7 @@ When entering in your tax ID, the alphanumeric format to use is `123456789`.
 
 ### Norway (VAT)
 
-Notion is required to charge Value-added tax (VAT) on services provided to consumers in the Norway. If you're using Notion for business purposes and provide a valid VAT Number found in Notion `Settings` → `Billing`, you will not be charged VAT on subsequent invoices.
+Notion is required to charge Value-added tax (VAT) on services provided to consumers in Norway. If you're using Notion for business purposes and provide a valid VAT Number found in Notion `Settings` → `Billing`, you will not be charged VAT on subsequent invoices.
 
 When entering in your tax ID, the alphanumeric format to use is `123456789MVA`.
 
@@ -162,6 +162,12 @@ Notion is required to charge Value-added tax (VAT) on services provided to consu
 
 When entering in your tax ID, the alphanumeric format to use is `CHE-123.456.789 MWST`.
 
+### **Taiwan (VAT)**
+
+Notion is required to charge Value-added tax (VAT) on services provided to consumers in Taiwan. If you're using Notion for business purposes and provide a valid VAT Number found in Notion `Settings` → `Billing`, you will not be charged VAT on subsequent invoices.
+
+When entering in your tax ID, the alphanumeric format to use is `12345678`.
+
 ### Thailand (VAT)
 
 Notion is required to charge Value-added Tax on services provided to consumers in Thailand. If you're using Notion for business purposes and provide a valid Tax Identification Number found in Notion `Settings` → `Billing`, you will not be charged VAT on subsequent invoices.
@@ -176,7 +182,7 @@ When entering in your tax ID, the alphanumeric format to use is `0123456789`**.*
 
 ### Ukraine (VAT)
 
-Notion is required to charge Value-added tax (VAT) on services provided to consumers in the Ukraine. If you're using Notion for business purposes and provide a valid VAT Number found in Notion `Settings` → `Billing`, you will not be charged VAT on subsequent invoices.
+Notion is required to charge Value-added tax (VAT) on services provided to consumers in Ukraine. If you're using Notion for business purposes and provide a valid VAT Number found in Notion `Settings` → `Billing`, you will not be charged VAT on subsequent invoices.
 
 When entering in your tax ID, the alphanumeric format to use is `123456789`.
 

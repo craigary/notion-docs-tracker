@@ -1,10 +1,10 @@
 ---
 title: "Notion’s commitment to AI safety"
-emoji: "🛡️"
-description: "Read about Notion’s approach to AI safety 🛡️"
+emoji: null
+description: "Read about Notion’s approach to AI safety."
 url: "https://www.notion.com/help/ai-safety"
 key: "help:ai-safety"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/4cBManwE4Muz3k8Qek1Vda/e6c35d9ee50fdc54634d422cbe277453/add-security-and-compliance-integrations.png"
+coverImage: null
 category: "Notion AI security"
 categoryKey: "category:notion-ai-security"
 ---

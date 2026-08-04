@@ -1,10 +1,10 @@
 ---
 title: "Webhook actions"
-emoji: "🪝"
-description: "Use webhook actions in Notion’s automation features 🪝"
+emoji: null
+description: "Use webhook actions in Notion’s automation features."
 url: "https://www.notion.com/help/webhook-actions"
 key: "help:webhook-actions"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/4CgnT1pWdUZRUahPRvukMM/08133d85de8c564ca3f9d5382d7d16b2/Share_your_work_-_hero.png"
+coverImage: null
 category: "Automations"
 categoryKey: "category:automations"
 ---
@@ -13,7 +13,7 @@ With the `Send webhook` action in [buttons](https://www.notion.com/help/buttons)
 
 With this feature, you can leverage Notion to initiate workflows in your internal applications or third-party apps using low-code or no-code automation platforms like Zapier, Make, and more.
 
-**Looking for&#x20;**[integration webhooks](https://www.notion.com/help/create-integrations-with-the-notion-api#integration-webhooks)**&#x20;instead?** Use integration webhooks to monitor changes across pages and databases in real time—ideal for powering advanced, multi-workspace automations.
+**Looking for&#x20;**[**integration webhooks**](https://www.notion.com/help/create-integrations-with-the-notion-api#integration-webhooks)**&#x20;instead?** Use integration webhooks to monitor changes across pages and databases in real time—ideal for powering advanced, multi-workspace automations.
 
 ## Who can use webhook actions?
 

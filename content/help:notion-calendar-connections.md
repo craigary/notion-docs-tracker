@@ -1,10 +1,10 @@
 ---
 title: "Notion Calendar connections & API"
-emoji: "🔌"
-description: "Notion Calendar works with a lot of other tools that you already use in your day to day. It also works seamlessly with Notion 🔌"
+emoji: null
+description: "Notion Calendar works with a lot of other tools that you already use in your day to day. It also works seamlessly with Notion."
 url: "https://www.notion.com/help/notion-calendar-connections"
 key: "help:notion-calendar-connections"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/3Rj0DP4zcZd8LTN01qNPXl/158584fb1998759dff32a7e70a4edaba/notion-calendar-integrations__1_.png"
+coverImage: null
 category: "Notion Calendar"
 categoryKey: "category:notion-calendar"
 ---

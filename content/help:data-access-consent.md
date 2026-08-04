@@ -1,10 +1,10 @@
 ---
 title: "Data access consent"
-emoji: "🚪"
-description: "Notion employees will only ever access your data for the purposes of troubleshooting problems or recovering content on your behalf, after hearing from you via email or in-app support chat with a request for help. Here's how you can grant access consent🚪"
+emoji: null
+description: "Notion employees will only ever access your data for the purposes of troubleshooting problems or recovering content on your behalf, after hearing from you via email or in-app support chat with a request for help. Here's how you can grant access consent."
 url: "https://www.notion.com/help/data-access-consent"
 key: "help:data-access-consent"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/2Ab5WASKsWfCZVr3qXKtdD/e2ddc7e837a6fc2ebf853b1553ed73da/Data_access_consent_-_hero.png"
+coverImage: null
 category: "Settings & preferences"
 categoryKey: "category:account-settings-and-privacy"
 ---

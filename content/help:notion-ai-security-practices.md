@@ -1,7 +1,7 @@
 ---
 title: "Notion AI security & privacy practices"
-emoji: "🔒"
-description: "At Notion, we want to be transparent with our customers about our products and how we use AI to enhance our users’ experience. Below is an overview of Notion AI functionality and related security and privacy practices 🔒"
+emoji: null
+description: "At Notion, we want to be transparent with our customers about our products and how we use AI to enhance our users’ experience. Below is an overview of Notion AI functionality and related security and privacy practices."
 url: "https://www.notion.com/help/notion-ai-security-practices"
 key: "help:notion-ai-security-practices"
 coverImage: null
@@ -21,7 +21,7 @@ Notion offers a suite of AI-powered capabilities, integrated seamlessly across y
 
 * Analyze PDFs and images
 
-* Chat about anything, using AI knowledge from models like GPT-4 and Claude
+* Chat about anything, using AI knowledge from the latest models
 
 * Autofill summaries and insights across entire databases
 
@@ -125,7 +125,7 @@ Individual customer accounts are kept separate in our production environment. We
 
 Notion AI [Subprocessors](https://www.notion.com/notion/Notion-s-List-of-Subprocessors-268fa5bcfa0f46b6bc29436b21676734) have data retention policies that allow Notion to meet [our obligations to customers for the processing of data](https://notion.notion.site/Data-Processing-Addendum-361b540101274b1fa7e16b90402b0d99?pvs=4).
 
-When using Notion AI, by default our LLM providers utilize zero data retention for Enterprise plan workspaces, so no data is stored with LLM providers. In addition, by default for all non-Enterprise plan workspaces, LLM providers only retain Customer Data for 30 days or fewer before deletion. However, there are certain AI-powered features that may require the use of data-retaining LLMs; in such cases, Notion will make available Workspace settings to enable administrators to turn on data-retaining LLMs. Otherwise, such data-retaining LLMs will remain off in your Workspace by default. <!-- -->In addition, the External Agents functionality has different data retention controls and practices. [Learn more →](https://www.notion.com/help/category/external-agents)
+When using Notion AI, by default our LLM providers utilize zero data retention for Enterprise plan workspaces, so no data is stored with LLM providers. In addition, by default for all non-Enterprise plan workspaces, LLM providers only retain Customer Data for 30 days or fewer before deletion. However, there are certain AI-powered features that may require the use of data-retaining LLMs; in such cases, Notion will make available Workspace settings to enable administrators to turn on data-retaining LLMs. Otherwise, such data-retaining LLMs will remain off in your Workspace by default. In addition, the External Agents functionality has different data retention controls and practices. [Learn more →](https://www.notion.com/help/category/external-agents)
 
 Embeddings stored in vector databases are deleted within 60 days from when the page or workspace is deleted.
 
@@ -146,6 +146,8 @@ Workspace owners on any Notion plan can go to `Settings` → `Notion AI` and adj
 * `Enable web search for workspace`: Turn this on if you want Notion AI to be able to search the web for information when answering questions.
 
 * `Require confirmation for web requests`: Turn this on if you want Notion AI to request confirmation before looking at external websites.
+
+Workspace owners on Business and Enterprise plans can also control whether members can spend [Notion credits](https://www.notion.com/help/category/notion-credits) beyond their [usage allowance](https://www.notion.com/help/manage-your-usage-allowance-for-notion-ai) for Notion AI. When this is off, members must wait for the rolling or monthly window to refresh before using certain Notion AI features again. Learn more about the [usage allowance and how to manage this setting →](https://www.notion.com/help/manage-your-usage-allowance-for-notion-ai)
 
 ### Can data loss prevention (DLP) be configured to alert for data being used by Notion AI?
 

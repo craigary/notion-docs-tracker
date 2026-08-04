@@ -1,10 +1,10 @@
 ---
-title: "Create, join & leave teamspaces"
-emoji: "📚"
-description: "Teamspaces help keep your content organized into specific areas. Keep your sidebar tidy by joining just the ones you need to access! Here's how 📚"
+title: "Create, join, & leave teamspaces"
+emoji: null
+description: "Teamspaces help keep your content organized into specific areas. Keep your sidebar tidy by joining just the ones you need to access! Here's how."
 url: "https://www.notion.com/help/browse-join-and-create-teamspaces"
 key: "help:browse-join-and-create-teamspaces"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/3UqsoFNRkeXw9Jqu91X8tx/e8cff98e37ac1e16686a408094d0ba1b/browse-join-and-create-teamspaces.png"
+coverImage: null
 category: "Workspace settings"
 categoryKey: "category:meet-your-workspace"
 ---

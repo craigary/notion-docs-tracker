@@ -1,10 +1,10 @@
 ---
 title: "Use pages offline"
-emoji: "✈️"
-description: "Capture your good ideas in Notion whenever — even when you’re in offline mode ✈️"
+emoji: null
+description: "Capture your good ideas in Notion whenever — even when you’re in offline mode."
 url: "https://www.notion.com/help/use-pages-offline"
 key: "help:use-pages-offline"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/6XvN2sIhib4EsNbNakFnAN/22266bd88cd31fa5710366f874c26123/Time_Zones_Reference_Visuals.png"
+coverImage: null
 category: "Pages & blocks"
 categoryKey: "category:write-edit-and-customize"
 ---

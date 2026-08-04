@@ -1,10 +1,10 @@
 ---
 title: "Data accessible by your workspace owner"
-emoji: "☎️"
-description: "Learn more about what data your workspace owner can access ☎️"
+emoji: null
+description: "Learn more about what data your workspace owner can access."
 url: "https://www.notion.com/help/data-accessible-by-your-workspace-owner"
 key: "help:data-accessible-by-your-workspace-owner"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/14iqjuDnJR0RvHddKPAqgJ/1e0913f1fc34ce1076862fe38a79f104/Data_accessible_by_admins.png"
+coverImage: null
 category: "Privacy & security"
 categoryKey: "category:security-and-privacy"
 ---

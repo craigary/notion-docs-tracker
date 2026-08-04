@@ -1,13 +1,15 @@
 ---
 title: "Get started with Notion Mail"
-emoji: "✉️"
-description: "Notion Mail helps you manage your emails your way ✉️"
+emoji: null
+description: "Notion Mail helps you manage your emails your way."
 url: "https://www.notion.com/help/get-started-with-notion-mail"
 key: "help:get-started-with-notion-mail"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/2SBfsPfdWN8oF5X5akzwxx/a4a1fbccc03420ee52f5d24846334b97/Notion_Mail_Logo__1_.png"
+coverImage: null
 category: "Notion Mail"
 categoryKey: "category:notion-mail"
 ---
+
+Notion Mail is shutting down on September 22, 2026. [Learn what's changing and how to save your data →](http://notion.com/help/notion-mail-inbox-is-going-away-what-to-do-next)
 
 Notion Mail is the free-to-use email app that allows you to manage your Gmail inbox more flexibly and efficiently. You can create multiple views of your inbox for every need, compose emails more quickly, schedule meetings directly from within your inbox, and much more.
 

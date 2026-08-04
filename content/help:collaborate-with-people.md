@@ -1,10 +1,10 @@
 ---
 title: "Collaborate with people"
-emoji: "🤝"
-description: "Notion has several features designed to improve and increase the velocity of communication with your team — whether you're all editing the same page or working across time zones 🤝"
+emoji: null
+description: "Notion has several features designed to improve and increase the velocity of communication with your team — whether you're all editing the same page or working across time zones."
 url: "https://www.notion.com/help/collaborate-with-people"
 key: "help:collaborate-with-people"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/3oRXIXEWN14ymuR87cirAN/241c9ea1fd897d13b916ff469d33c672/Who-s_Who_in_a_Workspace__1_.png"
+coverImage: null
 category: "Notion basics"
 categoryKey: "category:new-to-notion"
 ---

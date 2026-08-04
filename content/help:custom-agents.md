@@ -1,7 +1,7 @@
 ---
 title: "Custom Agents"
-emoji: "🤖"
-description: "With Custom Agents, you build shared workflows that automate recurring work for your team — running exactly how you need them, behind the scenes 🤖"
+emoji: null
+description: "With Custom Agents, you build shared workflows that automate recurring work for your team — running exactly how you need them, behind the scenes."
 url: "https://www.notion.com/help/custom-agents"
 key: "help:custom-agents"
 coverImage: "https://img.youtube.com/vi/ojAvnSdsc1I/maxresdefault.jpg"
@@ -27,6 +27,12 @@ Custom Agents live inside Notion and run on your instructions. Once you set them
 
 Unlike Notion Agent, Custom Agents are designed to run automatically in the background based on triggers and schedules.
 
+Get a personalized walkthrough
+
+Build your first Custom Agent with a personalized and interactive walkthrough that guides you every step of the way.
+
+[Let's go](https://call.withsable.com/agent/agt_GHC95DKDsjv5h5uAqS8Pa)
+
 ## Key features of Custom Agents
 
 #### Use your existing docs and databases as context
@@ -43,7 +49,7 @@ Custom Agents are built directly into Notion. Agents use your existing docs and 
 
 Use triggers for Custom Agents to run without you manually starting them each time. Set a trigger once, then the work happens continuously in the background.
 
-* Run on a schedule (daily, weekly, monthly, and more).
+* Run on a schedule (daily, weekly, monthly, weekends only, and more).
 
 * React to events in Notion and Slack.
 
@@ -151,6 +157,8 @@ Notion triggers run your agent based on events in your workspace. You can trigge
 
 * A page is removed from a database.
 
+* An AI Meeting Note is finished.
+
 Some Notion triggers let you add filters, like matching specific property values or limiting runs to pages in a particular database view.
 
 **To add a Notion trigger:**
@@ -171,25 +179,25 @@ Some Notion triggers let you add filters, like matching specific property values
 
 #### Use Slack triggers
 
-Slack triggers allow agents to watch for events in both public and private Slack channels.
+Slack triggers let agents watch for events in public and private Slack channels.
 
 **Setup requirements**
 
-Before you can set up a Slack trigger, a Slack workspace admin must first connect Slack for Custom Agents. This gives Custom Agents the required read and write permissions to operate in Slack. Once the integration is enabled, you can configure triggers based on new messages or emoji reactions.
+Before you can set up a Slack trigger, a Slack workspace admin must first [connect Slack to the Notion workspace](https://www.notion.com/help/notion-ai-connectors-for-slack). This gives access to all public channels, and determines whether Notion AI can access private channels. If you want to work with a private channel, you’ll also have to authorize your Slack account.
 
-**Agents can watch for:**
+**Custom Agents can watch for:**
 
-* A **message posted&#x20;**&#x74;o a channel.
+* A message posted to a channel.
 
-* An **emoji reaction&#x20;**&#x61;dded to a message.
+* An emoji reaction added to a message.
 
-* A **thread started&#x20;**&#x69;n a channel.
+* The Custom Agent mentioned in a message.
 
-* The Custom Agent **mentioned&#x20;**&#x69;n a message.
+Note: To trigger an agent by @-mentioning it in Slack, your Slack workspace admin must first allow all members to create user groups. Once this setting is enabled, anyone can trigger the agent by mentioning its name in the associated Slack channel.
 
-  * Note: To trigger an agent by mentioning it in Slack, your Slack workspace admin must first allow all members to create user groups. Once this setting is enabled, anyone can trigger the Agent by mentioning its name in the associated Slack channel.
+When setting up any of the triggers above, you can choose to include thread replies so the agent responds to messages within threads, not just top-level messages.
 
-You can add filters to reduce noise in high-traffic channels (for example, limit triggers to specific channels or event types).
+You can reduce noise in high-traffic channels by specifying keywords or phrases to trigger on.
 
 **To add a Slack trigger:**
 
@@ -287,7 +295,11 @@ You can also connect to Custom Agents if your organization uses Slack Enterprise
 
 Custom Agents can run on different large language models. This lets you balance speed, cost, and quality. You can adjust the model over time if your workflow changes or you see different performance needs.
 
-Supported models include Claude, GPT, Gemini, and Grok. Auto is the recommended default.
+Supported models include Claude Fable 5 (Business and Enterprise plans only), Claude Sonnet 5, the newest GPT models, Gemini, and Grok. Auto is the recommended default.
+
+Claude Fable 5 works best for things like in-depth research, complex writing, and tasks that involve lots of steps. Before anyone in your workspace can use it, an admin needs to turn it on. This is because Anthropic handles data from this model a bit differently from other models (see below). If you'd like access, ask your admin to turn it on in `Settings` → `Notion AI`.
+
+**A note on data handling:** When you use Claude Fable 5, Anthropic may store your prompts and responses for a period of time to keep the model safe and working well. Other AI models available in Notion don't work this way. That's why your admin needs to review and switch it on first.
 
 Learn how usage is tracked in the [Notion credits dashboard](https://www.notion.com/help/notion-credits-dashboard#what-is-the-notion-credits-dashboard).
 
@@ -300,6 +312,14 @@ Learn how usage is tracked in the [Notion credits dashboard](https://www.notion.
 3. Select a specific model if you want consistent behavior, or select Auto to let Notion choose the best model per request.
 
 4. Save.
+
+**To turn on Claude Fable 5 for your workspace (admins only):**
+
+1. Go to `Settings` → `Notion AI`.
+
+2. Find Claude Fable 5 and turn it on.
+
+Claude Fable 5 is available for Business and Enterprise plans only. Once it's on, anyone in the workspace can pick it from the model selector in Notion Agent or Custom Agent settings.
 
 ## Share agents and manage access
 
@@ -423,6 +443,26 @@ The duplicate opens as a private agent. You can review and update its settings b
 
 The duplicate is private by default, only you can see it. Share it from the `Share` menu when you’re ready.
 
+## Export Insights data as CSV
+
+If you have full access to a Custom Agent, you can export its Insights chats and threads as a CSV file for analysis or reporting outside of Notion.
+
+To export:
+
+1. Open the Custom Agent and go to the `Insights` tab.
+
+2. Select the time period you want to export.
+
+3. Hover over the export button → Select `Export as CSV`.
+
+![CSV export](https://images.ctfassets.net/spoqsaf9291f/1nQBLYBOhSuCJBSC2iA9uv/988bcbd982494910a6930fe8fff9e5c2/6ca55cd7-5f56-41a5-83de-a73dc4a4ca67.png)
+
+The CSV matches the columns on the `All chats` page. Exports are limited to up to 300 chats for the selected period.
+
+* CSV export is available on Business and Enterprise plans.
+
+* Workspace admins who need data from multiple agents must add themselves to each agent individually before exporting.
+
 
 ## FAQs
 
@@ -536,3 +576,8 @@ After you publish:
 * Use the **Activity** tab and logs to confirm agents are running only where expected.
 
 * Review runs regularly to keep behavior aligned with your workflows.
+
+
+### Why can't I access certain models (for example: Claude Fable 5) anymore?
+
+Your workspace has reached the fair use limit. Some AI models are temporarily unavailable for features like Notion Agent, Custom Agents, image generation, and page translation. Access resets in six hours.

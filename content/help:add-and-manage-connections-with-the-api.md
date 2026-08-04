@@ -1,10 +1,10 @@
 ---
 title: "Add & manage connections"
-emoji: "🤖"
-description: "You can connect other software to Notion, automate actions within your workspace, and access connections built by our partners 🤖"
+emoji: null
+description: "You can connect other software to Notion, automate actions within your workspace, and access connections built by our partners."
 url: "https://www.notion.com/help/add-and-manage-connections-with-the-api"
 key: "help:add-and-manage-connections-with-the-api"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/1neDuGJ46KUWNDW9IDoar3/768bd7ba261f18fbd755110a7b732bb5/Add___manage_integrations_with_the_API_-_hero.png"
+coverImage: null
 category: "Connections"
 categoryKey: "category:connections"
 ---
@@ -17,7 +17,11 @@ categoryKey: "category:connections"
 
 ## Add connections in your workspace
 
-Both Members and Workspace owners can add connections to a workspace in `Settings` → `Connections`. Once a connection is added, it can then be added to individual pages and databases in the `•••` menu under `Connections`.
+Both Members and Workspace owners can add connections to a workspace in `Settings` → `Connections`.
+
+Use the search bar or category filters to find the connection you're looking for. Connections are grouped by app, so products with multiple capabilities appear as one entry. Once a connection is added, you can add it to individual pages and databases in the `•••` menu under `Connections`.
+
+**Note:** On Enterprise plans, workspace owners can restrict which connections members are allowed to install. If a connection you're looking for isn't available, contact your workspace owner.
 
 ## Add connections to pages
 
@@ -43,7 +47,7 @@ Workspace owners on the Enterprise Plan can decide what pages a connection can a
 
 1. Go to `Settings` → `Connections`.
 
-2. In the `Member` tab, select `•••` next to a connection.
+2. In the `Manage` tab, select `•••` next to a connection.
 
 3. In the menu that appears, select `Manage page access`.
 
@@ -57,15 +61,11 @@ If you choose to allow only Workspace owners to manage access, that means only
 
 **Note:** Workspace owners manage all connections in a workspace. <!-- -->Learn more [here →](https://www.notion.com/help/enterprise-connection-settings)
 
-* In your left sidebar, navigate to `Settings` and then the `Connections` tab.
+* Go to `Settings` → `Connections`. Here, you'll see the full connections catalog of all connections grouped by app, with search and category filters.
 
-* Here, you'll see two tabs, `Members` and `Workspaces`.
+* Select a connection to review or update it. You can edit settings, change permissions, or disconnect.
 
-  * From the `Members` tab, you can manage the connections that members can access in the workspace. Specifically, you can limit connections access to an approved list of connections, view who is using an internal connection and disconnect the use of any connection in the workspace.
-
-    * Note: Only Enterprise Workspace Owners can limit connection access to an approved list of connections.
-
-  * From the `Workspaces` tab, you can install and manage Security & Compliance connections for their entire Enterprise workspace.
+* Use the `Manage` tab to view admin controls including approval settings and connected-member visibility.
 
 ![Add & manage connections - connection menu](https://images.ctfassets.net/spoqsaf9291f/4o8nQj3zUQeC4cAw0idh0v/e068d8fbb27c219490085ec64d859b00/Integration_-_Share_3.png)
 
@@ -81,9 +81,49 @@ If you choose to allow only Workspace owners to manage access, that means only
 
 Looking for a way to monitor and respond to real-time changes in your Notion workspaces? Try [connection webhooks](https://www.notion.com/help/create-integrations-with-the-notion-api#integration-webhooks)!
 
+## View the connections page
+
+Go to `Settings` → `Connections` to discover, install, and manage all the tools you connect to your Notion workspace.
+
+To open the connections page:
+
+1. Go to `Settings` in your sidebar.
+
+2. Select `Connections`.
+
+You'll see all available connections grouped by app. Use the search bar or filters to find a specific connection, or browse by category.
+
+## Install a connection
+
+1. Open `Settings` → `Connections`.
+
+2. Find the connection you want and select it to open its details.
+
+3. Follow the setup steps to authorize and connect your account.
+
+Once installed, you can add the connection to specific pages or databases from the `•••` menu on any page.
+
+**Note:** On Enterprise plans, workspace owners can limit which connections members are allowed to install. If a connection isn't available to you, contact your workspace owner.
+
+## For workspace owners (Enterprise)
+
+Workspace owners on Enterprise plans can:
+
+* Restrict which connections members are allowed to install.
+
+* Build and manage an approved connections list.
+
+* View all members who have a specific connection installed.
+
+* Disconnect members from a connection.
+
+Go to `Settings` → `Connections` and select the `Manage` tab to access these controls.
+
+Learn more about how to manage connections in [Enterprise connection settings](https://www.notion.com/help/enterprise-connection-settings) →
+
 ## Install from a developer
 
-Check out our [Connections gallery →](https://www.notion.com/integrations/all)
+Check out our [**Connections gallery →**](https://www.notion.com/integrations/all)
 
 ### Install directly from a partner platform via OAuth
 

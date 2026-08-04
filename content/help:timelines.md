@@ -1,7 +1,7 @@
 ---
 title: "Timeline view"
-emoji: "⏳"
-description: "For anyone who needs to visualize their projects plotted chronologically - whether it's hours, years, or anything in between - Notion's timeline is a type of database that keeps you on task and on track ⏳"
+emoji: null
+description: "For anyone who needs to visualize their projects plotted chronologically - whether it's hours, years, or anything in between - Notion's timeline is a type of database that keeps you on task and on track."
 url: "https://www.notion.com/help/timelines"
 key: "help:timelines"
 coverImage: "https://img.youtube.com/vi/I4CtApkWoRk/maxresdefault.jpg"

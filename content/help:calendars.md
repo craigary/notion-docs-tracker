@@ -1,7 +1,7 @@
 ---
 title: "Calendar view"
-emoji: "🗓"
-description: "Calendars let you visualize how database items connect to certain dates. Use one when you want a bird's-eye view for important launch dates, multi-day events, or even projects spanning multiple months 🗓️"
+emoji: null
+description: "Calendars let you visualize how database items connect to certain dates. Use one when you want a bird's-eye view for important launch dates, multi-day events, or even projects spanning multiple months."
 url: "https://www.notion.com/help/calendars"
 key: "help:calendars"
 coverImage: "https://img.youtube.com/vi/PoYepEsN0HY/maxresdefault.jpg"

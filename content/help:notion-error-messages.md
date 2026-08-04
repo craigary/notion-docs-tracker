@@ -1,10 +1,10 @@
 ---
 title: "Common Notion errors"
 emoji: null
-description: null
+description: "Find the most common Notion error messages, what causes them, and how to fix each one."
 url: "https://www.notion.com/help/notion-error-messages"
 key: "help:notion-error-messages"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/15MnehxCRUUA3LITX21Lar/7c80798bd5cce07c4b492cb6543419c7/Troubleshooting_Reference_Visuals.png"
+coverImage: null
 category: "Troubleshoot"
 categoryKey: "category:troubleshooting"
 ---
@@ -28,6 +28,8 @@ Some common error messages and issues you might encounter in Notion include:
 * "Storage operation did not complete"
 
 * “Notion is damaged”
+
+* “Go online to view this image”
 
 * Not being able to access Notion or specific Notion pages
 
@@ -90,6 +92,34 @@ To fix this error:
 * If you’re connected to a network that belongs to a school, corporation, or organization, ask IT to unblock Notion on that network.
 
 * If you’re on a personal network, try changing your DNS to 1.1.1.1 or 8.8.8.8. You can learn more about how to do this [here →](https://developers.google.com/speed/public-dns/docs/using)
+
+## "Go online to view this image"
+
+**When this error may occur**
+
+You might see a broken image icon with the message “Go online to view this image,” even when you’re connected to the internet. You may still be able to open the image by selecting `View original`, but the preview on the page won’t load.
+
+This error usually means something on your network is blocking Notion from loading images. The images themselves aren’t broken. A VPN is the most common cause, especially when several people on the same team see the error at the same time. Firewalls, proxies, DNS filters, ad blockers, and iCloud Private Relay can cause the same problem.
+
+**What you can try to fix the error**
+
+To fix this error:
+
+1. Check if your device or network uses a VPN, proxy, or DNS filter.
+
+2. Turn off the VPN temporarily and reload the page. If images load, the VPN was blocking them.
+
+3. Ask your IT team to allowlist Notion’s domains and IP addresses in your VPN or firewall settings. Share this guide with them: [Allowlist Notion’s IP addresses →](https://www.notion.com/help/allowlist-ip)
+
+4. Turn off other tools that can block images, like ad blockers or iCloud Private Relay, one at a time to find the cause.
+
+If images still don’t load:
+
+* Clear your browser cache and reload the page.
+
+* Check that the image is a file type Notion supports: HEIC, ICO, JPEG, JPG, PNG, TIF, TIFF, GIF, SVG, PDF, or WEBP.
+
+* Record a HAR file in your browser while the issue is happening and share it with Notion Support.
 
 ## "Your file is over the limit"
 

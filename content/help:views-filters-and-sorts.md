@@ -1,7 +1,7 @@
 ---
 title: "Views, filters, sorts & groups"
-emoji: "📁"
-description: "You can view the same database in multiple ways, and switch back and forth between them depending on your needs. Within a view, you can add filters and sorts to easily categorize your content 📁"
+emoji: null
+description: "You can view the same database in multiple ways, and switch back and forth between them depending on your needs. Within a view, you can add filters and sorts to easily categorize your content."
 url: "https://www.notion.com/help/views-filters-and-sorts"
 key: "help:views-filters-and-sorts"
 coverImage: "https://img.youtube.com/vi/Nx114VWepoI/maxresdefault.jpg"
@@ -123,9 +123,7 @@ To filter the entries you see in a database view:
 
 ### Add an advanced filter
 
-![]()
-
-Play
+[YouTube video player](https://www.youtube-nocookie.com/embed/EWoz404YIeU?enablejsapi=1\&autoplay=0\&mute=0\&playsinline=1\&controls=1\&loop=0\&modestbranding=1\&rel=0)Play
 
 Uh-oh! It looks like your ad blocker is preventing the video from playing.
 

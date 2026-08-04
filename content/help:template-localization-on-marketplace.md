@@ -1,10 +1,10 @@
 ---
 title: "Template localization on Marketplace"
-emoji: "🌎"
-description: "Learn how to localize your templates in the Notion Marketplace. 🌎"
+emoji: null
+description: "Learn how to localize your templates in the Notion Marketplace."
 url: "https://www.notion.com/help/template-localization-on-marketplace"
 key: "help:template-localization-on-marketplace"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/3VacyLu9F9LRCmVyNCVnsR/7c860c67b444eb28beb73ddc23b4408c/templatelocalization.png"
+coverImage: null
 category: "Marketplace & templates"
 categoryKey: "category:template-gallery"
 ---

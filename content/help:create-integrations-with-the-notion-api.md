@@ -1,10 +1,10 @@
 ---
 title: "Notion API connections"
-emoji: "🏗️"
+emoji: null
 description: "With Notion's API, you'll be able to create custom internal connections. Some of our partners may also require an internal connection token in order to link their platform to your Notion workspace - below, we'll walk you through how to set this up 🏗️"
 url: "https://www.notion.com/help/create-integrations-with-the-notion-api"
 key: "help:create-integrations-with-the-notion-api"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/12hDHQuwwWB60tA3rEbJ1c/7c76c8059fe7e69e02c82992de113d39/Create_integrations_with_the_Notion_API_-_hero.png"
+coverImage: null
 category: "Connections"
 categoryKey: "category:connections"
 ---

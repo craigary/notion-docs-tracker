@@ -1,10 +1,10 @@
 ---
 title: "Content search"
-emoji: "🔎"
-description: "With content search, Enterprise workspace owners can now get a bird’s eye view of all workspace content and help resolve page access issues more easily 🔎"
+emoji: null
+description: "With content search, Enterprise workspace owners can now get a bird’s eye view of all workspace content and help resolve page access issues more easily."
 url: "https://www.notion.com/help/admin-content-search"
 key: "help:admin-content-search"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/7pVbSMHPMzmGzpUcLVOGUs/b17fee74e4e2c1fc12e91aaa734db051/Admin_Content_Search.png"
+coverImage: null
 category: "Administer your workspace"
 categoryKey: "category:enterprise-admin"
 ---

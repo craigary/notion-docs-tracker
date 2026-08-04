@@ -1,10 +1,10 @@
 ---
 title: "Notion MCP"
-emoji: "🛠️"
-description: "Connect your favorite AI apps, like Claude, ChatGPT, and Cursor, directly to your Notion workspace 🛠️"
+emoji: null
+description: "Connect your favorite AI apps, like Claude, ChatGPT, and Cursor, directly to your Notion workspace."
 url: "https://www.notion.com/help/notion-mcp"
 key: "help:notion-mcp"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/rNBitUO8v48vgUfn3bu6O/26f04dcc3899951edc2270d18dbd0255/Notion_MCP_from_Figma.png"
+coverImage: null
 category: "Notion AI"
 categoryKey: "category:notion-ai"
 ---

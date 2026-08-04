@@ -1,10 +1,10 @@
 ---
 title: "Manage your Notion Sites"
-emoji: "🌐"
+emoji: null
 description: "It's easy to view and manage all of your Notion Sites in one place 🌐"
 url: "https://www.notion.com/help/manage-your-notion-sites"
 key: "help:manage-your-notion-sites"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/5GVuS0cJlK8ZeAxYdNeEmh/ca35c5b3f7d17ae4e106669ed3bb5630/Manage_Your_Sites.png"
+coverImage: null
 category: "Notion Sites"
 categoryKey: "category:notion-sites"
 ---

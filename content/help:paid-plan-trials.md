@@ -1,10 +1,10 @@
 ---
 title: "Paid plan trials"
-emoji: "⏳"
-description: "Learn how you can trial Notion's paid plans ⏳"
+emoji: null
+description: "Learn how you can trial Notion's paid plans."
 url: "https://www.notion.com/help/paid-plan-trials"
 key: "help:paid-plan-trials"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/1sofsJKBQro42GL8MjrFBt/c69d56ef42f8f249e7c3e63a2ddedbc6/paid-plan-trials.png"
+coverImage: null
 category: "Plans & billing"
 categoryKey: "category:plans-billing-and-payment"
 ---

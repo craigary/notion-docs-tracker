@@ -1,10 +1,10 @@
 ---
 title: "Reminders"
-emoji: "‼️"
-description: "Notion can help remind you or other people about what’s important ‼️"
+emoji: null
+description: "Notion can help remind you or other people about what’s important."
 url: "https://www.notion.com/help/reminders"
 key: "help:reminders"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/4yzyxTI2A967HQ4H3l9qR9/f14d71ecec8f7583a0b7832f292529f4/Reference_Visuals_Reminders.png"
+coverImage: null
 category: "Sharing & permissions"
 categoryKey: "category:sharing-and-collaboration"
 ---

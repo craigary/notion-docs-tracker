@@ -1,10 +1,10 @@
 ---
 title: "Database settings"
-emoji: "✨"
-description: "Tailor your database to your needs with lots of customization options to choose from ✨"
+emoji: null
+description: "Tailor your database to your needs with lots of customization options to choose from."
 url: "https://www.notion.com/help/customize-your-database"
 key: "help:customize-your-database"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/3tW6M9iul7rd1kZOFwArh2/e463b72de22cc09f9fa47c1cd09c0ffe/Group_90.png"
+coverImage: null
 category: "Databases"
 categoryKey: "category:databases"
 ---

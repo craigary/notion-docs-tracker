@@ -1,10 +1,10 @@
 ---
 title: "Blocking"
-emoji: "🚫"
-description: "With Notion Calendar, you can easily let people see when you are or aren't available 🚫"
+emoji: null
+description: "With Notion Calendar, you can easily let people see when you are or aren't available."
 url: "https://www.notion.com/help/blocking"
 key: "help:blocking"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/ege0dORCzqwvNxWv6xtVg/1f570151029778ccbbe41027fd75d564/Blocking_visual_reference.png"
+coverImage: null
 category: "Notion Calendar"
 categoryKey: "category:notion-calendar"
 ---

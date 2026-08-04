@@ -1,10 +1,10 @@
 ---
 title: "Asana AI Connector"
-emoji: "✅"
-description: "Connect Notion AI with your Asana workspace to seamlessly bring in information from your teams, projects, and tasks ✅"
+emoji: null
+description: "Connect Notion AI with your Asana workspace to seamlessly bring in information from your teams, projects, and tasks."
 url: "https://www.notion.com/help/asana-ai-connector"
 key: "help:asana-ai-connector"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/2vgTEkyNzMDDsyAc8xg0O2/04210f4a1ea7eb4fa0ce65722f3faacd/asana.png"
+coverImage: null
 category: "Notion AI Connectors"
 categoryKey: "category:notion-ai-connectors"
 ---

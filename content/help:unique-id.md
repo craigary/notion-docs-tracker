@@ -1,10 +1,10 @@
 ---
 title: "Unique ID"
-emoji: "🤖"
-description: "Add an extra layer of project management by giving your tasks their own IDs 🤖"
+emoji: null
+description: "Add an extra layer of project management by giving your tasks their own IDs."
 url: "https://www.notion.com/help/unique-id"
 key: "help:unique-id"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/5nTQei7sA2tmO7oZ1HYi7b/f7bf2dd1b0d7d504dc46cee2f79c3f07/unique_id_hero.png"
+coverImage: null
 category: "Databases"
 categoryKey: "category:databases"
 ---

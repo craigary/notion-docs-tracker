@@ -1,10 +1,10 @@
 ---
 title: "Record HAR files for troubleshooting"
 emoji: null
-description: null
+description: "Find out how you can record HAR files to help Notion troubleshoot your issue."
 url: "https://www.notion.com/help/record-har-files-for-troubleshooting"
 key: "help:record-har-files-for-troubleshooting"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/15MnehxCRUUA3LITX21Lar/7c80798bd5cce07c4b492cb6543419c7/Troubleshooting_Reference_Visuals.png"
+coverImage: null
 category: "Troubleshoot"
 categoryKey: "category:troubleshooting"
 ---

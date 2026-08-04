@@ -1,10 +1,10 @@
 ---
 title: "Connect a custom domain with Notion Sites"
 emoji: null
-description: "If you already have a custom domain, you can use it with Notion Sites. Learn how to do this, both in Notion and in your DNS provider 🔧"
+description: "If you already have a custom domain, you can use it with Notion Sites. Learn how to do this, both in Notion and in your DNS provider."
 url: "https://www.notion.com/help/connect-a-custom-domain-with-notion-sites"
 key: "help:connect-a-custom-domain-with-notion-sites"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/3ccuGglCOEBrobLN9bQSjl/163076aca7f9ce90c07f569a42e6b417/Group_87.png"
+coverImage: null
 category: "Notion Sites"
 categoryKey: "category:notion-sites"
 ---

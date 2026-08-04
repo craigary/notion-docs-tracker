@@ -1,10 +1,10 @@
 ---
 title: "Task databases & sprints"
-emoji: "💪"
+emoji: null
 description: "Help your team stay on track with task databases and sprints 💪"
 url: "https://www.notion.com/help/sprints"
 key: "help:sprints"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/5EjyFQDddq6X4QyzVwbtx0/78acc7677ed2c6cdd2804d227a1e2498/sprints_hero_hc_alt.png"
+coverImage: null
 category: "Databases"
 categoryKey: "category:databases"
 ---

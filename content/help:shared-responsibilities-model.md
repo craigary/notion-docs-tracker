@@ -1,10 +1,10 @@
 ---
 title: "Shared Responsibilities Model"
-emoji: "🤝"
-description: "This Shared Responsibilities Model makes sure that Notion and its users work together to create a safe and effective workspace experience 🤝"
+emoji: null
+description: "This Shared Responsibilities Model makes sure that Notion and its users work together to create a safe and effective workspace experience."
 url: "https://www.notion.com/help/shared-responsibilities-model"
 key: "help:shared-responsibilities-model"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/5QtuH5YjQCv9PwrYCjRkIU/38e5755c6c0af1fd28f726bfee087cb6/Share_Responsibility_Model.png"
+coverImage: null
 category: "Privacy & security"
 categoryKey: "category:security-and-privacy"
 ---

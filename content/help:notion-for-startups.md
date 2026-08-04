@@ -1,10 +1,10 @@
 ---
 title: "Notion for startups"
-emoji: "🚀"
-description: "Eligible startups can get 1-6 months free of Notion's Business Plan, including Notion AI. To qualify, you must be a new, non-paying Notion customer and meet our program requirements. Learn more below 🚀"
+emoji: null
+description: "Eligible startups can get 1-6 months free of Notion's Business Plan, including Notion AI. To qualify, you must be a new, non-paying Notion customer and meet our program requirements. Learn more below."
 url: "https://www.notion.com/help/notion-for-startups"
 key: "help:notion-for-startups"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/zerLUlSxmwZCYikOJ4XtC/da4a3967d3a4eaa169c6a941c2c044aa/Notion_for_startups_-_hero.png"
+coverImage: null
 category: "Plans & billing"
 categoryKey: "category:plans-billing-and-payment"
 ---

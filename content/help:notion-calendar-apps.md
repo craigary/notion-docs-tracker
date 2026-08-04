@@ -1,10 +1,10 @@
 ---
 title: "Notion Calendar apps"
-emoji: "🌐"
-description: "Notion Calendar is available on web, Mac, Windows, iOS, and Android 🌐"
+emoji: null
+description: "Notion Calendar is available on web, Mac, Windows, iOS, and Android. "
 url: "https://www.notion.com/help/notion-calendar-apps"
 key: "help:notion-calendar-apps"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/52docHdtStFPQdXlKPYq2u/9c5323c8555d4ff8102159ccd97b3cb9/notion-calendar-apps.png"
+coverImage: null
 category: "Notion Calendar"
 categoryKey: "category:notion-calendar"
 ---

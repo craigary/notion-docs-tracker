@@ -1,7 +1,7 @@
 ---
 title: "Table view"
-emoji: "📊"
-description: "A table is the classic database view, but tables in Notion are more than just rows and columns. Each row opens up into its own page, and can contain whatever properties you want 📊"
+emoji: null
+description: "A table is the classic database view, but tables in Notion are more than just rows and columns. Each row opens up into its own page, and can contain whatever properties you want."
 url: "https://www.notion.com/help/tables"
 key: "help:tables"
 coverImage: "https://img.youtube.com/vi/-izAC1eour4/maxresdefault.jpg"

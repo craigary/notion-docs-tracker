@@ -1,10 +1,10 @@
 ---
 title: "Workspaces on mobile"
-emoji: "📱"
-description: "Here's a quick tour of how Notion workspaces look and operate on your phone or tablet 📱"
+emoji: null
+description: "Here's a quick tour of how Notion workspaces look and operate on your phone or tablet."
 url: "https://www.notion.com/help/workspaces-on-mobile"
 key: "help:workspaces-on-mobile"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/6LpFmCJRQ9dl71SxsIpiSS/d1cc14a71cc1e3ef646926a0cc13e8f6/Workspaces_on_Mobile_-_Figma.png"
+coverImage: null
 category: "Workspace settings"
 categoryKey: "category:meet-your-workspace"
 ---

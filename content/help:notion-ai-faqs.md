@@ -1,10 +1,10 @@
 ---
 title: "What is Notion AI?"
-emoji: "🤖"
-description: "Notion AI is integrated into your Notion workspace so that you can unlock knowledge and complete tasks with just a click 🤖"
+emoji: null
+description: "Notion AI is integrated into your Notion workspace so that you can unlock knowledge and complete tasks with just a click."
 url: "https://www.notion.com/help/notion-ai-faqs"
 key: "help:notion-ai-faqs"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/7j6zHBFAMtPgTdqjZQq46w/c7122959cc1a5d45f4886bbe1827f61c/notion-ai.png"
+coverImage: null
 category: "Notion AI"
 categoryKey: "category:notion-ai"
 ---
@@ -29,11 +29,13 @@ At a glance, Notion AI can do the following. We’ll dive into its features in m
 
 * Creates [databases](https://www.notion.com/help/notion-ai-faqs#notion-ai-for-databases), auto-populates database properties via Autofill, and writes formulas in databases and automations.
 
+* Work with files and create files you can download and preview within Notion. Upload a file in chat, and Notion AI can read it and help you use it. If you need something more complex, like a report from a spreadsheet, Notion AI can handle the work and give you a download, like a spreadsheet, PDF, or slide deck.
+
+* For some requests, Notion AI may use a computer workspace to do the work, like reading a file or doing math. It still follows your workspace access rules and only uses information it has permission to see.
+
 ## Notion Agent
 
-![]()
-
-Play
+[YouTube video player](https://www.youtube-nocookie.com/embed/yasGTeAsV6s?enablejsapi=1\&autoplay=0\&mute=0\&playsinline=1\&controls=1\&loop=0\&modestbranding=1\&rel=0)Play
 
 Uh-oh! It looks like your ad blocker is preventing the video from playing.
 
@@ -43,7 +45,7 @@ Please watch it on [YouTube](https://www.youtube.com/watch?v=yasGTeAsV6s)
 
 Your Notion Agent not only thinks for you — it actually does the work for you. It can take on tasks from beginning to end, looking at your workspace and connected apps, then even creating or editing content (pages, databases, charts, and much more) in your workspace on your behalf.
 
-You can [personalize your Agent’s appearance](https://www.notion.com/help/notion-agent#personalize-your-agent), and use [instructions and skills](http://www.notion.com/help/customize-your-notion-agent-with-instructions-and-skills) to shape how it responds. Set up [Plan Mode](https://www.notion.com/help/review-and-approve-plans-before-notion-ai-runs), so your Agent shows you changes for review and approval before it runs. Your Notion Agent is a customizable teammate built into your workspace, so you can teach it how to work with and for you.
+You can [personalize your Agent’s appearance](https://www.notion.com/help/notion-agent#personalize-your-agent), and use [instructions and skills](http://www.notion.com/help/customize-your-notion-agent-with-instructions-and-skills) to shape how it responds. Your Notion Agent is a customizable teammate built into your workspace, so you can teach it how to work with and for you.
 
 **Learn more about Notion Agent**
 
@@ -81,9 +83,7 @@ If you’re on the Business or Enterprise Plan, you can go to `Notion AI` in you
 
 ## AI Meeting Notes (beta)
 
-![]()
-
-Play
+[YouTube video player](https://www.youtube-nocookie.com/embed/f4ZYEZO3Sq0?enablejsapi=1\&autoplay=0\&mute=0\&playsinline=1\&controls=1\&loop=0\&modestbranding=1\&rel=0)Play
 
 Uh-oh! It looks like your ad blocker is preventing the video from playing.
 
@@ -176,6 +176,8 @@ Workspace owners on any Notion plan can go to `Settings` → `Notion AI` and adj
 * `Personalization`: Give your Notion Agent a name, accessories, and instructions for how to behave.
 
 * `AI Meeting Notes`: Turn on various settings for AI Meeting Notes, including audio storage, transcript deletion, and more. Learn more about these settings [here →](https://www.notion.com/help/ai-meeting-notes)
+
+If the workspace uses Notion AI features beyond the usage allowance, you may see a temporary pause. Wait for access to refresh automatically, or workspace owners (Business or Enterprise plans) can let the team use [Notion credits](https://www.notion.com/help/category/notion-credits) to keep going right away. Learn more about the [usage allowance and how to manage this setting →](https://www.notion.com/help/manage-your-usage-allowance-for-notion-ai)
 
 ## Notion AI keyboard shortcut
 

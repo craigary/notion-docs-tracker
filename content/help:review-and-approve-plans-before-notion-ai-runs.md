@@ -4,7 +4,7 @@ emoji: "☑"
 description: "Learn how to work with Plan mode to view and sign-off on changes before Notion Agent takes action ☑"
 url: "https://www.notion.com/help/review-and-approve-plans-before-notion-ai-runs"
 key: "help:review-and-approve-plans-before-notion-ai-runs"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/35merCOouhnEVwk1eQFnKO/3f77f5b36030609516f4760d1151f0a6/Group_192.png"
+coverImage: null
 category: "Notion AI"
 categoryKey: "category:notion-ai"
 ---

@@ -1,10 +1,10 @@
 ---
 title: "Delete your account"
-emoji: "🗑"
-description: "We're sad to see you go, but no hard feelings! Here's how to delete your Notion account 🗑"
+emoji: null
+description: "We're sad to see you go, but no hard feelings! Here's how to delete your Notion account."
 url: "https://www.notion.com/help/delete-your-account"
 key: "help:delete-your-account"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/402MQvHZCAfq9CXhQ4QGAc/e6921fe2da6d5420e53973060938e9c2/Delete_your_account_-_hero.png"
+coverImage: null
 category: "Settings & preferences"
 categoryKey: "category:account-settings-and-privacy"
 ---

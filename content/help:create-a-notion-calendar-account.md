@@ -1,7 +1,7 @@
 ---
 title: "Create a Notion Calendar account"
-emoji: "⏰"
-description: "Download Notion Calendar and sign in with Notion to move effortlessly between work and meetings ⏰"
+emoji: null
+description: "Download Notion Calendar and sign in with Notion to move effortlessly between work and meetings."
 url: "https://www.notion.com/help/create-a-notion-calendar-account"
 key: "help:create-a-notion-calendar-account"
 coverImage: "https://img.youtube.com/vi/tfrgpkksRfs/maxresdefault.jpg"
@@ -29,15 +29,19 @@ Learn more about Notion Calendar apps [here →](https://www.notion.com/help/not
 
 ## Create an account with Notion
 
-**Note:&#x20;**&#x41;t this time, Notion Calendar is <!-- -->compatible with Google and iCloud calendars. We’re working on adding support for Microsoft Outlook — check <https://www.notion.com/releases> and <https://twitter.com/notioncalendar> for updates.
+Notion Calendar is compatible with Google, iCloud, and Microsoft Outlook calendars.
 
 If you have a Notion account, you can sign up for Notion Calendar with your Notion account. If you don’t already have a Notion account, no problem — when you sign up for Notion Calendar, a Notion account will be created for you using the same email address.
 
 Once you’re signed up, you can [integrate at least one of your calendars](https://www.notion.com/help/manage-your-calendars-and-events) to get started. Additionally, you can [connect Notion workspaces to Notion Calendar](https://www.notion.com/help/use-notion-calendar-with-notion) so that you can bring any databases with date properties from those workspaces into Notion Calendar. Additionally, you’ll be logged into the same session across Notion Calendar and Notion so that signing into and out of one will also sign you into and out of the other.
 
-When signing up for Notion Calendar, use an email address that you’ll always be able to access. For example, you might want to use a personal account rather than a work account in case you decide to leave your work organization. The account you use to sign up will be your primary account and you need access to the primary account to access Notion Calendar. You can always connect any work accounts or secondary accounts after signup!
+When signing up for Notion Calendar, use an email address that you'll always be able to access. For example, you might want to use a personal account rather than a work account in case you decide to leave your work organization. The account you use to sign up will be your primary account and you need access to the primary account to access Notion Calendar. You can always connect any work accounts or secondary accounts after signup!
 
-If you want to unlink your Notion account from Notion Calendar, learn how [here →](https://www.notion.com/help/create-a-notion-calendar-account#change-your-linked-notion-account)
+If you want to unlink your Notion account from Notion Calendar, [learn how here →](https://www.notion.com/help/create-a-notion-calendar-account#change-your-linked-notion-account)
+
+Only one Notion account can be linked to your Notion Calendar account, but you can always integrate multiple calendars and Notion workspaces with your Notion Calendar account.
+
+Notion Calendar is available on desktop and web. Mobile support for Microsoft Outlook calendars is coming soon.
 
 Only one Notion account can be linked to your Notion Calendar account, but you can always integrate multiple [calendars](https://www.notion.com/help/manage-your-calendars-and-events) and [Notion workspaces](https://www.notion.com/help/use-notion-calendar-with-notion) with your Notion Calendar account.
 
@@ -46,6 +50,12 @@ Only one Notion account can be linked to your Notion Calendar account, but you c
 If you’re a Google Workspace admin and you want to restrict access to Notion Calendar or learn more about our security practices, [read this article →](https://www.notion.com/help/notion-calendar-security-practices)
 
 Notion Calendar asks only for the Google permissions that we absolutely need to make sure Notion Calendar works properly. These permissions are only used to access data on your behalf, never to read, edit, or delete it without direct action from you. **Notion Calendar is verified by Google and can’t access any user data categorized as restricted. We’ll never see your Google password. You also have the ability to remove access at any time.&#x20;**[Learn more about how we protect your data here →](https://www.notion.com/help/notion-calendar-security-practices)
+
+## Microsoft Outlook permissions
+
+When you connect a Microsoft Outlook or Microsoft 365 account to Notion Calendar, you'll be asked to authorize Notion Calendar with your Microsoft account. Notion Calendar only requests the permissions it needs to display and manage your calendar events. These permissions are used to access your calendar data on your behalf. You can revoke access at any time in your Microsoft account settings.
+
+If your organization uses Microsoft 365 and an admin has restricted third-party app access, you may need your IT admin to approve Notion Calendar before you can connect your work account.
 
 ## Apple app-specific password
 

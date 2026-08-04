@@ -1,10 +1,10 @@
 ---
 title: "Manage your Library"
-emoji: "📚"
-description: "Use Library to find, organize, and manage pages across your workspace, including customizing what shows up in your sidebar 📚"
+emoji: null
+description: "Use Library to find, organize, and manage pages across your workspace, including customizing what shows up in your sidebar."
 url: "https://www.notion.com/help/manage-your-library"
 key: "help:manage-your-library"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/6YfU0tKFUybgZdCYZ1ws43/b71239eff7723d6f64fde108e999bd7d/library_book.png"
+coverImage: null
 category: "Sidebar navigation"
 categoryKey: "category:sidebar-navigation"
 ---

@@ -1,10 +1,10 @@
 ---
 title: "Transfer content from a deprovisioned user"
-emoji: "📖"
-description: "This article outlines how a workspace owner can transfer content from a member who has been deprovisioned from an Enterprise Plan workspace 📖"
+emoji: null
+description: "This article outlines how a workspace owner can transfer content from a member who has been deprovisioned from an Enterprise Plan workspace."
 url: "https://www.notion.com/help/transfer-content-deprovisioned-user"
 key: "help:transfer-content-deprovisioned-user"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/10tl925CiiBTlasoUaxaM1/60befda7bdd6eb12cc9bc1811cf9cbba/Duplicate_public_pages_-_hero.png"
+coverImage: null
 category: "Administer your workspace"
 categoryKey: "category:enterprise-admin"
 ---

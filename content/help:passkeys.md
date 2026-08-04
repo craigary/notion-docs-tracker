@@ -1,10 +1,10 @@
 ---
 title: "Passkeys"
-emoji: "🔑"
-description: "Learn how to log into Notion using passkeys, a simple and secure alternative to passwords 🔑"
+emoji: null
+description: "Learn how to log into Notion using passkeys, a simple and secure alternative to passwords."
 url: "https://www.notion.com/help/passkeys"
 key: "help:passkeys"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/3G9lsSF7xET8hko0HHDzoM/a8f7c018fd8e54bf938a609742b6fd7e/Security___privacy_-_hero.png"
+coverImage: null
 category: "Settings & preferences"
 categoryKey: "category:account-settings-and-privacy"
 ---

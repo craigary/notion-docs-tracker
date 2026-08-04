@@ -1,7 +1,7 @@
 ---
 title: "Set up Auto Adjust for Notion credits"
-emoji: " 💳"
-description: "Auto Adjust automatically buys more credits when your workspace is running low, so your AI features and agents keep working without interruption 💳"
+emoji: null
+description: "Auto Adjust automatically buys more credits when your workspace is running low, so your AI features and agents keep working without interruption."
 url: "https://www.notion.com/help/set-up-auto-adjust-for-notion-credits"
 key: "help:set-up-auto-adjust-for-notion-credits"
 coverImage: null
@@ -59,7 +59,7 @@ When you turn on Auto Adjust, you'll set:
 
 Here’s what to expect:
 
-1. Your credit usage reaches 90% of your limit.
+1. Your credit usage reaches 80% of your limit.
 
 2. Notion charges the payment method on your account for the amount you set.
 

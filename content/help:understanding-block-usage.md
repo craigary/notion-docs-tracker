@@ -1,10 +1,10 @@
 ---
 title: "Understanding block usage"
-emoji: "🟨"
-description: "Learn more about block usage depending on your plan and how many people are in your workspace 🟨"
+emoji: null
+description: "Learn more about block usage depending on your plan and how many people are in your workspace."
 url: "https://www.notion.com/help/understanding-block-usage"
 key: "help:understanding-block-usage"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/1whCueND7aKDj7djO0JXgq/cf9a7c16114c54ad9f780df7fbdbe7fa/What_is_a_block_-_hero_v2.png"
+coverImage: null
 category: "Plans & billing"
 categoryKey: "category:plans-billing-and-payment"
 ---

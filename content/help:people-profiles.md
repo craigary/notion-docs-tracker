@@ -1,10 +1,10 @@
 ---
 title: "People profiles"
-emoji: "👤"
-description: "People profiles in Notion help you learn more about and collaborate more quickly with fellow workspace members 👤"
+emoji: null
+description: "People profiles in Notion help you learn more about and collaborate more quickly with fellow workspace members."
 url: "https://www.notion.com/help/people-profiles"
 key: "help:people-profiles"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/3oRXIXEWN14ymuR87cirAN/241c9ea1fd897d13b916ff469d33c672/Who-s_Who_in_a_Workspace__1_.png"
+coverImage: null
 category: "Sharing & permissions"
 categoryKey: "category:sharing-and-collaboration"
 ---

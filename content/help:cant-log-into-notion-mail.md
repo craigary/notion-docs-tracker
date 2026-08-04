@@ -1,13 +1,15 @@
 ---
 title: "Can’t log into Notion Mail"
-emoji: "📪"
-description: "Having trouble getting into Notion Mail? Here are some reasons you might be experiencing issues and how you can solve them 📪"
+emoji: null
+description: "Having trouble getting into Notion Mail? Here are some reasons you might be experiencing issues and how you can solve them."
 url: "https://www.notion.com/help/cant-log-into-notion-mail"
 key: "help:cant-log-into-notion-mail"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/15MnehxCRUUA3LITX21Lar/7c80798bd5cce07c4b492cb6543419c7/Troubleshooting_Reference_Visuals.png"
+coverImage: null
 category: "Troubleshoot"
 categoryKey: "category:troubleshooting"
 ---
+
+Notion Mail is shutting down on September 22, 2026. [Learn what's changing and how to save your data →](http://notion.com/help/notion-mail-inbox-is-going-away-what-to-do-next)
 
 ## Policy enforced error
 

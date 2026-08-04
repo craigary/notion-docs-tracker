@@ -1,10 +1,10 @@
 ---
 title: "Layouts"
-emoji: "🔨"
-description: "Create an organized layout for your tasks, goals, journal, or anything else you might track in a Notion database 🔨"
+emoji: null
+description: "Create an organized layout for your tasks, goals, journal, or anything else you might track in a Notion database."
 url: "https://www.notion.com/help/layouts"
 key: "help:layouts"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/1JhmGEelQl3xaWh6KTvN1L/7f5e076fe8fa246f1739608d07060e86/Reference_visuals_Oct_22_Screenshot_1.png"
+coverImage: null
 category: "Database views"
 categoryKey: "category:database-views"
 ---

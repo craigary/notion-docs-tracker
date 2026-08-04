@@ -1,19 +1,19 @@
 ---
 title: "Connect Calendar to Custom Agents"
-emoji: "📅"
-description: "Manage your schedule and automate meetings without ever leaving Notion 📅"
+emoji: null
+description: "Manage your schedule and automate meetings without ever leaving Notion."
 url: "https://www.notion.com/help/connect-calendar-to-custom-agents"
 key: "help:connect-calendar-to-custom-agents"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/4re3I3OgAkvLKpyGQWIOVz/3e2ecb8796ea628b7610a70f34aba8f0/Group_178.png"
+coverImage: null
 category: "Custom Agents"
 categoryKey: "category:custom-agents"
 ---
 
 Custom Agents can connect to calendar to automate scheduling workflows. Once connected, agents can optimize your schedule, prepare and handle meeting logistics, and resolve scheduling conflicts through automated triggers or by chatting with the agent directly.
 
-The Calendar connection for Custom Agents is available on Business and Enterprise plans.
+The Calendar connection for Custom Agents is available on Business and Enterprise plans. This connection works with Notion Calendar, Google Calendar, Apple Calendar, <!-- -->and Microsoft Outlook / M365 accounts.
 
-This connection works with Notion Calendar, Google Calendar, and Apple Calendar.
+Some Outlook-specific features (like Teams conferencing, shared and delegated calendars, and room/resource booking) may require a separate setup step. [Learn more about what your Custom Agent can do with Outlook →](https://www.notion.com/help/connect-calendar-to-custom-agents#what-your-custom-agent-can-do-with-outlook%20%E2%86%92)
 
 ## What your Custom Agent can do with Calendar
 
@@ -116,6 +116,20 @@ Keep your calendar organized by handling routine scheduling tasks automatically.
 Avoid scheduling chaos by finding optimal meeting times across multiple attendees.
 
 **Tell your Custom Agent:** *"When I ask you to schedule a meeting with team members, use 'Find time with participants' to check everyone's availability. Suggest the top 3 options, then create the event once I confirm."*
+
+## What your Custom Agent can do with Outlook
+
+If your team runs on Microsoft 365, your agent can do a few extra things that come naturally with Outlook:
+
+* **Add a Teams link:&#x20;**&#x57;hen your agent creates a meeting, it can automatically include a Microsoft Teams video call link.
+
+* **See calendars shared with you:&#x20;**&#x49;f a colleague has shared their calendar with you, your agent can see it and factor it in when scheduling.
+
+* **Work with recurring meetings:&#x20;**&#x59;our agent can read and work with events that repeat, like weekly standups or monthly reviews.
+
+* **Book a room:&#x20;**&#x57;hen creating a meeting, your agent can include a conference room or other shared resource.
+
+**Note:&#x20;**&#x53;ome of these features are rolling out gradually, so they may not be available right away.
 
 ## Troubleshooting
 

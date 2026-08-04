@@ -1,10 +1,10 @@
 ---
 title: "Wikis & verified pages"
-emoji: "✅"
+emoji: null
 description: "Use wikis and verified pages to maintain important information more easily ✅"
 url: "https://www.notion.com/help/wikis-and-verified-pages"
 key: "help:wikis-and-verified-pages"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/2HZPsRcLHyshLZxdt7o7DE/64cb4a4fb5732650b4590ed2059252fa/Wiki_-_hero.png"
+coverImage: null
 category: "Pages & blocks"
 categoryKey: "category:write-edit-and-customize"
 ---

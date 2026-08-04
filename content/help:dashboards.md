@@ -4,7 +4,7 @@ emoji: null
 description: "Learn how to create a dashboard view, add and arrange widgets, and manage permissions and performance."
 url: "https://www.notion.com/help/dashboards"
 key: "help:dashboards"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/YMKjsIquapvJc0bzFpMOx/cfc103bb19fb5cef551b2e72985542bb/dashboard.png"
+coverImage: null
 category: "Database views"
 categoryKey: "category:database-views"
 ---

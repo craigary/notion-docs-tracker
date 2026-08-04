@@ -1,10 +1,10 @@
 ---
 title: "Offering services on Marketplace"
-emoji: "🛒"
-description: "Learn how to offer your services through Notion’s Marketplace 🛒"
+emoji: null
+description: "Learn how to offer your services through Notion’s Marketplace"
 url: "https://www.notion.com/help/offering-services-on-marketplace"
 key: "help:offering-services-on-marketplace"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/1YJOOpoOly7dQSVbxL8DN0/ed8bb67b12833d77b4a3fe9411a08fbc/Offering_Services_on_Marketplace.png"
+coverImage: null
 category: "Marketplace & templates"
 categoryKey: "category:template-gallery"
 ---

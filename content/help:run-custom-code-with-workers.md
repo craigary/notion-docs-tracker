@@ -1,10 +1,10 @@
 ---
 title: "Run custom code with Workers (beta)"
-emoji: "🔨"
-description: "Learn what Workers are and what they’re used for 🔨"
+emoji: null
+description: "Learn what Workers are and what they’re used for. "
 url: "https://www.notion.com/help/run-custom-code-with-workers"
 key: "help:run-custom-code-with-workers"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/10ig80bwIGSuLvk7s8BvBb/0f8100167146d7da1696ae18684aeb99/Group_195.png"
+coverImage: null
 category: "Explore developer tools"
 categoryKey: "category:developer-platform"
 ---
@@ -21,19 +21,27 @@ For technical setup, see the [developer documentation](https://developers.notion
 
 For more info about pricing, see [this article](https://www.notion.com/help/understand-pricing-for-workers).
 
-### What to know before you start
+## What to know before you start
 
 * Workers are available on Business and Enterprise plans.
 
-* A workspace owner needs to enable Workers for the workspace.
+* By default, Workers are switched on for the workspace (owners only).
+
+* Workspace owners can:
+
+  * Keep Worker creation to owners only.
+
+  * Allow specific members or groups to create Workers.
+
+  * Turn Workers off for the workspace.
 
 * If you are trying to deploy or manage a Worker, you’ll typically follow our [developer documentation](https://developers.notion.com/guides/get-started/overview) and use the [Notion CLI.](https://www.notion.com/help/use-notion-from-your-terminal-with-notion-cli)
 
-### Pricing & plan availability for Workers
+## Pricing & plan availability for Workers
 
 To learn more about pricing for Workers, see [this article](https://www.notion.com/help/understand-pricing-for-workers).
 
-### Database sync
+## Database sync
 
 Database sync (powered by Workers) brings information from outside tools into a Notion database and keeps it up to date automatically. Once it's set up, the synced database stays current on its own, so your team and your agents always see the latest data without anyone copying or pasting between tools.
 
@@ -47,7 +55,7 @@ A few common examples:
 
 Once it's live, the synced database behaves like any other database in Notion. Access is governed by your standard Notion sharing permissions.
 
-### Agent tools
+## Agent tools
 
 Agent tools (powered by Workers) extend what your Custom Agents can do beyond Notion's built-in actions and MCP, with capabilities tailored to how your team works.
 
@@ -59,7 +67,7 @@ A few common examples:
 
 * Taking action in another app that isn’t natively supported or available via MCP.
 
-### Webhook triggers
+## Webhook triggers
 
 Webhook triggers (powered by Workers) let an event in another tool kick off a workflow in Notion or any other connected system.⁠⁠⁠⁠
 
@@ -73,7 +81,13 @@ A few common examples:
 
 Once it's set up, the workflow runs automatically every time the event happens, so your team doesn't have to manually move information between tools.
 
-### If something isn’t working
+## Share a Worker
+
+By default, only the person who created a Worker can modify and add it as a new connection. Share a Worker with teammates so they can connect it to a Custom Agent or help manage it.
+
+[Learn more about how to share a Worker →](https://www.notion.com/help/share-a-worker)
+
+## If something isn’t working
 
 Try these steps in order:
 

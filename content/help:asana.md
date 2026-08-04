@@ -1,10 +1,10 @@
 ---
 title: "Import from Asana"
-emoji: "📥"
-description: "Easily import all of your Asana projects and tasks directly into Notion 📥"
+emoji: null
+description: "Easily import all of your Asana projects and tasks directly into Notion."
 url: "https://www.notion.com/help/asana"
 key: "help:asana"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/5OqbtcTllJfeg9Ly1tHnT5/f48dd48f5f61f15fb9d4cc3e939bfb98/asana_importer_hc.png"
+coverImage: null
 category: "Import & export your data"
 categoryKey: "category:import-export-and-integrate"
 ---
@@ -86,7 +86,7 @@ To add a synced database from Asana, simply paste a project link right into a No
 
 4. Select the projects you'd like to import.
 
-5. Select the Notion teamspace your projects should be imported into.
+5. Choose where to import your projects. You can send them to a teamspace, where Notion will create a new Projects and Tasks database, or select an existing Projects database. Only Projects‑type databases with a linked Tasks database you can edit are listed.
 
 6. Check the box next to your workspace name to `Exclude completed projects` or `Select all projects` as needed.
 
@@ -100,7 +100,7 @@ To add a synced database from Asana, simply paste a project link right into a No
 
 ## What to expect after import
 
-Your Asana projects and tasks are imported into Projects and Tasks databases in Notion, pre-populated with several views:
+If you import to a teamspace, your Asana projects and tasks are imported into Projects and Tasks databases in Notion, pre-populated with several views. If you selected an existing Projects database as the destination, your projects are added to that database, with their tasks added to its linked Tasks database, using the property mapping you set during import.
 
 **Projects database views**
 

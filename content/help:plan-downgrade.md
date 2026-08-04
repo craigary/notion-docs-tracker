@@ -1,10 +1,10 @@
 ---
 title: "What happens when I downgrade my plan?"
-emoji: "⬇️"
-description: "When you downgrade your Notion plan, some of the features available with your previous plan may be affected. Here’s what to expect ⬇️"
+emoji: null
+description: "When you downgrade your Notion plan, some of the features available with your previous plan may be affected. Here’s what to expect."
 url: "https://www.notion.com/help/plan-downgrade"
 key: "help:plan-downgrade"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/1AUnyisPvy9MxOGe9Ftoyy/dca92454a1b3535320cae47a665da89f/Payments_Reference_Visuals__1_.png"
+coverImage: null
 category: "Plans & billing"
 categoryKey: "category:plans-billing-and-payment"
 ---

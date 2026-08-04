@@ -1,17 +1,17 @@
 ---
 title: "Duplicate public pages"
-emoji: "👯"
-description: "You can duplicate public Notion pages to add them to your own workspace. From there, you can customize them however you want 👯"
+emoji: null
+description: "You can duplicate public Notion pages to add them to your own workspace. From there, you can customize them however you want."
 url: "https://www.notion.com/help/duplicate-public-pages"
 key: "help:duplicate-public-pages"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/10tl925CiiBTlasoUaxaM1/60befda7bdd6eb12cc9bc1811cf9cbba/Duplicate_public_pages_-_hero.png"
+coverImage: null
 category: "Pages & blocks"
 categoryKey: "category:write-edit-and-customize"
 ---
 
 We've made a huge update to templates! Learn more here:
 
-* [The ultimate guide to Notion templates](https://www.notion.com/help/guides/the-ultimate-guide-to-notion-templates)
+* [**The ultimate guide to Notion templates**](https://www.notion.com/help/guides/the-ultimate-guide-to-notion-templates)
 
 ## Duplicate a page
 

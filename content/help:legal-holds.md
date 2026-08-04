@@ -4,7 +4,7 @@ emoji: null
 description: "Press pause on critical documents."
 url: "https://www.notion.com/help/legal-holds"
 key: "help:legal-holds"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/5rqTtloUnQExpgHuBmJksP/0ed08bfcc24278df8c942c508f84021e/Legal_holds.png"
+coverImage: null
 category: "Administer your workspace"
 categoryKey: "category:enterprise-admin"
 ---

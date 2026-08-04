@@ -1,10 +1,10 @@
 ---
 title: "Managed users"
-emoji: "👥"
-description: "As an enterprise workspace owner, you have many ways you can manage the users within your domain, including a dashboard where you can get information and make changes 👥"
+emoji: null
+description: "As an enterprise workspace owner, you have many ways you can manage the users within your domain, including a dashboard where you can get information and make changes."
 url: "https://www.notion.com/help/managed-users-dashboard"
 key: "help:managed-users-dashboard"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/wHdtmHGUbZCr5FVQJhcyR/e226bbd130fcab1efb2f0e6770813c19/managed_users_hero.png"
+coverImage: null
 category: "Administer your workspace"
 categoryKey: "category:enterprise-admin"
 ---

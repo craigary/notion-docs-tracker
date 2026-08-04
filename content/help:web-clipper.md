@@ -1,7 +1,7 @@
 ---
 title: "Web Clipper"
-emoji: "✂️"
-description: "The Web Clipper lets you save any web page off the internet to your workspace so you can read or edit it later. You can add this web content to a workspace or page of your choosing, making it easy to build a reading list, collect references and more ✂️"
+emoji: null
+description: "The Web Clipper lets you save any web page off the internet to your workspace so you can read or edit it later. You can add this web content to a workspace or page of your choosing, making it easy to build a reading list, collect references and more."
 url: "https://www.notion.com/help/web-clipper"
 key: "help:web-clipper"
 coverImage: "https://img.youtube.com/vi/nzHBSxiWGIw/maxresdefault.jpg"

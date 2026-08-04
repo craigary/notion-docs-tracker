@@ -4,7 +4,7 @@ emoji: null
 description: "Connect Notion AI to Microsoft Teams to keep all your work in context."
 url: "https://www.notion.com/help/notion-ai-connector-for-microsoft-teams"
 key: "help:notion-ai-connector-for-microsoft-teams"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/1LIi8TEPYxiakx2vkQwKU7/a99e212e808b4ff24e5d52e4b0d43e91/Teams.png"
+coverImage: null
 category: "Notion AI Connectors"
 categoryKey: "category:notion-ai-connectors"
 ---

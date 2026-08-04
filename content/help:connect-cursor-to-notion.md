@@ -1,7 +1,7 @@
 ---
-title: "Connect Cursor to Notion (beta)"
-emoji: "🤖"
-description: "Connect Cursor to your Notion workspace and use it as an AI coding and productivity assistant 🤖"
+title: "Use Cursor in Notion (beta)"
+emoji: null
+description: "Connect Cursor to your Notion workspace and use it as an AI coding and productivity assistant. "
 url: "https://www.notion.com/help/connect-cursor-to-notion"
 key: "help:connect-cursor-to-notion"
 coverImage: null
@@ -9,15 +9,15 @@ category: "External Agents"
 categoryKey: "category:external-agents"
 ---
 
-**Note:** Cursor in Notion is currently in beta and subject to the beta terms of your agreement.
+**Note:** Cursor agents in Notion is currently in beta and subject to the beta terms of your agreement.
 
-Cursor is an AI-powered code editor. When you connect it to Notion, you can use your workspace content as context for coding tasks without switching apps.
+Cursor is a coding agent. When you connect it to Notion, you can use your workspace content as context for coding tasks without switching apps.
 
 Cursor agents are different from [Custom Agents.](https://www.notion.com/help/custom-agents) They run on Cursor's infrastructure, but your work and results stay in Notion.
 
 ## Who can use Cursor with Notion
 
-* Cursor in Notion is available on Business and Enterprise plans.
+* This is available to all Cursor users with Notion Business and Enterprise plans.
 
 * You must have a Cursor account and access to user API keys to use it.
 
@@ -77,7 +77,7 @@ Once connected, Cursor can:
 
 ## Workspace admin controls
 
-Workspace admins can switch off Cursor Agents by going to `Settings` → `Notion AI` → `Agents` → `Manage external agent providers`.
+Workspace admins can switch off Cursor agents by going to `Settings` → `Notion AI` → `Agents` → `Manage external agents`.
 
 
 ## FAQs

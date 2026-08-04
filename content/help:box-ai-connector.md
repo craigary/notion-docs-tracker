@@ -1,10 +1,10 @@
 ---
 title: "Box AI Connector"
-emoji: "📁"
-description: "Connect your Box account to Notion AI so you can search and use Box files directly in Notion 📂"
+emoji: null
+description: "Connect your Box account to Notion AI so you can search and use Box files directly in Notion."
 url: "https://www.notion.com/help/box-ai-connector"
 key: "help:box-ai-connector"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/1ienWaIrGsNYRe7fojYuzh/35b45707701f86309a0c30775f318314/box.png"
+coverImage: null
 category: "Notion AI Connectors"
 categoryKey: "category:notion-ai-connectors"
 ---

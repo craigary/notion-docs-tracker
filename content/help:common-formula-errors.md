@@ -1,10 +1,10 @@
 ---
 title: "Common formula errors"
-emoji: "🔨"
-description: "Learn about the common errors you might run into with formulas in Notion, and how you can troubleshoot them 🔨"
+emoji: null
+description: "Learn about the common errors you might run into with formulas in Notion, and how you can troubleshoot them."
 url: "https://www.notion.com/help/common-formula-errors"
 key: "help:common-formula-errors"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/15MnehxCRUUA3LITX21Lar/7c80798bd5cce07c4b492cb6543419c7/Troubleshooting_Reference_Visuals.png"
+coverImage: null
 category: "Troubleshoot"
 categoryKey: "category:troubleshooting"
 ---

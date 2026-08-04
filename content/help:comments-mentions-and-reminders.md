@@ -1,10 +1,10 @@
 ---
 title: "Comments, mentions & reactions"
-emoji: "💬"
-description: "Use comments and mentions to work with others asynchronously 💬"
+emoji: null
+description: "Use comments and mentions to work with others asynchronously."
 url: "https://www.notion.com/help/comments-mentions-and-reminders"
 key: "help:comments-mentions-and-reminders"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/1U66Yt010JBauFwGs4JUvu/c17b5021962fb3ffa73f6d4f32fac594/Reference_Visuals_Comments.png"
+coverImage: null
 category: "Sharing & permissions"
 categoryKey: "category:sharing-and-collaboration"
 ---

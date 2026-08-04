@@ -1,10 +1,10 @@
 ---
 title: "Time zones"
-emoji: "✈️"
-description: "See your schedule across different time zones and quickly travel to a new one ✈️"
+emoji: null
+description: "See your schedule across different time zones and quickly travel to a new one."
 url: "https://www.notion.com/help/time-zones"
 key: "help:time-zones"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/6XvN2sIhib4EsNbNakFnAN/22266bd88cd31fa5710366f874c26123/Time_Zones_Reference_Visuals.png"
+coverImage: null
 category: "Notion Calendar"
 categoryKey: "category:notion-calendar"
 ---

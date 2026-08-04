@@ -1,13 +1,15 @@
 ---
 title: "Notion Mail settings"
-emoji: "⚙️"
-description: "Learn about the settings you can adjust in Notion Mail ⚙️"
+emoji: null
+description: "Learn about the settings you can adjust in Notion Mail."
 url: "https://www.notion.com/help/notion-mail-settings"
 key: "help:notion-mail-settings"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/2anV8A4mfTxgPeF3A5fWrw/ab5e253d2fa94bbd4562b46d9eed4e54/notion-calendar-settings.png"
+coverImage: null
 category: "Notion Mail"
 categoryKey: "category:notion-mail"
 ---
+
+Notion Mail is shutting down on September 22, 2026. [Learn what's changing and how to save your data →](http://notion.com/help/notion-mail-inbox-is-going-away-what-to-do-next)
 
 To open Notion Mail settings, go to `Settings` in the sidebar.
 
@@ -19,9 +21,9 @@ Go to Settings in Notion Mail → Inbox. From here, you can set up:
 
 * `Theme mode`: customize how Notion Mail shows up on your devices — keep your system settings or choose Light or Dark mode.
 
-* `Thread style`: choose <!-- -->how your email threads open — `Side peek`, `Center peek`, or as a `Full page`.
+* `Thread style`: choose how your email threads open — `Side peek`, `Center peek`, or as a `Full page`.
 
-* `Auto-advance`: choose where to <!-- -->go after archiving or deleting a thread — `Go to next thread`, Go to previous thread, or `Close thread`.
+* `Auto-advance`: choose where to go after archiving or deleting a thread — `Go to next thread`, Go to previous thread, or `Close thread`.
 
 * `High contrast mode`: toggle on or off a grey background for read emails.
 
@@ -119,7 +121,7 @@ Go to `Settings` in Notion Mail → `Snippets` to:
 
 Go to `Settings` in Notion Mail → `Signature` to:
 
-* T<!-- -->oggle Notion Mail’s `Default signature` on or off.
+* Toggle Notion Mail’s `Default signature` on or off.
 
 * Enable or disable your signature on all replies and forwards → toggle on or off `Include on replies and forwards.`
 

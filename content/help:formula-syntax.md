@@ -1,10 +1,10 @@
 ---
 title: "Formula syntax & functions"
-emoji: "➗"
-description: "Notion formulas can operate on various properties and functions. Here, you'll find a list of them ➗"
+emoji: null
+description: "Notion formulas can operate on various properties and functions. Here, you'll find a list of them."
 url: "https://www.notion.com/help/formula-syntax"
 key: "help:formula-syntax"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/55mOjF177kSIw5lHDAr45R/8ecbb0169375a9ab7d10e486bfff8cdb/Formula_Syntax_and_Functions__1_.png"
+coverImage: null
 category: "Databases"
 categoryKey: "category:databases"
 ---

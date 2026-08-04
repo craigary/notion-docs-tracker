@@ -1,10 +1,10 @@
 ---
 title: "Map view"
-emoji: "🗺️"
-description: "Visualize addresses on a map 🗺️"
+emoji: null
+description: "Visualize addresses on a map."
 url: "https://www.notion.com/help/maps"
 key: "help:maps"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/6VrRf3FKY0KOy5Yh4IbKOB/44835febcd83c6abdd64239f829f2135/Reference_Visuals_Group_168.png"
+coverImage: null
 category: "Database views"
 categoryKey: "category:database-views"
 ---

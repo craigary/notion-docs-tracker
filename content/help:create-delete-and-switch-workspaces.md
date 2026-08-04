@@ -1,7 +1,7 @@
 ---
-title: "Create, join & leave workspaces"
-emoji: "🏘️"
-description: "When you're brand new to Notion, it's best to keep it simple and start with just one workspace. But as you start using Notion for more things, and with more groups of people, you can keep different kinds of content separate by using multiple workspaces 🏘"
+title: "Create, join, & leave workspaces"
+emoji: null
+description: "When you're brand new to Notion, it's best to keep it simple and start with just one workspace. But as you start using Notion for more things, and with more groups of people, you can keep different kinds of content separate by using multiple workspaces."
 url: "https://www.notion.com/help/create-delete-and-switch-workspaces"
 key: "help:create-delete-and-switch-workspaces"
 coverImage: "https://img.youtube.com/vi/8DvGO0lqBaA/maxresdefault.jpg"

@@ -1,10 +1,10 @@
 ---
 title: "Deploy Notion for Windows"
-emoji: "🚀"
-description: "Learn how to install and update Notion for your organization 🚀"
+emoji: null
+description: "Learn how to install and update Notion for your organization."
 url: "https://www.notion.com/help/deploy-notion-for-windows"
 key: "help:deploy-notion-for-windows"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/78NPUf9DYi7G1aP1xmImLW/0be494b48237767fb058cb3d34e9d06c/deploy-notion-for-macos.png"
+coverImage: null
 category: "Administer your workspace"
 categoryKey: "category:enterprise-admin"
 ---

@@ -1,10 +1,10 @@
 ---
 title: "Notion AI complimentary responses"
-emoji: "🆓"
-description: "Everyone can try Notion AI features for free 🆓"
+emoji: null
+description: "Everyone can try Notion AI features for free."
 url: "https://www.notion.com/help/complimentary-ai-responses"
 key: "help:complimentary-ai-responses"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/3azIm1WHsAmc9tIr9UjdLe/86866684f53bf6b0b1da9ccdd810d7a8/Billing___payment_info_-_hero.png"
+coverImage: null
 category: "Notion AI security"
 categoryKey: "category:notion-ai-security"
 ---

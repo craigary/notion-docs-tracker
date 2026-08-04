@@ -1,7 +1,7 @@
 ---
 title: "Intro to databases"
-emoji: "🗃"
-description: "Databases in Notion are collections of pages. Here, we'll introduce you to the general structure of a database, walk you through the different menus and options, and deep dive into how to open and edit pages within a database. 🗃"
+emoji: null
+description: "Databases in Notion are collections of pages. Here, we'll introduce you to the general structure of a database, walk you through the different menus and options, and deep dive into how to open and edit pages within a database."
 url: "https://www.notion.com/help/intro-to-databases"
 key: "help:intro-to-databases"
 coverImage: "https://img.youtube.com/vi/Nx114VWepoI/maxresdefault.jpg"

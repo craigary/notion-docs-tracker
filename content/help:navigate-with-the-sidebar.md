@@ -1,7 +1,7 @@
 ---
 title: "Navigate with the sidebar"
-emoji: "🧭"
-description: "Notion's sidebar makes it easy to structure all the content in your workspace. Here's everything you need to know on how to organize, rearrange, and find your pages within the sidebar 🧭"
+emoji: null
+description: "Notion's sidebar makes it easy to structure all the content in your workspace. Here's everything you need to know on how to organize, rearrange, and find your pages within the sidebar."
 url: "https://www.notion.com/help/navigate-with-the-sidebar"
 key: "help:navigate-with-the-sidebar"
 coverImage: "https://img.youtube.com/vi/lSmgY5OsZmU/maxresdefault.jpg"

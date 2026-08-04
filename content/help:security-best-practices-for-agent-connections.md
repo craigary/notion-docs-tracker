@@ -1,10 +1,10 @@
 ---
 title: "Security best practices for Agent connections"
-emoji: "🔐"
-description: "Reduce risk when your Custom Agents use external connections. 🔐"
+emoji: null
+description: "Reduce risk when your Custom Agents use external connections."
 url: "https://www.notion.com/help/security-best-practices-for-agent-connections"
 key: "help:security-best-practices-for-agent-connections"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/2TfkrMQGhCZ5kn266Jabqm/d5c749448527ec10faab60cf6ce3990d/Group_181.png"
+coverImage: null
 category: "Privacy & security"
 categoryKey: "category:security-and-privacy"
 ---

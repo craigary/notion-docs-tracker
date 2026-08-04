@@ -1,10 +1,10 @@
 ---
 title: "How adding & removing members impacts billing"
-emoji: "👤"
-description: "Notion’s billing model looks at the number of members in your workspace. Learn how adding or removing members can impact your billing 👤"
+emoji: null
+description: "Notion’s billing model looks at the number of members in your workspace. Learn how adding or removing members can impact your billing."
 url: "https://www.notion.com/help/members-and-billing"
 key: "help:members-and-billing"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/ZPIpjGDflVkd9GQhac9Rx/d612b8bc3dab47f502d9d49d90618395/Tasks_and_depencenies.png"
+coverImage: null
 category: "Plans & billing"
 categoryKey: "category:plans-billing-and-payment"
 ---

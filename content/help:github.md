@@ -1,10 +1,10 @@
 ---
 title: "Connect GitHub"
-emoji: "🧮"
-description: "Connect Notion and GitHub so you can keep your workflows in sync 🧮"
+emoji: null
+description: "Connect Notion and GitHub so you can keep your workflows in sync."
 url: "https://www.notion.com/help/github"
 key: "help:github"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/6hWH8Qhv0JreyWyujm0AwU/e531399268bd8ad05b6dd7c380490829/GitHub.png"
+coverImage: null
 category: "Connections"
 categoryKey: "category:connections"
 ---

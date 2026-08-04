@@ -1,6 +1,6 @@
 ---
 title: "Link previews"
-emoji: "🔗"
+emoji: null
 description: "See live, synced visualizations of links from popular platforms right in your workspace — no need to switch between apps or lose context 🔗"
 url: "https://www.notion.com/help/link-previews"
 key: "help:link-previews"

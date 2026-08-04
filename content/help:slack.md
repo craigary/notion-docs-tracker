@@ -1,7 +1,7 @@
 ---
 title: "Integrate Slack"
-emoji: "💬"
-description: "Bring Notion and Slack together so your team can work better from anywhere 💬"
+emoji: null
+description: "Bring Notion and Slack together so your team can work better from anywhere."
 url: "https://www.notion.com/help/slack"
 key: "help:slack"
 coverImage: "https://img.youtube.com/vi/fdA1qqfV5v4/maxresdefault.jpg"

@@ -1,10 +1,10 @@
 ---
 title: "Gmail AI Connector"
 emoji: null
-description: null
+description: "Learn how to connect Gmail to Notion AI."
 url: "https://www.notion.com/help/notion-ai-connector-for-gmail"
 key: "help:notion-ai-connector-for-gmail"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/wulKPiF24CtxGfmNgzGVt/2f57b700663a6ba3c845ac842826175a/Gmail.png"
+coverImage: null
 category: "Notion AI Connectors"
 categoryKey: "category:notion-ai-connectors"
 ---

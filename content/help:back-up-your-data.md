@@ -1,10 +1,10 @@
 ---
 title: "Back up your data"
-emoji: "💿"
-description: "Your data is safe in Notion. Everything is stored in the cloud, and we keep per-minute backups of your page content on our server. That said, your data belongs to you, so we've made it easy to create your own backups and keep your information portable 💿"
+emoji: null
+description: "Your data is safe in Notion. Everything is stored in the cloud, and we keep per-minute backups of your page content on our server. That said, your data belongs to you, so we've made it easy to create your own backups and keep your information portable."
 url: "https://www.notion.com/help/back-up-your-data"
 key: "help:back-up-your-data"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/BO1C6zEIsWDPlWz6l6cfz/1ee39d1e040f6d10fa3c34ba512c7200/Back_up_your_data_-_hero.png"
+coverImage: null
 category: "Import & export your data"
 categoryKey: "category:import-export-and-integrate"
 ---
@@ -18,6 +18,8 @@ Learn more about our [privacy policy](https://www.notion.com/Terms-and-Privacy-2
 Your Notion data will always be backed up in the cloud, but you can also export it for safekeeping. You can export all your pages as HTML, Markdown, or CSV (for databases), along with any files you've uploaded, too.
 
 If you're on a Business or Enterprise Plan, you can also export your entire workspace to PDF, which can be helpful for legal and compliance backups.
+
+**Note**: The option to export workspace content as a PDF is going away. This change will be rolled out to workspaces gradually between now and August 31, 2026. You can still export workspace content as an HTML, Markdown, or CSV file, and export individual pages as a PDF.
 
 Pages that the exporter doesn't have access to, such as private pages of other users, will not be included in the export. Workspace admins on the Enterprise Plan can give themselves and others access to specific pages using content search, so that those pages can be included in future exports. Some content also may not be exported based on teamspace settings.
 

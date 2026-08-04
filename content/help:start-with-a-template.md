@@ -1,10 +1,10 @@
 ---
 title: "Start with a template"
-emoji: "💾"
-description: "To help you take on a variety of challenges with Notion, we've created lots of templates that you can adopt and customize as your own — including some starter templates already in your workspace! Here's how to use them 💾"
+emoji: null
+description: "To help you take on a variety of challenges with Notion, we've created lots of templates that you can adopt and customize as your own — including some starter templates already in your workspace! Here's how to use them."
 url: "https://www.notion.com/help/start-with-a-template"
 key: "help:start-with-a-template"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/4PkiBedDxxC7DpoFobdLKN/718f58bccc815944ad2a4b8858efcc50/Reference_visuals__1_.png"
+coverImage: null
 category: "Notion basics"
 categoryKey: "category:new-to-notion"
 ---

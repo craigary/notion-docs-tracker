@@ -1,10 +1,10 @@
 ---
 title: "Workspace settings"
-emoji: "🗝️"
-description: "When you sign up for Notion, you can create multiple workspaces connected to your account. Each one can be customized to your liking with workspace-specific settings. Here's how to manage every aspect of an individual workspace 🗝️"
+emoji: null
+description: "When you sign up for Notion, you can create multiple workspaces connected to your account. Each one can be customized to your liking with workspace-specific settings. Here's how to manage every aspect of an individual workspace."
 url: "https://www.notion.com/help/workspace-settings"
 key: "help:workspace-settings"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/36DSq2EcSv3Q9uUUnRXdMo/9f8e7900ef53569a84c8625097bcc271/Workspace_settings_-_hero.png"
+coverImage: null
 category: "Workspace settings"
 categoryKey: "category:meet-your-workspace"
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Code blocks"
-emoji: "🕹️"
+emoji: null
 description: "Code blocks are useful to demonstrate programming concepts, share code with other developers, or maintain your own library of code snippets. They also make it a breeze to copy any amount of code to your clipboard to use elsewhere 🕹️"
 url: "https://www.notion.com/help/code-blocks"
 key: "help:code-blocks"

@@ -3,7 +3,7 @@ title: "Administer your workspace"
 description: "Notion grows with your team – and some teams need a little bit more power in their feature set! See how you can use Business or Enterprise plan features to better manage your team’s Notion workspace."
 url: "https://www.notion.com/help/category/enterprise-admin"
 key: "category:enterprise-admin"
-coverImage: null
+coverImage: "https://images.ctfassets.net/spoqsaf9291f/2lKwICICVv9jnFRGGEPZC6/da3074f583c755650d86e615520d429c/Enterprise_Features-_Chapter_Hero.png"
 ---
 
 1 help:saml-sso-configuration
@@ -15,16 +15,27 @@ coverImage: null
 7 help:admin-content-search
 8 help:transfer-content-deprovisioned-user
 9 help:audit-log
-10 help:add-security-and-compliance-integrations
 10 help:workspace-analytics
-11 help:managed-users-dashboard
-11 help:enterprise-connection-settings
-12 help:custom-data-retention-settings
-12 help:deploy-notion-for-macos
-16 help:network-control
-17 help:manage-teamspaces
-18 help:ip-address-restrictions
-19 help:legal-holds
-20 help:organization-level-controls
+11 help:add-security-and-compliance-integrations
+12 help:managed-users-dashboard
+13 help:enterprise-connection-settings
+14 help:deploy-notion-for-macos
+15 help:custom-data-retention-settings
+16 help:remove-a-workspace-from-your-organization-or-contract
+17 help:ip-address-restrictions
+18 help:organization-level-controls
+19 help:deploy-notion-for-windows
+20 help:manage-teamspaces
 21 help:set-up-microsoft-intune-with-notion-ios-and-android
-22 help:deploy-notion-for-windows
+22 help:legal-holds
+23 help:network-control
+
+## Guides
+
+- [Who should be a workspace member, and who should be a guest? ](https://www.notion.com/help/guides/who-should-be-a-workspace-member-who-should-be-a-guest)
+
+- [Everything you need to know about setting up and managing an organization in Notion](https://www.notion.com/help/guides/everything-about-setting-up-and-managing-an-organization-in-notion)
+
+- [The ultimate quickstart guide to Notion for Enterprise](https://www.notion.com/help/guides/the-ultimate-quickstart-guide-to-notion-for-enterprise)
+
+- [How workspace owners can set up teamspaces for their organization](https://www.notion.com/help/guides/how-workspace-owners-can-set-up-teamspaces-for-their-organization)

@@ -1,10 +1,10 @@
 ---
 title: "Synced blocks"
-emoji: "🔄"
-description: "Notion allows you to sync content across pages or workspaces. This means more reusing and less manual editing 🔄"
+emoji: null
+description: "Notion allows you to sync content across pages or workspaces. This means more reusing and less manual editing."
 url: "https://www.notion.com/help/synced-blocks"
 key: "help:synced-blocks"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/5g6J6eAWFdTZYE8EYZy9l2/80f91e908fcca3e514059d9a7d870eef/Synced_blocks_-_hero.png"
+coverImage: null
 category: "Pages & blocks"
 categoryKey: "category:write-edit-and-customize"
 ---

@@ -1,10 +1,10 @@
 ---
 title: "Notion Calendar for teams"
-emoji: "👀"
-description: "No need to share calendars just to see someone’s schedule. With Notion Calendar, you can instantly find time to collaborate or connect 👀"
+emoji: null
+description: "No need to share calendars just to see someone’s schedule. With Notion Calendar, you can instantly find time to collaborate or connect."
 url: "https://www.notion.com/help/notion-calendar-for-teams"
 key: "help:notion-calendar-for-teams"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/4pwlxC9LgVKJy3P0piC1eQ/16314583c879498467e650f665cd7817/notion-calendar-for-teams.png"
+coverImage: null
 category: "Notion Calendar"
 categoryKey: "category:notion-calendar"
 ---

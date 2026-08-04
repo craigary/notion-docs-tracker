@@ -1,10 +1,10 @@
 ---
 title: "Notion Sites availability & pricing"
-emoji: "➕"
-description: "Every workspace member can publish as many Notion Sites as they want, but depending on your plan, you may also have access to additional features ➕"
+emoji: null
+description: "Every workspace member can publish as many Notion Sites as they want, but depending on your plan, you may also have access to additional features."
 url: "https://www.notion.com/help/notion-sites-availability-and-pricing"
 key: "help:notion-sites-availability-and-pricing"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/5xi3RP9vhCopAxzLo6s1Wi/d289ff6227b0dd7c8f577d2bb405dfbc/Notion_Sites_Pricing.png"
+coverImage: null
 category: "Notion Sites"
 categoryKey: "category:notion-sites"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Links & backlinks"
-emoji: "🔗"
-description: "Notion makes it easy to link to all kinds of content in and outside of your workspace 🔗"
+emoji: null
+description: "Notion makes it easy to link to all kinds of content in and outside of your workspace."
 url: "https://www.notion.com/help/create-links-and-backlinks"
 key: "help:create-links-and-backlinks"
 coverImage: "https://img.youtube.com/vi/GPqNXoM_EJ8/maxresdefault.jpg"
@@ -79,27 +79,9 @@ You will only be able to see backlinks for pages you have access to. Other peopl
 
 ![Backlink private](https://images.ctfassets.net/spoqsaf9291f/4BCp2d71ugNUNq1vj0uhoe/d638a0fd1e246f8aa975d051f4c9a2ba/Backlink_private.png)
 
-## Customize backlinks
+## Backlinks display
 
-In any page, you can choose whether you want to show or hide backlinks.
-
-To customize backlinks and comments for a **non-database page**:
-
-1. Click the `•••` button at the top right of the page and select `Customize page`.
-
-2. Open the dropdown next to `Backlinks` and choose whether you want to `Always show` backlinks, `Show on hover` only, or turn them `Off`.
-
-3. Toggle on or off `Page discussions`.
-
-To customize backlinks and comments for a **database page**:
-
-1. Click `•••` at the top right of the page and select `Customize layout`.
-
-2. Click on the `Heading` module.
-
-3. Open the dropdown next to `Backlinks` and choose whether you want to `Always show` backlinks, `Show on hover` only, or turn them `Off`.
-
-4. Select `Apply to all pages` at the top of the page. Note that your backlink and comment customizations will apply to every page in the database you're in. Learn more about database layouts [here →](https://www.notion.com/help/layouts)
+Backlinks automatically appear above the page title and show on hover whenever a page has them. This is automatic. If a page has no backlinks, nothing appears.
 
 **Learn more**
 

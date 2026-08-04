@@ -1,10 +1,10 @@
 ---
 title: "Who’s who in a workspace"
-emoji: "👥"
-description: "Learn about the different kinds of people in a workspace 👥"
+emoji: null
+description: "Learn about the different kinds of people in a workspace."
 url: "https://www.notion.com/help/whos-who-in-a-workspace"
 key: "help:whos-who-in-a-workspace"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/3oRXIXEWN14ymuR87cirAN/241c9ea1fd897d13b916ff469d33c672/Who-s_Who_in_a_Workspace__1_.png"
+coverImage: null
 category: "Sharing & permissions"
 categoryKey: "category:sharing-and-collaboration"
 ---
@@ -13,7 +13,7 @@ A Notion workspace can have several types of users or roles:
 
 * Members
 
-* (Enterprise Plan only) Restricted members
+* Restricted members
 
 * Guests
 
@@ -37,7 +37,7 @@ On paid plans, you’ll pay for each member that’s added to the workspace.
 
 ## Restricted members
 
-**Note:** This feature is only available to users on the Enterprise Plan. Domain verification is not required to enable this feature.
+Domain verification is not required to enable this feature.
 
 Restricted members share many capabilities with regular workspace members — they can create private pages, use Notion AI (respecting restricted members’ permissions), log in with SSO, be added to permission groups, and more. **They also affect your billing in the same way as adding a workspace member.**
 

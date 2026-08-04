@@ -1,6 +1,6 @@
 ---
 title: "Embeds, bookmarks & link mentions"
-emoji: "🦾"
+emoji: null
 description: "You can embed virtually any online content within Notion pages — from video and audio players to Tweets, Loom videos, Invision mockups, and entire Miro boards. Enrich your Notion pages with other apps, PDFs, forms, and interactive maps 🦾"
 url: "https://www.notion.com/help/embed-and-connect-other-apps"
 key: "help:embed-and-connect-other-apps"
@@ -53,8 +53,6 @@ These can be added specifically from the `/` menu or by clicking `+` in the 
 ### Supported file types
 
 In Notion, you can embed:
-
-* HTML files
 
 * PDF files
 
@@ -170,7 +168,7 @@ You can embed a view-only Google Calendar into Notion if the Gmail address you u
 
 ### Integrate Slack
 
-**Looking for our Slack integration?&#x20;**[Click here!](https://www.notion.com/help/slack)
+**Looking for our Slack integration?&#x20;**[**Click here!**](https://www.notion.com/help/slack)
 
 ## Manage your connected apps
 

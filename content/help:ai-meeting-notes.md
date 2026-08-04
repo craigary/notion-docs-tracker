@@ -1,7 +1,7 @@
 ---
 title: "AI Meeting Notes (beta)"
-emoji: "🎙️"
-description: "Take detailed notes without needing to type alongside your meetings or video calls 🎙️"
+emoji: null
+description: "Take detailed notes without needing to type alongside your meetings or video calls. "
 url: "https://www.notion.com/help/ai-meeting-notes"
 key: "help:ai-meeting-notes"
 coverImage: "https://img.youtube.com/vi/f4ZYEZO3Sq0/maxresdefault.jpg"
@@ -33,13 +33,21 @@ Take meetings without missing a beat. Notion's AI Meeting Notes captures, summar
 
 [Get started](https://www.notion.com/signup?from=marketing\&pathname=ai-meeting-notes)
 
-AI Meeting Notes is available on the Notion app and browser. The Notion app provides the best experience, especially for video calls, because it captures all sides of the conversation using your system audio and mic. The browser is best suited for in-person conversations since it can only pick up audio from your microphone.
+AI Meeting Notes is available on the Notion app and browser. The Notion app provides the best experience, especially for video calls, because it captures all sides of the conversation using your system audio and mic. The browser is best suited for in-person conversations since it can only pick up audio from your microphone. <!-- -->You can also use AI Meeting Notes on the Notion mobile app, which records through your phone's microphone.
 
 If you're using this feature on your browser, a few things to note:
 
 * Only mic inputs will be transcribed. System audio won't be captured.
 
 * Audio from conferencing tools (Google Meet, Zoom, Microsoft Teams, etc) will not be captured if you are using headphones. If you’re not using headphones and your device’s volume isn’t too low, audio from conferencing tools may be captured.
+
+If you're using this feature on the Notion mobile app, a few things to note:
+
+* Notion only transcribes the sound your phone's microphone picks up. It can't capture audio playing from your phone itself, like other participants' voices on a video call.
+
+* Because of this, mobile works best for in-person meetings. It also works well when the meeting audio plays out loud from another device, like your computer's speaker.
+
+* If you join a video call on your phone and listen through headphones or earbuds, Notion won't hear or transcribe the other participants.
 
 ## Start AI Meeting Notes
 
@@ -363,7 +371,7 @@ You can hover over an upcoming meeting and:
 
 * Only events tied to your Notion workspace email will appear in `Upcoming meetings`.
 
-* If your [Upcoming events](https://www.notion.com/help/home-and-my-tasks#upcoming-events) in `Home` is set to `Mirror calendar app`, note that any calendars you’ve hidden in Notion Calendar will also not be reflected in the `Meetings` tab.
+* If your [`Upcoming events` widget](https://www.notion.com/help/home-and-my-tasks#upcoming-events) in `Home` is set to `Mirror calendar app`, note that any calendars you’ve hidden in Notion Calendar will also not be reflected in the `Meetings` tab.
 
 ### AI Meeting Notes list view
 
@@ -480,7 +488,7 @@ AI Meeting Notes requires at least 300 transcribed characters—roughly one minu
 
 ### How do I ensure all parties have provided consent?
 
-We recommend you obtain consent from all meeting participants before you start using AI Meeting Notes. While this step is currently manual, we're actively working on building in-product automation to make the process seamless in the future.
+We recommend you obtain consent from all meeting participants before you start using AI Meeting Notes. See [here](https://www.notion.com/help/ai-meeting-notes#consent-message) for some ways you can obtain consent.
 
 
 ### Who can access the transcription, notes, and summary from an AI Meeting Notes block?

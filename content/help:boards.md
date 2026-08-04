@@ -1,7 +1,7 @@
 ---
 title: "Board view"
-emoji: "📋"
-description: "Boards are helpful for showing items in a database as they move through stages of a process, or grouped by property 📋"
+emoji: null
+description: "Boards are helpful for showing items in a database as they move through stages of a process, or grouped by property."
 url: "https://www.notion.com/help/boards"
 key: "help:boards"
 coverImage: "https://img.youtube.com/vi/_efKZce3eDY/maxresdefault.jpg"

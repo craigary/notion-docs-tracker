@@ -1,13 +1,15 @@
 ---
 title: "Compose an email"
-emoji: "✍🏼"
-description: "Write beautiful emails using the same Notion blocks that you know and love ✍🏼"
+emoji: null
+description: "Write beautiful emails using the same Notion blocks that you know and love."
 url: "https://www.notion.com/help/compose-an-email"
 key: "help:compose-an-email"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/7enEXowVQj3ogFpfFSwtIY/ad41b81faf6f6b3ce3cb691e0f2f08a6/Email_Composition_Reference.png"
+coverImage: null
 category: "Notion Mail"
 categoryKey: "category:notion-mail"
 ---
+
+Notion Mail is shutting down on September 22, 2026. [Learn what's changing and how to save your data →](http://notion.com/help/notion-mail-inbox-is-going-away-what-to-do-next)
 
 To compose an email, click 📝 at the top of your Notion Mail sidebar.
 

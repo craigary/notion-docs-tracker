@@ -1,10 +1,10 @@
 ---
 title: "Custom Agents sharing and permissions"
-emoji: "🤖"
-description: "Learn how Custom Agent permissions work in Notion, and why they differ from Notion AI 🤖"
+emoji: null
+description: "Learn how Custom Agent permissions work in Notion, and why they differ from Notion AI."
 url: "https://www.notion.com/help/custom-agents-sharing-and-permissions"
 key: "help:custom-agents-sharing-and-permissions"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/136G6jgrCreFy3jLeY0C62/785595f51b4785d6a9baf9bf330d1f6c/custom_agents__1_.png"
+coverImage: null
 category: "Custom Agents"
 categoryKey: "category:custom-agents"
 ---

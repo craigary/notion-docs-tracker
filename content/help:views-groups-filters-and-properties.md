@@ -1,13 +1,15 @@
 ---
 title: "Views, groups, filters & properties"
-emoji: "🗄️"
-description: "Use views and custom properties to organize your emails in a meaningful way 🗄️"
+emoji: null
+description: "Use views and custom properties to organize your emails in a meaningful way."
 url: "https://www.notion.com/help/views-groups-filters-and-properties"
 key: "help:views-groups-filters-and-properties"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/A9kcNgL1sqz7TnmLnUDli/6208fe066446f522d4a3a00eabdde7b9/Reference_Visuals_Filters_and_Properties.png"
+coverImage: null
 category: "Notion Mail"
 categoryKey: "category:notion-mail"
 ---
+
+Notion Mail is shutting down on September 22, 2026. [Learn what's changing and how to save your data →](http://notion.com/help/notion-mail-inbox-is-going-away-what-to-do-next)
 
 ## Views
 

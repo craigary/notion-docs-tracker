@@ -1,6 +1,6 @@
 ---
 title: "Keyboard shortcuts"
-emoji: "⌨️"
+emoji: null
 description: "Notion is fully equipped with keyboard and Markdown shortcuts so you can do everything you need without ever touching your mouse ⌨️"
 url: "https://www.notion.com/help/keyboard-shortcuts"
 key: "help:keyboard-shortcuts"

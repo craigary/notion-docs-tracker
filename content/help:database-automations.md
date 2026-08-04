@@ -1,7 +1,7 @@
 ---
 title: "Database automations"
-emoji: "🔁"
-description: "Improve your efficiency by automating the most tedious parts of your work 🔁"
+emoji: null
+description: "Improve your efficiency by automating the most tedious parts of your work."
 url: "https://www.notion.com/help/database-automations"
 key: "help:database-automations"
 coverImage: "https://img.youtube.com/vi/55zNDdiEZRg/maxresdefault.jpg"

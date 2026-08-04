@@ -1,10 +1,10 @@
 ---
 title: "GitHub AI Connector"
-emoji: "🤖"
-description: "Learn how to unlock your GitHub knowledge in Notion AI 🤖"
+emoji: null
+description: "Learn how to unlock your GitHub knowledge in Notion AI."
 url: "https://www.notion.com/help/notion-ai-connector-for-github"
 key: "help:notion-ai-connector-for-github"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/53kYM8iHg8JMkNM7uFq5DD/9446c583210cf8e1a1e3f72ebf1bcf0e/Connectors_for_GitHub__1_.png"
+coverImage: null
 category: "Notion AI Connectors"
 categoryKey: "category:notion-ai-connectors"
 ---

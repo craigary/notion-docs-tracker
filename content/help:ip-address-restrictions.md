@@ -1,10 +1,10 @@
 ---
 title: "IP address restrictions"
-emoji: "🔒"
-description: "Enterprise organization owners can restrict login to specific IP addresses 🔒"
+emoji: null
+description: "Enterprise organization owners can restrict login to specific IP addresses."
 url: "https://www.notion.com/help/ip-address-restrictions"
 key: "help:ip-address-restrictions"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/5StPeXrRtUwpJVSJprYDWk/54461e2b82a6026fec33cd0574ed5c3e/Reference_Visuals_Group_163.png"
+coverImage: null
 category: "Administer your workspace"
 categoryKey: "category:enterprise-admin"
 ---

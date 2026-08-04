@@ -1,7 +1,7 @@
 ---
 title: "Set up Microsoft Intune with Notion (iOS and Android)"
-emoji: "📲"
-description: "Set up Intune to manage Notion on iOS and Android mobile devices 📲"
+emoji: null
+description: "Set up Intune to manage Notion on iOS and Android mobile devices."
 url: "https://www.notion.com/help/set-up-microsoft-intune-with-notion-ios-and-android"
 key: "help:set-up-microsoft-intune-with-notion-ios-and-android"
 coverImage: null

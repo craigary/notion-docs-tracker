@@ -1,10 +1,10 @@
 ---
 title: "Add security & compliance connections"
-emoji: "🔐"
-description: "Learn how to add security and compliance connections to your workspace 🔐"
+emoji: null
+description: "Learn how to add security and compliance connections to your workspace."
 url: "https://www.notion.com/help/add-security-and-compliance-integrations"
 key: "help:add-security-and-compliance-integrations"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/4cBManwE4Muz3k8Qek1Vda/e6c35d9ee50fdc54634d422cbe277453/add-security-and-compliance-integrations.png"
+coverImage: null
 category: "Administer your workspace"
 categoryKey: "category:enterprise-admin"
 ---
@@ -13,9 +13,9 @@ Only Enterprise workspace owners can install workspace-wide security and complia
 
 1. Go to `Settings` → `Connections`.
 
-2. Open the `Workspace` tab.
+2. Sort by the security and compliance type you’re looking for.
 
-## Prerequisites for adding security and compliance connections
+## Prerequisites for adding security & compliance connections
 
 * Your workspace must be on an Enterprise Plan.
 
@@ -143,6 +143,50 @@ To set up most of this connection, you will need to manually provide a webhook U
 
 * Sumo Logic: Enter the HTTP Event Collector (HEC) URL in the `Webhook URL` field. A token is required.
 
+## Custom SIEM integration
+
+If your SIEM platform isn't listed above, you can use Notion's custom SIEM integration to stream audit log events to any SIEM endpoint via a custom webhook.
+
+The custom SIEM integration sends the same audit log events as the partner integrations, delivered in real time as JSON payloads to the webhook URL you configure.
+
+Custom SIEM does not support custom ports for HTTP or HTTPS traffic, and it does not support self-signed SSL certificates.
+
+### Set up the custom SIEM integration
+
+To set up the custom SIEM integration:
+
+1. Open the workspace switcher and select the `Settings` button.
+
+2. Go to the `Connections` tab and select `Custom SIEM integration`. You may need to use the search bar or filter to `See all` for this option to appear.
+
+3. Select `Connect`, then enter your webhook URL in the `Webhook URL` field. You can find this URL in your SIEM platform's settings.
+
+4. Select `Connect` to finish. All audit log events will now be sent to your endpoint in real-time as JSON payloads.
+
+### What to know about the custom SIEM integration
+
+* **All audit log event types** are included — the same events available in your Notion audit log are sent to your SIEM endpoint.
+
+* **Real-time delivery** — events are sent as they occur.
+
+* **Single webhook per workspace** — you can only configure one custom SIEM webhook per workspace at a time.
+
+* **Retry behavior** — if your endpoint fails to receive an event, Notion will retry up to seven times over approximately 24 hours.
+
+* **No page content** — event payloads include metadata about actions (who did what and when), but do not include the content of pages.
+
+* **No syslog support** — the custom SIEM integration uses webhooks only; syslog is not supported.
+
+### Disconnect the custom SIEM integration
+
+To disconnect the custom SIEM integration:
+
+1. Go to `Settings` → `Connections` → `Workspace` tab.
+
+2. Choose `Manage` → `All connections`.
+
+3. Find the Custom SIEM integration connection and select `•••` → `Disconnect`.
+
 ## Available SIEM events
 
 Below is a comprehensive list of webhook events that will be available in your SIEM platform once you set up the Notion SIEM connection. All events available in your SIEM platform will correspond to an audit log event. The glossary will help you understand the specific events that are being tracked and how they relate to your organization's security posture. Use this information to fine-tune your dashboards, alerts, and incident management processes.
@@ -191,9 +235,9 @@ For page events, the page audience describes the visibility level of the target 
 
 * **workspace.domain\_management.transfer\_request\_status\_updated**: A transfer request for a workspace created by a user with a verified domain was updated. (See [this article](https://www.notion.com/help/domain-management) for more information.)
 
-* **workspace.external\_account\_connected**: <!-- -->A public/external integration was connected to the workspace.
+* **workspace.external\_account\_connected**: A public/external integration was connected to the workspace.
 
-* **workspace.external\_account\_disconnected**: <!-- -->A public/external integration was disconnected from the workspace, or a workspace owner removed access to a public integration for all users in the workspace.
+* **workspace.external\_account\_disconnected**: A public/external integration was disconnected from the workspace, or a workspace owner removed access to a public integration for all users in the workspace.
 
 * **workspace.group.permissions.member\_added**: A workspace owner or membership admin added a new member to a group. A group is a defined collection of workspace members.
 
@@ -201,7 +245,7 @@ For page events, the page audience describes the visibility level of the target 
 
 * **workspace.integration\_added**: An integration was added to the workspace for the first time. This event will only be emitted the first time an integration is added to a workspace.
 
-* **workspace.integration\_removed**: <!-- -->All bots for a specific public integration were removed from the workspace.
+* **workspace.integration\_removed**: All bots for a specific public integration were removed from the workspace.
 
 * **workspace.members\_exported**: A list of workspace members was exported.
 
@@ -323,9 +367,9 @@ For page events, the page audience describes the visibility level of the target 
 
 * **page.permissions.integration\_role\_added:&#x20;**&#x41; user added an integration to a page. Integrations of any type — internal or public/external — will trigger this event.
 
-* **page.permissions.integration\_role\_removed**:<!-- --> A user removed the page permissions for an integration (or “connection”), which will restrict the integration from having access to the page. Integrations of any type — internal or public/external — will trigger this event.
+* **page.permissions.integration\_role\_removed**: A user removed the page permissions for an integration (or “connection”), which will restrict the integration from having access to the page. Integrations of any type — internal or public/external — will trigger this event.
 
-* **page.permissions.integration\_role\_updated**:<!-- --> A user updated the page permissions of a connection (or “connection”). Connections of any type — internal or public/external — will trigger this event.
+* **page.permissions.integration\_role\_updated**: A user updated the page permissions of a connection (or “connection”). Connections of any type — internal or public/external — will trigger this event.
 
 * **page.permissions.member\_role\_added**: A member’s page permissions were added, which will allow them to access the page.
 
@@ -357,11 +401,11 @@ For page events, the page audience describes the visibility level of the target 
 
 **Workspace events**
 
-* **integration.created**: <!-- -->A developer created an internal integration and associated it with the workspace.
+* **integration.created**: A developer created an internal integration and associated it with the workspace.
 
-* **integration.deleted**: <!-- -->An internal integration associated with the workspace was deleted. Deletions can occur in the My Integrations dashboard, or an admin can remove access to an internal integration for all users.
+* **integration.deleted**: An internal integration associated with the workspace was deleted. Deletions can occur in the My Integrations dashboard, or an admin can remove access to an internal integration for all users.
 
-* **integration.secret\_reset**: An internal integration’s installation access token was reset (or “refreshed”).<!-- -->.
+* **integration.secret\_reset**: An internal integration’s installation access token was reset (or “refreshed”)..
 
 ## Compliance partner connections
 

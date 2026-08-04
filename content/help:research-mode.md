@@ -1,10 +1,10 @@
 ---
 title: "Research Mode"
-emoji: "🧪"
-description: "Research Mode dives deep into topics you want to explore 🧪"
+emoji: null
+description: "Research Mode dives deep into topics you want to explore."
 url: "https://www.notion.com/help/research-mode"
 key: "help:research-mode"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/t2J7O9PqxclvM9udGFoEZ/07cdec4a35aa78bf98d6b8a361378d1b/Reference_Visuals_Research_Mode.png"
+coverImage: null
 category: "Notion AI"
 categoryKey: "category:notion-ai"
 ---

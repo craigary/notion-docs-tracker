@@ -1,10 +1,10 @@
 ---
 title: "Export your content"
-emoji: "📤"
-description: "Need to share your content in PDF, CSV, or HTML format? We got you covered! You can export a Notion page, database, or entire workspace at any time 📤"
+emoji: null
+description: "Need to share your content in PDF, CSV, or HTML format? We got you covered! You can export a Notion page, database, or entire workspace at any time."
 url: "https://www.notion.com/help/export-your-content"
 key: "help:export-your-content"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/5QYAa7i9G378hb10RlJJAZ/e2de536ed651244ac2394a5ce1d5b39d/Export_your_content_-_hero.png"
+coverImage: null
 category: "Import & export your data"
 categoryKey: "category:import-export-and-integrate"
 ---
@@ -168,6 +168,8 @@ There is no way to print directly from the Notion desktop app. You'll need to ex
 Your Notion data will always be backed up in the cloud, but you can also export it for safekeeping. You can export all your pages as HTML, Markdown, or CSV (for databases), along with any files you've uploaded, too.
 
 If you're on a Business or Enterprise Plan, you can also export your entire workspace to PDF, which can be helpful for legal and compliance backups.
+
+**Note**: The option to export workspace content as a PDF is going away. This change will be rolled out to workspaces gradually between now and August 31, 2026. You can still export workspace content as an HTML, Markdown, or CSV file, and export individual pages as a PDF.
 
 Pages that the exporter doesn't have access to, such as private pages of other users, will not be included in the export. Workspace admins on the Enterprise Plan can give themselves and others access to specific pages using content search, so that those pages can be included in future exports. Some content also may not be exported based on teamspace settings.
 

@@ -1,10 +1,10 @@
 ---
 title: "I can’t upload or view a file"
 emoji: null
-description: null
+description: "Learn why images, videos, and audio files fail to load in Notion, and how to fix them."
 url: "https://www.notion.com/help/cant-upload-or-view-a-file"
 key: "help:cant-upload-or-view-a-file"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/15MnehxCRUUA3LITX21Lar/7c80798bd5cce07c4b492cb6543419c7/Troubleshooting_Reference_Visuals.png"
+coverImage: null
 category: "Troubleshoot"
 categoryKey: "category:troubleshooting"
 ---

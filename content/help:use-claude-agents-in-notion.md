@@ -1,41 +1,45 @@
 ---
 title: "Use Claude agents in Notion (beta)"
-emoji: "🖇️"
-description: "Learn about what Claude Agents can do in Notion, how to set one up, and how permissions work 🖇️"
+emoji: null
+description: "Learn about what Claude agents can do in Notion, how to set one up, and how permissions work."
 url: "https://www.notion.com/help/use-claude-agents-in-notion"
 key: "help:use-claude-agents-in-notion"
-coverImage: null
+coverImage: "https://img.youtube.com/vi/CF71b7sq0lI/maxresdefault.jpg"
 category: "External Agents"
 categoryKey: "category:external-agents"
 ---
 
-**Note:** Claude Agents in Notion is currently in beta and subject to the beta terms of your agreement.
+**Note:** Claude agents in Notion is currently in beta and subject to the beta terms of your agreement.
 
-Claude Agents keep your workflow inside Notion, while Anthropic runs the agent behind the scenes. You get Claude’s coding and file-editing strengths, plus Notion as the place where your team collaborates. This lets you chat with Claude Agents directly in Notion, delegate work, and see results without switching apps.
+Claude agents keep your workflow inside Notion, while Anthropic runs the agent behind the scenes. You get Claude’s coding and file-editing strengths, plus Notion as the place where your team collaborates. This lets you chat with Claude agents directly in Notion, delegate work, and see results without switching apps.
 
-## Who can use Claude Agents
+## Who can use Claude agents
 
-* Claude Agents in Notion is available on Business and Enterprise plans.
+* Claude agents in Notion is available on Business and Enterprise plans.
 
-* For Enterprise and HIPAA workspaces: Claude agents are turned off by default. A workspace owner needs to turn them on in `Settings` → `Notion AI` → `Agent` → `Manage external agent providers`.
+* For Enterprise and HIPAA workspaces: Claude agents are turned off by default. A workspace owner needs to turn them on in `Settings` → `Notion AI` → `Agent` → `Manage external agents`.
 
 * We're rolling this out gradually, so you might not see it right away.
 
 ## What to know before you start
 
-* Claude Agents are hosted by Notion via Anthropic's infrastructure.
+* Claude agents are hosted by Notion via Anthropic's infrastructure.
 
 * No Anthropic account is required (using your own Anthropic account isn’t possible).
 
 ## How billing works
 
-Claude Agent runs through [Notion credits](http://www.notion.com/help/notion-credits), which are charged per run.
+Claude agents run through Notion credits, which are charged per run. <!-- -->You don't need an Anthropic account or API key.
 
-## What Claude Agents can do in Notion
+Notion prices credits the same as [Custom Agents](https://www.notion.com/help/buy-and-track-notion-credits-for-custom-agents#how-custom-agents-use-credits). Tasks with more steps, more reading, or more tool use cost more credits.
 
-What Claude Agents can do depends on what your workspace allows.
+[Learn more about Notion credits →](https://www.notion.com/help/category/notion-credits)
 
-Claude Agents can:
+## What Claude agents can do in Notion
+
+What Claude agents can do depends on what your workspace allows.
+
+Claude agents can:
 
 * Chat with you and your teammates in Notion to answer questions and coordinate work.
 
@@ -45,13 +49,13 @@ Claude Agents can:
 
 * See only what you share with them. If an agent can’t see or edit something, it usually means the agent doesn’t have access.
 
-## What Claude Agents can't do
+## What Claude agents can't do
 
 * Browse the web.
 
 * Call other agents during a session.
 
-## Set up a Claude Agent
+## Set up a Claude agent
 
 1. In Notion, go to `Agents` in the sidebar → `New Agent` → `Claude`.
 
@@ -59,15 +63,15 @@ Claude Agents can:
 
    * **Start with a default template:** Use a template for common tasks like coding. Some templates connect to GitHub using your personal access token.
 
-   * **Start from scratch:&#x20;**&#x42;uild your own Claude Agent, then set up its instructions, triggers, and connections yourself.
+   * **Start from scratch:&#x20;**&#x42;uild your own Claude agent, then set up its instructions, triggers, and connections yourself.
 
 3. Set up how the agent runs. [Learn about triggers and schedules →](https://www.notion.com/help/custom-agents#configure-triggers-and-schedules)
 
 ## How permissions work
 
-* Claude Agents can only see what you share with them. Permissions are set per agent and aren’t inherited from whoever starts a run.
+* Claude agents can only see what you share with them. Permissions are set per agent and aren’t inherited from whoever starts a run.
 
-* Claude Agent permissions work the same way as Custom Agents. [Learn how agent permissions work →](https://www.notion.com/help/custom-agents-sharing-and-permissions#how-custom-agent-permissions-work)
+* Claude agent permissions work the same way as Custom Agents. [Learn how agent permissions work →](https://www.notion.com/help/custom-agents-sharing-and-permissions#how-custom-agent-permissions-work)
 
 * You can give different groups different levels of access. This includes can view and interact, can edit, or full access. [Learn more about access →](https://www.notion.com/help/custom-agents-sharing-and-permissions#who-can-access-your-custom-agent-and-its-resources)
 
@@ -75,9 +79,9 @@ If something isn't working, check what the agent is shared on and what level of 
 
 ## Workspace admin controls
 
-Workspace admins can switch off Claude Agents by going to `Settings` → `Notion AI` → `Agents` → `Manage external agent providers`.
+Workspace admins can switch off Claude agents by going to `Settings` → `Notion AI` → `Agents` → `Manage external agents`.
 
-Claude Agents are off by default for Enterprise accounts, HIPAA workspaces, and other workspaces with model restrictions.
+Claude agents are off by default for Enterprise accounts, HIPAA workspaces, and other workspaces with model restrictions.
 
 ## If something isn’t working
 
@@ -96,12 +100,12 @@ Try these steps in order:
 
 ### Is this the same as Notion Custom Agents?
 
-No. Custom Agents are built and run entirely in Notion. Claude Agents run on Claude's systems, but you interact with them in Notion.
+No. Custom Agents are built and run entirely in Notion. Claude agents run on Claude's systems, but you interact with them in Notion.
 
 
-### How does billing work? Do Claude Agents cost Notion credits?
+### How does billing work? Do Claude agents cost Notion credits?
 
-Yes. Claude Agents run on Notion credits and are hosted in Notion, giving you a ready-to-use partner agent that can work inside your workspace. Teams can assign work, review progress, and take action in one place. Notion also handles provider access, keys, and infrastructure so you don’t have to set that up or maintain it with enterprise-grade permissions and controls.
+Yes. Claude agents run on Notion credits and are hosted in Notion, giving you a ready-to-use partner agent that can work inside your workspace. Teams can assign work, review progress, and take action in one place. Notion also handles provider access, keys, and infrastructure so you don’t have to set that up or maintain it with enterprise-grade permissions and controls.
 
 [Learn more about how Notion credits work →](https://www.notion.com/help/custom-agent-pricing#what-are-notion-credits)
 
@@ -111,19 +115,19 @@ Yes. Claude Agents run on Notion credits and are hosted in Notion, giving you a 
 No. Claude usage runs through Notion credits. Using your own Anthropic account isn’t possible.
 
 
-### Where can I view my Claude Agent activity in Notion?
+### Where can I view my Claude agent activity in Notion?
 
-Claude sessions appear in Agent Activity and on the page or task where the agent runs. You can also view credit usage in the Notion credits dashboard and in the Insights section of each Claude Agent.
-
-
-### Do Claude Agents support zero data retention (ZDR)?
-
-No. Notion's zero data retention commitments don’t extend to Claude Agents in Notion. Claude Agents are implemented via Claude Managed Agents (CMA), which is stateful by design and not eligible for zero data retention. Anthropic stores session data between requests to power the functionality. [Learn more about CMA data retention →](https://platform.claude.com/docs/en/managed-agents/overview#beta-access)
+Claude sessions appear in Agent Activity and on the page or task where the agent runs. You can also view credit usage in the Notion credits dashboard and in the Insights section of each Claude agent.
 
 
-### How do I manage permissions and access for Claude Agents?
+### Do Claude agents support zero data retention (ZDR)?
 
-A workspace owner needs to switch on Claude Agents (this is off by default for Enterprise accounts). Each agent can only access content that’s been shared with it. Permissions are set at the agent level and are not inherited from whoever starts a run.
+No. Notion's zero data retention commitments don’t extend to Claude agents in Notion. Claude agents are implemented via Claude Managed Agents (CMA), which is stateful by design and not eligible for zero data retention. Anthropic stores session data between requests to power the functionality. [Learn more about CMA data retention →](https://platform.claude.com/docs/en/managed-agents/overview#beta-access)
+
+
+### How do I manage permissions and access for Claude agents?
+
+A workspace owner needs to switch on Claude agents (this is off by default for Enterprise accounts). Each agent can only access content that’s been shared with it. Permissions are set at the agent level and are not inherited from whoever starts a run.
 
 
 ### Is this the same as using Claude with MCP?

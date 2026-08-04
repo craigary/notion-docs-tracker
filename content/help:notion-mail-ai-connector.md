@@ -1,15 +1,19 @@
 ---
 title: "Notion Mail AI Connector (beta)"
-emoji: "📮"
-description: "Anyone on any Notion plan can connect Notion Mail to Notion AI 📮"
+emoji: null
+description: "Anyone on any Notion plan can connect Notion Mail to Notion AI."
 url: "https://www.notion.com/help/notion-mail-ai-connector"
 key: "help:notion-mail-ai-connector"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/2SBfsPfdWN8oF5X5akzwxx/a4a1fbccc03420ee52f5d24846334b97/Notion_Mail_Logo__1_.png"
+coverImage: null
 category: "Notion AI Connectors"
 categoryKey: "category:notion-ai-connectors"
 ---
 
-**Note:** The Notion Mail AI Connector is currently in beta and subject to the beta terms of your agreement.
+**Note:**
+
+* The Notion Mail AI Connector is currently in beta and subject to the beta terms of your agreement.
+
+* Notion Mail is shutting down on September 22, 2026. This connector, which gives Notion AI access to your Gmail inbox, is not going away. [Learn what's changing →](http://notion.com/help/notion-mail-inbox-is-going-away-what-to-do-next)
 
 ## Connect Notion Mail to Notion AI
 

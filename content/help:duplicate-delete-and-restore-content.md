@@ -1,10 +1,10 @@
 ---
 title: "Delete & restore content"
-emoji: "🖇"
-description: "Any content you add to Notion can be duplicated or deleted with a couple clicks, whether that's an image, embed, page, or database. And if you ever get rid of content and need to get that work back — we got you covered on that too 🖇"
+emoji: null
+description: "Any content you add to Notion can be duplicated or deleted with a couple clicks, whether that's an image, embed, page, or database. And if you ever get rid of content and need to get that work back — we got you covered on that too."
 url: "https://www.notion.com/help/duplicate-delete-and-restore-content"
 key: "help:duplicate-delete-and-restore-content"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/5XsHBVSvFNV4WhspE3hEPE/eab3710350a5e46fa5101d4a2151e3ac/Duplicate__delete___restore_content_-_hero.png"
+coverImage: null
 category: "Pages & blocks"
 categoryKey: "category:write-edit-and-customize"
 ---

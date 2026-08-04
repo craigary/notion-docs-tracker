@@ -1,7 +1,7 @@
 ---
 title: "Manage members & guests"
-emoji: "💌"
-description: "It's easy to work with others in Notion. Add members to collaborate with you in your workspace, or invite guests to view, comment on, or edit specific pages 💌"
+emoji: null
+description: "It's easy to work with others in Notion. Add members to collaborate with you in your workspace, or invite guests to view, comment on, or edit specific pages."
 url: "https://www.notion.com/help/add-members-admins-guests-and-groups"
 key: "help:add-members-admins-guests-and-groups"
 coverImage: "https://img.youtube.com/vi/2DNoq4dmmh8/maxresdefault.jpg"

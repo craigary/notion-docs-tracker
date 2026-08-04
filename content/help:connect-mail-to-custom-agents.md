@@ -1,41 +1,39 @@
 ---
 title: "Connect Mail to Custom Agents"
-emoji: "📬"
-description: "Automate your email workflows without ever leaving Notion 📬"
+emoji: null
+description: "Automate your email workflows without ever leaving Notion."
 url: "https://www.notion.com/help/connect-mail-to-custom-agents"
 key: "help:connect-mail-to-custom-agents"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/3nDcdnr55ZxnKwDqmQurY0/38cbd9f8fb3c89437466706b9936697f/mail_in_custom_agents__1_.png"
+coverImage: null
 category: "Custom Agents"
 categoryKey: "category:custom-agents"
 ---
 
 Custom Agents can connect to Mail to automate email workflows. Once connected, agents can read, organize, draft, and send emails on your behalf through automated triggers or by chatting with the agent directly.
 
-Mail connections work with Gmail or Notion Mail. Using Notion Mail is not required to make use of the Mail connection capabilities.
+Mail connections work with <!-- -->Gmail, Notion Mail, or Outlook. Using Notion Mail isn’t required to use the Mail connection.
 
 The Mail connection for Custom Agents is available on any plan with access to Custom Agents.
 
 ## What your Custom Agent can do with Mail
 
-The below actions are supported in both Notion Mail and Gmail:
-
-|                          |                                               |
-| ------------------------ | --------------------------------------------- |
-| **Action**               | **What it does**                              |
-| Search                   | Find specific emails in your inbox            |
-| Archive                  | Archive emails to clean up your inbox         |
-| Star                     | Mark important emails with a star             |
-| Trash                    | Delete unwanted emails                        |
-| Manage labels            | Create, apply, or remove labels               |
-| Unsubscribe              | Unsubscribe from mailing lists                |
-| Block and unblock sender | Block and unblock specific email addresses    |
-| Write                    | Draft new emails or replies                   |
-| Send                     | Send emails from your account                 |
-| Manage filters           | List, create filters via chatting with agents |
+|                             |                                               |
+| --------------------------- | --------------------------------------------- |
+| **Action**                  | **What it does**                              |
+| Search                      | Find specific emails in your inbox            |
+| Archive                     | Archive emails to clean up your inbox         |
+| Star or Flag                | Mark important emails with a star or flag     |
+| Trash                       | Delete unwanted emails                        |
+| Manage labels or categories | Create, apply, or remove labels or categories |
+| Unsubscribe                 | Unsubscribe from mailing lists                |
+| Block and unblock sender    | Block and unblock specific email addresses    |
+| Write                       | Draft new emails or replies                   |
+| Send                        | Send emails from your account                 |
+| Manage filters              | List, create filters via chatting with agents |
 
 #### **Notion Mail-only actions**
 
-The below actions are supported ***only*** if using Notion Mail:
+The below actions are supported **only** if using Notion Mail:
 
 |                             |                                                |
 | --------------------------- | ---------------------------------------------- |
@@ -142,6 +140,8 @@ If you can’t find Mail in Tools & Access, Mail disconnects, or your agent says
 
 * Disconnect and reconnect the Mail connection, then refresh Notion.
 
+* Confirm you've saved after updating any settings.
+
 **Trigger errors**
 
 If your agent isn’t running when email is received, is running multiple times, or can’t access email content:
@@ -162,7 +162,9 @@ Yes, if you give it the **send** permission and include sending in your instruct
 
 ### Which email providers work with this connection?
 
-Mail connections work with Gmail or Notion Mail. Using Notion Mail is not required to make use of the Mail connection capabilities.
+Mail connections work with Notion Mail, Gmail or Outlook.
+
+Using Notion Mail is not required to make use of the Mail connection capabilities.
 
 
 ### Do Custom Agents have access to all my emails?

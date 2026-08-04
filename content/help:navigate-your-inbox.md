@@ -1,13 +1,15 @@
 ---
 title: "Navigate your inbox"
-emoji: "📥"
-description: "Let’s explore the various parts of your Notion Mail inbox 📥"
+emoji: null
+description: "Let’s explore the various parts of your Notion Mail inbox."
 url: "https://www.notion.com/help/navigate-your-inbox"
 key: "help:navigate-your-inbox"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/3ojZB2EmiOt2DYckXZj1sd/adb2cda7abd31e8af4d0a2ba96284d97/Navigate_Your_Inbox__1_.png"
+coverImage: null
 category: "Notion Mail"
 categoryKey: "category:notion-mail"
 ---
+
+Notion Mail is shutting down on September 22, 2026. [Learn what's changing and how to save your data →](http://notion.com/help/notion-mail-inbox-is-going-away-what-to-do-next)
 
 ## Sidebar
 

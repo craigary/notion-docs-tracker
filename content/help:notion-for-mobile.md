@@ -1,13 +1,17 @@
 ---
 title: "Notion for mobile"
-emoji: "🤳"
-description: "You can download Notion on your iOS or Android device for easy access on the go. Read, edit and comment on any of your Notion content from the mobile app 🤳"
+emoji: null
+description: "You can download Notion on your iOS or Android device for easy access on the go. Read, edit and comment on any of your Notion content from the mobile app."
 url: "https://www.notion.com/help/notion-for-mobile"
 key: "help:notion-for-mobile"
 coverImage: null
 category: "Notion on desktop, web, & mobile"
 categoryKey: "category:notion-apps"
 ---
+
+Looking for the Notion Agents app?
+
+It’s separate from the Notion app, and it’s built for chat and on-the-go AI tasks on your phone. [Learn how to get started with the Notion Agents app →](https://www.notion.com/help/notion-ai-app-for-ios)
 
 ## Download the mobile app
 

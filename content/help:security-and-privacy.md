@@ -1,10 +1,10 @@
 ---
 title: "Security practices"
-emoji: "🔒"
-description: "We know you've entrusted us with valuable data, and we take its security very seriously. We've provided a deep dive into our security practices 🔒"
+emoji: null
+description: "We know you've entrusted us with valuable data, and we take its security very seriously. We've provided a deep dive into our security practices."
 url: "https://www.notion.com/help/security-and-privacy"
 key: "help:security-and-privacy"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/3G9lsSF7xET8hko0HHDzoM/a8f7c018fd8e54bf938a609742b6fd7e/Security___privacy_-_hero.png"
+coverImage: null
 category: "Privacy & security"
 categoryKey: "category:security-and-privacy"
 ---
@@ -116,7 +116,7 @@ categoryKey: "category:security-and-privacy"
 
 ## Compliance
 
-Notion maintains a comprehensive security and privacy program to provide advanced security features that are designed to protect your data in accordance with various regulatory and industry standards. <!-- -->To obtain Notion's independent audit reports (e.g., SOC 2 Type II report, ISO 27001 certificate), please visit our [Trust Center](https://trustcenter.notion.com).
+Notion maintains a comprehensive security and privacy program to provide advanced security features that are designed to protect your data in accordance with various regulatory and industry standards. To obtain Notion's independent audit reports (e.g., SOC 2 Type II report, ISO 27001 certificate), please visit our [Trust Center](https://trust.notion.com/).
 
 * **SOC 2 Type 2**: The SOC 2 Type 2 is an audit repor&#x74;**&#x20;**&#x70;erformed by an independent third-party certifie&#x64;**&#x20;**&#x62;y the American Institute of Certified Public Accountants (AICPA) to evaluate a service organization's controls related to the Trust Services Criteria (TSC). The SOC 2 Type 2 report assesses the effectiveness of these controls over a period of time and is intended to provide assurance to customers and stakeholders that the organization has implemented adequate controls to protect their data.
 

@@ -1,17 +1,17 @@
 ---
 title: "Understand pricing for Workers (beta)"
-emoji: "💸"
-description: "Learn how Workers use Notion credits, what affects Worker credit usage, how to plan costs, and where to view usage 💸"
+emoji: null
+description: "Learn how Workers use Notion credits, what affects Worker credit usage, how to plan costs, and where to view usage."
 url: "https://www.notion.com/help/understand-pricing-for-workers"
 key: "help:understand-pricing-for-workers"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/2QZcOLJjPJCxL0KCt4xL7d/8387cc66cf47c3c1e434caf7d3fc250a/Group_193.png"
+coverImage: null
 category: "Explore developer tools"
 categoryKey: "category:developer-platform"
 ---
 
 [Workers](https://www.notion.com/help/run-custom-code-with-workers) run code in the background to automate tasks in Notion. They’re best for tasks that don’t require AI reasoning, such as syncing data, writing updates, and handling events. Workers are often paired with [Custom Agents](https://www.notion.com/help/custom-agents), where the agent decides what to do and Workers reliably execute specific steps.
 
-During the beta, Workers are free to try on Business and Enterprise plans (including Business trials). Starting on August 11, 2026, they’ll require Notion credits. Workspace admins can purchase Notion credits as an add-on to Business and Enterprise plans.
+During the beta, Workers are free to try on Business and Enterprise plans (including Business trials). Starting on October 15, 2026, they’ll require Notion credits. Workspace admins can purchase Notion credits as an add-on to Business and Enterprise plans.
 
 The free beta period applies only to Workers. Custom Agent actions will consume credits according to your workspace’s plan and credit settings.
 
@@ -159,7 +159,7 @@ A Stripe webhook triggers on subscription creates and cancels, and you receive 3
 
 ## Track usage in the Notion CLI
 
-During the free beta, you can track Worker credit usage over the last 30 days directly in the [CLI](https://www.notion.com/help/use-notion-from-your-terminal-with-notion-cli). Later, Worker usage will also appear in the Notion credits dashboard, allowing admins to track credit usage of their Workers and Custom Agents in one place.
+During the free beta, you can track Worker credit usage over the last 30 days directly in the [CLI](https://www.notion.com/help/use-notion-from-your-terminal-with-notion-cli).
 
 ### **View usage for a specific Worker (detailed)**
 
@@ -173,6 +173,28 @@ Shows a summary of all Workers, including estimated preview credits used and exe
 
 ![View usage across workers](https://images.ctfassets.net/spoqsaf9291f/VtEG4wbVplyTfiqbNKksi/d8c887fe9f8c6d4f37f8d847c60fb3b4/Screenshot_2026-05-18_at_5.26.31%C3%A2__PM.png)
 
+### Track usage in the Notion credits dashboard
+
+You can view Worker usage in the Notion credits dashboard:
+
+1. Go to `Settings` in the sidebar.
+
+2. Select `Access & billing` → `Notion credits`.
+
+Admins and Worker creators can see the following for each Worker:
+
+* Credits used
+
+* Runs completed
+
+* Status
+
+* Creator
+
+During the beta period, Workers appear in the dashboard with a **Free** badge. Hover over the badge to see when the free period ends. Worker usage does not count against your credit balance during beta.
+
+The **Spend limits** column shows **N/A** for Workers until credit limits become available.
+
 ## Admin controls for Workers
 
 You can manage Workers across your workspace by going to `Settings`, and selecting the Workers tab.
@@ -181,7 +203,7 @@ You can manage Workers across your workspace by going to `Settings`, and selecti
 
 From here, you can:
 
-* Switch Workers on or off for your workspace. By default, Workers are turned off.
+* Switch Workers on or off for your workspace. By default, Workers are turned on for owners.
 
 * Control who can use Workers, including specific people or user groups.
 
@@ -237,4 +259,6 @@ Each scheduled sync run counts as a Worker run. A sync that runs every minute ru
 
 ### Where can I see Worker credit usage?
 
-You can see Worker credit usage in the [CLI](https://www.notion.com/help/www.notion.com/help/use-notion-from-your-terminal-with-notion-cli). Later, admins will be able to view Worker usage in the Notion credits dashboard.
+You can see Worker credit usage in the [CLI](https://www.notion.com/help/www.notion.com/help/use-notion-from-your-terminal-with-notion-cli).
+
+Admins and Worker creators can also view usage directly in the Notion credits dashboard. Go to `Settings` → `Access & billing` → `Notion credits` and select the **Workers** tab.

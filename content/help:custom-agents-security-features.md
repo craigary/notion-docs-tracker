@@ -1,10 +1,10 @@
 ---
 title: "Custom Agents security features"
-emoji: "🔓"
-description: "We know your workspace data is important. Here's a look at the built-in security features for Custom Agents that help keep your workspace safe 🔐"
+emoji: null
+description: "We know your workspace data is important. Here's a look at the built-in security features for Custom Agents that help keep your workspace safe."
 url: "https://www.notion.com/help/custom-agents-security-features"
 key: "help:custom-agents-security-features"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/QWXBOsXfXilDrUsflt30u/fc404cf0b2615b3aae63d1d93f01fe2b/security_best_practices.png"
+coverImage: null
 category: "Privacy & security"
 categoryKey: "category:security-and-privacy"
 ---
@@ -15,7 +15,7 @@ For general Notion AI security practices, see [Notion AI security & privacy prac
 
 ## Built-in security features
 
-Custom Agents include multiple layers of protection to help you avoid sharing sensitive information.​
+Custom Agents include multiple layers of protection to help you avoid sharing sensitive information.
 
 ### Admin controls
 

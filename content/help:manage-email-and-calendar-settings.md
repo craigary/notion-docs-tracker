@@ -1,10 +1,10 @@
 ---
 title: "Manage your Mail & Calendar settings"
-emoji: "🗓️"
-description: "Manage your email and calendar connections all in one place — Mail & Calendar settings. 🗓️"
+emoji: null
+description: "Manage your email and calendar connections all in one place — Mail & Calendar settings."
 url: "https://www.notion.com/help/manage-email-and-calendar-settings"
 key: "help:manage-email-and-calendar-settings"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/4mNB2Wl8A9j3bteLi6qnHR/1b1796dba299bb54d06eccea0a09f0b5/image.png"
+coverImage: null
 category: "Settings & preferences"
 categoryKey: "category:account-settings-and-privacy"
 ---

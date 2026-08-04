@@ -1,10 +1,10 @@
 ---
 title: "HIPAA configuration"
-emoji: "🏥"
-description: "Learn about how to make your Notion workspace HIPAA compliant, and how to enable HIPAA compliance 🏥"
+emoji: null
+description: "Learn about how to make your Notion workspace HIPAA compliant, and how to enable HIPAA compliance."
 url: "https://www.notion.com/help/hipaa"
 key: "help:hipaa"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/1gM5B4alBjE4nVS5zXkgZl/4908833ad48665fb3c5af87122f27ae0/hipaa.png"
+coverImage: null
 category: "Settings & preferences"
 categoryKey: "category:account-settings-and-privacy"
 ---

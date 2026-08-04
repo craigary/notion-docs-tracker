@@ -1,7 +1,7 @@
 ---
 title: "Data residency for Notion"
-emoji: "🗃️"
-description: "Learn about Notion’s data residency offering 🗃️"
+emoji: null
+description: "Learn about Notion’s data residency offering."
 url: "https://www.notion.com/help/data-residency"
 key: "help:data-residency"
 coverImage: null

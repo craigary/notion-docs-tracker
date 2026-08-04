@@ -1,10 +1,10 @@
 ---
 title: "Common Jira Sync issues"
-emoji: "‼️"
-description: "Here’s a list of common issues you might run into with Jira Sync and why they might occur ‼️"
+emoji: null
+description: "Here’s a list of common issues you might run into with Jira Sync and why they might occur."
 url: "https://www.notion.com/help/common-jira-sync-issues"
 key: "help:common-jira-sync-issues"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/15MnehxCRUUA3LITX21Lar/7c80798bd5cce07c4b492cb6543419c7/Troubleshooting_Reference_Visuals.png"
+coverImage: null
 category: "Troubleshoot"
 categoryKey: "category:troubleshooting"
 ---

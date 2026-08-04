@@ -1,19 +1,19 @@
 ---
 title: "Notion Mail for mobile"
-emoji: "🏃🏼‍♀️"
-description: "Use Notion Mail on your iOS device so you can stay up-to-date even on the go 🏃🏼‍♀️"
+emoji: null
+description: "Use Notion Mail on your iOS device so you can stay up-to-date even on the go."
 url: "https://www.notion.com/help/notion-mail-for-mobile"
 key: "help:notion-mail-for-mobile"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/7CCn6zgFJRa4TW6tqIyRQb/3a787f5da66e5d86f87c50de6d3f9c41/Notion_Apps_Chapter_Hero.png"
+coverImage: null
 category: "Notion Mail"
 categoryKey: "category:notion-mail"
 ---
 
-**Note:** At this time, Notion Mail is only available on mobile devices using iOS version 17 or later.
+Notion Mail is shutting down on September 22, 2026. [Learn what's changing and how to save your data →](http://notion.com/help/notion-mail-inbox-is-going-away-what-to-do-next)
 
 ## Download the mobile app
 
-Download the Notion Mail iOS app in the [App Store](https://apps.apple.com/us/app/notion-mail/id6504265936).
+Download the Notion Mail iOS app in the [App Store](https://apps.apple.com/us/app/notion-mail/id6504265936). <!-- -->Notion Mail is only available on mobile devices using iOS version 17 or later.
 
 ## Swipe settings
 

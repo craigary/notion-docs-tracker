@@ -1,10 +1,10 @@
 ---
 title: "Optimize database load times & performance"
-emoji: "🏃🏼"
-description: "Here’s how to make sure your databases are always feeling quick and snappy 🏃🏼"
+emoji: null
+description: "Here’s how to make sure your databases are always feeling quick and snappy."
 url: "https://www.notion.com/help/optimize-database-load-times-and-performance"
 key: "help:optimize-database-load-times-and-performance"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/4TlJQBAgbEwCH1otCiKmRD/2a99a687e60b1f80695fd959de6fcc12/Create_a_database_-_hero.png"
+coverImage: null
 category: "Databases"
 categoryKey: "category:databases"
 ---
@@ -66,6 +66,14 @@ We suggest removing any unnecessary or duplicative pages from your database to k
 ## Database size limits
 
 To ensure the best database performance for all users, we apply size limits to databases. Once these limits are hit, new changes to your database will not be saved.
+
+### Row count limit
+
+Each Notion database can hold up to 250,000 rows. You’ll see signals if you’re approaching or have exceeded this limit:
+
+* **Approaching the limit:&#x20;**&#x59;ou’ll see a warning in your database that you’re getting close. You can still add rows.
+
+* **At or over the limit:** You won’t be able to add new rows. Requests to add rows will return an error.
 
 ### At the database page level
 

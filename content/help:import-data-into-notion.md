@@ -1,10 +1,10 @@
 ---
 title: "Import data into Notion"
-emoji: "🚚"
-description: "If your docs, notes, and spreadsheets are spread across different apps, you can bring them into Notion to keep everything in one place 🚚"
+emoji: null
+description: "If your docs, notes, and spreadsheets are spread across different apps, you can bring them into Notion to keep everything in one place."
 url: "https://www.notion.com/help/import-data-into-notion"
 key: "help:import-data-into-notion"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/67yzLvBO0WtiN5WQjFz4fG/e77527f9c2c3ee2ac69c8f58aa14444d/How_to_submit_a_template_-_hero.png"
+coverImage: null
 category: "Import & export your data"
 categoryKey: "category:import-export-and-integrate"
 ---
@@ -71,17 +71,21 @@ Evernote notebooks import as pages, and notes import as database items.
 
 You can bring your Evernote notebooks into Notion and keep the same structure.
 
-1. Go to **`Settings`** →**`Import`**. Then, choose **`Evernote`**.
+1. Go to `Settings` in your sidebar → `Import` → `Third party imports` → `Evernote`. Alternatively, use the `/evernote` command in a page and select the option under `Import`.
 
 2. Sign into your Evernote account.
 
 3. Authorize Evernote to connect to Notion.
 
-4. Once your Evernote account is linked, check the boxes next to the notebooks you'd like to move and click **`Import`**.
+4. Once your Evernote account is linked, check the boxes next to the notebooks you'd like to move.
 
-5. Your Evernote notebooks will appear as pages in Notion's sidebar. Inside, you'll find your notes as items in a list database.
+5. Choose where each notebook should go. Send it to a teamspace or private space, or select an existing database as the destination.
 
-6. Each note can be dragged and dropped anywhere else within Notion.
+6. If you choose an existing database, map your note fields (like created time and created by) to the database's properties, then select `Import`. Otherwise, select `Import` to bring your notebooks in as new pages.
+
+7. Your Evernote notebooks will appear as pages in Notion's sidebar. Inside, you'll find your notes as items in a list database.
+
+8. Each note can be dragged and dropped anywhere else within Notion.
 
 **What imports:**
 
@@ -119,13 +123,17 @@ You can bring your Evernote notebooks into Notion and keep the same structure.
 
 Trello boards import as a Notion database, with cards as items. You can import a Trello board into Notion in just a few steps.
 
-1. Type **`/Trello `**&#x61;nd hit enter.
+1. Go to `Settings` in your sidebar → `Import` → `Third party imports` → `Trello`. Alternatively, use the **`/Trello`****&#x20;**&#x63;ommand in a page and select the option under `Import`.
 
 2. Log in to your Trello account.
 
 3. Grant access to Notion so you can import your Trello boards.
 
 4. Once you've linked your Trello account, select the boards you'd like to migrate from the dropdown menu.
+
+5. Choose where to import your boards. Send them to a teamspace or private space, or select an existing database as the destination.
+
+6. If you import into an existing database, map Trello fields (like Status and Label) to compatible properties on that database, then select `Continue` to start the import.
 
 **What imports:**
 
@@ -479,6 +487,18 @@ You can also select multiple .md/.txt files at once during import. If you want t
 
 * If links/anchors don’t work, recreate navigation in Notion using headings and a table of contents.
 
+### Open Markdown files
+
+You can open up to 10 Markdown files at once in Notion Desktop to read with Notion's formatting. Opening a Markdown file creates a read-only copy of the file in Notion.
+
+1. In Finder (Mac) or File Explorer (Windows) right-click a Markdown file.
+
+2. Choose `Open With` → `Notion`. The file opens in a new tab as a read-only preview.
+
+To open Markdown files by double-clicking, set Notion as the default app for that file type in your operating system's settings. When you double-click multiple files, each opens in a separate tab. See instructions for updating your default app for [Mac](https://support.apple.com/guide/mac-help/choose-an-app-to-open-a-file-on-mac-mh35597/mac) or [Windows](https://support.microsoft.com/en-us/windows/apps/change-default-apps-in-windows).
+
+Supported file types are `.md`, `.markdown`, `.mdown`, `.mkdn`, `.mkd`, and `.rmd`. You can open up to ten files at once.
+
 ## WorkFlowy
 
 You can export your WorkFlowy content and import it into Notion in one go.
@@ -493,7 +513,7 @@ You can export your WorkFlowy content and import it into Notion in one go.
 
 ## CSV
 
-CSV imports create a Notion database (rows → items/pages, columns → properties).
+CSV imports create a new Notion database (rows → items/pages, columns → properties).
 
 1. Go to `Settings` → `Import` → `CSV`.
 
@@ -501,17 +521,17 @@ CSV imports create a Notion database (rows → items/pages, columns → properti
 
 2. Upload your `.csv` file.
 
-3. Map each CSV column to the Notion property you want.
+3. Choose whether to create a new database or import data into an existing one.
 
-4. Upload whatever **`.csv`**&#x66;iles you want to import from your computer.
+4. Select the import location.
 
-5. Setup the CSV columns by matching them to Notion properties.
+5. Map each CSV column to the Notion property you want.
 
-**Alternatively, you can add a CSV to an existing database:**
+Alternatively, you can add a CSV to an existing database directly from within that database.
 
 1. While in a full page database, click **`••`****&#x20;**&#x61;t the top of a database → **`Merge with CSV`**.
 
-2. Setup the CSV columns by matching them to Notion properties.
+2. Set up the CSV columns by matching them to Notion properties.
 
 **What imports:**
 
@@ -523,7 +543,9 @@ CSV imports create a Notion database (rows → items/pages, columns → properti
 
 **What doesn’t import:**
 
-* Relations, rollups, or formulas (you’ll need to rebuild these in Notion after import).
+* A new CSV import can’t create new rollups or formulas (you’ll need to rebuild these in Notion after import).
+
+* A new CSV import can’t create new relations. If you add a CSV to an existing database, you can map a CSV column to an existing relation property.
 
 **Limitations:**
 
@@ -531,9 +553,7 @@ CSV imports create a Notion database (rows → items/pages, columns → properti
 
 * Imports add rows. They don’t update existing rows, so watch for duplicates.
 
-* CSV merges add rows too. They don’t update existing rows, and you can’t directly undo a merge.
-
-* Relation properties can’t be mapped during CSV import.
+* CSV merges add rows. They don’t update existing rows.
 
 * The Title property doesn’t support formatting.
 
@@ -560,8 +580,6 @@ CSV imports create a Notion database (rows → items/pages, columns → properti
 * If you’re merging into an existing database, make sure your CSV headers match the database’s property names exactly.
 
 * Merging/importing adds rows (it won’t update existing rows), so watch for duplicates.
-
-* You can’t merge a CSV column into a Relation property.
 
 ## PDF
 

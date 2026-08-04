@@ -1,7 +1,7 @@
 ---
 title: "Create a page"
-emoji: "📄"
-description: "Every page you create in Notion is a fresh canvas where you can add whatever content you want. Follow these steps to create your first one 📄"
+emoji: null
+description: "Every page you create in Notion is a fresh canvas where you can add whatever content you want. Follow these steps to create your first one."
 url: "https://www.notion.com/help/create-your-first-page"
 key: "help:create-your-first-page"
 coverImage: "https://img.youtube.com/vi/tefoC3wP8n0/maxresdefault.jpg"

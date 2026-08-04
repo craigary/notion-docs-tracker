@@ -1,7 +1,7 @@
 ---
 title: "Intro to workspaces"
-emoji: "🏠"
-description: "Everything you do in Notion takes place in a workspace. It's your virtual home to organize information and create exactly the way you want — as just one person, together as a team, or across a whole company. Expand, edit, and mold it to fit your needs 🏠"
+emoji: null
+description: "Everything you do in Notion takes place in a workspace. It's your virtual home to organize information and create exactly the way you want — as just one person, together as a team, or across a whole company. Expand, edit, and mold it to fit your needs."
 url: "https://www.notion.com/help/intro-to-workspaces"
 key: "help:intro-to-workspaces"
 coverImage: "https://img.youtube.com/vi/lSmgY5OsZmU/maxresdefault.jpg"
@@ -95,7 +95,7 @@ To remove a page from your favorites, open it and unclick ⭐ at the top. You ca
 
 * `Settings` allow you to adjust Notion to your preference. Learn more about settings [here →](https://www.notion.com/help/category/account-settings-and-privacy)
 
-* `Templates` opens our template picker, where you can create a new page using starter content to help you accomplish your goals.
+* `Marketplace` opens our template picker, where you can create a new page using starter content to help you accomplish your goals.
 
 * `Trash` contains all the pages you delete. You can drag and drop them in here. You can also click on trash to search, view, and restore these pages.
 

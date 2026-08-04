@@ -1,7 +1,7 @@
 ---
 title: "Instructions for Notion Agent"
-emoji: "🧭"
-description: "Learn how Instructions shape what Notion Agent does, and how to write clear instructions 🧭"
+emoji: null
+description: "Learn how Instructions shape what Notion Agent does, and how to write clear instructions."
 url: "https://www.notion.com/help/instructions-for-notion-agent"
 key: "help:instructions-for-notion-agent"
 coverImage: "https://img.youtube.com/vi/tcgNauq4joo/maxresdefault.jpg"

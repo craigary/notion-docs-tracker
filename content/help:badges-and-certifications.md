@@ -1,10 +1,10 @@
 ---
 title: "Badges & certifications"
-emoji: "🎖️"
-description: "Build your Notion expertise by earning badges and certifications through Notion Academy 🎖️"
+emoji: null
+description: "Build your Notion expertise by earning badges and certifications through Notion Academy."
 url: "https://www.notion.com/help/badges-and-certifications"
 key: "help:badges-and-certifications"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/6T5hUicruo7aqWFKzDrTxb/4599740a62b478caf9b1c84e103cf78a/Badges_and_Certifications.png"
+coverImage: null
 category: "Notion basics"
 categoryKey: "category:new-to-notion"
 ---

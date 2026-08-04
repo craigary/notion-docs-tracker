@@ -1,10 +1,10 @@
 ---
 title: "Math equations"
-emoji: "🧮"
+emoji: null
 description: "On any Notion page, you can display beautifully formatted, comprehensible mathematical characters, expressions and equations. This comes in handy for note taking, technical documentation, homework, or anywhere you need to use fractions and equations 🧮"
 url: "https://www.notion.com/help/math-equations"
 key: "help:math-equations"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/6QQfPEsbyJySA4Y9WCwZB1/3688c56a0339573413b9228f43c1aad4/Math_equations_-_hero.png"
+coverImage: null
 category: "Pages & blocks"
 categoryKey: "category:write-edit-and-customize"
 ---

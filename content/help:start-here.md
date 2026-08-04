@@ -1,7 +1,7 @@
 ---
 title: "Start here"
-emoji: "📍"
-description: "Curious about what Notion is? We'll show you right here, and in the articles to come. Let's go! 📍"
+emoji: null
+description: "Curious about what Notion is? We'll show you right here, and in the articles to come. Let's go!"
 url: "https://www.notion.com/help/start-here"
 key: "help:start-here"
 coverImage: "https://img.youtube.com/vi/3HLMH9t1Q-g/maxresdefault.jpg"

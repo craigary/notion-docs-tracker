@@ -1,6 +1,6 @@
 ---
 title: "Intro to writing & editing"
-emoji: "✏️"
+emoji: null
 description: "Notion is first and foremost a writing tool. It works as simply as any word processor, only you can add many different types of content to a page, and move it around and modify it in new ways ✏️"
 url: "https://www.notion.com/help/writing-and-editing-basics"
 key: "help:writing-and-editing-basics"

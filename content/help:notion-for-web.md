@@ -1,10 +1,10 @@
 ---
 title: "Notion for web"
-emoji: "💻"
-description: "Notion is a cloud-based app, and you can access it from various web browsers. As long as you're connected to the web, all of your content syncs automatically 💻"
+emoji: null
+description: "Notion is a cloud-based app, and you can access it from various web browsers. As long as you're connected to the web, all of your content syncs automatically."
 url: "https://www.notion.com/help/notion-for-web"
 key: "help:notion-for-web"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/6cbQzQP7x1Ybo8O1NunUac/89949e0a3ffaa52d1d60e9b30e2a785e/Notion_for_web_-_hero.png"
+coverImage: null
 category: "Notion on desktop, web, & mobile"
 categoryKey: "category:notion-apps"
 ---

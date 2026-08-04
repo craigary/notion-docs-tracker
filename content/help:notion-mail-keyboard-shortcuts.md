@@ -1,17 +1,23 @@
 ---
 title: "Notion Mail keyboard shortcuts"
-emoji: "⌨️"
-description: "Here are all of the keyboard shortcuts available in Notion Mail ⌨️"
+emoji: null
+description: "Here are all of the keyboard shortcuts available in Notion Mail."
 url: "https://www.notion.com/help/notion-mail-keyboard-shortcuts"
 key: "help:notion-mail-keyboard-shortcuts"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/7babmlXbtgZ8XwseESoGXZ/57853265cde28a15b566a51a816a1418/how-to-protect-yourself-from-malvertising.png"
+coverImage: null
 category: "Notion Mail"
 categoryKey: "category:notion-mail"
 ---
 
-To see all keyboard shortcuts available in Notion Mail, use the `cmd` + `k` or `cmd` + `p` in the app!
+Notion Mail is shutting down on September 22, 2026. [Learn what's changing and how to save your data →](http://notion.com/help/notion-mail-inbox-is-going-away-what-to-do-next)
 
-**Note:&#x20;**&#x41;t this time, we don't support other keyboard layouts like AZERTY. We also don't support customizable keyboard shortcuts.
+To see all keyboard shortcuts available in Notion Mail, use the `cmd` + `k` or `cmd` + `p` in the app.
+
+We don't support:
+
+* Keyboard layouts like AZERTY.
+
+* Customizable keyboard shortcuts.
 
 ## Inbox
 

@@ -1,10 +1,10 @@
 ---
 title: "Notification settings"
-emoji: "🛎"
-description: "Notion is set up to notify you if you're mentioned in a page or database, for reminders, and when updates have been made to a page you care about. Below, we describe how notifications work, and how you can modify them 🛎"
+emoji: null
+description: "Notion is set up to notify you if you're mentioned in a page or database, for reminders, and when updates have been made to a page you care about. Below, we describe how notifications work, and how you can modify them."
 url: "https://www.notion.com/help/notification-settings"
 key: "help:notification-settings"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/2CG1qQy792xiIQXGBLSXNw/d2a407d531c13de9520ae3f13a97c228/Notification_settings_-_hero.png"
+coverImage: null
 category: "Settings & preferences"
 categoryKey: "category:account-settings-and-privacy"
 ---

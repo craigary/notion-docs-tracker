@@ -1,13 +1,15 @@
 ---
 title: "Customize notifications in Notion Mail"
-emoji: "📩"
-description: "Notion Mail lets you stay on top of what matters without getting pinged for everything —  customize email notifications for your accounts, views, and senders. 📩"
+emoji: null
+description: "Notion Mail lets you stay on top of what matters without getting pinged for everything —  customize email notifications for your accounts, views, and senders."
 url: "https://www.notion.com/help/customize-notifications-in-notion-mail"
 key: "help:customize-notifications-in-notion-mail"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/2SM9lB6Sl8mIMOzKIDZcFK/1f40adee3766843ce87505a39918bcd0/Customize-notifications-in-Notion-Mail.png"
+coverImage: null
 category: "Notion Mail"
 categoryKey: "category:notion-mail"
 ---
+
+Notion Mail is shutting down on September 22, 2026. [Learn what's changing and how to save your data →](http://notion.com/help/notion-mail-inbox-is-going-away-what-to-do-next)
 
 In Notion Mail you can choose which email notifications deserve your attention — giving you control over three levels of notifications:
 

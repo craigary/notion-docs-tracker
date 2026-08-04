@@ -1,10 +1,10 @@
 ---
 title: "SAML SSO"
-emoji: "🔐"
-description: "Notion provides Single Sign-On (SSO) functionality for Business and Enterprise customers to access the app through a single authentication source. This allows IT administrators to better manage team access and keeps information more secure 🔐"
+emoji: null
+description: "Notion provides Single Sign-On (SSO) functionality for Business and Enterprise customers to access the app through a single authentication source. This allows IT administrators to better manage team access and keeps information more secure."
 url: "https://www.notion.com/help/saml-sso-configuration"
 key: "help:saml-sso-configuration"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/hk1bRz3TSmKCYa44qqk3a/89ff18b7391cfa356d45bb68a2324c01/SAML-sso-help.png"
+coverImage: null
 category: "Administer your workspace"
 categoryKey: "category:enterprise-admin"
 ---

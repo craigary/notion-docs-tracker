@@ -1,7 +1,7 @@
 ---
 title: "Audit log"
-emoji: "🔦"
-description: "Audit logs give Enterprise organization owners access to detailed information about security and safety-related activity. This can help identify potential security issues, investigate suspicious behavior, and troubleshoot access 🔦"
+emoji: null
+description: "Audit logs give Enterprise organization owners access to detailed information about security and safety-related activity. This can help identify potential security issues, investigate suspicious behavior, and troubleshoot access."
 url: "https://www.notion.com/help/audit-log"
 key: "help:audit-log"
 coverImage: null
@@ -13,7 +13,7 @@ categoryKey: "category:enterprise-admin"
 
 Audit logs give you information about events that happen across your organization’s workspaces, as well as who took specific actions and when. Where available, the IP address is also included.
 
-By default, all events are shown in reverse chronological order. You can use the filters at the top of the audit log to find the information you’re looking for.
+By default, all events are shown in reverse chronological order. You can use the filters at the top of the audit log to narrow down events by date, person, event type, or related activity.
 
 ## Access your audit log
 
@@ -27,19 +27,45 @@ Some groups of audit log events are created as a consequence of the same user ac
 
 To inspect individual audit log events to see if they are part of a group, hover over the audit log row and select the magnifying glass to filter for related events.
 
-## Stream audit log events to your SEIM
+## Filter your audit log
+
+Four filters are available at the top of the audit log:
+
+1. **Date**: Filter events to a specific date or date range. Audit log history is retained for up to 365 days, so you can select any range within the past year.
+
+2. **Person or agent**: Filter by the user, integration, or agent that performed the action. Users who have since been removed from the workspace are still searchable and shown with a `Removed` label.
+
+3. **Event**: Filter by one or more event types. Events are organized by category (page, data source, teamspace, workspace, account, and workers).
+
+4. **Related**: Filter for events that were triggered by the same underlying action. Some workspace changes generate a group of related events: for example, moving a page may log both a page moved event and a permission update. To filter for related events, hover over any audit log row and select the magnifying glass icon.
+
+**Note**: The Related filter is only available for events that contain related activity metadata. If the magnifying glass icon doesn't appear on a row, that event has no related events.
+
+## Stream audit log events to your SIEM
 
 You can use Notion’s custom SIEM integration to send a continuous stream of audit log events to your SIEM platform in real-time via webhooks. This includes all of the same audit log event types.
 
-To set up the custom SEIM integration:
+To set up the custom SIEM integration:
 
 1. Open the workspace switcher and select the `Settings` button.
 
 2. Go to the `Connections` tab and select `Custom SIEM integration`. You may need to use the search bar or select `See all` for this option to appear.
 
-3. Select the `Connect` button, then enter your webhook URL into the `Webhook URL` field. You can retrieve this from within your SEIM account settings.
+3. Select the `Connect` button, then enter your webhook URL into the `Webhook URL` field. You can retrieve this from within your SIEM account settings.
 
 4. Select the `Connect` button to finish the process. All events in the audit log are sent in real-time to your SIEM endpoint as JSON payloads.
+
+**What to know:**
+
+* **Single webhook per workspace&#x20;**— only one custom SIEM webhook can be configured per workspace at a time.
+
+* **Retry behavior** — if your endpoint fails to receive an event, Notion will retry up to seven times over approximately 24 hours.
+
+* **No page content** — event payloads include metadata (who did what, when, from where), but do not include the content of pages.
+
+* **No syslog support** — webhooks only; syslog is not supported.
+
+For partner-specific SIEM setup instructions (Datadog, Panther, Splunk, Sumo Logic), see [Add security & compliance connections →](https://www.notion.com/help/add-security-and-compliance-integrations)
 
 ## Audit log event types
 
@@ -47,15 +73,17 @@ Events are split into the following categories:
 
 1. **Page events:&#x20;**&#x54;his includes events about a single Notion page.
 
-2. **Data source events:** This includes events about data sources in a database.
+2. **Workspace events**: This includes events about an entire Notion workspace, including Workers paused and Workers resumed.
 
-3. **Teamspace events:** This includes events users take on one or more teamspaces.
+3. **Workers events**: This includes events about Notion Workers in your workspace.
 
-4. **Workspace events:** This includes events about an entire Notion workspace.
+4. **Account events**: This includes events about accounts of users in the workspace.
 
-5. **Account events:** This includes events about accounts of users in the workspace.
+5. **Teamspace events**: This includes events users take on one or more teamspaces.
 
-6. **Custom Agent events:** Events about Custom Agent configuration and access changes.
+6. **Form events**: This includes events about forms connected to a database.
+
+7. **Data source events:** This includes events about data sources in a database.
 
 ## Page events
 
@@ -139,193 +167,121 @@ To see the audience, hover over the page-related audit log event. The audience c
 
 Page event audience will also export as a column in CSV exports.
 
-## Data source events
-
-* **Data source created:** That a user, an integration, or an external AI tool created a new data source in a database.
-
-* **Data source moved to trash:** That a user or an integration moved a data source to Trash.
-
-* **Data source deleted from trash:** That a user deleted a data source from Trash.
-
-* **Data source restored from trash:** That a user or an integration restored a formerly deleted data source from Trash.
-
-* **Data source moved:** That a user moved a data source from one database to another.
-
-* **Data source permission rule updated:** That a user added, removed, or changed a page-level access rule for a data source.
-
-* **Data source permanently deleted:** That a data source was permanently removed from Trash. This can be done by a user, but it can also be done automatically by Notion after 30 days, or [within a custom time frame](https://www.notion.com/help/custom-data-retention-settings) on Enterprise Plans.
-
-* **Data source schema edited:&#x20;**&#x54;hat a user, integration, or external AI tool added, removed, or changed properties in a data source schema.
-
-## Teamspace events
-
-* **Member added to teamspace:&#x20;**&#x54;hat a user added another user to the teamspace. Will specify “as Teamspace owner” if user is invited as a teamspace owner
-
-* **Member removed from teamspace:&#x20;**&#x54;hat a teamspace owner has removed a teamspace member from the teamspace
-
-* **Group added to teamspace:&#x20;**&#x54;hat a user added a permission group to the teamspace
-
-* **Group removed from teamspace:&#x20;**&#x54;hat a teamspace owner has removed a permission group from the teamspace
-
-* **Member joined the teamspace:** That a user joined an open teamspace
-
-* **Member left the teamspace:** That a user left a teamspace
-
-* **Teamspace created:&#x20;**&#x54;hat a user created the teamspace
-
-* **Teamspace archived:&#x20;**&#x54;hat a teamspace owner archived a teamspace
-
-* **Teamspace restored:&#x20;**&#x54;hat a teamspace owner restored a teamspace
-
-* **Teamspace name changed:&#x20;**&#x54;hat a user updated the teamspace’s name
-
-* **Teamspace description changed:** That the teamspace description has been changed
-
-* **Teamspace icon changed:**
-
-  That the teamspace icon has been changed
-
-* **Teamspace privacy type changed:** That a teamspace owner has changed the teamspace privacy type
-
-* **Teamspace default toggled:**
-
-  That a user enabled or disabled a teamspace as a default teamspace
-
-* **Teamspace creation setting toggled:&#x20;**&#x54;hat a user has enabled or disabled the ability for everyone in the workspace to create a teamspace
-
-* **Teamspace Members default page permission updated**: That the default page permissions of teamspace members have been changed
-
-* **Everyone in workspace default page permission updated**: That the default page permissions of everyone at workspace have been changed
-
-* **Member teamspace role updated:&#xA0;**&#x54;hat a has updated a teamspace member’s role in the teamspace
-
-* **Custom permissions updated for a member in the teamspace:&#x20;**&#x54;hat a teamspace owner modified access to a teamspace member. Learn more [here](https://www.notion.com/help/guides/grant-access-teamspaces)
-
-* **Custom permissions updated for a group in the teamspace:&#x20;**&#x54;hat a teamspace owner modified access to a group. Learn more [here](https://www.notion.com/help/guides/grant-access-teamspaces)
-
-* **Teamspace invite access changed**: That a user has updated settings for who can invite teamspace members
-
-* **Teamspace disable guests toggled: &#xA0;**&#x54;hat a teamspace owner has enabled or disabled the ability to add guests to a teamspace
-
-* **Export toggled for teamspace:&#x20;**&#x54;hat a teamspace owner has disabled or enabled exporting for a teamspace
-
-* **Public page sharing toggled for teamspace:&#xA0;**&#x54;hat a teamspace owner has switched public page sharing on/off for a teamspace
-
-* **Teamspace sidebar editing toggled:&#x20;**&#x54;hat a teamspace owner has enabled or disabled the ability for users to change the teamspace sidebar section
-
-* **Enabled teamspaces:&#x20;**&#x54;hat a user has enabled the teamspaces feature on a workspace
-
 ## Workspace events
 
 * **Member invited:&#x20;**&#x54;hat a workspace owner or Membership admin invited a user to the workspace.
 
   * The new user's role will be specified as `Workspace owner` if they are invited as an workspace owner, or as `Membership admin` if they are invited as a membership admin.
 
-* **Member joined:&#x20;**&#x54;hat a user has joined the workspace
+* **Member joined:&#x20;**&#x54;hat a user has joined the workspace.
 
-* **Member role updated:&#x20;**&#x54;hat a workspace owner has updated a user’s role 
+* **Member role updated:&#x20;**&#x54;hat a workspace owner has updated a user’s role.
 
-* **Member removed:&#x20;**&#x54;hat a workspace owner or membership admin has removed a user from the workspace
+* **Member removed:&#x20;**&#x54;hat a workspace owner or membership admin has removed a user from the workspace.
 
-* **Guest removed:&#x20;**&#x54;hat a guest has been removed from a workspace
+* **Guest removed:&#x20;**&#x54;hat a guest has been removed from a workspace.
 
-* **Guest invite request created**: That a guest invite to a page has been requested for approval by workspace owner
+* **Guest invite request created**: That a guest invite to a page has been requested for approval by workspace owner.
 
-* **Invite link toggled:&#x20;**&#x54;hat a user either enabled or disabled the invite link
+* **Invite link toggled:&#x20;**&#x54;hat a user either enabled or disabled the invite link.
 
-* **Invite link reset:&#x20;**&#x54;hat a user has reset an invite link
+* **Invite link reset:&#x20;**&#x54;hat a user has reset an invite link.
 
-* **Workspace name changed:&#x20;**&#x54;hat a user updated the workspace’s name
+* **Workspace name changed:&#x20;**&#x54;hat a user updated the workspace’s name.
 
-* **Workspace icon changed:&#x20;**&#x54;hat the workspace icon has been changed
+* **Workspace icon changed:&#x20;**&#x54;hat the workspace icon has been changed.
 
-* **Workspace domain changed:&#x20;**&#x54;hat the domain of a workspace is changed
+* **Workspace domain changed:&#x20;**&#x54;hat the domain of a workspace is changed.
 
-* **Page access requests toggled:&#x20;**&#x54;hat a user has enabled or disabled page access requests from non-workspace-members
+* **Page access requests toggled:&#x20;**&#x54;hat a user has enabled or disabled page access requests from non-workspace-members.
 
-* **Public page sharing toggled:&#x20;**&#x54;hat a workspace owner has switched public page sharing on/off
+* **Public page sharing toggled:&#x20;**&#x54;hat a workspace owner has switched public page sharing on/off.
 
-* **Workspace sidebar editing toggled:&#x20;**&#x54;hat a workspace owner has enabled or disabled the ability for users to change the Workspace sidebar
+* **Workspace sidebar editing toggled:&#x20;**&#x54;hat a workspace owner has enabled or disabled the ability for users to change the Workspace sidebar.
 
-* **Disable guests toggled:&#x20;**&#x54;hat a workspace owner has enabled or disabled the ability to add guests to a workspace
+* **Disable guests toggled:&#x20;**&#x54;hat a workspace owner has enabled or disabled the ability to add guests to a workspace.
 
-* **Pages to other workspaces toggled:** That a workspace owner has either disabled or enabled moving pages to other workspaces
+* **Pages to other workspaces toggled:** That a workspace owner has either disabled or enabled moving pages to other workspaces.
 
-* **Export toggled:&#x20;**&#x54;hat a workspace owner has disabled or enabled exporting
+* **Export toggled:&#x20;**&#x54;hat a workspace owner has disabled or enabled exporting.
 
-* **Workspace content exported:&#x20;**&#x54;hat a user has exported content from a page or the entire workspace
+* **Workspace content exported:&#x20;**&#x54;hat a user has exported content from a page or the entire workspace.
 
-* **Integration installation toggled:&#x20;**&#x54;hat a workspace owner has disabled or enabled integrations restrictions
+* **Integration installation toggled:&#x20;**&#x54;hat a workspace owner has disabled or enabled integrations restrictions.
 
-* **Integration created:** That a new integration has been added to a workspace
+* **Integration created:** That a new integration has been added to a workspace.
 
-* **Integration deleted:** That an integration has been deleted
+* **Integration deleted:** That an integration has been deleted.
 
-* **Integration secret reset:** That an integration's secret token has been refreshed
+* **Integration secret reset:** That an integration's secret token has been refreshed.
 
-* **Integration settings updated:&#x20;**&#x54;hat an integration's basic settings, like its name or icon, have been changed
+* **Integration settings updated:&#x20;**&#x54;hat an integration's basic settings, like its name or icon, have been changed.
 
-* **Integration permission updated:&#x20;**&#x54;hat an integration's capabilities (reading content, inserting a comment, etc.) have been changed
+* **Integration permission updated:&#x20;**&#x54;hat an integration's capabilities (reading content, inserting a comment, etc.) have been changed.
 
-* **Added allowed email domain:&#x20;**&#x54;hat the user added an allowed email domain to the workspace
+* **Added allowed email domain:&#x20;**&#x54;hat the user added an allowed email domain to the workspace.
 
-* **Removed allowed email domain:&#x20;**&#x54;hat the user removed an allowed email domain from a workspace
+* **Removed allowed email domain:&#x20;**&#x54;hat the user removed an allowed email domain from a workspace.
 
-* **Public home page set:&#x20;**&#x54;hat a workspace owner has changed public home page
+* **Public home page set:&#x20;**&#x54;hat a workspace owner has changed public home page.
 
-* **Public home page link cleared:&#x20;**&#x54;hat a workspace owner has cleared public home page
+* **Public home page link cleared:&#x20;**&#x54;hat a workspace owner has cleared public home page.
 
-* **SCIM token generated:&#x20;**&#x54;hat a workspace owner generated a SCIM API token
+* **SCIM token generated:&#x20;**&#x54;hat a workspace owner generated a SCIM API token.
 
-* **SCIM token revoked:&#x20;**&#x54;hat a workspace owner revoked a SCIM API token
+* **SCIM token revoked:&#x20;**&#x54;hat a workspace owner revoked a SCIM API token.
 
-* **IdP metadata URL updated:&#x20;**&#x54;hat a workspace owner has set or updated the IdP metadata URL
+* **IdP metadata URL updated:&#x20;**&#x54;hat a workspace owner has set or updated the IdP metadata URL.
 
-* **IdP metadata XML updated:&#x20;**&#x54;hat a workspace owner has updated the IdP metadata XML
+* **IdP metadata XML updated:&#x20;**&#x54;hat a workspace owner has updated the IdP metadata XML.
 
-* **IdP metadata XMP removed:&#x20;**&#x54;hat a workspace owner has removed IdP metadata XML
+* **IdP metadata XMP removed:&#x20;**&#x54;hat a workspace owner has removed IdP metadata XML.
 
-* **Toggled enable SAML for all spaces in the organization:&#x20;**&#x54;hat an organization owner has disabled or enabled SAML
+* **Toggled enable SAML for all spaces in the organization:&#x20;**&#x54;hat an organization owner has disabled or enabled SAML.
 
-* **Toggled enforce SAML for all spaces in the organization:** That an organization owner has disabled or enabled Enforce SAML
+* **Toggled enforce SAML for all spaces in the organization:** That an organization owner has disabled or enabled Enforce SAML.
 
-* **Auto-create accounts on sign-in toggled:&#x20;**&#x54;hat a workspace owner has enabled automatically creating accounts on sign-in
+* **Auto-create accounts on sign-in toggled:&#x20;**&#x54;hat a workspace owner has enabled automatically creating accounts on sign-in.
 
-* **Workspace creation setting updated**: That a workspace owner has restricted creation of new workspaces by users with the claimed enterprise email domain
+* **Workspace creation setting updated**: That a workspace owner has restricted creation of new workspaces by users with the claimed enterprise email domain.
 
-* **Group created:&#x20;**&#x54;hat a new group is created
+* **Group created:&#x20;**&#x54;hat a new group is created.
 
-* **Group deleted:&#x20;**&#x54;hat a group is deleted
+* **Group deleted:&#x20;**&#x54;hat a group is deleted.
 
-* **Group name changed:&#x20;**&#x54;hat a group name has been changed
+* **Group name changed:&#x20;**&#x54;hat a group name has been changed.
 
-* **Member added to group:&#x20;**&#x54;hat a workspace owner or membership admin has added a user to a group
+* **Member added to group:&#x20;**&#x54;hat a workspace owner or membership admin has added a user to a group.
 
-* **Member removed from group:&#x20;**&#x54;hat a workspace owner or membership admin has removed a user from a group
+* **Member removed from group:&#x20;**&#x54;hat a workspace owner or membership admin has removed a user from a group.
 
-* **Claimable workspace transfer status change:&#x20;**&#x54;hat the status of ownership transfer on a claimable workspace has changed
+* **Claimable workspace transfer status change:&#x20;**&#x54;hat the status of ownership transfer on a claimable workspace has changed.
 
-* **Claimable workspace upgrade status change:&#x20;**&#x54;hat the status of a claim and upgrade to Enterprise of a claimable workspace has changed
+* **Claimable workspace upgrade status change:&#x20;**&#x54;hat the status of a claim and upgrade to Enterprise of a claimable workspace has changed.
 
-* **Claimable workspace deletion status change:&#x20;**&#x54;hat the status of workspace deletion of a claimable workspace has changed
+* **Claimable workspace deletion status change:&#x20;**&#x54;hat the status of workspace deletion of a claimable workspace has changed.
 
-* **Membership request toggled:&#x20;**&#x54;hat a user has enabled or disabled new workspace membership requests
+* **Membership request toggled:&#x20;**&#x54;hat a user has enabled or disabled new workspace membership requests.
 
-* **Membership request resolved:&#x20;**&#x54;hat a user has resolved a workspace membership request
+* **Membership request resolved:&#x20;**&#x54;hat a user has resolved a workspace membership request.
 
-* **Audit Log exported:&#x20;**&#x54;hat the user exported the audit log
+* **Audit Log exported:&#x20;**&#x54;hat the user exported the audit log.
 
-* **User Analytics exported:&#x20;**&#x54;he the user exported the User Analytics table of [Workspace Analytics](https://www.notion.com/help/workspace-analytics)
+* **User Analytics exported:&#x20;**&#x54;he the user exported the User Analytics table of [Workspace Analytics](https://www.notion.com/help/workspace-analytics).
 
-* **Content Analytics exported:&#x20;**&#x54;hat the user exported the Content Analytics table of [Workspace Analytics](https://www.notion.com/help/workspace-analytics)
+* **Content Analytics exported:&#x20;**&#x54;hat the user exported the Content Analytics table of [Workspace Analytics](https://www.notion.com/help/workspace-analytics).
 
-* **Workspace analytics tracking toggled:&#x20;**&#x54;hat the user enabled or disabled workspace analytics within the workspace
+* **Workspace analytics tracking toggled:&#x20;**&#x54;hat the user enabled or disabled workspace analytics within the workspace.
+
+* **Workers paused**: That a workspace admin or Notion admin paused workers for the workspace.
+
+* **Workers resumed**: That a workspace admin or Notion admin resumed workers for the workspace.
 
 * **Content search queried**: That a workspace owner, an integration, or an external AI tool used the content search functionality to find workspace content.
 
 * **Content search results exported**: That a workspace owner has exported the results from a [content search](https://www.notion.com/help/admin-content-search) query.
 
-* **Notion AI toggled for workspace:&#x20;**&#x54;hat the user has enabled or disabled Notion AI in a workspace
+* **Notion AI toggled for workspace:&#x20;**&#x54;hat the user has enabled or disabled Notion AI in a workspace.
 
 * **Workspace consolidation started:** A Notion employee has initiated workspace consolidation from this source or to this target workspace.
 
@@ -375,39 +331,155 @@ Page event audience will also export as a column in CSV exports.
 
 * **MCP client removed from allowlist:&#x20;**&#x54;hat a workspace owner removed an integration or external AI tool from the allowlist.
 
-### Account events
+## Workers events
 
-* **Login:&#x20;**&#x57;hen and from where a user has logged in
+* **Worker created:** That a user created a new worker.
 
-* **Logout:&#x20;**&#x57;hen and from where a user has logged out
+* **Worker renamed:** That a user renamed a worker.
 
-* **Password set:&#x20;**&#x54;hat a user created a password
+* **Worker deleted:** That a user deleted a worker.
 
-* **Password cleared:&#x20;**&#x54;hat a user cleared their password
+* **Worker enabled:** That a user enabled a worker.
 
-* **Password changed:&#x20;**&#x54;hat a user changed their password
+* **Worker disabled:** That an admin or workspace owner disabled a worker.
+
+* **Worker deployment succeeded:** That a user successfully deployed a worker.
+
+* **Worker deployment failed:** That a user’s deployment of a worker failed.
+
+* **Worker run completed:** That a run of a worker completed after being triggered manually, by an automation, by a sync, by a webhook, or by a custom agent.
+
+* **Worker run failed:** That a run of a worker failed after being triggered manually, by an automation, by a sync, by a webhook, or by a custom agent.
+
+* **Worker secret upserted:** That a user created or updated a worker secret.
+
+* **Worker secret deleted:** That a user deleted a worker secret.
+
+* **Worker environment pulled:** That configured environment variables were pulled for a worker.
+
+* **Worker access granted:** That a user granted someone access to a worker.
+
+* **Worker access role updated:** That a user updated someone’s access role for a worker.
+
+* **Worker access revoked:** That a user revoked someone’s access to a worker.
+
+## Account events
+
+* **Login:&#x20;**&#x57;hen and from where a user has logged in.
+
+* **Logout:&#x20;**&#x57;hen and from where a user has logged out.
+
+* **Password set:&#x20;**&#x54;hat a user created a password.
+
+* **Password cleared:&#x20;**&#x54;hat a user cleared their password.
+
+* **Password changed:&#x20;**&#x54;hat a user changed their password.
 
 * **MFA SMS toggled:&#x20;**&#x54;hat a user updated their MFA via SMS text messages settings. Learn more[ here](https://www.notion.com/help/two-step-verification)
 
 * **MFA TOTP toggled:** That a user updated their MFA via a TOTP (time-sensitive one time passcode) app. Learn more [here](https://www.notion.com/help/two-step-verification)
 
-* **MFA backup code toggled:&#x20;**&#x54;hat a user updated their MFA backup code settings
+* **MFA backup code toggled:&#x20;**&#x54;hat a user updated their MFA backup code settings.
 
-* **Email changed:&#x20;**&#x54;hat the email of a user was changed
+* **Email changed:&#x20;**&#x54;hat the email of a user was changed.
 
-* **Picture changed:&#x20;**&#x54;he the profile photo of the user was changed
+* **Picture changed:&#x20;**&#x54;he the profile photo of the user was changed.
 
-* **User deleted:&#x20;**&#x54;hat a specific user account has been deleted
+* **User deleted:&#x20;**&#x54;hat a specific user account has been deleted.
 
-* **Granted support access:&#x20;**&#x54;hat a user’s account was granted Notion support access
+* **Granted support access:&#x20;**&#x54;hat a user’s account was granted Notion support access.
 
-* **Revoked support access:&#x20;**&#x54;hat a user’s account was revoked Notion support access
+* **Revoked support access:&#x20;**&#x54;hat a user’s account was revoked Notion support access.
 
-* **Preferred name changed:** That a user has updated their account's preferred name
+* **Preferred name changed:** That a user has updated their account's preferred name.
 
 * **Authorized via Workspace SAML**: Verified workspace access via SAML SSO.
 
 **Note:&#x20;**&#x49;f you are trying to find a deleted user or a user who has changed their name to a new name, the best way to do this is through an exported audit log.
+
+## Teamspace events
+
+* **Member added to teamspace:&#x20;**&#x54;hat a user added another user to the teamspace. Will specify “as Teamspace owner” if user is invited as a teamspace owner.
+
+* **Member removed from teamspace:&#x20;**&#x54;hat a teamspace owner has removed a teamspace member from the teamspace.
+
+* **Group added to teamspace:&#x20;**&#x54;hat a user added a permission group to the teamspace.
+
+* **Group removed from teamspace:&#x20;**&#x54;hat a teamspace owner has removed a permission group from the teamspace.
+
+* **Member joined the teamspace:** That a user joined an open teamspace.
+
+* **Member left the teamspace:** That a user left a teamspace.
+
+* **Teamspace created:&#x20;**&#x54;hat a user created the teamspace.
+
+* **Teamspace archived:&#x20;**&#x54;hat a teamspace owner archived a teamspace.
+
+* **Teamspace restored:&#x20;**&#x54;hat a teamspace owner restored a teamspace.
+
+* **Teamspace name changed:&#x20;**&#x54;hat a user updated the teamspace’s name.
+
+* **Teamspace description changed:** That the teamspace description has been changed.
+
+* **Teamspace icon changed:&#x20;**&#x54;hat the teamspace icon has been changed.
+
+* **Teamspace privacy type changed:** That a teamspace owner has changed the teamspace privacy type.
+
+* **Teamspace default toggled:&#x20;**&#x54;hat a user enabled or disabled a teamspace as a default teamspace.
+
+* **Teamspace creation setting toggled:&#x20;**&#x54;hat a user has enabled or disabled the ability for everyone in the workspace to create a teamspace.
+
+* **Teamspace Members default page permission updated**: That the default page permissions of teamspace members have been changed.
+
+* **Everyone in workspace default page permission updated**: That the default page permissions of everyone at workspace have been changed.
+
+* **Member teamspace role updated:&#xA0;**&#x54;hat a has updated a teamspace member’s role in the teamspace.
+
+* **Custom permissions updated for a member in the teamspace:&#x20;**&#x54;hat a teamspace owner modified access to a teamspace member. Learn more [here](https://www.notion.com/help/guides/grant-access-teamspaces)
+
+* **Custom permissions updated for a group in the teamspace:&#x20;**&#x54;hat a teamspace owner modified access to a group. Learn more [here](https://www.notion.com/help/guides/grant-access-teamspaces)
+
+* **Teamspace invite access changed**: That a user has updated settings for who can invite teamspace members.
+
+* **Teamspace disable guests toggled: &#xA0;**&#x54;hat a teamspace owner has enabled or disabled the ability to add guests to a teamspace.
+
+* **Export toggled for teamspace:&#x20;**&#x54;hat a teamspace owner has disabled or enabled exporting for a teamspace.
+
+* **Public page sharing toggled for teamspace:&#xA0;**&#x54;hat a teamspace owner has switched public page sharing on/off for a teamspace.
+
+* **Teamspace sidebar editing toggled:&#x20;**&#x54;hat a teamspace owner has enabled or disabled the ability for users to change the teamspace sidebar section.
+
+* **Enabled teamspaces:&#x20;**&#x54;hat a user has enabled the teamspaces feature on a workspace.
+
+## Form events
+
+* **Form response created:** That a form response was submitted.
+
+* **Form created:** That a user created a form.
+
+* **Form content updated:&#x20;**&#x54;hat a user updated a form’s content.
+
+* **Form viewed:** That a user viewed a form.
+
+* **Form permission updated:** That a user updated a form’s permissions.
+
+## Data source events
+
+* **Data source created:** That a user, an integration, or an external AI tool created a new data source in a database.
+
+* **Data source moved to trash:** That a user or an integration moved a data source to Trash.
+
+* **Data source deleted from trash:** That a user deleted a data source from Trash.
+
+* **Data source restored from trash:** That a user or an integration restored a formerly deleted data source from Trash.
+
+* **Data source moved:** That a user moved a data source from one database to another.
+
+* **Data source permission rule updated:** That a user added, removed, or changed a page-level access rule for a data source.
+
+* **Data source permanently deleted:** That a data source was permanently removed from Trash. This can be done by a user, but it can also be done automatically by Notion after 30 days, or [within a custom time frame](https://www.notion.com/help/custom-data-retention-settings) on Enterprise Plans.
+
+* **Data source schema edited:&#x20;**&#x54;hat a user, integration, or external AI tool added, removed, or changed properties in a data source schema.
 
 ## Custom Agent events
 
@@ -415,7 +487,7 @@ The audit log records key Custom Agent configuration and access changes so Enter
 
 **Configuration events:**
 
-* **Agent created:&#x20;**&#x41; Custom Agent was created in the workspace.
+* **Agent draft created:&#x20;**&#x41; Custom Agent draft was created in the workspace.
 
 * **Agent updated:** An agent's name, description, or icon was changed.
 
@@ -469,7 +541,7 @@ The audit log records key Custom Agent configuration and access changes so Enter
 
 ## Export your audit log
 
-Want to analyze the data in a spreadsheet or import your audit log to external tools? The workspace audit log can be exported in CSV format.
+Want to analyze your audit log data in a spreadsheet or send it to external tools? You can export your workspace audit log as a CSV. Your export will include only the events that match the filters you've set, so you get a smaller, more targeted file for investigations, audits, and compliance reviews.
 
 To export your audit log:
 
@@ -477,6 +549,8 @@ To export your audit log:
 
 2. Go to the `Data & Compliance` tab and select `Audit log`.
 
-3. Select `Export`.
+3. Optionally filter by organization, date, person, or event.
 
-**Note:** An exported audit log shows all applicable events within your desired date range. You'll be able to view data going back 365 days up until 2 hours before the time of export. To save historical data, you'll want to `Export` audit log events regularly.
+4. Select `Export`.
+
+**Note:** The export will include any active filters applied at the time of export. You'll be able to view data going back 365 days up until 2 hours before the time of export. To save historical data, you'll want to `Export` audit log events regularly.

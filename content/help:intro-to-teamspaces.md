@@ -1,7 +1,7 @@
 ---
 title: "Intro to teamspaces"
-emoji: "🐾"
-description: "Teamspaces streamline access to information, creating a dedicated area for every team which can be customized to suit their way of working. This article walks you through the ins & outs of the feature 🐾"
+emoji: null
+description: "Teamspaces streamline access to information, creating a dedicated area for every team which can be customized to suit their way of working. This article walks you through the ins & outs of the feature."
 url: "https://www.notion.com/help/intro-to-teamspaces"
 key: "help:intro-to-teamspaces"
 coverImage: "https://img.youtube.com/vi/dwRIudDva6Y/maxresdefault.jpg"

@@ -1,10 +1,10 @@
 ---
 title: "Notion Calendar security practices"
-emoji: "🔒"
-description: "Learn how Notion Calendar, a Notion product, provides secure access to your calendar and protects your data 🔒"
+emoji: null
+description: "Learn how Notion Calendar, a Notion product, provides secure access to your calendar and protects your data."
 url: "https://www.notion.com/help/notion-calendar-security-practices"
 key: "help:notion-calendar-security-practices"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/7p7r9IQJhKKOhgrXa1QFoG/e8d045240fb448b29e0368488108e69e/notion-ai-security-practices.png"
+coverImage: null
 category: "Notion Calendar"
 categoryKey: "category:notion-calendar"
 ---

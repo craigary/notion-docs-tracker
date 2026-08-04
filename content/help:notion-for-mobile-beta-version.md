@@ -1,10 +1,10 @@
 ---
 title: "Notion beta program"
-emoji: "📲"
+emoji: null
 description: "Get early access to new mobile features before anyone else, and help shape the future of Notion’s iOS & Android apps! Compared to the standard mobile apps, you’ll receive bug fixes and updates much quicker 📲"
 url: "https://www.notion.com/help/notion-for-mobile-beta-version"
 key: "help:notion-for-mobile-beta-version"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/22rr0pA35XNmyGoq6HNz48/1de31582287cdbb7257efd80ff431736/Notion_for_mobile_beta_-_hero.png"
+coverImage: null
 category: "Notion on desktop, web, & mobile"
 categoryKey: "category:notion-apps"
 ---

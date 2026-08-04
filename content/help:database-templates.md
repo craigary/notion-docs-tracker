@@ -1,7 +1,7 @@
 ---
 title: "Database templates"
-emoji: "🖨"
-description: "Most databases contain the same types of pages created over and over again. Think of weekly meeting notes, bug reports, or design specs. To make this easy, database templates let you define and replicate certain page structures with one click 🖨"
+emoji: null
+description: "Most databases contain the same types of pages created over and over again. Think of weekly meeting notes, bug reports, or design specs. To make this easy, database templates let you define and replicate certain page structures with one click."
 url: "https://www.notion.com/help/database-templates"
 key: "help:database-templates"
 coverImage: "https://img.youtube.com/vi/gMFaeZGGxsk/maxresdefault.jpg"

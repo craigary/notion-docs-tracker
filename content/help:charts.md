@@ -1,7 +1,7 @@
 ---
 title: "Chart view"
-emoji: "📊"
-description: "Charts help visualize the vast amount of information in your database. Customize your charts so you can see your data in the way that’s most helpful. You can even put charts from multiple databases into a Notion page to create a powerful dashboard 📊"
+emoji: null
+description: "Charts help visualize the vast amount of information in your database. Customize your charts so you can see your data in the way that’s most helpful. You can even put charts from multiple databases into a Notion page to create a powerful dashboard."
 url: "https://www.notion.com/help/charts"
 key: "help:charts"
 coverImage: "https://img.youtube.com/vi/dVUMX5sd68Q/maxresdefault.jpg"

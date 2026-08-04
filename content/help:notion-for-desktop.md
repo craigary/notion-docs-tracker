@@ -1,10 +1,10 @@
 ---
 title: "Notion for desktop"
-emoji: "🖥"
-description: "You can use Notion on your Mac or PC as a downloadable desktop application. Here's what you need to know 🖥️"
+emoji: null
+description: "You can use Notion on your Mac or PC as a downloadable desktop application. Here's what you need to know."
 url: "https://www.notion.com/help/notion-for-desktop"
 key: "help:notion-for-desktop"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/4WMSDtdzR2zyWWByTFT4vE/13d2321d5d2671bce13e2285d823a2f3/Notion_for_desktop_-_hero.png"
+coverImage: null
 category: "Notion on desktop, web, & mobile"
 categoryKey: "category:notion-apps"
 ---
@@ -60,6 +60,38 @@ On desktop, you can use search and [Notion AI](https://www.notion.com/help/notio
 2. Open the downloaded file and follow the instructions to install Notion.
 
 3. Open the Notion app and log in using your email.
+
+### Windows MSIX installer
+
+Notion is also available as an MSIX package for Windows. MSIX is a modern app format that's more secure, cleaner to install and uninstall, and easier for IT teams to deploy across a company.
+
+**To download the MSIX installer:**
+
+1. Go to [notion.com/desktop](http://notion.com/desktop).
+
+2. Select the version for your device:
+
+* **x64&#x20;**(most Windows PCs): [notion.com/desktop/windows-msix/download](http://notion.com/desktop/windows-msix/download)
+
+* **Arm** (some Surface laptops): [notion.com/desktop/windows-msix-arm/download](http://notion.com/desktop/windows-msix-arm/download)
+
+1. Uninstall your current Notion desktop app, then open the MSIX file and follow the install steps.
+
+2. Open Notion and sign in.
+
+**Your data carries over.** The MSIX version reads your existing profile and login data from the same location as the previous app. Your windows and tabs will appear just as before.
+
+**What's different with MSIX**
+
+* **Start at login** is managed through Windows Settings in addition to within the Notion app. To use the in-app
+
+  `Open at login` setting, make sure you've launched Notion at least once first.
+
+* **Link handling** (opening Notion links in-app vs. in a browser) is now managed through Windows Settings →
+
+  `Apps for websites`. Once set up, `https://` links to Notion pages open directly in the app without going to the browser first.
+
+**Tip:** If you're in a managed IT environment, check with your IT team before switching to MSIX to confirm it's supported in your organization's setup.
 
 ## Update the desktop app
 

@@ -1,7 +1,7 @@
 ---
 title: "Publish a Notion Site"
-emoji: "🪄"
-description: "Any page you build in Notion can be turned into a beautiful Notion Site with just a click. Publish a blog, resume or portfolio, job listing, landing page — the possibilities are as wide as the web itself 🪄"
+emoji: null
+description: "Any page you build in Notion can be turned into a beautiful Notion Site with just a click. Publish a blog, resume or portfolio, job listing, landing page — the possibilities are as wide as the web itself."
 url: "https://www.notion.com/help/public-pages-and-web-publishing"
 key: "help:public-pages-and-web-publishing"
 coverImage: "https://img.youtube.com/vi/mvaNaZ4-E4c/maxresdefault.jpg"

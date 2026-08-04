@@ -1,10 +1,10 @@
 ---
 title: "Edit & customize your Notion Sites"
-emoji: "🎨"
-description: "If you’re on a paid plan, you can customize the look and feel of your Notion Sites, integrate with Google Analytics, and more 🎨"
+emoji: null
+description: "If you’re on a paid plan, you can customize the look and feel of your Notion Sites, integrate with Google Analytics, and more."
 url: "https://www.notion.com/help/edit-and-customize-your-notion-sites"
 key: "help:edit-and-customize-your-notion-sites"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/6EY9cIYlWr6aTGNsEjsLwi/25b6fff94740f4e4c33cc54b59eb91fd/Screenshot_2024-06-20_at_1.10.19_PM_1.png"
+coverImage: null
 category: "Notion Sites"
 categoryKey: "category:notion-sites"
 ---

@@ -1,10 +1,10 @@
 ---
 title: "Move & duplicate content"
-emoji: "📦"
+emoji: null
 description: "If you have multiple Notion workspaces or accounts, you may want to move content from one to another. We'll show you how 📦"
 url: "https://www.notion.com/help/transfer-content-to-another-account"
 key: "help:transfer-content-to-another-account"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/1d1cQPS5QFoIaXWyFLe5E8/bfdc63f8e69d2d83dc9a314f87c56c36/Transfer_content_to_another_account__-_hero.png"
+coverImage: null
 category: "Pages & blocks"
 categoryKey: "category:write-edit-and-customize"
 ---

@@ -1,10 +1,10 @@
 ---
 title: "Refunds"
-emoji: "↩️"
-description: "Learn about Notion’s refund policy ↩️"
+emoji: null
+description: "Learn about Notion’s refund policy."
 url: "https://www.notion.com/help/refunds"
 key: "help:refunds"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/wFKJcf6sLj4E1hzQEDcY9/6c6df31ce10f4795b4913798ceb2ce71/Refunds_Reference_Visuals.png"
+coverImage: null
 category: "Plans & billing"
 categoryKey: "category:plans-billing-and-payment"
 ---

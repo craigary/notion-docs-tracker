@@ -4,7 +4,7 @@ emoji: null
 description: "Enterprise connection settings empower workspace owners with granular control. Manage member access, approve connections, and streamline your Notion workspace's integration ecosystem — all from one centralized dashboard."
 url: "https://www.notion.com/help/enterprise-connection-settings"
 key: "help:enterprise-connection-settings"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/3EvinCberMWv1O39Xd0N2N/1ed8baee3f128c1aba33293dba5633eb/Enterprise_connection.png"
+coverImage: null
 category: "Administer your workspace"
 categoryKey: "category:enterprise-admin"
 ---
@@ -15,13 +15,17 @@ Workspace owners on the Enterprise Plan have access to additional settings for m
 
 ## Restrict members from installing connections
 
-1. If you're a workspace owner, go to `Settings` → `Connections`.
+1. If you’re a workspace owner, go to `Settings` → `Connections.`
 
-2. Under the `Member` tab, you'll see the option to `Restrict members from adding connections`. Click the dropdown to the right to access two options:
+2. Select the `Manage `tab.
 
-   * `No restrictions`: All workspace members can install any connection in the workspace.
+3. Click the dropdown next to **Limit which connections members can install&#x20;**&#x74;o access options:
 
-   * `Only from approved list`: Workspace members can only install connections pre-approved by a workspace owner. If a workspace owner installs an integration that isn’t already on the approved list, it’ll automatically be added to the approved list afterwards.
+* `No restrictions`: All workspace members can install any connection in the workspace.
+
+* `Approved & recommended`: Workspace members can install approved connections and connections recommended by Notion.
+
+* `Approved only`: Workspace members can only install connections pre-approved by a workspace owner. If a workspace owner installs an integration that isn't already on the approved list, it'll automatically be added to the approved list afterwards.
 
 ![Integration - Enterprise menu](https://images.ctfassets.net/spoqsaf9291f/5hClC5SVCaqs0It9asEcEr/59d3a712c45bd39b71a2d4a45c8368be/Integration_-_Enterprise_menu.png)
 
@@ -54,6 +58,10 @@ Workspace owners on the Enterprise Plan have access to additional settings for m
    * Remove the connection from the approved list.
 
 ![Integration - Options](https://images.ctfassets.net/spoqsaf9291f/501dZyRoaYclqaXOwQVV1u/269b881a7bbcb1f56bcfd8a43b069b7e/Integration_-_Options.png)
+
+### View members with connections
+
+In the `Manage` tab, select any connection to see which workspace members have it installed. You can disconnect individual members or all members at once.
 
 ## Disable webhook actions in a workspace
 

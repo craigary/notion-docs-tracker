@@ -1,7 +1,7 @@
 ---
 title: "Set up Identity Provider (IdP) for SAML SSO"
-emoji: "🔑"
-description: "Here's how to set up your Identity Provider for SAML SSO in Notion 🔑"
+emoji: null
+description: "Here's how to set up your Identity Provider for SAML SSO in Notion."
 url: "https://www.notion.com/help/set-up-identity-provider-for-saml-sso"
 key: "help:set-up-identity-provider-for-saml-sso"
 coverImage: null

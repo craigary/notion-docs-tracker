@@ -1,10 +1,10 @@
 ---
 title: "Images, files & media"
-emoji: "🎞"
-description: "Add more color to your Notion page by uploading images, videos, audio, and more 🎞️"
+emoji: null
+description: "Add more color to your Notion page by uploading images, videos, audio, and more."
 url: "https://www.notion.com/help/images-files-and-media"
 key: "help:images-files-and-media"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/36Ausu8jjrEQprh1ZEA8yt/888463519a832ce07ba6106c8108d54a/Images__files___media_-_hero.png"
+coverImage: null
 category: "Pages & blocks"
 categoryKey: "category:write-edit-and-customize"
 ---
@@ -42,6 +42,8 @@ Notion supports the following file types:
 * SVG
 
 * PDF
+
+* MD
 
 * WEBP
 

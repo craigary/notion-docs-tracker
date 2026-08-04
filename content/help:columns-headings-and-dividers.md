@@ -1,10 +1,10 @@
 ---
 title: "Format your page"
-emoji: "📐"
-description: "Notion is designed to get thoughts out of your head and onto the page. Once they're there, you can rearrange, organize, and structure them to think and write more clearly 📐"
+emoji: null
+description: "Notion is designed to get thoughts out of your head and onto the page. Once they're there, you can rearrange, organize, and structure them to think and write more clearly."
 url: "https://www.notion.com/help/columns-headings-and-dividers"
 key: "help:columns-headings-and-dividers"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/2PcdGjctB3Db0rNdqZnuP6/02bfc031351b017feaf256c787e4b9d8/Columns__headings___dividers_-_hero.png"
+coverImage: null
 category: "Pages & blocks"
 categoryKey: "category:write-edit-and-customize"
 ---

@@ -1,10 +1,10 @@
 ---
 title: "Workspace analytics"
-emoji: "🗃"
-description: "Learn how your organization is interacting with content on your workspace 🗃"
+emoji: null
+description: "Learn how your organization is interacting with content on your workspace."
 url: "https://www.notion.com/help/workspace-analytics"
 key: "help:workspace-analytics"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/593BzARypfkT2ALQ3ZGFU1/18f8351a980635587f46b7b8d12fc0aa/Workspace_analytics.png"
+coverImage: null
 category: "Administer your workspace"
 categoryKey: "category:enterprise-admin"
 ---

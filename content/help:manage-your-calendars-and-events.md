@@ -1,15 +1,15 @@
 ---
 title: "Manage your calendars & events"
-emoji: "🏃🏼‍♂️"
-description: "Here’s how to set up your calendar so you can get around the grid quickly and focus on what matters most to you 🏃🏼‍♂️"
+emoji: null
+description: "Here’s how to set up your calendar so you can get around the grid quickly and focus on what matters most to you. "
 url: "https://www.notion.com/help/manage-your-calendars-and-events"
 key: "help:manage-your-calendars-and-events"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/6rC1jMhSJoZ0PR1EZDD9z/eef96748a523f87ffad98f7dd7827850/manage-your-calendars-and-events.png"
+coverImage: null
 category: "Notion Calendar"
 categoryKey: "category:notion-calendar"
 ---
 
-You can connect calendars from Apple and Google with Notion Calendar. We’re working on adding support for Microsoft Outlook — check <https://www.notion.com/releases> and <https://twitter.com/notioncalendar> for updates.
+You can connect calendars from Apple and Google with Notion Calendar.
 
 Looking to adjust notifications, appearance, language, or what day your weeks start in Notion Calendar? Learn about Notion Calendar settings [here →](https://www.notion.com/help/notion-calendar-settings)
 
@@ -30,6 +30,8 @@ Apple requires you to use an [app-specific password](https://support.apple.com/1
 1. Log into your Apple account at <https://account.apple.com/sign-in>.
 
 2. Go to `App-Specific Passwords` and create a new password.
+
+To connect a Microsoft Outlook or Microsoft 365 account, select `Add calendar account` and choose `Microsoft Outlook`. You'll be prompted to sign in with your Microsoft credentials and authorize Notion Calendar.
 
 Have a Notion database you’d like to view and manage in Notion Calendar? Any database with a date property can be added to Notion Calendar. Learn more [here →](https://www.notion.com/help/use-notion-calendar-with-notion#connect-notion-database-entries-to-notion-calendar)
 
@@ -101,11 +103,21 @@ If you’re on mobile, select `+` at the bottom right of the app, then enter det
 
 * If a room becomes unavailable, event organizers will see a warning sign next to the name of the event in their calendar.
 
+* When creating events on a Microsoft Outlook or Microsoft 365 calendar, you can add Microsoft Teams as the conferencing option. Select `Conferencing` when creating your event to add a Teams link.
+
 **Create multiple-day events with start and end times**
 
 To create multiple-day events with time details, select a time slot in your calendar, then drag it across the days the event will span. Once the event is created, you can enter start and end times for it.
 
 **Note:&#x20;**&#x59;ou can use headers, hyperlinks, numbered and bulleted lists, and more in your event description.
+
+### Recurring events
+
+Notion Calendar supports viewing and editing recurring events from Microsoft Outlook calendars. You can edit individual occurrences or all future events in a series.
+
+### Delegated calendars
+
+If you manage or have been delegated access to another person's Microsoft Outlook calendar, you can add it to Notion Calendar. The delegated calendar will appear under the account you used to connect Outlook, and you can view and manage events on it based on your delegated permissions.
 
 ### RSVP to events
 

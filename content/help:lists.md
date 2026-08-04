@@ -1,7 +1,7 @@
 ---
 title: "List view"
-emoji: "📜"
-description: "Lists are simple and minimalist database views. They're ideal for storing notes, articles, and documents that don't need too many properties. Every item in a list is a page that can be opened with one click and store as much content as you need 📜"
+emoji: null
+description: "Lists are simple and minimalist database views. They're ideal for storing notes, articles, and documents that don't need too many properties. Every item in a list is a page that can be opened with one click and store as much content as you need."
 url: "https://www.notion.com/help/lists"
 key: "help:lists"
 coverImage: "https://img.youtube.com/vi/Qhvix00IE0k/maxresdefault.jpg"

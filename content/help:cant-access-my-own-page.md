@@ -1,10 +1,10 @@
 ---
 title: "I can't access my own page"
 emoji: null
-description: null
+description: "Here's what to do if you aren't able to access your own Notion page."
 url: "https://www.notion.com/help/cant-access-my-own-page"
 key: "help:cant-access-my-own-page"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/15MnehxCRUUA3LITX21Lar/7c80798bd5cce07c4b492cb6543419c7/Troubleshooting_Reference_Visuals.png"
+coverImage: null
 category: "Troubleshoot"
 categoryKey: "category:troubleshooting"
 ---

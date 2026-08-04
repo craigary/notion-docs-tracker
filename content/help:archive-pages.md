@@ -1,10 +1,10 @@
 ---
 title: "Archive pages"
-emoji: "🗄️"
-description: "Notion lets you archive pages instead of deleting them. If you need them again, they’re easy to recover. 🗄️"
+emoji: null
+description: "Notion lets you archive pages instead of deleting them. If you need them again, they’re easy to recover."
 url: "https://www.notion.com/help/archive-pages"
 key: "help:archive-pages"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/ugv6z89XTHBVzVSWzpLwu/344125d7e766d22f61bc7fa747dac36a/Archive_pages.png"
+coverImage: null
 category: "Pages & blocks"
 categoryKey: "category:write-edit-and-customize"
 ---

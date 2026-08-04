@@ -1,10 +1,10 @@
 ---
 title: "Notion Calendar settings"
-emoji: "🗓️"
-description: "There are lots of ways to change how Notion Calendar shows and reminds you about meetings 🗓️"
+emoji: null
+description: "There are lots of ways to change how Notion Calendar shows and reminds you about meetings."
 url: "https://www.notion.com/help/notion-calendar-settings"
 key: "help:notion-calendar-settings"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/2anV8A4mfTxgPeF3A5fWrw/ab5e253d2fa94bbd4562b46d9eed4e54/notion-calendar-settings.png"
+coverImage: null
 category: "Notion Calendar"
 categoryKey: "category:notion-calendar"
 ---

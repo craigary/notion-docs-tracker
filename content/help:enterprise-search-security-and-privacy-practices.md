@@ -1,10 +1,10 @@
 ---
 title: "Enterprise Search security & privacy practices"
-emoji: "🔒"
-description: "Learn about our security and privacy practices for Enterprise Search, which allows you to find information from apps that you connect to Notion 🔒"
+emoji: null
+description: "Learn about our security and privacy practices for Enterprise Search, which allows you to find information from apps that you connect to Notion."
 url: "https://www.notion.com/help/enterprise-search-security-and-privacy-practices"
 key: "help:enterprise-search-security-and-privacy-practices"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/6cOVzKdeMZt3WUSzjOlxYv/f209d951b6b63650d7f3eb76d0ec5f25/Reference_Visuals.png"
+coverImage: null
 category: "Notion AI security"
 categoryKey: "category:notion-ai-security"
 ---
@@ -227,7 +227,7 @@ Notion is model agnostic; we will continue to evaluate and incorporate the lates
 
 * Root cause analysis for all security events
 
-* Transparent communication through [status.notion.so](http://status.notion.so)
+* Transparent communication through [status.notion.com](http://status.notion.com)
 
 ### Customer notification
 

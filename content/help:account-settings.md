@@ -1,10 +1,10 @@
 ---
 title: "Account settings & preferences"
-emoji: "⚙️"
-description: "There are tons of account settings and preferences to adjust in Notion ⚙️"
+emoji: null
+description: "There are tons of account settings and preferences to adjust in Notion."
 url: "https://www.notion.com/help/account-settings"
 key: "help:account-settings"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/s0OYm0S0rybp2h3hdS72B/8a5ed8f27b9a017f92f480e98ba9ecec/Account_settings_-_hero.png"
+coverImage: null
 category: "Settings & preferences"
 categoryKey: "category:account-settings-and-privacy"
 ---
@@ -148,6 +148,24 @@ To customize Notion's appearance on mobile:
    * `Dark` to display dark mode.
 
 **Note:** When you select dark mode, it applies to all workspaces you're signed into on your account. If you switch between them, they'll all be dark.
+
+## Turn on high contrast mode
+
+High contrast mode increases contrast across text, icons, and borders for better visibility. It works independently of your appearance setting.
+
+High contrast mode is currently available on Notion desktop and web only.
+
+1. In the sidebar, select the down arrow next to the workspace name to go to `Settings` → `Preferences`.
+
+2. Open the dropdown next to `High contrast` and select one of the following options:
+
+   * `Use system setting` to follow your device's contrast setting.
+
+   * `Standard` contrast for Notion's default appearance.
+
+   * `High contrast` for increased contrast across text, icons, and borders.
+
+**Note**: This setting is saved per device. Choosing it on one device won't update this setting on your other devices.
 
 ## Open links in desktop app
 

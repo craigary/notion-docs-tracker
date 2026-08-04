@@ -1,10 +1,10 @@
 ---
 title: "Use Notion Calendar with Notion"
-emoji: "🪄"
-description: "Notion Calendar and Notion work together to create a seamless experience as you go from meetings to notes to projects 🪄"
+emoji: null
+description: "Notion Calendar and Notion work together to create a seamless experience as you go from meetings to notes to projects."
 url: "https://www.notion.com/help/use-notion-calendar-with-notion"
 key: "help:use-notion-calendar-with-notion"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/53JHSpr7KhRpAZSWR4nr5H/36c3ed913bc249f1d4eb6ebe4aa949f4/use-notion-calendar-with-notion.png"
+coverImage: null
 category: "Notion Calendar"
 categoryKey: "category:notion-calendar"
 ---

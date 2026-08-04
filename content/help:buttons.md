@@ -1,10 +1,10 @@
 ---
 title: "Buttons"
-emoji: "🍣"
-description: "In Notion, you can easily automate simple and repetitive tasks to save time 🍣"
+emoji: null
+description: "In Notion, you can easily automate simple and repetitive tasks to save time."
 url: "https://www.notion.com/help/buttons"
 key: "help:buttons"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/2O8VB9lhxHdXAALDin0ROh/595844aef457c9faed8812afb0bbfbcd/Buttons_-_hero.png"
+coverImage: null
 category: "Automations"
 categoryKey: "category:automations"
 ---

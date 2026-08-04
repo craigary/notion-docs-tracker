@@ -1,10 +1,10 @@
 ---
 title: "Marketplace guidelines & terms"
-emoji: "🖼️"
-description: "Read the terms and guidelines for using Marketplace 🖼️"
+emoji: null
+description: "Read the terms and guidelines for using Marketplace."
 url: "https://www.notion.com/help/template-gallery-guidelines-and-terms"
 key: "help:template-gallery-guidelines-and-terms"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/51pPnpYP7yHWSIrLw7x55F/59893a172f5ae3b1feaf9fa662b31666/checklist.png"
+coverImage: null
 category: "Marketplace & templates"
 categoryKey: "category:template-gallery"
 ---

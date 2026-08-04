@@ -1,10 +1,10 @@
 ---
 title: "Best practices for creating and optimizing a Custom Agent"
-emoji: "🤖"
+emoji: null
 description: "Best practices to make your Custom Agent more reliable by clarifying goals, tightening sources, and iterating on results. "
 url: "https://www.notion.com/help/best-practices-for-creating-and-optimizing-a-custom-agent"
 key: "help:best-practices-for-creating-and-optimizing-a-custom-agent"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/44JzG7eAS2RgKEZvv3nAhF/37b07971c4b7848cb1ef580ad6758dd5/Group_184.png"
+coverImage: null
 category: "Custom Agents"
 categoryKey: "category:custom-agents"
 ---
@@ -35,7 +35,7 @@ A well-designed Custom Agent uses fewer credits and delivers better results. Her
 
 New to Custom Agents?
 
-Start with [Custom Agents](https://www.notion.com/help/custom-agent) to learn what they are, how they work, and what you can connect them to.
+Start with [**Custom Agents**](https://www.notion.com/help/custom-agent) to learn what they are, how they work, and what you can connect them to.
 
 Custom Agents are most reliable when they have a clear job, the right sources, and a tight definition of “done.” This best practices article covers how to write better instructions, choose the right triggers, and improve results over time.
 

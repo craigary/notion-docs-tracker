@@ -1,10 +1,10 @@
 ---
 title: "Provision users & groups with SCIM"
-emoji: "🔑"
-description: "You can provision and manage users and groups in your Notion workspace with the System for Cross-domain Identity Management (SCIM) API standard 🔑"
+emoji: null
+description: "You can provision and manage users and groups in your Notion workspace with the System for Cross-domain Identity Management (SCIM) API standard."
 url: "https://www.notion.com/help/provision-users-and-groups-with-scim"
 key: "help:provision-users-and-groups-with-scim"
-coverImage: "https://images.ctfassets.net/spoqsaf9291f/2wnlyaUW3ASmq67cccMxks/9bffa290da4ed3a6065d9232dcd86c50/Provision_users___groups_with_SCIM__-_hero.png"
+coverImage: null
 category: "Administer your workspace"
 categoryKey: "category:enterprise-admin"
 ---
@@ -140,9 +140,7 @@ The table below outlines the mapping between SCIM user attributes and Notion use
 | employeeNumber      | Employee Number                                                                                                                           | `urn:ietf:params:scim:schemas:extension:``enterprise``:2.0:User` |
 | role                | Notion workspace role ("owner" \| "membership\_admin" \| "member")                                                                        | `urn:ietf:params:scim:schemas:extension:``notion``:2.0:Use`      |
 
-``
-
-Inline entry could not be loaded.
+**Note:** Notion stores only the first `phoneNumbers` entry where `primary=true`. All other entries are dropped. The `type` field is ignored entirely. Note that `primary` is not part of the SCIM 2.0 spec — Notion handles it differently from the standard. If no entry has `primary=true`, no phone number will be stored.
 
 * `GET /Users`
 
