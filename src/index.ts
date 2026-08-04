@@ -106,14 +106,19 @@ async function maybeSendTelegramMessage() {
     return
   }
 
-  const message = generateTelegramMessage({ newDocs, updatedDocs })
+  const messages = generateTelegramMessage({ newDocs, updatedDocs })
 
   if (config.sendTelegram) {
-    await sendMessage(message)
-    console.log('Telegram notification sent.')
+    await sendMessage(messages)
+    console.log(`Telegram notification sent (${messages.length} message(s)).`)
   } else {
     console.log('\nTelegram preview\n')
-    console.log(message)
+    messages.forEach((message, index) => {
+      if (index > 0) {
+        console.log(`\n--- message ${index + 1} ---\n`)
+      }
+      console.log(message)
+    })
   }
 }
 
