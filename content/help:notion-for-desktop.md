@@ -154,7 +154,7 @@ To fix this:
 
 ### Does Notion have a Linux app?
 
-We don’t have a Linux app at the moment and don't have any immediate plans for it, unfortunately 🐧 
+We don’t have a Linux app at the moment.
 
 For the time being, hopefully you can access Notion with your Chrome, Firefox, or Safari browser!
 

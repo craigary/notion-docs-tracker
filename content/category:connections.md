@@ -50,7 +50,7 @@ Most imports add new content. For CSV, imports add rows rather than updating exi
 
 ### Which versions of Confluence are supported?
 
-We officially support importing from Confluence Cloud, in pages created using the new editor that Confluence introduced in late 2018. Due to insufficient data in its index export, we do not support importing from Confluence Server. For help importing an entire workspace from the legacy editor, please contact support at [email protected](https://www.notion.com/cdn-cgi/l/email-protection#b7c3d2d6daf7dad6dcd2d9d8c3ded8d999d4d8da).
+We officially support importing from Confluence Cloud, in pages created using the new editor that Confluence introduced in late 2018. Due to insufficient data in its index export, we do not support importing from Confluence Server. For help importing an entire workspace from the legacy editor, please contact support at [email protected](https://www.notion.com/cdn-cgi/l/email-protection#f28697939fb29f9399979c9d869b9d9cdc919d9f).
 
 ### Do imported blocks count towards the storage limit for Free Plan workspaces with multiple members?
 
