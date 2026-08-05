@@ -15,9 +15,21 @@ If you manage billing in-product, admins can [purchase credits](https://www.noti
 
 ## Monthly vs. annual Notion credits
 
-There are two types of Notion credits you can buy: monthly and annual.
+There are two types of Notion credits you can buy: monthly and annual. <!-- -->The type of credit you can purchase is tied to your core subscription plan.
 
-The type of credit you can purchase is tied to your core subscription plan. Users on monthly plans can buy monthly credits, users on annual plans can buy annual credits.
+**If you manage billing in-product:**
+
+* Users on monthly plans can buy monthly credits.
+
+* Users on annual plans can buy annual credits.
+
+**If you work with an account team:**
+
+* You can buy monthly, annual, or on-demand credits.
+
+* Your credit usage will be drawn in the order of: monthly, annual, then on-demand.
+
+* To purchase credits, work with your account team.
 
 |                                                    |                                                                        |
 | -------------------------------------------------- | ---------------------------------------------------------------------- |
@@ -29,7 +41,7 @@ The type of credit you can purchase is tied to your core subscription plan. User
 
 **Monthly credits** are a good fit if your workspace uses a steady amount of credits each month, like [Custom Agent](https://www.notion.com/help/custom-agents) workflows with predictable usage. Unused credits reset each month.
 
-**Annual credits** are a good fit if you want flexibility throughout the year, like usage that ramps up, spikes, or varies between teams and quarters. They’re also useful for experimentation and time-bound projects. Because you can use annual credits anytime during your subscription year, they cost more and work well as a flexible pool alongside monthly credits. If you have monthly credits, they’ll be used before your annual credits.
+**Annual credits** are a good fit if you want flexibility throughout the year, like usage that ramps up, spikes, or varies between teams and quarters. They’re also useful for experimentation and time-bound projects. <!-- -->Because you can use annual credits anytime during your subscription year, they cost more and work well as a flexible pool.
 
 ## Billing date
 
@@ -76,4 +88,6 @@ They expire and don't carry over. If you have a remaining balance, you can reduc
 
 ### Can I buy annual credits on a monthly plan?
 
-No. Annual credits are only available on annual Business and Enterprise plans. You'll need to switch to an annual plan first.
+**If you manage your billing in-product:** No. Annual credits are only available on annual Business and Enterprise plans. You'll need to switch to an annual plan first.
+
+**If you work with an account team:** You can purchase monthly, annual, or on-demand credits.

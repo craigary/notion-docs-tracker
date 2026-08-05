@@ -9,13 +9,11 @@ category: "Notion AI"
 categoryKey: "category:notion-ai"
 ---
 
-## What is Notion MCP?
-
 **Notion MCP (Model Context Protocol)** is a powerful way to connect your favorite AI apps directly to your Notion workspace. Think of it as a bridge that lets AI assistants like Claude, ChatGPT, and Cursor read from and write to your Notion pages in real-time.
 
 Unlike traditional integrations, MCP is designed specifically for AI agents. It's fast, context-aware, and works seamlessly with how you already use Notion. No complex setup required—just connect once and your AI apps can instantly access your workspace.
 
-## Use cases and inspiration
+## Use cases & inspiration
 
 **For developers**: Use Cursor to automatically generate technical documentation from your code files and create structured project pages in Notion.
 
@@ -55,13 +53,17 @@ Admins on the Enterprise plan can manage which MCP clients and AI apps are allow
 
 With MCP Governance enabled, Enterprise admins can:
 
-* Approve specific AI apps and MCP clients that can connect to Notion MCP
+* Approve specific AI apps and MCP clients that can connect to Notion MCP.
 
-* Block any tool that is not explicitly approved
+* Block any tool that is not explicitly approved.
 
-* Enforce these controls at the workspace level (admin-managed)
+* Enforce these controls at the workspace level (admin-managed).
+
+* Set up an enterprise-managed connection so your identity provider manages connections for supported AI apps.
 
 Notion MCP continues to respect all existing Notion permissions.
+
+If your company uses Okta to sign in to Notion, you can manage how supported AI tools like Claude connect to Notion using enterprise-managed connections. Your Oktakta admin sets up the connection once for the whole team, so members don't need to approve it themselves. Learn more about setting up [enterprise-managed connections for Notion MCP](https://www.notion.com/help/set-up-enterprise-managed-connections-for-notion-mcp)→
 
 ### How to enable
 

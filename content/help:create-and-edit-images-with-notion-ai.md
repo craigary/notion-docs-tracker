@@ -11,9 +11,19 @@ categoryKey: "category:notion-ai"
 
 Create and edit images with Notion Agent to make diagrams, flowcharts, and visual notes, then refine them with follow-up instructions. Workspace owners and admins control whether image generation is switched on for their workspace.
 
-* This is available on Business and Enterprise plans only.
+* Image generation is available on Business and Enterprise plans.
 
-* To keep Notion AI fast and reliable, Business and Enterprise plans include a usage allowance for certain Notion AI features. Learn more about [managing usage allowance for Notion AI →](https://www.notion.com/help/manage-your-usage-allowance-for-notion-ai)
+* **If you manage your billing in-product:**
+
+  * Business and Enterprise plans include a usage allowance for certain Notion AI features.
+
+  * Learn more about [managing usage allowance for Notion AI →](https://www.notion.com/help/manage-your-usage-allowance-for-notion-ai)
+
+* **If you work with an account team:**
+
+  * Image generation has the following limits per user:**&#x20;**&#x31;0 image generations or edits per 24 hours. 30 image generations or edits per 30 days.
+
+  * These limits reset on a rolling basis.
 
 * [Custom Agents](https://www.notion.com/help/category/custom-agents) can’t generate images.
 
