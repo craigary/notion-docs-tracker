@@ -15,7 +15,7 @@ If Notion is down or you’re unable to access Notion:
 
 * Try disabling any firewalls, VPNs, or privacy or security software you have on your device that may be blocking access to Notion.
 
-* Check for any ISPs blocking the .so or notion.so domain.
+* Check for any ISPs blocking the notion.com domain.
 
 * See if the issue is with your DNS. Changing your DNS to a public one like 8.8.8.8 or 1.1.1.1 might resolve the issue. You can learn more about how to do this [here →](https://developers.google.com/speed/public-dns/docs/using)
 

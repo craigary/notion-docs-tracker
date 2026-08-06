@@ -82,6 +82,18 @@ When the organization turns the setting off, the workspace toggle is locked and 
 
 ## FAQs
 
+### If this setting is on, what can Notion do?
+
+This setting lets Notion support access your workspace data to help you, like fixing pages or recovering content you've asked about. Notion won't view or change anything without your permission. Before support looks at your data or runs a fix, they'll ask you to approve that specific action first.
+
+
+### I don't remember turning on this setting. Why is it on?
+
+This setting used to be tied to each workspace owner's personal support access. If any owner turned on support access, Notion support could help with the workspace.
+
+Workspace access is now its own setting. If an owner already had support access on, the workspace setting was turned on to match, with the same end date. Nothing new was shared with Notion. You can turn it off at any time in `Settings` → `Security`.
+
+
 ### Who can turn on workspace access?
 
 Workspace admins and owners. In Enterprise organizations, org admins can also manage it from the organization console.
