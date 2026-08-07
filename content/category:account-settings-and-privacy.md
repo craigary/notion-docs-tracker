@@ -51,6 +51,6 @@ If you'd like to change your account email to one that’s already tied to anoth
 
 ### What if I accidentally deleted something permanently? Any way to get it back?
 
-If you accidentally delete a page, a workspace, or even your entire account, we can help! Accidents happen 😅 Just send us a message in the app by clicking `?` at the bottom of your sidebar, or email us at [email protected](https://www.notion.com/cdn-cgi/l/email-protection#98ecfdf9f5d8f5f9f3fdf6f7ecf1f7f6b6fbf7f5).
+If you accidentally delete a page, a workspace, or even your entire account, we can help! Accidents happen 😅 Just send us a message in the app by clicking `?` at the bottom of your sidebar, or email us at [email protected](https://www.notion.com/cdn-cgi/l/email-protection#b9cddcd8d4f9d4d8d2dcd7d6cdd0d6d797dad6d4).
 
 We keep backups of our database, which allows us to restore a snapshot of your content in the past 30 days if you need it.
