@@ -71,9 +71,13 @@ To connect Jira to your Notion workspace:
 
 12. Paste the API token into Notion.
 
-13. Click `Check credentials`.
+13. Next, find your Atlassian Developer Space ID. Go to the Atlassian developer console at [developer.atlassian.com/console](https://developer.atlassian.com/console) and open your developer space. Your Developer Space ID is shown in your developer space settings.
 
-14. Notion will install a Jira Forge app named Notion-AI-Connector using the credentials provided. The connection can take up to 36 hours to complete. You can manage the connection by opening Notion AI at the bottom of your screen and clicking on `•••` → `Connect Jira` → `Settings`.
+14. Copy your Developer Space ID and paste it into Notion. Every Jira connection needs this ID.
+
+15. Click `Check credentials`.
+
+Notion will install a Jira Forge app named Notion-AI-Connector using the credentials provided. You don't need to build or install this app yourself. Once your Site URL, API token, and Developer Space ID are confirmed, Notion sets it up for you automatically. The connection can take up to 36 hours to complete. You can manage the connection by opening Notion AI at the bottom of your screen and clicking on `•••` → `Connect Jira` → `Settings`.
 
 ### What content from Jira can be connected to Notion AI?
 
@@ -130,6 +134,18 @@ You could try prompting Notion AI with the following:
 * “What are the Jira projects that involve the mobile app?”
 
 **Note:** Notion AI isn't meant to run complex analytics or perform math on large data sets. For example, it won't be able to tell you how many tickets were created in the last month. Try asking questions about specific projects or issues.
+
+## Troubleshooting
+
+If you see the error "We couldn't authenticate with the provided credentials" during setup, check the following:
+
+* Your Jira Site URL matches your site exactly.
+
+* Your API token hasn't expired, and you copied the full token.
+
+* Your Atlassian Developer Space ID is correct.
+
+* You don't need to create your own app in Atlassian. Once all three fields are confirmed, Notion installs the Notion-AI-Connector app for you.
 
 
 ## FAQs

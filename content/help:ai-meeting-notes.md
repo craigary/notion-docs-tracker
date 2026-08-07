@@ -33,7 +33,7 @@ Take meetings without missing a beat. Notion's AI Meeting Notes captures, summar
 
 [Get started](https://www.notion.com/signup?from=marketing\&pathname=ai-meeting-notes)
 
-AI Meeting Notes is available on the Notion app and browser. The Notion app provides the best experience, especially for video calls, because it captures all sides of the conversation using your system audio and mic. The browser is best suited for in-person conversations since it can only pick up audio from your microphone. <!-- -->You can also use AI Meeting Notes on the Notion mobile app, which records through your phone's microphone.
+AI Meeting Notes is available on the Notion app and browser. The Notion app provides the best experience, especially for video calls, because it captures all sides of the conversation using your system audio and mic. The browser is best suited for in-person conversations since it can only pick up audio from your microphone. You can also use AI Meeting Notes on the Notion mobile app, which records through your phone's microphone.
 
 If you're using this feature on your browser, a few things to note:
 
@@ -432,6 +432,8 @@ AI Meeting Notes engages [sub-processors](https://app.notion.com/p/notion/Notion
 When you use AI Meeting Notes in the Notion app or browser, the audio file is sent directly to our sub-processors for real-time transcription. Sub-processors do not store audio. A temporary copy of audio is stored locally on your device during the session. If real-time processing fails, the locally stored audio is uploaded to Notion's servers and sent to our sub-processors to reattempt transcription. Uploaded audio is retained by Notion for up to 3 days to reattempt processing. The local copy of audio is deleted after successful processing or within 24 hours, whichever comes first.
 
 When you use AI Meeting Notes on the Notion mobile app, the audio file is uploaded to Notion’s servers and sent to our sub-processors to generate a transcription. Sub-processors do not store audio. A temporary copy of audio is stored locally on your device during the session. After successful processing, uploaded audio is immediately deleted and the local copy on your device is deleted within 1 day. If processing fails, uploaded audio is retained by Notion for up to 3 days and the local copy is retained on your device for up to 1 week to reattempt processing.
+
+Notion gives you the option to upload your own audio or video for AI Meeting Notes transcription. You can upload a file directly to an AI Meeting Notes block, or upload through `/audio` or /video and convert that upload into an AI Meeting Notes block. Unlike a live recording, an uploaded file is stored on Notion's servers. An uploaded file is deleted when you delete it from the AI Meeting Notes block by clicking the slider icon → `Delete audio` or `Delete video`, or when the page containing the block is deleted (once deleted, the page will follow your workspace's [data retention settings](https://www.notion.com/help/duplicate-delete-and-restore-content#what-happens-when-a-page-is-deleted)).
 
 If you are a workspace owner and do not want the AI Meeting Notes feature available to members of your workspace, you may opt-out your workspace at any time by going to `Settings` → `Notion AI` and toggling off `Workspace availability`.
 

@@ -97,6 +97,16 @@ Try this prompt: “Use a computer to analyze this spreadsheet and return an upd
 
   Try this prompt: “Can you compare actuals vs. budget, and highlight variances over 10% with explanations?”
 
+* **Manage your Inbox.** Your Notion Agent can read, organize, and archive notifications in your inbox on your behalf. You can ask your Agent to group your notifications by type or read status, catch you up on what you've missed, or archive everything you're done with — all from chat. You can also open Notion Agent directly from your Inbox by selecting the Agent icon at the top of the inbox panel.
+
+  * Try these prompts:
+
+    * "What's new in my inbox?"
+
+    * "Group my inbox notifications by type."
+
+    * "Archive all my read notifications."
+
 * Search, draft, send, and organize Gmail from Notion. If you've connected Gmail via Settings → Notion AI → AI connectors, your Agent can search your inbox, draft and send emails, archive or trash messages, manage labels, unsubscribe from senders, and more. If you use Notion Mail, it can also update email status, set reminders, and save emails as synced blocks in Notion. Write actions (like sending) will ask you to confirm before Agent takes action.
 
 * **Note:** Notion Mail is shutting down on September 22, 2026. Agent email tools that connect through Gmail continue to work and are not affected. [Learn more →](http://notion.com/help/notion-mail-inbox-is-going-away-what-to-do-next)

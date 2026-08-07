@@ -53,6 +53,20 @@ You can interact with notifications in your inbox in several ways.
 
 * Open and reply to comment threads.
 
+### Manage your inbox with Notion Agent
+
+Open a chat with [Notion Agent ](https://www.notion.com/help/notion-agent)directly from your inbox by selecting the Agent icon at the top of the inbox panel. Your Notion Agent can read your notifications, group them by type or read status, and archive them on your behalf.
+
+Try these prompts:
+
+* "What's new in my inbox?"
+
+* "Group my inbox notifications by type."
+
+* "Archive all my read notifications."
+
+* "Show me all @mentions from this week."
+
 ### Inbox in the mobile app
 
 In the Notion mobile app, you’ll also be able to filter your notifications and take bulk actions. There are a few other things you can do in your inbox in the mobile app:
