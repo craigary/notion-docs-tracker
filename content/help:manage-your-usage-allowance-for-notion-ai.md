@@ -9,13 +9,13 @@ category: "Notion credits"
 categoryKey: "category:notion-credits"
 ---
 
-To keep Notion AI fast and reliable, Business and Enterprise plans include a usage allowance for certain Notion AI features. If you come close to using the full allowance, access to some AI features may temporarily pause while your usage refreshes.
+To keep Notion AI fast and reliable, Business and Enterprise plans include a usage allowance for certain Notion AI features. If you come close to using the full allowance, access to some AI features may temporarily pause until your usage refreshes.
 
 You can view how your usage is tracking and when it refreshes in the usage dashboard so you can plan for heavier usage sessions.
 
 Usage is measured in two windows:
 
-* A rolling, six-hour window
+* A six-hour window
 
 * A monthly window
 
@@ -29,15 +29,15 @@ If certain Notion AI features are temporarily unavailable due to your usage allo
 
 * **Use&#x20;**[Notion credits](https://www.notion.com/help/category/notion-credits)**&#x20;to keep going.&#x20;**&#x49;f your admin has turned this on for your workspace, you can continue using Notion AI features right away by spending Notion credits for additional usage.
 
-## How the rolling window works
+## How the six-hour window works
 
-A rolling window means usage frees up little by little as your older activity ages out of the six-hour window, instead of resetting all at once at a set time. If you use up your full allowance, you won’t be able to use certain Notion AI features temporarily until enough usage refreshes within that six-hour window. In the meantime, you can keep using the rest of Notion.
+Usage resets across a six-hour window. If you use up your full allowance, you won’t be able to use certain Notion AI features temporarily until the six-hour window refreshes. In the meantime, you can keep using the rest of Notion.
 
 View how much of your allowance you’ve used in `Settings` → `Notion AI` → `Usage`. We’ll also give you a heads-up within Notion Agent chat as you get close so you have time to adjust.
 
 ## How the monthly window works
 
-Along with the rolling six-hour window, your usage is measured over your monthly billing cycle. This window doesn’t refresh gradually. It resets all at once at the start of your billing cycle.
+Along with the six-hour window, your usage is measured over your monthly billing cycle. This window resets all at once at the start of your billing cycle.
 
 If you use your full monthly allowance, certain Notion AI features will pause until your next billing cycle begins. While you wait, you can keep using the rest of Notion. If your admin has turned it on, you can also use [Notion credits](https://www.notion.com/help/category/notion-credits) to keep going right away. You can track both your rolling and monthly usage in `Settings` → `Notion AI` → `Usage`.
 
@@ -94,16 +94,14 @@ Notion has usage allowances to help keep Notion AI running smoothly, reliably, a
 
 ### Does my allowance reset every six hours?
 
-No. Instead of resetting all at once, your usage frees up gradually as older activity ages past the six-hour mark.
-
-Think of this like a six-hour rolling clock. As your older Notion AI activity gets more than six hours old, that usage frees back up. You don't have to wait for a full reset.
+Yes. Your usage will reset to zero once the six hour window refreshes. If you reach your usage allowance, you'll have to wait for the full reset in order to keep using certain Notion AI features (or use Notion credits to keep going). You can still use the rest of Notion during this time.
 
 Your monthly allowance works differently. It resets all at once at the start of your next billing cycle.
 
 
 ### When does my monthly allowance reset?
 
-Your monthly allowance resets at the start of your next billing cycle. Unlike the rolling window, it doesn't free up little by little. If you use your full monthly allowance, you can wait for your next billing cycle to start, or use [Notion credits](https://www.notion.com/help/category/notion-credits) to keep going if your admin has turned that on.
+Your monthly allowance resets at the start of your next billing cycle. If you use your full monthly allowance, you can wait for your next billing cycle to start, or use [Notion credits](https://www.notion.com/help/category/notion-credits) to keep going if your admin has turned that on.
 
 
 ### How will I know I’m close to running out of my allowance?
