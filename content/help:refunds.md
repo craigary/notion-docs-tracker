@@ -1,7 +1,7 @@
 ---
-title: "Refunds"
+title: "Request a refund"
 emoji: null
-description: "Learn about Notion’s refund policy."
+description: "Learn about Notion’s refund policy and how to ask for a refund."
 url: "https://www.notion.com/help/refunds"
 key: "help:refunds"
 coverImage: null
@@ -9,9 +9,11 @@ category: "Plans & billing"
 categoryKey: "category:plans-billing-and-payment"
 ---
 
-If you signed up for a paid Notion subscription by mistake, you can contact us in the app or email (email protected) to request a refund.
+If you signed up for a paid Notion subscription by mistake, you can contact us in the app or email (email protected) <!-- -->from the workspace owner's email or your billing email <!-- -->to request a refund.
 
 Keep in mind:
+
+* Refund requests must come from the workspace owner’s email or the billing email on file. This helps protect your workspace. If you reach out from a different email, we’ll ask the workspace owner or billing contact to reach out instead.
 
 * If you purchased a subscription through the Apple App Store, you’ll need to contact Apple directly to request a refund.
 
