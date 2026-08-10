@@ -1,7 +1,7 @@
 ---
-title: "Custom Agents sharing and permissions"
+title: "Custom Agents sharing & permissions"
 emoji: null
-description: "Learn how Custom Agent permissions work in Notion, and why they differ from Notion AI."
+description: "Learn how Custom Agent permissions work in Notion, and how they differ from Notion AI."
 url: "https://www.notion.com/help/custom-agents-sharing-and-permissions"
 key: "help:custom-agents-sharing-and-permissions"
 coverImage: null
@@ -50,6 +50,8 @@ When you create a Custom Agent, you explicitly choose what it can access in the 
 * **Connected apps&#x20;**- Select Slack channels, MCP, Calendar, Mail.
 
 * **Permission levels&#x20;**- Can view, Can comment, Can edit.
+
+You can also give a Custom Agent access to a page from the page itself. Open the page, click `Share`, search for the agent by name, and add it just like you would add a person. The agent will then appear in that page's share menu.
 
 By default, new agents have no access to all pages in the workspace. Creators must explicitly enable this and accept the warning modal. Enterprise workspace admins can control who can create a Custom Agent, see all agents in a workspace, and disable triggers or override permissions on any agent.
 
@@ -263,11 +265,15 @@ You can remove resources from an agent's **Tools and Access** settings at any ti
 
 Yes. As a page or database owner, you can remove any Custom Agent from your resource through the share menu.
 
-To remove an agent, open the page or database, click **Share**, find the Custom Agent in the list, and click the **X** to remove it.
+To remove an agent, open the page or database, click `Share`, find the Custom Agent in the list, and click the `X` to remove it.
+
+If you change your mind, you can add the agent back from the same share menu at any time.
 
 
 ### How do I know if an agent is accessing my content?
 
-Custom Agents appear in the share menu of any page or database they have access to—just like people do.
+Custom Agents appear in the share menu of any page or database they have access to (just like people do).
 
 To check, open the page or database, click `Share`, and look for Custom Agents in the list.
+
+You can also add a Custom Agent to a page or database from the same menu. Click `Share`, search for the agent by name, and select it to give it access.
