@@ -127,14 +127,20 @@ function extractCategoryFaq(document: ParsedDocument): FaqItem[] {
       return
     }
 
-    normalizeArticleLinksInElement(answerElement)
-
+    // Cloudflare 邮箱保护有两种形态：裸的 __cf_email__ 元素，以及套在
+    // <a href="/cdn-cgi/l/email-protection#随机hash"> 里的嵌套结构。data-cfemail
+    // 和 href hash 每次请求都会变，必须连同外层链接一起替换成纯文本，否则会
+    // 污染内容 hash 和 diff。替换要先于链接归一化执行，避免随机 hash 进 markdown。
     answerElement
-      .querySelectorAll('[data-cfemail], .__cf_email__')
+      .querySelectorAll(
+        '[data-cfemail], .__cf_email__, a[href*="/cdn-cgi/l/email-protection"]'
+      )
       .forEach((element: HTMLElement) => {
         const textNode = document.createTextNode('email protected')
         element.parentNode?.replaceChild(textNode, element)
       })
+
+    normalizeArticleLinksInElement(answerElement)
 
     // Contentful 富文本渲染会产出 React 注释标记（<!-- -->）和空的加粗元素，
     // 前者会原样进入 markdown，后者会变成 **** 空行，转换前先清理掉
