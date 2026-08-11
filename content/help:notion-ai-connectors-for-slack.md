@@ -185,6 +185,10 @@ No, this connection is not available for guests in your Notion workspace, or gue
 
 No, all external messages and channels will be excluded.
 
+However, Notion AI may still use Slack Connect content to answer a question at the moment you ask it. This happens through Slack's real-time search: when you ask a question, Notion AI checks Slack right then, using your own Slack sign-in.
+
+These results follow your own Slack access. You'll only see content from messages and channels you can already open in Slack, including Slack Connect channels you belong to. Right now, there isn't a way to leave Slack Connect channels out of these real-time results.
+
 
 ### Do you support Slack Enterprise Grid?
 
