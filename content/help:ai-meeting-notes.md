@@ -277,6 +277,20 @@ If you’re not able to see AI Meeting Notes in your slash menu, it’s possible
 
 * **If you’re not a workspace owner**, reach out to your workspace owner and ask if they can turn on AI Meeting Notes for your workspace.
 
+### Running Notion in a virtual desktop (VDI)
+
+If your company uses a virtual desktop (sometimes called VDI), Notion may only capture what your microphone picks up. That’s because Notion is running on a remote computer, while meeting audio from tools like Zoom often plays on your local machine. Since that audio doesn’t reach the remote computer, AI Meeting Notes can’t transcribe other participants. That means Notion can only hear what your own mic picks up.
+
+How to fix it:
+
+* You or your IT team can install Notion's plugin on the local machine (thin client). Download it at
+
+  [notion.com/desktop/windows-dvc-client/download](https://www.notion.com/desktop/windows-dvc-client/download).
+
+* The plugin passes your local machine's system audio to Notion running in your virtual desktop over your existing remote desktop connection (RDP), so AI Meeting Notes captures all sides of the conversation.
+
+* The plugin updates itself automatically and is signed with Notion's security certificate, just like the regular Notion app.
+
 ## Connect AI Meeting Notes to Notion Calendar
 
 AI Meeting Notes becomes even more powerful with [Notion Calendar](https://www.notion.com/product/calendar). Create, organize, and share meeting notes so you can stay present in meetings and keep your team in sync. Once you’re done, you can easily access the meeting summary right from the event.

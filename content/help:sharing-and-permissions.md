@@ -137,7 +137,11 @@ Seeing other people in a page you didn't mean to share? Want to make a page priv
 
 ## Database page-level access
 
-**Note:** This feature is only available on the Business and Enterprise Plans.
+* This feature is available on Business and Enterprise Plans.
+
+* Notion AI generates answers using LLMs like GPT-5 and Claude. Be sure to double-check all answers for accuracy.
+
+* There are many other ways to use Slack and Notion together. Learn more about our [Slack connection →](https://www.notion.com/help/slack)
 
 If your database has at least one person property, you’ll be able to assign specific permissions to the people in that person property. For example:
 

@@ -55,6 +55,18 @@ Find the friendly face at the bottom of Notion to chat with your Agent. As soon 
 
   * “Summarize this week’s conversations from my team Slack channel.”
 
+* Notion Agent can also take action in Slack for you. Once you connect your own Slack account, it can look up people, search channels you're in (including private channels and direct messages), read recent messages, open shared files, post messages, reply in threads, edit messages it posted, and add or remove reactions. It acts as you, so anything it posts shows up as coming from you, and it can only reach what you can already see in Slack. If your Agent can only search Slack, connect your Slack account when prompted or check with a workspace admin. [Learn more about Slack actions →](https://www.notion.com/help/notion-ai-connectors-for-slack)
+
+  * Try these prompts:
+
+    * "What's the latest on our fall marketing campaign?"
+
+    * "Summarize this week's conversations from my team Slack channel."
+
+    * "Post a recap of this page in #team-updates."
+
+    * "Reply in the thread about the offsite with my availability."
+
 * Connect other apps you use through MCP servers. Once you connect an app and authenticate, your Agent can look up info in that app and may be able to take actions there for you. To connect an app, ask your Agent in chat, select `All sources` → `MCP servers` → `Add MCP server`, or go to `Settings` → `Connections` → `Discover`. Learn more about [connecting MCP servers to your Notion Agent →](https://www.notion.com/help/connect-mcp-servers-to-your-notion-agent)
 
 * Create and edit pages.

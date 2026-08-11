@@ -35,13 +35,19 @@ You’ll also need to be using Notion’s **web or desktop app** to start the tr
 
 ## How can I upgrade my trial early?
 
-* If you're on Notion's Free Plan, you'll need to enter your payment details in `Settings` → `Billing`.
+You can upgrade at any time during your trial:
 
-* If you're a paying Notion user, you can upgrade at any time by going to `Settings` → `Explore`.
+1. Go to `Settings` → `Billing`.
+
+2. Select `Manage trial`, then choose to upgrade.
+
+If you haven't added payment details yet, you'll be asked to add them when you upgrade.
 
 ## What if I want to cancel my trial?
 
-You are able to cancel your trial at any point. If you cancel, you will be placed onto our Free Plan at the end of your trial period. Additionally, you’ll have limited or no access to certain features only available on the Business Plan. See [this article](https://www.notion.com/help/plan-downgrade) for more details.
+You're able to cancel your trial at any point. If you cancel, you will be placed onto our Free Plan at the end of your trial period. Additionally, you’ll have limited or no access to certain features only available on the Business Plan. Learn more about what happens when you [downgrade your plan →](https://www.notion.com/help/plan-downgrade)
+
+If you started your trial on the Plus Plan and then cancel, you'll return to the Plus Plan immediately.
 
 ## How can I cancel my trial?
 
@@ -50,5 +56,7 @@ Go to `Settings` in your sidebar and select `Explore plans` to cancel your trial
 ## What happens at the end of my trial?
 
 If you entered your payment information to begin your trial, we’ll auto-renew your Business Plan subscription at the end of your trial period.
+
+This also applies to trials started while on the Plus Plan. When your trial ends, your workspace will automatically continue on the Business Plan. You agree to this before your trial starts, so there are no surprise charges. If you don’t want to continue, cancel before your trial ends.
 
 If you didn’t enter your payment information to begin your trial, you’ll be prompted to confirm your upgrade to the Business Plan at the end of your trial period.

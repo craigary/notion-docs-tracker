@@ -9,15 +9,15 @@ category: "Notion AI Connectors"
 categoryKey: "category:notion-ai-connectors"
 ---
 
-**Note:** To connect third-party apps to Notion AI, you must be on the Business or Enterprise Plan.
+* To connect third-party apps to Notion AI, you must be on the Business or Enterprise Plan.
 
-Notion Mail is **free to connect** for all plans; you’ll need to sign up for Notion Mail before setting up the connection.
+* Notion Mail is free to connect for all plans. You’ll need to sign up for Notion Mail before setting up the connection.
 
-Ready to get started with Notion AI connectors? You’ll find app-specific information and instructions [here →](https://www.notion.com/help/category/notion-ai-connectors)
+* Ready to get started with Notion AI connectors? [Find app-specific information and instructions here →](https://www.notion.com/help/category/notion-ai-connectors)
 
-## What are Notion AI Connectors?
+[Notion AI](https://www.notion.com/help/notion-ai-faqs) <!-- -->lets you ask questions about the content in your Notion workspace. With Notion AI Connectors, your questions can also pull in relevant information from your connected apps, with citations to the sources used.
 
-Today, [Notion AI](https://www.notion.com/help/notion-ai-faqs) enables you to ask any questions about the content in your Notion workspace. With Notion AI Connectors, when you ask a question, Notion AI will also surface relevant information from your connected apps, citing specific sources it referenced.
+For some apps, your Notion Agent can also take action, not just search. For example, once you connect your Slack account, your Agent can post messages, reply in threads, and add reactions in Slack for you. It acts as you, so it can only access what you can already see. [Learn more about Slack actions →](https://www.notion.com/help/notion-ai-connectors-for-slack)
 
 Notion AI Connectors are available for the following apps:
 
@@ -29,13 +29,13 @@ Notion AI Connectors are available for the following apps:
 
 You can search your connected apps via Notion AI Connectors in the following places:
 
-* The Notion AI chat in the bottom right of Notion.
+* The Notion AI chat in the bottom corner of Notion.
 
 * `Notion AI` in your sidebar.
 
 * `Search` in your sidebar.
 
-## Set up and manage Notion AI Connectors
+## Set up & manage Notion AI Connectors
 
 **Note:**
 

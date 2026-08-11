@@ -9,7 +9,11 @@ category: "Notion AI Connectors"
 categoryKey: "category:notion-ai-connectors"
 ---
 
-**Note:** This feature is only available on the Business and Enterprise Plans.
+* This feature is available on Business and Enterprise Plans.
+
+* Notion AI generates answers using LLMs like GPT-5 and Claude. Be sure to double-check all answers for accuracy.
+
+* There are many other ways to use Slack and Notion together. Learn more about our [Slack connection →](https://www.notion.com/help/slack)
 
 ## Connect Google Calendar to Notion AI
 
