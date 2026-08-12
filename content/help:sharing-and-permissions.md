@@ -298,7 +298,7 @@ If your workspace is above the guest limit for your [plan](https://www.notion.co
 
 To allow for a new user with the same organization email domain to be added as a guest, you will need to remove existing guests to fall below your plan limit, upgrade to a plan with a higher limit, or work with our sales team (for eligible customers).
 
-If your workspace is above the guest limit for your [plan](https://www.notion.com/pricing), you may have the Allowed Email Domains setting turned on. When enabled, this feature allows people with that email domain to join your workspace as a member automatically. You can disable this setting in the `General` tab of `Settings` in the left sidebar.
+You may have the Allowed Email Domains setting turned on. When enabled, this feature allows people with that email domain to join your workspace as a member automatically. You can disable this setting in the `General` tab of `Settings` in the left sidebar.
 
 
 ### What’s the difference between sharing my Notion page with anyone on the web with the link and sharing my Notion page as a Notion Site?

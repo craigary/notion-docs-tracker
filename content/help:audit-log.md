@@ -15,6 +15,8 @@ Audit logs give you information about events that happen across your organizatio
 
 By default, all events are shown in reverse chronological order. You can use the filters at the top of the audit log to narrow down events by date, person, event type, or related activity.
 
+Audit log events may take some time to appear after an action takes place. If you need to see events in real-time, use the custom SIEM integration, which streams events as they occur.
+
 ## Access your audit log
 
 To see your audit log:

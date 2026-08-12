@@ -11,6 +11,28 @@ categoryKey: "category:meet-your-workspace"
 
 **Note:** Many of these settings are only visible if you're an admin on a Plus Plan or Enterprise Plan. They don't appear in the mobile app at all. [Contact sales to learn more about our Enterprise plan →](https://notionup.typeform.com/to/FbZ6Tk)
 
+## Search your settings
+
+Not sure where a setting lives? You can search for it instead of looking through each settings page.
+
+To find a setting:
+
+1. Go to `Settings` in your sidebar.
+
+2. In the search bar at the top left, type what you're looking for, like "export" or "domain".
+
+3. Select a result. Notion will take you to the right settings page and briefly highlight the setting so it's easy to spot.
+
+Each result also shows where the setting lives, like *Workspace / General*, so you know where to find it next time.
+
+**Note:**
+
+* Search matches the exact words in a setting's name, its description, or the page it's on. If you don't see a result, try the exact word Notion uses for that setting.
+
+* You'll only see settings you can access. For example, members won't see settings that only workspace owners can change.
+
+* Some settings may not show up in search yet. More are being added over time.
+
 ## Change your workspace name and icon
 
 To change your workspace name and icon:
