@@ -43,7 +43,7 @@ For users that do not have a paid Google Workspace plan or want to only install 
 
 * You do not need to be Notion Admin to connect to Notion Mail.
 
-* Notion Admins can toggle the ability for their workspace members to connect or disconnect to Notion Mail in their Notion Org Console. Navigate to `Manage Organization` → `People` → `Notion Mail.`
+* Notion Admins can toggle the ability for their workspace members to connect or disconnect to Notion Mail in their Notion organization settings. Navigate to `Manage Organization` → `People` → `Notion Mail.`
 
 
 ## FAQs

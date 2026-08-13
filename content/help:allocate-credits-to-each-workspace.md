@@ -17,7 +17,7 @@ Workspace credit allocation lets organization admins allocate how many credits e
 
 * Setting credit limits is for multi-workspace contracts on Enterprise plans.
 
-* Admins and owners can set and manage limits from the org console.
+* Admins and owners can set and manage limits from within their organization settings.
 
 * Limits are set per monthly cycle. Each workspace's usage counts against its limit within a monthly cycle and resets when the next monthly cycle begins.
 
@@ -29,11 +29,11 @@ Workspace credit allocation lets organization admins allocate how many credits e
 
 ## Who can allocate credits?
 
-Only organization owners and admins with access to the org console can set or manage workspace credit limits. Workspace members and workspace-level admins don't have access to these controls.
+Only organization owners and admins with access to their organization settings can set or manage workspace credit limits. Workspace members and workspace-level admins don't have access to these controls.
 
 ## How to set a workspace credit limit
 
-1. Open the org console. Go to the workspace switcher → `Manage organization`.
+1. Open your organization settings. Go to the workspace switcher → `Manage organization`.
 
 2. Go to `Notion Credits`.
 
@@ -77,7 +77,7 @@ Your contract has 10,000 purchased credits with on-demand spend turned on, and y
 
 3. Workspace admins see a banner indicating that the workspace has reached its credit limit.
 
-4. In the org console, that workspace shows a status pill indicating the limit was reached.
+4. In your organization settings, that workspace shows a status pill indicating the limit was reached.
 
 ![Limit reached](https://images.ctfassets.net/spoqsaf9291f/5E74Dmc3YLJdzj1Awkx1Z3/011045859f5de9220dbe21158710c5c6/image__1_.png)
 
@@ -95,7 +95,7 @@ Other workspaces under the contract are unaffected and keep using credits as usu
 
 ## Edit or remove a workspace limit
 
-You can change a workspace's allocation anytime from the **Notion Credits** section of the org console:
+You can change a workspace's allocation anytime from the **Notion Credits** section of your organization settings:
 
 * **Raise or lower the limit:** Takes effect right away.
 

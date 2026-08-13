@@ -71,7 +71,7 @@ Every time workspace data access is given, changed, or ends, it's recorded in th
 
 ## For Enterprise organizations
 
-If your workspace is part of an Enterprise organization, org admins can manage this setting from the organization console. They can:
+If your workspace is part of an Enterprise organization, org admins can manage this setting from your organization settings. They can:
 
 * Set one policy for every workspace in the organization.
 

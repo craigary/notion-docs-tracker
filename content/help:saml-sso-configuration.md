@@ -79,7 +79,7 @@ On the Business Plan, this will look like this:
 
 On the Enterprise Plan, this will look like this:
 
-![hc: saml sso enforcement org console](https://images.ctfassets.net/spoqsaf9291f/v6eYrZNFUETHX7JhiO1RY/6eb3185218389c0d524e8991b702bd41/Reference_Visuals_Group_135.png)
+![hc: saml sso enforcement organization setting](https://images.ctfassets.net/spoqsaf9291f/v6eYrZNFUETHX7JhiO1RY/6eb3185218389c0d524e8991b702bd41/Reference_Visuals_Group_135.png)
 
 ### SSO bypass
 
@@ -115,7 +115,7 @@ Notion supports Just-in-Time provisioning when using SAML SSO. This allows someo
 
 To enable Just-in-Time provisioning if you're on the Business Plan, go to `Settings`**&#x20;**→**&#x20;**`Identity` and make sure that `Automatic account creation` is enabled.
 
-To enable Just-in-Time provisioning if you’re on the Enterprise Plan, go to your organization console → `General` and make sure that `Automatic account creation` is enabled.
+To enable Just-in-Time provisioning if you’re on the Enterprise Plan, go to your organization settings → `General` and make sure that `Automatic account creation` is enabled.
 
 **Note:&#x20;**&#x57;e don’t recommend enabling Just-in Time provisioning if you are using SCIM. Having an “allowed email domain” in place allows users on that domain to join the workspace so there could be a mismatch between membership in their Identity Providers and Notion.
 
