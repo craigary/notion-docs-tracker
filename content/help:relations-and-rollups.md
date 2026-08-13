@@ -47,21 +47,15 @@ To relate two databases, you need two databases. So let's assume you've made the
 
 3. Then, search for the database you want to create the relation with.
 
-   ![Choose related database](https://images.ctfassets.net/spoqsaf9291f/18Zayw93oSm3IVZMBgFp2n/b548900432569be6f49355bfe949a53f/Choose_related_database.png)
-
 4. You'll see a preview of the relation. In this case, we've created a relation from the Customer database to the Items database.
 
 5. Click the blue `Add relation` button to finalize the creation of the new relation property.
-
-   ![One way relation](https://images.ctfassets.net/spoqsaf9291f/2FBfKuKWYOZrWw5HS0WJR/05b51c55089212b4df02490f0aabf989/one_way_relation.png)
 
 6. Now when you click in a cell in this relation column, you'll bring up a menu where you can search for and choose items from the other database to add.
 
    * For example, this is how you can add which clothes each customer bought.
 
    * To add an item, click the name in the list. To delete an item, hover over and then click the `–` button on the right.
-
-![Add related page](https://images.ctfassets.net/spoqsaf9291f/65e1CeRlarITG5XsBh2ZNB/3fa0317338ccd0a1c725abc10cc1d880/Relate_page.png)
 
 **Tip:** To change the database you're connecting to, re-select `Relation` as the property type for that particularly property. You'll be prompted to choose a new database.
 
@@ -81,8 +75,6 @@ With two-way relations, the edits work both ways! So if you add a customer to th
 
 5. Click the blue `Add relation` button to finalize the creation of these two new relation properties.
 
-![Two way relation](https://images.ctfassets.net/spoqsaf9291f/7gQ7x6McJEI2L2PiOgdlbz/c7054e7e44f232375f218618130c831a/two_way_relation.png)
-
 ## View and remove related pages
 
 When you create a relation, you're essentially adding Notion pages stored in one database into the property field of another.
@@ -91,11 +83,9 @@ When you create a relation, you're essentially adding Notion pages stored in one
 
 * You can also remove any related page by hovering over and clicking the `–` at the right.
 
-[](//videos.ctfassets.net/spoqsaf9291f/6aY5QvlYiho9kna9b7SbQb/dd6d2a296fd2934153d8f0e4a6e889bc/relation_open_page.mp4)
+- You can choose to limit the number of pages that can be included in your relations property – with the option to select `1 page` or to have `No limit`.
 
-* You can choose to limit the number of pages that can be included in your relations property – with the option to select `1 page` or to have `No limit`.
-
-* If you select the option to limit it to `1 page`, people using your database will only be able to select 1 page in the relation. This is especially useful for situations where only one page should be related to one another, for example - if only one order number should be associated with each purchase.
+- If you select the option to limit it to `1 page`, people using your database will only be able to select 1 page in the relation. This is especially useful for situations where only one page should be related to one another, for example - if only one order number should be associated with each purchase.
 
 ## Display options for relations
 
@@ -119,8 +109,6 @@ To do this:
 
 4. Once you’re done, you’ll see your desired properties appear in the relation field. This will apply to all of the pages in your current database.
 
-![customize displayed properties for relations](https://images.ctfassets.net/spoqsaf9291f/dRtDl0pZ4LjBi48UhxNLT/673f301bca3a8805a3c0594607fcda55/Customize_relation_property2.gif)
-
 ## Relate a database to itself
 
 Let's say you want items in the same database to have relationships with each other. For example, you have a tasks database and you want each task to relate to other tasks.
@@ -133,8 +121,6 @@ Let's say you want items in the same database to have relationships with each ot
 
    * When relating a database to itself, we recommend toggling **off&#x20;**`Two-way relation` as it essentially duplicate the property.
 
-![Relate to self](https://images.ctfassets.net/spoqsaf9291f/6gwOO6BTwzkeF5x4vnab8z/f9dac92f577d9a256149e04ac482a379/Relate_to_self.png)
-
 ## Rollups
 
 Rollups help you aggregate data in your databases based on relations. Going back to our customers and items example above, let's say you wanted to know how much each customer spent based on what they bought.
@@ -142,8 +128,6 @@ Rollups help you aggregate data in your databases based on relations. Going back
 1. First, create the relation so you know who bought what.
 
 2. Add a new column/property and choose `Rollup` from the `Property type` menu. Give it a descriptive name.
-
-![Rollup step 1](https://images.ctfassets.net/spoqsaf9291f/1ipgtMiHM74VIswzAP6faF/e8435d2978687b0ab033ad857521bea0/Rollup_step_1.png)
 
 * Clicking on any cell in the rollup column will bring up a new menu asking you for:
 
@@ -160,8 +144,6 @@ Rollups help you aggregate data in your databases based on relations. Going back
 * So, for our example, you'd choose to roll up the relation property `Items Purchased` and the `Price` property within those pages. Then you'd choose `Sum` as the calculation, the `Number format`, and lastly where to place your decimal point.
 
   * Doing this adds up the prices of each item related to a customer's name, giving you the total dollars they spent in your rollup column.
-
-![Rollup step 2](https://images.ctfassets.net/spoqsaf9291f/5rFyqYW5Tv4rRDfed7VcLF/3606f3748ffdad67272099b5fc99fa0b/Rollup_step_2.png)
 
 ### Rollup types
 
@@ -220,8 +202,6 @@ In both tables and boards, you can apply calculations to your rollup column to g
 * In the menu that appears, hover over `Calculate` → `More options`.
 
 * Select `Sum`.
-
-![Aggregate rollups](https://images.ctfassets.net/spoqsaf9291f/5iUULwlyBU8bamKuTUXkaV/947b6fc2732a247d7b9d7072d08fda8a/Aggregate_rollups.png)
 
 
 ## FAQs

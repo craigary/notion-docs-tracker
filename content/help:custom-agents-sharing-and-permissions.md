@@ -143,6 +143,8 @@ Workspace admins can manage Custom Agents across the organization using the foll
 
 **Note:** Admins should regularly review agents using these tools, remove unnecessary access, and archive unused agents.
 
+On the Enterprise Plan, admins can also manage Custom Agents from their own tools using the [Admin API](https://www.notion.com/help/manage-custom-agents-with-the-admin-api). See the Admin API section below.
+
 ### Agent Directory
 
 * Search and view all Custom Agents in your workspace.
@@ -216,6 +218,18 @@ Transferring ownership ensures business-critical agents continue running when us
 3. Choose the new owner and confirm the transfer.
 
 Transferring ownership is also supported via Public API.
+
+### Admin API
+
+Manage Custom Agents from your own tools and scripts:
+
+* See every Custom Agent in your workspace, including who created it, whether it's active, which model it uses, when it last ran, and what it can access.
+
+* See credit usage for each agent, and set credit limits for one agent or the whole workspace.
+
+* Set who can create agents, turn agents off and on, and delete agents.
+
+The Admin API is helpful when you manage many agents or want to bring usage data into your own reporting. Learn more about [managing Custom Agents with the Admin API →](https://www.notion.com/help/manage-custom-agents-with-the-admin-api)
 
 
 ## FAQs
