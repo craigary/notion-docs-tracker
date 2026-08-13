@@ -140,7 +140,7 @@ The table below outlines the mapping between SCIM user attributes and Notion use
 | employeeNumber      | Employee Number                                                                                                                           | `urn:ietf:params:scim:schemas:extension:``enterprise``:2.0:User` |
 | role                | Notion workspace role ("owner" \| "membership\_admin" \| "member")                                                                        | `urn:ietf:params:scim:schemas:extension:``notion``:2.0:Use`      |
 
-**Note:** Notion stores only the first `phoneNumbers` entry where `primary=true`. All other entries are dropped. The `type` field is ignored entirely. Note that `primary` is not part of the SCIM 2.0 spec — Notion handles it differently from the standard. If no entry has `primary=true`, no phone number will be stored.
+**Note:** Notion stores one phone number per user. If multiple `phoneNumbers` entries are provided, Notion stores the entry marked `primary: true;` if no entry is marked `primary`, Notion stores the first entry that has a value. The entry's type (for example mobile or work) is stored and returned in GET responses. Additional entries are not stored.
 
 * `GET /Users`
 

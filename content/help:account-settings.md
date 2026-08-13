@@ -79,7 +79,15 @@ If you want to log into Notion using a permanent password instead of temporary l
 
 2. Select `Set a password`.
 
-3. Enter a password that meets the security requirements and confirm it. Passwords must be at least eight characters long, with at least three special characters, one letter, and one number.
+3. Enter a password that meets the security requirements and confirm it:
+
+   * Must be at least 8 characters.
+
+   * Must include at least 4 unique characters.
+
+   * If the password is 8–14 characters, it must include at least one letter and one number. If the password is 15+ characters, this requirement is removed.
+
+   * Special characters are allowed, but not required.
 
 If you want to change or remove your password:
 

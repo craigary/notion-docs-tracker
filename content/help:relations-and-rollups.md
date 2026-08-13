@@ -61,7 +61,7 @@ To relate two databases, you need two databases. So let's assume you've made the
 
 ## Two-way relations
 
-Relations are created as one-way by default. But you can easily toggle on a corresponding relation in the destination database.
+Relations between two different databases are created as one-way by default. But you can easily toggle on a corresponding relation in the destination database. A relation from a database to itself works a little differently.
 
 With two-way relations, the edits work both ways! So if you add a customer to the **Items** database in the relation column, the change pops up in your **Customers** database.
 
@@ -119,7 +119,27 @@ Let's say you want items in the same database to have relationships with each ot
 
 3. You'll now see that the database is related to `This database`.
 
-   * When relating a database to itself, we recommend toggling **off&#x20;**`Two-way relation` as it essentially duplicate the property.
+   * You can keep `Two-way relation` turned off to use one property, or turn it on to create two separate properties.
+
+A relation from a database to itself works a little differently than a relation between two databases:
+
+* With one property, the relation can work in both directions. If you add Task B to Task A, Task A can also show up on Task B.
+
+* If you want each direction to have its own property, like Next and Previous, turn on `Two-way relation`. This creates two separate properties instead of one.
+
+For example, to put tasks in order with a Next task and a Previous task:
+
+1. Create a new relation and choose `This database`.
+
+2. Turn on `Two-way relation`.
+
+3. Name the two properties, one for each direction. For example, **Next task** and **Previous task**.
+
+4. Add pages to one property, and the other property updates on its own. If you add Task B to Task A's **Next task**, Task A appears in Task B's **Previous task**.
+
+5. If you don't want to see one of these properties, you can hide it. Click the property name in your database, then select `Hide in view`.
+
+**Tip:** A self-relation with one property isn't fully one-way. To keep each direction separate, turn on `Two-way relation` and hide the property you don't need.
 
 ## Rollups
 
