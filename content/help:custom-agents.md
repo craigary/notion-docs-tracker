@@ -13,7 +13,7 @@ categoryKey: "category:custom-agents"
 
 Custom Agents automate recurring, manual workflows for your entire team. They run automatically in the background on set triggers using your existing docs and databases as context.
 
-Set them up once — building a workflow for repetitive tasks like weekly reports or triaging feedback — and it becomes a shared resource the whole team relies on.
+Set them up once to handle repetitive tasks like weekly reports or triaging feedback, and they become a shared resource the whole team relies on.
 
 ### What are Custom Agents?
 
@@ -349,6 +349,26 @@ Agents use a simplified set of permission levels:
 
 Users without access may still trigger or interact with agents configured to respond to events like Slack messages in accessible channels.
 
+## Embed a Custom Agent in a page
+
+You can embed a Custom Agent chat in any Notion page. This puts the agent right where your team works, so people can ask it questions without leaving the page.
+
+To embed a Custom Agent in a page:
+
+1. Open the Custom Agent and copy its link.
+
+2. Paste the link into your Notion page.
+
+3. Select `Embed`.
+
+An interactive chat for that agent will appear on the page. Anyone who has access to the agent can chat with it right there. Embedding an agent in a page doesn't give anyone new access to the agent. To let more people chat with it, share the agent with them first. The agent also can't read the page it's embedded in unless you add that page in the agent's `Tools and access` settings.
+
+Embedded agents work well in places where people have questions:
+
+* Add a Q\&A agent to a project hub or wiki homepage so answers live next to the work.
+
+* Add an onboarding agent to your team's home page so new teammates can get help fast.
+
 ## Maintaining your Custom Agent
 
 Once your Custom Agent is built, it will appear in the sidebar. Every Custom Agent page has three core tabs. Use these tabs together to design, test, and maintain an agent over time.
@@ -581,3 +601,10 @@ After you publish:
 ### Why can't I access certain models (for example: Claude Fable 5) anymore?
 
 Your workspace has reached the fair use limit. Some AI models are temporarily unavailable for features like Notion Agent, Custom Agents, image generation, and page translation. Access resets in six hours.
+
+
+### I embedded a Custom Agent in a page. Why can't my teammates chat with it?
+
+Being able to see the page doesn't mean someone can use the agent on it. To chat with an embedded Custom Agent, a person needs access to the agent itself. Open the agent, select `Share`, and add them.
+
+If you also want the agent to answer questions about the page it lives on, add that page under the agent's `Tools and access` settings.

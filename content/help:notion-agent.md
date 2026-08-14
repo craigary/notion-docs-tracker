@@ -173,7 +173,7 @@ Your Notion Agent can't:
 
 ## Personalize your Agent
 
-Personalize your Agent with instructions so that it can truly be a customized, tailored teammate. You can also create skills for reusable prompts. Learn more about setting skills and instructions for your Agent to follow in [this article](http://www.notion.com/help/customize-your-notion-agent-with-instructions-and-skills).
+Personalize your Agent with instructions so that it can truly be a customized, tailored teammate. You can also create skills for reusable prompts. Learn more about [creating and managing skills →](https://www.notion.com/help/create-and-manage-skills)
 
 To personalize your Agent:
 

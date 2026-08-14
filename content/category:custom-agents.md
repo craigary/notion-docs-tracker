@@ -7,8 +7,8 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/CGvbKADJG2JbVyR2akeT8/018
 ---
 
 1 help:custom-agents
-2 help:buy-and-track-notion-credits-for-custom-agents
-3 help:best-practices-for-creating-and-optimizing-a-custom-agent
+2 help:best-practices-for-creating-and-optimizing-a-custom-agent
+3 help:buy-and-track-notion-credits-for-custom-agents
 4 help:mcp-connections-for-custom-agents
 5 help:custom-agents-sharing-and-permissions
 6 help:mobile-custom-agents
@@ -153,3 +153,9 @@ After you publish:
 ### Why can't I access certain models (for example: Claude Fable 5) anymore?
 
 Your workspace has reached the fair use limit. Some AI models are temporarily unavailable for features like Notion Agent, Custom Agents, image generation, and page translation. Access resets in six hours.
+
+### I embedded a Custom Agent in a page. Why can't my teammates chat with it?
+
+Being able to see the page doesn't mean someone can use the agent on it. To chat with an embedded Custom Agent, a person needs access to the agent itself. Open the agent, select `Share`, and add them.
+
+If you also want the agent to answer questions about the page it lives on, add that page under the agent's `Tools and access` settings.

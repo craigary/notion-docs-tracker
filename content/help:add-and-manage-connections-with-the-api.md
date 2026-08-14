@@ -53,9 +53,9 @@ Workspace owners on the Enterprise Plan can decide what pages a connection can a
 
 4. Under `Select pages`, find and select specific pages that you want to give permission to the connection to access.
 
-5. Under `Who can manage page access`, open the dropdown menu. Select `Default` if you want all workspace owners and members to be able to manage access. Select `Workspace owners` if you want only workspace owners to be able to manage access.
+5. Under `Who can manage page access`, open the dropdown menu. Select `Connection owners & workspace members` if you want all workspace owners and members to be able to manage access. Select `Connection owners only` if you want only workspace owners to be able to manage access.
 
-If you choose to allow only Workspace owners to manage access, that means only they will be able to connect or disconnect internal and public connections from a page. Members won’t be able to take this action.
+If you choose to allow only connection owners to manage access, that means only they will be able to connect or disconnect this particular connection from a page. Members won’t be able to take this action.
 
 ## Manage connections in your workspace
 

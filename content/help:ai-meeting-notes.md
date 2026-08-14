@@ -277,6 +277,52 @@ If you’re not able to see AI Meeting Notes in your slash menu, it’s possible
 
 * **If you’re not a workspace owner**, reach out to your workspace owner and ask if they can turn on AI Meeting Notes for your workspace.
 
+### AI Meeting Notes won't start or work on the mobile app
+
+**How to fix it**
+
+* Make sure you're on the latest version of the Notion mobile app.
+
+* Close the Notion app completely. Then, reopen it and try again.
+
+* Confirm your plan includes AI Meeting Notes. It's available on Business and Enterprise, and on eligible mobile subscriptions where Notion AI is included.
+
+* Try starting a meeting note on a different page. If it works there, the issue may be specific to the original page.
+
+* If the issue continues, delete the Notion app from your device, then reinstall it from the App Store or Google Play. This often fixes these issues. Your pages and notes are saved to your account, so you won’t lose them when you delete the app.
+
+**If it works on some devices but not one of them**
+
+Sometimes AI Meeting Notes works on your other devices, like your computer or your phone, but still fails on one specific device such as an iPad, even on the same app version. Reinstalling doesn't always fix this. When that happens:
+
+* Note the exact device model and operating system version (for example, an 11-inch iPad Air M2 on iPadOS 26.1).
+
+* Confirm your Notion app version and that it's the latest available for that device.
+
+* Contact support and share these details, along with the page where you hit the error, so the team can look into the device-specific issue.
+
+### My transcript has errors or made-up words
+
+Sometimes a transcript includes words that weren't said, or misreads what was spoken. This usually comes down to one of two things:
+
+* Not enough audio to work with. When there's very little speech in the recording, Notion AI can misinterpret parts of it.
+
+* Poor audio quality. Background noise or a low-quality microphone can make speech hard to transcribe accurately.
+
+**How to improve it**
+
+* Record in a quiet space and use a good microphone whenever you can.
+
+* Make sure speakers are close enough to the mic.
+
+* For virtual calls, use the desktop app so Notion can capture system audio directly instead of relying on a room microphone.
+
+**Help us investigate a bad transcript**
+
+* Turn on audio saving by going to `Settings` → `Notion AI` → `AI Meeting Notes` and enabling the setting to store meeting audio. Restart Notion after turning it on.
+
+* When you reach out to support about a transcription issue, share the saved audio file so the team can review the audio quality and speech clarity.
+
 ### Running Notion in a virtual desktop (VDI)
 
 If your company uses a virtual desktop (sometimes called VDI), Notion may only capture what your microphone picks up. That’s because Notion is running on a remote computer, while meeting audio from tools like Zoom often plays on your local machine. Since that audio doesn’t reach the remote computer, AI Meeting Notes can’t transcribe other participants. That means Notion can only hear what your own mic picks up.
