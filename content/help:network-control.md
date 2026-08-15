@@ -13,6 +13,8 @@ With this feature, Workspace Owners can manage which Notion workspaces are acces
 
 If you're a Workspace Owner, this article will show you how to approve Notion workspaces using an SSL proxy within your corporate network. By restricting connections, you can prevent users on your network from signing in to unauthorized workspaces.
 
+**Note:** Network control is only available for workspaces on Notion's [Enterprise Plan](https://www.notion.com/Plans-pricing-6067b27f7a244ccc8320c984baea61d7). [Contact sales to learn more →](https://notionup.typeform.com/to/FbZ6Tk)
+
 ## How it works
 
 Workspace Owner can configure an on-premises or cloud-based proxy server to intercept traffic to [notion.so](http://notion.so/). The proxy inserts a new HTTP header (X-Notion-Allowed-Workspaces) that lists the workspaces your employees can access.

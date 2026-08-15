@@ -39,7 +39,7 @@ On paid plans, you’ll pay for each member that’s added to the workspace.
 
 Domain verification is not required to enable this feature.
 
-Restricted members share many capabilities with regular workspace members — they can create private pages, use Notion AI (respecting restricted members’ permissions), log in with SSO, be added to permission groups, and more. **They also affect your billing in the same way as adding a workspace member.**
+Restricted members share many capabilities with regular workspace members. They can create private pages, use Notion AI (respecting restricted members’ permissions), log in with SSO, be added to permission groups, and more. **They also affect your billing in the same way as adding a workspace member.**
 
 There are a few ways that restricted members are different from regular workspace members, including:
 
@@ -51,7 +51,11 @@ There are a few ways that restricted members are different from regular workspac
 
 * They can only @-mention members with whom they share access to a page or teamspace.
 
-You can find controls related to restricted members in `Settings` — learn more [here →](https://www.notion.com/help/workspace-settings#workspace-security)
+* They won't see `Connect` in `Settings`, and they can't use Connect to link other apps to Notion.
+
+* They won't see Agents in the workspace. They can't create Custom Agents, use them, or be given access to them.
+
+You can find controls related to restricted members in `Settings`. Learn more: [Workspace security](https://www.notion.com/help/workspace-settings#workspace-security)
 
 ### Restricted members in teamspaces
 
@@ -63,11 +67,7 @@ If you want to assign a lower level of access to restricted members in a teamspa
 
 2. Change the teamspace member’s access level to the level that you want to assign to **restricted members**.
 
-   ![hc: change regular member access level in a teamspace](https://images.ctfassets.net/spoqsaf9291f/43tutzDbshTboBD6nNMFwM/90e9f1c61ff1561689c7c85ab9786abc/Image_from_Notion.png)
-
 3. Add the permission group (for example, “Teamspace A members”) to the teamspace, and give it the access level you’d like.
-
-   ![hc: assign permission group to restricted members in a teamspace](https://images.ctfassets.net/spoqsaf9291f/5Rcztor4H3dhGIyzifSr7B/c60cd83780268e8cf588eb30096d6988/Image_from_Notion__1_.png)
 
 ## Guests
 
@@ -107,7 +107,7 @@ Temporary members are approved Notion Marketplace consultants who have been gran
 
 * Only workspace admins can add temporary members.
 
-To learn how to add a temporary member, see [this article](https://www.notion.com/help/add-members-admins-guests-and-groups#add-a-temporary-member).
+To learn how to add a temporary member, see [Add a temporary member](https://www.notion.com/help/add-members-admins-guests-and-groups#add-a-temporary-member).
 
 ## Workspace owners
 
@@ -119,7 +119,7 @@ Membership admin is a role that exists only in the Enterprise Plan. Membership a
 
 ## Organization owners
 
-If your organization has multiple workspaces in Notion, those workspaces can be brought together as one organization. Organization owners are able to view and manage all of their workspaces and members in one central place and apply settings across the board. Learn more about organization owners and organization level controls [here →](https://www.notion.com/help/organization-level-controls)
+If your organization has multiple workspaces in Notion, those workspaces can be brought together as one organization. Organization owners are able to view and manage all of their workspaces and members in one central place and apply settings across the board. Learn more about organization owners and [organization level controls](https://www.notion.com/help/organization-level-controls).
 
 ## Change a user's role
 
