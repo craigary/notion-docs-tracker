@@ -52,7 +52,7 @@ To add a synced database from Asana, simply paste a project link right into a No
 
 ## Size limits & timing
 
-* Import up to **\~6,000 tasks** and **\~200 projects**. Larger imports may fail.
+* **Size limit:** Import up to **\~14k tasks** with no limit on projects. You can select one project with \~14k tasks, or multiple projects with a total of \~14k tasks. Larger imports may fail.
 
   * **Tip:&#x20;**&#x53;plit large migrations into multiple batches.
 
@@ -177,11 +177,6 @@ These placeholder accounts will attribute comments and mentions. If and when the
 ### How long does it take for the Asana Importer tool to import a large number of tasks?
 
 Import times may range from a few minutes to several hours depending up on the size of the import. You will receive an email notification once the import is complete. You can track your import in `Settings` → `Import`, where you’ll see its status and any completed imports.
-
-
-### Is there a limit to the number of tasks that can be imported at once?
-
-There are no hard limits on number of tasks that can be imported, but we recommend limiting imports to 20K tasks per teamspace.
 
 
 ### How are subtasks imported?

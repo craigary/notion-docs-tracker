@@ -48,27 +48,9 @@ Imports focus on preserving content structure. Complex layouts, styling, and app
 
 Most imports add new content. For CSV, imports add rows rather than updating existing rows.
 
-### Which versions of Confluence are supported?
-
-We officially support importing from Confluence Cloud, in pages created using the new editor that Confluence introduced in late 2018. Due to insufficient data in its index export, we do not support importing from Confluence Server. For help importing an entire workspace from the legacy editor, please contact support at email protected.
-
 ### Do imported blocks count towards the storage limit for Free Plan workspaces with multiple members?
 
 No, imported blocks will not count towards the limit. However, any blocks subsequently created inside imported pages will count towards the limit as usual.
-
-### Is there a maximum import size for Confluence imports?
-
-Confluence imports are limited to 5GB for zip-file imports and 30 GB for API imports.
-
-If you run into the limit, you can try using the **Custom Export** option to select pages for export, omitting attachment-heavy pages.
-
-### When I try to import from Confluence, I can't choose my file in the file upload window.
-
-Please make sure to upload a `.zip` file created by the Confluence space export functionality. Word documents and standalone HTML files will not work, since Notion relies on the whole import to preserve structure and links between pages.
-
-### I can't find the option to export my Confluence workspace.
-
-If the "Export" tab does not appear in the Content Tools section of a workspace's settings, you may not have the appropriate permissions to export pages. Ask the workspace administrator for permission.
 
 ### I can't seem to import from Evernote China/Evernote Business.
 

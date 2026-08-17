@@ -15,6 +15,8 @@ It's important to have all your data in one spot. Here's a helpful tutorial for 
 
 * **API importer:** Can only import the entire workspace. Can import workspaces of up to 30GB. Retains comments and user-mapping.
 
+* **URL/ID**: If you only need a handful of pages, you can bring in specific Confluence pages directly by pasting their links or IDs.
+
 **Multi-space imports:** Up to 10 Confluence spaces can be imported at once directly through the UI. Each selected Confluence space generates its own log page and imports as a separate top-level private page (into different Notion teamspaces as needed). This feature is only available to Business and Enterprise plans.
 
 ## What imports (and what doesn't)
@@ -88,11 +90,11 @@ It's important to have all your data in one spot. Here's a helpful tutorial for 
 
 **Connect Confluence and Notion**
 
-1. Go to **`Settings`** in your sidebar → **`Import`** → **`Confluence`**.
+1. Go to `Settings` in your sidebar → `Import` → `Confluence`.
 
-2. Choose **`Import via API`**.
+2. Choose `Import via API`.
 
-3. Select your Confluence instance type: cloud or server. To find your instance type, open Confluence, click **`Help`** → **`?`** next to your profile → **`About Confluence`**. Notion only supports cloud and server instances.
+3. Select your Confluence instance type: cloud or server. To find your instance type, open Confluence, click `Help` → `?` next to your profile → `About Confluence`. Notion only supports cloud and server instances.
 
 **Authenticate with Confluence Cloud**
 
@@ -100,7 +102,7 @@ It's important to have all your data in one spot. Here's a helpful tutorial for 
 
 2. Create an API token from your Atlassian account and enter it into the field. [Read more](https://support.atlassian.com/atlassian-account/docs/manage-api-tokens-for-your-atlassian-account/) about creating tokens in Confluence.
 
-3. Click **`Authenticate`**.
+3. Click `Authenticate`.
 
 **Authenticate with Confluence Server**
 
@@ -108,19 +110,49 @@ It's important to have all your data in one spot. Here's a helpful tutorial for 
 
 2. Enter your Confluence email and site.
 
-3. If you're running Confluence 7.9 or later, create a **`Personal Access Token `**&#x61;nd paste it. If you're using an earlier version, enter your Confluence username and password.
+3. If you're running Confluence 7.9 or later, create a `Personal Access Token `and paste it. If you're using an earlier version, enter your Confluence username and password.
 
-4. Click **`Authenticate`**.
+4. Click `Authenticate`.
 
 **Import**
 
-1. Click **`Confluence`** from the Import menu.
+1. Click `Confluence` from the Import menu.
 
 2. Monitor the progress of your import — this step may take several hours for large spaces.
 
-   * Once you see **`Importing pages…`**, you can safely close your browser window. We will send you an email once the import is complete.
+   * Once you see `Importing pages…`, you can safely close your browser window. We will send you an email once the import is complete.
 
 3. Repeat this section if you want to import more than one Confluence space.
+
+### Import by URL or ID
+
+**Connect Confluence and Notion**
+
+1. Go to `Settings` in your sidebar → `Import` → `Third party imports` → `Confluence`.
+
+2. Choose `Import via API`.
+
+3. Connect your Confluence account.
+
+**Choose how to import**
+
+1. On the `Configure import` screen, select `Import individual pages` (the option subtitled `Upload a CSV of page IDs or hyperlinks`). The `Import spaces` option above it is recommended for full-space imports — use that instead if you're bringing in an entire space.
+
+2. Select `Continue`.
+
+**Add your pages**
+
+1. On the `Customize your import` screen, choose a tab:
+
+   * `Upload CSV`: Select `Choose file` and upload a single-column `.csv` file with one page URL or numeric page ID per row.
+
+   * `Manually enter`: Paste your Confluence page links or page IDs into the text box (comma or line-break separated).
+
+2. Turn on `Include all subpages` if you want each page's subpages brought in too.
+
+3. Under `Import location`, choose where the pages should land — your private section, a teamspace, or (if available) a specific page.
+
+4. Select `Continue`. Notion will validate and resolve your pages before starting the import.
 
 ## What to expect after import
 
@@ -140,7 +172,9 @@ It's important to have all your data in one spot. Here's a helpful tutorial for 
 
 * Transient failures due to Confluence API unreliability can cause the overall import or certain pages to fail. You may need to retry the entire import.
 
-* For multiple spaces, run imports sequentially (one space at a time) unless using multi-space import (Business/Enterprise only).
+* For multiple spaces, you can run up to three concurrent single-space imports concurrently at a time per workspace, unless using multi-space import (Business/Enterprise only).
+
+* If a multi-space import is already running, all new Confluence imports are blocked (single- or multi-space) until it finishes.
 
 * Import failures can occur with complicated Confluence data (e.g., merged cells, tables within tables).
 

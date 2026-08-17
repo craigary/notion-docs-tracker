@@ -30,3 +30,43 @@ Membership admins can’t edit other workspace settings.
 Note: Membership admins can add users to the workspace in a **member role only**. Membership admins cannot add workspace owners or membership admins to the workspace.
 
 **Note:** Membership admins can only add other **members** to a workspace. They can't designate workspace owners or other membership admins.
+
+## Admin roles
+
+If your organization is on the Enterprise Plan, organization owners can hand off specific admin work by giving members admin roles. Each role unlocks one area of your organization settings, like membership or analytics. That way, you don't have to make someone a full organization owner just to manage one setting.
+
+Notion offers a set of ready-made admin roles:
+
+| **Role**             | **What it lets someone do**                                                                                                       |
+| -------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| **Compliance admin** | See the audit log, search content across the organization, and manage legal holds.                                                |
+| **People admin**     | See and manage members, guests, groups, and teams across the organization.                                                        |
+| **IT admin**         | Manage identity, security, and integrations across the organization.                                                              |
+| **Analytics viewer** | See analytics about members, content, and search across the organization.                                                         |
+| **Billing admin**    | See and manage your organization's Notion credits. This role only appears for organizations that work with the Notion sales team. |
+
+## Assign or remove an admin role
+
+Only organization owners can assign or remove admin roles. To assign an admin role:
+
+1. Go to your organization settings.
+
+2. Open `People` > `Manage admin roles`.
+
+3. Select a role to see what it covers and who has it.
+
+4. Add or remove members from the role.
+
+## Good to know
+
+* Members can hold more than one admin role. The permissions from each role add together, on top of their existing workspace role.
+
+* Any member in your organization can be given an admin role. Guests and organization owners can't.
+
+* Members with an admin role only see the parts of organization settings their roles cover. Everything else stays hidden.
+
+* Admin roles apply across your whole organization. You can't limit a role to a single workspace.
+
+* Admin roles don't change what someone can see or edit in pages or databases.
+
+* Roles are assigned to members one at a time. You can't assign roles through SCIM or groups.

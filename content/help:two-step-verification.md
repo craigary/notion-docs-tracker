@@ -111,4 +111,6 @@ If you're having trouble, please contact us at email protected.
 
 ### I’m a workspace owner. Can I enforce everyone in my workspace to enable two-step verification?
 
-No, workspace owners can't enforce this feature for all users at this time.
+Organization owners on the Enterprise Plan can require MFA for guests in their workspaces. [Learn more about MFA enforcement →](https://www.notion.com/help/category/enterprise-admin/all)
+
+MFA enforcement isn't available for workspace members, or on other Notion plans.
