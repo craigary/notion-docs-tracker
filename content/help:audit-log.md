@@ -21,9 +21,11 @@ Audit log events may take some time to appear after an action takes place. If yo
 
 To see your audit log:
 
-1. Open the workspace switcher and select `Settings`. You may need to `Set up organization` first if you haven’t already. Learn more [here →](https://www.notion.com/help/organization-level-controls)
+1. Open the workspace switcher and select `Manage organization`. You may need to `Set up organization` first if you haven’t already. Learn more by reading [Organization level controls](https://www.notion.com/help/organization-level-controls).
 
-2. Go to the `Admin` section and select `Audit log`.
+2. Select the `Data & Compliance` tab.
+
+3. Find and select `Audit log.`
 
 Some groups of audit log events are created as a consequence of the same user action.
 
@@ -37,7 +39,7 @@ Four filters are available at the top of the audit log:
 
 2. **Person or agent**: Filter by the user, integration, or agent that performed the action. Users who have since been removed from the workspace are still searchable and shown with a `Removed` label.
 
-3. **Event**: Filter by one or more event types. Events are organized by category (page, data source, teamspace, workspace, account, and workers).
+3. **Event**: Filter by one or more event types. Events are organized by category (page, data source, teamspace, workspace, account, form, and workers).
 
 4. **Related**: Filter for events that were triggered by the same underlying action. Some workspace changes generate a group of related events: for example, moving a page may log both a page moved event and a permission update. To filter for related events, hover over any audit log row and select the magnifying glass icon.
 
@@ -485,7 +487,7 @@ Page event audience will also export as a column in CSV exports.
 
 ## Custom Agent events
 
-The audit log records key Custom Agent configuration and access changes so Enterprise admins and security teams can track who created or modified an agent, what it has access to, and how its settings changed over time.
+The audit log records key Custom Agent configuration and access changes so Enterprise admins and security teams can track who created or modified an agent, what it has access to, and how its settings changed over time. These events are categorized under Workspace events.
 
 **Configuration events:**
 
@@ -549,10 +551,12 @@ To export your audit log:
 
 1. Open the workspace switcher and select `Manage organization`.
 
-2. Go to the `Data & Compliance` tab and select `Audit log`.
+2. Select the `Data & Compliance` tab.
 
-3. Optionally filter by organization, date, person, or event.
+3. Find and select `Audit log.`
 
-4. Select `Export`.
+4. Optionally filter by organization, date, person, or event.
+
+5. Select `Export`.
 
 **Note:** The export will include any active filters applied at the time of export. You'll be able to view data going back 365 days up until 2 hours before the time of export. To save historical data, you'll want to `Export` audit log events regularly.
