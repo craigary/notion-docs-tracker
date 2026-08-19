@@ -65,8 +65,6 @@ To set an allowed domain:
 
 ## Export your entire workspace
 
-**Note:&#x20;**&#x54;o verify a domain for your organization, you must be an [organization owner](https://www.notion.com/help/organization-level-controls).
-
 Your Notion data will always be backed up in the cloud, but you can also export it for safekeeping. You can export all your pages as HTML, Markdown, or CSV (for databases), along with any files you've uploaded, too.
 
 If you're on a Business or Enterprise Plan, you can also export your entire workspace to PDF, which can be helpful for legal and compliance backups.
