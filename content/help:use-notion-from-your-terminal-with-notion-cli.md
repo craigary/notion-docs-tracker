@@ -9,7 +9,9 @@ category: "Explore developer tools"
 categoryKey: "category:developer-platform"
 ---
 
-Notion CLI `ntn` i<!-- -->s a tool that lets developers and AI coding agents work with Notion by typing commands in a terminal.<!-- --> <!-- -->You can read and write Notion content, and (if you have access) manage Workers from the command line.
+Notion CLI `ntn` is a tool that lets developers and AI coding agents work with Notion by typing commands in a terminal. You can read and write Notion content, and (if you have access) manage Workers from the command line.
+
+You can also view Workers and read logs in Notion with [Developer Mode](https://www.notion.com/help/turn-on-developer-mode-to-use-developer-tools-in-notion). Use the CLI when you need to deploy Workers or change their code or setup.
 
 This article is a high-level overview. For technical setup, see the [developer documentation](https://developers.notion.com/guides/get-started/overview).
 
@@ -30,6 +32,8 @@ Please watch it on [YouTube](https://www.youtube.com/watch?v=k-6ldiWIDsg)
 * Some developer platform features you use through the CLI may require specific plans or admin enablement.
 
 * If something looks off, first make sure you are on the latest version of the CLI.
+
+* If you only need to view a Worker, read logs, turn it off, or delete it, you can do that in Notion after you turn on [Developer Mode](https://www.notion.com/help/turn-on-developer-mode-to-use-developer-tools-in-notion).
 
 ## Install the CLI
 
@@ -72,3 +76,8 @@ Find the full command list in the [developer documentation](https://developers.n
 ### Does the CLI work on Windows?
 
 Yes. The CLI works the same on Windows, Mac, and Linux. Workers you create on one platform show up the same everywhere.
+
+
+### Can I manage Workers in Notion instead of the CLI?
+
+Partly. You can view Workers, read logs, turn Workers off, and delete Workers in Notion with [Developer Mode](https://www.notion.com/help/turn-on-developer-mode-to-use-developer-tools-in-notion). Use the CLI to deploy Workers or change their code or setup.

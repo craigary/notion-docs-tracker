@@ -15,7 +15,11 @@ Notion support can only access your account or workspace data to troubleshoot an
 
 * Allow Notion support to act as you in Notion.
 
+These two settings work on their own. Turning one on doesn't turn the other on. Depending on your issue, support may ask you to turn on one or both.
+
 Learn more about [Notion’s security practices, and how your data is stored on our servers →](https://www.notion.com/help/security-and-privacy)
+
+## Account access consent
 
 ## Account access consent on desktop
 
@@ -31,7 +35,7 @@ When chatting with Notion support via email or in-app chat, you may be asked for
 
 2. Under `Support`, toggle on `Support access`.
 
-## Revoke account access
+### Revoke account access
 
 After you've granted access, Notion's support team will have permission to access your content for 28 days, or until you revoke this access. This timeframe will be visible in-app. To revoke account access at any time:
 
@@ -52,6 +56,8 @@ To allow or revoke support access on Notion for mobile:
 ## Workspace access consent
 
 Workspace admins and owners can decide whether Notion can access the workspace for support and troubleshooting. This setting is separate from the personal setting above. The personal setting lets Notion support act as you. The workspace setting lets Notion support access the workspace to help resolve an issue.
+
+Turning on workspace access doesn't let Notion support act as any one person. If support needs to act as a specific person, that person also needs to turn on account access.
 
 ## Allow workspace access
 
@@ -77,7 +83,41 @@ If your workspace is part of an Enterprise organization, org admins can manage t
 
 * Set the policy for each workspace one at a time.
 
+To manage this setting:
+
+1. Select your organization name in the sidebar, then select `Manage organization`.
+
+2. In your organization settings, select `Security`.
+
+3. Find and select `Workspace support access consent`.
+
+4. Choose a setting for the whole organization, or pick a setting for each workspace in the list.
+
+Each workspace can be set to either:
+
+* `Enabled`: Notion support can access that workspace's data. The workspace can't turn this off.
+
+* `Disabled`: Notion support can't access that workspace's data. The workspace can't turn this on.
+
+The organization's choice always comes first. If the organization is set to `Enabled` or `Disabled`, that choice applies to every workspace, no matter how each workspace is set. To let each workspace decide for itself, set the organization to `Workspace managed`.
+
 When the organization turns the setting off, the workspace toggle is locked and access stays off. If the organization turns it back on later, the workspace's earlier choice is restored.
+
+## Turn on support access for one person
+
+Organizations can restrict members from turning on support access for their own accounts with the `Allow users to grant support access to accounts` setting. Even when this setting is off, an org owner can still turn on support access for a specific person. To do this:
+
+1. Select your organization name in the sidebar, then select `Manage organization`.
+
+2. In your organization settings, select `People`.
+
+3. Find and select `Manage members` .
+
+4. Find and select the person who needs help from Notion support.
+
+5. On the `General` tab, select the `Allow support access` drop-down to turn on `Support access` for their account.
+
+Like all support access, this only lets Notion support help with issues that person has reported, and it can be turned off at any time.
 
 
 ## FAQs
@@ -102,3 +142,13 @@ Workspace admins and owners. In Enterprise organizations, org admins can also ma
 ### Does account access stay on forever?
 
 No. Account access ends on its own after 28 days by default. You can turn it back on whenever you need to.
+
+
+### Can an org owner turn on support access for just one person?
+
+Yes. An org owner can turn on support access for a single person's account from the organization console. This works even when members can't turn it on themselves.
+
+
+### If workspace access is on, can Notion support also act as me?
+
+No. Workspace access and account access are separate. Each one has to be turned on by itself.

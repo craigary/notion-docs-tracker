@@ -19,6 +19,8 @@ categoryKey: "category:connections"
 
 Both Members and Workspace owners can add connections to a workspace in `Settings` → `Connections`.
 
+You can also open connection tools from the developer section in your sidebar after you turn on [Developer Mode](https://www.notion.com/help/turn-on-developer-mode-to-use-developer-tools-in-notion).
+
 Use the search bar or category filters to find the connection you're looking for. Connections are grouped by app, so products with multiple capabilities appear as one entry. Once a connection is added, you can add it to individual pages and databases in the `•••` menu under `Connections`.
 
 **Note:** On Enterprise plans, workspace owners can restrict which connections members are allowed to install. If a connection you're looking for isn't available, contact your workspace owner.
@@ -59,7 +61,7 @@ If you choose to allow only connection owners to manage access, that means onl
 
 ## Manage connections in your workspace
 
-**Note:** Workspace owners manage all connections in a workspace. <!-- -->Learn more [here →](https://www.notion.com/help/enterprise-connection-settings)
+**Note:** Workspace owners manage all connections in a workspace. <!-- -->Learn more about [enterprise connection settings →](https://www.notion.com/help/enterprise-connection-settings)
 
 * Go to `Settings` → `Connections`. Here, you'll see the full connections catalog of all connections grouped by app, with search and category filters.
 

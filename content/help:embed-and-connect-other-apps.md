@@ -1,7 +1,7 @@
 ---
 title: "Embeds, bookmarks & link mentions"
 emoji: null
-description: "You can embed virtually any online content within Notion pages — from video and audio players to Tweets, Loom videos, Invision mockups, and entire Miro boards. Enrich your Notion pages with other apps, PDFs, forms, and interactive maps 🦾"
+description: "You can embed virtually any online content within Notion pages — from video and audio players to Tweets, Loom videos, Invision mockups, and entire Miro boards. Enrich your Notion pages with other apps, PDFs, forms, and interactive maps."
 url: "https://www.notion.com/help/embed-and-connect-other-apps"
 key: "help:embed-and-connect-other-apps"
 coverImage: "https://img.youtube.com/vi/Gtjeb4xkWHo/maxresdefault.jpg"

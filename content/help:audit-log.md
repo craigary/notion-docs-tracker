@@ -17,9 +17,11 @@ By default, all events are shown in reverse chronological order. You can use the
 
 Audit log events may take some time to appear after an action takes place. If you need to see events in real-time, use the custom SIEM integration, which streams events as they occur.
 
-## Access your audit log
+## Access your organization audit log
 
-To see your audit log:
+Notion has an organization audit log, where you can view events for your entire organization. You can also filter down to only events for a single workspace.
+
+To see your organization audit log:
 
 1. Open the workspace switcher and select `Manage organization`. You may need to `Set up organization` first if you haven’t already. Learn more by reading [Organization level controls](https://www.notion.com/help/organization-level-controls).
 
@@ -27,27 +29,41 @@ To see your audit log:
 
 3. Find and select `Audit log.`
 
+## Access a workspace audit log
+
+Each workplace has it’s own workspace audit log, which can be accessed from the workspace settings.
+
+To access a workspace audit log:
+
+1. Select the workspace name, then select `Settings`.
+
+2. Select `Audit log`.
+
+## Filter your audit log
+
+The following filters are available at the top of the audit log:
+
+1. **Organization (organization audit log only)**: View events for only one workspace or for your entire organization. When you choose `Organization`, the Event filter shows organization events instead of workspace events.
+
+2. **Date**: Filter events to a specific date or date range. Audit log history is retained for up to 365 days, so you can select any range within the past year.
+
+3. **Person or agent**: Filter by the user, integration, or agent that performed the action. Users who have since been removed from the workspace are still searchable and shown with a `Removed` label.
+
+4. **Event**: Filter by one or more event types. Events are organized by category (page, data source, teamspace, workspace, account, form, and workers). You can also use the workspace picker at the top of the audit log to view one workspace or your whole organization. When you choose `Organization`, the Event filter shows organization events instead of workspace events.
+
+5. **Related**: Filter for events that were triggered by the same underlying action. Some workspace changes generate a group of related events: for example, moving a page may log both a page moved event and a permission update. To filter for related events, hover over any audit log row and select the magnifying glass icon.
+
+**Note**: The Related filter is only available for events that contain related activity metadata. If the magnifying glass icon doesn't appear on a row, that event has no related events.
+
+To inspect individual audit log events to see if they are part of a group, hover over the audit log row and select the magnifying glass to filter for related events.
+
 Some groups of audit log events are created as a consequence of the same user action.
 
 To inspect individual audit log events to see if they are part of a group, hover over the audit log row and select the magnifying glass to filter for related events.
 
-## Filter your audit log
-
-Four filters are available at the top of the audit log:
-
-1. **Date**: Filter events to a specific date or date range. Audit log history is retained for up to 365 days, so you can select any range within the past year.
-
-2. **Person or agent**: Filter by the user, integration, or agent that performed the action. Users who have since been removed from the workspace are still searchable and shown with a `Removed` label.
-
-3. **Event**: Filter by one or more event types. Events are organized by category (page, data source, teamspace, workspace, account, form, and workers).
-
-4. **Related**: Filter for events that were triggered by the same underlying action. Some workspace changes generate a group of related events: for example, moving a page may log both a page moved event and a permission update. To filter for related events, hover over any audit log row and select the magnifying glass icon.
-
-**Note**: The Related filter is only available for events that contain related activity metadata. If the magnifying glass icon doesn't appear on a row, that event has no related events.
-
 ## Stream audit log events to your SIEM
 
-You can use Notion’s custom SIEM integration to send a continuous stream of audit log events to your SIEM platform in real-time via webhooks. This includes all of the same audit log event types.
+You can use Notion’s custom SIEM integration to send a continuous stream of audit log events to your SIEM platform in real-time via webhooks. This includes all of the same audit log event types, except for organization events.
 
 To set up the custom SIEM integration:
 
@@ -61,13 +77,15 @@ To set up the custom SIEM integration:
 
 **What to know:**
 
-* **Single webhook per workspace&#x20;**— only one custom SIEM webhook can be configured per workspace at a time.
+* **Single webhook per workspace:** Only one custom SIEM webhook can be configured per workspace at a time.
 
-* **Retry behavior** — if your endpoint fails to receive an event, Notion will retry up to seven times over approximately 24 hours.
+* **Retry behavior:** If your endpoint fails to receive an event, Notion will retry up to seven times over approximately 24 hours.
 
-* **No page content** — event payloads include metadata (who did what, when, from where), but do not include the content of pages.
+* **No page content:** Event payloads include metadata (who did what, when, from where), but do not include the content of pages.
 
-* **No syslog support** — webhooks only; syslog is not supported.
+* **No syslog support:** Webhooks only; syslog is not supported.
+
+* **No organization events:** the stream only includes workspace events. Organization events, like changes to organization settings or admin roles, only appear in the audit log in Notion when organization is selected.
 
 For partner-specific SIEM setup instructions (Datadog, Panther, Splunk, Sumo Logic), see [Add security & compliance connections →](https://www.notion.com/help/add-security-and-compliance-integrations)
 
@@ -88,6 +106,8 @@ Events are split into the following categories:
 6. **Form events**: This includes events about forms connected to a database.
 
 7. **Data source events:** This includes events about data sources in a database.
+
+8. **Organization events (organization event log only)**: This includes events about your whole organization, like organization settings, security, and admin roles. To see these, choose `Organization` in the workspace picker at the top of the audit log.
 
 ## Page events
 
@@ -119,7 +139,7 @@ Events are split into the following categories:
 
 * **File downloaded:** That a user opened or downloaded `file name` from a certain page.
 
-* **Private content transferred:** That the private pages of a user who left the workspace were transferred to a current user. Learn more [here →](https://www.notion.com/help/transfer-content-deprovisioned-user)
+* **Private content transferred:** That the private pages of a user who left the workspace were transferred to a current user. Learn more by reading [Transfer content from a deprovisioned user](https://www.notion.com/help/transfer-content-deprovisioned-user).
 
 * **Automation created:** That a user created a new automation.
 
@@ -485,6 +505,94 @@ Page event audience will also export as a column in CSV exports.
 
 * **Data source schema edited:&#x20;**&#x54;hat a user, integration, or external AI tool added, removed, or changed properties in a data source schema.
 
+## Organization events
+
+These events cover your whole organization instead of a single workspace. They only appear in the organization audit log. To view them, open the workspace picker at the top of the organization audit log and choose `Organization`.
+
+Organization events aren't sent to your SIEM through the custom SIEM integration.
+
+**Organization and membership**
+
+* **Organization created**: That an organization was created.
+
+* **Organization name changed**: That an organization owner changed the organization's name.
+
+* **Organization owner added**: That a user was made an organization owner.
+
+* **Organization owner removed**: That a user's organization owner role was removed.
+
+* **Workspace added**: That a workspace was added to the organization.
+
+* **Workspace removed**: That a workspace was removed from the organization.
+
+* **Email domain verified**: That an email domain was verified for the organization.
+
+* **Email domain unverified**: That an email domain was removed from the organization's verified domains.
+
+* **Domain claim status updated**: That the status of a domain claim changed.
+
+**Security and sign-in**
+
+* **SAML settings updated**: That an organization owner turned SAML single sign-on on or off for the organization, required it, turned automatic account creation on or off, or updated or removed IdP metadata.
+
+* **IP allowlist created, updated, or deleted**: That an organization owner changed which IP addresses can access the organization.
+
+* **IP restrictions toggled**: That IP restrictions were turned on or off, or their enforcement mode was changed.
+
+* **Guest sign-in requirement updated**: That the extra sign-in step required for guests was changed.
+
+**Managed users**
+
+* **Managed users logged out**: That an admin logged out one managed user, or all managed users at once.
+
+* **Managed user passwords cleared**: That an admin cleared the password for one managed user, or all managed users at once.
+
+* **Profile edit setting updated**: That an admin changed whether managed users can edit their own profiles.
+
+* **External workspace access updated**: That an admin changed whether managed users can join workspaces outside the organization.
+
+* **Session duration updated**: That an admin set or changed how long managed users stay signed in.
+
+* **Workspace creation setting updated**: That an admin changed whether managed users can create new workspaces, or the region where new workspaces are created.
+
+**Organization-wide workspace settings**
+
+* **Organization default setting updated**: That an organization owner changed a setting that applies to every workspace in the organization.
+
+**AI provider API keys**
+
+* **API key created, rotated, or deleted**: That an organization owner added, rotated, or deleted an API key for an AI provider.
+
+**Legal holds**
+
+* **Legal hold created**: That a legal hold was created.
+
+* **Legal hold released**: That a legal hold was released.
+
+* **Legal hold name updated**: That a legal hold was renamed.
+
+* **Legal hold member added or removed**: That a member was added to or removed from a legal hold.
+
+* **Legal hold content exported**: That the content covered by a legal hold was exported.
+
+* **Legal hold summary exported**: That a summary of a legal hold was exported.
+
+**Bots**
+
+* **Organization token created or updated**: That an organization token was created or changed.
+
+**Admin roles**
+
+* **Admin role created, updated, or deleted**: That an organization owner created, changed, or deleted an admin role.
+
+* **Admin role assigned**: That an organization owner gave a member an admin role.
+
+* **Admin role revoked**: That an organization owner removed a member's admin role.
+
+**Audit log**
+
+* **Organization audit log exported**: That a user exported the organization audit log.
+
 ## Custom Agent events
 
 The audit log records key Custom Agent configuration and access changes so Enterprise admins and security teams can track who created or modified an agent, what it has access to, and how its settings changed over time. These events are categorized under Workspace events.
@@ -545,18 +653,28 @@ The audit log records key Custom Agent configuration and access changes so Enter
 
 ## Export your audit log
 
-Want to analyze your audit log data in a spreadsheet or send it to external tools? You can export your workspace audit log as a CSV. Your export will include only the events that match the filters you've set, so you get a smaller, more targeted file for investigations, audits, and compliance reviews.
+Want to analyze your audit log data in a spreadsheet or send it to external tools? You can export your audit log as a CSV. Your export will include only the events that match the filters you've set, so you get a smaller, more targeted file for investigations, audits, and compliance reviews.
 
-To export your audit log:
+To export your organization audit log:
 
 1. Open the workspace switcher and select `Manage organization`.
 
-2. Select the `Data & Compliance` tab.
+2. Select `Data & Compliance`.
 
 3. Find and select `Audit log.`
 
 4. Optionally filter by organization, date, person, or event.
 
 5. Select `Export`.
+
+To export your workspace audit log:
+
+1. Select the workspace name, then select `Settings`.
+
+2. Select `Audit log`.
+
+3. Optionally filter by organization, date, person, or event.
+
+4. Select `Export`.
 
 **Note:** The export will include any active filters applied at the time of export. You'll be able to view data going back 365 days up until 2 hours before the time of export. To save historical data, you'll want to `Export` audit log events regularly.

@@ -1,5 +1,5 @@
 ---
-title: "Instructions for Notion Agent"
+title: "Set Instructions for Notion Agent"
 emoji: null
 description: "Learn how Instructions shape what Notion Agent does, and how to write clear instructions."
 url: "https://www.notion.com/help/instructions-for-notion-agent"
@@ -9,13 +9,7 @@ category: "Notion AI"
 categoryKey: "category:notion-ai"
 ---
 
-## What are Instructions?
-
-Instructions tell your personal Notion Agent how to respond by default, including tone, formatting, and rules to follow.
-
-Your Agent uses your active Instructions page in every chat.
-
-You can only use one Instructions page at a time, but you can switch it anytime.
+Instructions tell your personal [Notion Agent](https://www.notion.com/help/notion-agent) how to respond by default, including tone, formatting, and rules to follow. Your Agent uses your active Instructions page in every chat. You can only use one Instructions page at a time, but you can switch it anytime.
 
 ## When should I use Instructions?
 
@@ -51,7 +45,7 @@ A simple rule of thumb is that if you’d correct the same Notion Agent behavior
 
 ### From an existing page
 
-1. From any page, go to ••• → `Use with AI` → `Use as AI Instruction`
+From any page, go to ••• → `Use with AI` → `Use as Agent instructions`.
 
 ## Where to manage Instructions
 

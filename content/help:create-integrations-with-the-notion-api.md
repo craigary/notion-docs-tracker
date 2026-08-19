@@ -1,7 +1,7 @@
 ---
 title: "Notion API connections"
 emoji: null
-description: "With Notion's API, you'll be able to create custom internal connections. Some of our partners may also require an internal connection token in order to link their platform to your Notion workspace - below, we'll walk you through how to set this up 🏗️"
+description: "With Notion's API, you'll be able to create custom internal connections. Some of our partners may also require an internal connection token in order to link their platform to your Notion workspace - below, we'll walk you through how to set this up."
 url: "https://www.notion.com/help/create-integrations-with-the-notion-api"
 key: "help:create-integrations-with-the-notion-api"
 coverImage: null
@@ -9,9 +9,9 @@ category: "Connections"
 categoryKey: "category:connections"
 ---
 
-Visit our [developer hub](http://developers.notion.com/) for documentation, resources, and connection management tools.
+You can manage personal access tokens from Notion. Turn on Developer Mode from `Settings`, then open personal access tokens from the developer section in your sidebar. <!-- -->Visit our [developer hub](http://developers.notion.com/) for documentation, resources, and connection management tools.
 
-**Note:** Workspace owners manage all connections in a workspace. <!-- -->Learn more [here →](https://www.notion.com/help/enterprise-connection-settings)
+**Note:** Workspace owners manage all connections in a workspace. <!-- -->Learn more about [enterprise connection settings →](https://www.notion.com/help/enterprise-connection-settings)
 
 ## Create an internal connection
 
@@ -19,9 +19,9 @@ Visit our [developer hub](http://developers.notion.com/) for documentation, re
 
 2. Only Workspace owners will be able to access the `Connections` tab and create integrations. If you are not an admin, please contact your Workspace admin or use a different workspace.
 
-3. Click the `Develop your own connections` link at the bottom.
+3. Turn on [Developer Mode](https://www.notion.com/help/turn-on-developer-mode-to-use-developer-tools-in-notion), then open personal access tokens from the developer section in your sidebar.
 
-4. [My connections](https://www.notion.com/profile/integrations/internal) will open in your default browser. Click the `+ New connection `button.
+4. Click `+ New connection`.
 
 5. Provide a `Name` for your connection. Optionally, you can also upload an image to use as a `Logo`.
 

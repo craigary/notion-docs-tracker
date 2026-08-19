@@ -12,13 +12,13 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/7j6zHBFAMtPgTdqjZQq46w/c7
 4 help:ai-meeting-notes
 5 help:enterprise-search
 6 help:notion-mcp
-7 help:create-and-edit-images-with-notion-ai
-8 help:connect-mcp-servers-to-your-notion-agent
-9 help:research-mode
+7 help:research-mode
+8 help:set-up-enterprise-managed-connections-for-notion-mcp
+9 help:create-and-manage-skills
 10 help:manage-your-inbox-with-notion-agent
 11 help:instructions-for-notion-agent
-12 help:set-up-enterprise-managed-connections-for-notion-mcp
-13 help:create-and-manage-skills
+12 help:create-and-edit-images-with-notion-ai
+13 help:connect-mcp-servers-to-your-notion-agent
 
 ## Video
 

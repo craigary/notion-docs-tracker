@@ -35,7 +35,9 @@ For more info about pricing, see [this article](https://www.notion.com/help/unde
 
   * Turn Workers off for the workspace.
 
-* If you are trying to deploy or manage a Worker, you’ll typically follow our [developer documentation](https://developers.notion.com/guides/get-started/overview) and use the [Notion CLI.](https://www.notion.com/help/use-notion-from-your-terminal-with-notion-cli)
+* If you're trying to deploy or manage a Worker, you’ll typically follow our [developer documentation](https://developers.notion.com/guides/get-started/overview) and use the [Notion CLI.](https://www.notion.com/help/use-notion-from-your-terminal-with-notion-cli)
+
+* You can turn on Developer Mode to view Workers in Notion, read logs, and turn off or delete Workers. To deploy a Worker or change its code or setup, use the [Notion CLI](https://www.notion.com/help/use-notion-from-your-terminal-with-notion-cli) or your team’s coding tool. Learn more about [developer mode →](https://www.notion.com/help/turn-on-developer-mode-to-use-developer-tools-in-notion)
 
 ## Pricing & plan availability for Workers
 
@@ -80,6 +82,20 @@ A few common examples:
 * Creating an onboarding doc when an offer is signed.
 
 Once it's set up, the workflow runs automatically every time the event happens, so your team doesn't have to manually move information between tools.
+
+## Check Workers in Notion
+
+With [Developer Mode](https://www.notion.com/help/turn-on-developer-mode-to-use-developer-tools-in-notion), you can open Workers from the developer section in your sidebar. Use this view for quick checks and basic actions. In Notion, you can:
+
+* See all Workers in one list.
+
+* Open a Worker and view Overview, Logs, Environment Variables, and Settings.
+
+* Read Worker logs.
+
+* Turn off or delete a Worker.
+
+To deploy a Worker or change its code or setup, use the [Notion CLI](https://www.notion.com/help/use-notion-from-your-terminal-with-notion-cli) or your team’s coding tool.
 
 ## Share a Worker
 
@@ -129,4 +145,4 @@ No. Workers run on Notion’s servers, so you don’t need to set up or manage a
 
 ### Do I need the CLI to use Workers?
 
-Not necessarily to *use* Workers, but you’ll typically need the CLI to set up and deploy them. Developers can follow the developer docs to get started.
+Not always. You can view Workers, read logs, turn Workers off, and delete Workers in Notion with [Developer Mode](https://www.notion.com/help/turn-on-developer-mode-to-use-developer-tools-in-notion). You’ll typically need the [CLI](https://www.notion.com/help/run-custom-code-with-workers) or your team’s coding tool to set up, deploy, or change a Worker.

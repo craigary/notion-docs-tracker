@@ -23,7 +23,7 @@ When you share a Worker, you can choose one of two permission levels:
 
 ## How to share a Worker
 
-1. Go to the [Notion developer portal](https://developers.notion.com).
+1. Turn on [Developer Mode](https://www.notion.com/help/turn-on-developer-mode-to-use-developer-tools-in-notion) from `Settings`, then open Workers from the developer section in your sidebar.
 
 2. Open the Worker you want to share.
 

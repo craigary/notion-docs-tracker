@@ -21,6 +21,8 @@ The Developer Platform includes:
 
 * **Agent SDK (private alpha):&#x20;**&#x42;ring Notion Agents into any app.
 
+You can turn on Developer Mode to find developer tools inside Notion. Use it to copy IDs, open connections and personal access tokens from your sidebar, and check Workers without switching to a separate website. Learn more about [developer mode →](https://www.notion.com/help/turn-on-developer-mode-to-use-developer-tools-in-notion)
+
 View an overview of all capabilities, stay up-to-date, and learn more about Notion’s Developer Platform in the [developer documentation](https://developers.notion.com/guides/get-started/overview).
 
 ## What to know before you start
@@ -30,6 +32,22 @@ View an overview of all capabilities, stay up-to-date, and learn more about Noti
 * To get started, review the capabilities below and follow the related resources.
 
 * If you’re looking for the deeper technical info, head to the [developer documentation](https://developers.notion.com/guides/get-started/overview).
+
+* To open developer tools in Notion, turn on Developer Mode from `Settings`. [Developer Mode](https://www.notion.com/help/turn-on-developer-mode-to-use-developer-tools-in-notion) is available on all plans, but some tools, like [Workers](https://www.notion.com/help/run-custom-code-with-workers), require a Business or Enterprise plan.
+
+## Developer Mode
+
+Developer Mode is for people who build with Notion. When it’s on, you can:
+
+* Use the developer bar to find the ID for the page, block, database, or data source you are viewing.
+
+* Right-click blocks and databases to copy the IDs you need.
+
+* Open connections, personal access tokens, and Workers from the developer section in your sidebar.
+
+* View Workers, read logs, and turn off or delete Workers in Notion.
+
+Developer Mode is separate in the browser and desktop app, and it’s not available on mobile. Learn more about [developer mode →](https://www.notion.com/help/turn-on-developer-mode-to-use-developer-tools-in-notion)
 
 ## Notion CLI ntn (public beta)
 
