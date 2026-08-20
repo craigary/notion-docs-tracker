@@ -1,7 +1,7 @@
 ---
 title: "Set up enterprise-managed connections for Notion MCP"
 emoji: null
-description: "Learn how to turn on enterprise-managed connections for Notion MCP and manage who can use it."
+description: null
 url: "https://www.notion.com/help/set-up-enterprise-managed-connections-for-notion-mcp"
 key: "help:set-up-enterprise-managed-connections-for-notion-mcp"
 coverImage: null
@@ -89,32 +89,3 @@ A Claude admin can follow the steps below to add Notion as an organization conne
 
 
 ## FAQs
-
-### Do members have to do anything?
-
-No. If they're covered by your Okta policy, Notion tools appear in <!-- -->the external AI app <!-- -->automatically after they sign in with SSO.
-
-
-### What can the external AI app access once connected?
-
-Exactly what each member can access in Notion, nothing more. Enterprise-managed connections change how the connection is approved, not what it can access. Your existing [Notion MCP admin controls](https://www.notion.com/help/notion-mcp), like the allowed AI apps list, still apply.
-
-
-### What happens when someone leaves the company?
-
-Remove them in Okta as usual, and they won't be able to start new connections. A connection that's already active can keep working for up to eight hours, so disconnect the member in Notion if their access needs to stop sooner.
-
-
-### We already use Notion MCP with individual connections. What changes?
-
-Members covered by the managed connection stop seeing approval prompts for Claude. Individual connections from other AI tools keep working as before.
-
-
-### Our Notion SSO doesn't run on Okta. Can we use this?
-
-Not yet. Right now, Okta must be the identity provider that runs your Notion SAML SSO, because Cross App Access is currently an Okta capability. Support for more setups is planned.
-
-
-### Which AI tools are supported?
-
-Claude organization connectors are supported. Support for more AI tools is coming.

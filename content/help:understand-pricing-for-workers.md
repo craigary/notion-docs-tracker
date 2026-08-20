@@ -1,7 +1,7 @@
 ---
 title: "Understand pricing for Workers (beta)"
 emoji: null
-description: "Learn how Workers use Notion credits, what affects Worker credit usage, how to plan costs, and where to view usage."
+description: null
 url: "https://www.notion.com/help/understand-pricing-for-workers"
 key: "help:understand-pricing-for-workers"
 coverImage: null
@@ -241,24 +241,3 @@ Try these best practices to keep Worker usage predictable:
 
 
 ## FAQs
-
-### What are micro credits?
-
-Micro credits are smaller units of Notion credit consumption. Workers use micro credits because they run predictable, repeatable code. Custom Agents usually use more credits because they rely on AI to think through decisions and next steps.
-
-
-### Do Workers use the same Notion credits as Custom Agents?
-
-Yes. Workers are part of the broader Notion credits system. However, Worker actions are designed to consume smaller amounts of credits than Custom Agent actions.
-
-
-### Why does sync frequency affect cost?
-
-Each scheduled sync run counts as a Worker run. A sync that runs every minute runs 1,440 times per day, while a sync that runs daily runs once per day. More runs mean more credit usage.
-
-
-### Where can I see Worker credit usage?
-
-You can see Worker credit usage in the [CLI](https://www.notion.com/help/www.notion.com/help/use-notion-from-your-terminal-with-notion-cli).
-
-Admins and Worker creators can also view usage directly in the Notion credits dashboard. Go to `Settings` → `Access & billing` → `Notion credits` and select the **Workers** tab.

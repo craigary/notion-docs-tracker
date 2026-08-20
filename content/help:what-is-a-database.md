@@ -1,7 +1,7 @@
 ---
 title: "What is a database?"
 emoji: null
-description: "Databases are a core feature in Notion that help you manage and organize your pages. Let's explain what they are and how they can help you level up your workspace."
+description: null
 url: "https://www.notion.com/help/what-is-a-database"
 key: "help:what-is-a-database"
 coverImage: null

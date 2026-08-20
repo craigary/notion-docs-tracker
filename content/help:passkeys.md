@@ -1,7 +1,7 @@
 ---
 title: "Passkeys"
 emoji: null
-description: "Learn how to log into Notion using passkeys, a simple and secure alternative to passwords."
+description: null
 url: "https://www.notion.com/help/passkeys"
 key: "help:passkeys"
 coverImage: null
@@ -95,39 +95,3 @@ To remove a passkey on mobile:
 
 
 ## FAQs
-
-### Do I need to set up a passkey to use Notion?
-
-Passkeys aren’t required for Notion users, but we highly recommend them as an extra layer of security to protect your work.
-
-Note that this feature is designed for users who **don’t use&#x20;**[SAML SSO](https://www.notion.com/help/saml-sso-configuration) to log into Notion.
-
-
-### Can I set up different kinds of passkeys at the same time?
-
-Yes, you can set up up to five passkeys — for example, you could have one that uses your browser and one that uses your password manager. You may consider setting up multiple passkeys so you always have a backup.
-
-
-### I use verification codes to log into Notion. Can I still setup passkeys if I don’t have a password for Notion?
-
-Yes, you can use passkeys with or without a password.
-
-
-### What are the costs or fees associated with passkeys?
-
-Passkeys are available across all plan types. There are no additional costs or fees to use passkeys with your account.
-
-
-### What if I lose my phone or verification device that I use for passkeys? How do I log in?
-
-You can simply use another sign in method. You can continue to log in with Google or Apple, or enter your email and use the verification code you’re sent to sign in.
-
-
-### How do I troubleshoot issues with passkeys?
-
-If you can’t access your passkeys, we advise that you use a different login method and go to your settings to update your login methods. If you continue to have issues, please contact our support team.
-
-
-### I’m a workspace owner. Can I enforce passkeys for everyone in my workspace?
-
-Unfortunately, workspace owners can’t enforce this feature for all users in their workspace at this time. We’d love to hear your feedback — if this is something you need for your workspace, please reach out and let us know.

@@ -1,10 +1,10 @@
 ---
 title: "Synced databases"
 emoji: null
-description: "Bring your favorite tools into Notion with synced databases, to keep all of your info in one easily accessible hub."
+description: null
 url: "https://www.notion.com/help/synced-databases"
 key: "help:synced-databases"
-coverImage: "https://img.youtube.com/vi/Gtjeb4xkWHo/maxresdefault.jpg"
+coverImage: null
 category: "Connections"
 categoryKey: "category:connections"
 ---

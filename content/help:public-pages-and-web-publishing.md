@@ -1,10 +1,10 @@
 ---
 title: "Publish a Notion Site"
 emoji: null
-description: "Any page you build in Notion can be turned into a beautiful Notion Site with just a click. Publish a blog, resume or portfolio, job listing, landing page — the possibilities are as wide as the web itself."
+description: null
 url: "https://www.notion.com/help/public-pages-and-web-publishing"
 key: "help:public-pages-and-web-publishing"
-coverImage: "https://img.youtube.com/vi/mvaNaZ4-E4c/maxresdefault.jpg"
+coverImage: null
 category: "Notion Sites"
 categoryKey: "category:notion-sites"
 ---
@@ -167,27 +167,3 @@ Any Sites already live on the web will be taken down once you turn this setting 
 
 
 ## FAQs
-
-### Does Notion support custom domains?
-
-Learn how to claim a `notion.site` domain or connect a custom domain to your Notion Site [here →](https://www.notion.com/help/manage-your-notion-sites#manage-your-domains)
-
-
-### Can you link to a specific section of a page?
-
-You can use a [table of contents](https://www.notion.com/help/columns-headings-and-dividers#table-of-contents) in your public page to create anchor links to its headings.
-
-
-### If I change my workspace domain name, will my public page URLs still work?
-
-If you change your workspace domain, any existing links starting with the previous domain will no longer work. You'll need to share the new link. To find the new link, <!-- -->open the published page in Notion and select `Share` at the top → `Publish`. Find the URL at the top and select `🔗` next to it to copy it.
-
-
-### I shared my public page URL but it takes people to a page with a "Continue to external site by following the link below" error message. What did I do wrong?
-
-Make sure you’ve shared the link to the published page, and not the version of the page in your Notion workspace! The link should begin with your Notion workspace domain name. <!-- -->To find it, open the published page in Notion and select `Share` at the top → `Publish`. Find the URL at the top and select `🔗` next to it to copy it.
-
-
-### Can I password protect a page?
-
-Unfortunately, not at the moment. If the person you want to share a page with has a Notion account, you can share your page privately by selecting `Invite a person` in the `Share` menu at the top of a page.

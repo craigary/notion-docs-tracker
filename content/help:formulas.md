@@ -1,7 +1,7 @@
 ---
 title: "Intro to formulas"
 emoji: null
-description: "In a Notion database, you can add a formula property that lets you run all kinds of calculations and functions based on other properties. You can use formulas to manipulate existing data and arrive at many other helpful values."
+description: null
 url: "https://www.notion.com/help/formulas"
 key: "help:formulas"
 coverImage: null

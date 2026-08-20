@@ -1,7 +1,7 @@
 ---
 title: "Notion Calendar settings"
 emoji: null
-description: "There are lots of ways to change how Notion Calendar shows and reminds you about meetings."
+description: null
 url: "https://www.notion.com/help/notion-calendar-settings"
 key: "help:notion-calendar-settings"
 coverImage: null
@@ -145,11 +145,3 @@ If the keyboard shortcut for `Zoom hours in` isn’t working on Windows, you can
 
 
 ## FAQs
-
-### Why can't I see Notion Calendar in my menu bar or taskbar?
-
-If you have a lot of items in your menu bar or taskbar, it's possible you won't be able to see Notion Calendar. To ensure Notion Calendar is always visible:
-
-* On MacOS: Hold `cmd` and drag the Notion Calendar icon closer to the system clock. You might have to go to Notion Calendar `Settings` → `Menu bar` and turn off `Event title` to get the Notion Calendar icon to show up.
-
-* On Windows: Click `^` in your taskbar, then drag the Notion Calendar icon to where you want it in your taskbar.

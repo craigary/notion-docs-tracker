@@ -1,7 +1,7 @@
 ---
 title: "Connect MCP servers to your Notion Agent"
 emoji: null
-description: "Connect apps like GitHub and Figma to your Notion Agent so it can find info and get work done across your tools."
+description: null
 url: "https://www.notion.com/help/connect-mcp-servers-to-your-notion-agent"
 key: "help:connect-mcp-servers-to-your-notion-agent"
 coverImage: null
@@ -109,19 +109,3 @@ Admins decide how MCP servers work in their workspace. As an admin, you can:
 
 
 ## FAQs
-
-### How is this different from Notion AI connectors?
-
-[Notion AI Connectors](https://www.notion.com/help/notion-ai-connectors), like Slack or Google Drive, are built by Notion and are great for searching content from those apps within your Notion workspace.
-
-MCP servers are built by the app makers themselves, and they let your Notion Agent look things up and take actions in the app.
-
-
-### Can my Custom Agents use the apps I connected here?
-
-No. [Custom Agents](https://www.notion.com/help/custom-agents) have their own connections. To [use an MCP connection with a Custom Agent](https://www.notion.com/help/mcp-connections-for-custom-agents), connect it in that agent's settings and sign in again.
-
-
-### Does my whole team get access when I connect an MCP server?
-
-No. Each person connects an MCP server with their own account, and each person's Notion Agent can only see what the person can see.

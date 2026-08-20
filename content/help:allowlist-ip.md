@@ -1,7 +1,7 @@
 ---
 title: "Notion IP addresses & domains"
 emoji: null
-description: "Contact your security team to allowlist these Notion IP addresses or domains 🌐"
+description: null
 url: "https://www.notion.com/help/allowlist-ip"
 key: "help:allowlist-ip"
 coverImage: null

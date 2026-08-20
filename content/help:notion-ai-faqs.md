@@ -1,7 +1,7 @@
 ---
 title: "What is Notion AI?"
 emoji: null
-description: "Notion AI is integrated into your Notion workspace so that you can unlock knowledge and complete tasks with just a click."
+description: null
 url: "https://www.notion.com/help/notion-ai-faqs"
 key: "help:notion-ai-faqs"
 coverImage: null
@@ -219,7 +219,3 @@ Your feedback isn’t used to train Notion AI. Instead, it’s shared with the N
 
 
 ## FAQs
-
-### Can I turn off web search for Notion AI?
-
-Yes — workspace owners can disable web search for Notion AI across their entire workspace. To do this, go to `Settings` → `Notion AI` and under `AI Web Search`, toggle off `Enable web search for workspace`.

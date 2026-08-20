@@ -1,7 +1,7 @@
 ---
 title: "Offering services on Marketplace"
 emoji: null
-description: "Learn how to offer your services through Notion’s Marketplace"
+description: null
 url: "https://www.notion.com/help/offering-services-on-marketplace"
 key: "help:offering-services-on-marketplace"
 coverImage: null
@@ -115,9 +115,3 @@ If your lead meets that eligibility criteria in 6 months after registering the l
 
 
 ## FAQs
-
-### How do I get matched with leads? How do I get higher-quality leads?
-
-Showcase a strong profile with past work, a list of clients, and reviews. Marketing your services in other channels outside of the Marketplace can also help to bring in business.
-
-For the best lead quality, keep your profile detailed and up to date, participate in enablement training, and provide feedback to Partner Support on the leads you receive.

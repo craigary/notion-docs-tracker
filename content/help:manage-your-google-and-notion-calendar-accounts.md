@@ -1,7 +1,7 @@
 ---
 title: "Manage your linked Notion account"
 emoji: null
-description: "Here’s how to manage your Notion account for use with Notion Calendar."
+description: null
 url: "https://www.notion.com/help/manage-your-google-and-notion-calendar-accounts"
 key: "help:manage-your-google-and-notion-calendar-accounts"
 coverImage: null

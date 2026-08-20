@@ -1,7 +1,7 @@
 ---
 title: "Common formula errors"
 emoji: null
-description: "Learn about the common errors you might run into with formulas in Notion, and how you can troubleshoot them."
+description: null
 url: "https://www.notion.com/help/common-formula-errors"
 key: "help:common-formula-errors"
 coverImage: null

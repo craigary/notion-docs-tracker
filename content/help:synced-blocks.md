@@ -1,7 +1,7 @@
 ---
 title: "Synced blocks"
 emoji: null
-description: "Notion allows you to sync content across pages or workspaces. This means more reusing and less manual editing."
+description: null
 url: "https://www.notion.com/help/synced-blocks"
 key: "help:synced-blocks"
 coverImage: null
@@ -61,12 +61,3 @@ To unsync all blocks at once:
 
 
 ## FAQs
-
-### I added a synced block to another page, but no one else can edit it.
-
-Whomever you share the page with needs to have edit access to the original block to be able to edit any synced copies.
-
-
-### I deleted the original synced block and then clicked Undo. Why didn't all the synced copies come back?
-
-If a synced block has more than 10 copies, deleting the original will also remove all copies. Undo won't restore them in this case. To prevent losing multiple copies, unsync individual blocks one at a time instead of deleting the original or using `Unsync all`.

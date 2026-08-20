@@ -1,7 +1,7 @@
 ---
 title: "Import from Asana"
 emoji: null
-description: "Easily import all of your Asana projects and tasks directly into Notion."
+description: null
 url: "https://www.notion.com/help/asana"
 key: "help:asana"
 coverImage: null
@@ -166,33 +166,3 @@ When your import completes, you will receive an import log in the `Private` sect
 
 
 ## FAQs
-
-### How are the Task assignees imported if that assignee is not present in Notion?
-
-If the Tasks assignees imported do not have a Notion, the user would be added as a placeholder to the workspace.
-
-These placeholder accounts will attribute comments and mentions. If and when these users sign up, they will be mapped to the corresponding placeholder account, and comments and mentions will be attributed to the correct user.
-
-
-### How long does it take for the Asana Importer tool to import a large number of tasks?
-
-Import times may range from a few minutes to several hours depending up on the size of the import. You will receive an email notification once the import is complete. You can track your import in `Settings` → `Import`, where you’ll see its status and any completed imports.
-
-
-### How are subtasks imported?
-
-They are imported as subtasks (along with dependencies) that are within the same database.
-
-
-### Do updates I make in my Asana account automatically get updated in Notion?
-
-No, the import is a one-time action.
-
-We do not maintain a connection with your Asana account and any changes you make in your Asana account after the import **will not** automatically update in Notion.
-
-
-### Is there a way to preview the import before they are added? Can I undo an import?
-
-There is no way to preview or undo, but during the process you will select which specific projects you wish to import.
-
-In addition you can easily delete specific projects or tasks within Notion. You can even delete the entire database and start over.

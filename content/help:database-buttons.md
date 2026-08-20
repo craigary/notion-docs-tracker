@@ -1,7 +1,7 @@
 ---
 title: "Database buttons"
 emoji: null
-description: "Database buttons take actions on your behalf with one click."
+description: null
 url: "https://www.notion.com/help/database-buttons"
 key: "help:database-buttons"
 coverImage: null

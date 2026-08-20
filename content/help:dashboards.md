@@ -1,7 +1,7 @@
 ---
 title: "Dashboards view"
 emoji: null
-description: "Learn how to create a dashboard view, add and arrange widgets, and manage permissions and performance."
+description: null
 url: "https://www.notion.com/help/dashboards"
 key: "help:dashboards"
 coverImage: null
@@ -316,7 +316,3 @@ A high-level layout for leadership to scan key metrics, top priorities, and mile
 
 
 ## FAQs
-
-### Why is my dashboard loading slowly?
-
-Dashboards can take longer to load when they include many widgets or large, unfiltered views. For best performance, keep widgets focused and use filters to limit how much data each widget needs to display.

@@ -1,7 +1,7 @@
 ---
 title: "Set up Identity Provider (IdP) for SCIM"
 emoji: null
-description: "Learn how to set up your Identity Provider to use SCIM in Notion."
+description: null
 url: "https://www.notion.com/help/set-up-identity-provider-for-scim"
 key: "help:set-up-identity-provider-for-scim"
 coverImage: null

@@ -1,7 +1,7 @@
 ---
 title: "Create a subpage"
 emoji: null
-description: "There are no folders in Notion. Instead, you can organize pages inside pages... inside pages. Here, we'll show you how to create a page within another page, which we call a subpage."
+description: null
 url: "https://www.notion.com/help/create-a-subpage"
 key: "help:create-a-subpage"
 coverImage: null

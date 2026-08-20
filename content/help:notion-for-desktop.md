@@ -1,7 +1,7 @@
 ---
 title: "Notion for desktop"
 emoji: null
-description: "You can use Notion on your Mac or PC as a downloadable desktop application. Here's what you need to know."
+description: null
 url: "https://www.notion.com/help/notion-for-desktop"
 key: "help:notion-for-desktop"
 coverImage: null
@@ -151,29 +151,3 @@ To fix this:
 
 
 ## FAQs
-
-### Does Notion have a Linux app?
-
-We don’t have a Linux app at the moment.
-
-For the time being, hopefully you can access Notion with your Chrome, Firefox, or Safari browser!
-
-
-### How do I update to the latest version?
-
-Notion updates automatically! <!-- -->If you click `?` → `More` in your left sidebar, you'll see the last time your app was updated.
-
-If Notion hasn't updated for a few days, you can usually force an update by refreshing with the keyboard shortcut `cmd/ctrl` + `r`.
-
-
-### How do I automatically open Notion links in the desktop app?
-
-If you want any links to Notion pages to open in your desktop app:
-
-1. Open Notion in your web browser.
-
-2. Go to `Settings` → `Preferences`.
-
-3. Toggle on `Open links in desktop app`.
-
-You'll need to have the desktop app already installed. You’ll also need to go to Notion in your desktop app and ensure that `Open Notion links in browser` is turned off in your settings.

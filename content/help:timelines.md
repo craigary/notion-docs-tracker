@@ -1,10 +1,10 @@
 ---
 title: "Timeline view"
 emoji: null
-description: "For anyone who needs to visualize their projects plotted chronologically - whether it's hours, years, or anything in between - Notion's timeline is a type of database that keeps you on task and on track."
+description: null
 url: "https://www.notion.com/help/timelines"
 key: "help:timelines"
-coverImage: "https://img.youtube.com/vi/I4CtApkWoRk/maxresdefault.jpg"
+coverImage: null
 category: "Database views"
 categoryKey: "category:database-views"
 ---
@@ -165,37 +165,3 @@ To run a calculation on a property:
 
 
 ## FAQs
-
-### Is there a way to add conditional formatting? Like change the color of projects plotted on my timeline or background color of cells in the table?
-
-Yes! Learn more about conditional color [here →](https://www.notion.com/help/database-properties#conditional-color)
-
-
-### Why can't I delete the Name property when showing table in my timeline?
-
-Timelines are essentially databases, and databases are essentially lists of items. That's what goes in the `Name` property. All the other data points contained are attributes of these items, like due dates, owners, tags and more. You can't remove the `Name` property because that's the core information contained. You can, however, rename that property to align with whatever you are working on.
-
-
-### I don’t want my database pages to open on the side or in the center of my page. Is there anyway to open a database page in full-screen by default?
-
-Yes! To do this:
-
-1. Open the settings menu at the top of your database.
-
-2. Select `Layout` → `Open pages in` → `Full page`.
-
-
-### Does Notion have simple (non-database) tables?
-
-Yes! [Learn more about simple tables here →](https://www.notion.com/help/columns-headings-and-dividers#simple-tables)
-
-
-### How can I turn a full-page database into an inline database, or vice versa?
-
-To change a full-page database into an inline database:
-
-1. Drag the full-page database from your sidebar into another page. It will become a sub-page of that page.
-
-2. Open the parent page, click the **`⋮⋮`** button next to the database sub-page, and select `Turn into inline`.
-
-To change an inline database to a full-page database, drag an inline database block into your sidebar as a top-level page.

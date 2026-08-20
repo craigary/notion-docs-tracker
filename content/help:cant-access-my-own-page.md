@@ -1,7 +1,7 @@
 ---
 title: "I can't access my own page"
 emoji: null
-description: "Here's what to do if you aren't able to access your own Notion page."
+description: null
 url: "https://www.notion.com/help/cant-access-my-own-page"
 key: "help:cant-access-my-own-page"
 coverImage: null

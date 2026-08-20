@@ -1,10 +1,10 @@
 ---
 title: "Create & manage skills"
 emoji: null
-description: "Learn what Skills are and how to create, manage, and use them."
+description: null
 url: "https://www.notion.com/help/create-and-manage-skills"
 key: "help:create-and-manage-skills"
-coverImage: "https://img.youtube.com/vi/tcgNauq4joo/maxresdefault.jpg"
+coverImage: null
 category: "Notion AI"
 categoryKey: "category:notion-ai"
 ---
@@ -201,40 +201,3 @@ You can use your skills with other AI tools too:
 
 
 ## FAQs
-
-### Can Custom Agents use Skills?
-
-Yes! Since skills are just pages, any Custom Agent with access to a skill page can use it. To set this up:
-
-* Open the Custom Agent.
-
-* Go to **`Tools and access`**, and add the skill page.
-
-After that, the agent will follow the content of the skill page when it runs.
-
-
-### How are Skills different from instructions and Custom Agents?
-
-* **Skills** are on-demand actions you trigger when you need them, for a specific task or selection.
-
-* **Agent i****nstructions** are persistent preferences that apply to every Notion Agent response (your "default mode").
-
-* **Custom Agents** are autonomous: they can run in the background, be triggered by events (like a schedule or a new page), and be shared with your team. Each Custom Agent has its own instructions and connections.
-
-
-### How can I remove a Skill?
-
-To remove a skill, you can:
-
-* Delete the skill page by moving it to Trash. This removes the skill for everyone.
-
-* Turn off a skill you added by going to `Library` → `Skills` and toggling it off. This removes the skill for you, but not for anyone else.
-
-* Turn a skill page back into a regular page by selecting `•••` at the top of the page → `Use with AI`, then uncheck `Use as AI skill`. The page and its content stay right where they are. It just stops being a skill.
-
-
-### Why won’t my skill run automatically?
-
-Automatic use only works for skills that live in a skills database, because that’s where the skill description is stored. Move your skill page into a skills database, then add a clear description. Automatic use turns on by default once the skill is in a skills database and has a description.
-
-If you’d rather run the skill yourself, turn off automatic use in the `Skills` tab of your Library or on the skill page.

@@ -1,7 +1,7 @@
 ---
 title: "Deploy Notion for macOS"
 emoji: null
-description: "Learn how to install and update Notion for your organization."
+description: null
 url: "https://www.notion.com/help/deploy-notion-for-macos"
 key: "help:deploy-notion-for-macos"
 coverImage: null

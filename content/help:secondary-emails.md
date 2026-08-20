@@ -1,7 +1,7 @@
 ---
 title: "Secondary emails"
 emoji: null
-description: "Add multiple email addresses to a single Notion account."
+description: null
 url: "https://www.notion.com/help/secondary-emails"
 key: "help:secondary-emails"
 coverImage: null
@@ -131,32 +131,3 @@ For example, if a user has both email protected and email protected configured i
 
 
 ## FAQs
-
-### Can I log in with any of my email addresses?
-
-Yes. You can log in to Notion using your primary email or any verified secondary email on your account.
-
-
-### What happens when someone shares a page with one of my secondary emails?
-
-The page will appear in your Notion account. Shares to your primary email or any secondary email resolve to the same account.
-
-
-### Do mentions work with secondary emails?
-
-Yes. If someone @mentions any of your email addresses, you'll receive the notification and it will reference your account.
-
-
-### Is this the same as a recovery email?
-
-Secondary emails are more than just recovery emails. While they do help with account recovery, they're full email addresses that work for login, sharing, and mentions: not just recovery purposes.
-
-
-### Can I add an email that's already used by another Notion account?
-
-No. Each email address can only be associated with one Notion account. If you need to use an email that's currently on another account, you'll need to remove it from that account first.
-
-
-### Can enterprise users add personal email addresses as secondary emails?
-
-This depends on your organization's policy. If your organization has set the policy to "Only verified domains," you can only add secondary emails that match your company's verified domains. If the policy is set to "Disabled," you cannot add any secondary emails.

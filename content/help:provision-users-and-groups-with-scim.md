@@ -1,7 +1,7 @@
 ---
 title: "Provision users & groups with SCIM"
 emoji: null
-description: "You can provision and manage users and groups in your Notion workspace with the System for Cross-domain Identity Management (SCIM) API standard."
+description: null
 url: "https://www.notion.com/help/provision-users-and-groups-with-scim"
 key: "help:provision-users-and-groups-with-scim"
 coverImage: null

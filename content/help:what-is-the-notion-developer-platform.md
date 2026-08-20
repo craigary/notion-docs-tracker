@@ -1,7 +1,7 @@
 ---
 title: "What is the Notion Developer Platform?"
 emoji: null
-description: "Learn what’s included with the Notion Developer Platform and how to explore more."
+description: null
 url: "https://www.notion.com/help/what-is-the-notion-developer-platform"
 key: "help:what-is-the-notion-developer-platform"
 coverImage: null

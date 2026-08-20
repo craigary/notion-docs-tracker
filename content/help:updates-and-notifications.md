@@ -1,7 +1,7 @@
 ---
 title: "Inbox & notifications"
 emoji: null
-description: "Your inbox and notifications help you stay on top of work that needs your attention, and changes made to the pages and projects you care about. The more people you collaborate with in your workspace, the more helpful these features become."
+description: null
 url: "https://www.notion.com/help/updates-and-notifications"
 key: "help:updates-and-notifications"
 coverImage: null

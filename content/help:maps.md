@@ -1,7 +1,7 @@
 ---
 title: "Map view"
 emoji: null
-description: "Visualize addresses on a map."
+description: null
 url: "https://www.notion.com/help/maps"
 key: "help:maps"
 coverImage: null
@@ -73,30 +73,3 @@ If your database has multiple place properties, you can switch between them in m
 
 
 ## FAQs
-
-### Why am I not seeing the right pins on my map?
-
-It’s possible you have multiple place properties in your database — this can happen if you’ve created a map view in a database without a place property, we create one for you, and then you add your own later. You can switch between place properties by doing the following:
-
-1. Open the slider menu at the top of your map view.
-
-2. In the menu that appears, select `Layout`.
-
-3. Select `Map by`.
-
-4. Select the place property you want.
-
-
-### Can I calculate the distance between two places?
-
-Not at this time.
-
-
-### What if I have more than 100 places in my database?
-
-Try narrowing down your list using filters, or splitting items across additional views.
-
-
-### Some of my pins aren’t showing up. Why not?
-
-Make sure your addresses properly correspond to a location when you enter them into your database. Additionally, you can check to make sure you’re displaying the right place property in your map by opening the slider menu at the top of your map view and selecting `Layout` → `Map by`.

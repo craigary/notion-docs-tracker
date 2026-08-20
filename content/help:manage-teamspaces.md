@@ -1,7 +1,7 @@
 ---
 title: "Manage teamspaces"
 emoji: null
-description: "Workspace owners can get an overview of all teamspaces in the workspace, modify their settings, and access additional management tools."
+description: null
 url: "https://www.notion.com/help/manage-teamspaces"
 key: "help:manage-teamspaces"
 coverImage: null

@@ -1,7 +1,7 @@
 ---
 title: "Notion Calendar keyboard shortcuts"
 emoji: null
-description: "Save even more time by using keyboard shortcuts in Notion Calendar."
+description: null
 url: "https://www.notion.com/help/notion-calendar-keyboard-shortcuts"
 key: "help:notion-calendar-keyboard-shortcuts"
 coverImage: null

@@ -1,10 +1,10 @@
 ---
 title: "What is a block?"
 emoji: null
-description: "Think of Notion as a bottomless bin of building blocks. Build whatever you want, however you want."
+description: null
 url: "https://www.notion.com/help/what-is-a-block"
 key: "help:what-is-a-block"
-coverImage: "https://img.youtube.com/vi/tefoC3wP8n0/maxresdefault.jpg"
+coverImage: null
 category: "Notion basics"
 categoryKey: "category:new-to-notion"
 ---

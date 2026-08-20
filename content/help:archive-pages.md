@@ -1,7 +1,7 @@
 ---
 title: "Archive pages"
 emoji: null
-description: "Notion lets you archive pages instead of deleting them. If you need them again, they’re easy to recover."
+description: null
 url: "https://www.notion.com/help/archive-pages"
 key: "help:archive-pages"
 coverImage: null
@@ -73,19 +73,3 @@ Learn more about deletion and restoring content → [Delete & restore content](h
 
 
 ## FAQs
-
-### Will archiving a page break links across the workspace?
-
-No, existing links to archived pages will continue to work.
-
-
-### Can people still access archived content?
-
-Yes. Archived pages can be accessed in `Search`, Library, and in database settings.
-
-* To search for archived content, open Search, click on + Filter → Content status → choose your preference.
-
-
-### Is there a central place I can see all archived content?
-
-If your workspace is on the Enterprise plan, admins of the workspace can view archived content in Content search → View archive content. Otherwise archived content can be found in `Search`, Library, and in database’s settings.

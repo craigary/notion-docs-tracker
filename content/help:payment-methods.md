@@ -1,7 +1,7 @@
 ---
 title: "Payment methods"
 emoji: null
-description: "Here’s how to set up payment for your Notion plan."
+description: null
 url: "https://www.notion.com/help/payment-methods"
 key: "help:payment-methods"
 coverImage: null

@@ -1,7 +1,7 @@
 ---
 title: "Billing"
 emoji: null
-description: "Learn how you're billed for Notion, and how you can change your billing interval."
+description: null
 url: "https://www.notion.com/help/billing"
 key: "help:billing"
 coverImage: null
@@ -143,41 +143,3 @@ To view the details of your plan and your billing information:
 
 
 ## FAQs
-
-### Does Notion offer free trials or discounts?
-
-Yes! Learn more about our offers and discounts for:
-
-* [Startups](https://www.notion.com/help/notion-for-startups)
-
-* [Professional teams](https://www.notion.com/help/paid-plan-trials)
-
-* [Students and educators](https://www.notion.com/help/notion-for-education)
-
-
-### What payment methods do you accept?
-
-For a list of payment methods you can use, see [this article →](https://www.notion.com/help/payment-methods)
-
-
-### My paid workspace just got downgraded to a free plan. What happened?
-
-You may have an unpaid invoice on your account — our system will automatically downgrade a paid account after several attempts are made to collect payment.
-
-That said, you can re-upgrade via the `Upgrade` tab in `Settings` and settle your unpaid invoices from there. Send us a message if you need help!
-
-
-### I just upgraded to a paid plan, but one of my workspaces still says it's on a free plan.
-
-Plans only apply to a single workspace and don't cover your whole account. We recommend using the fewest workspaces possible, and taking advantage of top-level pages in your sidebar to stay organized. [More on that here](https://www.notion.com/help/navigate-with-the-sidebar).
-
-
-### How can I avoid needing multiple workspaces?
-
-We've seen people create multiple workspace instead of groups to set granular permissions. For instance, they create separate workspaces for Design, Marketing, their executive team, etc. so they can't access, edit, or get distracted by each other's work. You don't need to do this. Instead:
-
-* Disable `Workspace Access`. That way pages won't show for people and groups who aren't specifically granted access.
-
-* On every page, [grant different levels of access per group](https://www.notion.com/help/add-members-admins-guests-and-groups#groups). Those access levels will hold true for all the sub-pages on that page.
-
-* So, for example, you could have a section of your workspace just for the engineering team. Create a group of all your engineers, then on the top-level page for that team, turn on `Full Access` for only that group. Nest pages inside that page, and only the engineering team can access them, too!

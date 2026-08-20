@@ -1,7 +1,7 @@
 ---
 title: "Notion Mail inbox is going away: what to do next"
 emoji: null
-description: "The Notion Mail inbox is shutting down on September 22, 2026. Here's what you need to do before then."
+description: null
 url: "https://www.notion.com/help/notion-mail-inbox-is-going-away-what-to-do-next"
 key: "help:notion-mail-inbox-is-going-away-what-to-do-next"
 coverImage: null
@@ -63,37 +63,3 @@ If you’re not sure whether this applies to you, check with your organization�
 
 
 ## FAQs
-
-### Will I lose my emails?
-
-No, your email history lives in Gmail and won't be affected. However, drafts and scheduled emails in Notion Mail will be permanently deleted if you don't save them first.
-
-
-### Does this affect all plans?
-
-Yes. All Notion plans are affected. The Notion Mail app for iOS, desktop, and web is going away for everyone.
-
-
-### Can I still use Gmail with Notion AI after September 22, 2026?
-
-Yes. The Gmail AI Connector lets you search and draft emails in Notion AI. It works independently of the Notion Mail app. [Learn more →](https://www.notion.com/help/notion-mail-ai-connector)
-
-
-### What happens to mail blocks I've added to Notion pages?
-
-Mail blocks in Notion pages won’t be removed. They’ll continue to work after the Notion Mail app shuts down.
-
-
-### What happens to my AI agent's email tools?
-
-Agent email tools that connect through Gmail will continue to work.
-
-
-### I had auto label rules set up. Can I recreate them?
-
-You can save your auto label instructions to a Notion page. After the shutdown, you can use a [Custom Agent](https://www.notion.com/help/category/custom-agents) with Gmail access to apply similar labeling going forward.
-
-
-### What happens to my synced Notion Mail database view in Notion (including filtered views) after shutdown?
-
-Your existing synced email databases and views (including any filters you’ve set up) will remain in Notion, and you’ll still be able to access the emails that were already synced. However, after September 22, 2026, new emails will no longer sync into those databases, so the views will stop updating with new messages.

@@ -1,10 +1,10 @@
 ---
 title: "MCP connections for Custom Agents"
 emoji: null
-description: "Connect your Custom Agents to external systems and data sources with MCP."
+description: null
 url: "https://www.notion.com/help/mcp-connections-for-custom-agents"
 key: "help:mcp-connections-for-custom-agents"
-coverImage: "https://img.youtube.com/vi/i0n6K5doPlI/maxresdefault.jpg"
+coverImage: null
 category: "Custom Agents"
 categoryKey: "category:custom-agents"
 ---
@@ -259,32 +259,3 @@ If tools are not appearing after connecting:
 
 
 ## FAQs
-
-### Can I share MCP connections across multiple agents?
-
-No. Each Custom Agent requires its own connection to each MCP server. This keeps the security model simple and ensures each agent has appropriate access controls.
-
-
-### Can I connect multiple accounts for the same service?
-
-Not within a single agent. If you need to use multiple accounts, you'll need to create separate Custom Agents, each with its own connection.
-
-
-### What if the MCP server is down or unreachable?
-
-If the MCP server is unavailable:
-
-* The agent will report an error in the run log.
-
-* Tools from that server will fail but won't crash the entire agent.
-
-* Check the `Activity` tab for specific error messages.
-
-
-### What's the difference between MCP servers and native Notion integrations?
-
-Native integration&#x73;**&#x20;**(like Slack) are built directly into Notion and must be authorized by a workspace owner first. They offer read and write access plus trigger capabilities.
-
-MCP server&#x73;**&#x20;**&#x66;ollow an open protocol and can be added by any workspace member. They have read and write access but no trigger capabilities.
-
-Both work with Custom Agents, but MCP servers offer more flexibility for connecting custom tools and services.

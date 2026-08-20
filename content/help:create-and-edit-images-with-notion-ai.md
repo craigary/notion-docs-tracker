@@ -1,7 +1,7 @@
 ---
 title: "Create & edit images with Notion Agent"
 emoji: null
-description: "Learn how to turn ideas into diagrams, flowcharts, and visual notes, then tweak them with AI."
+description: null
 url: "https://www.notion.com/help/create-and-edit-images-with-notion-ai"
 key: "help:create-and-edit-images-with-notion-ai"
 coverImage: null
@@ -73,12 +73,3 @@ Try prompts like:
 
 
 ## FAQs
-
-### Why don't I see the option to create an image?
-
-Image generation is only available on Business and Enterprise plans. If you don't see it yet, the feature might still be rolling out to your workspace. Check that your admin has enabled image generation in workspace settings.
-
-
-### Why am I getting an error?
-
-You may have hit your rolling, six-hour or monthly usage allowance for Notion AI. Learn more about what to do when certain Notion AI features are temporarily unavailable after [reaching your usage allowance →](https://www.notion.com/help/manage-your-usage-allowance-for-notion-ai#how-to-resume-using-notion-ai)

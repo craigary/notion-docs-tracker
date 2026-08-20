@@ -1,7 +1,7 @@
 ---
 title: "Notion New Tab extension"
 emoji: null
-description: "Download our extension to open Notion in a new Google Chrome tab."
+description: null
 url: "https://www.notion.com/help/notion-new-tab-extension"
 key: "help:notion-new-tab-extension"
 coverImage: null

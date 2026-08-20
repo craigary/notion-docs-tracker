@@ -1,7 +1,7 @@
 ---
 title: "Start with a template"
 emoji: null
-description: "To help you take on a variety of challenges with Notion, we've created lots of templates that you can adopt and customize as your own — including some starter templates already in your workspace! Here's how to use them."
+description: null
 url: "https://www.notion.com/help/start-with-a-template"
 key: "help:start-with-a-template"
 coverImage: null
@@ -37,22 +37,3 @@ When the template is added to your workspace, you can tweak it to fit your exact
 
 
 ## FAQs
-
-### Can I make my page a template to use elsewhere in my workspace?
-
-The best way to do this is:
-
-* Keep an empty version of your template page in your left-hand sidebar.
-
-* Click the `•••` next to that page's name in your sidebar, and then `Duplicate` whenever you need a new copy.
-
-Depending on your use case, you might find these options useful!
-
-* You can quickly duplicate chunks of content with a template button. Great for journaling! [More on that here → ](https://www.notion.com/help/buttons)
-
-* In databases, you can create new database entries with the properties & page contents already populated by using database templates. [More on that here → ](https://www.notion.com/help/database-templates)
-
-
-### Can I request a template for something?
-
-Yes! We'd love your ideas. Please tweet them to us at [@NotionHQ](http://twitter.com/notionhq) (with the hashtag #template) or send them to our team at email protected.

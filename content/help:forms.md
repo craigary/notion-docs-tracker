@@ -1,10 +1,10 @@
 ---
 title: "Forms"
 emoji: null
-description: "Learn how to create, share, and gather information using forms."
+description: null
 url: "https://www.notion.com/help/forms"
 key: "help:forms"
-coverImage: "https://img.youtube.com/vi/O8O8eGl0nNs/maxresdefault.jpg"
+coverImage: null
 category: "Database views"
 categoryKey: "category:database-views"
 ---

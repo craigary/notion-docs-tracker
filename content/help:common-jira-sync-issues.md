@@ -1,7 +1,7 @@
 ---
 title: "Common Jira Sync issues"
 emoji: null
-description: "Here’s a list of common issues you might run into with Jira Sync and why they might occur."
+description: null
 url: "https://www.notion.com/help/common-jira-sync-issues"
 key: "help:common-jira-sync-issues"
 coverImage: null

@@ -1,7 +1,7 @@
 ---
 title: "Connect Slack to Notion AI"
 emoji: null
-description: "Learn how to connect your Slack workspace to your Notion workspace so that you can find quick answers in Notion using information from your Slack conversations."
+description: null
 url: "https://www.notion.com/help/notion-ai-connectors-for-slack"
 key: "help:notion-ai-connectors-for-slack"
 coverImage: null
@@ -153,96 +153,3 @@ More resources
 
 
 ## FAQs
-
-### Does this connection respect existing Notion AI permissions?
-
-Notion AI will honor existing permissions according to our existing [Notion AI Security Practices](https://www.notion.com/help/notion-ai-security-practices). Users will not be able to generate content or receive responses based on resources they do not have access to.
-
-Specific to third party content, Notion AI is handling both private and public content with security in mind, only fetching content according to the permissions mapping between Slack and Notion users.
-
-
-### How are permissions mapped?
-
-Notion AI maps Slack members to Notion members, so individuals must be authenticated at the user level for its use.
-
-Through account mapping and real-time event subscriptions, Notion conducts ongoing checks for changes to permissions and access levels that would impact the Slack content surfaced in Notion AI for each individual.
-
-*Examples of permissions-related scenarios that Notion proactively check and updates for:*
-
-* When users edit or delete a message in Slack, Notion AI monitors for modified or deleted content via webhooks and will reflect these updates in near real-time.
-
-* Slack or Notion guest users are not allowed to leverage Notion AI at all. In the case where a guest user is given full Slack workspace member and full Notion workspace member permissions, Notion AI monitor for membership changes and updates those permissions changes in near-real time.
-
-* When a user is deactivated in Slack, Notion AI monitors permissions and updates that permission change within approximately 30 minutes.
-
-
-### Are guests supported?
-
-No, this connection is not available for guests in your Notion workspace, or guests in your Slack workspace (i.e.: people external to your organization that you may communicate with using Slack Connect).
-
-
-### Will external Slack Connect channels be indexed?
-
-No, all external messages and channels will be excluded.
-
-However, Notion AI may still use Slack Connect content to answer a question at the moment you ask it. This happens through Slack's real-time search: when you ask a question, Notion AI checks Slack right then, using your own Slack sign-in.
-
-These results follow your own Slack access. You'll only see content from messages and channels you can already open in Slack, including Slack Connect channels you belong to. Right now, there isn't a way to leave Slack Connect channels out of these real-time results.
-
-
-### Do you support Slack Enterprise Grid?
-
-Yes, we do! Please reach out to your sales representative to get started.
-
-
-### How long does it take for the connection to complete for public channels?
-
-Once the connection is set up, it will be able to find messages going back a year from when the setup is complete.
-
-For example, if you connect Slack with Notion AI on June 1, 2024, Notion AI will be able to find information from messages in Slack sent on June 1, 2023 and later. Depending on the amount of content shared in your public channels during this time frame, this process can take up to 36 hours.
-
-
-### How long does it take for Notion AI to read new Slack messages?
-
-New messages may take up to 3 hours to be indexed by Notion AI before they appear in search results. Larger data volumes may take additional time.
-
-
-### If I connect Slack to Notion AI, does Notion AI automatically begin searching all of my Slack channels?
-
-No, Notion AI only searches public Slack channels, and during initial setup, our configuration options allow you to choose either a discrete set of public channels or all public channels in your workspace to be included.
-
-Additionally, you have the option to continuously include all public channels that are created after initial setup. This configuration requires approvals via the Notion workspace owner and the Slack admin.
-
-On top of this, individual members of a Notion workspace where the Slack AI Connector has been set up have the option to connect their private channels and direct messages to Notion. Each user can only see what they have access to in Slack!
-
-
-### How does Notion store or reference my Slack data in its systems?
-
-Slack<!-- --> content is stored as embeddings using vector databases like Turbopuffer. These embeddings allow for efficient searches and comparisons across different pieces of text to provide accurate and relevant responses to your questions.
-
-Notion’s vector databases have been vetted by our Security team as well as by an external auditor to obtain their SOC2 Type II certification. See [this article](https://www.notion.com/help/notion-ai-security-practices) for more information.
-
-
-### I connected the wrong Notion workspace. How can I disconnect my Slack workspace from Notion?
-
-To disconnect your Slack workspace, go to `Settings` → `Notion AI`. Select `⚙️` next to Slack → `Settings` → `Disconnect`.
-
-
-### What happens to my Slack data if I connect to Notion AI and then decide to disconnect?
-
-Notion treats your Slack content with the privacy principle of data minimization in mind. If you decide to disconnect your Slack environment from Notion AI, your Slack content will immediately become unsearchable, and your Slack data used for Notion AI will be deleted in less than one day from when the request is made.
-
-
-### Does my Notion Agent post in Slack as me or as a bot?
-
-As you. These Slack actions run on your own Slack sign-in, so messages, replies, and reactions show up as coming from you. Notion Agent can only reach the channels and direct messages you're a member of.
-
-
-### Can my Notion Agent start a new DM in Slack?
-
-No. Your Agent can't start a new DM, but can post messages to existing channels.
-
-
-### Why can my Notion Agent only search Slack, but not post or reply?
-
-Your Slack account probably isn't connected yet, or your workspace isn't set up for these Slack actions. Connect your Slack account when your Agent prompts you, or ask a workspace admin to check that the new Slack permissions have been approved.

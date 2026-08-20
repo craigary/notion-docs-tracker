@@ -1,7 +1,7 @@
 ---
 title: "Workspace analytics"
 emoji: null
-description: "Learn how your organization is interacting with content on your workspace."
+description: null
 url: "https://www.notion.com/help/workspace-analytics"
 key: "help:workspace-analytics"
 coverImage: null

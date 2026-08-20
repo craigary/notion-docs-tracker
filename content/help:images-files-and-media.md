@@ -1,7 +1,7 @@
 ---
 title: "Images, files & media"
 emoji: null
-description: "Add more color to your Notion page by uploading images, videos, audio, and more."
+description: null
 url: "https://www.notion.com/help/images-files-and-media"
 key: "help:images-files-and-media"
 coverImage: null
@@ -271,14 +271,3 @@ To delete a media block:
 
 
 ## FAQs
-
-### Why do I not see alignment controls on my image, file or media block?
-
-The alignment controls are hidden if the block is the same width as content on the page, or if the block is already at its maximum width.
-
-
-### Are there size limits for images and files?
-
-While you can upload an unlimited number of images and files into Notion, there are limits on the size of each image and file.
-
-If you’re on the Free Plan, you can upload files of up to 5MB each. If you’re on a paid plan, you can upload files of up to 5GB each. If you upload an image and get an error telling you that the image is too large to be displayed, you can try uploading the image as a file.

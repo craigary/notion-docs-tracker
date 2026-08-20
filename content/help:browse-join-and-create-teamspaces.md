@@ -1,7 +1,7 @@
 ---
 title: "Create, join, & leave teamspaces"
 emoji: null
-description: "Teamspaces help keep your content organized into specific areas. Keep your sidebar tidy by joining just the ones you need to access! Here's how."
+description: null
 url: "https://www.notion.com/help/browse-join-and-create-teamspaces"
 key: "help:browse-join-and-create-teamspaces"
 coverImage: null

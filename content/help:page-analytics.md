@@ -1,7 +1,7 @@
 ---
 title: "Page analytics"
 emoji: null
-description: "Gain insight into how your content is performing by tracking page popularity and views."
+description: null
 url: "https://www.notion.com/help/page-analytics"
 key: "help:page-analytics"
 coverImage: null

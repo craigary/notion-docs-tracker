@@ -1,7 +1,7 @@
 ---
 title: "Import from Confluence"
 emoji: null
-description: "Import your Confluence data right into Notion."
+description: null
 url: "https://www.notion.com/help/import-from-confluence"
 key: "help:import-from-confluence"
 coverImage: null

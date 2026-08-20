@@ -1,7 +1,7 @@
 ---
 title: "Back up your data"
 emoji: null
-description: "Your data is safe in Notion. Everything is stored in the cloud, and we keep per-minute backups of your page content on our server. That said, your data belongs to you, so we've made it easy to create your own backups and keep your information portable."
+description: null
 url: "https://www.notion.com/help/back-up-your-data"
 key: "help:back-up-your-data"
 coverImage: null
@@ -59,52 +59,3 @@ Send us a message in Notion by clicking `?` at the bottom right on desktop (or
 
 
 ## FAQs
-
-### I tried clicking the Export all workspace content button but received an error message.
-
-Oof, so sorry about this 😓 For particularly large workspaces, the `Export all workspace content` function may have some trouble completing the export. We're investigating this issue and hope to have a resolution soon.
-
-As a temporary workaround for this issue, you can export in smaller batches:
-
-1. Navigate to a top-level page in your workspace
-
-2. Click the `•••` button at the top right of the page, then click `Export` (you may not see this option if you're not an admin in the workspace)
-
-3. Choose `Markdown & CSV` or `HTML` as the export format, and turn on the `Include subpages` toggle
-
-4. Repeat for any other important top-level pages in the workspace that you'd like to have a backup of
-
-Please note that we keep per-minute backups on our servers, and can help with data recovery at any time at email protected. Thanks for your patience while we work on fixing this issue!
-
-
-### Is there a way to schedule automatic backups?
-
-Not at the moment, but we're continuing to update our API, which may help to enable automatic backups in the future through integrations ⚙️ Learn more about our API [here →](https://developers.notion.com/)
-
-
-### How can I migrate all my Notion content to a different account?
-
-**Note:&#x20;**&#x41;ny migrated content will be duplicated to the new workspace and these pages sometimes have issues. For more information, [click here](https://www.notion.com/help/transfer-content-to-another-account).
-
-1. Log into the account that has the workspace.
-
-2. Consolidate all of your pages under one top-level page there.
-
-3. Share this page with full access to the email address of the destination account.
-
-4. Log into the destination account and navigate to the workspace switcher.
-
-5. Access that shared top-level page.
-
-6. Select all the sub-pages, click the `⋮⋮` icon and select `Move To`. (**Note:** you can only move sub-pages, you will not be able to move the top-level page.)
-
-7. Select the destination workspace.
-
-8. Voila! Your content has a new home ✨
-
-
-### How can I empty my trash?
-
-There isn’t a way to empty your trash all at once. You can go in and delete individual pages from the trash — otherwise, pages in the trash will be automatically and permanently deleted after 30 days.
-
-Enterprise plan workspace owners may customize these settings. [Learn more here →](https://www.notion.com/help/custom-data-retention-settings)

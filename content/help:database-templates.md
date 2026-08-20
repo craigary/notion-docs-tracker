@@ -1,10 +1,10 @@
 ---
 title: "Database templates"
 emoji: null
-description: "Most databases contain the same types of pages created over and over again. Think of weekly meeting notes, bug reports, or design specs. To make this easy, database templates let you define and replicate certain page structures with one click."
+description: null
 url: "https://www.notion.com/help/database-templates"
 key: "help:database-templates"
-coverImage: "https://img.youtube.com/vi/gMFaeZGGxsk/maxresdefault.jpg"
+coverImage: null
 category: "Databases"
 categoryKey: "category:databases"
 ---
@@ -75,17 +75,3 @@ You may want to create a database inside of a recurring database template, with 
 
 
 ## FAQs
-
-### Are the templates I create in one database available in all other databases in my workspace?
-
-No, they're only available in the specific database where you created them. For every new database you create, you can define new templates.
-
-
-### How do relation properties work with templates?
-
-While you can create relation properties in database templates, we don't recommend that you define them unless you want every page of a certain type to be related to the same page(s).
-
-
-### Is there a limit to the number of database templates I can make?
-
-Nope! You can make as many as you want.

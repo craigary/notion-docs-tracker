@@ -1,10 +1,10 @@
 ---
 title: "Keyboard shortcuts"
 emoji: null
-description: "Notion is fully equipped with keyboard and Markdown shortcuts so you can do everything you need without ever touching your mouse ⌨️"
+description: null
 url: "https://www.notion.com/help/keyboard-shortcuts"
 key: "help:keyboard-shortcuts"
-coverImage: "https://img.youtube.com/vi/cBdyHp_XVFQ/maxresdefault.jpg"
+coverImage: null
 category: "Pages & blocks"
 categoryKey: "category:write-edit-and-customize"
 ---

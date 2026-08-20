@@ -1,7 +1,7 @@
 ---
 title: "Content search"
 emoji: null
-description: "With content search, Enterprise workspace owners can now get a bird’s eye view of all workspace content and help resolve page access issues more easily."
+description: null
 url: "https://www.notion.com/help/admin-content-search"
 key: "help:admin-content-search"
 coverImage: null

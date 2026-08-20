@@ -1,7 +1,7 @@
 ---
 title: "Notion for creators"
 emoji: null
-description: "Learn all about the Notion for Creators program."
+description: null
 url: "https://www.notion.com/help/notion-for-creators"
 key: "help:notion-for-creators"
 coverImage: null
@@ -25,27 +25,3 @@ If approved, our team will send you a confirmation email with the details about 
 
 
 ## FAQs
-
-### Who is eligible?
-
-You must be a non-paying Notion customer with less than **10** people on their team. See [full terms and conditions](https://notion.notion.site/Creator-Program-T-C-s-1bcefdeead0580059194dcc1701c12f3?pvs=4).
-
-
-### Why is Notion offering a discount for creators?
-
-We've seen thousands of creators use Notion to get going on the right foot — as a wiki, for project management, document sharing, notes, and more. We want to help more creators lay a strong foundation that can grow with them from the beginning.
-
-
-### How do I apply to receive the discount?
-
-Fill out this [application](https://www.notion.com/creators)!
-
-
-### I submitted the form, but I haven't heard back yet.
-
-Please allow up to 3-5 business days for us to get back to you with an update. Thanks for your patience!
-
-
-### I'm already paying for a Plus or Business Plan and eligible for the discount. Am I still eligible?
-
-If you're already paying for a plan but you're eligible for this offer, our team at email protected will work with you to onboard you into the program.

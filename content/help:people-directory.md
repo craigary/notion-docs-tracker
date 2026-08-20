@@ -1,7 +1,7 @@
 ---
 title: "People Directory"
 emoji: null
-description: "View information about all the members in your Notion workspace."
+description: null
 url: "https://www.notion.com/help/people-directory"
 key: "help:people-directory"
 coverImage: null

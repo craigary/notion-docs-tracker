@@ -1,7 +1,7 @@
 ---
 title: "Formula syntax & functions"
 emoji: null
-description: "Notion formulas can operate on various properties and functions. Here, you'll find a list of them."
+description: null
 url: "https://www.notion.com/help/formula-syntax"
 key: "help:formula-syntax"
 coverImage: null

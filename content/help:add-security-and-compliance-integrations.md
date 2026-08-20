@@ -1,7 +1,7 @@
 ---
 title: "Add security & compliance connections"
 emoji: null
-description: "Learn how to add security and compliance connections to your workspace."
+description: null
 url: "https://www.notion.com/help/add-security-and-compliance-integrations"
 key: "help:add-security-and-compliance-integrations"
 coverImage: null
@@ -433,97 +433,3 @@ Learn more about the connections [here →](https://help.drata.com/en/articles/9
 
 
 ## FAQs
-
-### I just made updates to a page, but I didn't receive a Slack notification.
-
-There's a five minute delay built in to prevent these notifications from getting too noisy! email protected if you still aren't seeing them show up! We'll help out.
-
-
-### I'm trying to enable the connection in Slack's App Directory, but it just takes me to Notion's homepage.
-
-Sorry for the confusion. You can't enable the connection from Slack. You'll need to turn it on inside Notion with the instructions on this page.
-
-
-### What permissions are granted when the Slack connection is enabled?
-
-Notion's connection with Slack operates on a per-page basis. When you enable the Slack connection for a specific page in your Notion workspace, you're granting Notion access to publish updates to the Slack channel of your choosing.
-
-
-### Can I add more than one login for a link preview connection?
-
-You can! You can do so via `Settings` → `My connections`. For the desired connection, select “Connect another account”.
-
-**Note**: Some applications do not support multi-account login in the browser (e.g. GitHub), so you might need to logout of whichever account is currently logged in on your browser to be prompted to login with a different account.
-
-We’ll determine which of your accounts to use to preview given resources and show an error if none of them are successful.
-
-
-### I’m receiving a general  “Can’t load preview” error in my link preview.
-
-Run through these steps to try to resolve.
-
-1. Confirm you’ve authenticated with the correct account for the resource.
-
-2. Confirm no access restrictions for your organization.
-
-3. Delete your connection in Notion via the `My connection` settings. You may also want to revoke the connection the corresponding platform: [GitHub, ](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/reviewing-your-authorized-applications-oauth)[Jira, ](https://confluence.atlassian.com/jirasoftwareserver/allowing-oauth-access-939938965.html#AllowingOAuthaccess-revokingtokensRevokingOAuthaccesstokens)[Slack, ](https://slack.com/help/articles/360003125231-Remove-apps-and-custom-integrations-from-your-workspace)[Asana, ](https://asana.com/guide/help/fundamentals/settings#gl-apps)[Trello.](https://help.trello.com/article/1183-revoking-a-trello-token)
-
-4. Try to unfurl again.
-
-5. Finally, if all else fails, reach out to support! Unfortunately, we cannot help resolve errors related to **Access denied** or **Content not found.** Please provide the following information when reaching out to support:
-
-   * C<!-- -->onnection you’re trying to use
-
-   * Error message and code
-
-   * URL you’re trying to preview (if possible)
-
-
-### I’m receiving an “Access denied” or “Content not found” error in my link preview.
-
-There are two possible reasons for this:
-
-1. You may not have authenticated with the account that has access. You can connect multiple accounts either through `Settings` → `My connections`, or the error drop down.
-
-2. Your organization may have limited access to content via 3rd party connections or IP addresses. Please confirm with your workspace or organization administrator and ask to have Notion’s connection approved if this is the case. Here are instructions for specific connections: [GitHub, ](https://docs.github.com/en/organizations/keeping-your-organization-secure)[Jira, ](https://support.atlassian.com/security-and-access-policies/docs/manage-your-users-third-party-apps/)[Slack, ](https://slack.com/help/articles/222386767-Manage-app-approval-for-your-workspace)[Asana, ](https://asana.com/guide/help/premium/admin-console#gl-apps)[Trello.](https://help.trello.com/article/1078-enterprise-admin-dashboard)
-
-
-### What do security and compliance connections have access to in my workspace?
-
-* SIEM connections will be authorized to receive event logs on all workspace activity.
-
-* DLP connections will be authorized to:
-
-  * Receive event logs on all workspace activity.
-
-  * Vew content, view comments, edit content, edit comments, and create comments in **all&#x20;**&#x70;ages.
-
-  * See basic information about all workspace members and guests, including their names, profile images, and email addresses.
-
-
-### I’m not seeing SIEM events even after connecting. What should I do?
-
-* Sometimes, the event may appear under a different label or in a different place than where you expect. We recommend triggering a new page event and querying in your SIEM querying language for `type: "page.created"` or `email: "[your email address]"` for all events triggered by you.
-
-* When a new Panther <!-- -->instance is created, it can take up to 10 minutes for it to be fully ready to receive events.
-
-
-### What happens to my SIEM events if my SIEM provider has an outage?
-
-In the event of an outage, you should reach out to your SIEM provider for more information.
-
-
-### Why can’t I connect more than one instance of the same SIEM provider?
-
-SIEM provider can only be connected to a single Notion workspace at this time.
-
-
-### Having trouble setting up your SIEM connections? Here are some common issues.
-
-* Incorrect webhook URL
-
-* Incorrect HMAC or HEC token
-
-* Do not have admin privileges in your SIEM provider
-
-* SIEM provider is an on-prem instance

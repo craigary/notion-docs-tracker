@@ -1,7 +1,7 @@
 ---
 title: "Domain management"
 emoji: null
-description: "This article will cover how to verify ownership of a domain and which advanced workspace security settings it will unlock for Enterprise customers."
+description: null
 url: "https://www.notion.com/help/domain-management"
 key: "help:domain-management"
 coverImage: null
@@ -175,96 +175,3 @@ The workspace consolidation tool is available to sales-assisted Enterprise custo
 
 
 ## FAQs
-
-### How do I know if domain ownership verification is complete?
-
-If domain ownership verification is complete, the verified domain will appear in a green color scheme.
-
-
-### My domain is displayed in red. What does this mean?
-
-If the domain is displayed in red that means that either the domain ownership has already been verified in another workspace or the Notion-provided verification code has expired (it expires after 1 week).
-
-To verify the domain, please restart the verification process from the beginning.
-
-
-### My domain is displayed in yellow. What does this mean?
-
-If the domain is displayed in yellow, that means it’s pending validation. You need to either complete the instructions to update the DNS record or click `Verify` in the Verification modal.
-
-
-### I verified my domain in the past with the help of the Notion Support team. What will my workspace creation permissions be?
-
-If you verified your domain before the functionality to customize permissions for workspace creation was supported, your setting will remain as `Anyone` can create a workspace using your verified domain(s).
-
-
-### Why would I want to verify more than one domain?
-
-If you own multiple domains – e.g. acme.com and example.com – and you plan to use SAML SSO to manage users from these domains or customize their permissions to create new workspaces, you might want to verify multiple domains.
-
-
-### Who is restricted from creating a workspace when the setting is Only Workspace Owners?
-
-Users from your verified domain will be restricted from creating new workspaces. Only workspace owners of the workspace where the domains have been verified, will be able to create workspaces.
-
-
-### What can workspace owners do with domain management?
-
-Domain management features help Workspace owners better control and secure their workspaces. You can [configure SAML SSO](https://www.notion.com/help/saml-sso-configuration) for your workspace, build Notion <!-- -->connections<!-- --> using [link previews](https://www.notion.com/help/link-previews-and-synced-databases#link-previews), and [control who can create workspaces](https://www.notion.com/help/domain-management#workspace-creation-permissions)
-
-
-### What is visible to workspace owners with domain management?
-
-Owners of a domain will be able to see a list of workspaces that were created using the corporate domain, including information such as the list of workspace owners, number of members, and created date. They will not be able to see the content within the workspace.
-
-
-### What does it mean when a workspaces is in a pending state?
-
-Once a domain claim request has been submitted, the workspace will remain in the pending state in the workspace view until the claim has been processed.
-
-
-### Why can’t I claim a single-member workspace? I don’t want to delete it or request an account switch.
-
-Consolidating workspaces to your primary workspace is coming soon. In the meantime, you can work with the workspace owner of the single-member workspace to move content in your primary workspace.
-
-
-### Why can’t I delete a multi-member workspace?
-
-Deleting a multi-member workspace is not supported in the domain management workspace view, but once you’ve successfully claimed a multi-member workspace you can follow the instructions to permanently delete the workspace as the new, sole workspace owner.
-
-
-### Why can’t I claim ownership of a workspace when it’s eligible to be claimed?
-
-If your claim request is not getting processed, it’s likely that the workspace you’re trying to claim is either:
-
-* In a delinquent state on payments
-
-* In the 14 day waiting period after a domain is newly verified
-
-
-### Can I merge workspaces?
-
-Consolidating workspaces to your primary workspace is coming soon. In the meantime, you can claim workspaces and manually move content to a primary workspace.
-
-
-### Can I see all workspaces created by someone from my organization?
-
-The workspace view in your domain management settings will only show workspaces that are eligible for domain claim. Workspaces on the Enterprise Plan will not be included.
-
-
-### Why am I unable to delete this single-member workspace?
-
-Workspaces may be ineligible for deletion if:
-
-* The workspace has an outstanding unpaid invoice.
-
-* The workspace is on a paid plan.
-
-
-### What are the single and multi-member tabs in the workspace view?
-
-Domain Management functionality with Notion is based on the number of members in the workspace.
-
-* Single-member workspaces are eligible to either change ownership to a non-corporate account or delete.
-
-* Multi-member workspaces are eligible to claim.

@@ -1,10 +1,10 @@
 ---
 title: "List view"
 emoji: null
-description: "Lists are simple and minimalist database views. They're ideal for storing notes, articles, and documents that don't need too many properties. Every item in a list is a page that can be opened with one click and store as much content as you need."
+description: null
 url: "https://www.notion.com/help/lists"
 key: "help:lists"
-coverImage: "https://img.youtube.com/vi/Qhvix00IE0k/maxresdefault.jpg"
+coverImage: null
 category: "Database views"
 categoryKey: "category:database-views"
 ---
@@ -51,22 +51,3 @@ To edit the properties in your list:
 
 
 ## FAQs
-
-### How can I turn a full-page database into an inline database, or vice versa?
-
-To change a full-page database into an inline database:
-
-1. Drag the full-page database from your sidebar into another page. It will become a sub-page of that page.
-
-2. Open the parent page, click the **`⋮⋮`** button next to the database sub-page, and select `Turn into inline`.
-
-To change an inline database to a full-page database, drag an inline database block into your sidebar as a top-level page.
-
-
-### I don’t want my database pages to open on the side or in the center of my page. Is there anyway to open a database page in full-screen by default?
-
-Yes! To do this:
-
-1. Open the settings menu at the top of your database.
-
-2. Select `Layout` → `Open pages in` → `Full page`.

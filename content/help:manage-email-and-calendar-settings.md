@@ -1,7 +1,7 @@
 ---
 title: "Manage your Mail & Calendar settings"
 emoji: null
-description: "Manage your email and calendar connections all in one place — Mail & Calendar settings."
+description: null
 url: "https://www.notion.com/help/manage-email-and-calendar-settings"
 key: "help:manage-email-and-calendar-settings"
 coverImage: null
@@ -55,21 +55,3 @@ If you’re prompted to reconnect, follow the on-screen steps to sign in again. 
 
 
 ## FAQs
-
-### Can I connect more than one email account or calendar account?
-
-Yes. You can connect more than one email and/or calendar account.
-
-
-### How is this different from the Gmail/Google Calendar AI connections?
-
-Mail & Calendar connections are personal connections you manage yourself and can support multiple accounts. They help power features across Notion, Notion Mail, and Notion Calendar.
-
-In some workspaces, admins may also configure Google Workspace connections for enterprise search. Those are managed separately by admins and enable enterprise search for the entire Notion workspace.
-
-Learn more in these help center articles → [Gmail AI Connector](https://www.notion.com/help/notion-ai-connector-for-gmail), [Google Calendar AI Connector](https://www.notion.com/help/google-calendar-ai-connector)
-
-
-### Is Mail & Calendar settings available on mobile?
-
-Right now Mail & Calendar settings is available on desktop and web only.

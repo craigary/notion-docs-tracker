@@ -1,7 +1,7 @@
 ---
 title: "System requirements for Notion"
 emoji: null
-description: "See what Notion’s system requirements are for desktop, web, and mobile."
+description: null
 url: "https://www.notion.com/help/system-requirements-for-notion"
 key: "help:system-requirements-for-notion"
 coverImage: null

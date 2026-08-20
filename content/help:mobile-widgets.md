@@ -1,7 +1,7 @@
 ---
 title: "Mobile widgets"
 emoji: null
-description: "Quickly access your Notion pages right from your iPhone or Android phone screen! You can add a widget that links to any workspace or page of your choosing, making it easy to access frequently visited pages."
+description: null
 url: "https://www.notion.com/help/mobile-widgets"
 key: "help:mobile-widgets"
 coverImage: null
@@ -61,7 +61,3 @@ There are four widgets to choose from:
 
 
 ## FAQs
-
-### How do I modify my widget after adding it to my home screen?
-
-Long press on your widget and select `Edit Widget` to edit or modify the content displayed✨

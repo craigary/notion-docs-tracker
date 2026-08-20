@@ -1,7 +1,7 @@
 ---
 title: "Notion Mail keyboard shortcuts"
 emoji: null
-description: "Here are all of the keyboard shortcuts available in Notion Mail."
+description: null
 url: "https://www.notion.com/help/notion-mail-keyboard-shortcuts"
 key: "help:notion-mail-keyboard-shortcuts"
 coverImage: null

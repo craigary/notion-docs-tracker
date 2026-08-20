@@ -1,7 +1,7 @@
 ---
 title: "Legal holds"
 emoji: null
-description: "Press pause on critical documents."
+description: null
 url: "https://www.notion.com/help/legal-holds"
 key: "help:legal-holds"
 coverImage: null
@@ -85,27 +85,3 @@ As an organization owner, access the [admin console](https://www.notion.com/help
 
 
 ## FAQs
-
-### How do I access the organization level controls?
-
-Once added as an Organization owner, you can access the console via the Settings link at the top right corner under the workspace toggle. You can [learn more here](https://www.notion.com/help/organization-level-controls).
-
-
-### Do legal holds impact across all workspaces?
-
-Yes, the legal holds will be applied across all workspaces.
-
-
-### How will members on hold be impacted once placed on hold?
-
-Only Organization Owners will be able to view and manage legal holds. Members and guests who are on hold will see no changes or impacts to their Notion experience.
-
-
-### How far back can legal holds be placed?
-
-Legal holds use the audit log feature to identify user actions (view, edit, create) on pages. The legal hold can be placed as far back as either the workspace's Enterprise Plan upgrade date or May 2022 (when audit logs were released).
-
-
-### How do existing deletion settings impact legal holds?
-
-Enterprise workspace owners have the option to set an automatic transcript deletion schedule for AI Meeting Notes, which you can learn more about [here](https://www.notion.com/help/custom-data-retention-settings). The automatic transcript deletion schedule will not delete transcripts in pages that are legally held.

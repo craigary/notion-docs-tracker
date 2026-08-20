@@ -1,7 +1,7 @@
 ---
 title: "Common Notion errors"
 emoji: null
-description: "Find the most common Notion error messages, what causes them, and how to fix each one."
+description: null
 url: "https://www.notion.com/help/notion-error-messages"
 key: "help:notion-error-messages"
 coverImage: null

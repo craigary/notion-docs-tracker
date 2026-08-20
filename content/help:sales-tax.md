@@ -1,7 +1,7 @@
 ---
 title: "Sales tax"
 emoji: null
-description: "Get more information about how taxes are applied to your Notion bill in your region."
+description: null
 url: "https://www.notion.com/help/sales-tax"
 key: "help:sales-tax"
 coverImage: null
@@ -228,22 +228,3 @@ If you use Notion for business purposes and have a valid exemption certificate, 
 
 
 ## FAQs
-
-### I haven’t been charged tax before. Why am I being taxed now? Is this part of a new tax law?
-
-Tax rules and our collection obligations can change and begin applying to businesses over time. If you’re now being taxed, it’s because we need to comply with the requirements for your region. You can find specific information about your jurisdiction above.
-
-
-### I was charged tax on my most recent invoice. Will sales tax be applicable to all my invoices going forward?
-
-Yes — we will continue to collect taxes and comply with local tax laws. If there are changes to the tax laws in the future, we will make them accordingly.
-
-
-### Are all Notion products taxable?
-
-Yes, but your company may qualify for exemption with a valid tax ID from your billing country.
-
-
-### I reside in a different country from the one I’m being taxed for. What can I do about this?
-
-Make sure you keep your billing address up to date in Notion. Go to `Settings` → `Billing` and edit your payment details there.

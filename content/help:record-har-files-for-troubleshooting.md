@@ -1,7 +1,7 @@
 ---
 title: "Record HAR files for troubleshooting"
 emoji: null
-description: "Find out how you can record HAR files to help Notion troubleshoot your issue."
+description: null
 url: "https://www.notion.com/help/record-har-files-for-troubleshooting"
 key: "help:record-har-files-for-troubleshooting"
 coverImage: null

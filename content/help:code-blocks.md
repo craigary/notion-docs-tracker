@@ -1,10 +1,10 @@
 ---
 title: "Code blocks"
 emoji: null
-description: "Code blocks are useful to demonstrate programming concepts, share code with other developers, or maintain your own library of code snippets. They also make it a breeze to copy any amount of code to your clipboard to use elsewhere 🕹️"
+description: null
 url: "https://www.notion.com/help/code-blocks"
 key: "help:code-blocks"
-coverImage: "https://img.youtube.com/vi/pO5w4aDRCJY/maxresdefault.jpg"
+coverImage: null
 category: "Pages & blocks"
 categoryKey: "category:write-edit-and-customize"
 ---

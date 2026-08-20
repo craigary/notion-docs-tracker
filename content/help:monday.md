@@ -1,7 +1,7 @@
 ---
 title: "Import from Monday.com"
 emoji: null
-description: "Easily import your data from Monday into Notion."
+description: null
 url: "https://www.notion.com/help/monday"
 key: "help:monday"
 coverImage: null
@@ -117,32 +117,3 @@ The Monday.com importer helps you bring your all Monday.com boards into Notion.
 
 
 ## FAQs
-
-### Why aren’t all columns migrating to Notion?
-
-If a missing column is linked to a board that **hasn’t been imported**, it won’t appear in Notion. To resolve this, make sure to import any related boards along with the main data.
-
-
-### Are all column types supported?
-
-A few Monday.com columns are not yet supported in the import, including:
-
-* Buttons
-
-* Monday Docs
-
-* Integrations
-
-* Formula
-
-* Progress
-
-* Dependency
-
-* Time Tracking
-
-* World Clock
-
-* Ratings
-
-* Auto Numbers

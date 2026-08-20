@@ -1,7 +1,7 @@
 ---
 title: "Use Notion AI with Notion Mail"
 emoji: null
-description: "Notion AI can help you stay organized by automatically labeling incoming emails that are important to you."
+description: null
 url: "https://www.notion.com/help/use-notion-ai-with-notion-mail"
 key: "help:use-notion-ai-with-notion-mail"
 coverImage: null

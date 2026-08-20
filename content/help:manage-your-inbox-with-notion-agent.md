@@ -1,7 +1,7 @@
 ---
 title: "Manage your inbox with Notion Agent"
 emoji: null
-description: "Ask Notion Agent to catch you up, triage, and clear your Inbox, without manually reviewing every notification. "
+description: null
 url: "https://www.notion.com/help/manage-your-inbox-with-notion-agent"
 key: "help:manage-your-inbox-with-notion-agent"
 coverImage: null

@@ -1,7 +1,7 @@
 ---
 title: "Presentation mode"
 emoji: null
-description: "Whether you're running a team meeting, sharing a project update, or giving a demo, you can turn your page into a clean fullscreen presentation — no separate tool needed. ▶️"
+description: null
 url: "https://www.notion.com/help/presentation-mode"
 key: "help:presentation-mode"
 coverImage: null

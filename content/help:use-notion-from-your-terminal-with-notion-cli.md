@@ -1,7 +1,7 @@
 ---
 title: "Use Notion from your terminal with Notion CLI (beta)"
 emoji: null
-description: "Learn the basics of using Notion from the command line, including how to get set up and common fixes."
+description: null
 url: "https://www.notion.com/help/use-notion-from-your-terminal-with-notion-cli"
 key: "help:use-notion-from-your-terminal-with-notion-cli"
 coverImage: null
@@ -57,27 +57,3 @@ Start with these quick checks:
 
 
 ## FAQs
-
-### Do I need the CLI to use Notion?
-
-No. The CLI is optional and meant for developer workflows.
-
-
-### Does the CLI work on mobile?
-
-No. It runs in a terminal on desktop.
-
-
-### Where can I find the full command list?
-
-Find the full command list in the [developer documentation](https://developers.notion.com/guides/get-started/overview)[.](https://developers.notion.com/guides/get-started/overview)
-
-
-### Does the CLI work on Windows?
-
-Yes. The CLI works the same on Windows, Mac, and Linux. Workers you create on one platform show up the same everywhere.
-
-
-### Can I manage Workers in Notion instead of the CLI?
-
-Partly. You can view Workers, read logs, turn Workers off, and delete Workers in Notion with [Developer Mode](https://www.notion.com/help/turn-on-developer-mode-to-use-developer-tools-in-notion). Use the CLI to deploy Workers or change their code or setup.

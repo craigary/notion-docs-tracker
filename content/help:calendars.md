@@ -1,10 +1,10 @@
 ---
 title: "Calendar view"
 emoji: null
-description: "Calendars let you visualize how database items connect to certain dates. Use one when you want a bird's-eye view for important launch dates, multi-day events, or even projects spanning multiple months."
+description: null
 url: "https://www.notion.com/help/calendars"
 key: "help:calendars"
-coverImage: "https://img.youtube.com/vi/PoYepEsN0HY/maxresdefault.jpg"
+coverImage: null
 category: "Database views"
 categoryKey: "category:database-views"
 ---
@@ -97,35 +97,3 @@ Calendars in Notion will use Sunday or Monday as the first day of the week, depe
 
 
 ## FAQs
-
-### How can I turn a full-page database into an inline database, or vice versa?
-
-To change a full-page database into an inline database:
-
-1. Drag the full-page database from your sidebar into another page. It will become a sub-page of that page.
-
-2. Open the parent page, click the **`⋮⋮`** button next to the database sub-page, and select `Turn into inline`.
-
-To change an inline database to a full-page database, drag an inline database block into your sidebar as a top-level page.
-
-
-### How can I integrate a Notion calendar with my Google/Apple/Microsoft calendar?
-
-You can use our API to integrate external platforms with Notion! Check out our [developer hub](https://developers.notion.com/) to get started.
-
-We also support the ability to embed a [view-only Google Calendar into Notion](https://www.notion.com/Embed-Google-Calendar-f1dd42e7071d495ca6764d03c1d2972e) if you're embedding from the same email address that you're using with your Notion account.
-
-
-### Any way to set a default date format for the date property?
-
-Not at the moment, unfortunately. It’s definitely something we want to support in the future, though. We appreciate your patience while we make our way though our to-do list! 🙏
-
-
-### Can I have calendars start on Monday instead of Sunday?
-
-Yes! This setting is automatic based on your region but can be turned on or off manually. To do this, go to `Settings` → `Preferences` and toggle on `Start week on Monday`.
-
-
-### Any way to see a daily/yearly view instead of the monthly view?
-
-There's a daily view on mobile that you can access by tapping on any date in your calendar, or you can use our Timeline view, which allows you to display timescales from hours all the way to years!

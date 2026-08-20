@@ -1,7 +1,7 @@
 ---
 title: "Notion AI complimentary responses"
 emoji: null
-description: "Everyone can try Notion AI features for free."
+description: null
 url: "https://www.notion.com/help/complimentary-ai-responses"
 key: "help:complimentary-ai-responses"
 coverImage: null

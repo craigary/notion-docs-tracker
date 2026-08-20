@@ -1,7 +1,7 @@
 ---
 title: "Become a Notion Solutions Partner"
 emoji: null
-description: "Learn how to become a certified Notion partner."
+description: null
 url: "https://www.notion.com/help/become-a-notion-partner"
 key: "help:become-a-notion-partner"
 coverImage: null
@@ -53,12 +53,3 @@ Learn more about these requirements [here →](https://www.notion.com/partners/s
 
 
 ## FAQs
-
-### Can one person have multiple certifications that count toward partner-tier requirements?
-
-No. Certifications must be held by unique individuals to count toward team minimums.
-
-
-### Why was my application declined?
-
-Applications may stall when case studies and outcomes are thin, offers aren’t defined, or a named delivery team with real bandwidth and SLAs hasn’t been established. Additionally, we prioritize alignment to our core use cases, keep coverage balanced across regions and industries, and sometimes pause intake or limit specific tracks (services vs. resell) in certain markets. Strong references, healthy adoption, and operational maturity move you forward; when these signals aren’t yet in place, your application may be declined and we invite you to reapply once they are.

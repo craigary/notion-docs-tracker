@@ -1,7 +1,7 @@
 ---
 title: "GitHub AI Connector"
 emoji: null
-description: "Learn how to unlock your GitHub knowledge in Notion AI."
+description: null
 url: "https://www.notion.com/help/notion-ai-connector-for-github"
 key: "help:notion-ai-connector-for-github"
 coverImage: null
@@ -125,61 +125,3 @@ You could try prompting Notion AI with the following:
 
 
 ## FAQs
-
-### I connected the wrong Notion workspace. How can I disconnect my GitHub Repository?
-
-Workspace owners may disconnect or edit channels after the initial integration is complete by going to `Settings` → `Notion AI`. Select `⚙️` next to GitHub → `Settings` → `Disconnect`.
-
-
-### How long does it take for the integration to complete?
-
-Setting up the integration can take up to 72 hours depending on the size of the repository and GitHub plan type.
-
-
-### How long does it take for new content in GitHub to be reflected in Notion AI?
-
-After the initial setup, new data may take up to 3 hours to be indexed by Notion AI. Larger data volumes may take additional time.
-
-
-### Can everyone in my Notion workspace access information from GitHub?
-
-Members in a workspace must authenticate and log in individually to retrieve information from private repositories that they already have access to in GitHub.
-
-
-### How far back can I ask questions about in GitHub?
-
-You can retrieve up to one year’s worth of PRs and issues in their repository. All READMes will be available without any time restrictions.
-
-
-### What does Notion AI have access to?
-
-During the onboarding process, after you select the GitHub organization that you would like to connect, you can choose whether Notion AI has access to:
-
-* **All repositories:** This applies to all current and future repositories owned by the resource owner. Also includes public repositories (read-only).
-
-* **Only select properties:** Select at least one repository. Also includes public repositories (read-only).
-
-
-### Do Notion AI Connectors respect existing Notion AI permissions?
-
-Absolutely. Notion AI will honor existing permissions according to our existing [Notion AI Security Practices](https://www.notion.com/help/notion-ai-security-practices). Users will not be able to generate content or receive Notion AI responses based on third-party resources they do not have access to.
-
-Specific to third party content, Notion AI is handling both private and public content with security in mind, only ingesting content according to the permissions mapping between GitHub and Notion users.
-
-
-### How does Notion AI handle permissions mapping?
-
-Users will only see GitHub content (e.g., code, PRs, issues) in Notion AI that they personally have permission to access in GitHub. Even if someone tries to query a repository they don’t have access to in GitHub, Notion AI will not return results from that repo.
-
-* The user must be both a GitHub and Notion member to authenticate this app at the user level.
-
-* Users do not need to use the same email address in Notion and GitHub.
-
-* Permissions are mapped based on each user’s successful authentication with their GitHub account, not by comparing email addresses. Notion AI relies on OAuth login to confirm identity and permission scope—not email matching.
-
-* We sync permissions from GitHub every hour and update permissions in Notion accordingly.
-
-
-### How is Notion storing or referencing my GitHub data in its systems?
-
-Similar to our core Notion AI product, we store create and store embeddings in a vector database hosted by Turbopuffer, which powers the ability to provide responses to questions that leverage third party content (e.g., GitHub). Turbopuffer has been vetted by our security team as well as an external auditor to obtain their SOC2 Type II certification. [Learn more about Turbopuffer’s security here](https://turbopuffer.com/docs/security) →

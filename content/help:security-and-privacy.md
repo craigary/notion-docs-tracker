@@ -1,7 +1,7 @@
 ---
 title: "Security practices"
 emoji: null
-description: "We know you've entrusted us with valuable data, and we take its security very seriously. We've provided a deep dive into our security practices."
+description: null
 url: "https://www.notion.com/help/security-and-privacy"
 key: "help:security-and-privacy"
 coverImage: null
@@ -132,56 +132,3 @@ Notion maintains a comprehensive security and privacy program to provide advance
 
 
 ## FAQs
-
-### What data does Notion process?
-
-Notion is committed to your safety and privacy. For detailed information on the data we process, please refer to our[ Data Processing Addendum](https://www.notion.com/notion/Data-Processing-Addendum-361b540101274b1fa7e16b90402b0d99?pvs=4).
-
-
-### If I decide to leave Notion, what happens to my data?
-
-For information around how long Notion will maintain data, please refer to the [Data Processing Addendum](https://www.notion.com/notion/Data-Processing-Addendum-361b540101274b1fa7e16b90402b0d99).
-
-Follow the instructions [here](https://www.notion.com/help/delete-your-account) to delete your data.
-
-
-### If there was a disaster with Notions Systems and my Notion Instance was impacted, how does Notion restore itself?
-
-Notion performs daily automated backups of all customer and system data to protect against loss due to unforeseen events across separate availability zones in AWS US West-2 and <!-- -->AWS US East-2.
-
-We have a dedicated Business Continuity Plan and Disaster Recovery Plan for these circumstances, and our Disaster Recovery Plan is tested at least annually to ensure Notion will recover from a disruption resulting from a disaster.
-
-
-### Can Notion employees access our information?
-
-Notion employees will only ever access your data for the purposes of troubleshooting problems or recovering content on your behalf. Please refer to our [Data Access Consent](https://www.notion.com/help/data-access-consent) for further information.
-
-
-### Will other people be able to see my pages?
-
-Your data is safe in Notion! If someone tries to navigate to your workspace without having access, they’ll see a page that lets them know that they do not have the correct permission state to access that content.
-
-If you enable `Share to web` in the `Share` menu at the top right of a page, it will publish that page to the web so that anyone with the link can access it. This is always turned off by default.
-
-If you’re sharing a workspace with others, some pages will be visible to everyone in the workspace, or specific groups of people — this is based on the permissions you see in the `Share` menu at the top right of the page.
-
-Please note, if you are using an account in an enterprise workspace, your content may be accessed by the workspace’s workspace owner. Learn more in [our Personal Use Terms of Service](https://notion.notion.site/Personal-Use-Terms-of-Service-00e4e5d0f2b9411cbee6493f15779500).
-
-
-### Can I opt out of Notion's tracking/analytics?
-
-Yes you can! This will also disable <!-- -->in-app message support<!-- -->, but you can still reach out to us for help at email protected.
-
-Just send a message to our support team at that address and we'll opt you out.
-
-
-### My browser alerted me that Notion is using trackers. What do these trackers do?
-
-We use tracking code in order to effectively run ads (for example, tracking a visit to our marketing site). We isolate this to a sandboxed iframe on a subdomain ([aif.app.notion.com](https://aif.app.notion.com/)) — it's never activated on user pages.
-
-No user content is exposed to any third-party service.
-
-
-### Does Notion review findings from Third Party Risk Assessment Platforms (i.e. Security Scorecard, Bitsight, Upguard)?
-
-We understand that many organizations use third-party risk assessment platforms for security due diligence. However, we’ve noticed that these platforms often produce unreliable and incorrect results, and addressing these incorrect findings is costly and distracts from important cybersecurity work. Therefore, our policy is to not always respond to inquiries or findings from these platforms. This approach allows us to focus our cybersecurity resources on what truly matters for Notion and our customers.

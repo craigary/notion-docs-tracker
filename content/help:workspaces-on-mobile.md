@@ -1,7 +1,7 @@
 ---
 title: "Workspaces on mobile"
 emoji: null
-description: "Here's a quick tour of how Notion workspaces look and operate on your phone or tablet."
+description: null
 url: "https://www.notion.com/help/workspaces-on-mobile"
 key: "help:workspaces-on-mobile"
 coverImage: null
@@ -113,42 +113,3 @@ Rage Shake is a feature on Notion mobile (for Android) that allows users to repo
 
 
 ## FAQs
-
-### Can I switch between workspaces that are associated with different email addresses?
-
-To add your workspaces from another email account, use the Add another account button in the workspace switcher at the top left of your Notion window, and follow the steps to login to your other account. [More on this here →](https://www.notion.com/notion/Create-join-switch-workspaces-3b9be78982a940a7a27ce712ca6bdcf5#0a655487ba42450185b94d51a50c0855)
-
-
-### My sidebar doesn't have any sections. How do I turn those on?
-
-The sidebar sections reflect the sharing settings of your account. If you have more than one person in your workspace, a `Teamspaces` section appears in the sidebar for your collaborative work with that person, and the `Private` section is there for your personal pages that are only visible to you.
-
-
-### When I subscribe to a Plus Plan, does it cover all my workspaces?
-
-Paid plans only apply to one workspace, and don't cover the whole account. Workspaces are completely separate, so you won't be able to link any content between them.
-
-We recommend using the least number of workspaces possible, and taking advantage of top-level pages in your sidebar to stay organized.
-
-
-### How can I migrate all my Notion content to a different workspace?
-
-**Note:&#x20;**&#x41;ny migrated content will be duplicated to the new workspace and these pages sometimes have issues. For more information, [click here](https://www.notion.com/help/transfer-content-to-another-account).
-
-To move your content from one workspace to another associated with the same account, click `•••` next to each of the top-level pages in your sidebar (or right click) and select `Move to`. <!-- -->At the bottom of the move menu, you’ll see a drop down to select a different workspace.
-
-When you move top-level pages, all their sub-pages go with them. They'll appear in the `Private` section but can be moved wherever you want to put them.
-
-****
-
-
-### What if I accidentally deleted something permanently? Any way to get it back?
-
-If you accidentally delete a page, a workspace, or even your entire account, we can help! Accidents happen 😅 Just send us a message in the app by clicking `?` at the bottom of your sidebar, or email us at email protected.
-
-We keep backups of our database, which allows us to restore a snapshot of your content in the past 30 days if you need it.
-
-
-### How do I log out of my Notion account?
-
-Click on your current workspace's name at the very top left of your sidebar. Scroll to the bottom, and you'll see the option to `Log out` next to your email address.

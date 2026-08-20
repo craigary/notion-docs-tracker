@@ -1,7 +1,7 @@
 ---
 title: "Notification settings"
 emoji: null
-description: "Notion is set up to notify you if you're mentioned in a page or database, for reminders, and when updates have been made to a page you care about. Below, we describe how notifications work, and how you can modify them."
+description: null
 url: "https://www.notion.com/help/notification-settings"
 key: "help:notification-settings"
 coverImage: null
@@ -61,21 +61,3 @@ Go to `Settings` → `Notifications` to adjust your settings for:
 
 
 ## FAQs
-
-### I'm not receiving any mobile or email notifications, but I have them enabled.
-
-If you have Notion open on a mobile device or computer, you won't receive push or email notifications for reminders — you'll only see the badge next to `Inbox`.
-
-If Notion is not open on your mobile device or computer, then you will receive a push or email notification.
-
-To always receive email updates regardless of whether or not you have the app open, you can enable `Always send email notifications` in the `Notifications` section of `Settings`.
-
-
-### Is there a way for the notifications to make a sound or vibration?
-
-Not at the moment, unfortunately 😓 On our to-do list though!
-
-
-### I don’t want to be notified when I get mentioned in a person property in a database. How can I turn this kind of notification off?
-
-Unfortunately, if you don’t want to be notified when you’re mentioned in a person property, you’ll need to ask someone with edit access to turn off notifications in the [specific person property’s settings](https://www.notion.com/help/updates-and-notifications#notifications). Individual users can’t unsubscribe from these notifications.

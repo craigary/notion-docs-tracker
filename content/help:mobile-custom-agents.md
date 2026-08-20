@@ -1,7 +1,7 @@
 ---
 title: "Mobile Custom Agents"
 emoji: null
-description: "Use Custom Agents on the go — start new chats, continue conversations, and respond to notifications from your iOS or Android device."
+description: null
 url: "https://www.notion.com/help/mobile-custom-agents"
 key: "help:mobile-custom-agents"
 coverImage: null
@@ -59,17 +59,3 @@ To pick up where you left off:
 
 
 ## FAQs
-
-### Can I create a Custom Agent on mobile?
-
-Right now Custom Agents can only be created on desktop.
-
-
-### Can I update or change the agent’s settings on mobile?
-
-Not yet, agent settings are currently desktop-only.
-
-
-### Can I track AI credit usage from my phone?
-
-Not at the moment. View your agent’s AI credit usage from the desktop app.

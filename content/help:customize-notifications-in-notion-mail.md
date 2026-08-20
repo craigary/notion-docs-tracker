@@ -1,7 +1,7 @@
 ---
 title: "Customize notifications in Notion Mail"
 emoji: null
-description: "Notion Mail lets you stay on top of what matters without getting pinged for everything —  customize email notifications for your accounts, views, and senders."
+description: null
 url: "https://www.notion.com/help/customize-notifications-in-notion-mail"
 key: "help:customize-notifications-in-notion-mail"
 coverImage: null

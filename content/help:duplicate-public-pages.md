@@ -1,7 +1,7 @@
 ---
 title: "Duplicate public pages"
 emoji: null
-description: "You can duplicate public Notion pages to add them to your own workspace. From there, you can customize them however you want."
+description: null
 url: "https://www.notion.com/help/duplicate-public-pages"
 key: "help:duplicate-public-pages"
 coverImage: null

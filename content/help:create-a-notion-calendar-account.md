@@ -1,10 +1,10 @@
 ---
 title: "Create a Notion Calendar account"
 emoji: null
-description: "Download Notion Calendar and sign in with Notion to move effortlessly between work and meetings."
+description: null
 url: "https://www.notion.com/help/create-a-notion-calendar-account"
 key: "help:create-a-notion-calendar-account"
-coverImage: "https://img.youtube.com/vi/tfrgpkksRfs/maxresdefault.jpg"
+coverImage: null
 category: "Notion Calendar"
 categoryKey: "category:notion-calendar"
 ---

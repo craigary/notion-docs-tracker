@@ -1,10 +1,10 @@
 ---
 title: "Board view"
 emoji: null
-description: "Boards are helpful for showing items in a database as they move through stages of a process, or grouped by property."
+description: null
 url: "https://www.notion.com/help/boards"
 key: "help:boards"
-coverImage: "https://img.youtube.com/vi/_efKZce3eDY/maxresdefault.jpg"
+coverImage: null
 category: "Database views"
 categoryKey: "category:database-views"
 ---
@@ -175,37 +175,3 @@ Depending on the type of properties you have in your database, you’ll see some
 
 
 ## FAQs
-
-### How can I turn a full-page database into an inline database, or vice versa?
-
-To change a full-page database into an inline database:
-
-1. Drag the full-page database from your sidebar into another page. It will become a sub-page of that page.
-
-2. Open the parent page, click the **`⋮⋮`** button next to the database sub-page, and select `Turn into inline`.
-
-To change an inline database to a full-page database, drag an inline database block into your sidebar as a top-level page.
-
-
-### I don’t want my database pages to open on the side or in the center of my page. Is there anyway to open a database page in full-screen by default?
-
-Yes! To do this:
-
-1. Open the settings menu at the top of your database.
-
-2. Select `Layout` → `Open pages in` → `Full page`.
-
-
-### Is there a way to add background colors to board cards?
-
-Yes! Learn more about conditional color [here →](https://www.notion.com/help/database-properties#conditional-color)
-
-
-### Any way to group by a relation or formula property?
-
-Not currently 😓 It’s a legit use case though, and definitely something we want to support in the future.
-
-
-### I have a "Done" column in my board that's getting a bit crowded. Can I archive these automatically?
-
-We'd recommend hiding this column. You can do this by clicking the `•••` icon next to the column heading and selecting `Hide`. You can drag any completed tasks into this hidden archive by clicking and dragging your cards into that tag under `Hidden Columns`.

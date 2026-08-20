@@ -1,7 +1,7 @@
 ---
 title: "Layouts"
 emoji: null
-description: "Create an organized layout for your tasks, goals, journal, or anything else you might track in a Notion database."
+description: null
 url: "https://www.notion.com/help/layouts"
 key: "help:layouts"
 coverImage: null

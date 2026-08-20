@@ -1,10 +1,10 @@
 ---
 title: "Web Clipper"
 emoji: null
-description: "The Web Clipper lets you save any web page off the internet to your workspace so you can read or edit it later. You can add this web content to a workspace or page of your choosing, making it easy to build a reading list, collect references and more."
+description: null
 url: "https://www.notion.com/help/web-clipper"
 key: "help:web-clipper"
-coverImage: "https://img.youtube.com/vi/nzHBSxiWGIw/maxresdefault.jpg"
+coverImage: null
 category: "Notion on desktop, web, & mobile"
 categoryKey: "category:notion-apps"
 ---
@@ -97,30 +97,3 @@ Want to add the photos you take on your phone to your Notion workspace? You can 
 
 
 ## FAQs
-
-### I tried using the web clipper on mobile, but got an error message This app is not supported.
-
-Unfortunately, Notion Web Clipper only works for entire pages from your web browser, or photos from your photo roll. It doesn't support other apps yet, like the Twitter app or the iOS Notes app. Definitely possible in the future though!
-
-
-### I tried clipping a web page with the Web Clipper, but some of the page content is missing.
-
-Oops, sorry about that 🙈 If you wouldn't mind sharing the URL with us at email protected, we'd be happy to flag to our engineering team so they can tweak the clipper accordingly.
-
-
-### Can you add tags to a web page while clipping it?
-
-Not at the moment, unfortunately. Definitely possible for a future iteration though ✂️
-
-For the time being, you'll need to open the clipped page in a Notion database to add and edit any tags or other database properties.
-
-
-### I installed the Safari extension, but am seeing long loading spinners when I try to use it.
-
-Unfortunately, some Safari configurations seem to be causing performance issues across many different Safari extensions, including Notion's. To help our engineering team debug this issue with Apple, could you let us know:
-
-* What version of macOS are you running on your computer?
-
-* In the Safari → About Safari window, which version number of Safari are you running on your computer?
-
-* In the Safari → Settings... → Extensions, which version number of the Notion Web Clipper do you have installed?

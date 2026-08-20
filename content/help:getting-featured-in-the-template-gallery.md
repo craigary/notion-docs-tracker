@@ -1,7 +1,7 @@
 ---
 title: "Getting featured in Marketplace"
 emoji: null
-description: "We’re constantly on the lookout for truly exceptional creators and templates to highlight to the Notion community. Learn how we choose which templates are featured in Marketplace."
+description: null
 url: "https://www.notion.com/help/getting-featured-in-the-template-gallery"
 key: "help:getting-featured-in-the-template-gallery"
 coverImage: null

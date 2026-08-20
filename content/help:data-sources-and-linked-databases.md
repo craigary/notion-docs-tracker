@@ -1,10 +1,10 @@
 ---
 title: "Data sources"
 emoji: null
-description: "Want to view multiple data sources in a single database? Need to reference a specific database view in a page? Learn how to create or link data sources in a database."
+description: null
 url: "https://www.notion.com/help/data-sources-and-linked-databases"
 key: "help:data-sources-and-linked-databases"
-coverImage: "https://img.youtube.com/vi/uYzY7W-CofA/maxresdefault.jpg"
+coverImage: null
 category: "Databases"
 categoryKey: "category:databases"
 ---
@@ -85,12 +85,3 @@ Learn how to upgrade your Notion API for better database support [here →](http
 
 
 ## FAQs
-
-### I tried sharing a page that contains a database with a linked data source, but the recipient wasn't able to see it.
-
-Make sure that the person you've shared with has access to the original database.
-
-
-### I don't see Form as an option when I try to add a view to my database.
-
-Your database may be linked to a data source that lives in another database. Forms can only be added to the original database that contains the data source. To check, click the slider icon at the top of the database and select Manage data sources. If your data source appears under Linked, open the original database and add your form there.

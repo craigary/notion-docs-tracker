@@ -1,7 +1,7 @@
 ---
 title: "Compose an email"
 emoji: null
-description: "Write beautiful emails using the same Notion blocks that you know and love."
+description: null
 url: "https://www.notion.com/help/compose-an-email"
 key: "help:compose-an-email"
 coverImage: null

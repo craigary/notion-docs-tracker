@@ -1,7 +1,7 @@
 ---
 title: "Notion AI security & privacy practices"
 emoji: null
-description: "At Notion, we want to be transparent with our customers about our products and how we use AI to enhance our users’ experience. Below is an overview of Notion AI functionality and related security and privacy practices."
+description: null
 url: "https://www.notion.com/help/notion-ai-security-practices"
 key: "help:notion-ai-security-practices"
 coverImage: null

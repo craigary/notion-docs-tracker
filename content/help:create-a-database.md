@@ -1,10 +1,10 @@
 ---
 title: "Create a database"
 emoji: null
-description: "Now we'll create a database and use it to show off essential database actions and features. You'll get to play with database properties, views, filters, and sorts - let's get into it."
+description: null
 url: "https://www.notion.com/help/create-a-database"
 key: "help:create-a-database"
-coverImage: "https://img.youtube.com/vi/Nx114VWepoI/maxresdefault.jpg"
+coverImage: null
 category: "Notion basics"
 categoryKey: "category:new-to-notion"
 ---

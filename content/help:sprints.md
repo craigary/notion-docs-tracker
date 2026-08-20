@@ -1,7 +1,7 @@
 ---
 title: "Task databases & sprints"
 emoji: null
-description: "Help your team stay on track with task databases and sprints 💪"
+description: null
 url: "https://www.notion.com/help/sprints"
 key: "help:sprints"
 coverImage: null

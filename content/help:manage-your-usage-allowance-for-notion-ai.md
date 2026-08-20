@@ -1,7 +1,7 @@
 ---
 title: "Manage your usage allowance for Notion AI"
 emoji: null
-description: "Learn about the usage allowance for Notion AI, and how admins can manage this for their team."
+description: null
 url: "https://www.notion.com/help/manage-your-usage-allowance-for-notion-ai"
 key: "help:manage-your-usage-allowance-for-notion-ai"
 coverImage: null
@@ -91,35 +91,3 @@ Notion has usage allowances to help keep Notion AI running smoothly, reliably, a
 
 
 ## FAQs
-
-### Does my allowance reset every six hours?
-
-Yes. Your usage will reset to zero once the six hour window refreshes. If you reach your usage allowance, you'll have to wait for the full reset in order to keep using certain Notion AI features (or use Notion credits to keep going). You can still use the rest of Notion during this time.
-
-Your monthly allowance works differently. It resets all at once at the start of your next billing cycle.
-
-
-### When does my monthly allowance reset?
-
-Your monthly allowance resets at the start of your next billing cycle. If you use your full monthly allowance, you can wait for your next billing cycle to start, or use [Notion credits](https://www.notion.com/help/category/notion-credits) to keep going if your admin has turned that on.
-
-
-### How will I know I’m close to running out of my allowance?
-
-You can track your own Notion AI usage from `Settings` → `Notion AI` → `Usage`.
-
-We’ll also notify you as you get close and when you’ve used your full allowance.
-
-
-### Can my workspace get additional Notion AI usage?
-
-Yes. Workspace admins can let members keep using Notion AI beyond the allowance by spending [Notion credits](https://www.notion.com/help/category/notion-credits).
-
-This is off by default. Admins can turn it on in `Settings` → `Notion AI`.
-
-
-### Does this impact Custom Agents or Workers?
-
-No. The usage allowance applies to Notion AI features like your personal [Notion Agent](https://www.notion.com/help/notion-agent), [image generation](https://www.notion.com/help/create-and-edit-images-with-notion-ai), page translation, and [Skills](https://www.notion.com/help/skills-for-notion-agent).
-
-It doesn’t apply to [Custom Agents](https://www.notion.com/help/custom-agents) or [Workers](https://www.notion.com/help/run-custom-code-with-workers), which use [Notion credits](https://www.notion.com/help/category/notion-credits) instead.

@@ -1,7 +1,7 @@
 ---
 title: "Delete your account"
 emoji: null
-description: "We're sad to see you go, but no hard feelings! Here's how to delete your Notion account."
+description: null
 url: "https://www.notion.com/help/delete-your-account"
 key: "help:delete-your-account"
 coverImage: null
@@ -43,20 +43,3 @@ To delete your account:
 
 
 ## FAQs
-
-### What if I accidentally deleted something permanently? Any way to get it back?
-
-If you accidentally delete a page, a workspace, or even your entire account, we can help! Accidents happen 😅 Just send us a message in the app by clicking `?` at the bottom of your sidebar, or email us at email protected.
-
-We keep backups of our database, which allows us to restore a snapshot of your content in the past 30 days if you need it.
-
-
-### How can I migrate all my Notion content to a different workspace?
-
-**Note:&#x20;**&#x41;ny migrated content will be duplicated to the new workspace and these pages sometimes have issues. For more information, [click here](https://www.notion.com/help/transfer-content-to-another-account).
-
-To move your content from one workspace to another associated with the same account, click `•••` next to each of the top-level pages in your sidebar (or right click) and select `Move to`. <!-- -->At the bottom of the move menu, you’ll see a drop down to select a different workspace.
-
-When you move top-level pages, all their sub-pages go with them. They'll appear in the `Private` section but can be moved wherever you want to put them.
-
-****

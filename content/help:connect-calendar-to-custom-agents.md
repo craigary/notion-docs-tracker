@@ -1,7 +1,7 @@
 ---
 title: "Connect Calendar to Custom Agents"
 emoji: null
-description: "Manage your schedule and automate meetings without ever leaving Notion."
+description: null
 url: "https://www.notion.com/help/connect-calendar-to-custom-agents"
 key: "help:connect-calendar-to-custom-agents"
 coverImage: null
@@ -159,17 +159,3 @@ If your Agent isn’t running when a calendar event is changed, is running multi
 
 
 ## FAQs
-
-### Can my agent create events without my approval?
-
-Yes, if you give it the appropriate permissions. If you want to review events before they're created, instruct your agent to suggest times and wait for your confirmation.
-
-
-### Can I limit which events my agent can access?
-
-Once connected, a Custom Agent will be able to process all events in your calendar. However, you can configure instructions, permissions and use triggers (like "Event create" only) to restrict which events the agent processes.
-
-
-### Does the agent have access to all my calendar events?
-
-The agent can only access events in calendars you've connected to Calendar and explicitly granted permission to access when setting up the connection.

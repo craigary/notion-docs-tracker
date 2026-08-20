@@ -1,7 +1,7 @@
 ---
 title: "How to protect yourself from malvertising"
 emoji: null
-description: "Malvertising is a cyber threat that puts your data at risk using malicious software. Make sure to download Notion only from trusted sources, and read on to learn how you can stay safe from malvertising."
+description: null
 url: "https://www.notion.com/help/how-to-protect-yourself-from-malvertising"
 key: "help:how-to-protect-yourself-from-malvertising"
 coverImage: null

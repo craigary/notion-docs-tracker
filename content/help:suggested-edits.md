@@ -1,7 +1,7 @@
 ---
 title: "Suggested edits"
 emoji: null
-description: "Collaborate with others by suggesting edits to content that you’re working on together."
+description: null
 url: "https://www.notion.com/help/suggested-edits"
 key: "help:suggested-edits"
 coverImage: null

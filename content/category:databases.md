@@ -1,6 +1,6 @@
 ---
 title: "Databases"
-description: "Databases are collections of Notion pages that help you organize information in a variety of ways. With multiple database views to choose from, you control how to display and search your content."
+description: null
 url: "https://www.notion.com/help/category/databases"
 key: "category:databases"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/1fkexDNoDJAwQduymONneL/9c19f9259ecf4f03fa874b22678e74bf/databases_hero.png"
@@ -32,17 +32,3 @@ https://www.youtube.com/watch?v=Nx114VWepoI
 - [This project management system connects the dots for your product team](https://www.notion.com/help/guides/this-project-management-system-connects-the-dots-for-your-product-team)
 
 - [A guide to connecting projects and meeting notes](https://www.notion.com/help/guides/a-guide-to-connecting-projects-and-meeting-notes)
-
-## FAQ
-
-### Can I export or import relations?
-
-When you export a relational database as a CSV file, the relation properties will export as plain text URLs. For now, you can't re-import that CSV back into Notion to re-establish the relations with other databases.
-
-### Can I duplicate a database with a relation?
-
-Yes. In the example above, if you duplicate the Customers database, the duplicate database, Customers (1), will not show as a relation in the Items database. That’s because upon duplicating the Customers database, we convert the relation from a 2-way sync to a 1-way sync. If you'd like, you can always convert the relation back to a 2-way sync.
-
-### Can I rollup a rollup?
-
-Unfortunately not, as this could create unintended loops. We recommend sticking to rolling up other properties 😊

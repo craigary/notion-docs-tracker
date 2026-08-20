@@ -1,7 +1,7 @@
 ---
 title: "Create & manage groups"
 emoji: null
-description: "Groups in Notion allow you to bring people together and collaborate more easily. Learn about group owners, plus how to create and manage groups."
+description: null
 url: "https://www.notion.com/help/create-and-manage-groups"
 key: "help:create-and-manage-groups"
 coverImage: null
@@ -113,25 +113,3 @@ To share a teamspace with groups in your workspace:
 
 
 ## FAQs
-
-### How can groups be used instead of multiple separate workspaces?
-
-We've seen people create multiple workspaces instead of groups to set granular permissions. For instance, they create separate workspaces for Design, Marketing, and their executive team so these groups can't access, edit, or get distracted by each other's work. There's a quick workaround for this using groups:
-
-* Disable `Workspace access`. That way pages won't show for people and groups who aren't specifically granted access.
-
-* On every page, grant different levels of access per group. Those access levels will hold true for all the sub-pages on that page.
-
-* So, for example, you could have a section of your workspace just for the engineering team. Create a group of all your engineers, then on the top-level page for that team, turn on `Full access` for only that group. Nest pages inside that page, and only the engineering team can access them, too!
-
-
-### Who can manage groups in my workspace?
-
-Workspace owners and membership admins can create and manage all groups.
-
-Group owners can manage membership, group owners and rename the groups they own.
-
-
-### Can I restrict who can create groups?
-
-On Enterprise plans, workspace owners can restrict group creation to workspace owners and membership admins only.

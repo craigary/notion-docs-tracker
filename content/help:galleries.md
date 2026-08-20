@@ -1,10 +1,10 @@
 ---
 title: "Gallery view"
 emoji: null
-description: "Gallery view is the best way to display databases with visual components, like mood boards, office directories, virtual recipe boxes, and more."
+description: null
 url: "https://www.notion.com/help/galleries"
 key: "help:galleries"
-coverImage: "https://img.youtube.com/vi/RNkpc84wYn8/maxresdefault.jpg"
+coverImage: null
 category: "Database views"
 categoryKey: "category:database-views"
 ---
@@ -89,31 +89,3 @@ To choose how properties are displayed in your gallery:
 
 
 ## FAQs
-
-### How can I turn a full-page database into an inline database, or vice versa?
-
-To change a full-page database into an inline database:
-
-1. Drag the full-page database from your sidebar into another page. It will become a sub-page of that page.
-
-2. Open the parent page, click the **`⋮⋮`** button next to the database sub-page, and select `Turn into inline`.
-
-To change an inline database to a full-page database, drag an inline database block into your sidebar as a top-level page.
-
-
-### I don’t want my database pages to open on the side or in the center of my page. Is there anyway to open a database page in full-screen by default?
-
-Yes! To do this:
-
-1. Open the settings menu at the top of your database.
-
-2. Select `Layout` → `Open pages in` → `Full page`.
-
-
-### How can I include an emoji in a tag, such as "🔥Urgent"?
-
-Use your computer's emoji picker to include emojis inline on a Notion page, or anywhere else on your computer! Here are shortcuts to bring up the picker:
-
-Mac: `ctrl` + `cmd` + `space`
-
-Windows 10: `windows key` + `.` or `windows key` + `;`

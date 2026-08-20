@@ -1,7 +1,7 @@
 ---
 title: "Notion Mail security practices"
 emoji: null
-description: "Learn about how we handle security for Notion Mail."
+description: null
 url: "https://www.notion.com/help/notion-mail-security-practices"
 key: "help:notion-mail-security-practices"
 coverImage: null

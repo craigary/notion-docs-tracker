@@ -1,7 +1,7 @@
 ---
 title: "Microsoft SharePoint & OneDrive AI Connector"
 emoji: null
-description: "Connect SharePoint & OneDrive to Notion AI."
+description: null
 url: "https://www.notion.com/help/notion-ai-connector-for-microsoft-sharepoint-and-onedrive"
 key: "help:notion-ai-connector-for-microsoft-sharepoint-and-onedrive"
 coverImage: null
@@ -97,90 +97,3 @@ The SharePoint & OneDrive Connector is most helpful for:
 
 
 ## FAQs
-
-### What data does Notion AI get access to?
-
-Notion AI can read DOCX, XLSX, PPTX, and PDF files, but it cannot currently read SharePoint site pages.
-
-
-### Does Notion AI respect my SharePoint and OneDrive permissions?
-
-Yes. Notion AI strictly follows existing permissions as outlined in our [Notion AI Security Practices](https://www.notion.com/help/notion-ai-security-practices).
-
-Users can only access and generate content for resources they have permission to view.
-
-For third-party content, Notion AI manages permissions by processing information solely based on the access rights established between Microsoft and Notion users.
-
-
-### How are permissions mapped between Notion AI and SharePoint/OneDrive?
-
-Notion AI automatically maps Microsoft members to their corresponding Notion accounts.
-
-Notion AI maps user permissions with the Microsoft SharePoint/OneDrive AI Connector by syncing with the permissions set in Microsoft 365.
-
-It reads the Microsoft access control lists (ACLs) to ensure users can only access documents and files they have permission to view within their Microsoft tenant.
-
-* This mapping is enforced by:
-
-  * Fetching current file and folder permissions using Microsoft Graph API endpoints (like DriveItem list permissions).
-
-  * Tracking changes to permissions using Microsoft’s DriveItem delta feature, polling every few hours to stay up to date.
-
-  * Enforcing access rules—if you can’t access a file in SharePoint or OneDrive, you won’t see it in Notion AI either, regardless of its presence in the index.⁠
-
-The system syncs content updates and permission changes from SharePoint/OneDrive every hour.
-
-
-### How long does it take for the integration to complete and how far back does it look?
-
-Once the integration is set up, <!-- -->Notion user<!-- --> will be able to find documents created or viewed up to one year before the setup completion.
-
-Depending on the amount of content during this timeframe, the process can take up to 36 hours.
-
-
-### How long does it take for Notion AI to read new SharePoint and OneDrive content?
-
-New content added to SharePoint or OneDrive updates hourly and becomes available in Notion AI searches.
-
-
-### Can I limit the scope of my search to only SharePoint and OneDrive?
-
-Yes! In the Notion AI, click `Find in` to toggle between `Everything you can access`, `Notion`, and `SharePoint and OneDrive`.
-
-
-### Who can access Microsoft SharePoint content using Notion AI?
-
-You must be both a Microsoft SharePoint/OneDrive user and a Notion workspace member to use this integration.
-
-Notion AI automatically maps Microsoft members to their corresponding Notion accounts.
-
-The system syncs content updates and permission changes from SharePoint/OneDrive every hour.
-
-
-### How does Notion store or reference my SharePoint and OneDrive data in its systems?
-
-SharePoint and OneDrive data is stored as embeddings using vector databases like Turbopuffer. These embeddings allow for efficient searches and comparisons across different pieces of text to provide accurate and relevant responses to your questions.
-
-Notion’s vector databases have been vetted by our Security team as well as by an external auditor to obtain their SOC2 Type II certification. See [this article](https://www.notion.com/help/notion-ai-security-practices) for more information.
-
-
-### Can I add connect multiple Notion workspaces to my SharePoint/OneDrive?
-
-Not at this time. The workspace admin will only be able to connect one Notion workspace to one Microsoft Tenant.
-
-
-### How can I disconnect my SharePoint and OneDrive from Notion?
-
-Workspace owners can disconnect SharePoint and OneDrive by opening Notion AI at the bottom right of Notion and clicking on `•••` → `Connect SharePoint and OneDrive` → `Settings` → `Disconnect`.
-
-
-### What happens to my SharePoint and OneDrive data if I disconnect?
-
-Notion handles your SharePoint and OneDrive data following strict data minimization principles.
-
-When you disconnect SharePoint and OneDrive from Notion AI, your content becomes unsearchable immediately. All associated data is then deleted within 24 hours of your disconnection request.
-
-
-### What content is and is not supported with the SharePoint and OneDrive AI connector?
-
-Notion AI can read DOCX, XLSX, PPTX, and PDF files, but it **cannot** currently read SharePoint site pages or personal OneDrives.

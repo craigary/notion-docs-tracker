@@ -1,7 +1,7 @@
 ---
 title: "Unique ID"
 emoji: null
-description: "Add an extra layer of project management by giving your tasks their own IDs."
+description: null
 url: "https://www.notion.com/help/unique-id"
 key: "help:unique-id"
 coverImage: null

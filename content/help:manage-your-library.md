@@ -1,7 +1,7 @@
 ---
 title: "Manage your Library"
 emoji: null
-description: "Use Library to find, organize, and manage pages across your workspace, including customizing what shows up in your sidebar."
+description: null
 url: "https://www.notion.com/help/manage-your-library"
 key: "help:manage-your-library"
 coverImage: null

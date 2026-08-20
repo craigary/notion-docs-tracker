@@ -1,10 +1,10 @@
 ---
 title: "Views, filters, sorts & groups"
 emoji: null
-description: "You can view the same database in multiple ways, and switch back and forth between them depending on your needs. Within a view, you can add filters and sorts to easily categorize your content."
+description: null
 url: "https://www.notion.com/help/views-filters-and-sorts"
 key: "help:views-filters-and-sorts"
-coverImage: "https://img.youtube.com/vi/Nx114VWepoI/maxresdefault.jpg"
+coverImage: null
 category: "Database views"
 categoryKey: "category:database-views"
 ---

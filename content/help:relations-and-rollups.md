@@ -1,10 +1,10 @@
 ---
 title: "Relations & rollups"
 emoji: null
-description: "Have you ever wanted to connect the data between two tables? You're in luck! Notion's relation property is designed to help you express useful relationships between items in different databases."
+description: null
 url: "https://www.notion.com/help/relations-and-rollups"
 key: "help:relations-and-rollups"
-coverImage: "https://img.youtube.com/vi/mWQyAkOFA_A/maxresdefault.jpg"
+coverImage: null
 category: "Databases"
 categoryKey: "category:databases"
 ---
@@ -225,17 +225,3 @@ In both tables and boards, you can apply calculations to your rollup column to g
 
 
 ## FAQs
-
-### Can I export or import relations?
-
-When you export a relational database as a CSV file, the relation properties will export as plain text URLs. For now, you can't re-import that CSV back into Notion to re-establish the relations with other databases.
-
-
-### Can I duplicate a database with a relation?
-
-Yes. In the example above, if you duplicate the Customers database, the duplicate database, Customers (1), will not show as a relation in the Items database. That’s because upon duplicating the Customers database, we convert the relation from a 2-way sync to a 1-way sync. If you'd like, you can always convert the relation back to a 2-way sync.
-
-
-### Can I rollup a rollup?
-
-Unfortunately not, as this could create unintended loops. We recommend sticking to rolling up other properties 😊

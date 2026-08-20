@@ -1,7 +1,7 @@
 ---
 title: "Manage your Enterprise workspace"
 emoji: null
-description: "This one's for administrators of workspaces on the Enterprise Plan! Find out more about your capabilities in Notion."
+description: null
 url: "https://www.notion.com/help/enterprise-admins"
 key: "help:enterprise-admins"
 coverImage: null

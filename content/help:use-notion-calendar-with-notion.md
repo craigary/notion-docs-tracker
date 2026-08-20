@@ -1,7 +1,7 @@
 ---
 title: "Use Notion Calendar with Notion"
 emoji: null
-description: "Notion Calendar and Notion work together to create a seamless experience as you go from meetings to notes to projects."
+description: null
 url: "https://www.notion.com/help/use-notion-calendar-with-notion"
 key: "help:use-notion-calendar-with-notion"
 coverImage: null
@@ -213,7 +213,3 @@ If you want to change your linked Notion account, or you’ve lost access to the
 
 
 ## FAQs
-
-### Is it possible to add my Notion Calendar events to a Notion page?
-
-At this time, you can’t bring calendars like Notion Calendar or Google Calendar into Notion. If you’d like to create and manage calendars from inside a Notion page, you can learn more about how to do that [here →](https://www.notion.com/help/calendars)

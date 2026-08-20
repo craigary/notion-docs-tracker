@@ -1,7 +1,7 @@
 ---
 title: "Connect a custom domain with Notion Sites"
 emoji: null
-description: "If you already have a custom domain, you can use it with Notion Sites. Learn how to do this, both in Notion and in your DNS provider."
+description: null
 url: "https://www.notion.com/help/connect-a-custom-domain-with-notion-sites"
 key: "help:connect-a-custom-domain-with-notion-sites"
 coverImage: null

@@ -1,7 +1,7 @@
 ---
 title: "How Notion 3.0 protects against prompt injection risks"
 emoji: null
-description: "Learn about how we protect against prompt injection risks."
+description: null
 url: "https://www.notion.com/help/how-notion-protects-against-prompt-injection-risks"
 key: "help:how-notion-protects-against-prompt-injection-risks"
 coverImage: null

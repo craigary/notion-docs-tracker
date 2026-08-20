@@ -1,7 +1,7 @@
 ---
 title: "People profiles"
 emoji: null
-description: "People profiles in Notion help you learn more about and collaborate more quickly with fellow workspace members."
+description: null
 url: "https://www.notion.com/help/people-profiles"
 key: "help:people-profiles"
 coverImage: null

@@ -1,7 +1,7 @@
 ---
 title: "Get started with Notion Mail"
 emoji: null
-description: "Notion Mail helps you manage your emails your way."
+description: null
 url: "https://www.notion.com/help/get-started-with-notion-mail"
 key: "help:get-started-with-notion-mail"
 coverImage: null
