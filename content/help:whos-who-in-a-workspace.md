@@ -1,7 +1,7 @@
 ---
 title: "Who’s who in a workspace"
 emoji: null
-description: null
+description: "Learn about the different kinds of people in a workspace."
 url: "https://www.notion.com/help/whos-who-in-a-workspace"
 key: "help:whos-who-in-a-workspace"
 coverImage: null
@@ -169,3 +169,17 @@ To remove a member or guest from a workspace, a workspace owner or a membership 
 
 
 ## FAQs
+
+### How can I decide whether to add someone as a guest or a restricted member?
+
+You can add someone as a guest if:
+
+* You don’t need to manage them through SCIM or permission groups.
+
+* They only need access to a very specific list of pages.
+
+You can add someone as a restricted member if:
+
+* They need a broader level of access to your workspace, like the ability to interact with all pages in a teamspace.
+
+* You want them to be able to use AI features in your workspace, with Notion AI respecting the restricted member’s permissions.

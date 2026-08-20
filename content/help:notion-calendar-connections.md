@@ -1,7 +1,7 @@
 ---
 title: "Notion Calendar connections & API"
 emoji: null
-description: null
+description: "Notion Calendar works with a lot of other tools that you already use in your day to day. It also works seamlessly with Notion."
 url: "https://www.notion.com/help/notion-calendar-connections"
 key: "help:notion-calendar-connections"
 coverImage: null

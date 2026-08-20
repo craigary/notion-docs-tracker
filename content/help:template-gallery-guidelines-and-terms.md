@@ -1,7 +1,7 @@
 ---
 title: "Marketplace guidelines & terms"
 emoji: null
-description: null
+description: "Read the terms and guidelines for using Marketplace."
 url: "https://www.notion.com/help/template-gallery-guidelines-and-terms"
 key: "help:template-gallery-guidelines-and-terms"
 coverImage: null

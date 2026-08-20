@@ -1,7 +1,7 @@
 ---
 title: "Notion Faces"
 emoji: null
-description: null
+description: "Learn how to create your own personalized portrait with Notion Faces."
 url: "https://www.notion.com/help/notion-faces"
 key: "help:notion-faces"
 coverImage: null

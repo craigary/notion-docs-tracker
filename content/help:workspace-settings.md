@@ -1,7 +1,7 @@
 ---
 title: "Workspace settings"
 emoji: null
-description: null
+description: "When you sign up for Notion, you can create multiple workspaces connected to your account. Each one can be customized to your liking with workspace-specific settings. Here's how to manage every aspect of an individual workspace."
 url: "https://www.notion.com/help/workspace-settings"
 key: "help:workspace-settings"
 coverImage: null
@@ -225,3 +225,35 @@ If you're on the Business or Enterprise Plan, you can set up SAML SSO for your w
 
 
 ## FAQs
+
+### I'm on a Plus Plan, but don't see any of these settings in Settings.
+
+Only Workspace owners can access these workspace settings. If you navigate to the Members tab, you'll see whether you're a guest, member, Membership admin, or Workspace owner in the workspace. Ask a Workspace owner to upgrade your membership status if necessary.
+
+
+### I'm trying to add a new domain to the Allowed Email Domains setting, but it won't let me.
+
+New allowed domains are restricted to the email domains of the members of that workspace. To add a domain that isn't available, someone with an email address from that domain will have to join the workspace.
+
+
+### Does Notion support custom domains?
+
+Learn how to claim a `notion.site` domain or connect a custom domain to your Notion Site [here →](https://www.notion.com/help/manage-your-notion-sites#manage-your-domains)
+
+
+### How can I migrate all my Notion content to a different workspace?
+
+**Note:&#x20;**&#x41;ny migrated content will be duplicated to the new workspace and these pages sometimes have issues. For more information, [click here](https://www.notion.com/help/transfer-content-to-another-account).
+
+To move your content from one workspace to another associated with the same account, click `•••` next to each of the top-level pages in your sidebar (or right click) and select `Move to`. <!-- -->At the bottom of the move menu, you’ll see a drop down to select a different workspace.
+
+When you move top-level pages, all their sub-pages go with them. They'll appear in the `Private` section but can be moved wherever you want to put them.
+
+****
+
+
+### What if I accidentally deleted something permanently? Any way to get it back?
+
+If you accidentally delete a page, a workspace, or even your entire account, we can help! Accidents happen 😅 Just send us a message in the app by clicking `?` at the bottom of your sidebar, or email us at email protected.
+
+We keep backups of our database, which allows us to restore a snapshot of your content in the past 30 days if you need it.

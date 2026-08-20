@@ -1,10 +1,10 @@
 ---
 title: "Manage members & guests"
 emoji: null
-description: null
+description: "It's easy to work with others in Notion. Add members to collaborate with you in your workspace, or invite guests to view, comment on, or edit specific pages."
 url: "https://www.notion.com/help/add-members-admins-guests-and-groups"
 key: "help:add-members-admins-guests-and-groups"
-coverImage: null
+coverImage: "https://img.youtube.com/vi/2DNoq4dmmh8/maxresdefault.jpg"
 category: "Sharing & permissions"
 categoryKey: "category:sharing-and-collaboration"
 ---
@@ -239,3 +239,32 @@ To remove a member or guest from a workspace, a workspace owner or a membership 
 
 
 ## FAQs
+
+### Is there a limit to how many guests I can add?
+
+See the guest limit for your plan [here →](https://www.notion.com/pricing)
+
+If your workspace is above the guest limit for your [plan](https://www.notion.com/pricing), **new users that you share content with can only be added as a member (instead of as a guest) if they belong to your workspace's email domains**. This could mean that they have an [allowed email domain](https://www.notion.com/help/workspace-settings#allowed-email-domains) or an email domain matching the workspace owner’s domain or one of the workspace’s [verified domains](https://www.notion.com/help/domain-management#domain-verification).
+
+
+### I clicked the Join or create workspace button, but it will only let me create a workspace. How do I join a workspace?
+
+You can only join a workspace via the `Join or create workspace` button if that workspace has the `Allowed Email Domains` setting enabled to allow users with your email domain join the workspace automatically.
+
+Otherwise, you'll need to ask an admin from the workspace to send you an invite.
+
+
+### How can groups be used instead of multiple separate workspaces?
+
+We've seen people create multiple workspaces instead of groups to set granular permissions. For instance, they create separate workspaces for Design, Marketing, and their executive team so these groups can't access, edit, or get distracted by each other's work. There's a quick workaround for this using groups:
+
+* Disable `Workspace access`. That way pages won't show for people and groups who aren't specifically granted access.
+
+* On every page, grant different levels of access per group. Those access levels will hold true for all the sub-pages on that page.
+
+* So, for example, you could have a section of your workspace just for the engineering team. Create a group of all your engineers, then on the top-level page for that team, turn on `Full access` for only that group. Nest pages inside that page, and only the engineering team can access them, too!
+
+
+### How can I allow members in my workspace to request guests for approval?
+
+As a workspace owner, you can disable guests for your workspace in your [workspace security settings](https://www.notion.com/help/workspace-settings), but still allow members to send guest invite requests for review by the workspace owners. This provides a standardized way for guests to get access to content within your workspace, without being an all or nothing approach.

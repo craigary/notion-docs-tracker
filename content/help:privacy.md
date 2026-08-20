@@ -1,7 +1,7 @@
 ---
 title: "Privacy practices"
 emoji: null
-description: null
+description: "Privacy is important to us — learn about how we handle privacy at Notion."
 url: "https://www.notion.com/help/privacy"
 key: "help:privacy"
 coverImage: null

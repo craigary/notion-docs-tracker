@@ -1,7 +1,7 @@
 ---
 title: "Custom data retention settings"
 emoji: null
-description: null
+description: "Enterprise workspace owners have control over when users’ pages are deleted from Trash, and how long they can be retained for afterwards."
 url: "https://www.notion.com/help/custom-data-retention-settings"
 key: "help:custom-data-retention-settings"
 coverImage: null

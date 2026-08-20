@@ -1,7 +1,7 @@
 ---
 title: "Notion Mail for mobile"
 emoji: null
-description: null
+description: "Use Notion Mail on your iOS device so you can stay up-to-date even on the go."
 url: "https://www.notion.com/help/notion-mail-for-mobile"
 key: "help:notion-mail-for-mobile"
 coverImage: null

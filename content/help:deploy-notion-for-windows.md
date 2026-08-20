@@ -1,7 +1,7 @@
 ---
 title: "Deploy Notion for Windows"
 emoji: null
-description: null
+description: "Learn how to install and update Notion for your organization."
 url: "https://www.notion.com/help/deploy-notion-for-windows"
 key: "help:deploy-notion-for-windows"
 coverImage: null

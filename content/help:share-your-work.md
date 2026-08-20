@@ -1,10 +1,10 @@
 ---
 title: "Share your work"
 emoji: null
-description: null
+description: "Share any Notion page you create with select people, your whole team, or the entire web. It's up to you. Here's a quick overview of how to share."
 url: "https://www.notion.com/help/share-your-work"
 key: "help:share-your-work"
-coverImage: null
+coverImage: "https://img.youtube.com/vi/mvaNaZ4-E4c/maxresdefault.jpg"
 category: "Notion basics"
 categoryKey: "category:new-to-notion"
 ---

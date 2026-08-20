@@ -1,7 +1,7 @@
 ---
 title: "MFA enforcement"
 emoji: null
-description: null
+description: "Require guests to verify their identity a second way before they can open your workspace."
 url: "https://www.notion.com/help/mfa-enforcement"
 key: "help:mfa-enforcement"
 coverImage: null

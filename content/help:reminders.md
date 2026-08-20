@@ -1,7 +1,7 @@
 ---
 title: "Reminders"
 emoji: null
-description: null
+description: "Notion can help remind you or other people about what’s important."
 url: "https://www.notion.com/help/reminders"
 key: "help:reminders"
 coverImage: null
@@ -53,3 +53,14 @@ When you set a reminder, you (or the person you’re reminding) will be notified
 
 
 ## FAQs
+
+### How can I trigger a reminder for someone else on my team?
+
+The best way to do this is to use an @-mention and @-remind on the same line. For example:
+
+`@Camille Ricketts @remind next Thursday 4pm` to finish proofreading
+
+
+### Does Notion have recurring reminders? Like "remind me every Monday to water the plants"?
+
+Not at the moment, but recurring tasks and recurring reminders are on the roadmap!

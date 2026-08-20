@@ -1,7 +1,7 @@
 ---
 title: "Notion for education"
 emoji: null
-description: null
+description: "Whether you’re a student or a teacher, Notion is here to help balance your many responsibilities with its all-in-one workspace."
 url: "https://www.notion.com/help/notion-for-education"
 key: "help:notion-for-education"
 coverImage: null
@@ -114,3 +114,54 @@ You can also use our templates to build a foundation for your education workspac
 
 
 ## FAQs
+
+### Are there any discounts for students?
+
+The Education Plus Plan for individual students is a free Plus Plan for a one-member workspace. It’s available for students signed in with their education institution's email per the WHED. Offer [terms and conditions](https://notion.notion.site/Notion-AI-Add-On-Student-Discount-Terms-and-Conditions-92f6a23077da41508f5928e9ad8c6dc6) apply.\
+\
+With the Plus plan, students can organize plans, tasks and notes across school and life with unlimited pages & blocks, file uploads, more features to customize and publish your site, and 30-day version history.\
+\
+Just sign in with your school email address, by scrolling down the Billing in-product page and selecting Get free Education plan.\
+\
+Learn more about our student offers here: https\://www\.notion.com/help/notion-for-education
+
+
+### How do I sign up for the free Education plan?
+
+You’re eligible for the free Plus plan if:
+
+1. You’re a student or educator at an accredited college or university.
+
+2. You have a school email address. We don’t accept student IDs or other documentation to verify at this time.
+
+You’re not eligible if:
+
+1. You’re a K-12 student or K-12 educator. But you can still use our Free Plan with unlimited storage for free! Learn more on our [pricing page](https://www.notion.com/pricing).
+
+2. Your Notion account is associated with a personal email address, such as a gmail.com or email address.
+
+Eligible users can sign up for the plan by following these steps:
+
+1. Go to `Settings` in your sidebar.
+
+2. Select `Upgrade plan`.
+
+3. Select `Get free education plan`. If your school is recognized by our system, you’ll be upgraded automatically!
+
+4. If you satisfy all requirements above for access to the plan but don't see `Get free education plan`, please write into email protected to request your school domain get access. If your institution is recognized by and listed in the WHED, your domain will be allowlisted and receive access.
+
+
+### What's Notion's student organization plan?
+
+Yes! Student-led organizations at select verified higher education institutions around the globe can get access to our Plus plan and add all of their org members to collaborate entirely for free.\
+\
+With the Plus Plan, student orgs can upload unlimited blocks and files, add members to their workspace, get 30-day page history, add up to 100 guests, and more — free of charge.\
+\
+[Sign your org up for the free offer here](https://www.notion.com/notion-for-student-orgs-apply).
+
+**Note:** This discount is only eligible for workspaces for volunteer student organizations. Workspaces that are not designated for student organizations with will not qualify for the discount.
+
+
+### I’m a student who loves Notion. How can I get more involved?
+
+Amazing! Thanks for being part of our community. The [Notion Campus Leaders Program](https://notion.notion.site/Notion-Campus-Leaders-Program-5817b00cbaa244bca9e0e498804cbab4?pvs=4) enables students around the world to share and teach Notion at their universities, while building strong Notion communities on campus. We encourage you to [attend an upcoming CL event](https://www.notion.com/notion/Notion-Campus-Leaders-Program-5817b00cbaa244bca9e0e498804cbab4?pvs=4#e736841f35fb47f0b408a47d7ea5fd1f) on your campus — or, if you’re feeling extra passionate, you can [apply](https://www.notion.com/notion/Notion-Campus-Leaders-Program-5817b00cbaa244bca9e0e498804cbab4?pvs=4#e642b1878294419282aeb5c7ee9456ce) to become a Campus Leader yourself!

@@ -1,7 +1,7 @@
 ---
 title: "Comments, mentions & reactions"
 emoji: null
-description: null
+description: "Use comments and mentions to work with others asynchronously."
 url: "https://www.notion.com/help/comments-mentions-and-reminders"
 key: "help:comments-mentions-and-reminders"
 coverImage: null
@@ -181,3 +181,16 @@ Add emoji reactions to a comment to communicate quickly with teammates! Here's h
 
 
 ## FAQs
+
+### Someone @-mentioned me in a page, but I didn't receive an email notification.
+
+If you have Notion open on a mobile device or computer, you won't receive push or email notifications for @-mentions. You'll only get a red badge notification in your `Inbox`.
+
+If Notion is not open on your mobile device or computer at the time of the notification, then you'll receive an email instead of an inbox notification.
+
+
+### What's the difference between @-mentioning a page, and adding a Link to page block?
+
+`Link to page` works kind of like creating a sub-page. When you reference a Notion page this way, it will show up in your sidebar as a subpage of the page where it was linked.
+
+@-mentioning a page creates something more like a hyperlink. Pages you @-mention won’t show up as subpages of the pages they’ve been mentioned in.

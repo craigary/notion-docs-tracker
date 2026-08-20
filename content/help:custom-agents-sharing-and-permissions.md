@@ -1,7 +1,7 @@
 ---
 title: "Custom Agents sharing & permissions"
 emoji: null
-description: null
+description: "Learn how Custom Agent permissions work in Notion, and how they differ from Notion AI."
 url: "https://www.notion.com/help/custom-agents-sharing-and-permissions"
 key: "help:custom-agents-sharing-and-permissions"
 coverImage: null
@@ -233,3 +233,61 @@ The Admin API is helpful when you manage many agents or want to bring usage data
 
 
 ## FAQs
+
+### What's the difference between Custom Agents and Notion AI?
+
+**Notion AI** acts as you—it respects your personal permissions and only sees what you can see.
+
+**Custom Agents** act as specialized team members with their own permissions. They have access to specific resources you grant them, and anyone who uses the agent can benefit from that access.
+
+Notion AI is on-demand, whereas Custom Agents are **autonomous** and can run automatically in the background.
+
+Learn more about pricing and [how Custom Agents use Notion credits](https://www.notion.com/help/custom-agent-pricing#how-custom-agents-use-notion-credits).
+
+
+### Can a Custom Agent access something I can't see?
+
+Yes. If someone shares a Custom Agent with you, that agent might have access to resources you don't personally have access to. You only see information the agent includes in its responses. This is by design, allowing agents to coordinate work across permission boundaries.
+
+However, if read and write access is enabled for the resource, the agent can edit those resources on your behalf. This means you can instruct the agent to make changes, not just retrieve information.
+
+
+### What happens if I remove someone from a private page that a Custom Agent can access?
+
+The person will lose direct access to that page, but if they can still use the Custom Agent, they might be able to get information from that page through the agent.
+
+If you want to fully prevent access, either remove the page from the agent's access, or remove that person's access to the agent.
+
+
+### Can I see what resources a Custom Agent has access to before using it?
+
+Anyone with `Can view and interact` permission can see the agent's settings page, which shows all connected resources.
+
+To view an agent's settings, open the Custom Agent page, go to the **Settings** tab, and review the **Tools and access** section.
+
+
+### What if I accidentally give an agent too much access?
+
+You can remove resources from an agent's **Tools and Access** settings at any time. The changes take effect immediately.
+
+**If you own a page or database:** Remove the agent from that resource directly through the share menu—even if you don't have access to the agent itself.
+
+**If you're an Enterprise workspace owner:** Use the Agent Directory to modify any agent's permissions, even if you didn't create it.
+
+
+### Can I stop a Custom Agent from accessing my content?
+
+Yes. As a page or database owner, you can remove any Custom Agent from your resource through the share menu.
+
+To remove an agent, open the page or database, click `Share`, find the Custom Agent in the list, and click the `X` to remove it.
+
+If you change your mind, you can add the agent back from the same share menu at any time.
+
+
+### How do I know if an agent is accessing my content?
+
+Custom Agents appear in the share menu of any page or database they have access to (just like people do).
+
+To check, open the page or database, click `Share`, and look for Custom Agents in the list.
+
+You can also add a Custom Agent to a page or database from the same menu. Click `Share`, search for the agent by name, and select it to give it access.

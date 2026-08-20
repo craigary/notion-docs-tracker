@@ -1,7 +1,7 @@
 ---
 title: "Remove a workspace from your organization or contract"
 emoji: null
-description: null
+description: "Learn how to remove a workspace from your organization settings vs how to remove it from your contract."
 url: "https://www.notion.com/help/remove-a-workspace-from-your-organization-or-contract"
 key: "help:remove-a-workspace-from-your-organization-or-contract"
 coverImage: null

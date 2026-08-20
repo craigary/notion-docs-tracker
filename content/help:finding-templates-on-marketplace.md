@@ -1,7 +1,7 @@
 ---
 title: "Finding templates on Marketplace"
 emoji: null
-description: null
+description: "Whatever you’re looking to accomplish, there’s a template for it in Marketplace. Here’s how you can explore Marketplace, add and manage templates, and use them in your Notion workspace."
 url: "https://www.notion.com/help/finding-templates-on-marketplace"
 key: "help:finding-templates-on-marketplace"
 coverImage: null

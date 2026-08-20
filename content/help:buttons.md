@@ -1,7 +1,7 @@
 ---
 title: "Buttons"
 emoji: null
-description: null
+description: "In Notion, you can easily automate simple and repetitive tasks to save time."
 url: "https://www.notion.com/help/buttons"
 key: "help:buttons"
 coverImage: null
@@ -173,3 +173,23 @@ To delete your button:
 
 
 ## FAQs
+
+### Can I use an @-tag such as @today inside a template button?
+
+Yes! You'll be able to specify whether you want the @-mention to input a fixed date or user, or the date or user upon duplication.
+
+
+### What permission level do I need to interact with a button?
+
+A user must have `Full access` or `Can edit` permissions to interact with a button on a page.
+
+If the button is interacting with or making changes to another page or database, additional permissions will be required:
+
+* If the button is adding a page to or editing a page in a database, the person who clicks the button must be an editor of the target database.
+
+* If the button is opening a page, the person who clicks the button must have access to view the page.
+
+
+### Why is my button not naming a created page properly?
+
+One reason this might happen is if you're using a template within a button to create a page. The values from the template overwrite the values from the button.

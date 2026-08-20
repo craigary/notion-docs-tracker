@@ -1,7 +1,7 @@
 ---
 title: "Paid plan trials"
 emoji: null
-description: null
+description: "Learn how you can trial Notion's paid plans."
 url: "https://www.notion.com/help/paid-plan-trials"
 key: "help:paid-plan-trials"
 coverImage: null

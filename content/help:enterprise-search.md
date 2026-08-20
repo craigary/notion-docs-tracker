@@ -1,10 +1,10 @@
 ---
 title: "Enterprise Search"
 emoji: null
-description: null
+description: "Find relevant information from your workspace and your connected apps in just seconds."
 url: "https://www.notion.com/help/enterprise-search"
 key: "help:enterprise-search"
-coverImage: null
+coverImage: "https://img.youtube.com/vi/rv5Bk8O4d8g/maxresdefault.jpg"
 category: "Notion AI"
 categoryKey: "category:notion-ai"
 ---

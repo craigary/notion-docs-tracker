@@ -1,7 +1,7 @@
 ---
 title: "What happens when I downgrade my plan?"
 emoji: null
-description: null
+description: "When you downgrade your Notion plan, some of the features available with your previous plan may be affected. Here’s what to expect."
 url: "https://www.notion.com/help/plan-downgrade"
 key: "help:plan-downgrade"
 coverImage: null

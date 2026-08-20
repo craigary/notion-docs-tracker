@@ -1,10 +1,10 @@
 ---
 title: "Connected properties"
 emoji: null
-description: null
+description: "Integrate your favorite tools directly into your Notion databases with Connected properties. Link files from Google Drive, designs from Figma, tickets from Zendesk, and pull requests from GitHub — all without leaving your Notion workspace ↔️"
 url: "https://www.notion.com/help/connected-properties"
 key: "help:connected-properties"
-coverImage: null
+coverImage: "https://img.youtube.com/vi/Gtjeb4xkWHo/maxresdefault.jpg"
 category: "Connections"
 categoryKey: "category:connections"
 ---

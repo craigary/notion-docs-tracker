@@ -1,7 +1,7 @@
 ---
 title: "Enterprise Search security & privacy practices"
 emoji: null
-description: null
+description: "Learn about our security and privacy practices for Enterprise Search, which allows you to find information from apps that you connect to Notion."
 url: "https://www.notion.com/help/enterprise-search-security-and-privacy-practices"
 key: "help:enterprise-search-security-and-privacy-practices"
 coverImage: null

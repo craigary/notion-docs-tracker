@@ -1,7 +1,7 @@
 ---
 title: "Schedule meetings with Notion Mail"
 emoji: null
-description: null
+description: "With Notion Mail, scheduling time with others takes just a few clicks."
 url: "https://www.notion.com/help/schedule-meetings-with-notion-mail"
 key: "help:schedule-meetings-with-notion-mail"
 coverImage: null

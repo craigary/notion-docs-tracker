@@ -1,7 +1,7 @@
 ---
 title: "Views, groups, filters & properties"
 emoji: null
-description: null
+description: "Use views and custom properties to organize your emails in a meaningful way."
 url: "https://www.notion.com/help/views-groups-filters-and-properties"
 key: "help:views-groups-filters-and-properties"
 coverImage: null

@@ -1,7 +1,7 @@
 ---
 title: "Use Cursor in Notion (beta)"
 emoji: null
-description: null
+description: "Connect Cursor to your Notion workspace and use it as an AI coding and productivity assistant. "
 url: "https://www.notion.com/help/connect-cursor-to-notion"
 key: "help:connect-cursor-to-notion"
 coverImage: null
@@ -81,3 +81,27 @@ Workspace admins can switch off Cursor agents by going to `Settings` → `Notion
 
 
 ## FAQs
+
+### How is Cursor different from a Custom Agent?
+
+Custom Agents are built and run entirely in Notion. Cursor agents run on Cursor's infrastructure, but you interact with them in Notion.
+
+
+### How does billing work? Does Cursor use Notion credits?
+
+No. Cursor is billed through your own Cursor account. It doesn't use Notion credits.
+
+
+### Can I use my own billing?
+
+Yes. Cursor billing always runs through your own Cursor account.
+
+
+### Where can I view my Cursor activity?
+
+Results appear in Notion on the page or task where the agent ran. You can also find your chat sessions in the agent view in Notion, or in your Cursor dashboard. In your dashboard you can Filter → Source → API to see your chats.
+
+
+### Does Cursor in Notion support zero data retention (ZDR)?
+
+Notion's own ZDR commitments don't cover Cursor agents. You configure your ZDR policy and relationship with Cursor. Sessions run on Cursor's infrastructure under Cursor's data handling policies.

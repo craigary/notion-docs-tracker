@@ -1,7 +1,7 @@
 ---
 title: "Enterprise connection settings"
 emoji: null
-description: null
+description: "Enterprise connection settings empower workspace owners with granular control. Manage member access, approve connections, and streamline your Notion workspace's integration ecosystem — all from one centralized dashboard."
 url: "https://www.notion.com/help/enterprise-connection-settings"
 key: "help:enterprise-connection-settings"
 coverImage: null

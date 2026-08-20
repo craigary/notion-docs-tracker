@@ -1,7 +1,7 @@
 ---
 title: "Webhook actions"
 emoji: null
-description: null
+description: "Use webhook actions in Notion’s automation features."
 url: "https://www.notion.com/help/webhook-actions"
 key: "help:webhook-actions"
 coverImage: null

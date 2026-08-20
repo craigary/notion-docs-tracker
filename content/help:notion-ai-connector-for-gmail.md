@@ -1,7 +1,7 @@
 ---
 title: "Gmail AI Connector"
 emoji: null
-description: null
+description: "Learn how to connect Gmail to Notion AI."
 url: "https://www.notion.com/help/notion-ai-connector-for-gmail"
 key: "help:notion-ai-connector-for-gmail"
 coverImage: null
@@ -47,3 +47,58 @@ For users that do not have a paid Google Workspace plan or want to only install 
 
 
 ## FAQs
+
+### What data does Notion AI get access to?
+
+Notion AI can read all email messages in your selected Google Workspace orgs. We maintain strict cross-user security: i.e. no user will see other users’ emails in their search.
+
+
+### Does Notion AI respect my Gmail permissions?
+
+Yes. Each Notion user’s AI searches only that user’s Gmail inbox — we use an exact email address match. See more details about our [Notion AI Security Practices](https://www.notion.com/help/notion-ai-security-practices).
+
+
+### How long does it take for the integration to complete and how far back does it look?
+
+Once the Gmail integration is set up, Gmail search will be available immediately. It can search the entire inbox.
+
+
+### How long does it take for Notion AI to read new Gmail emails?
+
+New emails will be available for search zero to thirty minutes after they arrive in your inbox.
+
+
+### Who can access Gmail content using Notion AI?
+
+You must be both a Google Workspace and Gmail user and a Notion workspace member to use this integration.
+
+Notion AI automatically maps Google Workspace members to their corresponding Notion accounts by email address. The system syncs permission changes from Google Workspace immediately.
+
+
+### How does Notion store or reference my Gmail data in its systems?
+
+We do not store Gmail data in vector databases like Turbopuffer, but we may temporarily cache email content via something like memcached to provide a faster search experience. See [this article](https://www.notion.com/help/notion-ai-security-practices) for more information.
+
+
+### Can I connect multiple Notion workspaces to my Google workspace?
+
+No, you can only connect one Google workspace to a Notion workspace and vice versa.
+
+
+### How can I disconnect my Gmail from Notion?
+
+Workspace owners can disconnect Gmail by clicking `Settings` → `Notion AI` → the `⚙️` icon on Gmail, then clicking` Disconnect`.
+
+Your Google Worskpace admin should also delete the Gmail app from the Google Marketplace.
+
+
+### What happens to my Gmail data if I disconnect?
+
+Notion handles your Gmail data following strict data minimization principles.
+
+When you disconnect Gmail from Notion AI, your content becomes unsearchable immediately. All associated data is then deleted within 24 hours of your disconnection request.
+
+
+### Can Notion AI read attachments?
+
+No, not at this time.

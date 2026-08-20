@@ -1,7 +1,7 @@
 ---
 title: "Research Mode"
 emoji: null
-description: null
+description: "Research Mode dives deep into topics you want to explore."
 url: "https://www.notion.com/help/research-mode"
 key: "help:research-mode"
 coverImage: null

@@ -1,7 +1,7 @@
 ---
 title: "Database settings"
 emoji: null
-description: null
+description: "Tailor your database to your needs with lots of customization options to choose from."
 url: "https://www.notion.com/help/customize-your-database"
 key: "help:customize-your-database"
 coverImage: null

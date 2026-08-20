@@ -1,7 +1,7 @@
 ---
 title: "What are Notion credits?"
 emoji: null
-description: null
+description: "Learn what Notion credits are, and the difference between monthly vs annual credits."
 url: "https://www.notion.com/help/what-are-notion-credits"
 key: "help:what-are-notion-credits"
 coverImage: null
@@ -73,3 +73,21 @@ Annual credits cost $13 per 1,000 credits. Admins on annual Business or Enterpri
 
 
 ## FAQs
+
+### Are annual credits cheaper than monthly credits?
+
+No. Annual credits cost $13 per 1,000 credits, compared to $10 per 1,000 for monthly credits.
+
+The benefit is flexibility. <!-- -->You can use annual credits anytime during your subscription year, while monthly credits reset each month.
+
+
+### What happens to unused annual credits at the end of my subscription year?
+
+They expire and don't carry over. If you have a remaining balance, you can reduce your credits for the following year.
+
+
+### Can I buy annual credits on a monthly plan?
+
+**If you manage your billing in-product:** No. Annual credits are only available on annual Business and Enterprise plans. You'll need to switch to an annual plan first.
+
+**If you work with an account team:** You can purchase monthly, annual, or on-demand credits.

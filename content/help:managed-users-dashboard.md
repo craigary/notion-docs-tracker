@@ -1,7 +1,7 @@
 ---
 title: "Managed users"
 emoji: null
-description: null
+description: "As an enterprise workspace owner, you have many ways you can manage the users within your domain, including a dashboard where you can get information and make changes."
 url: "https://www.notion.com/help/managed-users-dashboard"
 key: "help:managed-users-dashboard"
 coverImage: null
@@ -81,3 +81,44 @@ On a specific user's profile, workspace owners can:
 
 
 ## FAQs
+
+### Will changes to managed user accounts made by the workspace admins be tracked?
+
+Yes, all changes made by a workspace owner to a managed user’s account will be logged in the audit log.
+
+If a password is reset or a user is removed from a workspace, they will receive an email notification.
+
+
+### Will users in my workspace know that their account is being managed by the workspace admin?
+
+Yes, users will see a badge when they go to `Settings` → `{their name}`.
+
+
+### If my workspace is using SCIM, can I still make changes to managed user accounts through Notion?
+
+Updating managed user profile information from this new dashboard is **not recommended** if the Enterprise workspace is using the SCIM API directly or through an Identity Provider (e.g. Okta, Azure AD, Google Workspace) to programmatically manage workspace members.
+
+If the workspace is using SCIM, then changes made from the Notion Settings UI will be replaced when the next SCIM API request syncs up.
+
+
+### My workspace has verified several domains. Will I see all managed users for all of our domains together in the dashboard?
+
+Yes, you will see all your managed users (from multiple verified domains) together in the dashboard.
+
+
+### What happens if a user is suspended?
+
+Suspended users remain as billable seats to whatever workspaces they are a part of.
+
+All of their content and comments continue to show as normal, any integrations they set up continue to work, but their profile photo will appear as a gray crossed out silhouette.
+
+Other users can still share pages with the suspended user, @-mention them, and add them to workspaces or teamspaces. The suspended users won’t be able login, receive any notifications, or access any of these resources. They’ll see them if/when they’re unsuspended.
+
+
+### What happens if a user is deleted?
+
+All public or shared content created by the deleted user remains, but attributions and @-mentions change to `Deleted User`.
+
+Any private or shared pages where no remaining users have full access will be deleted. Deletions are permanent, with a 30-day grace period to cancel and restore.
+
+If the account may be needed in the future, it is recommended to suspend instead of delete. Deleted users do not contribute to the billable seat count of the workspace.

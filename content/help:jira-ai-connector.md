@@ -1,7 +1,7 @@
 ---
 title: "Jira AI Connector (beta)"
 emoji: null
-description: null
+description: "Connect Notion AI with your Jira site to seamlessly bring in information from your projects, issues, and tasks."
 url: "https://www.notion.com/help/jira-ai-connector"
 key: "help:jira-ai-connector"
 coverImage: null
@@ -149,3 +149,56 @@ If you see the error "We couldn't authenticate with the provided credentials" du
 
 
 ## FAQs
+
+### Does the Jira AI Connector support filters?
+
+No, the Jira AI Connector does not support dashboards or filters at this time.
+
+
+### I connected the wrong Notion workspace. How can I disconnect my Jira site?
+
+Workspace owners can disconnect projects after the initial integration is complete by going to `Settings` → `Notion AI`. Select `⚙️` next to `Jira` → `Settings` → `Disconnect`.
+
+
+### How long does it take for the integration to complete?
+
+Setting up the integration can take up to 36 hours depending on the size of the Jira site.
+
+
+### How long does it take for new content from Jira to reflect in Notion AI?
+
+New content may take up to 3 hours to be indexed by Notion AI before it appears in search results. Larger data volumes may take additional time.
+
+
+### Can I limit the scope of my search to only Jira?
+
+Yes, absolutely! In the Notion AI entry point, open the `All sources` dropdown and select `Jira`.
+
+
+### Can everyone in the Notion workspace access information from Jira?
+
+Once the Jira AI Connector is set up for the workspace, members can use the integration to retrieve answers based on their permissions in Jira.
+
+Members in a workspace will only have access to retrieve information from Jira if they have access to the Jira site. If additional permissions are set on a project or issues level, users will only be able to ask questions to those that they have access to.
+
+
+### How far back in Jira can I ask questions about?
+
+The integration will be able to find information going back a year.
+
+
+### Does this integration respect existing Notion AI permissions?
+
+Absolutely. Notion AI will honor existing permissions according to our existing [Notion AI Security Practices](https://www.notion.com/help/notion-ai-security-practices).
+
+Users will not be able to generate content or receive responses based on resources they do not have access to. Specific to third party content, Notion AI is handling both private and public content with security in mind, only ingesting content according to the permissions mapping between Jira and Notion users.
+
+
+### How does Notion AI handle permissions mapping?
+
+Notion AI for Jira maps Jira members to Notion members. The user must be both a Jira and Notion member to authenticate this app at the user level. Every hour, we periodically sync permissions from Jira and update the permissions in Notion.
+
+
+### How is Notion storing or referencing my Jira data in its systems?
+
+We store create and store embeddings in a vector database hosted by Turbopuffer, which powers the ability to provide responses to questions that leverage third party content (like in Jira). Turbopuffer has been vetted by our security team as well as an external auditor to obtain their SOC2 Type II certification. [Learn more about Turbopuffer’s security here →](https://turbopuffer.com/docs/security)

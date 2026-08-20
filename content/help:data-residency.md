@@ -1,7 +1,7 @@
 ---
 title: "Data residency for Notion"
 emoji: null
-description: null
+description: "Learn about Notion’s data residency offering."
 url: "https://www.notion.com/help/data-residency"
 key: "help:data-residency"
 coverImage: null
@@ -66,3 +66,45 @@ Enterprise organizations can specify a default region for newly created workspac
 
 
 ## FAQs
+
+### What is the cost of enabling data residency?
+
+Data residency is available free of charge to customers on the Enterprise Plan.
+
+
+### What products are not covered by data residency?
+
+Notion Calendar and Notion Mail, any Notion Calendar and Notion Mail features, and any Beta Services are not covered by data residency.
+
+
+### Is Customer Data stored in the data region when using Notion AI?
+
+The categories of Customer Data described above are stored in the data region with the data residency feature. The large language model (LLM) providers we use to provide Notion AI utilize zero data retention for Enterprise Plan workspaces, so no data is stored with LLM providers. See [here](https://www.notion.com/help/notion-ai-security-practices) for more information on Notion AI security and privacy practices.
+
+
+### How does Notion handle backups?
+
+Notion’s backups are stored within the same region as production in the data region. Notion is hosted by AWS and stores Customer Data using a combination of databases. By default, AWS provides durable infrastructure to store important data and is designed for durability of 99.9% of objects. Automated backups of all customer and system data is enabled, and data is backed up daily at minimum. The backups are encrypted in the same way as live production data, and are monitored and alerted.
+
+
+### Will integrations still be available?
+
+Yes, previously enabled apps will remain enabled. Admins can choose to disable the addition of new integrations that are not allowlisted. Data that is hosted or processed by integrations and non-Notion Services are outside the scope of Notion’s data residency offering.
+
+
+### My company isn’t based in the data region. Can I still have my data hosted there?
+
+Yes, customers on our Enterprise Plan can contact their account team to migrate an existing workspace to the data region and have their data hosted there.
+
+
+### When is Customer Data processed outside the data region?
+
+The data residency feature only changes the data at rest storage location for the categories of Customer Data described above that are stored by Notion in Amazon Web Services.
+
+Processing of Customer Data outside the data region can include:
+
+* Customer Data processed by Notion [subprocessors](https://notion.notion.site/Notion-s-List-of-Subprocessors-268fa5bcfa0f46b6bc29436b21676734), including LLM providers
+
+* [Duplicating content](https://www.notion.com/help/transfer-content-to-another-account) from other workspaces such as downloading templates and moving content from a US workspace to a data region workspace
+
+* If a [synced block’s](https://www.notion.com/help/synced-blocks) source is a different data region hosted workspace

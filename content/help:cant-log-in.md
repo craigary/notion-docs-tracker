@@ -1,7 +1,7 @@
 ---
 title: "I can't log in"
 emoji: null
-description: null
+description: "Troubleshoot login issues and regain access to your Notion account."
 url: "https://www.notion.com/help/cant-log-in"
 key: "help:cant-log-in"
 coverImage: null

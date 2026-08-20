@@ -1,7 +1,7 @@
 ---
 title: "Shared Responsibilities Model"
 emoji: null
-description: null
+description: "This Shared Responsibilities Model makes sure that Notion and its users work together to create a safe and effective workspace experience."
 url: "https://www.notion.com/help/shared-responsibilities-model"
 key: "help:shared-responsibilities-model"
 coverImage: null

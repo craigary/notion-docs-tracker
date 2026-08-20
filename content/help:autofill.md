@@ -1,7 +1,7 @@
 ---
 title: "Notion AI for databases"
 emoji: null
-description: null
+description: "Learn how to use Notion AI to create databases and make them even more valuable."
 url: "https://www.notion.com/help/autofill"
 key: "help:autofill"
 coverImage: null
@@ -143,3 +143,36 @@ If you only want to fill blank cells, add: “Only fill this property if it is e
 
 
 ## FAQs
+
+### Can Autofill read information on the internet?
+
+Basic Autofill does not read information on the web. Custom Agent Autofill can use web search (when enabled), or workspace search.
+
+
+### Does Autofill use Notion credits?
+
+Autofill has two options: Basic and Custom Agent.
+
+* **Basic Autofill&#x20;**&#x69;s included on Business and Enterprise plans, and does not use Notion credits.
+
+* **Custom Agent Autofill&#x20;**&#x75;ses Notion credits because it runs with Custom Agent capabilities (like using richer context and more advanced reasoning).
+
+
+### How do I know if Notion AI’s responses are accurate?
+
+Notion AI is most effective for streamlining your workflows. For example, it can summarize meeting notes or help you brainstorm for a project. We recommend that you always check the accuracy of content from Notion AI before relying on it for critical content.
+
+
+### Does Notion AI have access to all the data in my workspace? How does Notion AI use my data?
+
+Keeping your data safe is important to us. [Learn more about Notion AI security practices here →](https://www.notion.com/help/notion-ai-security-practices)
+
+
+### What if Autofill isn’t working?
+
+First, make sure AI Autofill is turned on for the property. If it still doesn’t fill, check that your page has enough info for Autofill to use.
+
+
+### Why isn’t Autofill pulling info from the web (or other pages)?
+
+Basic Autofill only uses content in the specific row or page (not across all your Notion pages). If you need web search or workspace search, switch to Custom Agent Autofill (and enable search in the agent settings).

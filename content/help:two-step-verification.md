@@ -1,7 +1,7 @@
 ---
 title: "Two-step verification"
 emoji: null
-description: null
+description: "Add an extra layer of account security with a second method of verification, also known as 2FA or MFA."
 url: "https://www.notion.com/help/two-step-verification"
 key: "help:two-step-verification"
 coverImage: null
@@ -89,3 +89,28 @@ To add another verification method:
 
 
 ## FAQs
+
+### Do I need two-step verification?
+
+Two<!-- -->-step verification isn't required, but we highly recommend that you use it as an extra layer of security to protect the contents of your Notion workspace.
+
+
+### I login to Notion through an identity provider. Do I still need two-step verification?
+
+If you login to Notion through SAML SSO (using an identity provider), we recommend setting up two-step verification directly through that identity provider.
+
+
+### What if I lose my phone or verification device?
+
+When you first set up two-step verification, you'll receive a set of six backup text codes. You can use these codes to access your account in the event you lose your verification device.
+
+Each backup code can only be used once. Once all the codes have been used, you can generate a new set in your settings.
+
+If you're having trouble, please contact us at email protected.
+
+
+### I’m a workspace owner. Can I enforce everyone in my workspace to enable two-step verification?
+
+Organization owners on the Enterprise Plan can require MFA for guests in their workspaces. [Learn more about MFA enforcement →](https://www.notion.com/help/category/enterprise-admin/all)
+
+MFA enforcement isn't available for workspace members, or on other Notion plans.

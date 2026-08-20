@@ -1,7 +1,7 @@
 ---
 title: "Search in your workspace"
 emoji: null
-description: null
+description: "Notion is designed for you to add as many layers of information as you and your team need to solve any problem. Search ensures that Notion is an easily navigable archive of information."
 url: "https://www.notion.com/help/search"
 key: "help:search"
 coverImage: null
@@ -103,3 +103,23 @@ To search in a page, open the page and use the shortcut `cmd/ctrl` + `F`. Type y
 
 
 ## FAQs
+
+### Are there any limitations to the type of content that search looks at?
+
+There's a few content types that search won't surface, unfortunately. We're always working on improvements, but here's a current list of limitations:
+
+* Date mentions such as `@Today` or `@last Tuesday` will be included in search results, but other @mentions of pages and people such as `@Doug` or `@Roadmap` won't be included in search results.
+
+* Comments and discussions are not included in search results.
+
+* Property values such as select and multi-select tags are not included in search results. You can use database search for this though!
+
+
+### What about Chinese, Japanese, and Korean characters?
+
+You can use queries with CJK characters in search! This is an experience we are continuing to improve 💪 Please feel free to share any search feedback with email protected, or click the Notion AI face at the bottom right of the Notion app to send us a message.
+
+
+### Is there a way to customize the preset filters, recent pages, or recent searches?
+
+Unfortunately, not at the moment. If you’d like, you can create your own list of frequently visited pages by selecting `⭐` at the top right of any page. This will pin the page to the top of your sidebar for quick access.

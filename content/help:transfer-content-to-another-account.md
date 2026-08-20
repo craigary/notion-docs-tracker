@@ -1,7 +1,7 @@
 ---
 title: "Move & duplicate content"
 emoji: null
-description: null
+description: "If you have multiple Notion workspaces or accounts, you may want to move content from one to another. We'll show you how 📦"
 url: "https://www.notion.com/help/transfer-content-to-another-account"
 key: "help:transfer-content-to-another-account"
 coverImage: null
@@ -149,3 +149,21 @@ To duplicate content from one Notion account to another:
 
 
 ## FAQs
+
+### I tried changing my email address but got an error message saying: "A user with this email already exists.
+
+If you'd like to change your account email to one that already exists within Notion, you can log into the account that holds the email you want and delete that account to free up that email address.
+
+To delete the account, go to `Settings` in the left sidebar, then `My Account`, then `Delete My Account`.
+
+Then log into your current account, and go to `Settings`, then `My Account`, and select `Change email`. You should be able to switch to the freed up email address.
+
+
+### I can't seem to invite another account to my page.
+
+You may have enabled the `Disable guests` feature. You can find it in the `Security & identity` section of `Settings` in your sidebar.
+
+
+### I can't find any workspaces in the Move to menu.
+
+You may have enabled the `Disable moving pages to other workspaces` setting. You can find it in the `Security & identity` section of `Settings` in your sidebar.

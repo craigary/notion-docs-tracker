@@ -1,10 +1,10 @@
 ---
 title: "Notion Agent"
 emoji: null
-description: null
+description: "With your Notion Agent, you don’t just have a teammate that thinks with you, but one that gets work done for you — just the way you want."
 url: "https://www.notion.com/help/notion-agent"
 key: "help:notion-agent"
-coverImage: null
+coverImage: "https://img.youtube.com/vi/yasGTeAsV6s/maxresdefault.jpg"
 category: "Notion AI"
 categoryKey: "category:notion-ai"
 ---
@@ -247,3 +247,9 @@ Your feedback isn’t used to train your Notion Agent. Instead, it’s shared wi
 
 
 ## FAQs
+
+### Why can't I access certain models (for example: Claude Fable 5) anymore?
+
+Your workspace has reached the [usage allowance](https://www.notion.com/help/manage-your-usage-allowance-for-notion-ai). Some AI models are temporarily unavailable for features like Notion Agent, [Custom Agents](https://www.notion.com/help/category/custom-agents), [image generation](https://www.notion.com/help/create-and-edit-images-with-notion-ai), and page translation.
+
+Learn more about what to do when certain Notion AI features are temporarily unavailable after [reaching your usage allowance →](https://www.notion.com/help/manage-your-usage-allowance-for-notion-ai#how-to-resume-using-notion-ai)

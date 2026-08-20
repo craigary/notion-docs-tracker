@@ -1,7 +1,7 @@
 ---
 title: "HIPAA configuration"
 emoji: null
-description: null
+description: "Learn about how to make your Notion workspace HIPAA compliant, and how to enable HIPAA compliance."
 url: "https://www.notion.com/help/hipaa"
 key: "help:hipaa"
 coverImage: null
@@ -59,3 +59,35 @@ If you’d like to turn off HIPAA compliance for your workspace:
 
 
 ## FAQs
+
+### What is the cost of enabling HIPAA compliance?
+
+HIPAA compliance is available free of charge to customers on the Enterprise plan.\
+\
+Customers must agree to Notion's Business Associate Agreement and utilize Notion in a manner that complies with HIPAA, the BAA, and the HIPAA Product Configuration Guide.
+
+
+### What are the product limitations of enabling HIPAA compliance?
+
+* Notion may not be used to communicate with patients, plan members, or their families or employers.
+
+* Users *may not* include PHI in any of the following fields or functionality:
+
+  * Workspace or organization names
+
+  * Teamspace names
+
+  * File names
+
+  * Account/user profile
+
+  * Name of user groups
+
+* Support requests and attachments to a support request must not include any PHI.
+
+* Any Beta Services are not covered by the BAA and therefore may not be used or deployed in a manner that processes protected health information.
+
+
+### Will connections still be available?
+
+Yes, previously enabled apps will remain enabled. Admins should review existing connections used to ensure they are compliant. Admins can choose to disable the addition of new connections that are not allowlisted.

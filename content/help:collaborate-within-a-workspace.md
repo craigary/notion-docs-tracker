@@ -1,7 +1,7 @@
 ---
 title: "Collaborate in a workspace"
 emoji: null
-description: null
+description: "There's no limit on the number of people who can view and edit the same page or database at the same time. Your team can collaborate on shared content no matter where they are, what time it is, or what device they're using."
 url: "https://www.notion.com/help/collaborate-within-a-workspace"
 key: "help:collaborate-within-a-workspace"
 coverImage: null
@@ -77,3 +77,12 @@ If you’ve unlocked the page just for yourself, you’ll be able to select `Re-
 
 
 ## FAQs
+
+### Why didn't I receive a notification that someone @-mentioned me while we were working on the same page?
+
+If you're mentioned on the page that you currently have open, you will not receive any notifications.
+
+
+### What if I want only some people to be able to edit a page and the rest to read?
+
+You can assign different levels of access to different individuals. Learn more about permission levels and changing people's access to read-, comment-, or edit-only here.

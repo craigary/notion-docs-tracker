@@ -1,7 +1,7 @@
 ---
 title: "Audit log"
 emoji: null
-description: null
+description: "Audit logs give Enterprise organization owners access to detailed information about security and safety-related activity. This can help identify potential security issues, investigate suspicious behavior, and troubleshoot access."
 url: "https://www.notion.com/help/audit-log"
 key: "help:audit-log"
 coverImage: null

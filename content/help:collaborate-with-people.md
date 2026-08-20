@@ -1,7 +1,7 @@
 ---
 title: "Collaborate with people"
 emoji: null
-description: null
+description: "Notion has several features designed to improve and increase the velocity of communication with your team — whether you're all editing the same page or working across time zones."
 url: "https://www.notion.com/help/collaborate-with-people"
 key: "help:collaborate-with-people"
 coverImage: null

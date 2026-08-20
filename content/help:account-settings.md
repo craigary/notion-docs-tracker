@@ -1,7 +1,7 @@
 ---
 title: "Account settings & preferences"
 emoji: null
-description: null
+description: "There are tons of account settings and preferences to adjust in Notion."
 url: "https://www.notion.com/help/account-settings"
 key: "help:account-settings"
 coverImage: null
@@ -267,3 +267,40 @@ If you turn profile discoverability off, a user will see this when they invite y
 
 
 ## FAQs
+
+### I forgot my password. What do I do?
+
+If you forgot your password, follow the instructions to reset it [here →](https://www.notion.com/help/cant-log-in#if-you-forgot-your-password)
+
+
+### I just got an email saying I changed my email address or password, but I didn't!
+
+If you receive an unexpected email notifying you of a change to your password, you should reset your password as soon as possible. Follow these steps:
+
+* Navigate to [notion.so/login](https://www.notion.com/help/notion.so/login) in your web browser.
+
+* Click the `Continue with email` button.
+
+* Enter the email address associated with your Notion account.
+
+* Click the `Forgot password?` button, and then the `Send Reset Link` button.
+
+* We'll send a link to your email address. When you click that link, you'll be taken to `Settings` in your Notion workspace, and your password will be reset.
+
+* Please report any suspicious activity like this to our support team, email protected.
+
+
+### I tried changing my email address but got an error message saying: "A user with this email already exists."
+
+If you'd like to change your account email to one that’s already tied to another Notion account, you can log into the account that’s currently associated with your desired email address and delete that account to free up that email address. To do this:
+
+1. Log into the account tied to your desired email address, then go to `Settings` → `{your name}` → `Delete my account`.
+
+2. Log into the account whose email address you want to change, then go to `Settings` → `{your name}` → `Change email`.
+
+
+### What if I accidentally deleted something permanently? Any way to get it back?
+
+If you accidentally delete a page, a workspace, or even your entire account, we can help! Accidents happen 😅 Just send us a message in the app by clicking `?` at the bottom of your sidebar, or email us at email protected.
+
+We keep backups of our database, which allows us to restore a snapshot of your content in the past 30 days if you need it.

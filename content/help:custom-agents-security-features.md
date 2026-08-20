@@ -1,7 +1,7 @@
 ---
 title: "Custom Agents security features"
 emoji: null
-description: null
+description: "We know your workspace data is important. Here's a look at the built-in security features for Custom Agents that help keep your workspace safe."
 url: "https://www.notion.com/help/custom-agents-security-features"
 key: "help:custom-agents-security-features"
 coverImage: null

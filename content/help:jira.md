@@ -1,7 +1,7 @@
 ---
 title: "Connect Jira"
 emoji: null
-description: null
+description: "Connect Jira with Notion for a seamless experience that keeps you and your team up to date."
 url: "https://www.notion.com/help/jira"
 key: "help:jira"
 coverImage: null

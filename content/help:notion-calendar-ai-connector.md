@@ -1,7 +1,7 @@
 ---
 title: "Notion Calendar AI Connector (beta)"
 emoji: null
-description: null
+description: "Anyone on any Notion plan can connect Notion Calendar to Notion AI."
 url: "https://www.notion.com/help/notion-calendar-ai-connector"
 key: "help:notion-calendar-ai-connector"
 coverImage: null
@@ -45,3 +45,66 @@ Try prompting Notion AI with the following:
 
 
 ## FAQs
+
+### Can I add connect multiple Notion workspaces to my Notion Calendar?
+
+Yes! As long as you’re logged into the same email address in your Notion workspace, you can connect that workspace to your Notion Calendar.
+
+
+### Can I set up the Google Calendar and Notion Calendar in the same workspace?
+
+No. If your workspace owner connects your Google Organization for Google Calendar, your Notion Calendar connection will disconnect and be replaced with your Google Calendar AI Connector.
+
+
+### Why would I connect Notion Calendar instead of Google Calendar?
+
+* The Google Calendar connector requires a paid Google Workspace plan type in order to set up the connection. This is a requirement from Google that only allows integrations for paid Google Workspace plan types. All plan types may access the Notion Calendar connector.
+
+* The Google Calendar connector must be installed by a Notion Workspace owner and Google Workspace admin of a paid workspace. Notion Calendar can be set up by any individual member of a Notion workspace as long as a Notion Calendar account exists.
+
+* The Google Calendar connector is only available to Business and Enterprise Plans.
+
+
+### What data does Notion AI get access to?
+
+Notion AI can read all calendar events in your Notion Calendar. We maintain strict cross-user security.
+
+
+### Does Notion AI respect my Notion Calendar permissions?
+
+Yes. Each Notion user’s AI searches only that user’s calendar — we use an exact email address match. See more details about our [Notion AI security practices](https://www.notion.com/help/notion-ai-security-practices).
+
+
+### How long does it take for the integration to complete?
+
+Once the integration is set up, Notion Calendar search will be available immediately.
+
+
+### How long does it take for Notion AI to read new events?
+
+New events will be available for search zero to thirty minutes after they are created.
+
+
+### Can I limit the scope of my search to only Notion Calendar?
+
+Yes! In Notion AI, click `All sources` and narrow your scope to only `Notion Calendar`.
+
+
+### How does Notion store or reference my Notion Calendar data in its systems?
+
+We do not store Notion Calendar data in vector databases like Turbopuffer, but we may temporarily cache content to provide a faster search experience. See [this article](https://www.notion.com/help/notion-ai-security-practices) for more information.
+
+
+### How can I disconnect my Notion Calendar from Notion?
+
+You can disconnect Notion Calendar from Notion AI by going to `Settings` → `Notion AI`. Select `⚙️` next to `Notion Calendar`, then `Disconnect`.
+
+
+### What happens to my Notion Calendar data if I disconnect?
+
+Notion handles your data following strict data minimization principles. When you disconnect Notion Calendar from Notion AI, your content becomes unsearchable immediately. All associated data is then deleted within 24 hours of your disconnection request.
+
+
+### Can Notion AI read attachments?
+
+No, not at this time.

@@ -1,7 +1,7 @@
 ---
 title: "Notion for web"
 emoji: null
-description: null
+description: "Notion is a cloud-based app, and you can access it from various web browsers. As long as you're connected to the web, all of your content syncs automatically."
 url: "https://www.notion.com/help/notion-for-web"
 key: "help:notion-for-web"
 coverImage: null

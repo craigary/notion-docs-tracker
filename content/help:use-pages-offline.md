@@ -1,7 +1,7 @@
 ---
 title: "Use pages offline"
 emoji: null
-description: null
+description: "Capture your good ideas in Notion whenever — even when you’re in offline mode."
 url: "https://www.notion.com/help/use-pages-offline"
 key: "help:use-pages-offline"
 coverImage: null
@@ -97,3 +97,14 @@ Find the best ways to use pages offline [here →](https://www.notion.com/help/g
 
 
 ## FAQs
+
+### Are my downloaded pages synced across devices?
+
+Pages you download individually for offline use will only be available at the device level. For example, if you download pages for offline use on your mobile phone, they won’t be automatically available on your laptop.
+
+
+### I don’t want to have to download my pages manually. Is there any other way?
+
+This is just the first step, and we are actively working to make using Notion offline even smoother.
+
+For now, if you often need Notion on the go, check out the Plus, Business, or Enterprise Plan. If you’re on any of these plans, your recents and favorites get downloaded automatically so they’re always ready to use offline. See what else is included in each plan [here →](https://www.notion.com/pricing)

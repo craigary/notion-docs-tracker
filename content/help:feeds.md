@@ -1,7 +1,7 @@
 ---
 title: "Feed view"
 emoji: null
-description: null
+description: "Display database pages in stacked-card format making it easy to browse and engage with team content."
 url: "https://www.notion.com/help/feeds"
 key: "help:feeds"
 coverImage: null

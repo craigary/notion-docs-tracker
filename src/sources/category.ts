@@ -12,9 +12,9 @@ import { cleanImageUrl, genericHeaders, getHelpCategoryUrl, normalizeNotionUrl }
 import { sha } from '../utils/hash'
 import { buildFrontMatter, convertToMarkdown } from '../utils/markdown'
 
-const descriptionClassSelector = 'helpCenterCategoryContentV3_description'
+const descriptionClassSelector = 'description'
 const faqSectionSelector = 'helpCenterFaqSection'
-const faqAnswerSelector = 'faqDrawers_answer'
+const faqAnswerSelector = 'answer'
 
 type ParsedDocument = ReturnType<DOMParser['parseFromString']>
 

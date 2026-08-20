@@ -1,7 +1,7 @@
 ---
 title: "Edit & customize your Notion Sites"
 emoji: null
-description: null
+description: "If you’re on a paid plan, you can customize the look and feel of your Notion Sites, integrate with Google Analytics, and more."
 url: "https://www.notion.com/help/edit-and-customize-your-notion-sites"
 key: "help:edit-and-customize-your-notion-sites"
 coverImage: null

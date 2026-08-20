@@ -1,7 +1,7 @@
 ---
 title: "Turn on Developer Mode to use developer tools in Notion"
 emoji: null
-description: null
+description: "Learn how to turn on Developer Mode and open developer tools from your sidebar."
 url: "https://www.notion.com/help/turn-on-developer-mode-to-use-developer-tools-in-notion"
 key: "help:turn-on-developer-mode-to-use-developer-tools-in-notion"
 coverImage: null
@@ -97,3 +97,27 @@ Use Notion for quick checks and basic actions. To change a Worker’s code or se
 
 
 ## FAQs
+
+### Why is Developer Mode on in my browser but off in my desktop app?
+
+This is expected. Developer Mode is separate in the browser and desktop app, so turn it on in each place where you want to use it.
+
+
+### Where did the developer portal go?
+
+It’s now available in Notion. Turn on Developer Mode, then open the developer section in your sidebar.
+
+
+### Do old developer portal links still work?
+
+Yes. Old links redirect to the developer tools in Notion.
+
+
+### Can I find a block ID without opening the page URL?
+
+Yes. Turn on Developer Mode, right-click the block, then copy its block ID from the developer section.
+
+
+### Can I manage Workers without the CLI?
+
+Partly. You can view [Workers](https://www.notion.com/help/run-custom-code-with-workers), read logs, and turn off or delete Workers in Notion. To deploy a Worker or change its code or setup, use the [Notion CLI](https://www.notion.com/help/use-notion-from-your-terminal-with-notion-cli) or your team’s coding tool.

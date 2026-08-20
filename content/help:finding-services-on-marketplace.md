@@ -1,7 +1,7 @@
 ---
 title: "Finding services on Marketplace"
 emoji: null
-description: null
+description: "Here’s how to search for services and work with partners via Marketplace."
 url: "https://www.notion.com/help/finding-services-on-marketplace"
 key: "help:finding-services-on-marketplace"
 coverImage: null

@@ -1,7 +1,7 @@
 ---
 title: "Data accessible by your workspace owner"
 emoji: null
-description: null
+description: "Learn more about what data your workspace owner can access."
 url: "https://www.notion.com/help/data-accessible-by-your-workspace-owner"
 key: "help:data-accessible-by-your-workspace-owner"
 coverImage: null

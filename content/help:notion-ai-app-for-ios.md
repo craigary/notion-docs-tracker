@@ -1,7 +1,7 @@
 ---
 title: "Get started with the Notion Agents app"
 emoji: null
-description: null
+description: "Use the Notion Agents app to chat with AI, edit pages, generate images, and get things done on the go — right from your iPhone."
 url: "https://www.notion.com/help/notion-ai-app-for-ios"
 key: "help:notion-ai-app-for-ios"
 coverImage: null
@@ -103,3 +103,31 @@ From History, you can:
 
 
 ## FAQs
+
+### Which devices are supported?
+
+The Notion Agents app is currently available for iPhones running iOS 26.0 or later. iPad and Android support are planned for the future.
+
+
+### Is the Notion Agents app different from the Notion mobile app?
+
+Yes. The Notion Agents app is a standalone app designed specifically around AI-powered workflows like chat, capture, and quick actions.
+
+The main Notion mobile app continues to be the full workspace experience for pages, databases, and collaboration. Some features available in the main Notion app's AI — such as personalizing your Agent with accessories and instruction pages — are not yet available in the Notion Agents app.
+
+
+### Which workspaces appear in the app?
+
+Only workspaces where you are a member (not a guest) and have AI enabled will appear in the workspace switcher.
+
+
+### How do I delete my account?
+
+Navigate to the History view, tap your profile image, and use the "Delete Account" button. **This will delete your account across all Notion products.**
+
+Managed accounts may not allow deletion. If this is the case, contact your workspace admin.
+
+
+### How do I export my data?
+
+Please see [exporting your content](https://www.notion.com/help/export-your-content). Some of these settings are only available outside of the Notion Agents app and may require logging into your account on Notion web or desktop.

@@ -1,10 +1,10 @@
 ---
 title: "Start here"
 emoji: null
-description: null
+description: "Curious about what Notion is? We'll show you right here, and in the articles to come. Let's go!"
 url: "https://www.notion.com/help/start-here"
 key: "help:start-here"
-coverImage: null
+coverImage: "https://img.youtube.com/vi/3HLMH9t1Q-g/maxresdefault.jpg"
 category: "Notion basics"
 categoryKey: "category:new-to-notion"
 ---

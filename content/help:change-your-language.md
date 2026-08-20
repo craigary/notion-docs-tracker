@@ -1,7 +1,7 @@
 ---
 title: "Change your language"
 emoji: null
-description: null
+description: "Here’s how you can change your language in Notion."
 url: "https://www.notion.com/help/change-your-language"
 key: "help:change-your-language"
 coverImage: null

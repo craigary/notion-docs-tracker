@@ -1,7 +1,7 @@
 ---
 title: "Scheduling & availability"
 emoji: null
-description: null
+description: "Notion Calendar allows you to easily set up time with others."
 url: "https://www.notion.com/help/availability-blocking-and-time-zones"
 key: "help:availability-blocking-and-time-zones"
 coverImage: null
@@ -91,3 +91,7 @@ Next to a particular link, select `🔗` to copy its URL. You can also select `�
 
 
 ## FAQs
+
+### How can I quickly view and copy my scheduling links?
+
+Go to `Scheduling` in your left context panel and select `🔗` next to a particular scheduling link to quickly copy the URL for easy sharing.

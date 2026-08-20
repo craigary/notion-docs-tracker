@@ -1,7 +1,7 @@
 ---
 title: "Notion’s commitment to AI safety"
 emoji: null
-description: null
+description: "Read about Notion’s approach to AI safety."
 url: "https://www.notion.com/help/ai-safety"
 key: "help:ai-safety"
 coverImage: null

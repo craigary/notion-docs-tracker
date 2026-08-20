@@ -1,7 +1,7 @@
 ---
 title: "Time zones"
 emoji: null
-description: null
+description: "See your schedule across different time zones and quickly travel to a new one."
 url: "https://www.notion.com/help/time-zones"
 key: "help:time-zones"
 coverImage: null

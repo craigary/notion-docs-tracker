@@ -1,7 +1,7 @@
 ---
 title: "Sub-items & dependencies"
 emoji: null
-description: null
+description: "Use sub-items and dependencies to give depth to any workflow."
 url: "https://www.notion.com/help/tasks-and-dependencies"
 key: "help:tasks-and-dependencies"
 coverImage: null

@@ -1,10 +1,10 @@
 ---
 title: "Intro to writing & editing"
 emoji: null
-description: null
+description: "Notion is first and foremost a writing tool. It works as simply as any word processor, only you can add many different types of content to a page, and move it around and modify it in new ways ✏️"
 url: "https://www.notion.com/help/writing-and-editing-basics"
 key: "help:writing-and-editing-basics"
-coverImage: null
+coverImage: "https://img.youtube.com/vi/FXIrojSK3Jo/maxresdefault.jpg"
 category: "Pages & blocks"
 categoryKey: "category:write-edit-and-customize"
 ---
@@ -309,3 +309,24 @@ Other editing options are located in the `•••` menu at the top right:
 
 
 ## FAQs
+
+### Can I make Full width my default? Is there a way to set a default style for all pages?
+
+Not yet, but a lot of users have asked for this! We're continuing to keep this in mind for future projects.
+
+
+### Can I justify text to be center aligned or right aligned?
+
+Notion doesn't have any traditional alignment options at the moment, unfortunately 😕But you can still make this happen. Drag and drop an empty line into the column next to your text to align it to the right or left.
+
+
+### Is there a way to disable the menu that appears every time I type /?
+
+There's no way to turn this off by default for now, but you can press `esc` as soon as it pops up in order to dismiss it. 
+
+
+### How can I copy text from multiple blocks?
+
+On desktop, click and drag from the left or right page margin to select an entire block of content, or multiple blocks at a time. Click & drag from *within&#x20;*&#x61; block to select, cut, copy & paste partial text across paragraphs, bullet lists, callouts & more — without having to select each block in its entirety.
+
+On mobile, double tap to select text, and drag your selection to include content across multiple blocks.

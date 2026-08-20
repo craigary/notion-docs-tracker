@@ -1,7 +1,7 @@
 ---
 title: "GDPR at Notion"
 emoji: null
-description: null
+description: "At Notion, we're committed to the success of our customers and the protection of their data through complying with the General Data Protection Regulation (GDPR) and other privacy-related regulations."
 url: "https://www.notion.com/help/gdpr-at-notion"
 key: "help:gdpr-at-notion"
 coverImage: null

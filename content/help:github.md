@@ -1,7 +1,7 @@
 ---
 title: "Connect GitHub"
 emoji: null
-description: null
+description: "Connect Notion and GitHub so you can keep your workflows in sync."
 url: "https://www.notion.com/help/github"
 key: "help:github"
 coverImage: null

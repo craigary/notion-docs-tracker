@@ -1,7 +1,7 @@
 ---
 title: "Navigate your inbox"
 emoji: null
-description: null
+description: "Let’s explore the various parts of your Notion Mail inbox."
 url: "https://www.notion.com/help/navigate-your-inbox"
 key: "help:navigate-your-inbox"
 coverImage: null

@@ -1,7 +1,7 @@
 ---
 title: "Contact Notion for press & media inquiries"
 emoji: null
-description: null
+description: "Learn how to get in touch with Notion if you're a member of the media."
 url: "https://www.notion.com/help/contact-notion-for-press-and-media-inquiries"
 key: "help:contact-notion-for-press-and-media-inquiries"
 coverImage: null

@@ -1,7 +1,7 @@
 ---
 title: "Set up Auto Adjust for Notion credits"
 emoji: null
-description: null
+description: "Auto Adjust automatically buys more credits when your workspace is running low, so your AI features and agents keep working without interruption."
 url: "https://www.notion.com/help/set-up-auto-adjust-for-notion-credits"
 key: "help:set-up-auto-adjust-for-notion-credits"
 coverImage: null
@@ -97,3 +97,17 @@ You can change your settings anytime from the Billing tab:
 
 
 ## FAQs
+
+### What happens if my payment fails?
+
+Notion won't add credits. You'll get a notification asking you to update your payment method. Once your payment method is updated, Auto Adjust will work again.
+
+
+### Can workspace members use this?
+
+No. Auto Adjust is managed in the Billing tab, which is only available to workspace owners and admins.
+
+
+### How do I stop Auto Adjust?
+
+Go to the Billing tab and toggle Auto Adjust off. It takes effect right away, and you keep any credits already added.

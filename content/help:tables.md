@@ -1,10 +1,10 @@
 ---
 title: "Table view"
 emoji: null
-description: null
+description: "A table is the classic database view, but tables in Notion are more than just rows and columns. Each row opens up into its own page, and can contain whatever properties you want."
 url: "https://www.notion.com/help/tables"
 key: "help:tables"
-coverImage: null
+coverImage: "https://img.youtube.com/vi/-izAC1eour4/maxresdefault.jpg"
 category: "Database views"
 categoryKey: "category:database-views"
 ---
@@ -125,3 +125,37 @@ Here are some use cases for tables from our team and the Notion community:
 
 
 ## FAQs
+
+### Is there a way to add background colors to specific cells? Or conditional formatting?
+
+Yes! Learn more about conditional color [here →](https://www.notion.com/help/database-properties#conditional-color)
+
+
+### Why can't I delete the Name property?
+
+Our tables are a lot different than traditional spreadsheets, since each row represents a database entry that can be opened as its own page, or visualized in other database views. The `Title` property gives you access to database pages. That said, you can drag the column left or right to re-order it however you want!
+
+
+### I don’t want my database pages to open on the side or in the center of my page. Is there anyway to open a database page in full-screen by default?
+
+Yes! To do this:
+
+1. Open the settings menu at the top of your database.
+
+2. Select `Layout` → `Open pages in` → `Full page`.
+
+
+### Does Notion have simple (non-database) tables?
+
+Yes! [Learn more about simple tables here →](https://www.notion.com/help/columns-headings-and-dividers#simple-tables)
+
+
+### How can I turn a full-page database into an inline database, or vice versa?
+
+To change a full-page database into an inline database:
+
+1. Drag the full-page database from your sidebar into another page. It will become a sub-page of that page.
+
+2. Open the parent page, click the **`⋮⋮`** button next to the database sub-page, and select `Turn into inline`.
+
+To change an inline database to a full-page database, drag an inline database block into your sidebar as a top-level page.

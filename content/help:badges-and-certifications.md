@@ -1,7 +1,7 @@
 ---
 title: "Badges & certifications"
 emoji: null
-description: null
+description: "Build your Notion expertise by earning badges and certifications through Notion Academy."
 url: "https://www.notion.com/help/badges-and-certifications"
 key: "help:badges-and-certifications"
 coverImage: null

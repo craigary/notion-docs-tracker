@@ -1,7 +1,7 @@
 ---
 title: "Report inappropriate content"
 emoji: null
-description: null
+description: "To ensure the trust and safety of everyone who interacts with Notion public pages, we prohibit them from containing content that violates our terms of service. Anyone viewing public pages can report inappropriate content."
 url: "https://www.notion.com/help/report-inappropriate-content"
 key: "help:report-inappropriate-content"
 coverImage: null

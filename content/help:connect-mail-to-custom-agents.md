@@ -1,7 +1,7 @@
 ---
 title: "Connect Mail to Custom Agents"
 emoji: null
-description: null
+description: "Automate your email workflows without ever leaving Notion."
 url: "https://www.notion.com/help/connect-mail-to-custom-agents"
 key: "help:connect-mail-to-custom-agents"
 coverImage: null
@@ -154,3 +154,26 @@ If your agent isn’t running when email is received, is running multiple times,
 
 
 ## FAQs
+
+### Can my agent send emails without my approval?
+
+Yes, if you give it the **send** permission and include sending in your instructions. If you want to review emails before they’re sent, instruct your agent to save drafts instead.
+
+
+### Which email providers work with this connection?
+
+Mail connections work with Notion Mail, Gmail or Outlook.
+
+Using Notion Mail is not required to make use of the Mail connection capabilities.
+
+
+### Do Custom Agents have access to all my emails?
+
+Custom Agents can only access emails in accounts you’ve connected to Notion and explicitly granted permission to access when setting up the connection.
+
+
+### Can a Custom Agent manage multiple Gmail addresses?
+
+Yes. You can connect more than one Gmail address with your agent. This can also be done manually in a Custom Agent's **`Settings`****.** Go to **`Tools & Access`**, then choose `+ `**`Add connection`** → **`Mail`** → **`Connect`**.
+
+If you are a Notion Mail user, you can add additional email addresses via the **`Notion Mail UI`**. Click on the **`account switcher`** → **`+ Connect another address`**.

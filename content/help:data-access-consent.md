@@ -1,7 +1,7 @@
 ---
 title: "Allow or remove Notion support access"
 emoji: null
-description: null
+description: "Learn how to grant or revoke access when you need help from Notion’s support team."
 url: "https://www.notion.com/help/data-access-consent"
 key: "help:data-access-consent"
 coverImage: null
@@ -121,3 +121,34 @@ Like all support access, this only lets Notion support help with issues that per
 
 
 ## FAQs
+
+### If this setting is on, what can Notion do?
+
+This setting lets Notion support access your workspace data to help you, like fixing pages or recovering content you've asked about. Notion won't view or change anything without your permission. Before support looks at your data or runs a fix, they'll ask you to approve that specific action first.
+
+
+### I don't remember turning on this setting. Why is it on?
+
+This setting used to be tied to each workspace owner's personal support access. If any owner turned on support access, Notion support could help with the workspace.
+
+Workspace access is now its own setting. If an owner already had support access on, the workspace setting was turned on to match, with the same end date. Nothing new was shared with Notion. You can turn it off at any time in `Settings` → `Security`.
+
+
+### Who can turn on workspace access?
+
+Workspace admins and owners. In Enterprise organizations, org admins can also manage it from the organization console.
+
+
+### Does account access stay on forever?
+
+No. Account access ends on its own after 28 days by default. You can turn it back on whenever you need to.
+
+
+### Can an org owner turn on support access for just one person?
+
+Yes. An org owner can turn on support access for a single person's account from the organization console. This works even when members can't turn it on themselves.
+
+
+### If workspace access is on, can Notion support also act as me?
+
+No. Workspace access and account access are separate. Each one has to be turned on by itself.

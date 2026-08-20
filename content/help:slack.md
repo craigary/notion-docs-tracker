@@ -1,10 +1,10 @@
 ---
 title: "Integrate Slack"
 emoji: null
-description: null
+description: "Bring Notion and Slack together so your team can work better from anywhere."
 url: "https://www.notion.com/help/slack"
 key: "help:slack"
-coverImage: null
+coverImage: "https://img.youtube.com/vi/fdA1qqfV5v4/maxresdefault.jpg"
 category: "Connections"
 categoryKey: "category:connections"
 ---
@@ -189,3 +189,59 @@ You can also grant access permissions to the unfurled Notion page directly from 
 
 
 ## FAQs
+
+### Can I choose to use just one part of the integration?
+
+Unfortunately, this is not possible today. When you install Notion’s Slack integration you’ll have the full functionality/all features of the Slack integration.
+
+However, since only users with edit access to a page can set up Notion notifications to Slack, you can control parts of the integration by restricting permissions.
+
+
+### What permission level is required to create a database notification?
+
+A user needs `Full Access` to a Notion database to be able to set up database notifications.
+
+Anyone with at least `View` access to a database can see all the existing Slack notifications that have been set up. However, they can’t edit or create any themselves.
+
+
+### How do permissions work when I share a Notion page in a Slack channel?
+
+The user that shares the pag&#x65;*&#x20;*&#x77;ill get a prompt informing them some people in the channe&#x6C;*&#x20;*&#x64;on't have access to the doc. The user is then able to decide if they want to share the page with the people that don't have access. They also have the option to delete the page preview in Slack.
+
+
+### Can admins control who can connect Slack to a Notion workspace?
+
+As an admin in Slack you can manage settings that give you approval rights for any Slack integration. The same settings will apply to Notion if you choose to turn them on.
+
+On Enterprise plans, Notion admins can also restrict members from installing the Slack integration using their admin permissions to manage connections.
+
+
+### Where can you view and manage the Slack notifications you've set up in your Notion workspace?
+
+Database notifications can be managed and edited in the the individual database they’ve been created in. There is currently no way to see all database notification workflows in your workspace from one central place.
+
+Personal @-mention notifications can be managed from `Settings` → `Notifications`.
+
+
+### When one person connects Notion to Slack, does that turn it on for everyone?
+
+No, when one user sets up the integration all Slack users will be able to see an unfurled Notion page link or a Slack link preview in Notion.
+
+But to use the functionality themselves, other users have to connect Slack individually.
+
+
+### How do I send Slack messages to a specific database view?
+
+The easiest way to send a Slack message to a specific database view (e.g. you might have a view for only your team’s tasks), is to copy the link to the database view and paste that link into the send to Notion prompt in Slack.
+
+When you send a Slack message to a specific database view, the properties are auto-filled for you. No need to update them yourself manually!
+
+
+### Does the @-mentioned notification in Slack work when a user is mentioned as part of a group @-mention in Notion?
+
+Yes. A group mention in Notion will trigger the @mention notification in Slack to all members of the Notion group that have the Slack @mention turned on.
+
+
+### Are there other 3rd party integrations providers and can I continue to use them (e.g. Zapier)?
+
+Yes. Those integrations will continue to work as before.

@@ -1,7 +1,7 @@
 ---
 title: "Request a refund"
 emoji: null
-description: null
+description: "Learn about Notion’s refund policy and how to ask for a refund."
 url: "https://www.notion.com/help/refunds"
 key: "help:refunds"
 coverImage: null

@@ -1,7 +1,7 @@
 ---
 title: "IP address restrictions"
 emoji: null
-description: null
+description: "Enterprise organization owners can restrict login to specific IP addresses."
 url: "https://www.notion.com/help/ip-address-restrictions"
 key: "help:ip-address-restrictions"
 coverImage: null

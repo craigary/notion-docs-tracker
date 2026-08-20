@@ -1,10 +1,10 @@
 ---
 title: "Selling templates on Marketplace"
 emoji: null
-description: null
+description: "Learn how to sell your templates in the Notion Marketplace."
 url: "https://www.notion.com/help/selling-on-marketplace"
 key: "help:selling-on-marketplace"
-coverImage: null
+coverImage: "https://img.youtube.com/vi/8o02_2B_MxM/maxresdefault.jpg"
 category: "Marketplace & templates"
 categoryKey: "category:template-gallery"
 ---

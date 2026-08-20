@@ -1,7 +1,7 @@
 ---
 title: "Manage Custom Agents with the Admin API"
 emoji: null
-description: null
+description: "Learn how Enterprise admins can use the Admin API to manage Custom Agents, track credit usage, and apply workspace-wide controls."
 url: "https://www.notion.com/help/manage-custom-agents-with-the-admin-api"
 key: "help:manage-custom-agents-with-the-admin-api"
 coverImage: null
@@ -55,3 +55,12 @@ Use Settings for one-off changes. Use the Admin API when you want to automate th
 
 
 ## FAQs
+
+### Does the Admin API show up in the audit log?
+
+Changes made through the Admin API are attributed to your organization's admin access, so you can keep track of what changed and when. [Learn more about audit logs →](https://www.notion.com/help/audit-log)
+
+
+### Where do I find the full API reference?
+
+The complete reference, including setup steps, lives in the [developer documentation →](https://developers.notion.com/reference/admin/get-workflows-metadata-for-space)

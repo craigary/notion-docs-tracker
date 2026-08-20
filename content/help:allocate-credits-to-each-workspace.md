@@ -1,7 +1,7 @@
 ---
 title: "Allocate credits to each workspace"
 emoji: null
-description: null
+description: "Set a credit limit for each workspace in your organization, so every team gets a predictable share and no workspace uses more than its budget."
 url: "https://www.notion.com/help/allocate-credits-to-each-workspace"
 key: "help:allocate-credits-to-each-workspace"
 coverImage: null
@@ -105,3 +105,27 @@ You can only edit limits for the current monthly cycle. Limits for past cycles c
 
 
 ## FAQs
+
+### Can I allocate credits by type (monthly, annual, or on-demand)?
+
+Not yet. Limits apply to a workspace's total credit usage, not a specific credit type. We don't support credit-type filtering yet.
+
+
+### What happens to my other workspaces when one hits its limit?
+
+Nothing. Only the workspace that reached its limit is paused. All other workspaces under the contract keep working.
+
+
+### Can workspace members or workspace admins set these limits?
+
+No. Workspace credit allocation is managed in the org console, which is only available to organization owners and admins.
+
+
+### A workspace is paused. How do I get it running again?
+
+An organization admin can increase that workspace's credit allocation in the org console. Members should contact their organization admin to request more credits.
+
+
+### Is this available for single-workspace contracts?
+
+No. This feature is only available for multi-workspace contracts managed from the org console.

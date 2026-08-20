@@ -1,7 +1,7 @@
 ---
 title: "Organization level controls"
 emoji: null
-description: null
+description: "Manage all of your organization’s workspaces and apply settings at the organization level in one place 🎮"
 url: "https://www.notion.com/help/organization-level-controls"
 key: "help:organization-level-controls"
 coverImage: null

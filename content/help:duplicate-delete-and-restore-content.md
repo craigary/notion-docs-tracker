@@ -1,7 +1,7 @@
 ---
 title: "Delete & restore content"
 emoji: null
-description: null
+description: "Any content you add to Notion can be duplicated or deleted with a couple clicks, whether that's an image, embed, page, or database. And if you ever get rid of content and need to get that work back — we got you covered on that too."
 url: "https://www.notion.com/help/duplicate-delete-and-restore-content"
 key: "help:duplicate-delete-and-restore-content"
 coverImage: null
@@ -207,3 +207,28 @@ To restore a property, click the arrow. To permanently delete a property, click 
 
 
 ## FAQs
+
+### I tried duplicating some blocks, but got a Please try again later error.
+
+This error means that you've hit our duplication rate limit — right now you can only duplicate 20,000 blocks per hour. Our apologies for the incovenience!
+
+If you wait a bit, you'll be able to duplicate the content then 👍
+
+
+### What if I accidentally deleted something permanently? Any way to get it back?
+
+If you accidentally delete a page, a workspace, or even your entire account, we can help! Accidents happen 😅 Just send us a message in the app by clicking `?` at the bottom of your sidebar, or email us at email protected.
+
+We keep backups of our database, which allows us to restore a snapshot of your content in the past 30 days if you need it.
+
+
+### How can I empty my trash?
+
+There isn’t a way to empty your trash all at once. You can go in and delete individual pages from the trash — otherwise, pages in the trash will be automatically and permanently deleted after 30 days.
+
+Enterprise plan workspace owners may customize these settings. [Learn more here →](https://www.notion.com/help/custom-data-retention-settings)
+
+
+### Can I use page history to restore a version that's over 30 days old?
+
+You can if you're on a [Business or Enterprise Plan](https://www.notion.com/pricing)! [Contact sales to learn more→](https://notionup.typeform.com/to/FbZ6Tk)

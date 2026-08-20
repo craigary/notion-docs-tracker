@@ -1,7 +1,7 @@
 ---
 title: "Log in & out"
 emoji: null
-description: null
+description: "Here are all the ways you can log into Notion. You can also log out remotely."
 url: "https://www.notion.com/help/log-in-and-out"
 key: "help:log-in-and-out"
 coverImage: null
@@ -87,3 +87,13 @@ For security purposes, you can remotely log out of any active sessions attribute
 
 
 ## FAQs
+
+### How can I link my existing Notion account with Continue with Apple?
+
+You can use `Continue with Apple` for a faster login as long as your Notion account email is the same as your Apple ID.
+
+For example, if your Apple ID is email protected, you can use `Continue with Apple` to login as long as that's the email you see in `Settings` → `{your name}`.
+
+When you use `Continue with Apple` for the first time, you'll see two options: `Share My Email` and `Hide My Email`. Select `Share My Email`, and you should be logged into your Notion account.
+
+If you selected `Hide My Email`, you'll need to unlink `Continue with Apple` from your Notion account and start over. To do that, go to the Apple ID section of your device settings, then `Password & Security`.

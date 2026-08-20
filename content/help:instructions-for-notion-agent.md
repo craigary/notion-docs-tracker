@@ -1,10 +1,10 @@
 ---
 title: "Set Instructions for Notion Agent"
 emoji: null
-description: null
+description: "Learn how Instructions shape what Notion Agent does, and how to write clear instructions."
 url: "https://www.notion.com/help/instructions-for-notion-agent"
 key: "help:instructions-for-notion-agent"
-coverImage: null
+coverImage: "https://img.youtube.com/vi/tcgNauq4joo/maxresdefault.jpg"
 category: "Notion AI"
 categoryKey: "category:notion-ai"
 ---
@@ -75,3 +75,21 @@ If you share your Instructions page, it does not automatically change anyone els
 
 
 ## FAQs
+
+### How are Instructions different from Skills and Custom Agents?
+
+* **Instructions** are persistent preferences that apply to every Notion Agent response - your "default mode."
+
+* **Skills** are on-demand actions you trigger when you need them, for a specific task or selection.
+
+* **Custom Agents** are autonomous: they can run in the background, be triggered by events (like a schedule or a new page), and be shared with your team. Each Custom Agent has its own Instructions and connections.
+
+
+### Can I have more than one Instructions page?
+
+You can only have one active Instructions page at a time, but you can create multiple pages and switch between them anytime in Settings → Notion AI → General.
+
+
+### Do my Notion Agent Instructions affect Custom Agents?
+
+No. Your personal Instructions only apply to your Notion Agent. Custom Agents have their own Instructions defined inside each Custom Agent.

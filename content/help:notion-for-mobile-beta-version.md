@@ -1,7 +1,7 @@
 ---
 title: "Notion beta program"
 emoji: null
-description: null
+description: "Get early access to new mobile features before anyone else, and help shape the future of Notion’s iOS & Android apps! Compared to the standard mobile apps, you’ll receive bug fixes and updates much quicker 📲"
 url: "https://www.notion.com/help/notion-for-mobile-beta-version"
 key: "help:notion-for-mobile-beta-version"
 coverImage: null

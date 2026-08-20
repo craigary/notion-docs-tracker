@@ -1,10 +1,10 @@
 ---
 title: "AI Meeting Notes (beta)"
 emoji: null
-description: null
+description: "Take detailed notes without needing to type alongside your meetings or video calls. "
 url: "https://www.notion.com/help/ai-meeting-notes"
 key: "help:ai-meeting-notes"
-coverImage: null
+coverImage: "https://img.youtube.com/vi/f4ZYEZO3Sq0/maxresdefault.jpg"
 category: "Notion AI"
 categoryKey: "category:notion-ai"
 ---
@@ -525,3 +525,69 @@ If an Enterprise Plan workspace owner has turned on both `Automatic transcript d
 
 
 ## FAQs
+
+### What language is AI Meeting Notes available for?
+
+English, Chinese, Spanish, French, German, Japanese, Korean, Portuguese, Russian, Thai, Vietnamese, Danish, Finnish, Norwegian, Dutch, and Swedish.
+
+[Speaker labeling](https://www.notion.com/help/ai-meeting-notes#follow-the-transcript-with-speaker-labels-&-citations) is currently available in English only.
+
+
+### Is AI Meeting Notes available offline?
+
+AI Meeting Notes is not currently supported while offline.
+
+
+### Does the summary take my notes into account?
+
+Yes. Both the transcript and notes are taken into account when creating the summary.
+
+
+### What is the minimum meeting time required in order for AI Meeting Notes to work?
+
+AI Meeting Notes requires at least 300 transcribed characters—roughly one minute of spoken content—to generate a summary.
+
+
+### How do I ensure all parties have provided consent?
+
+We recommend you obtain consent from all meeting participants before you start using AI Meeting Notes. See [here](https://www.notion.com/help/ai-meeting-notes#consent-message) for some ways you can obtain consent.
+
+
+### Who can access the transcription, notes, and summary from an AI Meeting Notes block?
+
+Meeting Notes inherit the permissions of the page they're saved on. If the transcription is captured on a private page, you'll need to manually share it with teammates to give them access.
+
+Audio for an AI Meeting Notes block is stored on the recorder's local device and only available to the recorder for download.
+
+
+### Can I turn off AI Meeting Notes?
+
+Yes, AI Meeting Notes can be turned off by a **workspace owner**.
+
+1. Click `Settings` in your sidebar.
+
+2. Select `Notion AI`.
+
+3. Toggle off `Workspace availability`.
+
+Local audio storage is off by default. To enable this capability, workspace owners can toggle on `Store audio locally`.
+
+
+### Is there a usage limit for AI Meeting Notes?
+
+Yes, AI Meeting Notes has a daily usage limit of 10 hours per user.
+
+
+### I get notifications when I join meetings asking if I want to use AI Meeting Notes. How does AI Meeting Notes know I am about to join a meeting?
+
+The Notion desktop app observes if a user has a process running on their computer that is actively using their microphone (e.g. Zoom) to provide these notifications. Notion does not listen to the audio coming from your microphone to provide these notifications. Notion records audio only when using AI Meeting Notes. This behavior can be disabled by going to `Settings` → `Notifications` and toggling off `Desktop meeting detection notifications`.
+
+
+### Can I convert an existing Notion page into a meeting summary template?
+
+Not at this time. Custom instructions must be created directly from Instructions at the bottom of the meeting notes block.
+
+
+### How does Notion identify speakers in a transcript?
+
+Notion detects when speakers are shifting in audio, then uses context from non-audio sources (for example, calendar event information) to label speakers. [Speaker labeling](https://www.notion.com/help/ai-meeting-notes#follow-the-transcript-with-speaker-labels-&-citations) happens within a single meeting only.

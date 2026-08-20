@@ -1,7 +1,7 @@
 ---
 title: "Share a Worker"
 emoji: null
-description: null
+description: "Learn how to give teammates access to a Worker so they can connect it to Custom Agents or help manage it."
 url: "https://www.notion.com/help/share-a-worker"
 key: "help:share-a-worker"
 coverImage: null

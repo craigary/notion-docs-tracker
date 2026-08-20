@@ -1,10 +1,10 @@
 ---
 title: "Database automations"
 emoji: null
-description: null
+description: "Improve your efficiency by automating the most tedious parts of your work."
 url: "https://www.notion.com/help/database-automations"
 key: "help:database-automations"
-coverImage: null
+coverImage: "https://img.youtube.com/vi/55zNDdiEZRg/maxresdefault.jpg"
 category: "Automations"
 categoryKey: "category:automations"
 ---
@@ -257,3 +257,28 @@ To see and manage all of the existing automations for a database:
 
 
 ## FAQs
+
+### How frequently is the database scanned for “changes” in properties?
+
+Database automations work over a three second window. For example, within this three second window, a user can remove a trigger and delete any changes, resulting in no property change to the automation.
+
+
+### Do automations work on pages in the entire database, or pages in a single database view?
+
+Either one. During the creation process, you can specify if the automation should run on pages in the entire database, or in a specific view. If any filters in that view change, the automation will then apply to the adjusted list of pages.
+
+
+### Can guests with full access to a database create automations?
+
+Unfortunately, guests can't create database automations.
+
+
+### Why isn’t my database automation triggering?
+
+If your database automation isn’t triggering, it could be because:
+
+* The automation is set to be triggered by another automation. Automations can’t currently trigger other automations. Try using a different, non-automated trigger instead.
+
+* The page no longer matches a view’s filters *after* it’s edited. Automations only run if the page still matches the view when the trigger occurs.
+
+* The database is locked.

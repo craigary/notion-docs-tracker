@@ -1,7 +1,7 @@
 ---
 title: "Blocking"
 emoji: null
-description: null
+description: "With Notion Calendar, you can easily let people see when you are or aren't available."
 url: "https://www.notion.com/help/blocking"
 key: "help:blocking"
 coverImage: null

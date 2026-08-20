@@ -1,7 +1,7 @@
 ---
 title: "Template localization on Marketplace"
 emoji: null
-description: null
+description: "Learn how to localize your templates in the Notion Marketplace."
 url: "https://www.notion.com/help/template-localization-on-marketplace"
 key: "help:template-localization-on-marketplace"
 coverImage: null

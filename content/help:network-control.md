@@ -1,7 +1,7 @@
 ---
 title: "Network control"
 emoji: null
-description: null
+description: "Workspace owners can use a proxy to control which Notion workspaces people can sign in to on a corporate network."
 url: "https://www.notion.com/help/network-control"
 key: "help:network-control"
 coverImage: null

@@ -1,7 +1,7 @@
 ---
 title: "Can’t upgrade to the Plus Plan for students and educators"
 emoji: null
-description: null
+description: "Try the following fixes if you’re not able to upgrade to the free Plus Plan for education."
 url: "https://www.notion.com/help/cant-upgrade-to-the-plus-plan-for-education"
 key: "help:cant-upgrade-to-the-plus-plan-for-education"
 coverImage: null

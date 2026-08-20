@@ -1,7 +1,7 @@
 ---
 title: "SAML SSO"
 emoji: null
-description: null
+description: "Notion provides Single Sign-On (SSO) functionality for Business and Enterprise customers to access the app through a single authentication source. This allows IT administrators to better manage team access and keeps information more secure."
 url: "https://www.notion.com/help/saml-sso-configuration"
 key: "help:saml-sso-configuration"
 coverImage: null
@@ -125,3 +125,47 @@ To enable Just-in-Time provisioning if you’re on the Enterprise Plan, go to yo
 
 
 ## FAQs
+
+### Why can't I enable SAML SSO?
+
+The most common reason is that you have not yet verified ownership of a domain. If this is the case, you'll notice that you either don’t have any domains listed in the verify email domain section or the domain is pending verification.
+
+For next steps, [refer to our instructions on how to complete domain verification here →](https://www.notion.com/help/domain-management)
+
+
+### Why can’t I edit my SAML SSO settings?
+
+It's possible you're<!-- --> trying to modify the verified domains or SSO configuration from a linked workspace that's already associated with another SSO configuration.\
+\
+In linked workspaces, all domain management and SSO configuration settings are read-only. To modify the SSO configuration or remove this workspace from the SSO configuration, you must have access to the primary workspace. The name of the primary workspace can be found at the top of the `Identity & Provisioning`**&#x20;**&#x74;ab in your settings.
+
+
+### Why do I need to verify a domain to enable SSO?
+
+We ask that the email domain ownership is validated to ensure that only the owner of the domain can customize how their users log into Notion.
+
+
+### I'm having trouble setting up SSO.
+
+* Try using a URL instead of an XML.
+
+* Test the setup process with a test account before enforcing it for users.
+
+* If neither of these options help, reach out to support at
+
+  email protected.
+
+
+### Why should I remove email domains from the “Allowed Email Domains” setting before configuring SAML SSO for my workspace?
+
+The `Allowed Email Domain` setting allows users with the selected domains to access your workspace without being provisioned via your IdP. To ensure that only users provisioned via your IdP can access your SAML-enabled workspace, disable this feature by removing all email addresses from the `Allowed Email Domain` list.
+
+
+### Can I still log in to Notion if my Identity Provider (IdP) is out of service?
+
+Yes, even with SAML enforced, workspace owners have the option to log in with email. A workspace owner can change the SAML configuration to disable `Enforce SAML` so users can log in with email again.
+
+
+### How do I allow admins of other workspaces in my SAML configuration create new workspaces?
+
+Only the admins of your primary workspace will be able to create new workspaces using your verified domain(s). Please reach out to our support team (email protected) to switch your primary SAML workspace to another linked workspace in your SAML configuration.

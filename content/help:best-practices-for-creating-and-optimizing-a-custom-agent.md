@@ -1,7 +1,7 @@
 ---
 title: "Best practices for creating and optimizing a Custom Agent"
 emoji: null
-description: null
+description: "Best practices to make your Custom Agent more reliable by clarifying goals, tightening sources, and iterating on results. "
 url: "https://www.notion.com/help/best-practices-for-creating-and-optimizing-a-custom-agent"
 key: "help:best-practices-for-creating-and-optimizing-a-custom-agent"
 coverImage: null

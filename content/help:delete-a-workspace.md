@@ -1,7 +1,7 @@
 ---
 title: "Delete a workspace"
 emoji: null
-description: null
+description: "Deleting a workspace is a permanent action. Read on to understand how to delete a workspace and what happens afterwards."
 url: "https://www.notion.com/help/delete-a-workspace"
 key: "help:delete-a-workspace"
 coverImage: null

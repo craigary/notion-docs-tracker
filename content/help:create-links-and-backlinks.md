@@ -1,10 +1,10 @@
 ---
 title: "Links & backlinks"
 emoji: null
-description: null
+description: "Notion makes it easy to link to all kinds of content in and outside of your workspace."
 url: "https://www.notion.com/help/create-links-and-backlinks"
 key: "help:create-links-and-backlinks"
-coverImage: null
+coverImage: "https://img.youtube.com/vi/GPqNXoM_EJ8/maxresdefault.jpg"
 category: "Pages & blocks"
 categoryKey: "category:write-edit-and-customize"
 ---
@@ -91,3 +91,22 @@ Backlinks automatically appear above the page title and show on hover whenever a
 
 
 ## FAQs
+
+### How do I automatically open Notion links in the desktop app?
+
+If you want any links to Notion pages to open in your desktop app:
+
+1. Open Notion in your web browser.
+
+2. Go to `Settings` → `Preferences`.
+
+3. Toggle on `Open links in desktop app`.
+
+You'll need to have the desktop app already installed. You’ll also need to go to Notion in your desktop app and ensure that `Open Notion links in browser` is turned off in your settings.
+
+
+### What's the difference between @-mentioning a page, and adding a Link to page block?
+
+`Link to page` works kind of like creating a sub-page. When you reference a Notion page this way, it will show up in your sidebar as a subpage of the page where it was linked.
+
+@-mentioning a page creates something more like a hyperlink. Pages you @-mention won’t show up as subpages of the pages they’ve been mentioned in.

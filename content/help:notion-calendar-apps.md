@@ -1,7 +1,7 @@
 ---
 title: "Notion Calendar apps"
 emoji: null
-description: null
+description: "Notion Calendar is available on web, Mac, Windows, iOS, and Android. "
 url: "https://www.notion.com/help/notion-calendar-apps"
 key: "help:notion-calendar-apps"
 coverImage: null

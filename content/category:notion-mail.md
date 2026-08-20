@@ -1,6 +1,6 @@
 ---
 title: "Notion Mail"
-description: null
+description: "Notion Mail is shutting down on September 22, 2026. Learn what's changing, and how to save your data in the help doc below."
 url: "https://www.notion.com/help/category/notion-mail"
 key: "category:notion-mail"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/2SBfsPfdWN8oF5X5akzwxx/a4a1fbccc03420ee52f5d24846334b97/Notion_Mail_Logo__1_.png"

@@ -13,10 +13,10 @@ import { cleanImageUrl, genericHeaders, getHelpArticleUrl, normalizeNotionUrl } 
 import { sha } from '../utils/hash'
 import { buildFrontMatter, convertToMarkdown } from '../utils/markdown'
 
-const articleHeroMediaSelector = 'helpArticle_helpArticleHeroMedia'
-const articleHeroMediaVideoSelector = 'videoPlayer_videoContainer'
-const articleDescriptionSelector = 'helpArticle_helpArticlePrologueCopy_'
-const faqAnswerSelector = 'faqDrawers_answer'
+const articleHeroMediaSelector = 'helpArticleHeroMedia'
+const articleHeroMediaVideoSelector = 'videoContainer'
+const articleDescriptionSelector = 'helpArticlePrologueCopy'
+const faqAnswerSelector = 'answer'
 const TRANSFER_CONTENT_ARTICLE_SLUG = 'transfer-content-deprovisioned-user'
 
 function sanitizeArticleMarkdown(article: Article, bodyMarkdown: string) {

@@ -1,7 +1,7 @@
 ---
 title: "How adding & removing members impacts billing"
 emoji: null
-description: null
+description: "Notion’s billing model looks at the number of members in your workspace. Learn how adding or removing members can impact your billing."
 url: "https://www.notion.com/help/members-and-billing"
 key: "help:members-and-billing"
 coverImage: null

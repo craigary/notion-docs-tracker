@@ -1,7 +1,7 @@
 ---
 title: "Add & manage connections"
 emoji: null
-description: null
+description: "You can connect other software to Notion, automate actions within your workspace, and access connections built by our partners."
 url: "https://www.notion.com/help/add-and-manage-connections-with-the-api"
 key: "help:add-and-manage-connections-with-the-api"
 coverImage: null

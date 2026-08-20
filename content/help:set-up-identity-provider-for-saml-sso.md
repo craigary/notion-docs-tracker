@@ -1,7 +1,7 @@
 ---
 title: "Set up Identity Provider (IdP) for SAML SSO"
 emoji: null
-description: null
+description: "Here's how to set up your Identity Provider for SAML SSO in Notion."
 url: "https://www.notion.com/help/set-up-identity-provider-for-saml-sso"
 key: "help:set-up-identity-provider-for-saml-sso"
 coverImage: null
@@ -382,3 +382,12 @@ Note that we do not support the `EntitiesDescriptor` element. If your IdP's meta
 
 
 ## FAQs
+
+### Are profile photos transmitted to Notion from the IdP?
+
+Yes, profilePhoto is an optional custom attribute. You may assign this attribute to a corresponding attribute in your IdP, provided the attribute contains the URL to an image. If the profilePhoto field is set, this image will replace the avatar in Notion when the user signs in using SAML SSO.
+
+
+### Can I still log in to Notion if my Identity Provider (IdP) is out of service?
+
+Yes, even with SAML enforced, workspace owners have the option to log in with email. A workspace owner can change the SAML configuration to disable `Enforce SAML` so users can log in with email again.

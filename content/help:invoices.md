@@ -1,7 +1,7 @@
 ---
 title: "Invoices"
 emoji: null
-description: null
+description: "Learn how to see and understand your invoice, as well as what happens when you have an unpaid invoice 📃"
 url: "https://www.notion.com/help/invoices"
 key: "help:invoices"
 coverImage: null
@@ -49,3 +49,12 @@ If you have one or more invoices that haven’t been paid yet, you may have limi
 
 
 ## FAQs
+
+### Why aren’t I getting my invoices emailed to me?
+
+We don't send email invoices at this time, but you can view your invoice by going to `Settings` → `Billing` → `View invoice`.
+
+
+### How can I update my invoices to include my billing address and/or VAT number?
+
+We can update this info for you! Just message us in the app by clicking the Notion AI face at the bottom right of the desktop app (or in your sidebar on mobile), or email us at email protected.

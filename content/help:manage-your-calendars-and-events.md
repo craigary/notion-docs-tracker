@@ -1,7 +1,7 @@
 ---
 title: "Manage your calendars & events"
 emoji: null
-description: null
+description: "Here’s how to set up your calendar so you can get around the grid quickly and focus on what matters most to you. "
 url: "https://www.notion.com/help/manage-your-calendars-and-events"
 key: "help:manage-your-calendars-and-events"
 coverImage: null

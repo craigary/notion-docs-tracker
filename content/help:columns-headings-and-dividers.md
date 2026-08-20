@@ -1,7 +1,7 @@
 ---
 title: "Format your page"
 emoji: null
-description: null
+description: "Notion is designed to get thoughts out of your head and onto the page. Once they're there, you can rearrange, organize, and structure them to think and write more clearly."
 url: "https://www.notion.com/help/columns-headings-and-dividers"
 key: "help:columns-headings-and-dividers"
 coverImage: null
@@ -171,3 +171,26 @@ Breaking up content on a page can help you separate distinct sections and ideas.
 
 
 ## FAQs
+
+### Why can't I see columns on my phone or tablet?
+
+Unfortunately, our mobile apps don't support multiple columns yet, but it's definitely on our to-do list! 
+
+
+### Will my table of contents show titles of in-line tables on my page?
+
+No. Even if you give your table a name in your document, this won't be reflected in the table of contents. You can, however, add a heading above the database that will appear.
+
+
+### If I turn individual headings a color, will that show in my table of contents?
+
+Your table of contents will always be all one color 🖌You can change this color, and it will will apply to the whole thing. To do this:
+
+* Click the `⋮⋮` icon that appears when you hover over your table of contents. Or select it and hit `cmd/ctrl` + `/`. Or right click.
+
+* Choose `Color` from the menu that pops up and select which color or highlight you want.
+
+
+### Can I edit the text inside my table of contents?
+
+Not directly! In order to change the text it displays, edit the individual heading blocks in your page.

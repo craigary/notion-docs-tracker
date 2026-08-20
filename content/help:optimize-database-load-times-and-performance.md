@@ -1,7 +1,7 @@
 ---
 title: "Optimize database load times & performance"
 emoji: null
-description: null
+description: "Here’s how to make sure your databases are always feeling quick and snappy."
 url: "https://www.notion.com/help/optimize-database-load-times-and-performance"
 key: "help:optimize-database-load-times-and-performance"
 coverImage: null

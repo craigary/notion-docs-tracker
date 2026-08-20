@@ -1,7 +1,7 @@
 ---
 title: "Can’t log into Notion Mail"
 emoji: null
-description: null
+description: "Having trouble getting into Notion Mail? Here are some reasons you might be experiencing issues and how you can solve them."
 url: "https://www.notion.com/help/cant-log-into-notion-mail"
 key: "help:cant-log-into-notion-mail"
 coverImage: null

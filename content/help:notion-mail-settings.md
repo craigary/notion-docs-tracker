@@ -1,7 +1,7 @@
 ---
 title: "Notion Mail settings"
 emoji: null
-description: null
+description: "Learn about the settings you can adjust in Notion Mail."
 url: "https://www.notion.com/help/notion-mail-settings"
 key: "help:notion-mail-settings"
 coverImage: null

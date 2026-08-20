@@ -1,7 +1,7 @@
 ---
 title: "Dormant account policy"
 emoji: null
-description: null
+description: "To maintain proper functioning of the Notion service, Notion maintains this dormant account deletion policy."
 url: "https://www.notion.com/help/dormant-account-policy"
 key: "help:dormant-account-policy"
 coverImage: null
@@ -53,3 +53,17 @@ If you have further questions, please reach out to Notion Support: <https://www.
 
 
 ## FAQs
+
+### Will I be notified if my account is scheduled to be deleted?
+
+Yes. We will reach out via email if your account is scheduled to be deleted due to inactivity.
+
+
+### How do I prevent my account from being deleted?
+
+You can prevent deletion by logging into your Notion account during the notice period.
+
+
+### What happens when my account is deleted?
+
+After 30 days from the date of deletion, your account and content will be permanently lost. If you would like to recover your deleted Notion account, you have 30 days from the date of deletion to contact support and restore your account and associated workspaces.

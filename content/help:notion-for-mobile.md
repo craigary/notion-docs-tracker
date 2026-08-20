@@ -1,7 +1,7 @@
 ---
 title: "Notion for mobile"
 emoji: null
-description: null
+description: "You can download Notion on your iOS or Android device for easy access on the go. Read, edit and comment on any of your Notion content from the mobile app."
 url: "https://www.notion.com/help/notion-for-mobile"
 key: "help:notion-for-mobile"
 coverImage: null
