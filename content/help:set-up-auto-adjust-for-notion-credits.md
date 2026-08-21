@@ -33,6 +33,10 @@ Only workspace owners and admins with access to the Billing tab can turn on or m
 
 ## How to turn on Auto Adjust
 
+Where you find Auto Adjust depends on how your workspace pays for its plan.
+
+**If your workspace pays monthly:**
+
 1. Go to `Settings` → `Billing`.
 
 2. Find the Auto Adjust card.
@@ -43,6 +47,18 @@ Only workspace owners and admins with access to the Billing tab can turn on or m
 
 5. Select `Enable Auto Adjust` to confirm.
 
+**If your workspace pays yearly:**
+
+1. Go to `Settings` → `Billing`, then select `Manage credits`.
+
+   * You can also select `Add credits` from your credit dashboard.
+
+2. In the window that opens, turn on `Auto adjust`.
+
+3. Choose how many credits to add each time (`Recharge amount`) and the most credits Auto Adjust can add (`Maximum amount`).
+
+4. Select `Save changes` to confirm.
+
 You can also turn it on from the “approaching your limit” notification that appears in Notion as you get close to your credit limit, or right after you make a manual credit purchase.
 
 ## Choose your settings
@@ -52,6 +68,8 @@ When you turn on Auto Adjust, you'll set:
 * **Amount:&#x20;**&#x48;ow many credits to buy each time. Pick a preset amount (for example, $10, $20, or $50) or enter a custom amount.
 
 * **Spending cap (recommended):** The most Notion will spend on adjustments in a billing period (for example, $150). This prevents unexpected charges.
+
+* **If your workspace pays yearly:** You'll set these as `Recharge amount` and `Maximum amount` in the credit checkout window, measured in credits.
 
 ![Auto Adjust for Notion credits](https://images.ctfassets.net/spoqsaf9291f/1oVRAdbHLI265Etj9KjhSE/2a16ceba545b47a226a906714e680d37/image.png)
 
@@ -89,6 +107,8 @@ You can change your settings anytime from the Billing tab:
 
 * **Change the trigger threshold:&#x20;**&#x54;akes effect right away.
 
+* **If your workspace pays yearly:** Select `Manage credits` in the Billing tab to open your Auto Adjust settings.
+
 ## If you change your plan
 
 * Buying fewer credits for the next billing period doesn't turn off Auto Adjust. If you no longer want Auto Adjust, you’ll need to turn it off manually.
@@ -110,4 +130,6 @@ No. Auto Adjust is managed in the Billing tab, which is only available to worksp
 
 ### How do I stop Auto Adjust?
 
-Go to the Billing tab and toggle Auto Adjust off. It takes effect right away, and you keep any credits already added.
+Go to the Billing tab and toggle `Auto Adjust` off. It takes effect right away, and you keep any credits already added.
+
+If your workspace pays yearly, select `Manage credits` in the Billing tab, then turn off `Auto adjust`.

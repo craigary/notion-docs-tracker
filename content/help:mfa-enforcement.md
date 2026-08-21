@@ -1,5 +1,5 @@
 ---
-title: "MFA enforcement"
+title: "Set up MFA enforcement for your workspace"
 emoji: null
 description: "Require guests to verify their identity a second way before they can open your workspace."
 url: "https://www.notion.com/help/mfa-enforcement"
@@ -27,7 +27,7 @@ Enterprise Plan organization owners can manage MFA enforcement for one workspace
 
 1. Open the workspace switcher and select `Manage organization`. You may need to select `Set up organization` first if you haven't already. Learn more by reading [Organization-level controls](https://www.notion.com/help/organization-level-controls).
 
-2. In the `General` tab of your organization settings, select `Manage MFA enforced guest workspace access`.
+2. Select the<!-- --> `Security` tab in your organization settings, then select `Guest workspace access restrictions`.
 
 3. Select which workspaces should require MFA. When you're done, select `Save changes`.
 
