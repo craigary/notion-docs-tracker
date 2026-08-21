@@ -15,10 +15,10 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/2HM5BPlsww5fF5gJDpI71B/94
 7 help:galleries
 8 help:dashboards
 9 help:charts
-10 help:layouts
-11 help:forms
-12 help:feeds
-13 help:maps
+10 help:maps
+11 help:layouts
+12 help:forms
+13 help:feeds
 
 ## Video
 

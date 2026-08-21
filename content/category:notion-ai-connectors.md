@@ -14,14 +14,14 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/2HM5BPlsww5fF5gJDpI71B/94
 6 help:notion-ai-connector-for-microsoft-teams
 7 help:notion-ai-connector-for-microsoft-sharepoint-and-onedrive
 8 help:notion-ai-connectors-for-slack
-9 help:salesforce-ai-connector
-10 help:microsoft-outlook-ai-connector
-11 help:google-calendar-ai-connector
-12 help:notion-ai-connector-for-gmail
-13 help:notion-mail-ai-connector
+9 help:asana-ai-connector
+10 help:notion-ai-connector-for-gmail
+11 help:microsoft-outlook-ai-connector
+12 help:google-calendar-ai-connector
+13 help:salesforce-ai-connector
 14 help:notion-calendar-ai-connector
 15 help:box-ai-connector
-16 help:asana-ai-connector
+16 help:notion-mail-ai-connector
 
 ## Video
 
