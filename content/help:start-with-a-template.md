@@ -27,7 +27,7 @@ Notion's Marketplace includes thousands of templates built for many purposes by 
 
 To access Marketplace, look for templates, and add them to your workspace:
 
-1. Find and select `Templates` in your sidebar.
+1. Go to `Marketplace` in your sidebar.
 
 2. Once you find a template you like, you can select `Add` (if the template is free) or select `Buy for {price}` at the top of the page to add the template to your workspace.
 

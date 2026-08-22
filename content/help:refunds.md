@@ -9,7 +9,7 @@ category: "Plans & billing"
 categoryKey: "category:plans-billing-and-payment"
 ---
 
-If you signed up for a paid Notion subscription by mistake, you can contact us in the app or email (email protected) <!-- -->from the workspace owner's email or your billing email <!-- -->to request a refund.
+If you signed up for a paid Notion subscription by mistake, you can contact us in the app or email (email protected) from the workspace owner's email or your billing email to request a refund.
 
 Keep in mind:
 
@@ -19,7 +19,7 @@ Keep in mind:
 
 * If you purchased a subscription online or through Google Pay, contact Notion to request a refund.
 
-In most cases, we can process a refund if you contact us within three days of the invoice date for monthly billing, or within 30 days of the invoice date for annual billing.
+In most cases, we can process a refund if you contact us within three days of the date your invoice is issued for monthly billing, or within 30 days of the date your invoice is issued for annual billing.
 
 If you were invoiced for members who were accidentally added to your workspace, we can refund the prorated charges if you reach out within three days of the invoice date. Make sure the additional members have been removed from your workspace before writing in.
 

@@ -98,7 +98,7 @@ If you’re brand new to Notion, check out the articles [here](https://www.notio
 
 You can also use our templates to build a foundation for your education workspace! To find our templates for students and teachers:
 
-1. Go to `Templates` in your sidebar.
+1. Go to `Marketplace` in your sidebar.
 
 2. In the dropdown, select `School`. You can also use the search bar to look for a more specific template.
 

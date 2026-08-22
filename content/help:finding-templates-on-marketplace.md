@@ -13,7 +13,7 @@ Notion’s Marketplace is the trusted place to find all kinds of templates to su
 
 ## Find templates
 
-You can visit Marketplace by going to `Templates` in your Notion sidebar. Once you’re in Marketplace, you’ll see lots of recommendations. These showcase templates by use case, popularity, and more. You can also see specific templates by choosing `Work`, `Life`, and `School` at the top of the page, or using the search bar.
+You can visit Marketplace by going to `Marketplace` in your Notion sidebar.<!-- --> Once you’re in Marketplace, you’ll see lots of recommendations. These showcase templates by use case, popularity, and more. You can also see specific templates by choosing `Work`, `Life`, and `School` at the top of the page, or using the search bar.
 
 [](//videos.ctfassets.net/spoqsaf9291f/1v9NDGwfl3Gx2SticmCPhy/df3e40fc9fc91d90e6ee53090ae8e323/Notion.mp4)
 
@@ -79,7 +79,7 @@ After you make a purchase, you’ll see a message on your screen that the purcha
 
 ## Manage your templates
 
-To manage the templates you’ve added to your workspace, open Marketplace by going to `Templates` in your Notion sidebar and select `Added` at the top of the page. You’ll see a list of all of the templates that have been added to your workspace, along with who added them, how much was paid, and when they were added. From here, you can take several actions on a template.
+To manage the templates you’ve added to your workspace, open Marketplace by going to `Marketplace` in your Notion sidebar and select `Added` at the top of the page. <!-- -->You’ll see a list of all of the templates that have been added to your workspace, along with who added them, how much was paid, and when they were added. From here, you can take several actions on a template.
 
 **Note:** Only templates you’ve added or purchased directly on Marketplace will show up in the `Added` menu. Templates that you add or purchase on third-party platforms won’t be included.
 
