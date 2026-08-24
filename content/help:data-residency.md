@@ -13,9 +13,9 @@ Data residency, along with [Notion's security practices](https://www.notion.com/
 
 ## Who can use this feature?
 
-Enterprise Plan customers who are **sales-assisted** (in other words, customers who are working with an account team) can **migrate their existing data to their selected data region**.**&#x20;**&#x43;ontact your account team to set up data residency migration for an existing workspace. If you do not contact your account team and receive confirmation of data residency migration, your workspace will remain hosted in the United States.
+If you’re on an Enterprise Plan, you can request to move existing workspace data to your selected data region. If you work with a Notion account team, contact them to set up data residency migration for an existing workspace.
 
-Enterprise Plan customers who aren't currently working with an account team can request migrations by contacting email protected.
+If you don’t work with an account team, contact Notion support (email protected) to check whether your workspace is eligible for migration. Until you contact Notion and receive confirmation that migration is complete, your workspace data will remain hosted in the United States.
 
 ## How does data residency work?
 
@@ -57,6 +57,8 @@ Notion Calendar and Notion Mail, any Notion Calendar and Notion Mail features, a
 **Note**: The data residency feature only changes the data at rest storage location for the categories of Customer Data described above stored by Notion in Amazon Web Services — no other aspects of Notion are affected. This commitment does not extend to any non-Notion Services. Notion will continue to store and process all categories of data in the United States and other international locations in accordance with Notion's Privacy Policy and, where applicable, the Data Processing Addendum. For more information on where information is stored and processed via our subprocessors or Notion affiliates, please see our [Subprocessors page](https://www.notion.com/notion/Notion-s-List-of-Subprocessors-268fa5bcfa0f46b6bc29436b21676734).
 
 ## Data migration
+
+To migrate an existing workspace, contact your Notion account team or Notion support (email protected). Notion will confirm whether your workspace is eligible and help you understand the next steps.
 
 By default, your data will continue to reside in the United States. To migrate your organization's data to a data region, please contact your account team. Once the workspace is migrated, the categories of Customer Data described above will be deleted in the US after 30 days.
 

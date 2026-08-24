@@ -132,6 +132,12 @@ Notion is required to charge Goods and Services Tax (GST) on services provided t
 
 When entering in your tax ID, the alphanumeric format to use is `123456789`.
 
+### Nigeria (VAT)
+
+Notion is required to charge Value-added tax (VAT) on services provided to consumers in Nigeria. If you're using Notion for business purposes and provide a valid Tax Identification Number (TIN) found in Notion `Settings` → `Billing`, you will not be charged VAT on subsequent invoices.
+
+When entering in your tax ID, the alphanumeric format to use is 1234567890123.
+
 ### Norway (VAT)
 
 Notion is required to charge Value-added tax (VAT) on services provided to consumers in Norway. If you're using Notion for business purposes and provide a valid VAT Number found in Notion `Settings` → `Billing`, you will not be charged VAT on subsequent invoices.
