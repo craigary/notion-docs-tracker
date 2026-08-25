@@ -55,6 +55,8 @@ To configure SAML settings in Notion:
 
    * The `Identity Provider Details` is a field in which you need to provide either an IdP URL or IdP metadata XML.
 
+7. Choose how people sign in and whether new accounts are created for them, then save once. All of these choices can be made before you save.
+
 ### Step 4: Configure Notion in Entra ID
 
 To set up in Notion in Entra ID:
@@ -339,6 +341,8 @@ Your IdP must support the SAML 2.0 spec to be used with Notion. To set up your I
 ### Step 2: Set up SAML in Notion
 
 To set up SAML in Notion:
+
+You can enter your provider details, pick how people sign in, and turn on automatic account creation before you save. One save turns SAML on with the settings you picked.
 
 1. In Notion, go to `Settings` → `General` if you’re on the Business Plan, or the `General` tab of your [organization settings](https://www.notion.com/help/organization-level-controls) if you’re on the Enterprise Plan.
 

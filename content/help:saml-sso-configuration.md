@@ -53,6 +53,8 @@ To set up SAML SSO for a Business workspace, a workspace owner can:
 
    * The `Identity Provider Details` is a field in which you need to provide either an IdP URL or IdP metadata XML.
 
+7. Choose how people sign in and whether new accounts are created for them, then select `Save & enable`. You can make all of these choices before you save. You don’t need to save first and open the settings again.
+
 ![saml sso configuration](https://images.ctfassets.net/spoqsaf9291f/4RBz9STjVIHO5D9SD4aATm/62035400d769d4e02b319f3d0f641054/saml_sso_configuration.png)
 
 ### Enterprise Plan
@@ -63,13 +65,15 @@ Enterprise Plan [organization owners](https://www.notion.com/help/organization-l
 
 2. In the `General` tab of your organization settings, toggle on `Enable SAML SSO`.
 
-3. Choose a setup method (URL or metadata XML), paste the required information from your Identity Provider or IdP, and select `Save & enable`.
+3. Choose a setup method (URL or metadata XML), paste the required information from your Identity Provider or IdP, and select `Save & enable`.<!-- --> You can also pick how people sign in and turn on automatic account creation before you save, so everything takes effect at once.
 
 **Note:** At this time, organizations on the Enterprise Plan can only set up SAML SSO with one IdP.
 
 ## Enforce SAML SSO
 
 Once you have completed your configuration of SAML SSO for a workspace, members will be able to log in via SAML SSO in addition to other login methods, like username and password or Google authentication.
+
+You can pick this while you are first setting up SAML, in the same save. You can also change it later.
 
 If you want to ensure that members can log in using only SAML SSO and no other method, go to your SAML SSO settings and update the Login method to Only SAML SSO. Once this happens, workspace users will be logged out and required to log back in using SAML SSO. SAML SSO will only be enforced for members who use your verified domain.
 
@@ -111,7 +115,7 @@ When enabled, members of the affected workspaces who haven’t already authorize
 
 ## Just-in-Time (JIT) provisioning
 
-Notion supports Just-in-Time provisioning when using SAML SSO. This allows someone signing in via SAML SSO to join the workspace automatically as a member.
+Notion supports Just-in-Time provisioning when using SAML SSO. This allows someone signing in via SAML SSO to join the workspace automatically as a member.<!-- --> You can turn this on while you set up SAML, in the same save.
 
 To enable Just-in-Time provisioning if you're on the Business Plan, go to `Settings`**&#x20;**→**&#x20;**`Identity` and make sure that `Automatic account creation` is enabled.
 
@@ -169,3 +173,8 @@ Yes, even with SAML enforced, workspace owners have the option to log in with em
 ### How do I allow admins of other workspaces in my SAML configuration create new workspaces?
 
 Only the admins of your primary workspace will be able to create new workspaces using your verified domain(s). Please reach out to our support team (email protected) to switch your primary SAML workspace to another linked workspace in your SAML configuration.
+
+
+### Do I have to save my SAML settings twice?
+
+No. You can add your provider details, pick how people sign in, and choose whether new accounts are created, then save once. Everything takes effect together.

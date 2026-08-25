@@ -13,7 +13,7 @@ The SharePoint and OneDrive AI Connector is a single Microsoft app and integrati
 
 This integration enables powerful search and analysis across your stored files, making it simple to find company policies, analyze project documentation, and process Excel data.
 
-## Connect SharePoint and OneDrive to Notion AI
+## Connect SharePoint & OneDrive to Notion AI
 
 **Who can connect SharePoint and OneDrive to Notion AI?**
 
@@ -27,27 +27,29 @@ This connector respects Microsoft permissions—users will only see content they
 
 To connect SharePoint and OneDrive to your Notion workspace:
 
-1. In Notion, go to `Settings` → `Notion AI` → click `Connect` under `SharePoint and OneDrive`.
+1. In Notion, go to `Settings` → `Notion AI` → `AI Connector`. Next to SharePoint, click `+`.
 
    ![HC: Sharepoint and OneDrive](https://images.ctfassets.net/spoqsaf9291f/4RPd2E4sBt8xZae1zADBpT/2c9f016bd748f7fd35a0b6c6ae79c3ca/Settings_V2_Help_Center_AI_Connectors.jpeg)
 
-2. You'll be taken to Microsoft Teams. **Don't close Notion during the setup process!**
+2. In the `To start, install the Notion AI app in Microsoft` modal, click `Start connection`.
 
-3. A Microsoft page should automatically open, asking to accept application permissions. Click `Accept`.
+3. You'll be taken to Microsoft Teams. Keep Notion open while you finish setup.
 
-4. Once the installation is complete, return to Notion. You'll see a `Connection is in progress` screen.
+4. A Microsoft page should automatically open, asking to accept application permissions. Click `Accept`.
 
-5. To only include only specific sites or users, choose `Customize connected content`. To move forward with the full selection, click `Got it`.
+5. When installation is complete, return to Notion. You'll see a `Connection is in progress` screen.
 
-6. Click `Done`.
+6. To include only specific sites or users, choose `Customize connected content`. To move forward with the full selection, click `Got it`.
+
+7. Click `Done`.
 
 ![HC: Sharepoint OneDrive Complete](https://images.ctfassets.net/spoqsaf9291f/4hwB6uByv6baWNUASZKebe/9539f338a72ec57c5fc44995b8d596a9/Onboarding_SharePoint__1_.png)
 
 The connection can take up to 36 hours to complete.
 
-You can manage the connection by opening Notion AI at the bottom of your screen and clicking on `•••` → `Connect SharePoint and OneDrive` → `Settings`.
+You can manage the connection from `Settings` → `Notion AI` → `AI Connector` → `SharePoint`.
 
-## Best practices and example prompts
+## Best practices & example prompts
 
 The SharePoint & OneDrive Connector is most helpful for:
 

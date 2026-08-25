@@ -1,7 +1,7 @@
 ---
 title: "Intro to writing & editing"
 emoji: null
-description: "Notion is first and foremost a writing tool. It works as simply as any word processor, only you can add many different types of content to a page, and move it around and modify it in new ways ✏️"
+description: "Notion is first and foremost a writing tool. It works as simply as any word processor, only you can add many different types of content to a page, and move it around and modify it in new ways."
 url: "https://www.notion.com/help/writing-and-editing-basics"
 key: "help:writing-and-editing-basics"
 coverImage: "https://img.youtube.com/vi/FXIrojSK3Jo/maxresdefault.jpg"
@@ -36,6 +36,8 @@ There are three tools to familiarize yourself with in order to create any page y
   * `Suggest edits`: Lets you make a suggestion on the block.
 
   * `Ask AI`: Lets you ask Notion AI anything, or take actions on your block using Notion AI.
+
+  * `Word and character count`: When you select one or more blocks, the menu shows how many words and characters are in your selection.
 
 ![Block handle](https://images.ctfassets.net/spoqsaf9291f/7iZetywx1jnTCDBuDgH1vG/d599277643dbf9d948d135bd2e2e41e9/block_menu.gif)
 
@@ -212,6 +214,18 @@ Here are the basics for moving and structuring content around your page.
 * If you're in editing mode within a block, press `Esc` to select the entire block.
 
 Partial text selection across blocks will be supported on all platforms except Firefox. We’re actively working with the Mozilla team to enable this feature in Firefox as soon as possible.
+
+### Count the words in what you select
+
+You can check the length of one part of a page without copying the text into another app.
+
+1. Select the blocks you want to count.
+
+2. Look at the menu that appears for your selection. It shows the word count and the character count for those blocks.
+
+3. Add blocks to your selection, or take some out, to update the count. For example, a four-block section might show 281 words.
+
+**Note**: This count covers only the blocks you select. To see the count for a whole page, open the ••• menu at the top right of the page.
 
 ### Drag-and-drop
 

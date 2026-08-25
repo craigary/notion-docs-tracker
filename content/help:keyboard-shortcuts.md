@@ -1,7 +1,7 @@
 ---
 title: "Keyboard shortcuts"
 emoji: null
-description: "Notion is fully equipped with keyboard and Markdown shortcuts so you can do everything you need without ever touching your mouse ⌨️"
+description: "Notion is fully equipped with keyboard and Markdown shortcuts so you can do everything you need without ever touching your mouse."
 url: "https://www.notion.com/help/keyboard-shortcuts"
 key: "help:keyboard-shortcuts"
 coverImage: "https://img.youtube.com/vi/cBdyHp_XVFQ/maxresdefault.jpg"
@@ -158,6 +158,8 @@ Everything in Notion is a block — from a line of type (or paragraph) to an ima
 * Use `cmd` + `shift` + `click` on Mac, and `alt + shift + click` on Windows/Linux to select or de-select an entire block.
 
 * Use `shift` + `click` to select another block and all blocks in between.
+
+* Once you have blocks selected, the menu that appears shows the word count and the character count for your selection. [See how to count the words in what you select →](https://www.notion.com/help/writing-and-editing-basics)
 
 * Press `backspace` or `delete` to delete selected blocks.
 

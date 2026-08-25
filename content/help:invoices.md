@@ -1,15 +1,13 @@
 ---
-title: "Invoices"
+title: "View your invoice"
 emoji: null
-description: "Learn how to see and understand your invoice, as well as what happens when you have an unpaid invoice 📃"
+description: "Learn how to see and understand your invoice, as well as what happens when you have an unpaid invoice."
 url: "https://www.notion.com/help/invoices"
 key: "help:invoices"
 coverImage: null
 category: "Plans & billing"
 categoryKey: "category:plans-billing-and-payment"
 ---
-
-## View your upcoming invoice
 
 To view your upcoming invoice:
 
@@ -32,6 +30,12 @@ Your invoice might look different from what you expect, and this could be for se
 ## Unpaid invoices
 
 If you have one or more invoices that haven’t been paid yet, you may have limited access to your Notion workspace until the payments are made. For the best experience with Notion, make sure you have the right payment method on file and your payments are made on time.
+
+Your Notion plan and any [Notion credits](https://www.notion.com/help/what-are-notion-credits) you buy are billed as separate invoices, and each is handled separately:
+
+* If a Notion credit invoice isn't paid, your team keeps the credits you've already paid for. Notion credits above that amount are on hold until the payment goes through. This doesn’t impact your access to the rest of Notion.
+
+* If your plan invoice isn't paid, it follows the normal process above and does not put your paid Notion credits on hold.
 
 **Learn more**
 

@@ -68,3 +68,11 @@ To buy credits, you'll need to:
 * Once your new subscription is active, an admin can purchase Notion credits from `Settings` → `Access & billing` → `Notion credits`.
 
 Make sure your new plan includes AI before purchasing credits. [Notion credits](https://www.notion.com/help/category/notion-credits) are only available on Business and Enterprise plans.
+
+### Is there a limit to how many credits we can buy?
+
+No. You can buy the amount of credits your workspace needs, including large amounts. If your payment method takes a few days to clear, your team can keep using credits up to the amount you set out to buy while the payment settles.
+
+### What happens to our Notion credits if a payment fails?
+
+Your team keeps the Notion credits you've already paid for. Credits above that amount are put on hold until an admin fixes the payment, and then they unlock automatically. A failed Notion credit payment doesn't affect your main Notion plan. Learn more about [how Notion credit payments work →](https://www.notion.com/help/what-are-notion-credits)

@@ -15,7 +15,7 @@ If you manage billing in-product, admins can [purchase credits](https://www.noti
 
 ## Monthly vs. annual Notion credits
 
-There are two types of Notion credits you can buy: monthly and annual. <!-- -->The type of credit you can purchase is tied to your core subscription plan.
+There are two types of Notion credits you can buy: monthly and annual. The type of credit you can purchase is tied to your core subscription plan.
 
 **If you manage billing in-product:**
 
@@ -41,7 +41,7 @@ There are two types of Notion credits you can buy: monthly and annual. <!-- -->T
 
 **Monthly credits** are a good fit if your workspace uses a steady amount of credits each month, like [Custom Agent](https://www.notion.com/help/custom-agents) workflows with predictable usage. Unused credits reset each month.
 
-**Annual credits** are a good fit if you want flexibility throughout the year, like usage that ramps up, spikes, or varies between teams and quarters. They’re also useful for experimentation and time-bound projects. <!-- -->Because you can use annual credits anytime during your subscription year, they cost more and work well as a flexible pool.
+**Annual credits** are a good fit if you want flexibility throughout the year, like usage that ramps up, spikes, or varies between teams and quarters. They’re also useful for experimentation and time-bound projects. Because you can use annual credits anytime during your subscription year, they cost more and work well as a flexible pool.
 
 ## Billing date
 
@@ -71,6 +71,20 @@ Annual credits cost $13 per 1,000 credits. Admins on annual Business or Enterpri
 
 * **Use credits flexibly throughout your subscription year.** Annual credits remain available until your subscription renews, giving you more flexibility to accommodate changes in usage. Unused credits expire at renewal and don’t carry over, even if you bought them partway through the year.
 
+## What happens if a credit payment fails
+
+Your Notion plan and your Notion credit purchases are billed separately. That means a problem with a Notion credit payment doesn't affect your Notion plan, and a problem with your Notion plan payment is handled on its own.
+
+If a Notion credit payment doesn't go through:
+
+* Your team keeps using the credits you've already paid for.
+
+* Credits above the amount you've paid for are put on hold. Once you update your payment details and the payment goes through, the rest of your credits unlock automatically.
+
+* You'll see an alert in Notion when a payment needs attention, so an admin can fix it.
+
+Some payment methods, like bank transfers, take a few days to clear. While a payment is still clearing, your team can keep using credits up to the amount you set out to buy. Nothing is put on hold unless the payment actually fails.
+
 
 ## FAQs
 
@@ -91,3 +105,8 @@ They expire and don't carry over. If you have a remaining balance, you can reduc
 **If you manage your billing in-product:** No. Annual credits are only available on annual Business and Enterprise plans. You'll need to switch to an annual plan first.
 
 **If you work with an account team:** You can purchase monthly, annual, or on-demand credits.
+
+
+### What happens to my Notion subscription if a Notion credit payment fails?
+
+Your Notion plan and your Notion credits are billed separately. A failed Notion credit payment only pauses the credits you haven't paid for yet. Your plan, and the credits you've already paid for, keep working while you sort out the payment.
