@@ -51,8 +51,6 @@ The usage allowance applies to some Notion AI features, including:
 
 * Page translation
 
-* [Skills](https://www.notion.com/help/skills-for-notion-agent)
-
 It does not apply to other features, such as:
 
 * [AI Meeting Notes](https://www.notion.com/help/ai-meeting-notes), which has its own 10-hour daily cap.
@@ -120,6 +118,6 @@ This is off by default. Admins can turn it on in `Settings` → `Notion AI`.
 
 ### Does this impact Custom Agents or Workers?
 
-No. The usage allowance applies to Notion AI features like your personal [Notion Agent](https://www.notion.com/help/notion-agent), [image generation](https://www.notion.com/help/create-and-edit-images-with-notion-ai), page translation, and [Skills](https://www.notion.com/help/skills-for-notion-agent).
+No. The usage allowance applies to Notion AI features like your personal [Notion Agent](https://www.notion.com/help/notion-agent), [image generation](https://www.notion.com/help/create-and-edit-images-with-notion-ai), and page translation.
 
 It doesn’t apply to [Custom Agents](https://www.notion.com/help/custom-agents) or [Workers](https://www.notion.com/help/run-custom-code-with-workers), which use [Notion credits](https://www.notion.com/help/category/notion-credits) instead.

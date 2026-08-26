@@ -1,5 +1,5 @@
 ---
-title: "AI Meeting Notes (beta)"
+title: "Take AI Meeting Notes in Notion (beta)"
 emoji: null
 description: "Take detailed notes without needing to type alongside your meetings or video calls. "
 url: "https://www.notion.com/help/ai-meeting-notes"
@@ -103,6 +103,8 @@ In other meeting setups (like in-person conversations or group meetings), speake
 
 * Using Notion in a browser or on the mobile app.
 
+Using Google Meet in Chrome? Install the [Notion Meetings Add-on](https://www.notion.com/help/install-the-notion-meetings-add-on) browser extension to get speaker labels in your Google Meet calls, including group meetings (desktop only).
+
 You’ll also find citations to your transcript in your meeting notes summary. Hover over a citation to see the snippet of your transcript that’s been referenced. You can also click on a citation to jump to the corresponding line in your transcript.
 
 ## Change summary instructions
@@ -178,6 +180,8 @@ To help you request consent, you’ll have a few easy options:
   * You can change the voice by clicking the slider icon at the top of the meeting notes block and selecting different voices for different languages. Notion will automatically use your meeting's language to play the appropriate voice.
 
 * **Say it out loud**: A simple ask works too. For example, you could ask, “Alright if I record and transcribe this meeting using Notion AI Meeting Notes?”
+
+* **In Google Meet:** If you have the [Notion Meetings Add-on](https://www.notion.com/help/install-the-notion-meetings-add-on) browser extension, Notion automatically posts and pins a message in the Meet chat when you start transcribing, and shows a recording indicator over your camera. Everyone in the call, including people who join late, can see that the meeting is being transcribed.
 
 #### Automatic consent message option
 
@@ -461,13 +465,13 @@ Outside the United States, such as in the European Union, there are similar laws
 
 In addition to consent requirements, there may also be laws governing how you use, disclose, and secure your call recordings or transcriptions. These laws may vary depending on where your participants are located, the business sector, and industry standards.
 
-### Some best practices for recording and transcribing communications
+### Best practices for recording & transcribing communications
 
 **Obtaining consent**
 
 Determining which consent laws apply can be complicated when meeting participants are in multiple states or countries, or if you cannot be sure about the location of one or more participants. **We recommend complying with the strictest consent laws and always obtaining consent from all participants before using AI Meeting Notes to transcribe a meeting**.
 
-**Some other best practices**
+**Other best practices**
 
 * Clearly explain to participants that you will transcribe the call using a third-party provider (e.g., Notion AI Meeting Notes).
 
@@ -484,6 +488,8 @@ Determining which consent laws apply can be complicated when meeting participant
 * Keep recordings and transcriptions only for as long as you need.
 
 AI Meeting Notes provides ways to disclose your use of the feature and obtain consent from meeting participants, which you can learn more about [here](https://www.notion.com/help/ai-meeting-notes#consent-message), but note that these are just a few examples of how you might obtain consent.
+
+If you use Google Meet, the [Notion Meetings Add-on](https://www.notion.com/help/install-the-notion-meetings-add-on) browser extension can help with disclosure. It posts and pins a message in the meeting chat and shows a recording indicator over your camera whenever you're transcribing.
 
 ## How Notion processes and stores audio and transcriptions
 

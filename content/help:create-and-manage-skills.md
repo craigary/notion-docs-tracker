@@ -1,7 +1,7 @@
 ---
 title: "Create & manage skills"
 emoji: null
-description: "Learn what Skills are and how to create, manage, and use them."
+description: "Learn what skills are and how to create, manage, and use them."
 url: "https://www.notion.com/help/create-and-manage-skills"
 key: "help:create-and-manage-skills"
 coverImage: "https://img.youtube.com/vi/tcgNauq4joo/maxresdefault.jpg"
@@ -19,11 +19,11 @@ Skills are reusable instructions that teach [Notion AI](https://www.notion.com/h
 
 * Find and manage all your skills in the `Skills` tab of your [Library](https://www.notion.com/help/manage-your-library).
 
+* You can also download a skill to a local agent, so the same steps work outside Notion.
+
 When you select text on a page, the text selection menu includes built-in skills like **Improve Writing**, **Proofread**, **Explain**, and **Reformat**. Any skill you or your team has created can be added to the menu, replacing or supplementing the defaults.
 
-To keep Notion AI fast and reliable, Business and Enterprise plans include a [usage allowance](https://www.notion.com/help/manage-your-usage-allowance-for-notion-ai) for certain Notion AI features, including skills.
-
-## When should I use Skills?
+## When should I use skills?
 
 Use a skill when your task is:
 
@@ -35,7 +35,7 @@ Use a skill when your task is:
 
 A simple rule of thumb is that if you’d copy and paste the same prompt twice, it's a good candidate for a skill.
 
-## Example use cases for Skills
+## Example use cases for skills
 
 * Executive-ready rewrites (tone, length, format).
 
@@ -49,7 +49,7 @@ A simple rule of thumb is that if you’d copy and paste the same prompt twice, 
 
 1. Go to `Library` in your sidebar and open the `Skills` tab.
 
-2. Select `+ Add a Skill`.
+2. Select `+ Add a skill`.
 
 3. Create a new skill page.
 
@@ -61,7 +61,7 @@ Your Library can have several tabs, so the `Skills` tab may not be the first one
 
 ## Create a skill from an existing page
 
-From any page, select `•••` at the top, then select `Use as a Skill`.
+From any page, select `•••` at the top, then select `Use as a skill`.
 
 You can also ask Notion Agent to mark a page as a skill for you. Skill pages show a banner at the top, so you can tell them apart from regular pages.
 
@@ -181,9 +181,21 @@ You can use your skills with other AI tools too:
 
 * **Run skills on AI Meeting Notes:** Open your Notion Agent from the face icon in the bottom corner of the meeting note page to see useful skills. Choose which Skills can appear on your meeting notes in `Settings` → `Notion AI` → `Skills`.
 
-* **Download a skill:** From a skill page, download it to a folder on your computer so local tools like Claude Code can use it.
+* **Download a skill to a local agent:** Keep the skill page in Notion and send a copy to a local agent like Claude Code, Codex, Cursor, Gemini, or Grok. The instructions, references, and formats come with it.
 
-## Best practices for creating Skills
+To download a skill to your local agent:
+
+1. Open the skill page in Notion.
+
+2. Select `•••` at the top of the page.
+
+3. Select `Download to local agents`.
+
+4. Choose where to send the skill.
+
+Notion saves the skill as a `SKILL.md` file, along with any files attached to the skill that are approved to share. Your local agent reads that file the same way it reads its own instructions, so you get the same results you get in Notion. When a skill changes in Notion, the downloaded skill is badged so you know to download the latest version to your local environment.
+
+## Best practices for creating skills
 
 * Use your Notion Agent to help brainstorm or write skills.
 
@@ -199,10 +211,12 @@ You can use your skills with other AI tools too:
 
 * Give each skill a clear description of what it does and when to use it. This helps Notion Agent pick the right skill on its own.
 
+* If your team also works in local agents, keep the skill page in Notion up to date and download it again after you make changes.
+
 
 ## FAQs
 
-### Can Custom Agents use Skills?
+### Can Custom Agents use skills?
 
 Yes! Since skills are just pages, any Custom Agent with access to a skill page can use it. To set this up:
 
@@ -213,7 +227,7 @@ Yes! Since skills are just pages, any Custom Agent with access to a skill page c
 After that, the agent will follow the content of the skill page when it runs.
 
 
-### How are Skills different from instructions and Custom Agents?
+### How are skills different from instructions and Custom Agents?
 
 * **Skills** are on-demand actions you trigger when you need them, for a specific task or selection.
 
@@ -222,7 +236,7 @@ After that, the agent will follow the content of the skill page when it runs.
 * **Custom Agents** are autonomous: they can run in the background, be triggered by events (like a schedule or a new page), and be shared with your team. Each Custom Agent has its own instructions and connections.
 
 
-### How can I remove a Skill?
+### How can I remove a skill?
 
 To remove a skill, you can:
 
