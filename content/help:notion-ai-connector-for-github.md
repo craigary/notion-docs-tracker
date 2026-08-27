@@ -17,7 +17,7 @@ categoryKey: "category:notion-ai-connectors"
 
 ## Connect GitHub to Notion AI
 
-**Who can****&#x20;connect GitHub to Notion AI?**
+**Who can connect GitHub to Notion AI?**
 
 * You must be a GitHub organization owner and Notion workspace owner.
 

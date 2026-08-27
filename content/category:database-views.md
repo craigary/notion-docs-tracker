@@ -17,8 +17,8 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/2HM5BPlsww5fF5gJDpI71B/94
 9 help:charts
 10 help:feeds
 11 help:forms
-12 help:layouts
-13 help:maps
+12 help:maps
+13 help:layouts
 
 ## Video
 
