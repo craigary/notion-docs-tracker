@@ -6,8 +6,8 @@ key: "category:notion-mail"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/2SBfsPfdWN8oF5X5akzwxx/a4a1fbccc03420ee52f5d24846334b97/Notion_Mail_Logo__1_.png"
 ---
 
-1 help:notion-mail-inbox-is-going-away-what-to-do-next
-2 help:get-started-with-notion-mail
+1 help:get-started-with-notion-mail
+2 help:notion-mail-inbox-is-going-away-what-to-do-next
 3 help:navigate-your-inbox
 4 help:compose-an-email
 5 help:views-groups-filters-and-properties

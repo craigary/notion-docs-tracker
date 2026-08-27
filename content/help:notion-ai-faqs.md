@@ -9,7 +9,11 @@ category: "Notion AI"
 categoryKey: "category:notion-ai"
 ---
 
-**Note:** Notion AI is only available on Business and Enterprise Plans. Users on the Free and Plus Plans get a limited number of [complimentary AI responses](https://www.notion.com/help/complimentary-ai-responses) so they can try Notion AI features out.
+* Notion AI is only available on Business and Enterprise Plans.
+
+* To keep Notion AI fast and reliable, Business and Enterprise plans include a usage allowance for certain Notion AI features. Learn more about [managing usage allowance for Notion AI →](https://www.notion.com/help/manage-your-usage-allowance-for-notion-ai)
+
+* Users on the Free and Plus Plans get a limited number of [complimentary AI responses](https://www.notion.com/help/complimentary-ai-responses) so they can try Notion AI features out.
 
 Notion AI is your built-in, personalized teammate. No need to switch back and forth between Notion and your other tools — Notion AI lives in the same place as your project plans, tasks, and everything else you store in Notion, and it can even search information in your connected apps. It takes on all kinds of tasks, from helping you edit a report to building an entire task database for your team, so you have more time to dedicate to what’s most important.
 
@@ -223,3 +227,8 @@ Your feedback isn’t used to train Notion AI. Instead, it’s shared with the N
 ### Can I turn off web search for Notion AI?
 
 Yes — workspace owners can disable web search for Notion AI across their entire workspace. To do this, go to `Settings` → `Notion AI` and under `AI Web Search`, toggle off `Enable web search for workspace`.
+
+
+### Why am I getting an error?
+
+You may have hit your rolling, six-hour or monthly usage allowance for Notion AI. Learn more about what to do when certain Notion AI features are temporarily unavailable after [reaching your usage allowance →](https://www.notion.com/help/manage-your-usage-allowance-for-notion-ai#how-to-resume-using-notion-ai)

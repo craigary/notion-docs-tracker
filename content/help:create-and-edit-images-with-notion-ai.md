@@ -1,5 +1,5 @@
 ---
-title: "Create & edit images with Notion Agent"
+title: "Create & edit images with Notion AI"
 emoji: null
 description: "Learn how to turn ideas into diagrams, flowcharts, and visual notes, then tweak them with AI."
 url: "https://www.notion.com/help/create-and-edit-images-with-notion-ai"
@@ -77,6 +77,8 @@ Try prompts like:
 ### Why don't I see the option to create an image?
 
 Image generation is only available on Business and Enterprise plans. If you don't see it yet, the feature might still be rolling out to your workspace. Check that your admin has enabled image generation in workspace settings.
+
+HIPAA-enabled workspaces can't use image generation.
 
 
 ### Why am I getting an error?
