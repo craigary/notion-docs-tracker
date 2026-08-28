@@ -1,5 +1,5 @@
 ---
-title: "Custom Agents"
+title: "What are Custom Agents?"
 emoji: null
 description: "With Custom Agents, you build shared workflows that automate recurring work for your team — running exactly how you need them, behind the scenes."
 url: "https://www.notion.com/help/custom-agents"
@@ -9,14 +9,6 @@ category: "Custom Agents"
 categoryKey: "category:custom-agents"
 ---
 
-## Use Custom Agents to automate work in Notion
-
-Custom Agents automate recurring, manual workflows for your entire team. They run automatically in the background on set triggers using your existing docs and databases as context.
-
-Set them up once to handle repetitive tasks like weekly reports or triaging feedback, and they become a shared resource the whole team relies on.
-
-### What are Custom Agents?
-
 Custom Agents live inside Notion and run on your instructions. Once you set them up, they can:
 
 * Read from Notion pages and databases and certain connected apps.
@@ -25,7 +17,9 @@ Custom Agents live inside Notion and run on your instructions. Once you set them
 
 * Take actions such as posting reports, filing bugs, updating records, or sending messages.
 
-Unlike Notion Agent, Custom Agents are designed to run automatically in the background based on triggers and schedules.
+* Hand off part of a job to other Custom Agents you give them access to.
+
+Unlike [Notion Agent](https://www.notion.com/help/notion-agent), Custom Agents are designed to run automatically in the background based on triggers and schedules.
 
 Get a personalized walkthrough
 
@@ -33,9 +27,15 @@ Build your first Custom Agent with a personalized and interactive walkthrough th
 
 [Let's go](https://call.withsable.com/agent/agt_GHC95DKDsjv5h5uAqS8Pa)
 
+## Use Custom Agents to automate work in Notion
+
+Custom Agents automate recurring, manual workflows for your entire team. They run automatically in the background on set triggers using your existing docs and databases as context.
+
+Set them up once to handle repetitive tasks like weekly reports or triaging feedback, and they become a shared resource the whole team relies on.
+
 ## Key features of Custom Agents
 
-#### Use your existing docs and databases as context
+#### Use your existing docs & databases as context
 
 Custom Agents are built directly into Notion. Agents use your existing docs and databases as context and connect across Slack, increasing productivity. With Custom Agents, you can:
 
@@ -57,7 +57,7 @@ Use triggers for Custom Agents to run without you manually starting them each ti
 
 This unlocks automated workflows like regular reports, triage queues, and knowledge maintenance, helping you reclaim your time.
 
-#### Safe and transparent by design
+#### Safe & transparent by design
 
 Agents act only on the pages, databases, and external apps you explicitly grant access to. They never have full workspace access by default, reducing risk.
 
@@ -121,7 +121,7 @@ To create clear instructions for your Agent, start with the job and outcome you 
 
 **Tip**: Use our [Custom Agent templates](https://www.notion.com/custom-agent-templates) as a starting point.
 
-## Configure triggers and schedules
+## Configure triggers & schedules
 
 Triggers determine when your agent runs. You can combine multiple trigger types for a single agent. You can also use filters to help your agent run only for the pages or messages you care about, or only when certain conditions you set are met (for example, a specific status or a keyword).
 
@@ -231,7 +231,7 @@ Note:
 
 * Saved or "Later" messages in Slack are not supported.
 
-## Connect Notion, web, and external apps
+## Connect Notion, web, & external apps
 
 Custom Agents only use content you explicitly grant them access to for their work. You configure this in each Agent's access settings.
 
@@ -291,6 +291,42 @@ To give Custom Agents access to Slack:
 
 You can also connect to Custom Agents if your organization uses Slack Enterprise Grid.
 
+## Have one Custom Agent hand work off to another
+
+A Custom Agent can pass part of a job to other Custom Agents during a run. This works when a workflow has separate jobs that need their own instructions, context, access, or model. For example, a reporting agent can hand off planning, data prep, and review to other agents, then put the final report together itself.
+
+#### Set up a hand-off
+
+1. Open the primary agent's `Settings`.
+
+2. Go to the `Tools and access` section.
+
+3. Add the other agents you want it to call.
+
+4. In `Instructions`, say which jobs to hand off and what each sub-agent should send back.
+
+The primary agent uses those results to keep going and finish the work.
+
+#### Pick a model that fits each job
+
+Give the primary agent a stronger model when it needs to plan, hand off work, check results, and pull everything together. Give focused sub-agents faster, lighter models. You can also run most of the workflow on a lighter model and have it ask a stronger agent for help only on the harder parts. That keeps most of the work on efficient models and saves deeper thinking for the steps that need it.
+
+#### Best practices
+
+Results depend on how you set things up. The way you split the work, the models you pick, your instructions, the access you give, and the context you pass between agents all affect quality, speed, and credit use.
+
+* Start with one or two sub-agents. Add more only when each agent has its own clear job.
+
+* Tell the primary agent exactly when to call each sub-agent and what a good response should include.
+
+* Give each sub-agent only the tools and access it needs.
+
+* Test each agent on its own before you test the full workflow.
+
+* Start with `Auto` for models. You can also give the primary agent a stronger model and give simple, focused tasks lighter models. Check the quality of the results before you add more work.
+
+* Check the `Activity` and `Insights` tabs after you test. Compare model use, output quality, and credits across runs. Sub-agent work uses Notion credits, so extra hand-offs can cost more.
+
 ## Choose a model for your Custom Agent
 
 Custom Agents can run on different large language models. This lets you balance speed, cost, and quality. You can adjust the model over time if your workflow changes or you see different performance needs.
@@ -321,7 +357,7 @@ Learn how usage is tracked in the [Notion credits dashboard](https://www.notion.
 
 Claude Fable 5 is available for Business and Enterprise plans only. Once it's on, anyone in the workspace can pick it from the model selector in Notion Agent or Custom Agent settings.
 
-## Share agents and manage access
+## Share agents & manage access
 
 Custom Agents behave like Notion pages when it comes to sharing with others in your workspace, with a few differences.
 
