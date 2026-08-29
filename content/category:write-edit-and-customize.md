@@ -29,7 +29,7 @@ https://www.youtube.com/watch?v=1rFGZMKaUK0
 
 ## Guides
 
-- [Working offline in Notion—Everything you need to know](https://www.notion.com/help/guides/working-offline-in-notion-everything-you-need-to-know)
+- [Everything you need to know about working offline in Notion](https://www.notion.com/help/guides/working-offline-in-notion-everything-you-need-to-know)
 
 - [Page icons & covers](https://www.notion.com/help/guides/page-icons-and-covers)
 
