@@ -23,6 +23,18 @@ Skills are reusable instructions that teach [Notion AI](https://www.notion.com/h
 
 When you select text on a page, the text selection menu includes built-in skills like **Improve Writing**, **Proofread**, **Explain**, and **Reformat**. Any skill you or your team has created can be added to the menu, replacing or supplementing the defaults.
 
+## How skills fit with the rest of Notion AI
+
+Skills are one of a few ways to work with AI in Notion. Here is how each one compares:
+
+|                                                                                                    |                                                                                                      |                                                           |
+| -------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | --------------------------------------------------------- |
+| What it is                                                                                         | Use it when                                                                                          | How it starts                                             |
+| **Instructions:&#x20;**&#x59;our own guidance that shapes how Notion Agent works for you           | The same guidance should apply to most of what you ask                                               | Always on for Notion Agent                                |
+| **Skill:&#x20;**&#x41; reusable method, standard, or format for one kind of work                   | You are directing the work and want AI to follow an approach that already works                      | You pick it in chat, or Notion Agent uses it when it fits |
+| **Notion Agent:&#x20;**&#x59;our on-demand AI assistant                                            | You need help with a one-off or multi-step task                                                      | You ask in chat                                           |
+| **Custom Agent:** An AI teammate you set up with its own instructions, access, tools, and triggers | A workflow comes up again and again, and your team should be able to run it or let it run on its own | A person, a schedule, or a trigger starts it              |
+
 ## When should I use skills?
 
 Use a skill when your task is:
@@ -111,11 +123,31 @@ Skills are available on text, headings (H1, H2, H3), quote, callout, bulleted li
 
 A skills database gives your team one place to create and manage skills together. Every page you create in it becomes a skill automatically, and each skill gets a description property. Notion Agent reads that description to decide when to use the skill on its own.
 
+The database is where you manage skills. Your Library is where you find them.
+
+In a skills database, you keep skills organized in one place, write each description, attach the files a skill needs, choose who can see or edit each skill, and keep quality up as the work changes. Page history, sharing settings, and database properties make it harder to change a skill by accident, and they make it easier to see which skills your team relies on most.
+
+Your Library pulls in the skills from the databases and pages shared with you, so people can find a skill and start using it.
+
+A skills database works like any other Notion database, with a couple of properties already set up for you:
+
+* `Description` says what the skill does and when to use it. Notion Agent reads it to decide when the skill fits.
+
+* `Files` holds supporting material, like examples, reference docs, images, data files, or scripts.
+
+You can add any other properties your team cares about, like `Owner` to show who keeps a skill current, or `Status` to show which skills are ready to use.
+
+**Start with one shared skills database**
+
+One database works well when the same group uses the skills and the same people keep them up to date, because everyone knows where to look first. Add another team database, or a private one, when a group needs different access, different owners, or a place to work on a skill before sharing it.
+
 ## Create a skills database
 
 * Create a new page, select `Database`, then choose `Skills` (or `Database - Inline` → `Skills`).
 
 * Or select `+` next to a teamspace name and choose the same option.
+
+Creating it in a teamspace means your team can reach it right away, so you don't have to move it or change access later.
 
 ## Turn an existing database into a skills database
 
@@ -123,7 +155,17 @@ A skills database gives your team one place to create and manage skills together
 
 2. Select `Turn into Skills database`.
 
-This adds `Description`, `Files`, and `Tags` properties to the database. From then on, every page created in it becomes a skill.
+This adds `Description`, `Files`, and `Tags` properties to the database. From then on, every page created in it becomes a skill. This works best when the pages in the database already explain how a task should be done, like a set of playbooks or how-tos.
+
+## Move a page into a skills database
+
+If you already have a page that explains how to do a repeatable task, move it into a skills database. The page becomes a skill and picks up the skill properties, including `Description`.
+
+1. Open the page and select `•••` → `Move to`.
+
+2. Choose your skills database.
+
+3. Add a clear `Description` so Notion Agent knows when to use it.
 
 ## Edit & manage skills
 
@@ -165,6 +207,12 @@ Because skills are pages, sharing works the same way it does for any other page 
 
 * Shared skill pages behave like regular pages, so they also show up under `Shared` in your Library.
 
+* Share one skill page when only some people need that one workflow. Share the whole skills database when your team should get every skill in it.
+
+* Anyone with edit access can change a shared skill for everyone who uses it, so pick editors with that in mind. Page history shows what changed if you need to go back.
+
+Having access and turning a skill on are two different things. Access decides who can open or edit a skill. Turning it on decides whether it shows up in your own skills menu. Skills shared with you appear in the `Discover` tab of your Library, where you can select `Enable for me` to start using them.
+
 ## Remove a skill
 
 There are a few ways to remove a skill, depending on what you want:
@@ -175,13 +223,9 @@ There are a few ways to remove a skill, depending on what you want:
 
 * **Turn a skill page back into a regular page:** Select `•••` at the top of the page → `Use with AI`, then uncheck `Use as AI skill`. The page and its content stay right where they are. It just stops being a skill.
 
-## Use your skills with other AI tools
+## Download a skill to a local agent
 
-You can use your skills with other AI tools too:
-
-* **Run skills on AI Meeting Notes:** Open your Notion Agent from the face icon in the bottom corner of the meeting note page to see useful skills. Choose which Skills can appear on your meeting notes in `Settings` → `Notion AI` → `Skills`.
-
-* **Download a skill to a local agent:** Keep the skill page in Notion and send a copy to a local agent like Claude Code, Codex, Cursor, Gemini, or Grok. The instructions, references, and formats come with it.
+Keep the skill page in Notion and send a copy to a local agent like Claude Code, Codex, Cursor, Gemini, or Grok. The instructions, references, and formats come with it.
 
 To download a skill to your local agent:
 
@@ -212,6 +256,8 @@ Notion saves the skill as a `SKILL.md` file, along with any files attached to th
 * Give each skill a clear description of what it does and when to use it. This helps Notion Agent pick the right skill on its own.
 
 * If your team also works in local agents, keep the skill page in Notion up to date and download it again after you make changes.
+
+* Give each shared skill an owner, so one person keeps it current as your team's process changes.
 
 
 ## FAQs
@@ -252,3 +298,8 @@ To remove a skill, you can:
 Automatic use only works for skills that live in a skills database, because that’s where the skill description is stored. Move your skill page into a skills database, then add a clear description. Automatic use turns on by default once the skill is in a skills database and has a description.
 
 If you’d rather run the skill yourself, turn off automatic use in the `Skills` tab of your Library or on the skill page.
+
+
+### Should my team use one skills database or several?
+
+Start with one shared database when the same group uses the skills and the same people keep them current. Add another team database, or a private one, when a group needs different access, different owners, or a place to work on a skill before sharing it.
