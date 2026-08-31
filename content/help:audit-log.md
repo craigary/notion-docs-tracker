@@ -13,7 +13,7 @@ categoryKey: "category:enterprise-admin"
 
 Audit logs give you information about events that happen across your organization’s workspaces, as well as who took specific actions and when. Where available, the IP address is also included.
 
-By default, all events are shown in reverse chronological order. You can use the filters at the top of the audit log to narrow down events by date, person, event type, or related activity.
+By default, all events are shown in reverse chronological order. You can use the filters at the top of the audit log to narrow down events by date, person, or event type.
 
 Audit log events may take some time to appear after an action takes place. If you need to see events in real-time, use the custom SIEM integration, which streams events as they occur.
 
@@ -51,7 +51,11 @@ The following filters are available at the top of the audit log:
 
 4. **Event**: Filter by one or more event types. Events are organized by category (page, data source, teamspace, workspace, account, form, and workers). You can also use the workspace picker at the top of the audit log to view one workspace or your whole organization. When you choose `Organization`, the Event filter shows organization events instead of workspace events.
 
-5. **Related**: Filter for events that were triggered by the same underlying action. Some workspace changes generate a group of related events: for example, moving a page may log both a page moved event and a permission update. To filter for related events, hover over any audit log row and select the magnifying glass icon.
+5. **Teamspace**: Filter events by one or more teamspaces to see only what happened in the teamspaces you pick. This is useful when you want to review activity in one team's content without scrolling through everything else.
+
+   **Note**: You can only filter by teamspace events that were captured on or after August 9, 2026. Results before that date may be incomplete.
+
+6. **Related**: Filter for events that were triggered by the same underlying action. Some workspace changes generate a group of related events: for example, moving a page may log both a page moved event and a permission update. To filter for related events, hover over any audit log row and select the magnifying glass icon.
 
 **Note**: The Related filter is only available for events that contain related activity metadata. If the magnifying glass icon doesn't appear on a row, that event has no related events.
 
@@ -86,6 +90,8 @@ To set up the custom SIEM integration:
 * **No syslog support:** Webhooks only; syslog is not supported.
 
 * **No organization events:** the stream only includes workspace events. Organization events, like changes to organization settings or admin roles, only appear in the audit log in Notion when organization is selected.
+
+* **Teamspace included**: Events that occur in a teamspace include the teamspace that owns the content, so your security team can point rules and alerts at a specific teamspace. This starts with events recorded on August 9, 2026.
 
 For partner-specific SIEM setup instructions (Datadog, Panther, Splunk, Sumo Logic), see [Add security & compliance connections →](https://www.notion.com/help/add-security-and-compliance-integrations)
 
@@ -673,7 +679,7 @@ To export your workspace audit log:
 
 2. Select `Audit log`.
 
-3. Optionally filter by organization, date, person, or event.
+3. Optionally filter by organization, date, person, event, or teamspace.
 
 4. Select `Export`.
 

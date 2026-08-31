@@ -157,7 +157,9 @@ To customize Notion's appearance on mobile:
 
 **Note:** When you select dark mode, it applies to all workspaces you're signed into on your account. If you switch between them, they'll all be dark.
 
-## Turn on high contrast mode
+## Turn on high contrast mode (beta)
+
+**Note**: High contrast mode is currently in beta and is subject to the beta terms of your agreement.
 
 High contrast mode increases contrast across text, icons, and borders for better visibility. It works independently of your appearance setting.
 
