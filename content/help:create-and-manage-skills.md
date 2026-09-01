@@ -4,7 +4,7 @@ emoji: null
 description: "Learn what skills are and how to create, manage, and use them."
 url: "https://www.notion.com/help/create-and-manage-skills"
 key: "help:create-and-manage-skills"
-coverImage: "https://img.youtube.com/vi/tcgNauq4joo/maxresdefault.jpg"
+coverImage: null
 category: "Notion AI"
 categoryKey: "category:notion-ai"
 ---
