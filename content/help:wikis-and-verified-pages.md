@@ -1,7 +1,7 @@
 ---
 title: "Wikis & verified pages"
 emoji: null
-description: "Use wikis and verified pages to maintain important information more easily ✅"
+description: "Use wikis and verified pages to maintain important information more easily."
 url: "https://www.notion.com/help/wikis-and-verified-pages"
 key: "help:wikis-and-verified-pages"
 coverImage: null
