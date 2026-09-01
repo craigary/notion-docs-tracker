@@ -81,7 +81,7 @@ You will only be able to see backlinks for pages you have access to. Other peopl
 
 ## Backlinks display
 
-Backlinks automatically appear above the page title and show on hover whenever a page has them. This is automatic. If a page has no backlinks, nothing appears.
+Backlinks automatically appear above the page title and show on hover whenever a page has them. If a page has no backlinks, or if the backlink's page permissions are set to private, then nothing appears. Users can't use backlinks to open pages that they don’t have access to.
 
 **Learn more**
 
