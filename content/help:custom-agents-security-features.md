@@ -89,7 +89,7 @@ Users with `Can view and interact` permissions can view agent settings but canno
 
 ### Admin controls for Custom Agents
 
-Workspace admins can manage Custom Agents across the organization through an Agent Directory, creation controls, content search, audit logs, AI analytics, and ownership transfer tools to maintain visibility and control over all agents in the workspace.
+Workspace admins can manage Custom Agents across the organization through an Agent Directory, creation controls, content search, audit logs, AI analytics, and ownership transfer tools to maintain visibility and control over all agents in the workspace. <!-- -->Admins can also [manage access to specific AI models](https://www.notion.com/help/custom-agents#admins-manage-access-to-models-for-custom-agents) for Custom Agents.
 
 ### URL confirmation
 
