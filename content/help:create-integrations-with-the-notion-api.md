@@ -9,9 +9,11 @@ category: "Connections"
 categoryKey: "category:connections"
 ---
 
-You can manage personal access tokens from Notion. Turn on Developer Mode from `Settings`, then open personal access tokens from the developer section in your sidebar. <!-- -->Visit our [developer hub](http://developers.notion.com/) for documentation, resources, and connection management tools.
+You can manage personal access tokens from Notion. Turn on Developer Mode from `Settings`, then open personal access tokens from the developer section in your sidebar. Visit our [developer hub](http://developers.notion.com/) for documentation, resources, and connection management tools.
 
 **Note:** Workspace owners manage all connections in a workspace. <!-- -->Learn more about [enterprise connection settings →](https://www.notion.com/help/enterprise-connection-settings)
+
+Looking for admin tokens? The tokens on this page work inside one workspace and handle page content. If you need to run organization admin work like exports, legal holds, or logging users out, see [Admin APIs for Enterprise organizations](https://www.notion.com/help/admin-apis-for-enterprise-organizations).
 
 ## Create an internal connection
 

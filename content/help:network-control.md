@@ -40,3 +40,5 @@ Workspace Owner can configure an on-premises or cloud-based proxy server to inte
 3. **Configure the HTTP header:**
 
    * Add the header X-Notion-Allowed-Workspaces and set its value to a comma-separated list of allowed workspaces.
+
+**Note**: Network control covers people signing in to Notion. It doesn't cover calls made with an admin token from Notion's [admin APIs](https://developers.notion.com/reference/admin/intro), so plan where those calls run and keep tokens in a secrets manager.

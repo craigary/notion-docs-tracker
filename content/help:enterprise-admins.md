@@ -70,3 +70,5 @@ Only organization owners can assign or remove admin roles. To assign an admin ro
 * Admin roles don't change what someone can see or edit in pages or databases.
 
 * Roles are assigned to members one at a time. You can't assign roles through SCIM or groups.
+
+* Only organization owners can create, rotate, and delete the admin bots and tokens used with Notion's [admin APIs](https://developers.notion.com/reference/admin/intro).

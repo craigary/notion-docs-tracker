@@ -169,8 +169,6 @@ Your Notion data will always be backed up in the cloud, but you can also export 
 
 If you're on a Business or Enterprise Plan, you can also export your entire workspace to PDF, which can be helpful for legal and compliance backups.
 
-**Note**: The option to export workspace content as a PDF is going away. This change will be rolled out to workspaces gradually between now and August 31, 2026. You can still export workspace content as an HTML, Markdown, or CSV file, and export individual pages as a PDF.
-
 Pages that the exporter doesn't have access to, such as private pages of other users, will not be included in the export. Workspace admins on the Enterprise Plan can give themselves and others access to specific pages using content search, so that those pages can be included in future exports. Some content also may not be exported based on teamspace settings.
 
 A sitemap (index.html) is included the export to help you navigate the exported workspace. The list items in the sitemap are locally linked to the exported pages in HTML and Markdown formats.
@@ -196,6 +194,12 @@ If a user's email notifications are turned off, they will not receive the export
 * You can only export your entire workspace on desktop or web.
 
 * You can’t instantly recreate your workspace by reuploading your exported workspace content.
+
+## Start a workspace export with the admin API
+
+If your team runs the same export on a schedule, like for an audit, you can start it with code instead of opening settings each time. You can also check whether an export is finished and ready to download.
+
+This is separate from the `Export` menu inside Notion. It works at the workspace level, it's in beta on the Enterprise Plan, and an organization owner has to set up an admin bot and token first. See [Admin APIs for Enterprise organizations](https://www.notion.com/help/admin-apis-for-enterprise-organizations) to get started, or [admin API reference](https://developers.notion.com/reference/admin/intro) for endpoint details.
 
 
 ## FAQs

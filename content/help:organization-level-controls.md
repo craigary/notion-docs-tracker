@@ -109,6 +109,22 @@ Security settings can be applied to all of the workspaces and teamspaces within 
 
 Make sure to `Save changes` once you’re done adjusting your security settings so they go into effect.
 
+## Admin bots and tokens
+
+Organization owners can create an admin bot for the organization and give it a token. A token lets your team run certain admin work with code instead of clicking through these settings. In this release you can start workspace exports, create and release legal holds, and log managed users out.
+
+From this section you can:
+
+* Create an admin bot and give it a name your team will recognize.
+
+* Create a token and pick only the access the bot needs.
+
+* Rotate or delete a token at any time. Any script using a revoked token stops working right away.
+
+* See who created each bot and when its token was last used.
+
+For setup steps and safety tips, see [Admin APIs for Enterprise organizations →](https://www.notion.com/help/admin-apis-for-enterprise-organizations)
+
 ## Data and compliance
 
 From the `Data & compliance` tab of your organization level settings, you can do the following:

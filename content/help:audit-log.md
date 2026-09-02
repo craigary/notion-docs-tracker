@@ -65,6 +65,8 @@ Some groups of audit log events are created as a consequence of the same user ac
 
 To inspect individual audit log events to see if they are part of a group, hover over the audit log row and select the magnifying glass to filter for related events.
 
+Actions taken with an admin token are recorded here too. The admin bot is listed as the person or agent that took the action, so you can tell automated work apart from work someone did by hand. You can filter by the bot name to see everything one automation did. Learn more in [Admin APIs for Enterprise organizations →](https://www.notion.com/help/admin-apis-for-enterprise-organizations)
+
 ## Stream audit log events to your SIEM
 
 You can use Notion’s custom SIEM integration to send a continuous stream of audit log events to your SIEM platform in real-time via webhooks. This includes all of the same audit log event types, except for organization events.
@@ -92,6 +94,8 @@ To set up the custom SIEM integration:
 * **No organization events:** the stream only includes workspace events. Organization events, like changes to organization settings or admin roles, only appear in the audit log in Notion when organization is selected.
 
 * **Teamspace included**: Events that occur in a teamspace include the teamspace that owns the content, so your security team can point rules and alerts at a specific teamspace. This starts with events recorded on August 9, 2026.
+
+* **Admin API events**: Most admin API activity is recorded as organization events, so it stays in the audit log in Notion and isn't sent to your SIEM.
 
 For partner-specific SIEM setup instructions (Datadog, Panther, Splunk, Sumo Logic), see [Add security & compliance connections →](https://www.notion.com/help/add-security-and-compliance-integrations)
 
@@ -586,6 +590,14 @@ Organization events aren't sent to your SIEM through the custom SIEM integration
 **Bots**
 
 * **Organization token created or updated**: That an organization token was created or changed.
+
+* **Admin bot created or deleted**: That an organization owner added or removed an admin bot.
+
+* **Organization token deleted**: That an organization owner deleted an admin token.
+
+* **Organization token access changed**: That an organization owner changed what an admin token can do.
+
+Work done with an admin token is recorded under the matching event above. For example, releasing a hold with the API shows up as **Legal hold released**, and logging someone out shows up as **Managed users logged out**. The admin bot is listed as the actor.
 
 **Admin roles**
 

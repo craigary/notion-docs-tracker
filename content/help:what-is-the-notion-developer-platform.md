@@ -21,6 +21,8 @@ The Developer Platform includes:
 
 * **Agent SDK (private alpha):&#x20;**&#x42;ring Notion Agents into any app.
 
+* **Admin API**: Run organization admin work with code, on the Enterprise Plan.
+
 You can turn on Developer Mode to find developer tools inside Notion. Use it to copy IDs, open connections and personal access tokens from your sidebar, and check Workers without switching to a separate website. Learn more about [developer mode →](https://www.notion.com/help/turn-on-developer-mode-to-use-developer-tools-in-notion)
 
 View an overview of all capabilities, stay up-to-date, and learn more about Notion’s Developer Platform in the [developer documentation](https://developers.notion.com/guides/get-started/overview).
@@ -64,6 +66,14 @@ For more technical info, go to the [developer documentation.](https://developers
 **Example:&#x20;**&#x53;ync Salesforce accounts into a Notion database nightly.
 
 For more technical info, go to the [developer documentation](https://developers.notion.com/guides/get-started/overview).
+
+## Admin API
+
+The admin API lets organization owners on the Enterprise Plan run admin work with code. In this release you can start workspace exports, create and release legal holds, and log managed users out of Notion.
+
+Example: Create a legal hold automatically when your HR system flags an employee departure.
+
+For more technical info, see [admin API reference →](https://developers.notion.com/reference/admin/intro)
 
 ## External Agents API (private beta)
 

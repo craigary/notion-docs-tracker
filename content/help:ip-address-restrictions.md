@@ -66,3 +66,5 @@ When you’re managing IP addresses for your organization, you’ll have access 
 * Disable IP allowlist: That a user either disabled the IP allowlist rules.
 
 * Changed enforcement mode: That an admin changed the session behavior setting.
+
+**Note**: These rules apply to people signing in. They don't apply to admin tokens used with Notion's [admin APIs](https://developers.notion.com/reference/admin/intro), so a call made with an admin token still works from any network.

@@ -17,7 +17,7 @@ Enterprise workspace owners have the ability to manage all the users within thei
 
 There are many ways in which workspace owners can manage users with their domain. To access these settings, go to `Settings` → `Identity`.
 
-### Managing user accounts
+## Managing user accounts
 
 Workspace owners can use these settings to apply more granularity to how their managed users work in Notion.
 
@@ -35,7 +35,9 @@ Workspace owners can use these settings to apply more granularity to how their m
 
 * `Reset passwords for all users`: Force all users to reset their passwords.
 
-### Managed users dashboard
+* You can also log managed users out with Notion's admin API instead of using this screen. See [Log managed users out with the admin API](https://www.notion.com/help/managed-users-dashboard#log-managed-users-out-with-the-admin-api) below.
+
+## Managed users dashboard
 
 Enterprise workspace owners have access to a handy dashboard that gives them an overview of all users in their verified domain.
 
@@ -78,6 +80,14 @@ On a specific user's profile, workspace owners can:
 * Reset the user's password
 
 * Remove the user from external workspaces
+
+## Log managed users out with the admin API
+
+If your security team needs to sign people out quickly, or as part of a larger response process, you can do it with code instead of opening this dashboard. This works for managed users only, which means accounts created with one of your organization's verified email domains.
+
+This is only available on the Enterprise Plan. An organization owner sets up an admin bot and token in your organization settings first. See Admin [APIs for Enterprise organizations](https://www.notion.com/help/admin-apis-for-enterprise-organizations) to get started, or [admin API reference](https://developers.notion.com/reference/admin/intro) for endpoint details.
+
+**Note**: Logging someone out ends their current sessions on every device. They can sign back in right away unless you also suspend the account.
 
 
 ## FAQs

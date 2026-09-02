@@ -1,7 +1,7 @@
 ---
 title: "Legal holds"
 emoji: null
-description: "Press pause on critical documents."
+description: "Legal holds let Enterprise organization owners preserve every page a user has created, edited, or viewed for legal matters."
 url: "https://www.notion.com/help/legal-holds"
 key: "help:legal-holds"
 coverImage: null
@@ -82,6 +82,12 @@ As an organization owner, access the [admin console](https://www.notion.com/help
 * Browse and export held content.
 
 * Release the legal hold, which will remove the users from this hold and reenable the retention settings for the pages being held.
+
+## Manage legal holds with the admin API
+
+If your team handles a lot of holds, you can create, update, and release them with code instead of doing it by hand. Holds made this way work exactly like holds made in organization settings, and they show up in the same list.
+
+To use it, an organization owner sets up an admin bot and token in your organization settings. See [Admin APIs for Enterprise organizations](https://www.notion.com/help/admin-apis-for-enterprise-organizations) to get started, or [admin API reference](https://developers.notion.com/reference/admin/intro) for endpoint details.
 
 
 ## FAQs
