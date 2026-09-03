@@ -636,7 +636,7 @@ After you publish:
 
 ### Why can't I access certain models (for example: Claude Fable 5) anymore?
 
-Your workspace has reached the fair use limit. Some AI models are temporarily unavailable for features like Notion Agent, Custom Agents, image generation, and page translation. Access resets in six hours.
+Your workspace has reached the [usage allowance](https://www.notion.com/help/manage-your-usage-allowance-for-notion-ai). Some AI models are temporarily unavailable for features like Notion Agent, Custom Agents, image generation, and page translation. Access resets in six hours.
 
 
 ### I embedded a Custom Agent in a page. Why can't my teammates chat with it?
