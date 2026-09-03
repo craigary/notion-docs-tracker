@@ -331,7 +331,7 @@ Results depend on how you set things up. The way you split the work, the models 
 
 Custom Agents can run on different large language models. This lets you balance speed, cost, and quality. You can adjust the model over time if your workflow changes or you see different performance needs.
 
-Supported models include Claude Fable 5 (Business and Enterprise plans only), Claude Sonnet 5, the newest GPT models, Gemini, and Grok. Auto is the recommended default.
+Supported models include Claude Fable 5 (Business and Enterprise plans only), Claude Sonnet 5, the newest GPT models, Gemini, and Grok. Auto is the recommended default. <!-- -->Your admin may also limit which models Custom Agents can use. Models your admin has turned off appear dimmed in the model menu and can't be selected.
 
 Claude Fable 5 works best for things like in-depth research, complex writing, and tasks that involve lots of steps. Before anyone in your workspace can use it, an admin needs to turn it on. This is because Anthropic handles data from this model a bit differently from other models (see below). If you'd like access, ask your admin to turn it on in `Settings` → `Notion AI`.
 
@@ -356,6 +356,28 @@ Learn how usage is tracked in the [Notion credits dashboard](https://www.notion.
 2. Find Claude Fable 5 and turn it on.
 
 Claude Fable 5 is available for Business and Enterprise plans only. Once it's on, anyone in the workspace can pick it from the model selector in Notion Agent or Custom Agent settings.
+
+## Admins: Manage access to models for Custom Agents
+
+If you're a workspace admin on a Business or Enterprise Plan, you can choose which AI models Custom Agents in your workspace can use. This helps keep model usage consistent with your organization's needs.
+
+To manage model access for Custom Agents:
+
+1. Go to `Settings` → `Notion AI` → `General`.
+
+2. Find `Allowed models for Custom Agents`.
+
+3. Find the model you want under the model controls.
+
+4. Set your model restrictions.
+
+5. Save your changes.
+
+A few things to keep in mind:
+
+* If a Custom Agent was using a model that you turn off, it automatically switches to your default model, or to Auto if you haven’t set a default model. You don't need to update each agent yourself.
+
+* Models that are turned off appear dimmed in the model menu, so Custom Agent creators can see they're not available.
 
 ## Share agents & manage access
 

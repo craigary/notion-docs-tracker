@@ -35,7 +35,7 @@ The connection can take up to 36 hours. You can manage the connection by opening
 
 ## How do Members connect Salesforce?
 
-A member login allows members to use advanced SOQL to answer complex queries that cannot be answered through regular search.
+A member login allows members to use advanced SOQL to answer complex queries that cannot be answered through regular search. <!-- -->Members must have API access in Salesforce to login.
 
 Workspace members can go to `Settings` → `Notion AI` in the Settings modal and click the gear icon ⚙️ → `Log in`.
 
@@ -85,7 +85,7 @@ Your Salesforce organization has extra security enabled. Your org admin needs to
 
 ### Is member login mandatory for all users?
 
-No, however this is highly encouraged. A member login allows members to use advanced SOQL to answer complex queries that cannot be answered through regular search.
+Yes. A member login allows members to use advanced SOQL to answer complex queries that cannot be answered through regular search.
 
 
 ### Does Notion AI respect retention rules?
