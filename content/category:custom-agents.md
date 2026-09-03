@@ -7,14 +7,14 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/CGvbKADJG2JbVyR2akeT8/018
 ---
 
 1 help:custom-agents
-2 help:best-practices-for-creating-and-optimizing-a-custom-agent
-3 help:buy-and-track-notion-credits-for-custom-agents
+2 help:buy-and-track-notion-credits-for-custom-agents
+3 help:best-practices-for-creating-and-optimizing-a-custom-agent
 4 help:mcp-connections-for-custom-agents
-5 help:manage-custom-agents-with-the-admin-api
-6 help:connect-calendar-to-custom-agents
-7 help:custom-agents-sharing-and-permissions
-8 help:mobile-custom-agents
-9 help:connect-mail-to-custom-agents
+5 help:connect-calendar-to-custom-agents
+6 help:mobile-custom-agents
+7 help:connect-mail-to-custom-agents
+8 help:manage-custom-agents-with-the-admin-api
+9 help:custom-agents-sharing-and-permissions
 
 ## Video
 
@@ -152,7 +152,7 @@ After you publish:
 
 ### Why can't I access certain models (for example: Claude Fable 5) anymore?
 
-Your workspace has reached the fair use limit. Some AI models are temporarily unavailable for features like Notion Agent, Custom Agents, image generation, and page translation. Access resets in six hours.
+Your workspace has reached the [usage allowance](https://www.notion.com/help/manage-your-usage-allowance-for-notion-ai). Some AI models are temporarily unavailable for features like Notion Agent, Custom Agents, image generation, and page translation. Access resets in six hours.
 
 ### I embedded a Custom Agent in a page. Why can't my teammates chat with it?
 

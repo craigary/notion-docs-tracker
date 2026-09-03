@@ -1,5 +1,5 @@
 ---
-title: "Take AI Meeting Notes in Notion (beta)"
+title: "Take AI Meeting Notes in Notion"
 emoji: null
 description: "Take detailed notes without needing to type alongside your meetings or video calls. "
 url: "https://www.notion.com/help/ai-meeting-notes"
@@ -8,8 +8,6 @@ coverImage: "https://img.youtube.com/vi/f4ZYEZO3Sq0/maxresdefault.jpg"
 category: "Notion AI"
 categoryKey: "category:notion-ai"
 ---
-
-**Note:** AI Meeting Notes is currently in beta and subject to the beta terms of your agreement.
 
 AI Meeting Notes takes detailed meeting notes for you so you can stay focused on the conversation you're having. Notion AI transcribes your meeting and identifies key points and action items that you can share with your entire team.
 
