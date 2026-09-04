@@ -325,15 +325,15 @@ Results depend on how you set things up. The way you split the work, the models 
 
 * Start with `Auto` for models. You can also give the primary agent a stronger model and give simple, focused tasks lighter models. Check the quality of the results before you add more work.
 
-* Check the `Activity` and `Insights` tabs after you test. Compare model use, output quality, and credits across runs. Sub-agent work uses Notion credits, so extra hand-offs can cost more.
+* Check the `Activity` and `Insights` tabs after you test. Compare model use, output quality, and credits across runs. Sub-agent work uses Notion credits, so extra hand-offs can cost more. <!-- -->Hand-offs that use a premium model cost more because premium models spend credits at the model's own price.
 
 ## Choose a model for your Custom Agent
 
 Custom Agents can run on different large language models. This lets you balance speed, cost, and quality. You can adjust the model over time if your workflow changes or you see different performance needs.
 
-Supported models include Claude Fable 5 (Business and Enterprise plans only), Claude Sonnet 5, the newest GPT models, Gemini, and Grok. Auto is the recommended default. <!-- -->Your admin may also limit which models Custom Agents can use. Models your admin has turned off appear dimmed in the model menu and can't be selected.
+Supported models include Claude Fable 5 (Business and Enterprise plans only), Claude Sonnet 5, the newest GPT models, Gemini, and Grok. Auto is the recommended default. Your admin may also limit which models Custom Agents can use. Models your admin has turned off appear dimmed in the model menu and can't be selected.
 
-Claude Fable 5 works best for things like in-depth research, complex writing, and tasks that involve lots of steps. Before anyone in your workspace can use it, an admin needs to turn it on. This is because Anthropic handles data from this model a bit differently from other models (see below). If you'd like access, ask your admin to turn it on in `Settings` → `Notion AI`.
+Claude Fable 5 works best for things like in-depth research, complex writing, and tasks that involve lots of steps. Before anyone in your workspace can use it, an admin needs to turn it on. This is because Anthropic handles data from this model a bit differently from other models (see below). If you'd like access, ask your admin to turn it on for Custom Agents in `Settings` → `Notion AI`.
 
 **A note on data handling:** When you use Claude Fable 5, Anthropic may store your prompts and responses for a period of time to keep the model safe and working well. Other AI models available in Notion don't work this way. That's why your admin needs to review and switch it on first.
 
@@ -355,7 +355,7 @@ Learn how usage is tracked in the [Notion credits dashboard](https://www.notion.
 
 2. Find Claude Fable 5 and turn it on.
 
-Claude Fable 5 is available for Business and Enterprise plans only. Once it's on, anyone in the workspace can pick it from the model selector in Notion Agent or Custom Agent settings.
+Claude Fable 5 is available for Business and Enterprise plans only. Once it's on, anyone in the workspace can pick it from the model selector in Custom Agent settings.
 
 ## Admins: Manage access to models for Custom Agents
 
@@ -499,7 +499,7 @@ The duplicate opens as a private agent. You can review and update its settings b
 
 * **Name:&#x20;**&#x54;he duplicate is named `{Original agent name} (1)`. You can rename it anytime.
 
-* **AI model:** The duplicate uses the same AI model as the original.
+* **AI model:** The duplicate uses the same AI model as the original. <!-- -->If that model is a premium model, the copy spends [Notion credits](https://www.notion.com/help/category/notion-credits) the same way the original does.
 
 * **Instructions:** Copied into a new page. If any links in the instructions point to pages you don’t have access to, those show up as no-access chips and won’t be added to the duplicate’s resources.
 
@@ -658,7 +658,13 @@ After you publish:
 
 ### Why can't I access certain models (for example: Claude Fable 5) anymore?
 
-Your workspace has reached the [usage allowance](https://www.notion.com/help/manage-your-usage-allowance-for-notion-ai). Some AI models are temporarily unavailable for features like Notion Agent, Custom Agents, image generation, and page translation. Access resets in six hours.
+There are a few reasons a model might be missing:
+
+* An admin turned the model off for Custom Agents. Models that are off appear dimmed in the model menu.
+
+* You've reached your credit limit, or your workspace is out of [Notion credits](https://www.notion.com/help/category/notion-credits). Premium models pause until your limit goes up or your credits reset.
+
+* Your workspace reached its [usage allowance](https://www.notion.com/help/manage-your-usage-allowance-for-notion-ai). Some AI features pause until the allowance refreshes, which happens within six hours.
 
 
 ### I embedded a Custom Agent in a page. Why can't my teammates chat with it?

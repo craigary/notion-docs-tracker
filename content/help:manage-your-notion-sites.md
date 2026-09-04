@@ -1,7 +1,7 @@
 ---
 title: "Manage your Notion Sites"
 emoji: null
-description: "It's easy to view and manage all of your Notion Sites in one place 🌐"
+description: "It's easy to view and manage all of your Notion Sites in one place."
 url: "https://www.notion.com/help/manage-your-notion-sites"
 key: "help:manage-your-notion-sites"
 coverImage: null

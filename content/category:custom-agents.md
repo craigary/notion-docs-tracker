@@ -12,9 +12,9 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/CGvbKADJG2JbVyR2akeT8/018
 4 help:mcp-connections-for-custom-agents
 5 help:custom-agents-sharing-and-permissions
 6 help:mobile-custom-agents
-7 help:connect-calendar-to-custom-agents
-8 help:connect-mail-to-custom-agents
-9 help:manage-custom-agents-with-the-admin-api
+7 help:connect-mail-to-custom-agents
+8 help:manage-custom-agents-with-the-admin-api
+9 help:connect-calendar-to-custom-agents
 
 ## Video
 
@@ -152,7 +152,13 @@ After you publish:
 
 ### Why can't I access certain models (for example: Claude Fable 5) anymore?
 
-Your workspace has reached the [usage allowance](https://www.notion.com/help/manage-your-usage-allowance-for-notion-ai). Some AI models are temporarily unavailable for features like Notion Agent, Custom Agents, image generation, and page translation. Access resets in six hours.
+There are a few reasons a model might be missing:
+
+* An admin turned the model off for Custom Agents. Models that are off appear dimmed in the model menu.
+
+* You've reached your credit limit, or your workspace is out of [Notion credits](https://www.notion.com/help/category/notion-credits). Premium models pause until your limit goes up or your credits reset.
+
+* Your workspace reached its [usage allowance](https://www.notion.com/help/manage-your-usage-allowance-for-notion-ai). Some AI features pause until the allowance refreshes, which happens within six hours.
 
 ### I embedded a Custom Agent in a page. Why can't my teammates chat with it?
 

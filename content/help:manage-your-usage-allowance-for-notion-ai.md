@@ -19,6 +19,8 @@ Usage is measured in two windows:
 
 * A monthly window
 
+Premium AI models sit outside the usage allowance and spend [Notion credits](https://www.notion.com/help/category/notion-credits) every time you use them. A workspace owner or admin has to turn each one on before anyone can pick it. Learn more about [managing AI models and member credit spend →](https://www.notion.com/help/manage-ai-models-and-member-credit-spend)
+
 ## How to resume using Notion AI
 
 If certain Notion AI features are temporarily unavailable due to your usage allowance, you can:
@@ -57,6 +59,8 @@ It does not apply to other features, such as:
 
 * [Custom Agents](https://www.notion.com/help/custom-agents) or [Workers](https://www.notion.com/help/run-custom-code-with-workers), which require Notion credits.
 
+* Premium models, which spend [Notion credits](https://www.notion.com/help/category/notion-credits). This is true even when you use them inside [Notion Agent](https://www.notion.com/help/notion-agent).
+
 ## A few tips to get more out of your usage
 
 * **Batch big tasks:&#x20;**&#x47;roup related work into one prompt to reduce back-and-forth.
@@ -65,7 +69,7 @@ It does not apply to other features, such as:
 
 * **Be specific:&#x20;**&#x49;nclude your goal, what success looks like, and the format you want up front. Calling out what not to do can also reduce rework.
 
-* **Right-size the model for the task:&#x20;**&#x55;se an efficient model for quick edits, summaries, and formatting, and save the most powerful model for high-stakes writing, complex reasoning, or multi-step work.
+* **Right-size the model for the task:&#x20;**&#x55;se an efficient model for quick edits, summaries, and formatting, and save the most powerful model for high-stakes writing, complex reasoning, or multi-step work. <!-- -->Premium models spend [Notion credits](https://www.notion.com/help/what-are-notion-credits), so save them for the work that really needs them.
 
 ## For admins: allow members to use Notion credits past the usage allowance
 
@@ -82,6 +86,8 @@ When this is on, members who hit the allowance will see the option to continue w
 ## For admins: track credit usage from the dashboard
 
 If a workspace owner or admin allows members to use [Notion credits](https://www.notion.com/help/category/notion-credits) past the allowance, they can [track credit usage in the Notion credits dashboard](https://www.notion.com/help/track-usage-in-the-notion-credits-dashboard) by going to `Settings` → `Access & billing` → `Notion credits`. Each member’s usage appears as its own row so you can see who is spending credits and how much.
+
+Credits spent on premium models show up in the same rows, so you can see who is using them and how much they cost.
 
 ## Why Notion AI has usage allowances
 
@@ -116,8 +122,8 @@ Yes. Workspace admins can let members keep using Notion AI beyond the allowance 
 This is off by default. Admins can turn it on in `Settings` → `Notion AI`.
 
 
-### Does this impact Custom Agents or Workers?
+### Does my usage allowance impact Custom Agents or Workers?
 
 No. The usage allowance applies to Notion AI features like your personal [Notion Agent](https://www.notion.com/help/notion-agent), [image generation](https://www.notion.com/help/create-and-edit-images-with-notion-ai), and page translation.
 
-It doesn’t apply to [Custom Agents](https://www.notion.com/help/custom-agents) or [Workers](https://www.notion.com/help/run-custom-code-with-workers), which use [Notion credits](https://www.notion.com/help/category/notion-credits) instead.
+It doesn’t apply to [Custom Agents](https://www.notion.com/help/custom-agents) or [Workers](https://www.notion.com/help/run-custom-code-with-workers), which use [Notion credits](https://www.notion.com/help/category/notion-credits) instead. <!-- -->It also doesn't apply to certain premium models, which spend credits too.

@@ -13,6 +13,8 @@ categoryKey: "category:notion-ai"
 
 * To keep Notion AI fast and reliable, Business and Enterprise plans include a usage allowance for certain Notion AI features. Learn more about [managing usage allowance for Notion AI →](https://www.notion.com/help/manage-your-usage-allowance-for-notion-ai)
 
+* Premium AI models spend [Notion credits](https://www.notion.com/help/what-are-notion-credits), and a workspace owner or admin has to turn them on first.
+
 * Users on the Free and Plus Plans get a limited number of [complimentary AI responses](https://www.notion.com/help/complimentary-ai-responses) so they can try Notion AI features out.
 
 Notion AI is your built-in, personalized teammate. No need to switch back and forth between Notion and your other tools — Notion AI lives in the same place as your project plans, tasks, and everything else you store in Notion, and it can even search information in your connected apps. It takes on all kinds of tasks, from helping you edit a report to building an entire task database for your team, so you have more time to dedicate to what’s most important.
@@ -167,19 +169,23 @@ Notion AI can help you create databases, complete with views and properties, inc
 
 Workspace owners on any Notion plan can go to `Settings` → `Notion AI` and adjust the following settings:
 
-* `Share data to improve Notion AI`: Allow data from your workspace to be shared with Notion to help improve Notion AI.
+* **Share data to improve Notion AI:&#x20;**&#x41;llow data from your workspace to be shared with Notion to help improve Notion AI.
 
-* `AI Connectors`: Set up [Notion AI Connectors](https://www.notion.com/help/notion-ai-connectors) for your various third-party apps.
+* **AI Connectors:** Set up [Notion AI Connectors](https://www.notion.com/help/notion-ai-connectors) for your various third-party apps.
 
-* `AI Web Search`:
+* **AI Web Search:**
 
-  * `Enable web search for workspace`: Turn this on if you want Notion AI to be able to search the web for information when answering questions.
+  * **Enable web search for workspace:** Turn this on if you want Notion AI to be able to search the web for information when answering questions.
 
-  * `Require confirmation for web requests`: Turn this on if you want Notion AI to request confirmation before looking at external websites.
+  * **Require confirmation for web requests:&#x20;**&#x54;urn this on if you want Notion AI to request confirmation before looking at external websites.
 
-* `Personalization`: Give your Notion Agent a name, accessories, and instructions for how to behave.
+* **Personalization:** Give your Notion Agent a name, accessories, and instructions for how to behave.
 
-* `AI Meeting Notes`: Turn on various settings for AI Meeting Notes, including audio storage, transcript deletion, and more. Learn more about these settings [here →](https://www.notion.com/help/ai-meeting-notes)
+* **AI Meeting Notes:** Turn on various settings for AI Meeting Notes, including audio storage, transcript deletion, and more. Learn more about these settings [here →](https://www.notion.com/help/ai-meeting-notes)
+
+* **Model controls:** <!-- -->Choose which AI models your team can use. Premium models are off until you turn them on.
+
+* **Usage:&#x20;**&#x53;et how many [Notion credits](https://www.notion.com/help/category/notion-credits) each member can spend, and give specific people a higher limit.
 
 If the workspace uses Notion AI features beyond the usage allowance, you may see a temporary pause. Wait for access to refresh automatically, or workspace owners (Business or Enterprise plans) can let the team use [Notion credits](https://www.notion.com/help/category/notion-credits) to keep going right away. Learn more about the [usage allowance and how to manage this setting →](https://www.notion.com/help/manage-your-usage-allowance-for-notion-ai)
 
@@ -232,3 +238,10 @@ Yes — workspace owners can disable web search for Notion AI across their entir
 ### Why am I getting an error?
 
 You may have hit your rolling, six-hour or monthly usage allowance for Notion AI. Learn more about what to do when certain Notion AI features are temporarily unavailable after [reaching your usage allowance →](https://www.notion.com/help/manage-your-usage-allowance-for-notion-ai#how-to-resume-using-notion-ai)
+
+
+### Do any AI models cost extra?
+
+Premium models cost much more to run, so using them requires [Notion credits](https://www.notion.com/help/what-are-notion-credits). These models stay off until a workspace owner or admin turns them on, and admins can set how many credits each person can spend. [Learn how to manage AI models and member credit spend →](https://www.notion.com/help/manage-ai-models-and-member-credit-spend)
+
+Notion charges tokens at each provider's published rates, with no markup. Provider rates and pricing methodology are subject to change.

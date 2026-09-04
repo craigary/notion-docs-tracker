@@ -9,7 +9,7 @@ category: "Notion credits"
 categoryKey: "category:notion-credits"
 ---
 
-Notion credits are an add-on for Business and Enterprise plans. They’re shared across your workspace and let you run [Custom Agents](https://www.notion.com/help/custom-agents), [Workers](https://www.notion.com/help/run-custom-code-with-workers), and additional Notion AI usage beyond the [usage allowance](https://www.notion.com/help/manage-your-usage-allowance-for-notion-ai).
+Notion credits are an add-on for Business and Enterprise plans. They’re shared across your workspace and let you run [Custom Agents](https://www.notion.com/help/custom-agents), [Workers](https://www.notion.com/help/run-custom-code-with-workers), <!-- -->premium AI models, <!-- -->and additional Notion AI usage beyond the [usage allowance](https://www.notion.com/help/manage-your-usage-allowance-for-notion-ai).
 
 If you manage billing in-product, admins can [purchase credits](https://www.notion.com/help/purchase-notion-credits) and track usage in the [Notion credits dashboard](https://www.notion.com/help/track-usage-in-the-notion-credits-dashboard). If you work with an account team, they can help you estimate credit needs and review credit options.
 

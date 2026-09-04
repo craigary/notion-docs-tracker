@@ -31,9 +31,7 @@ Find the friendly face at the bottom of Notion to chat with your Agent. As soon 
 
 * Select `📎` to upload a file for Agent to look at.
 
-* Select `Auto` to switch to another AI model. Keep in mind that depending on the model you choose, Agent may look only at information from the web to help you with your work. It may not be able to look at information from your workspace or connected apps. Available models include Claude Fable 5 (Business and Enterprise plans only), Claude Sonnet 5, the newest GPT models, Gemini, and Grok. Claude Fable 5 is great for in-depth work like detailed research, long-form writing, and multi-step tasks. A workspace admin must switch this on in `Settings` → `Notion AI` before it shows up for you. Not sure which model to pick? Leave it on
-
-  `Auto` and Notion will choose a model for each task.
+* Select `Auto` to switch to another AI model. Keep in mind that depending on the model you choose, Agent may look only at info from the web to help you with your work. It may not be able to look at info from your workspace or connected apps. Available models include Claude Fable 5 (Business and Enterprise plans only), Claude Sonnet 5, the newest GPT models, Gemini, and Grok. Claude Fable 5 is great for in-depth work like detailed research, long-form writing, and multi-step tasks. <!-- -->Premium models spend [Notion credits](https://www.notion.com/help/what-are-notion-credits), and a workspace admin has to turn each one on in `Settings` → `Notion AI` before it shows up for you. <!-- -->Not sure which model to pick? Leave it on `Auto` and Notion will choose a model for each task.
 
 ![hc: personal agent ui](https://images.ctfassets.net/spoqsaf9291f/5nzOWLKeT1C8AQpaoSSNYO/a38ddcd94fcb09e1aedfacb4daf6bd1f/Reference_Visuals_Group_166.png)
 
@@ -250,6 +248,17 @@ Your feedback isn’t used to train your Notion Agent. Instead, it’s shared wi
 
 ### Why can't I access certain models (for example: Claude Fable 5) anymore?
 
-Your workspace has reached the [usage allowance](https://www.notion.com/help/manage-your-usage-allowance-for-notion-ai). Some AI models are temporarily unavailable for features like Notion Agent, [Custom Agents](https://www.notion.com/help/category/custom-agents), [image generation](https://www.notion.com/help/create-and-edit-images-with-notion-ai), and page translation.
+There are three common reasons:
 
-Learn more about what to do when certain Notion AI features are temporarily unavailable after [reaching your usage allowance →](https://www.notion.com/help/manage-your-usage-allowance-for-notion-ai#how-to-resume-using-notion-ai)
+1. **An admin hasn't turned the model on.** Premium models are off in every workspace until a workspace owner or admin turns them on in `Settings` → `Notion AI`. Ask your admin if you need one.
+
+2. **You've reached your credit limit.&#x20;**&#x50;remium models spend [Notion credits](https://www.notion.com/help/what-are-notion-credits), and your workspace can set a limit for each person. You can keep using the models included in your plan, and your admin can raise your limit.
+
+3. **Your workspace reached its usage allowance.** Some AI features pause until the allowance refreshes. [Learn what to do when Notion AI features are temporarily unavailable →](https://www.notion.com/help/manage-your-usage-allowance-for-notion-ai)
+
+
+### Do premium models cost extra?
+
+Some models are part of your plan, so using them with [Notion Agent](https://www.notion.com/help/notion-agent) doesn't spend [Notion credits](https://www.notion.com/help/what-are-notion-credits). Premium models cost much more to run, so using them requires credits.
+
+Your admin decides whether these models are available and how many credits each person can spend. Learn more about [managing AI models and member credit spend →](https://www.notion.com/help/manage-ai-models-and-member-credit-spend)

@@ -491,7 +491,7 @@ If you use Google Meet, the [Notion Meetings Add-on](https://www.notion.com/help
 
 ## How Notion processes and stores audio and transcriptions
 
-AI Meeting Notes engages [sub-processors](https://app.notion.com/p/notion/Notion-s-List-of-Subprocessors-268fa5bcfa0f46b6bc29436b21676734?pvs=4&_gl=1*194m45c*_gcl_au*MzQwNzAzMzQ2LjE3NTA4NzAxNTY.*_ga*NDk0ODAwMzMxLjE3NDI5MjQyMTk.*_ga_9ZJ8CB186L*czE3NTc5NTcyNjQkbzI2MCRnMSR0MTc1Nzk1NzU2NSRqNjAkbDAkaDA.\&assetsVersion=23.13.20260605.1342) (OpenAI, Anthropic, Fireworks, Baseten Labs, Inc., and X.AI LLC) to record the meeting, process the audio file into a transcription, and then produce insights, such as a meeting summary, action items, participants in the call, and more.
+AI Meeting Notes engages [sub-processors](https://app.notion.com/p/notion/Notion-s-List-of-Subprocessors-268fa5bcfa0f46b6bc29436b21676734?pvs=4) (OpenAI, Anthropic, Fireworks, Baseten Labs, Inc., [X.AI](http://x.ai/) LLC, and AssemblyAI Inc.) to record the meeting, process the audio file into a transcription, and then produce insights, such as a meeting summary, action items, participants in the call, and more.
 
 When you use AI Meeting Notes in the Notion app or browser, the audio file is sent directly to our sub-processors for real-time transcription. Sub-processors do not store audio. A temporary copy of audio is stored locally on your device during the session. If real-time processing fails, the locally stored audio is uploaded to Notion's servers and sent to our sub-processors to reattempt transcription. Uploaded audio is retained by Notion for up to 3 days to reattempt processing. The local copy of audio is deleted after successful processing or within 24 hours, whichever comes first.
 

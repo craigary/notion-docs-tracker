@@ -134,9 +134,9 @@ When entering in your tax ID, the alphanumeric format to use is `123456789`.
 
 ### Nigeria (VAT)
 
-Notion is required to charge Value-added tax (VAT) on services provided to consumers in Nigeria. If you're using Notion for business purposes and provide a valid Tax Identification Number (TIN) found in Notion `Settings` → `Billing`, you will not be charged VAT on subsequent invoices.
-
-When entering in your tax ID, the alphanumeric format to use is 1234567890123.
+Notion is required to charge Value-added Tax (VAT) on services provided to customers in Nigeria. VAT will be applied to all invoices, including those for businesses, even if you provide a valid Tax Identification Number (TIN) in Notion `Settings` → `Billing`.\
+\
+When entering in your tax ID, the alphanumeric format to use is `1234567890123`.
 
 ### Norway (VAT)
 

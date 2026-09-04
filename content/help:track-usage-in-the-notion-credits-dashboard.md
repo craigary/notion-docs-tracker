@@ -9,7 +9,7 @@ category: "Notion credits"
 categoryKey: "category:notion-credits"
 ---
 
-The Notion credits dashboard gives a clear view of how Custom Agents, Autofill, and Workers use Notion credits across the workspace. Use it to track usage, plan future credit needs, and manage ongoing spend. To access it, go to `Settings` → `Access & billing` → `Notion credits`.
+The Notion credits dashboard gives a clear view of how Custom Agents, Autofill, Workers, and premium AI models use Notion credits across the workspace. Use it to track usage, plan future credit needs, and manage ongoing spend. To access it, go to `Settings` → `Access & billing` → `Notion credits`.
 
 Admins on Business and Enterprise plans can monitor usage in the dashboard. Custom Agent creators and Worker creators can also see workspace-level credit pacing. The table will show only the Custom Agents or Workers they've created.
 
@@ -22,6 +22,8 @@ In the dashboard, you can view:
 * Agent-level runs and credit usage, so you can identify the agents driving spend and adjust them as needed.
 
 * Workspace members who are using credits past the [usage allowance](https://www.notion.com/help/manage-your-usage-allowance-for-notion-ai).
+
+* Credits each member spends on premium models.
 
 * Trial credits from your account team. These appear as their own category, so you can track them separately from the credits you purchased.
 
@@ -85,6 +87,8 @@ For each item, the table shows:
 
 * Created by
 
+Member spend has its own row. That covers credits people spend past the [AI usage allowance](https://www.notion.com/help/manage-your-usage-allowance-for-notion-ai) and credits they spend on premium models, so you can see who is using them and how much they cost.
+
 ## Include Worker spend in the main chart
 
 By default, Worker spend is tracked separately from Custom Agent spend and isn't included in the main usage chart or total credit number. To fold Worker spend into the chart and total, select the three-dot menu `•••` at the top of the dashboard and toggle on **Include Worker spend**.
@@ -101,15 +105,13 @@ If your account team has given your organization trial credits, here's how they 
 
 ## What actions can an admin take to manage credit pacing?
 
-Admins can monitor credit usage and control how Custom Agents run so spend stays predictable.
-
-Admins have several ways to manage credit pacing:
+Admins can monitor credit usage so spend stays predictable. Admins have several ways to manage credit pacing:
 
 * **Visibility:&#x20;**&#x54;rack usage and trends in the Notion credits dashboard.
 
-* **Guardrails:&#x20;**&#x44;ecide who can create agents (and set limits).
+* **Guardrails:&#x20;**&#x44;ecide who can create agents (and set limits). <!-- -->Set a credit limit for each member.
 
-* **Control:&#x20;**&#x50;ause or switch off agents anytime to stop usage while you investigate or make changes.
+* **Control:&#x20;**&#x50;ause or switch off agents anytime to stop usage while you investigate or make changes. <!-- -->Turn premium models off for the workspace.
 
 * **Optimize:&#x20;**&#x46;ine-tune agents to reduce extra steps and improve efficiency.
 
@@ -118,6 +120,8 @@ Admins have several ways to manage credit pacing:
 Use the Notion credits dashboard to track usage over time and see which features are using the most credits. Notion also notifies admins when the workspace is approaching or has reached the credit limit, so admins have time to act.
 
 When a member uses Notion credits beyond the [usage allowance](https://www.notion.com/help/manage-your-usage-allowance-for-notion-ai), their usage appears as an individual row in the credits dashboard. Admins can see which users are spending credits past the limit and how much they've used.
+
+Premium models which spend credits show up the same way. When a member uses one of these, their usage will have a row here.
 
 ## 2. Set guardrails to prevent surprises
 
