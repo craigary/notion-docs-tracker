@@ -167,8 +167,6 @@ There is no way to print directly from the Notion desktop app. You'll need to ex
 
 Your Notion data will always be backed up in the cloud, but you can also export it for safekeeping. You can export all your pages as HTML, Markdown, or CSV (for databases), along with any files you've uploaded, too.
 
-If you're on a Business or Enterprise Plan, you can also export your entire workspace to PDF, which can be helpful for legal and compliance backups.
-
 Pages that the exporter doesn't have access to, such as private pages of other users, will not be included in the export. Workspace admins on the Enterprise Plan can give themselves and others access to specific pages using content search, so that those pages can be included in future exports. Some content also may not be exported based on teamspace settings.
 
 A sitemap (index.html) is included the export to help you navigate the exported workspace. The list items in the sitemap are locally linked to the exported pages in HTML and Markdown formats.
