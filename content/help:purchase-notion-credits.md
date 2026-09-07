@@ -52,7 +52,7 @@ Admins can manage monthly Notion credits from settings:
 
 ### What happens if we run out of Notion credits?
 
-If your workspace doesn’t have enough Notion credits, Custom Agents will pause automatically until credits reset or an admin adds more credits.
+If your workspace doesn’t have enough Notion credits, Custom Agents will pause automatically until credits reset or an admin adds more credits. <!-- -->Premium models pause too.
 
 
 ### How do admins get notified before running out of Notion credits?

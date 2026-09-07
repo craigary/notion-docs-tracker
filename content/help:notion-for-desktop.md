@@ -103,8 +103,6 @@ To check for updates:
 
 * On Windows: Click `File` in the menu bar and click `Check for Updates`. If you can’t see your menu bar, try pressing `alt` first.
 
-![Desktop app version](https://images.ctfassets.net/spoqsaf9291f/6Ox9OB5kmdRjN06gBNv01i/6935097bb97dee4980dd5d6967f75939/Desktop_app_version.png)
-
 **Note:** IT departments can [manage update settings](https://www.notion.com/help/deploy-notion-for-macos#disable-automatic-updates) for the Notion desktop app on macOS devices through their deployment process.
 
 If there are new features that you can't see yet, try refreshing with `cmd/ctrl` + `R`.
