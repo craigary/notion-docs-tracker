@@ -13,6 +13,8 @@ categoryKey: "category:enterprise-admin"
 
 Domain management features allows Enterprise [organization owners](https://www.notion.com/help/organization-level-controls#who-can-apply-organization-level-controls) to claim ownership over an email address domain associated with their workspace. This unlocks the ability to configure SAML SSO for an organization, build Notion connections using link previews, and control who can create workspaces.
 
+Once a domain is verified, you can add it to one or more SAML configurations. That is how you decide which identity provider people with that email domain use to sign in. [Learn more about SAML configurations →](https://www.notion.com/help/saml-sso-configuration)
+
 ## Verify a domain for your organization
 
 **Note:&#x20;**&#x54;o verify a domain for your organization, you must be an [organization owner](https://www.notion.com/help/organization-level-controls).
@@ -40,6 +42,10 @@ To verify a domain for your workspace:
 * Typically, a change in the DNS record takes only minutes to propagate; however, there are cases where it may take up to 72 hours.
 
 * You must verify a domain within one week of adding the domain. After a week, the verification code will expire and you’ll have to repeat the steps above.
+
+* A domain does not cover its subdomains. If you want people at eu.acme.com to sign in with a specific provider, you must separately verify that subdomain and add it to a configuration.
+
+* An email domain can belong to only one Notion organization. Two organizations can’t share it.
 
 ## Customize permissions for workspace creation using your domain
 
@@ -125,7 +131,7 @@ When the change request is submitted, an email notification will be sent to the 
 
 ### Notification period
 
-Once an [organization owner](https://www.notion.com/help/organization-level-controls#who-can-apply-organization-level-controls) verifies a domain, an automated email will be sent to all workspace owners of workspaces <!-- -->that already exist with <!-- -->that domain, notifying them that their workspaces are eligible to be claimed.
+Once an [organization owner](https://www.notion.com/help/organization-level-controls#who-can-apply-organization-level-controls) verifies a domain, an automated email will be sent to all workspace owners of workspaces that already exist with that domain, notifying them that their workspaces are eligible to be claimed.
 
 During this 14-day notification period, workspace owners can only request ownership transfers on single-member workspaces. They will be unable to delete single-member workspaces or claim multi-member workspaces.
 
@@ -201,6 +207,8 @@ If you verified your domain before the functionality to customize permissions fo
 ### Why would I want to verify more than one domain?
 
 If you own multiple domains – e.g. acme.com and example.com – and you plan to use SAML SSO to manage users from these domains or customize their permissions to create new workspaces, you might want to verify multiple domains.
+
+On the Enterprise plan, you can also send each verified domain to a different identity provider by adding it to its own SAML configuration.
 
 
 ### Who is restricted from creating a workspace when the setting is Only Workspace Owners?

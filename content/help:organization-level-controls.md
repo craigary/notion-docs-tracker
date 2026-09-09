@@ -59,7 +59,11 @@ The `General` tab gives you a birds-eye view of your organization, including its
 
 * Set up [SAML Single sign-on](https://www.notion.com/help/saml-sso-configuration)` (SSO)` and [SCIM provisioning](https://www.notion.com/help/provision-users-and-groups-with-scim) for your workspaces.
 
+* Add more than one SAML configuration, so different groups of people can sign in with different identity providers. [Learn more about SAML SSO →](https://www.notion.com/help/saml-sso-configuration)
+
 * Require users to authorize with SAML SSO when trying to access workspaces in your organization.
+
+* Choose which SAML configuration each workspace requires.
 
 * Delete your organization.
 

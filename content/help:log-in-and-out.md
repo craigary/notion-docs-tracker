@@ -25,11 +25,17 @@ There are a few ways to log into Notion:
 
 ## Manage your email address and password
 
-Learn about managing your email address and password via your account settings in [this article →](https://www.notion.com/help/account-settings#account-security-settings)
+Learn about[ managing your email address and password via your account settings →](https://www.notion.com/help/account-settings#account-security-settings)
 
 ## Log in with SAML SSO
 
-If you're on a Business or Enterprise Plan and your workspace owner has enabled it, you can log in with SAML SSO. Learn more [here →](https://www.notion.com/help/saml-sso-configuration)
+If you're on a Business or Enterprise Plan and your workspace owner has enabled it, you can log in with SAML SSO. Learn more about [SAML SSO →](https://www.notion.com/help/saml-sso-configuration)
+
+Some organizations use more than one sign-in provider. If yours does, and your email domain works with more than one of them, Notion asks which provider you want to use. The one you used last is marked, so you can usually pick it again.
+
+If you don’t know which one to choose, or the one you need isn’t working, ask your IT team. They can tell you which provider your account uses.
+
+You may also be asked to sign in again with a specific provider when you open a workspace. That happens when the workspace requires it.
 
 ## Log in with Google
 

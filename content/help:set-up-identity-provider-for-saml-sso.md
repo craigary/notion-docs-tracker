@@ -11,7 +11,7 @@ categoryKey: "category:enterprise-admin"
 
 These are instructions for setting up Notion [SAML SSO](https://www.notion.com/help/saml-sso-configuration) with Entra ID (formerly Azure), Google, Okta, and OneLogin. If you use a different Identity Provider and need assistance with configuration, please let us know.
 
-**Note:** At this time, organizations on the Enterprise Plan can only set up SAML SSO with one IdP.
+**Note**: Enterprise organizations can use more than one identity provider. Each provider is its own SAML configuration in your organization settings, and each configuration has its own `Assertion Consumer Service (ACS) URL` and Config ID. Set up a separate app for each provider, then follow the steps below once per provider. [Learn more about SAML configurations →](https://www.notion.com/help/saml-sso-configuration)
 
 ## Entra ID
 
@@ -45,17 +45,19 @@ To configure SAML settings in Notion:
 
 3. Select the `Identity` tab in `Settings` if you're on the Business Plan, or go to your organization settings → `General` → `SAML Single sign-on (SSO)` if you're on the Enterprise Plan.
 
-4. Verify one or more domains. See instructions for domain verification [here →](https://www.notion.com/help/domain-management#verify-a-domain-for-your-workspace)
+4. On the Enterprise Plan, select `Create configuration` to set up this provider, or open an existing configuration to change it.
 
-5. Toggle on `Enable SAML SSO`. The `SAML SSO Configuration` modal will automatically appear and prompt you to complete the set-up.
+5. Verify one or more domains. See [instructions for domain verification here →](https://www.notion.com/help/domain-management#verify-a-domain-for-your-workspace)
 
-6. The SAML SSO Configuration modal is divided into two parts:
+6. Toggle on `Enable SAML SSO`. The `SAML SSO Configuration` modal will automatically appear and prompt you to complete the set-up.
+
+7. The SAML SSO Configuration modal is divided into two parts:
 
    * The `Assertion Consumer Service (ACS) URL` needs to be entered in your Identity Provider (IdP) portal.
 
    * The `Identity Provider Details` is a field in which you need to provide either an IdP URL or IdP metadata XML.
 
-7. Choose how people sign in and whether new accounts are created for them, then save once. All of these choices can be made before you save.
+8. Choose how people sign in and whether new accounts are created for them, then save once. All of these choices can be made before you save.
 
 ### Step 4: Configure Notion in Entra ID
 
@@ -68,6 +70,8 @@ To set up in Notion in Entra ID:
    * In the `Identifier (Entity ID)` text box, enter the following URL: `https://www.notion.so/sso/saml`.
 
    * In the `Reply URL (Assertion Consumer Service URL)` text box, use the ACS URL from Notion, found on the `Identity & provisioning` tab of `Settings` in your left-hand sidebar.
+
+   * On the Enterprise Plan, use the ACS URL shown on the SAML configuration you’re setting up. Each configuration has its own.
 
    * In the `Sign on URL` text box, enter the following URL: `https://app.notion.com/login`.
 
@@ -133,11 +137,13 @@ To set up Notion as a SAML service provider:
 
 3. Select the `Identity` tab in `Settings` if you're on the Business Plan, or go to your organization settings → `General` → `SAML Single sign-on (SSO)` if you're on the Enterprise Plan.
 
-4. Add a new domain and verify it. This should be the same as your Google Workspace domain.
+4. On the Enterprise Plan, select `Create configuration` to set up this provider, or open an existing configuration to change it.
 
-5. In `SAML Single sign-on (SSO)`**&#x20;**&#x73;ettings, toggle the `Enable SAML SSO` on. This opens the `SAML SSO Configuration`**&#x20;**&#x64;ialog.
+5. Add a new domain and verify it. This should be the same as your Google Workspace domain.
 
-6. In the dialog, do the following:
+6. In `SAML Single sign-on (SSO)`**&#x20;**&#x73;ettings, toggle the `Enable SAML SSO` on. This opens the `SAML SSO Configuration`**&#x20;**&#x64;ialog.
+
+7. In the dialog, do the following:
 
    1. Under `Identity Provider Details`, select `IDP metadata XML`.
 
@@ -147,7 +153,7 @@ To set up Notion as a SAML service provider:
 
    4. Click `Save Changes`.
 
-7. Ensure that the remaining options (Login method, Automatic account creation and Linked workspaces)**&#x20;**&#x63;ontain the desired values for your configuration.
+8. Ensure that the remaining options (Login method, Automatic account creation and Linked workspaces)**&#x20;**&#x63;ontain the desired values for your configuration.
 
 ### Step 3: Finish SSO configuration in Admin Console
 
@@ -223,22 +229,26 @@ To set up Notion settings for SAML:
 
 3. Select the `Identity` tab in `Settings` if you're on the Business Plan, or go to your organization settings → `General` → `SAML Single sign-on (SSO)` if you're on the Enterprise Plan.
 
-4. Verify one or more domains. See instructions for domain verification [here](https://www.notion.com/help/domain-management#verify-a-domain-for-your-workspace) →
+4. On the Enterprise Plan, select `Create configuration` to set up this provider, or open an existing configuration to change it.
 
-5. Toggle on `Enable SAML SSO` and the `SAML SSO Configuration` modal will automatically appear and prompt you to complete the set-up.
+5. Verify one or more domains. [See instructions for domain verification here →](https://www.notion.com/help/domain-management#verify-a-domain-for-your-workspace)
 
-6. In the `Identity Provider Details` field of the SAML SSO Configuration model, provide the `Identity Provider URL` by pasting the `Identity Provider metadata` URL you copied in Step 1.
+6. Toggle on `Enable SAML SSO` and the `SAML SSO Configuration` modal will automatically appear and prompt you to complete the set-up.
 
-7. Click `Save changes`.
+7. In the `Identity Provider Details` field of the SAML SSO Configuration model, provide the `Identity Provider URL` by pasting the `Identity Provider metadata` URL you copied in Step 1.
 
-8. If you are on a Business Plan: In the `Identity `tab, copy the Workspace ID identifier.\
+8. Click `Save changes`.
+
+9. If you are on a Business Plan: In the `Identity `tab, copy the Workspace ID identifier.\
    If you are on an Enterprise Plan: Go to the `General `tab of your organization settings and copy the SAML Config ID from the `Setup Information `box.
 
-9. In Okta Admin console → `Advanced Sign-on Settings `section, paste the identifier you copied in the previous step into the Organization ID text box.
+10. On the Enterprise Plan, copy the Config ID from the configuration you just set up. Each configuration has its own Config ID, so use the one that matches this provider.
 
-10. In `Credentials details`**,** select `Email` from the `Application username format` dropdown.
+11. In Okta Admin console → `Advanced Sign-on Settings `section, paste the identifier you copied in the previous step into the Organization ID text box.
 
-11. Click `Done`.
+12. In `Credentials details`**,** select `Email` from the `Application username format` dropdown.
+
+13. Click `Done`.
 
 You'll be able to assign users and groups to Notion in the `Okta - Assignments` tab.
 
@@ -270,11 +280,13 @@ To configure SAML settings in Notion:
 
 3. Select the `Identity` tab in `Settings` if you're on the Business Plan, or go to your organization settings → `General` → `SAML Single sign-on (SSO)` if you're on the Enterprise Plan.
 
-4. Verify one or more domains. See instructions for domain verification [here →](https://www.notion.com/help/domain-management#verify-a-domain-for-your-workspace)
+4. On the Enterprise Plan, select `Create configuration` to set up this provider, or open an existing configuration to change it.
 
-5. Toggle on `Enable SAML SSO` and the `SAML SSO Configuration` modal will automatically appear and prompt you to complete the set-up.
+5. Verify one or more domains. See [instructions for domain verification](https://www.notion.com/help/domain-management#verify-a-domain-for-your-workspace) [here →](https://www.notion.com/help/domain-management#verify-a-domain-for-your-workspace)
 
-6. The SAML SSO Configuration modal is divided into two parts:
+6. Toggle on `Enable SAML SSO` and the `SAML SSO Configuration` modal will automatically appear and prompt you to complete the set-up.
+
+7. The SAML SSO Configuration modal is divided into two parts:
 
    * The `Assertion Consumer Service (ACS) URL` needs to be entered in your Identity Provider (IdP) portal.
 
@@ -320,6 +332,8 @@ Your IdP must support the SAML 2.0 spec to be used with Notion. To set up your I
 
 1. Configure the ACS URL to the value Assertion Consumer Service (ACS) URL from Notion. You can find this in `Settings` → `Identity & Provisioning` → `Edit SAML SSO Configuration`.
 
+   * On the Enterprise Plan, the ACS URL is shown on each SAML configuration in your organization settings. Use the one for the configuration you’re setting up.
+
 2. Configure `NameID` to `urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress`.
 
    1. Similarly, configure `username` to `urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress`.
@@ -350,11 +364,13 @@ You can enter your provider details, pick how people sign in, and turn on automa
 
 3. Select the `Identity` tab in `Settings` if you're on the Business Plan, or go to your organization settings → `General` → `SAML Single sign-on (SSO)` if you're on the Enterprise Plan.
 
-4. In `SAML Single sign-on (SSO)`**&#xA0;**&#x73;ettings, toggle `Enable SAML SSO` on. This will open the SAML SSO Configuratio&#x6E;**&#xA0;**&#x64;ialog.
+4. On the Enterprise Plan, select `Create configuration` to set up this provider, or open an existing configuration to change it.
 
-5. Under `Identity Provider Details`, input the IdP metadata URL or IdP metadata XML from your IdP.
+5. In `SAML Single sign-on (SSO)`**&#xA0;**&#x73;ettings, toggle `Enable SAML SSO` on. This will open the SAML SSO Configuratio&#x6E;**&#xA0;**&#x64;ialog.
 
-6. Make sure you provide your desired inputs for `Login method`, `Automatic account creation`, and `Linked workspaces`.
+6. Under `Identity Provider Details`, input the IdP metadata URL or IdP metadata XML from your IdP.
+
+7. Make sure you provide your desired inputs for `Login method`, `Automatic account creation`, and `Linked workspaces`.
 
 ## Switch identity providers
 
@@ -366,11 +382,15 @@ To switch identity providers:
 
 3. Enter your new information, then select `Save changes`.
 
+4. On the Enterprise Plan, you don’t have to replace your current setup. You can add a second configuration for the new provider, test it, then move your domains over and remove the old configuration when you’re ready.
+
 When switching to a new IdP, we recommend that:
 
 * SSO not be enforced during the transition, so you can minimize the risk of locking users out.
 
 * Email addresses for the users under your new IdP match the user’s email in Notion.
+
+* You move one domain at a time if you have several, so you can check each one before you move the next.
 
 **Note**: Changing identity providers does not end user sessions or deactivate users.
 
@@ -379,6 +399,8 @@ When switching to a new IdP, we recommend that:
 If you encounter errors when setting up SAML SSO, check to make sure your IdP's metadata, SAML requests and responses are valid XML against the SAML XSD schemas. You can do so using [this online tool](https://www.samltool.com/validate_xml.php).
 
 Note that we do not support the `EntitiesDescriptor` element. If your IdP's metadata contains this element, extract the contained `EntityDescriptor` element and try again.
+
+If someone can’t sign in and your organization has more than one configuration, check that their email domain is added to the configuration you expect, and that the Config ID and ACS URL in the provider match that same configuration.
 
 **Learn more**
 
@@ -395,3 +417,8 @@ Yes, profilePhoto is an optional custom attribute. You may assign this attribute
 ### Can I still log in to Notion if my Identity Provider (IdP) is out of service?
 
 Yes, even with SAML enforced, workspace owners have the option to log in with email. A workspace owner can change the SAML configuration to disable `Enforce SAML` so users can log in with email again.
+
+
+### HC: Do I need a separate app in my identity provider for each configuration?
+
+Yes. Each configuration has its own ACS URL and Config ID, so set up one app per configuration.

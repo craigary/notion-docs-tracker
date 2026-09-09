@@ -265,9 +265,9 @@ Page event audience will also export as a column in CSV exports.
 
 * **SCIM token revoked:&#x20;**&#x54;hat a workspace owner revoked a SCIM API token.
 
-* **IdP metadata URL updated:&#x20;**&#x54;hat a workspace owner has set or updated the IdP metadata URL.
+* **IdP metadata URL updated:&#x20;**&#x54;hat a workspace owner has set or updated the IdP metadata URL. On the Enterprise plan, the event names the SAML configuration that changed.
 
-* **IdP metadata XML updated:&#x20;**&#x54;hat a workspace owner has updated the IdP metadata XML.
+* **IdP metadata XML updated:&#x20;**&#x54;hat a workspace owner has updated the IdP metadata XML. On the Enterprise plan, the event names the SAML configuration that changed.
 
 * **IdP metadata XMP removed:&#x20;**&#x54;hat a workspace owner has removed IdP metadata XML.
 
@@ -275,7 +275,7 @@ Page event audience will also export as a column in CSV exports.
 
 * **Toggled enforce SAML for all spaces in the organization:** That an organization owner has disabled or enabled Enforce SAML.
 
-* **Auto-create accounts on sign-in toggled:&#x20;**&#x54;hat a workspace owner has enabled automatically creating accounts on sign-in.
+* **Auto-create accounts on sign-in toggled:&#x20;**&#x54;hat a workspace owner turned automatic account creation on or off. On the Enterprise plan, the event names the SAML configuration it applies to.
 
 * **Workspace creation setting updated**: That a workspace owner has restricted creation of new workspaces by users with the claimed enterprise email domain.
 
@@ -543,7 +543,9 @@ Organization events aren't sent to your SIEM through the custom SIEM integration
 
 **Security and sign-in**
 
-* **SAML settings updated**: That an organization owner turned SAML single sign-on on or off for the organization, required it, turned automatic account creation on or off, or updated or removed IdP metadata.
+* **SAML settings updated**: That an organization owner changed a SAML configuration. This covers turning single sign-on on or off, requiring it, turning automatic account creation on or off, and updating or removing IdP metadata. The event names the configuration that changed.
+
+*
 
 * **IP allowlist created, updated, or deleted**: That an organization owner changed which IP addresses can access the organization.
 
