@@ -11,10 +11,10 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/CGvbKADJG2JbVyR2akeT8/018
 3 help:buy-and-track-notion-credits-for-custom-agents
 4 help:mcp-connections-for-custom-agents
 5 help:manage-custom-agents-with-the-admin-api
-6 help:connect-mail-to-custom-agents
-7 help:connect-calendar-to-custom-agents
-8 help:custom-agents-sharing-and-permissions
-9 help:mobile-custom-agents
+6 help:mobile-custom-agents
+7 help:custom-agents-sharing-and-permissions
+8 help:connect-mail-to-custom-agents
+9 help:connect-calendar-to-custom-agents
 
 ## Video
 

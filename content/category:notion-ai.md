@@ -12,15 +12,15 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/7j6zHBFAMtPgTdqjZQq46w/c7
 4 help:ai-meeting-notes
 5 help:enterprise-search
 6 help:notion-mcp
-7 help:install-the-notion-meetings-add-on
-8 help:connect-mcp-servers-to-your-notion-agent
-9 help:manage-your-inbox-with-notion-agent
-10 help:create-and-edit-images-with-notion-ai
-11 help:manage-ai-models-and-member-credit-spend
-12 help:research-mode
-13 help:instructions-for-notion-agent
-14 help:set-up-enterprise-managed-connections-for-notion-mcp
-15 help:create-and-manage-skills
+7 help:instructions-for-notion-agent
+8 help:create-and-manage-skills
+9 help:create-and-edit-images-with-notion-ai
+10 help:connect-mcp-servers-to-your-notion-agent
+11 help:set-up-enterprise-managed-connections-for-notion-mcp
+12 help:manage-your-inbox-with-notion-agent
+13 help:install-the-notion-meetings-add-on
+14 help:manage-ai-models-and-member-credit-spend
+15 help:research-mode
 
 ## Video
 
