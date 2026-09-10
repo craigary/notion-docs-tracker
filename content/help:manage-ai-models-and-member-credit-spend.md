@@ -9,8 +9,6 @@ category: "Notion AI"
 categoryKey: "category:notion-ai"
 ---
 
-**Starting September 10, 2026, premium models will be off by default for&#x20;**[**Notion Agent**](https://www.notion.com/help/notion-agent)**&#x20;in every workspace.&#x20;**&#x41; workspace owner or admin needs to turn on a premium model in `Settings` → `Notion AI` before your team can use it with Notion Agent, and using a premium model will spend [Notion credits](https://www.notion.com/help/what-are-notion-credits).
-
 Premium AI models are designed for complex, long-running work and cost substantially more than the models included in your plan. Using a premium model with [Notion Agent](https://www.notion.com/help/notion-agent) spends [Notion credits](https://www.notion.com/help/category/notion-credits). Premium models stay switched off in every workspace until a workspace owner or admin turns them on, so nothing spends credits until you decide to allow it. Until then, they aren’t available for [Notion Agent](https://www.notion.com/help/notion-agent).
 
 Notion charges tokens at each provider’s published rates, with no markup. You pay the same rate the model provider charges, and this applies to premium model usage paid for with monthly workspace credits. Provider rates and pricing methodology are subject to change.
@@ -133,3 +131,8 @@ Your admin can check all three in `Settings` → `Notion AI`.
 ### Who can change these settings?
 
 Workspace owners and admins on the Business and Enterprise plans.
+
+
+### I used Claude Fable 5 before. What changed?
+
+Claude Fable 5 runs on [Notion credits](https://www.notion.com/help/what-are-notion-credits), and an admin needs to turn it on for your workspace. Your [Custom Agents](https://www.notion.com/help/custom-agents) and saved work aren't affected.
