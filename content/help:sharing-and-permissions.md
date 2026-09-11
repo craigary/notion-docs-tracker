@@ -9,6 +9,8 @@ category: "Sharing & permissions"
 categoryKey: "category:sharing-and-collaboration"
 ---
 
+## Share a page with anyone
+
 Select `Share` at the top of any page to:
 
 * Invite someone to the page.
