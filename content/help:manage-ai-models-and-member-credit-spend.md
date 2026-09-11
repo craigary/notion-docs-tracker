@@ -37,13 +37,11 @@ Workspace owners and admins can turn on a premium model for the workspace:
 
 Once a premium model is switched on, members can select it for [Notion Agent](https://www.notion.com/help/notion-agent) right away. Workspace owners and admins can switch a premium model off at any time, which makes it unavailable in the model picker.
 
+Organizations on the Enterprise plan can use the Admin API to update premium model settings across workspaces programmatically. Learn more about [Notion's Admin API →](https://developers.notion.com/reference/admin/intro)
+
 These model controls apply to [Notion Agent](https://www.notion.com/help/notion-agent). [Custom Agents](https://www.notion.com/help/category/custom-agents) have their own model controls and model picker, so turning a premium model on or off for Notion Agent doesn’t change which models your Custom Agents can use.
 
 Learn more about how admins can [manage access to models for Custom Agents](https://www.notion.com/help/custom-agents#admins-manage-access-to-models-for-custom-agents) →
-
-## Manage premium models across your organization
-
-Organizations on the Enterprise plan can use the Admin API to update premium model settings across workspaces programmatically. Learn more about [Notion's Admin API →](https://developers.notion.com/reference/admin/intro)
 
 ## Set how many credits each member can spend for premium models
 

@@ -53,11 +53,15 @@ To add a member via a link:
 
 ### With an allowed domain
 
-If you're using Notion at your company, you can make it easy for anyone to automatically join your workspace as a member when they sign in with their work email. To set this up, workspace owners can:
+If you're using Notion at your company, you can make it easy for anyone to automatically join your workspace as a member when they sign in with their work email.
 
-1. Go to `Settings` → `Settings`.
+Steps to set this up:
 
-2. Under `Allowed email domains`, enter any email domain that you want to grant access to automatically, like your company's email domain. You can add multiple allowed domains in this field, but you'll only be able to add domains that workspace members' accounts are under.
+1. Navigate to the Notion workspace you'd like to update.
+
+2. Select your workspace name in the workspace switcher, select `Settings`., then select `General`.
+
+3. Under `Allowed email domains`, enter any email domain that you want to grant access to automatically, like your company's email domain. You can add multiple allowed domains in this field, but you'll only be able to add domains that workspace members' accounts are under.
 
 Now, whenever someone signs into Notion with an email that has one of those domains, they'll see the option to join your workspace during onboarding. If the user joins your workspace, they will become a member of your workspace and you will be billed accordingly.
 
