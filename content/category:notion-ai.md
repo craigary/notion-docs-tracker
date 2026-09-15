@@ -27,6 +27,10 @@ https://www.youtube.com/watch?v=kXPLgh-TLnE
 
 ## Guides
 
+- [Getting started with skills in Notion](https://www.notion.com/help/guides/getting-started-with-skills-in-notion)
+
+- [How to scale skills across your Notion workspace](https://www.notion.com/help/guides/how-to-scale-skills-across-your-notion-workspace)
+
 - [Preserve perfect meeting memory with AI Meeting Notes](https://www.notion.com/help/guides/preserve-perfect-meeting-memory-with-ai-meeting-notes)
 
 - [Get started with your Notion Agent](https://www.notion.com/help/guides/get-started-with-your-personal-agent-in-notion)
