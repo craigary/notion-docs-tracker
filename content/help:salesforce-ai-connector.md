@@ -31,11 +31,9 @@ To connect Salesforce to your Notion workspace:
 
 4. Click `Got it`.
 
-The connection can take up to 36 hours. You can manage the connection by opening Notion AI in the Settings modal and click the gear icon ⚙️ → `Settings`.
-
 ## How do Members connect Salesforce?
 
-A member login allows members to use advanced SOQL to answer complex queries that cannot be answered through regular search. <!-- -->Members must have API access in Salesforce to login.
+A member login allows members to use advanced SOQL to answer complex queries that cannot be answered through regular search. Members must have API access in Salesforce to login, and will need to authenticate in order to use Salesforce with Notion AI.
 
 Workspace members can go to `Settings` → `Notion AI` in the Settings modal and click the gear icon ⚙️ → `Log in`.
 
