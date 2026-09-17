@@ -49,8 +49,6 @@ To add a member via a link:
 
 5. If you don’t want to be able to invite people to your workspace with a link, turn off the toggle next to `Invite link`.
 
-![Add members](https://images.ctfassets.net/spoqsaf9291f/35YVSRHb1225hEs75Bs9kM/af1e646597ff9f6e4ad75b2abb039e01/Group_67.png)
-
 ### With an allowed domain
 
 If you're using Notion at your company, you can make it easy for anyone to automatically join your workspace as a member when they sign in with their work email.
@@ -74,8 +72,6 @@ To change a member's role in the workspace:
 2. Go to the `Members` tab.
 
 3. Select the dropdown for a member’s role, then select `Workspace owner`, `Membership admin`, or `Member`.
-
-![hc: change a member's role](https://images.ctfassets.net/spoqsaf9291f/4lZ6ys8EdlNFzrkI2jwsfo/759070edc27ab91c6516c43ae568a524/Group_68.png)
 
 ## Add a temporary member
 

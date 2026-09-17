@@ -19,8 +19,6 @@ You can invite people inside or outside your workspace to share a Notion page wi
 
 3. Enter the person's name or email address in the space provided, choose a level of access, and click `Invite`.
 
-![Sharing & permissions - share with teammate](https://images.ctfassets.net/spoqsaf9291f/6xAq9ETarG7humz2xNj0ve/0150b5f92e5ea1527ca90fe77dcb2558/shareyourwork1__1_.png)
-
 * If the person is outside your workspace, they'll join the page as a guest.
 
 * If the person is already a member of your workspace, you'll see their profile photo pop up in the invite menu, and the page will show up under `Shared` in your sidebar, as seen above.
@@ -35,9 +33,7 @@ If you have multiple people working with you in Notion, you can quickly share an
 
 * **Drag a private page to a default teamspace in your sidebar.** This automatically shares it with everyone.
 
-[](//videos.ctfassets.net/spoqsaf9291f/4zepk1JHjOYlHN03NB5UKx/e28672ffcc77886df33b4413a06bf681/new_shareyourwork2.mp4)
-
-* **Share a page's URL.&#x20;**&#x45;very page in Notion has its own unique URL you can use to share it on Slack or elsewhere. Go to `Share` at the top right and click `Copy link`. Only people who have access to the page can see it.
+- **Share a page's URL.&#x20;**&#x45;very page in Notion has its own unique URL you can use to share it on Slack or elsewhere. Go to `Share` at the top right and click `Copy link`. Only people who have access to the page can see it.
 
 ## Share with the web
 

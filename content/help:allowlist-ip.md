@@ -1,7 +1,7 @@
 ---
 title: "Notion IP addresses & domains"
 emoji: null
-description: "Contact your security team to allowlist these Notion IP addresses or domains 🌐"
+description: "Contact your security team to allowlist these Notion IP addresses or domains."
 url: "https://www.notion.com/help/allowlist-ip"
 key: "help:allowlist-ip"
 coverImage: null
@@ -11,7 +11,7 @@ categoryKey: "category:security-and-privacy"
 
 Notion provides a fixed range of outgoing IP addresses, as well as domains that you can allowlist, helping you increase the security of your network.
 
-These cannot be managed in your Notion account, so please contact your security team to allowlist these IP addresses or domains.
+These can't be managed in your Notion account, so please contact your security team to allowlist these IP addresses or domains.
 
 ### Notion IP addresses and domains
 

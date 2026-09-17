@@ -93,8 +93,6 @@ You can manage general access to your page by selecting `Share` at the top of a 
 
 For each group of people you grant general access to, you can assign an access level.
 
-![Sharing & permissions - share with group](https://images.ctfassets.net/spoqsaf9291f/42acXXdXP29Na1D59mNrbC/6995189096367fdb1b9fb8ab18f7ca9e/share_menu_group.png)
-
 ## Access levels
 
 For every person, group, or teamspace you share a page with, you can assign a different permission level. This helps to keep private information private and gives you granular, precise control over your work.
@@ -126,8 +124,6 @@ To change someone’s permission level for a specific page:
 2. Open the dropdown next to the name of a person, group, or teamspace with whom the page has been shared.
 
 3. Select a permission level.
-
-![Sharing & permissions - edit permissions](https://images.ctfassets.net/spoqsaf9291f/7pJacMitIXaEO1t2RwCQyj/b74f1d94770d4991064e7f70d2c9a23c/Group_75.png)
 
 ## Stop sharing
 
@@ -169,11 +165,7 @@ To set permissions for a person property or created by property:
 
 6. Select `Create rule`.
 
-![hc: create page level access rule](https://images.ctfassets.net/spoqsaf9291f/4dBW9LSawH5dnFXsKhFCTG/8f14d0bef3f4354512478c073a0f79f6/Sept_17_Screenshot_from_MWN.png)
-
 If your database contains multiple data sources, each data source can have its own permission rules. You’ll be able to toggle between data sources when you set these permissions in the `Share` menu.
-
-![hc: choose data source for page level access rule](https://images.ctfassets.net/spoqsaf9291f/3Otvh0zGLubR5sFLJVsLTR/3fe9bf9244eeceb1810a3a98fe3604e7/Sept_17_Screenshot_from_MWN__1_.png)
 
 You can create new permissions for additional person properties in your database by clicking `Add a new rule`.
 
@@ -288,8 +280,6 @@ This request will go to the page creator, who can accept or ignore it. You’ll 
 If you’re a workspace owner on an Enterprise Plan, you can control content sharing with additional security settings. Learn more about these features [here →](https://www.notion.com/help/workspace-settings#workspace-security)
 
 To see these settings, go to `Settings` in your sidebar, then select `Security`.
-
-![hc: security settings for enterprise](https://images.ctfassets.net/spoqsaf9291f/1eRIZOlilH1whn7Hn9at0U/d58dbe77dcfca2a20c62499696e84042/security_settings.png)
 
 
 ## FAQs

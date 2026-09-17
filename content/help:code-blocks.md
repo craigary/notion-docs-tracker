@@ -27,28 +27,24 @@ We support syntax highlighting for a number of programming languages. To change
 
 2. Type in the name of your programming language to search, then press `enter` to select.
 
-![Syntax highlighting](https://images.ctfassets.net/spoqsaf9291f/7dZZP3Rb5lLQy0WDZmwhbY/86c3be49027a458111918dd48952f953/Syntax_highlighting.png)
-
 ## Wrap your code
 
 To eliminate side scrolling and create a line break at the edge of your code block:
 
-1. Hover over the code block and click `•••` at the top right or `⋮⋮` on the left. You can also right click on the block itself.
+1. Hover over the code block to show its buttons at the top right.
 
-2. Switch on the `Wrap code` option.
+2. Click `Wrap code`. Long lines now fold onto multiple lines. Click Wrap code again to turn wrapping off.
 
-![Wrap code](https://images.ctfassets.net/spoqsaf9291f/10DRND1V4spARdTfX76TK6/2bc6401f018b16929bc7aa9088d1ca93/Wrap_code.png)
+You can also turn wrapping on from the menu. Hover over the code block and click ••• at the top right or ⋮⋮ on the left, or right-click the block, then switch on Wrap code.
 
 ## Copy or add a caption to code blocks
 
-Hover over your code block to reveal the `Copy` and `Caption` buttons at the top right.
+Hover over your code block to reveal the `Copy`, `Wrap code`, and `Caption` buttons at the top right.
 
 1. Click `Copy`, and your code is ready to paste into your editor or wherever you want to share it.
 
 2. Select `Caption` and enter whatever you want to say about the code!
 
 3. Click the `•••` menu for even more options.
-
-![Copy and caption code](https://images.ctfassets.net/spoqsaf9291f/4UUrhTG9IU6RmDLWRKLd1h/4ae4cdbb568534a97cc8b2c052307eaf/Copy_and_caption_code.png)
 
 **Note:&#x20;**&#x54;his button is invisible to users who have "Can view" permission levels on the page.

@@ -39,8 +39,6 @@ Learn more about your sidebar in [this article →](https://www.notion.com/help/
 
 ### Control panel
 
-![hc: sidebar control panel](https://images.ctfassets.net/spoqsaf9291f/6gTWDfDrPkloy5Du3RMvSW/d8e9dc38f6c63e0b83e9cd6dd10701d9/Group_64.png)
-
 The control panel at the top of your sidebar contains several key features:
 
 * **Workspace switcher:** Click on your current workspace's name to switch between the workspaces you belong to, create a new one, join another one, or log out. You can also access your settings from inside the workspace switcher. [Learn more about switching workspaces here →](https://www.notion.com/help/create-delete-and-switch-workspaces)
@@ -58,8 +56,6 @@ The control panel at the top of your sidebar contains several key features:
 * **Library:&#x20;**&#x43;lick to browse and manage all content across your workspace. [Learn more about Library here →](https://www.notion.com/help/manage-your-library)
 
 ### Sidebar sections
-
-![hc: sidebar sections](https://images.ctfassets.net/spoqsaf9291f/4kjGCZjvnce4KqCNTpVWOp/8f0f6629423b3b2b1aca146d1f9ce71f/Group_64__1_.png)
 
 Your sidebar contains various sections to keep your workspace’s content organized:
 
@@ -121,8 +117,6 @@ When you hover over a page in your sidebar, you'll see both a `+` button to ad
 
 * You can click on any page in this breadcrumb to immediately jump to it. Sometimes this will be abridged with a `...` — click to view all the pages in between.
 
-![Subpage sidebar breadcrumb](https://images.ctfassets.net/spoqsaf9291f/37adoxw22U3bVziWxVJkD5/e3b63ea7da1462bd3eaaf812824ed196/new_createasubpage3__1_.png)
-
 ### Collaborators
 
 * You can see the profile photos of everyone else who has access to the page you're on. If you hover over any of them, you can see the full list, their names, and email addresses.
@@ -131,11 +125,7 @@ When you hover over a page in your sidebar, you'll see both a `+` button to ad
 
 * When you collaborate in real-time on the same content, you can see people's photos moving around, corresponding to the block they're reading or editing.
 
-![Presence](https://images.ctfassets.net/spoqsaf9291f/4u47lw1SuBSz0hwTFMwfP3/ae504eb48147ce00f11a1918112942c9/Presence.png)
-
 ### Share menu
-
-![Sharing & permissions - share menu](https://images.ctfassets.net/spoqsaf9291f/23AarIKXH9Leog04ZjSPie/402c55b221810b5f4e393a9cc33bbc59/share_menu__1_.png)
 
 * Each row in this menu represents a different person or group of people you can share the page with. The dropdown menus on the right let you set their level of access. [Learn more about permissions here →](https://www.notion.com/help/sharing-and-permissions#permission-levels)
 
@@ -144,8 +134,6 @@ When you hover over a page in your sidebar, you'll see both a `+` button to ad
 * `Invite` lets you add people both inside or outside your workspace to a page using their email address. [Learn more about sharing here →](https://www.notion.com/help/sharing-and-permissions)
 
 ### ••• menu
-
-![••• menu](https://images.ctfassets.net/spoqsaf9291f/2d9udvYZX4oMuy6IFfATHF/ca32c1639a869e0ac22001c1810d8082/Group_18__1_.png)
 
 This menu contains many options, including:
 
