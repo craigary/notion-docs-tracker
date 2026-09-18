@@ -13,6 +13,8 @@ categoryKey: "category:enterprise-admin"
 
 If your organization has multiple Enterprise workspaces, you can view and manage content across all of those workspaces in one place. Learn more about organization level controls [here →](https://www.notion.com/help/organization-level-controls)
 
+Content search access can also be handed off to a member through an admin role, and it can be limited to specific workspaces. If your access is limited this way, your results only cover the workspaces the role covers. [Learn more in Manage your Enterprise workspace →](https://www.notion.com/help/enterprise-admins)
+
 ## Access content search
 
 To go to content search for your workspace:

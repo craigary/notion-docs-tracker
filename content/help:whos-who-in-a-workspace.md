@@ -121,6 +121,8 @@ Membership admin is a role that exists only in the Enterprise Plan. Membership a
 
 If your organization has multiple workspaces in Notion, those workspaces can be brought together as one organization. Organization owners are able to view and manage all of their workspaces and members in one central place and apply settings across the board. Learn more about organization owners and [organization level controls](https://www.notion.com/help/organization-level-controls).
 
+Organization owners can also hand off specific admin work to members without making them full organization owners. They can use a ready-made admin role or build a custom one with just the access level they choose. [Learn more in Manage your Enterprise workspace →](https://www.notion.com/help/enterprise-admins)
+
 ## Change a user's role
 
 To change a member or guest’s role in a workspace, a workspace owner or a membership admin can:

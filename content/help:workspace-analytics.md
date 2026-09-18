@@ -27,6 +27,8 @@ You'll see an overview of information regarding content in your workspace, inclu
 
 Select the `Members`, `Content`, `AI`, or `Search` tabs to get more thorough breakdowns. If you're not a workspace owner, you'll only have access to `Content`.
 
+If you were given analytics access through an admin role, you can see analytics without being a workspace owner. When that access is limited to certain workspaces, you'll only see analytics for those workspaces. [Learn more in Manage your Enterprise workspace →](https://www.notion.com/help/enterprise-admins)
+
 **Note:** Workspace analytics show data going back 365 days. To save historical data, you'll want to regularly go to the `Members` and `Content` tabs of your workspace analytics and `Export to CSV`.
 
 [](//videos.ctfassets.net/spoqsaf9291f/7qEZ5WcXnoNnVOMFFWYEkC/5c809df3a135d364627b7bf265116200/analyticstabs.mp4)
