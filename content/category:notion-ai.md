@@ -12,15 +12,15 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/7j6zHBFAMtPgTdqjZQq46w/c7
 4 help:ai-meeting-notes
 5 help:enterprise-search
 6 help:notion-mcp
-7 help:manage-your-inbox-with-notion-agent
-8 help:connect-mcp-servers-to-your-notion-agent
-9 help:slack-enterprise-grid-ai-connector
-10 help:manage-ai-models-and-member-credit-spend
-11 help:research-mode
-12 help:instructions-for-notion-agent
-13 help:create-and-edit-images-with-notion-ai
-14 help:create-and-manage-skills
-15 help:set-up-enterprise-managed-connections-for-notion-mcp
+7 help:slack-enterprise-grid-ai-connector
+8 help:create-and-edit-images-with-notion-ai
+9 help:instructions-for-notion-agent
+10 help:research-mode
+11 help:create-and-manage-skills
+12 help:set-up-enterprise-managed-connections-for-notion-mcp
+13 help:manage-your-inbox-with-notion-agent
+14 help:connect-mcp-servers-to-your-notion-agent
+15 help:manage-ai-models-and-member-credit-spend
 
 ## Video
 
