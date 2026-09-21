@@ -19,7 +19,7 @@ This article is for workspace owners and admins. If you’re a member and a mode
 
 * You need to be a workspace owner or admin to change these settings.
 
-* Your workspace needs to be on the Business or Enterprise plan.
+* Your workspace needs to be on the Business or Enterprise plan. Business trials may not have access to the model picker.
 
 * Your workspace needs [Notion credits](https://www.notion.com/help/what-are-notion-credits) available. Premium models spend credits every time someone uses them for [Notion Agent](https://www.notion.com/help/notion-agent).
 

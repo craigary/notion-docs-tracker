@@ -11,7 +11,7 @@ categoryKey: "category:developer-platform"
 
 [Workers](https://www.notion.com/help/run-custom-code-with-workers) run code in the background to automate tasks in Notion. They’re best for tasks that don’t require AI reasoning, such as syncing data, writing updates, and handling events. Workers are often paired with [Custom Agents](https://www.notion.com/help/custom-agents), where the agent decides what to do and Workers reliably execute specific steps.
 
-During the beta, Workers are free to try on Business and Enterprise plans (including Business trials). Starting on October 15, 2026, they’ll require Notion credits. Workspace admins can purchase Notion credits as an add-on to Business and Enterprise plans.
+During the beta, Workers are free to try on Business and Enterprise plans (including Business trials). Eventually, they’ll require Notion credits. Workspace admins can purchase Notion credits as an add-on to Business and Enterprise plans.
 
 The free beta period applies only to Workers. Custom Agent actions will consume credits according to your workspace’s plan and credit settings.
 

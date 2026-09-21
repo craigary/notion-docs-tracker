@@ -13,5 +13,5 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/3lEd6s7d8pem7vwS6njpqh/e5
 5 help:notion-for-mobile-beta-version
 6 help:mobile-widgets
 7 help:web-clipper
-8 help:notion-ai-app-for-ios
-9 help:notion-new-tab-extension
+8 help:notion-new-tab-extension
+9 help:notion-ai-app-for-ios

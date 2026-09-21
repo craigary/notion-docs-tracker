@@ -9,11 +9,11 @@ category: "Notion AI"
 categoryKey: "category:notion-ai"
 ---
 
-* Notion AI is only available on Business and Enterprise Plans.
+* Notion AI is available on Business and Enterprise Plans.
 
 * To keep Notion AI fast and reliable, Business and Enterprise plans include a usage allowance for certain Notion AI features. Learn more about [managing usage allowance for Notion AI →](https://www.notion.com/help/manage-your-usage-allowance-for-notion-ai)
 
-* Premium AI models spend [Notion credits](https://www.notion.com/help/what-are-notion-credits), and a workspace owner or admin has to turn them on first.
+* Premium AI models spend [Notion credits](https://www.notion.com/help/what-are-notion-credits), and a workspace owner or admin has to turn them on first. Business trials may not have access to the model picker.
 
 * Users on the Free and Plus Plans get a limited number of [complimentary AI responses](https://www.notion.com/help/complimentary-ai-responses) so they can try Notion AI features out.
 
