@@ -1,7 +1,7 @@
 ---
-title: "Notion Mail AI Connector (beta)"
+title: "Personal Gmail AI Connector  (beta)"
 emoji: null
-description: "Anyone on any Notion plan can connect Notion Mail to Notion AI."
+description: "Learn how to connect your personal Gmail to Notion AI on any Notion plan."
 url: "https://www.notion.com/help/notion-mail-ai-connector"
 key: "help:notion-mail-ai-connector"
 coverImage: null
@@ -11,25 +11,19 @@ categoryKey: "category:notion-ai-connectors"
 
 **Note:**
 
-* The Notion Mail AI Connector is currently in beta and subject to the beta terms of your agreement.
+* The personal Gmail AI Connector is currently in beta and subject to the beta terms of your agreement
 
-* Notion Mail is shutting down on September 22, 2026. This connector, which gives Notion AI access to your Gmail inbox, is not going away. [Learn what's changing →](http://notion.com/help/notion-mail-inbox-is-going-away-what-to-do-next)
+This article covers the personal Gmail connector for individual Notion users connecting their own inbox. No admin access needed, and it works on any plan.
 
-## Connect Notion Mail to Notion AI
+If your organization wants to connect Gmail for the whole team, see the [Gmail AI Connector for Business and Enterprise →](https://www.notion.com/help/notion-ai-connector-for-gmail)
 
-**Who can connect Notion Mail to Notion AI?**
+## Connect Gmail to Notion AI
 
-Anyone on any Notion plan can connect Notion Mail to Notion AI. Users must create a Notion Mail account in order to set up the connection successfully.
-
-At this time, the email you use for Notion Mail must match with the email you use for your Notion workspace.
-
-**How do I connect Notion Mail?**
-
-To connect Notion Mail to Notion AI:
+The Gmail account you connect must match the email address you use for your Notion workspace. To connect Gmail to Notion AI:
 
 1. Go to `Settings` → `Notion AI`.
 
-2. Select `+` next to `Notion Mail`.
+2. Select `+` next to `Gmail`.
 
 3. In the window that appears, select `Start connection`.
 
@@ -38,41 +32,29 @@ Notion AI will be able to search and answer questions related to your emails in 
 
 ## FAQs
 
-### Can I add connect multiple Notion workspaces to my Notion Mail?
+### Can I add connect multiple Notion workspaces?
 
-Yes! As long as you’re logged into your Notion workspace using the same email address that you use for Notion Mail, you can connect that workspace to your Notion Mail.
+Yes. As long as you're logged into your Notion workspace using the same email address as your Gmail account, you can connect that workspace.
 
 
-### If I'm using Notion Mail with an email address that's not the one I use for my Notion workspace, can I still connect the two?
+### Can I connect Gmail if the email doesn't match my Notion workspace email?
 
 Not at this time.
 
 
-### Can I set up the Gmail and Notion Mail calendar in the same workspace?
-
-No. If your workspace owner connects your Google Organization for Gmail, your Notion Mail connection will disconnect and be replaced with your Gmail AI Connector.
-
-
-### Why would I connect Notion Mail to Notion AI and not Gmail?
-
-* All Notion plans allow access to the Notion Mail AI Connector. However, the Gmail AI Connector is available only on Notion's Business or Enterprise Plan. It also requires a paid Google Workspace plan type in order to set up the connection.
-
-* The Gmail connector must be installed by someone who is both a Notion workspace owner and Google Workspace admin (of a paid workspace). Notion Mail can be set up by any individual member of a Notion workspace as long as they also have a Notion Mail account.
-
-
 ### What data does Notion AI get access to?
 
-Notion AI can read all email messages in your Notion Mail. We maintain strict cross-user security; no user will see other users’ emails.
+Notion AI can read all email messages in your connected Gmail account. We maintain strict cross-user security. No user will see other users' emails.
 
 
-### Does Notion AI respect my Notion Mail permissions?
+### Does Notion AI respect my email permissions?
 
 Yes. Notion AI searches only your connected inbox — we use an exact email address match. See Notion AI security practices [here](https://www.notion.com/help/notion-ai-security-practices).
 
 
 ### How long does it take for the integration to complete, and how far back does it look?
 
-Once the integration is set up, Notion Mail search will be available immediately. It can search the entire inbox.
+Once the integration is set up, search will be available right away. It can search your entire inbox.
 
 
 ### How long does it take for Notion AI to read new emails?
@@ -80,26 +62,41 @@ Once the integration is set up, Notion Mail search will be available immediately
 New emails may take up to 3 hours to be indexed by Notion AI before they appear in search results. Larger data volumes may take additional time.
 
 
-### Can I limit the scope of my search to only Notion Mail?
+### Can I limit the scope of my search to only this connector?
 
-Yes! In Notion AI, click `All sources` and narrow your scope to only `Notion Mail`.
-
-
-### How does Notion store or reference my Notion Mail data in its systems?
-
-We do not store Notion Mail data in vector databases like Turbopuffer, but we may temporarily cache email content via something like memcached to provide a faster search experience. See [this article](https://www.notion.com/help/notion-ai-security-practices) for more information.
+Yes. In Notion AI, click `All sources` and narrow your scope to only `Gmail`.
 
 
-### How can I disconnect my Notion Mail from Notion?
+### How does Notion store or reference my email data in its systems?
 
-You can disconnect Notion Mail from Notion AI by going to `Settings` → `Notion AI`. Select `⚙️` next to `Notion Mail`, then `Disconnect`.
+We don't store email data in vector databases, but we may temporarily cache email content to provide a faster search experience. Learn more about [Notion AI security and privacy](https://www.notion.com/help/notion-ai-security-practices?_gl=1*561poh*_gcl_au*MzMxNDM2MDIxLjE3ODY5OTI3NzEuOTE1OTIzODA3LjE3ODkxNTU0NzUuMTc4OTE1Njg3NS44OTI3NDE1MS4xNzg5MTU1NDc1LjE3ODkxNTY4NzU.*_ga*NDkxMzI5ODU3LjE3ODY5OTI3NzE.*_ga_9ZJ8CB186L*czE3OTAwOTY1NDkkbzExMSRnMSR0MTc5MDA5Nzg5OCRqNTUkbDAkaDA.).
 
 
-### What happens to my Notion Mail data if I disconnect?
+### How can I disconnect my email from Notion?
 
-Notion handles your mail data following strict data minimization principles. When you disconnect Notion Mail from Notion AI, your content becomes unsearchable immediately. All associated data is then deleted within 24 hours of your disconnection request.
+1\. Go to `Settings` → `Notion AI`.\
+2\. Select ⚙️ next to `Gmail`, then select `Disconnect`.
+
+
+### What happens to my data if I disconnect?
+
+Notion handles your data following strict data minimization principles. When you disconnect, your content becomes unsearchable immediately. All associated data is deleted within 24 hours.
 
 
 ### Can Notion AI read attachments?
 
 No, not at this time.
+
+
+### Can I set up both this connector and the Gmail AI Connector (Business) in the same workspace?
+
+No. If your workspace owner connects your Google organization for Gmail (Business or Enterprise plan), your personal Gmail connection will be replaced by the workspace-level Gmail AI Connector.
+
+
+### What's the difference between this and the Gmail AI Connector for Business?
+
+****
+
+* **This connector (personal):&#x20;**&#x57;orks for any individual Notion user on any plan. You set it up yourself in a few clicks. No admin access needed. It connects your personal Gmail inbox only.
+
+* **Gmail AI Connector (Business and Enterprise plans):&#x20;**&#x53;et up by a Notion workspace owner who is also a Google Workspace admin. Connects Gmail for everyone in the organization. Requires a Business or Enterprise Notion plan, and a paid Google Workspace plan. [Learn more →](https://www.notion.com/help/notion-ai-connector-for-gmail)

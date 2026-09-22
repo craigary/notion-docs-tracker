@@ -11,11 +11,11 @@ categoryKey: "category:notion-ai-connectors"
 
 * To connect third-party apps to Notion AI, you must be on the Business or Enterprise Plan.
 
-* Notion Mail is free to connect for all plans. You’ll need to sign up for Notion Mail before setting up the connection.
+* The Gmail AI Connector (personal) is free to connect for all plans. [Learn more →](https://www.notion.com/help/notion-mail-ai-connector)
 
 * Ready to get started with Notion AI connectors? [Find app-specific information and instructions here →](https://www.notion.com/help/category/notion-ai-connectors)
 
-[Notion AI](https://www.notion.com/help/notion-ai-faqs) <!-- -->lets you ask questions about the content in your Notion workspace. With Notion AI Connectors, your questions can also pull in relevant information from your connected apps, with citations to the sources used.
+[Notion AI](https://www.notion.com/help/notion-ai-faqs) lets you ask questions about the content in your Notion workspace. With Notion AI Connectors, your questions can also pull in relevant information from your connected apps, with citations to the sources used.
 
 For some apps, your Notion Agent can also take action, not just search. For example, once you connect your Slack account, your Agent can post messages, reply in threads, and add reactions in Slack for you. It acts as you, so it can only access what you can already see. [Learn more about Slack actions →](https://www.notion.com/help/notion-ai-connectors-for-slack)
 
@@ -23,7 +23,7 @@ Notion AI Connectors are available for the following apps:
 
 | **Chat**                                                                               | **Knowledge**                                                                                                            | **Projects**                                                         | **Email and calendars**                                                         | **Notion apps**                                                                                      |
 | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
-| [Slack](https://www.notion.com/help/notion-ai-connectors-for-slack)                    | [Google Drive](https://www.notion.com/help/notion-ai-connectors-for-google-drive)                                        | [Jira](https://www.notion.com/help/jira-ai-connector)                | [Gmail](https://www.notion.com/help/notion-ai-connector-for-gmail)              | [Notion Mail](https://www.notion.com/help/notion-mail-ai-connector) (available on all plans)         |
+| [Slack](https://www.notion.com/help/notion-ai-connectors-for-slack)                    | [Google Drive](https://www.notion.com/help/notion-ai-connectors-for-google-drive)                                        | [Jira](https://www.notion.com/help/jira-ai-connector)                | [Gmail](https://www.notion.com/help/notion-ai-connector-for-gmail)              | [Gmail AI Connector](https://www.notion.com/help/notion-mail-ai-connector) (available on all plans)  |
 | [Microsoft Teams](https://www.notion.com/help/notion-ai-connector-for-microsoft-teams) | [Microsoft SharePoint & OneDrive](https://www.notion.com/help/notion-ai-connector-for-microsoft-sharepoint-and-onedrive) | [GitHub](https://www.notion.com/help/notion-ai-connector-for-github) | [Microsoft Outlook](https://www.notion.com/help/microsoft-outlook-ai-connector) | [Notion Calendar](https://www.notion.com/help/notion-calendar-ai-connector) (available on all plans) |
 |                                                                                        |                                                                                                                          | [Linear](https://www.notion.com/help/notion-ai-connector-for-linear) | [Google Calendar](https://www.notion.com/help/google-calendar-ai-connector)     |                                                                                                      |
 

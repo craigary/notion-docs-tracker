@@ -15,4 +15,3 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/15MnehxCRUUA3LITX21Lar/7c
 7 help:notion-error-messages
 8 help:record-har-files-for-troubleshooting
 9 help:common-jira-sync-issues
-10 help:cant-log-into-notion-mail

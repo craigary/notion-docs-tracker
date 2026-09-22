@@ -31,7 +31,7 @@ Find the friendly face at the bottom of Notion to chat with your Agent. As soon 
 
 * Select `📎` to upload a file for Agent to look at.
 
-* Select `Auto` to switch to another AI model. Keep in mind that depending on the model you choose, Agent may look only at info from the web to help you with your work. It may not be able to look at info from your workspace or connected apps. Available models include Claude Fable 5 (Business and Enterprise plans only), Claude Sonnet 5, the newest GPT models, Gemini, and Grok. Claude Fable 5 is great for in-depth work like detailed research, long-form writing, and multi-step tasks. <!-- -->Premium models spend [Notion credits](https://www.notion.com/help/what-are-notion-credits), and a workspace admin has to turn each one on in `Settings` → `Notion AI` before it shows up for you. <!-- -->Not sure which model to pick? Leave it on `Auto` and Notion will choose a model for each task.
+* Select `Auto` to switch to another AI model. Keep in mind that depending on the model you choose, Agent may look only at info from the web to help you with your work. It may not be able to look at info from your workspace or connected apps. Available models include Claude Fable 5 (Business and Enterprise plans only), Claude Sonnet 5, the newest GPT models, Gemini, and Grok. Claude Fable 5 is great for in-depth work like detailed research, long-form writing, and multi-step tasks. Premium models spend [Notion credits](https://www.notion.com/help/what-are-notion-credits), and a workspace admin has to turn each one on in `Settings` → `Notion AI` before it shows up for you. Not sure which model to pick? Leave it on `Auto` and Notion will choose a model for each task.
 
 ![hc: personal agent ui](https://images.ctfassets.net/spoqsaf9291f/5nzOWLKeT1C8AQpaoSSNYO/a38ddcd94fcb09e1aedfacb4daf6bd1f/Reference_Visuals_Group_166.png)
 
@@ -117,9 +117,7 @@ Try this prompt: “Use a computer to analyze this spreadsheet and return an upd
 
     * "Archive all my read notifications."
 
-* Search, draft, send, and organize Gmail from Notion. If you've connected Gmail via Settings → Notion AI → AI connectors, your Agent can search your inbox, draft and send emails, archive or trash messages, manage labels, unsubscribe from senders, and more. If you use Notion Mail, it can also update email status, set reminders, and save emails as synced blocks in Notion. Write actions (like sending) will ask you to confirm before Agent takes action.
-
-* **Note:** Notion Mail is shutting down on September 22, 2026. Agent email tools that connect through Gmail continue to work and are not affected. [Learn more →](http://notion.com/help/notion-mail-inbox-is-going-away-what-to-do-next)
+* Search, draft, send, and organize Gmail from Notion. If you've connected Gmail via Settings → Notion AI → AI connectors, your Agent can search your inbox, draft and send emails, archive or trash messages, manage labels, unsubscribe from senders, and more. Write actions (like sending) will ask you to confirm before Agent takes action.
 
 Try these prompts:
 
