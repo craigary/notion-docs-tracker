@@ -17,7 +17,31 @@ Our desktop [Web Clipper](https://www.notion.com/web-clipper) is a browser exten
 
 * [Download](https://chrome.google.com/webstore/detail/notion-web-clipper/knheggckgoiihginacbkhaalnibhilkk?hl=en) the Chrome extension 🌈
 
-* [Download](https://apps.apple.com/us/app/notion-web-clipper/id1559269364?mt=12) the Safari extension 🧭
+* Get the Safari extension from [notion.com/web-clipper](https://www.notion.com/help/notion.com/web-clipper) 🧭
+
+**Already have the Safari extension from the App Store?** The new version won't replace it on its own. To switch over cleanly, follow these steps:
+
+1. **Remove the current app.**
+
+   * Quit Notion Web Clipper if it's running (menu bar → `Quit`).
+
+   * Open Finder → `Applications` and drag Notion Web Clipper to the Trash.
+
+   * Empty the Trash.
+
+2. **Clear the Safari extension.**
+
+   * Open Safari → `Settings` → `Extensions`.
+
+   * Find Notion Web Clipper and click `Uninstall` if it still shows up.
+
+3. **Install the new version.**
+
+   * Go to [notion.com/web-clipper](https://www.notion.com/help/notion.com/web-clipper) and click `Install for Safari`.
+
+4. Open the downloaded DMG and drag Notion Web Clipper to `Applications`.
+
+5. Launch the app. Safari will ask you to turn on the extension in `Settings` → `Extensions`.
 
 Once you've downloaded and installed the Web Clipper, you'll see a small Notion button appear just to the right of your browser search bar.
 
@@ -115,12 +139,6 @@ Not at the moment, unfortunately. Definitely possible for a future iteration tho
 For the time being, you'll need to open the clipped page in a Notion database to add and edit any tags or other database properties.
 
 
-### I installed the Safari extension, but am seeing long loading spinners when I try to use it.
+### I can't find the Notion Web Clipper in the App Store.
 
-Unfortunately, some Safari configurations seem to be causing performance issues across many different Safari extensions, including Notion's. To help our engineering team debug this issue with Apple, could you let us know:
-
-* What version of macOS are you running on your computer?
-
-* In the Safari → About Safari window, which version number of Safari are you running on your computer?
-
-* In the Safari → Settings... → Extensions, which version number of the Notion Web Clipper do you have installed?
+The Safari Web Clipper is no longer in the Apple App Store. To add it to Safari, go to [notion.com/web-clipper](https://www.notion.com/web-clipper) and follow the install steps. Once it's installed, the clipper works the same as before.
