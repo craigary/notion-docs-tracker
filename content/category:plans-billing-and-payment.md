@@ -14,9 +14,8 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/4DbuU1bqunhT31CLKhcIfX/1c
 6 help:refunds
 7 help:notion-for-education
 8 help:notion-for-startups
-9 help:notion-for-creators
-10 help:paid-plan-trials
-11 help:understanding-block-usage
-12 help:plan-downgrade
-13 help:sales-tax
-14 help:cant-upgrade-to-the-plus-plan-for-education
+9 help:paid-plan-trials
+10 help:understanding-block-usage
+11 help:plan-downgrade
+12 help:sales-tax
+13 help:cant-upgrade-to-the-plus-plan-for-education
