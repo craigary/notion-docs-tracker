@@ -81,7 +81,7 @@ When changes occur in pages or databases shared with your [connection](https://w
 
 ### Set up connection webhooks
 
-For instructions, please visit our [developer docs](https://developers.notion.com/reference/integration-webhooks).
+For instructions, please visit our [developer docs](https://developers.notion.com/reference/webhooks).
 
 **Connection webhooks currently do not support notifications for:**
 

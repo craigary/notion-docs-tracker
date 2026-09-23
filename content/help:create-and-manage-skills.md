@@ -59,17 +59,13 @@ A simple rule of thumb is that if you’d copy and paste the same prompt twice, 
 
 ## Create a skill from your Library
 
-1. Go to `Library` in your sidebar and open the `Skills` tab.
+1. Go to `Library` in your sidebar and open the `Skills` tab. You can also get to the `Skills` tab via `Settings` → `Notion AI` → `Skills`, which will take you directly to the `Library`.
 
-2. Select `+ Add a skill`.
+2. Select `New skill`.
 
 3. Create a new skill page.
 
-Your Library can have several tabs, so the `Skills` tab may not be the first one you see. You can also get there from:
-
-* `Settings` → `Notion AI` → `Skills`.
-
-* In Notion Agent chat, type `/` to see your skills. Then, select `See all skills in Library`.
+Your Library can have several tabs, so the `Skills` tab may not be the first one you see. You can also get there from Notion Agent chat by typing `/` to see your skills. Then, select `See all skills in Library`.
 
 ## Create a skill from an existing page
 
@@ -151,11 +147,17 @@ Creating it in a teamspace means your team can reach it right away, so you don't
 
 ## Turn an existing database into a skills database
 
-1. Open the database and select `•••` → `More settings`.
+1. Open the database.
 
-2. Select `Turn into Skills database`.
+2. In the view toolbar, open settings (slider icon).
 
-This adds `Description`, `Files`, and `Tags` properties to the database. From then on, every page created in it becomes a skill. This works best when the pages in the database already explain how a task should be done, like a set of playbooks or how-tos.
+3. In the settings panel, select `More settings` → `Turn into`.
+
+4. Select `Turn into Skills database`.
+
+5. You'll see a setup dialog. Choose which existing properties to map to `Description`, `Files`, and `Tags` — or keep the defaults to create new ones. To also enable existing pages as skills right away, check `Enable skills for me`.
+
+From then on, every page created in the database becomes a skill. This works best when the pages in the database already explain how a task should be done, like a set of playbooks or how-tos.
 
 ## Move a page into a skills database
 

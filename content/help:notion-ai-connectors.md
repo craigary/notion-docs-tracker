@@ -21,11 +21,11 @@ For some apps, your Notion Agent can also take action, not just search. For exam
 
 Notion AI Connectors are available for the following apps:
 
-| **Chat**                                                                               | **Knowledge**                                                                                                            | **Projects**                                                         | **Email and calendars**                                                         | **Notion apps**                                                                                      |
-| -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
-| [Slack](https://www.notion.com/help/notion-ai-connectors-for-slack)                    | [Google Drive](https://www.notion.com/help/notion-ai-connectors-for-google-drive)                                        | [Jira](https://www.notion.com/help/jira-ai-connector)                | [Gmail](https://www.notion.com/help/notion-ai-connector-for-gmail)              | [Gmail AI Connector](https://www.notion.com/help/notion-mail-ai-connector) (available on all plans)  |
-| [Microsoft Teams](https://www.notion.com/help/notion-ai-connector-for-microsoft-teams) | [Microsoft SharePoint & OneDrive](https://www.notion.com/help/notion-ai-connector-for-microsoft-sharepoint-and-onedrive) | [GitHub](https://www.notion.com/help/notion-ai-connector-for-github) | [Microsoft Outlook](https://www.notion.com/help/microsoft-outlook-ai-connector) | [Notion Calendar](https://www.notion.com/help/notion-calendar-ai-connector) (available on all plans) |
-|                                                                                        |                                                                                                                          | [Linear](https://www.notion.com/help/notion-ai-connector-for-linear) | [Google Calendar](https://www.notion.com/help/google-calendar-ai-connector)     |                                                                                                      |
+| **Chat**                                                                               | **Knowledge**                                                                                                            | **Projects**                                                         | **Email & calendars**                                                           |
+| -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
+| [Slack](https://www.notion.com/help/notion-ai-connectors-for-slack)                    | [Google Drive](https://www.notion.com/help/notion-ai-connectors-for-google-drive)                                        | [Jira](https://www.notion.com/help/jira-ai-connector) (beta)         | [Gmail](https://www.notion.com/help/notion-ai-connector-for-gmail)              |
+| [Microsoft Teams](https://www.notion.com/help/notion-ai-connector-for-microsoft-teams) | [Microsoft SharePoint & OneDrive](https://www.notion.com/help/notion-ai-connector-for-microsoft-sharepoint-and-onedrive) | [GitHub](https://www.notion.com/help/notion-ai-connector-for-github) | [Microsoft Outlook](https://www.notion.com/help/microsoft-outlook-ai-connector) |
+|                                                                                        |                                                                                                                          | [Linear](https://www.notion.com/help/notion-ai-connector-for-linear) | [Google Calendar](https://www.notion.com/help/google-calendar-ai-connector)     |
 
 You can search your connected apps via Notion AI Connectors in the following places:
 
@@ -41,7 +41,7 @@ You can search your connected apps via Notion AI Connectors in the following pla
 
 * To set up a Notion AI connector, you need to be the owner of your Notion workspace. You’ll also need to have admin rights in the app that you’re trying to connect.
 
-* Depending on how much content is in your connected app, it can take up to 72 hours for Notion AI connectors to ingest.
+* Depending on how much content is in your connected app, it can take <!-- -->up to 36 hours <!-- -->for Notion AI connectors to ingest.
 
 Go to `Settings` → `Notion AI` to manage all of your Notion AI Connectors in one place. From here, you can:
 

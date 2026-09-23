@@ -1,5 +1,5 @@
 ---
-title: "Personal Gmail AI Connector  (beta)"
+title: "Personal Gmail AI Connector"
 emoji: null
 description: "Learn how to connect your personal Gmail to Notion AI on any Notion plan."
 url: "https://www.notion.com/help/notion-mail-ai-connector"
@@ -8,10 +8,6 @@ coverImage: null
 category: "Notion AI Connectors"
 categoryKey: "category:notion-ai-connectors"
 ---
-
-**Note:**
-
-* The personal Gmail AI Connector is currently in beta and subject to the beta terms of your agreement
 
 This article covers the personal Gmail connector for individual Notion users connecting their own inbox. No admin access needed, and it works on any plan.
 
@@ -27,7 +23,7 @@ The Gmail account you connect must match the email address you use for your Noti
 
 3. In the window that appears, select `Start connection`.
 
-Notion AI will be able to search and answer questions related to your emails in Notion Mail.
+Notion AI will be able to search and answer questions related to your emails.
 
 
 ## FAQs
@@ -59,7 +55,7 @@ Once the integration is set up, search will be available right away. It can sear
 
 ### How long does it take for Notion AI to read new emails?
 
-New emails may take up to 3 hours to be indexed by Notion AI before they appear in search results. Larger data volumes may take additional time.
+Your emails are available to search as soon as you connect. Notion AI retrieves them in real time when you ask a question. <!-- -->Larger data volumes may take additional time.
 
 
 ### Can I limit the scope of my search to only this connector?

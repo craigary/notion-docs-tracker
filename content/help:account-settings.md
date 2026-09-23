@@ -235,8 +235,6 @@ If you’re using Notion’s desktop app, you can manage settings for the app by
 
 * If you want any links to Notion pages to open in your web browser instead of the desktop app, toggle on `Open Notion links in browser`. You’ll need to go to Notion in your browser and ensure that `Open links in desktop app` is turned off in your settings.
 
-* If you set up links to open in the desktop app, your browser will open a new tab automatically redirect you to the desktop app every time you click on a link to a Notion page. To have these tabs automatically closed once you’re redirected to the desktop app, toggle on `Close redirecting browser tabs`.
-
 ## View history
 
 If you don’t want your account to be recorded in page analytics, you can opt out altogether or for specific pages.

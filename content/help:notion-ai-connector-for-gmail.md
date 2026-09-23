@@ -23,7 +23,9 @@ categoryKey: "category:notion-ai-connectors"
 
 **How do I connect Gmail?**
 
-1. In Notion, navigate to the Gmail AI Connector by going to `Settings` → `Notion AI` → `Gmail` in the AI Connectors section.
+1. In Notion, navigate to the Gmail AI Connector by going to `Settings` → `Notion AI`, <!-- -->then click the
+
+   `AI connectors` tab. Select `Gmail`.
 
 2. Click on `Gmail` and follow the instructions in Notion to start the connection. We recommend keeping Notion open during this process.
 
