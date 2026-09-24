@@ -113,6 +113,8 @@ Learn more about archiving content → [Archive pages](https://www.notion.com/he
 
 **Note:** A new version of a particular page will be recorded every 10 minutes as you actively edit it. Two minutes after you’ve made your last edit on a page, we will record another version.
 
+Version history gives more detail about what changed on a page or database. You can review highlighted changes, see clear info about who made each change, and preview what will be affected before you restore an earlier version.
+
 If you're on an Enterprise Plan, you can view the history of all changes made to a page, including who made those changes and when.
 
 If you're not on the Enterprise Plan, a more limited history of changes made to a page is available.**&#x20;**&#x59;ou can view and restore past versions of any Notion page going back:
@@ -139,9 +141,9 @@ To access version history for a page, you will need at least `Can edit` access.
 
    * Click on any past version to see what the page looked like at that point in time.
 
-You can also see this information by clicking `🕘` at the top of any Notion page. You'll see a dropdown menu of all revisions and comments made on the current page by yourself and others. Click the `🕓` next to any revision to jump to that version in a new window.
+When you open version history, you can select a version and see the highlights of what changed. This makes it easier to review edits without manually comparing two versions side by side. Y<!-- -->ou can also edit how changes are grouped.
 
-When you open version history, you can select a version and see the highlights of what changed. This makes it easier to review edits without manually comparing two versions side by side. You’ll see changes like:
+In version history, y<!-- -->ou’ll see changes like:
 
 * Text edits (what was added, removed, or changed).
 
@@ -159,9 +161,9 @@ When you open version history, you can select a version and see the highlights o
 
 * To recover only specific content blocks from a previous version, click on a certain version of a page, copy those blocks, and paste them into your current page.
 
-* You can also restore a past version of a page so it becomes your current one. Open the desired version and click `Restore`.
+* You can also restore a past version of a page so it becomes your current one. Open the desired version and click `Restore`. <!-- -->You can also bookmark a version and name it.
 
-* Even if you or someone on your team restores a past version, you can always go back to the page as it was during any point in the past 30 days. Just open `Version history` again, choose the version you want to return to, and restore it.
+* Even if you or someone on your team restores a past version, you can always go back to the page as it was. Open `Version history` again, choose the version you want to return to, and restore it. You can also <!-- -->share a version of a page or a database by sending the URL.
 
 * If you’re restoring a database, all of its pages and their properties will be restored. However, any contents of the database pages, like text inside of the pages, won’t be restored. To restore database page contents, you’ll have to restore an earlier version of every individual page.
 
@@ -208,16 +210,9 @@ To restore a property, click the arrow. To permanently delete a property, click 
 
 ## FAQs
 
-### I tried duplicating some blocks, but got a Please try again later error.
-
-This error means that you've hit our duplication rate limit — right now you can only duplicate 20,000 blocks per hour. Our apologies for the incovenience!
-
-If you wait a bit, you'll be able to duplicate the content then 👍
-
-
 ### What if I accidentally deleted something permanently? Any way to get it back?
 
-If you accidentally delete a page, a workspace, or even your entire account, we can help! Accidents happen 😅 Just send us a message in the app by clicking `?` at the bottom of your sidebar, or email us at email protected.
+If you accidentally delete a page, a workspace, or even your entire account, we can help! Send us a message in the app by clicking `?` at the bottom of your sidebar, or email us at email protected.
 
 We keep backups of our database, which allows us to restore a snapshot of your content in the past 30 days if you need it.
 
@@ -231,4 +226,6 @@ Enterprise plan workspace owners may customize these settings. [Learn more here 
 
 ### Can I use page history to restore a version that's over 30 days old?
 
-You can if you're on a [Business or Enterprise Plan](https://www.notion.com/pricing)! [Contact sales to learn more→](https://notionup.typeform.com/to/FbZ6Tk)
+You can if you're on a [Business or Enterprise Plan](https://www.notion.com/pricing). [Contact sales to learn more→](https://notionup.typeform.com/to/FbZ6Tk)
+
+Before you restore a version, Notion shows a preview so you can better understand what will change. This is especially helpful for pages with databases or nested content.
