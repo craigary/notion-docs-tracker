@@ -10,8 +10,8 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/7JgyCPsBNZ2eHCGc51sf6p/6f
 2 help:run-custom-code-with-workers
 3 help:use-notion-from-your-terminal-with-notion-cli
 4 help:understand-pricing-for-workers
-5 help:share-a-worker
-6 help:turn-on-developer-mode-to-use-developer-tools-in-notion
+5 help:turn-on-developer-mode-to-use-developer-tools-in-notion
+6 help:share-a-worker
 
 ## Video
 
