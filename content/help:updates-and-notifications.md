@@ -111,4 +111,6 @@ If your database has a person property, you can notify people mentioned in that 
 
 **Note:** By default, only individual users will be notified in person properties to reduce the number of notifications sent to users in a group. If you want group members to be notified, make sure to turn this on following the steps above.
 
-**Tip:** Want to get Slack notifications when important updates happen in your Notion workspace? Learn how to set up Slack notifications [here →](https://www.notion.com/help/slack#get-notifications-in-slack)
+**Tip:** Want to get Slack notifications when important updates happen in your Notion workspace? Learn [how to set up Slack notifications →](https://www.notion.com/help/slack#get-notifications-in-slack)
+
+You can also get these notifications in Microsoft Teams. Learn about[ Notion notifications in Microsoft Teams →](https://www.notion.com/help/microsoft-teams-notifications)

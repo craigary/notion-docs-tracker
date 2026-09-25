@@ -11,6 +11,8 @@ categoryKey: "category:notion-ai-connectors"
 
 The Microsoft Teams AI Connector transforms collaboration by integrating AI into your daily workflow. This powerful tool lets you track project updates, search team discussions, access admin communications, and get automatic meeting summaries—all from within Teams.
 
+Looking to get your Notion notifications in Microsoft Teams? That's a different feature. See [Get Notion notifications in Microsoft Teams](https://www.notion.com/help/microsoft-teams-notifications).
+
 ## Connect Microsoft Teams to Notion AI
 
 **Who can connect Microsoft Teams to Notion AI?**
@@ -91,6 +93,11 @@ You could try prompting Notion AI with the following:
 
 
 ## FAQs
+
+### Is this the same as getting my Notion notifications in Teams?
+
+No. This connector lets Notion AI search your Microsoft Teams messages. If you want your Notion notifications delivered to Teams, see [Get Notion notifications in Microsoft Teams](https://www.notion.com/help/microsoft-teams-notifications).
+
 
 ### How long does the Microsoft Teams connection take to complete, and what message history can it access?
 

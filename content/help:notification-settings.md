@@ -51,13 +51,37 @@ Go to `Settings` → `Notifications` to adjust your settings for:
 
 * Slack notifications
 
+* Microsoft Teams notifications
+
 * Email notifications. You can receive notifications for activity in your workspace, page updates, and workspace digests.
 
 ![Notification settings - desktop](https://images.ctfassets.net/spoqsaf9291f/71WWbOFtx7DqLvC0slxGpk/6c27aaad2a4562e9933f23cd227dd5c8/Reference_Visuals_Group_125.png)
 
-**On mobile**, tap `•••` near the top of your home page → `Settings` → `My notifications`.
+**On mobile**, tap `•••` near the top of your home page → `Settings` → `My notifications`. <!-- -->You can manage Microsoft Teams notifications here too.
 
 ![Notification settings - mobile](https://images.ctfassets.net/spoqsaf9291f/6oYlA5GJlSeirspGiu125l/907a6cba2499942ddf2c2a4e9c095e8a/Notifications_settings_mobile.png)
+
+### Connect Microsoft Teams
+
+You can send your Notion notifications to Microsoft Teams. A Notion bot will message you in Teams when there is activity you follow.
+
+1. Go to the workspace switcher → `Settings` → `Notifications` → `Connected apps`.
+
+2. Find `Microsoft Teams` and select `Connect`.
+
+3. Approve the connection in your browser.
+
+4. In Microsoft Teams, open the Notion bot and type the 6-digit code shown in Notion.
+
+5. Once the code is accepted, you're connected.
+
+You can also connect from the Notion mobile app. For the full walkthrough, see [Get Notion notifications in Microsoft Teams](https://www.notion.com/help/microsoft-teams-notifications).
+
+### Turn Microsoft Teams notifications off
+
+1. Go to `Settings` → `Notifications` → `Connected apps`.
+
+2. Select the dropdown next to `Microsoft Teams` and select `Off`.
 
 
 ## FAQs
