@@ -89,6 +89,8 @@ Many more Notion settings are available on desktop. We've slimmed these down for
 
 * Notifications options for email and mobile push.
 
+* Notification settings for connected apps.
+
 * The option to set, change, and remove a permanent password.
 
 * The option to change your app appearance.
