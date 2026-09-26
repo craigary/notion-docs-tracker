@@ -12,12 +12,12 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/fB3bs1S6denCTSAnrUsYx/f05
 4 help:hipaa
 5 help:data-access-consent
 6 help:delete-your-account
-7 help:change-your-language
-8 help:notion-faces
-9 help:secondary-emails
-10 help:passkeys
+7 help:notion-faces
+8 help:log-in-and-out
+9 help:passkeys
+10 help:secondary-emails
 11 help:manage-email-and-calendar-settings
-12 help:log-in-and-out
+12 help:change-your-language
 
 ## FAQ
 
