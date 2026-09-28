@@ -21,17 +21,21 @@ When you start transcribing in a Google Meet call, the extension:
 
 ## Before you start
 
-* The extension works with Google Meet in the Chrome browser on a computer. It doesn't work with other meeting tools or on phones and tablets.
+* The extension works with Google Meet in Chrome (version 127 or later) on a computer.<!-- --> It doesn't work with other meeting tools or on phones and tablets.
 
 * Only the person transcribing needs the extension. No one else in the call has to install anything.
 
 * You'll need access to [AI Meeting Notes](https://www.notion.com/help/ai-meeting-notes) in Notion.
+
+* Start a transcription from the latest version of the Notion desktop app or from Notion open in Chrome. To check the connection, select the Notion Meetings Add-on icon in your Chrome toolbar. The status should be `Connected`.
 
 ## Install the extension
 
 1. Open the Chrome Web Store and search for the Notion Meetings Add-on.
 
 2. Select `Add to Chrome`.
+
+3. If you already have a Google Meet call open, reload the page. You can also select `Reload` in the add-on's popup.
 
 **For admins:** Your IT team can install the extension automatically for everyone in your organization. That way, every transcribed meeting includes the pinned chat message and recording indicator.
 

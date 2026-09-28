@@ -101,6 +101,8 @@ In other meeting setups (like in-person conversations or group meetings), speake
 
 * Using Notion in a browser or on the mobile app.
 
+Using Google Meet in Chrome? Install the [Notion Meetings Add-on](https://www.notion.com/help/install-the-notion-meetings-add-on) browser extension to get speaker labels in your Google Meet calls, including group meetings (desktop only).
+
 You’ll also find citations to your transcript in your meeting notes summary. Hover over a citation to see the snippet of your transcript that’s been referenced. You can also click on a citation to jump to the corresponding line in your transcript.
 
 ## Change summary instructions
@@ -176,6 +178,8 @@ To help you request consent, you’ll have a few easy options:
   * You can change the voice by clicking the slider icon at the top of the meeting notes block and selecting different voices for different languages. Notion will automatically use your meeting's language to play the appropriate voice.
 
 * **Say it out loud**: A simple ask works too. For example, you could ask, “Alright if I record and transcribe this meeting using Notion AI Meeting Notes?”
+
+* **In Google Meet:** If you have the [Notion Meetings Add-on](https://www.notion.com/help/install-the-notion-meetings-add-on) browser extension, Notion automatically posts and pins a message in the Meet chat when you start transcribing, and shows a recording indicator over your camera. Everyone in the call, including people who join late, can see that the meeting is being transcribed.
 
 #### Automatic consent message option
 
