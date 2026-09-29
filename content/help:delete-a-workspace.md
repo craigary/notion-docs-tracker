@@ -21,7 +21,7 @@ Once a workspace is deleted:
 
 * You'll be returned to another workspace you belong to, or the sign up page for Notion if you don't belong to any others.
 
-Deleting a workspace **does not cancel a subscription.&#x20;**&#x54;o cancel your subscription, [downgrade your plan](https://www.notion.com/help/upgrade-or-downgrade-your-plan#downgrade-your-plan) before deleting.
+Deleting a workspace doesn't cancel a subscription immediately. It's canceled at the end of the billing period, and the subscription doesn't auto-renew.
 
 ## Delete a workspace
 
@@ -32,5 +32,3 @@ To delete a workspace:
 2. Under `Workspace`, select `General`.
 
 3. Scroll down to `Danger zone` and select `Delete entire workspace`. You'll be asked to type the name of your workspace to confirm you want to proceed.
-
-![hc: leave or delete workspace](https://images.ctfassets.net/spoqsaf9291f/3j6YMbMUhuIJrQR4G3y1rn/35b41a30f3aa532f7793d7c92b56a78e/Group_48.png)
