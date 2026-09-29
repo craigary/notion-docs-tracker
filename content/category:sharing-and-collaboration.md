@@ -15,8 +15,8 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/4ChxFzgUCcD4paR3D7rLSO/fe
 7 help:suggested-edits
 8 help:page-analytics
 9 help:intro-to-teamspaces
-10 help:people-profiles
-11 help:whos-who-in-a-workspace
+10 help:whos-who-in-a-workspace
+11 help:people-profiles
 12 help:people-directory
 13 help:create-and-manage-groups
 14 help:database-property-access
