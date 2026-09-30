@@ -21,8 +21,6 @@ Each person connects their own ChatGPT account. Before you connect, check that:
 
 * You have a ChatGPT Plus or Pro account.
 
-* Your ChatGPT account uses the same verified email address as your Notion account.
-
 * You’re using [Notion Agent](https://www.notion.com/help/notion-agent). This feature doesn’t work with [Custom Agents](https://www.notion.com/help/custom-agents).
 
 ## Connect your ChatGPT account to Notion Agent
@@ -55,7 +53,7 @@ After you connect your account, Notion Agent can use either your ChatGPT plan or
 
 * **Select a specific GPT model:** use your ChatGPT plan for the session.
 
-* **Select Auto&#x20;****or a non-GPT model****:** use your workspace’s [Notion credits](https://www.notion.com/help/category/notion-credits) for the session.
+* **Select Auto or a non-GPT model:** use your workspace’s [Notion credits](https://www.notion.com/help/category/notion-credits) for the session.
 
 The model picker shows which plan is in use before you send a message.
 
@@ -96,3 +94,23 @@ Make sure your workspace is on the Business or Enterprise plan, you're using [No
 ### Why did my session use my Notion plan instead of my ChatGPT plan?
 
 This can happen if you selected `Auto` or your ChatGPT usage ran out. In either case, [Notion Agent](https://www.notion.com/help/notion-agent) uses your workspace's Notion plan.
+
+
+### For requests processed using a ChatGPT plan, do Notion’s agreements with its AI subprocessors still apply, or do the personal ChatGPT plan’s terms and data settings apply?
+
+Notion’s agreements with its AI subprocessors still apply, including commitments that customer data is not used for training and applicable no-data-retention terms.
+
+
+### Are conversations that use a ChatGPT plan saved to or shown in ChatGPT chat history or memory?
+
+No. The ChatGPT connection is used only for billing and usage attribution.
+
+
+### Does Notion AI’s standard data-retention policy still apply?
+
+Yes. Notion AI’s data-retention policy applies, including no retention for Enterprise and 30-day retention otherwise.
+
+
+### Can workspace admins see which members have connected a ChatGPT plan?
+
+Admins can use audit logs to see connection and disconnection events. Usage volume is not available.

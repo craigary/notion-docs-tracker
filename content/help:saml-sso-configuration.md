@@ -91,6 +91,18 @@ To add a new SAML configuration:
 
 **Note**: If your organization already uses SAML SSO, that setup carries over as your first configuration. Your verified domains stay attached to it, and no one has to sign in again.
 
+### What signing in looks like
+
+What people see depends on how many configurations use their email domain.
+
+* **One configuration uses your domain**: you go directly to that identity provider.
+
+* **More than one configuration uses your domain**: you pick a provider from a list. Notion marks the one you used last.
+
+* **No configuration uses your domain**: you sign in the usual way, like with a code sent to your email.
+
+If a configuration is required for your domain, you go directly to that provider and don’t see the list, even if there are multiple SAML SSO options. Organization owners and workspace owners can still sign in with an email and password if a provider isn’t working.
+
 ## Enforce SAML SSO
 
 Once you have completed your configuration of SAML SSO for a workspace, members will be able to log in via SAML SSO in addition to other login methods, like username and password or Google authentication.
