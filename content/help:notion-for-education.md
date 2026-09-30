@@ -42,7 +42,9 @@ We'll remind you before your anniversary date. If you can no longer verify with 
 
 Before you upgrade, make sure of the following:
 
-* **You’re signed in with your education institution email.** Y<!-- -->our school email must be the main email on your Notion account. A school email added as an extra address won't count. <!-- -->If you’re using a personal email address with your Notion account, you can change it to your educational email address following the instructions [here →](https://www.notion.com/help/account-settings#account-security-settings)
+* **You’re signed in with your education institution email.** Your school email must be the main email on your Notion account. A school email added as an extra address won't count. If you’re using a personal email address with your Notion account, you can change it to your educational email address following the instructions [here →](https://www.notion.com/help/account-settings#account-security-settings)
+
+* **Your school email hasn't already claimed the offer.&#x20;**&#x45;ach school email can claim the student offer just once, for one workspace.
 
 * **You can verify your school email each year.** To stay on the Education Plan, your school email must stay active and remain the main email on your Notion account.
 
@@ -182,3 +184,14 @@ Yes. Your school email must be the main email on your Notion account. A school e
 ### I’m a student who loves Notion. How can I get more involved?
 
 Amazing! Thanks for being part of our community. The [Notion Campus Leaders Program](https://notion.notion.site/Notion-Campus-Leaders-Program-5817b00cbaa244bca9e0e498804cbab4?pvs=4) enables students around the world to share and teach Notion at their universities, while building strong Notion communities on campus. We encourage you to [attend an upcoming CL event](https://www.notion.com/notion/Notion-Campus-Leaders-Program-5817b00cbaa244bca9e0e498804cbab4?pvs=4#e736841f35fb47f0b408a47d7ea5fd1f) on your campus. Or, if you’re feeling extra passionate, you can [apply](https://www.notion.com/notion/Notion-Campus-Leaders-Program-5817b00cbaa244bca9e0e498804cbab4?pvs=4#e642b1878294419282aeb5c7ee9456ce) to become a Campus Leader yourself!
+
+
+### Can I claim the student offer more than once?
+
+No. Each school email can claim the student offer once, for one workspace. Here's what that means:
+
+* Your school email works for the student offer one time, on one workspace.
+
+* Once your school email has claimed the offer, you can't use it to claim the offer again on a new workspace. This is true even if you delete the first workspace you used it on.
+
+* If a workspace has already been on the Education Plan, you can't upgrade that same workspace to the Education Plan again.
