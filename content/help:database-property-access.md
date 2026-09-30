@@ -13,7 +13,7 @@ categoryKey: "category:sharing-and-collaboration"
 
 Page-level access lets you manage which database pages someone can open. Property access controls which columns users can see and change. For example, a team directory can show names and roles to everyone, while only your people team can see the salary column.
 
-You can also let a broad group view a column while only a few people can edit it. That works well for a `status` or `approval` column.
+You can also let a broad group view a column while only a few people can edit it. That works well for a `Status` or `Approval` column.
 
 ## Before you start
 
@@ -61,11 +61,11 @@ These are the default access levels that you set above for everyone who can open
 
 If you’re using a person property in your database - for example, you have a projects database with a `Project Owner` property - you can make the access level of other properties in the database dependent on the value of that person property.
 
-In the projects database example, you may have a `Cost` column with the cost of the project. You want each project owner to have access to view and edit the cost of their own project, but not to the cost of other projects in that database. You can do this by granting `Can edit values only` access to the `Project Owner` people property.
+In the projects database example, you may have a `Cost` column. You want each project owner to have access to view and edit the cost of their own project, but not the cost of other projects in that database. You can do this by granting `Can edit values only` access to the `Project Owner` people property.
 
 This won’t grant access to the full set of values for this property. If you want a project owner to have access to edit all values, you’d need to grant them additional permissions.
 
-**Note**: If access depends on a person column, or the page creator, those people may see the column name even though the values stay hidden.
+**Note**: If access depends on a person column, those people may see the column name even though the values stay hidden.
 
 ## How access rules interact
 
@@ -73,9 +73,9 @@ This won’t grant access to the full set of values for this property. If you wa
 
 * Property access is dependent on page access. A column rule never gives someone access to a database page that they can’t already open.
 
-* A view that filters, sorts, or groups by a column someone can’t see may not open for them. We recommend setting up views <!-- -->tailored to the intended audience's access level.
+* A view that filters, sorts, or groups by a column someone can’t see may not open for them. We recommend setting up views tailored to the intended audience's access level.
 
-* If a person matches with more than one exception, Notion <!-- -->gives them the least restrictive access level.
+* If a person matches with more than one exception, Notion gives them the least restrictive access level.
 
 * Notion respects the widest access a person has. If someone still sees a column you restricted, check the rest of the `Share` menu for broader access.
 
@@ -117,7 +117,7 @@ Check that your workspace is on a Business or Enterprise plan, that you have `Fu
 
 **Someone can still see a column I restricted.**
 
-First check whether that person has `Full access` to the database, since column rules never restrict them. Then review the page and database sharing settings, the column's default access, and each exception <!-- -->using the Preview feature<!-- -->. Notion always applies the widest access a person has.
+First check whether that person has `Full access` to the database, since column rules never restrict them. Then review the page and database sharing settings, the column's default access, and each exception using the Preview feature. Notion always applies the widest access a person has.
 
 **A view won't open for some people.**
 
