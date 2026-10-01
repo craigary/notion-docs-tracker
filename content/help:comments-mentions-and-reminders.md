@@ -151,6 +151,8 @@ When someone mentions you in a workspace, you'll see a red badge appear next to 
 
 2. Click on any of these mention notifications to go directly to the line, comment, discussion or database you've been mentioned in.
 
+In your inbox, @-mentions show up under the `Mentions` filter, so you can narrow your inbox to just mentions when you want to. @-mentions and comment replies always come through and can't be filtered off, so you won't miss them. [Learn about inbox filters →](https://www.notion.com/help/updates-and-notifications)
+
 **Note:** If you @-mention someone on a page that they don't have access to (like one of your private pages), they will not be notified.
 
 From your Inbox, you can also directly reply to a comment by clicking `Reply`. You can also resolve or re-open comments.

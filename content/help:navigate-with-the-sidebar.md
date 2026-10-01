@@ -33,7 +33,7 @@ In your sidebar, you'll see several features and menu options. Here's an overvie
 
 * **Meetings:&#x20;**&#x43;lick to see upcoming meetings and notes so you can quickly prep for a meeting, or review what happened after.
 
-* **Inbox:** Click to see all your notifications in one place. This menu combines revisions that were made on pages you have created, new mentions of you across your workspace, and new work assignments. A red notification badge will appear here when you have unread notifications.
+* **Inbox:** Click to see all your notifications in one place. This menu combines revisions that were made on pages you have created, new mentions of you across your workspace, and new work assignments. A red notification badge will appear here when you have unread notifications. You can also filter your inbox by notification type to show only the kinds you care about. [Learn more about inbox notifications →](https://www.notion.com/help/updates-and-notifications)
 
 * **Library:&#x20;**&#x43;lick to browse and manage all content across your workspace. [Learn more about Library here →](https://www.notion.com/help/manage-your-library)
 
@@ -93,7 +93,7 @@ Access meeting notes from previous meetings, sorted by recency. Click `•••
 
 View all your notifications in one place, including mentions, comments, page updates, and reminders. Click a notification to go directly to the source page.
 
-Icons at the top of your inbox can bulk take actions like Mark all as read, Archive all, Archive read, or apply filters to the notification list.
+Icons at the top of your inbox can bulk take actions like Mark all as read, Archive all, Archive read, or apply filters to the notification list. Filters include filtering by notification type, so your inbox shows only the kinds you care about.
 
 Click `•••` on the side of any notification to change page notification settings, mark a notification as read, or archive a notification.
 

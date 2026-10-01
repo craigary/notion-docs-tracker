@@ -43,6 +43,20 @@ You can interact with notifications in your inbox in several ways.
 
 * Filter your notifications by `Unread and read`, `Unread only`, `Archived`, or `All workspace updates`.
 
+* Filter your inbox by notification type. Each type covers a group of notifications:
+
+  * `Access`: page invites, access requests, and user invitations.
+
+  * `Discussions`: comments and reactions.
+
+  * `Mentions`: when someone @-mentions you.
+
+  * `Automations & runs`: updates about automation actions and agent runs.
+
+  * `Updates`: property changes and reminders.
+
+  * `Workspace`: things like verification reminders and workspace AI credits.
+
 * Mark notifications as read or unread.
 
 * Archive notifications.
@@ -52,6 +66,12 @@ You can interact with notifications in your inbox in several ways.
 * Collapse notifications by page by selecting `^` next to the page name.
 
 * Open and reply to comment threads.
+
+Your filter choices stick. The next time you open your inbox, it looks the way you left it.
+
+Filtering changes what your inbox shows. It doesn't turn your notifications off. @-mentions and comment replies still come through, even when they're filtered out of view.
+
+To see everything again, turn all the types back on. If you turn off every type, your inbox shows a short message instead of looking empty.
 
 ### Manage your inbox with Notion Agent
 
@@ -80,6 +100,8 @@ In the Notion mobile app, you’ll also be able to filter your notifications and
 * Long swipe to the left on a notification to archive it.
 
 * Long press a notification to react with an emoji, or take any of the actions mentioned above.
+
+**Note**: The notification type filter only works on web and desktop, and not on mobile.
 
 ## Notifications
 

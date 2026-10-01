@@ -1,7 +1,7 @@
 ---
-title: "Connect GitHub"
+title: "Connect GitHub to Notion"
 emoji: null
-description: "Connect Notion and GitHub so you can keep your workflows in sync."
+description: "Keep pull requests alongside your team’s project plans in Notion."
 url: "https://www.notion.com/help/github"
 key: "help:github"
 coverImage: null
@@ -9,142 +9,128 @@ category: "Connections"
 categoryKey: "category:connections"
 ---
 
-Notion's connection with GitHub allows you to seamlessly connect your development workflows. You can link GitHub content directly in Notion pages, pull GitHub information into Notion databases, and sync pull requests with Notion tasks to keep your team informed of project statuses. Read on to learn about the different features of the connection and how you can set them up.
+A managed GitHub sync creates a **GitHub Pull Requests** database from repositories you choose. Notion imports existing pull requests and checks GitHub for updates in the background.
 
-## Set up GitHub connection
+This guide covers **Database sync** in your GitHub connection settings. Synced properties are read-only. Make changes to pull requests in GitHub.
 
-**Note:** You can only connect one Notion workspace to a GitHub organization. If you’d like to connect a different Notion workspace to your GitHub organization, you’ll first have to [disconnect](https://www.notion.com/help/github#disconnect-github-from-notion) your current Notion workspace.
+**Note:** This GitHub integration replaces our [legacy version](https://www.notion.com/help/github-legacy). To keep your external data current, **set up your new syncs by October 30, 2026**. Your existing synced databases will remain in Notion, but they will stop updating after that date.
 
-You will need to be both a Notion workspace owner and a GitHub org admin to connect Notion and the GitHub workspace app.
+## What you can sync
 
-1. Go to `Settings` in the sidebar → `Connections.`
+You can sync pull requests from multiple repositories available through a GitHub App installation. The selected repositories feed into one Notion database.
 
-2. Find `GitHub (Workspace)`.
+| Information  | Properties                                                             |
+| ------------ | ---------------------------------------------------------------------- |
+| Pull request | Title, PR Number, GitHub URL, Repository                               |
+| State        | State: Open, Draft, Merged, or Closed                                  |
+| Author       | Author (GitHub), and Author when a matching Notion member can be found |
+| Organization | Labels, Base Branch, Head Branch                                       |
+| Dates        | Created At, Updated At, Closed At, Merged At                           |
 
-3. Click `Connect` and go through the authentication flow.
+The **Author (GitHub)** property contains the GitHub username. **Author** is a Notion person property when the author’s available public email matches a workspace member.
 
-## Create GitHub code previews
+The **Description** property syncs the pull request’s description as plain text, copied exactly as written in GitHub. It isn’t rendered as Markdown.
 
-Link to a file or specific lines from a file directly in Notion. You can even link from a specific commit or branch if you want the code you’re referencing to be up-to-date.
+This sync doesn’t include GitHub issues, comments, assignees, or review details.
 
-1. Copy the [permalink](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-a-permanent-link-to-a-code-snippet#linking-to-code) for your desired lines from GitHub.
+## Before you start
 
-2. Paste it into a Notion page and select `Paste as preview` to embed the code into your page.
+You’ll need:
 
-## Create a synced database
+* Membership in the Notion workspace.
 
-You can sync your GitHub repositories (including pull requests and issues) into Notion as databases. To do this:
+* A GitHub account with access to the repositories you want to sync.
 
-1. In GitHub, copy the link to a PR or issue.
+* A GitHub App installation with access to those repositories.
 
-2. Paste the link into Notion and select `Paste as database`.
+* A Business plan (Mobile Business also qualifies). GitHub sync isn’t available on other plans.
 
-   * If you haven't already, you will be prompted to sign in and connect Notion with your GitHub account.
+Both your GitHub account and the app installation need access. Your GitHub organization may require an owner to approve or install the app.
 
-3. The synced database will be created in a [table view](https://www.notion.com/help/tables), with all GitHub properties automatically added.
+## Create a GitHub sync
 
-4. The database will begin populating automatically and will continue to sync if you navigate away from the page.
+1. In Notion, go to **Settings** → **Connections** → **GitHub**.
 
-### Supported GitHub properties
+2. Open **Database sync** and connect your GitHub account if you haven’t already.
 
-Here is a list of GitHub properties that we support:
+3. Complete GitHub’s authorization and installation steps.
 
-|                    |                                  |
-| ------------------ | -------------------------------- |
-| Title              | Assignees                        |
-| Description        | State                            |
-| PR or Issue number | Creator                          |
-| Created time       | Merged, updated, and closed time |
-| Reviewers          |                                  |
+4. Choose the organization or account whose repositories you want to sync. Use **Add organization…** if you need to add another installation.
 
-Labels and tags aren’t supported at this time.
+5. Select the repositories to include.
 
-### People properties
+6. Choose all available history or a history window.
 
-You can use identity mapping to connect GitHub identities to your team's Notion profiles. To do this:
+7. Select **Create sync**.
 
-1. Navigate to your [GitHub email settings](https://github.com/settings/emails) and ensure that the `Keep my email addresses private` setting is **not** checked on.
+Notion creates **GitHub Pull Requests** in your **Private** sidebar section and starts importing matching pull requests.
 
-2. In your GitHub profile (`https://github.com/{YOUR_USERNAME_HERE}`), edit your profile to add your Notion email address.
+**Tip:&#x20;**&#x41; repository is missing? Use **Manage access on GitHub** to check which repositories the app can access. If installation requires approval, ask a GitHub organization owner to approve it.
 
-This enables your identity to be mapped to synced databases in workspaces you are a member of.
+## How GitHub syncs run
 
-## Link GitHub PRs to Notion
+During the first import, Notion reads pull requests from each selected repository, starting with the most recently updated records and working through the selected history.
 
-To link PRs from GitHub to a Notion, you'll need a prefixed unique ID property in your database.
+After the import, Notion regularly checks each repository for new and updated pull requests. Changes such as a new label, a closed pull request, or a merge update the corresponding properties in Notion.
 
-[Learn more about unique IDs here](https://www.notion.com/help/unique-id)!
+The sync runs even when you close Notion. Large repositories, GitHub request limits, and temporary service issues can delay updates. Check the sync’s status for progress or errors.
 
-The GitHub Pull Request property inside your Notion database will automatically keep your cross-functional teams informed of task statuses. It also has many attributes that you can use in rollups, formulas, and filters.
+## Choose how much history to sync
 
-1. In a Notion database, click `+` to add a new property.
+Choose **All history**, **Last 30 days**, **Last 90 days**, or **Last 365 days**. When all-history syncing is offered as a toggle, leave **Sync all available history** on to include all available pull requests.
 
-2. Search for and click `GitHub Pull Requests` to add this property to your database.
+The window uses the pull request’s **Updated At** time. It doesn’t depend on when the pull request was created or whether it’s open, closed, or merged.
 
-   * If you don't see the GitHub Pull Requests properties list, go to `Settings` → `More Settings` → `Connections` → Add `GitHub Pull Request`.
+For example, an open pull request that hasn’t changed in more than 90 days can fall outside a 90-day window.
 
-3. Make sure your database has a [Unique ID property](https://www.notion.com/help/unique-id). This property will be added to your database if it doesn’t already have one.
+**Tip: Older pages can be removed.** When a pull request falls outside the selected window, its page is removed from the synced database, including values in your own Notion properties. Use all available history if you need to retain unchanged pull requests.
 
-4. To use the GitHub Pull Request property, make sure you’ve connected your GitHub account with Notion. Then, either add the Unique ID of the Notion task to the pull request, or paste the GitHub pull request URL into the property.
+## Change or pause a sync
 
-By default, Notion enables backlinks on Notion tasks to GitHub. If you want to turn this off, click on the GitHub Pull Request property in your database → `Edit property`. Toggle off `Linkbacks in GitHub`.
+Open the sync in **Settings** → **Connections** → **GitHub** → **Database sync**.
 
-### Automate task status updates
+* **Add repositories:** Edit the selection and select **Save changes**. Notion imports matching pull requests from the added repositories.
 
-You can use the GitHub Pull Requests property to automatically update the status of your tasks in Notion.
+* **Remove repositories:** Deselect them and save. Their synced pull request pages are removed from Notion.
 
-1. Select the title of your `GitHub Pull Requests` property and click `Edit property`.
+* **Change history:** A longer window imports additional records. A shorter window removes records outside the new window.
 
-2. Find the `Auto-update` section and select the status property you want to update from the drop down menu.
+* **Pause updates:** Select **Pause sync**. The existing data and settings remain.
 
-3. Select the task status to be set when the GitHub PR is Opened, Review Requested, Approved, and Merged.
+* **Resume updates:** Select **Resume sync** to continue syncing.
 
-4. Now when the PR progresses in GitHub, your task status in Notion will be updated automatically based on your settings.
+Before removing repositories or shortening history, preserve any Notion-only information you need from the affected pages.
 
-You can also show GitHub activity in the linked Notion task. To do this, click on the GitHub property in your database → `Edit property`. Turn on `Activity Comments`.
+## Work with pull requests in Notion
 
-![GitHub Auto-update status](https://images.ctfassets.net/spoqsaf9291f/lt0UE8MLZvMcGZDXCIhwi/eea3c6bdb042c5fce199a06b77438e39/notion_github_marketplace_3.png)
+Create views by repository, state, author, or label. Add your own properties to track release readiness or connect pull requests with your team’s planning process. Your own property values stay in Notion.
 
-### Use magic words to link GitHub PRs to Notion tasks
+To change a GitHub property, open the pull request using **GitHub URL** and make the change in GitHub.
 
-If you want to link a GitHub PR to one or more Notion tasks, simply enter a magic word and the Notion tasks’ [unique ID](https://www.notion.com/help/unique-id) in your PR’s description.
+The database starts as private. If you share it, Notion’s sharing settings determine who can see the imported data. Viewers don’t each need access to the source repository, so review the database’s permissions before sharing private repository information.
 
-Magic words are key words that help establish relationships between Notion tasks and GitHub PRs. You can use any of the following words:
+## Troubleshoot a GitHub sync
 
-* close, closes, closed
+### I can’t find an organization or repository
 
-* fix, fixes, fixed
+Check that you’ve selected the correct GitHub account and app installation. Confirm that both your account and the app have repository access. If an organization restricts app installations, ask an owner to approve access.
 
-* resolve, resolves, resolved
+### A repository was renamed or moved
 
-* complete, completes, completed, completing
+Open the sync’s repository settings, review the repository selection, and save it again. If it moved to a different organization, confirm that the connection has access in the new location.
 
-* ref, references
+### The Author property is empty
 
-* part of
+A GitHub username doesn’t always have an available public email that matches a Notion workspace member. Use **Author (GitHub)** to identify the author when the person property is empty. Changes to an author’s email or workspace membership may not refresh older synced pull requests automatically.
 
-* related to
+### A pull request is missing
 
-* contributes to
+Confirm that its repository is selected, that its last update is within the history window, and that your Notion view isn’t filtering it out. The first import may still be running.
 
-* towards
+### The database has stopped updating
 
-For example, your PR could have the description “fixes CTT-13”. Once that description is set, your Notion task with the ID CTT-13 will be linked with that PR.
+Open the sync’s status details. Reconnect your GitHub account or restore repository access if prompted. GitHub request limits and temporary outages can delay updates while Notion retries.
 
-If your PR description uses magic words associated with closing or finishing a task, the Notion task will be marked as done when the PR is merged.
+## Related guides
 
-If your PR description uses magic words associated with referring to or relating to a task, the Notion task will not be marked as done when the PR is merged.
-
-You can link Notion tasks as reference-only, so that those tasks won’t be marked as done.
-
-## Disconnect GitHub from Notion
-
-To disconnect GitHub from Notion, you’ll need to be a Notion workspace owner.
-
-1. Go to `Settings`.
-
-2. Select `Connections`.
-
-3. Next to GitHub, select `•••` → `Disconnect all users`.
-
-When you disconnect GitHub from Notion, nobody in your workspace will be able to use the connection until it’s set up again.
+For a comparison with Workers and shared troubleshooting guidance, see [Sync data from other tools to Notion →](https://www.notion.com/help/sync-data-from-other-tools-to-notion)

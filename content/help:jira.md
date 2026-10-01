@@ -1,7 +1,7 @@
 ---
-title: "Connect Jira"
+title: "Connect Jira to Notion"
 emoji: null
-description: "Connect Jira with Notion for a seamless experience that keeps you and your team up to date."
+description: "Bring Jira spaces and work items into Notion so your team can track delivery alongside project plans and documentation."
 url: "https://www.notion.com/help/jira"
 key: "help:jira"
 coverImage: null
@@ -9,267 +9,144 @@ category: "Connections"
 categoryKey: "category:connections"
 ---
 
-Notion’s connection with Jira allows you to do a few different things. You can insert Jira links into Notion pages to quickly access or preview them, or you can sync your Jira projects and work items to Notion databases so you can track all of your work in one place. Read on to learn about the different forms of the connection and how you can set them up.
+A managed Jira sync creates connected databases for your selected Jira Cloud spaces and their work items. Notion imports the data and checks Jira for updates in the background.
 
-## Types of Jira connections
+This guide covers **Database sync** in your Jira connection settings. Synced properties are read-only in Notion. Make changes to work items in Jira.
 
-Notion offers two Jira connections: **Jira** and **Jira Sync**. Think of them as the lightweight and full-featured options.
+**Note:&#x20;**&#x54;his Jira integration replaces our [legacy version](https://www.notion.com/help/jira-legacy). To keep your external data current, **set up your new syncs by October 30**. Your existing synced databases will remain in Notion, but they will stop updating after that date.
 
-If you only need to sync a single Jira project with a Notion database once and don’t plan to set up additional syncs, Jira link previews, link mentions, and the **legacy synced database** through the Jira connection might be enough. Just keep in mind: it uses user tokens, which tend to be less reliable than the admin tokens used by Jira Sync.
+## What you can sync
 
-For ongoing, flexible syncing across multiple projects and databases, **Jira Sync** is the newer, more powerful option. Just note: it requires a Jira admin to set up.
+A Jira sync creates two databases:
 
-**Note:** There’s no one-click migration from the legacy Jira connection to Jira Sync. They are separate connections, so setting up the new Jira Sync will require a full reinstallation.
+* **Jira Spaces:** The selected spaces, with their name, key, type, visibility, Jira URL, and related work items.
 
-|                     | **Jira**                                                     | **Jira Sync**                          |
-| ------------------- | ------------------------------------------------------------ | -------------------------------------- |
-| **Used for**        | • Link previews • Link mentions • \[Legacy] Synced databases | • \[New and improved] Synced databases |
-| **Setup**           | Individual user connection                                   | Workspace owner and Jira admin         |
-| **Where to set up** | `Settings` → `Connections`                                   | `Settings` → `Import`                  |
+* **Jira Work Items:** Work items from those spaces, with the supported standard and custom properties you choose.
 
-### Update legacy synced databases
+| **Work item information** | **Properties**                   |
+| ------------------------- | -------------------------------- |
+| Identity                  | Summary, Key, Jira URL           |
+| Progress                  | Status, Work Type, Priority      |
+| People                    | Assignee, Reporter               |
+| Organization              | Labels, Space, Parent, Sub-items |
+| Dates                     | Created, Updated, Due Date       |
 
-Legacy synced databases look something like this. If you do have a legacy synced database, you can follow [the steps above](https://www.notion.com/help/jira#synced-databases) to recreate your projects and issues databases in Notion using the new and improved Jira Sync.
+Assignee and Reporter currently sync as real Notion person properties (matched by name to workspace members). Each has a companion read-only text property: `Assignee (Jira)` and `Reporter (Jira)`. These properties hold the raw Jira display name as a fallback.
 
-![hc: legacy jira db](https://images.ctfassets.net/spoqsaf9291f/3HkgTALiMjEVC3iwuZWAMB/c7f10b182cb2f4ce57c55f92b54ec794/Group_93.png)
+Relations connect work items to their spaces and connect parent work items to sub-items when the related records are available in the sync. A related work item outside your selection or history window may not appear in the relation.
 
-### Create link previews
+Each synced Jira work item becomes a page in your Jira Work Items database. Its Jira description appears in the page body. Comments and attachments aren’t currently synced.
 
-**Note:&#x20;**&#x4C;ink previews work with all Jira Software deployment models (Jira Cloud, Jira Data Center, and Jira Server).
+## Before you start
 
-**To preview links from Jira:**
+You’ll need to be a member of the Notion workspace, plus access to the Jira Cloud site and spaces you want to sync.
 
-1. Go to `Settings` → `Connections`.
+The connected Jira account must be able to read the selected spaces and work items. Your Jira organization may require an administrator to approve the connection or grant access.
 
-2. If you’re using Jira Cloud, find the `Jira` tile. If you're using Jira Data Center or Jira Server, find the `Jira preview (Data center)` tile. You might have to scroll down a little to find the data center tile. Then, select `Connect` underneath the tile.
+Managed Jira syncs support Jira Cloud. Jira Server and Jira Data Center aren’t supported by this setup flow.
 
-3. In the window that appears, select your Jira version. Then, enter your site URL, username, and password and select `Authenticate`.
+Managed Jira syncs require a Notion Business or Enterprise plan (or the mobile Business entitlement). Workspaces on a lower plan can still connect and manage Jira accounts, but creating or resuming a sync is blocked until the workspace upgrades.
 
-Once you’ve authenticated successfully, you’ll see `Jira` or `Jira preview (Data center)` at the top of your connections list. Any Jira link pasted into Notion should automatically appear as a link preview.
+## Create a Jira sync
 
-**Alternatively, you can set up link previews directly from a Notion page. To do this:**
+1. In Notion, go to **Settings** → **Connections** → **Jira**.
 
-1. In a Notion page, paste a Jira URL.
+2. Open **Database sync** and connect your Jira account.
 
-2. In the window that appears, select your Jira version if prompted. Enter your site URL, username, and password and select `Authenticate`.
+3. Complete Jira’s authorization steps and choose the connected Jira site.
 
-### Create link mentions
+4. Select the spaces to sync.
 
-**Note:** Link mentions work with all Jira Cloud products.
+5. Choose which custom properties to include.
 
-1. Paste a Jira link into Notion.
+6. Choose all available work items or a history window.
 
-2. Select Mention in the menu that appears to easily reference a project or issue in your documents.
+7. Select **Create sync**.
 
-   * If you haven’t already connected Jira with Notion, you’ll be prompted to when you paste your Jira link into Notion. Learn more about link mentions in [this article →](https://www.notion.com/help/embed-and-connect-other-apps#link-mentions)
+Limits apply to the number of spaces included in each sync and the number of database syncs created by each user and workspace.
 
-## Jira Sync
+Notion creates **Jira Spaces** and **Jira Work Items** in your **Private** sidebar section and starts the first import.
 
-**The Jira Sync connection connects your Jira projects to Notion using an Admin API token (rather than a user token), providing a more consistent and centralized syncing experience.**
+This connection uses account authorization. You don’t need to set up a Jira webhook for managed database sync.
 
-To ensure reliable syncing, we recommend creating a scopeless token by selecting `Create API token`, not `Create API token with scopes`**.**
+## Choose custom properties
 
-Now you can take full advantage of Notion's features including [automations](https://www.notion.com/help/database-automations), [rollups](https://www.notion.com/help/relations-and-rollups), and [Notion AI](https://www.notion.com/help/notion-ai-faqs). Use Notion AI to quickly answer questions about your Jira projects.
+You can select custom properties for the spaces you’ve chosen, or turn on **Sync all current and future custom properties**.
 
-Jira Sync displays your Jira projects and work items as Notion projects and work items databases. This setup allows you to see and track multiple projects using a variety of helpful [views, filters, and sorts](https://www.notion.com/help/views-filters-and-sorts).
+* **Choose specific properties:** Open **Custom properties** for a space, search for the properties you need, and select them. You can use **Select all current** or **Deselect all** to change the current selection.
 
-You can even use identity mapping to connect Jira identities to Notion profiles so that you can see who’s responsible for what in synced Notion databases.
+* **Include future properties:** Turn on **Sync all current and future custom properties** to include supported properties now and when they’re added later. This setting applies across the selected spaces.
 
-On Notion’s **Enterprise Plan**, Jira Sync supports two-way sync, respecting both Notion and Jira permissions for secure access and editing. Through Jira Sync, you can take full advantage of Notion's features including [relations and rollups](https://www.notion.com/help/relations-and-rollups), Notion-only database properties, and [Notion AI](https://www.notion.com/help/notion-ai-faqs). Use Notion AI to quickly answer questions about your Jira projects.
+A custom property shared by several Jira spaces uses the same underlying field. Selecting it in one space also includes it where that field is shared across other selected spaces.
 
-The Jira Sync connection connects your Jira projects to Notion using an Admin API token (rather than a user token), providing a more consistent and centralized syncing experience. To ensure reliable syncing, we recommend creating a scopeless token by selecting `Create API token`, not `Create API token with scopes`.
+Notion uses a compatible property type where possible. For example, numbers become number properties, single-choice fields become select properties, and supported multiple-choice fields become multi-select properties. Other supported values may appear as text. If custom properties have the same name, Notion may add a field identifier to distinguish them.
 
-**Note:**
+Newly discovered properties can appear before their values are populated on existing pages. An older work item may need to change in Jira or be imported again before its new property values appear.
 
-* A workspace owner must set up Jira Sync first using a Jira Admin token. After that, any member can utilize the connection.
+## How Jira syncs run
 
-* You can create a Jira service account to set up Jira Sync — just make sure the service account has access to any projects you want to sync into Notion beforehand.
+Notion first imports work items from each selected space within your history window. It then regularly checks Jira for new and updated work items.
 
-* Synced databases work with Jira Cloud products (Jira Software, Jira Product Discovery, Jira Work Management, and Jira Service Management), with support for Jira Server coming soon!
+Changes to supported fields, such as status, priority, assignee, or labels, update the corresponding Notion properties. Notion also periodically checks for changes to the available custom properties.
 
-### Set up Jira Sync
+The sync continues when you close Notion. The first import, Jira request limits, and temporary service issues can delay updates. Check the sync’s status for progress or errors.
 
-**Note:** If you’ve already set up a Jira Sync and you’re on Notion’s **Enterprise Plan**, you can update your Jira synced database to the new two-way sync functionality by clicking the `Synced` badge at the top of the database and toggling on `2-way` sync. You’ll be prompted to re-authenticate. Once you’re authenticated, you can click into a Notion database cell and update any supported field in the work items synced database or add comments and attachments to the Jira synced database.
+## Choose how much history to sync
 
-Although any member can create syncs, you'll need to be a **workspace owner** to set up Jira Sync initially.
+Include all available work items, or choose work items updated in the last 30, 90, or 365 days.
 
-1. Go to `Settings` in your sidebar → `Import` → `Jira Sync`.
+The window uses the Jira work item’s last update time. It doesn’t depend on its creation date, due date, or status. An unresolved work item can leave the synced database if it hasn’t been updated within the window.
 
-   * You can also paste in a Jira database link or use the slash command `/jira sync`.
+The history window applies to work items. Selected space records remain in **Jira Spaces**.
 
-   * If you’ve previously created a Jira synced database in Notion, open that database and select `Improve your Jira sync` at the top.
+**Tip: A history window can remove work item pages.** When a work item falls outside the window, its Notion page is removed, including values in your own properties. Choose all available work items if you need to retain older, unchanged work.
 
-2. In the window that appears, select `Get started`.
+## Change or delete a sync
 
-3. Enter your Jira admin email, Jira site URL, and [API token](https://support.atlassian.com/atlassian-account/docs/manage-api-tokens-for-your-atlassian-account/#Create-an-API-token), then select `Next`.
+Open the sync in **Settings** → **Connections** → **Jira** → **Database sync** to edit it.
 
-**Tip:** When creating an admin token for Jira Sync, we **strongly recommend** setting the expiration date as far in the future as possible.
+* **Add spaces:** Notion imports the newly selected spaces and their matching work items.
 
-Jira Sync relies on this token to maintain a stable connection. If it expires, the sync can break and updates may be missed.
+* **Remove spaces:** Notion removes the affected synced space pages and work item pages.
 
-### Add a new sync
+* **Change custom properties:** Update the selection and save. Notion updates the sync and may need to import data again.
 
-**Note:&#x20;**&#x4D;embers need to authenticate their Jira to **add or remove projects**. They can only add projects they have access to in Jira.
+* **Change history:** Expanding the window imports more work items. Shortening it removes work items outside the new window.
 
-1. Go to `Settings` in your sidebar → `Import` → `Jira Sync`.
+Preserve any Notion-only information you need before removing spaces or shortening history.
 
-   * You can also paste in a Jira database link or use the slash command `/jira sync`.
+To stop the sync permanently, use **Delete sync**. The existing Notion databases and pages remain, but stop receiving updates. Their synced properties remain read-only. Deleting the sync cannot be undone.
 
-2. In the window that appears, select `Get started`.
+## Share Jira data in Notion
 
-3. Select the Jira site you want to sync from.
+Add views and your own properties to organize work items for your team. Values you add to Notion-only properties aren’t sent to Jira.
 
-4. Select `Create a new sync` or select any existing sync you might already have in the dropdown menu. If you choose an existing sync, your projects will be added to your existing synced projects and work items databases.
+Both databases start as private. When you share them, Notion permissions control access to the imported data. Jira permissions aren’t checked separately for every Notion viewer.
 
-5. In the database that opens, you’ll need to connect your Jira account (unless you’re the workspace owner who set up the connection). From here, select the data you want to sync into Notion. First `Select projects to sync`, then `Select properties to sync`.
+The **Visibility** property describes the Jira space. It doesn’t control who can see that space’s data in Notion.
 
-Repeat the steps above if you’d like to set up another Jira sync for another site, teamspace, or workspace. Comments and attachments (up to five files per issue, no larger than 1MB) will also be synced.
+## Troubleshoot a Jira sync
 
-You can [apply permissions](https://www.notion.com/help/sharing-and-permissions#permission-levels) to the database page to make the synced databases accessible to your collaborators.
+### I can’t find a site or space
 
-**Note:&#x20;**&#x4A;ira synced databases will inherit Notion permissions. **Members can access synced databases on any pages they have permission to view.**
+Confirm that you connected the correct Jira account and site. Ask your Jira administrator to check your access to the space and its work items.
 
-If a member adds a private Jira project to a Notion page, anyone with Notion page access will see it.
+### A custom property is missing or empty
 
-### People property in your synced database
+Check that the property is selected, or turn on **Sync all current and future custom properties**. The connected account also needs access to the field. New fields may appear in Notion before existing work items receive values for them.
 
-Synced databases will include people properties! Now, you can use identity mapping to connect third party JIRA identities to your team's Notion profiles. To do this:
+### A parent or space relation is empty
 
-1. Confirm you have implemented Jira Cloud.
+Confirm that the related record is included in the sync. A parent work item may be outside the selected spaces or history window, or may still be importing.
 
-2. Confirm that your name and email address are the same in Notion as they are in Jira.
+### A deleted or restricted Jira item still appears in Notion
 
-3. Follow the instructions [here ](https://id.atlassian.com/manage-profile/profile-and-visibility)to set your visibility to `Anyone`.
+A deletion or permission change in Jira may not remove the Notion page right away. Check the Notion database’s contents and sharing settings if the item should no longer be visible.
 
-### Edit or delete your synced database
+### Updates have stopped
 
-To edit the Jira projects and issue properties that have been synced to your Notion database, select `•••` at the top of your synced database → `Source`.
+Open the sync’s status details. Reconnect the account or restore Jira access when prompted. Temporary Jira outages and request limits can delay updates while Notion retries.
 
-To delete a Jira synced database, select `•••` at the top of your synced database → `Delete Table`.
+## Related guides
 
-## How Jira Sync works
-
-After the initial import, your Jira-synced projects is kept up to date in two ways:
-
-* **Webhooks:** Updates made in Jira are sent to Notion in real time through webhooks.
-
-  * These changes usually appear within minutes, but occasional delays or missed updates may occur due to network or system issues.
-
-  * The webhook setup is done automatically when the sync is first established.
-
-* **Resync:** If a webhook update is **missed** our resync mechanism will sync your collection with Jira again to ensure it's up to date:
-
-  * The resync only runs when the collection is **actively viewed and can take time**, especially for large collections.
-
-  * It will run at most once per day and is indicated by a “Sync in progress” label.
-
-    * During this process, users can’t modify the sync configuration (e.g., adding/removing projects or properties).
-
-**Note:&#x20;**&#x49;f a Jira property is a custom "text" field, it will be parsed as a text string and appear distorted—even if the input in Jira is a date, number, etc.
-
-As an example, the *field type* in Jira must be set as a date field for the data to translate correctly in Notion and display as a date.
-
-### Permissions and authentication
-
-Two-way sync respects both Notion and Jira permissions for secure access and editing.
-
-* Only users with **edit access** to the synced Jira database can enable and use two-way sync.
-
-* Each user must authenticate their **individual Jira account** to enable editing from Notion. If you've previously connected Jira for viewing only, you'll need to re-authenticate to enable editing.
-
-* Guests or anyone accessing a Jira synced database via a public link **can’t use two-way sync**.
-
-### Projects database
-
-Your Jira projects will be synced into a Notion projects database. Your projects will be intelligently mapped to their corresponding Jira work items in a related, synced work items database in Notion. This database will come with pre-populated default database views to help you get started more quickly:
-
-* Active (table view): This view shows the projects you’ve synced whose status is in progress. In other words, this view doesn’t show projects that have already been completed. There are also preset filters for owner and date to make searching easier.
-
-* Timeline view: This view displays project name, status, owner, and completion rate. There are also preset filters for status, owner, and date to make searching easier.
-
-* Board view: This view shows your projects grouped by status (`Planning`, `In Progress`). You can customize the statuses that show in the view in the `•••` menu. Projects are sorted by descending priority.
-
-* All (table view): This view displays all of your synced projects. There are preset filters for status, owner, and date to make searching easier.
-
-### Work items (issues) database
-
-Your Jira work items (epic, bug, task, subtask, story) will be synced into a Notion work items database, the equivalent of a Notion [tasks database](https://www.notion.com/help/sprints#create-a-task-database). As with the synced projects database, there will be default database views created for you to help you get started more quickly:
-
-* By Project (table view): This view shows all tasks, grouped by project. There are pre-set filters for status, assignee, date, and project to make searching easier.
-
-* By Epic (table view): This view shows your Jira stories, tasks, and bugs grouped by Epic.
-
-* Board view: This view is grouped by status and sorted by descending priority. The pre-set properties that will be displayed are assignee, project, priority, and sub-tasks,
-
-* All tasks (table view): This view displays all your synced tasks. The pre-set properties that will be displayed are task name, status, assignee, date, priority, tags, and project
-
-* Mine (table view): This view is filtered to only show tasks that are assigned to you. There are pre-set filters for status, date, and project.
-
-## Unsupported Jira properties
-
-Jira Sync supports most Jira properties, but not all of them. Here's the list of unsupported Jira properties:
-
-|                |             |
-| -------------- | ----------- |
-| Time tracking  | Resolution  |
-| Security level | Σ progress  |
-| Progress       | Restrict to |
-| StatusCategory | Rank        |
-
-**Note:** While Notion doesn't support certain Jira custom properties, it does support all Jira primitive custom properties, such as string, number, select, person, and date.
-
-## Sync duration and limitations
-
-Experiencing an issue with Jira Sync? See how you can troubleshoot common errors [here →](https://www.notion.com/help/common-jira-sync-issues)
-
-* At this time, Jira Sync only works with Jira Cloud. Jira Data Center and Jira Server aren’t supported.
-
-* It should only take a few minutes for the initial sync to complete, but depending on the size of your Jira projects and work items, this could take up to a few hours.
-
-* Some issue fields or properties may not sync, such as rich text in property and nested multi-selects.
-
-* While you can edit status, assignee, priority, attachments, and comments, some issue fields or properties can’t be edited. These include description, title, date, custom fields, and other select or multi-select fields (with the exception of priority and status).
-
-* Comments made in Notion will be added to Jira, but you won’t be able to edit or delete them afterward.
-
-* Attachments must be a maximum size of 1MB. Each Jira issue can have up to five attachments. If you try to upload an attachment that exceeds the size limit, the upload will fail.
-
-  * You can’t drag and drop attachments into an issue. Use the attach icon to add an attachment.
-
-* Only priority values already used in synced Jira work items will appear in Notion — options that exist in Jira but haven’t been used yet won’t be available to select. To make them selectable, assign those values to at least one issue in Jira that has already been synced to Notion.
-
-* For optimal performance, Jira properties with more than 1,000 values won’t be imported.
-
-* Once the initial sync has been set up, updates to properties should be reflected in Notion in real time. If you create new properties, it could take up to 12 hours for those changes to sync.
-
-* You can’t manually sync Jira with Notion — syncs happen in response to updates made in Jira.
-
-* You’ll be able to see when Notion last `Synced with Jira` with Notion by hovering over the **blue** badge at the very top of a database. If instead you see a **yellow** `Sync failed` or `Sync stopped`, you may have to follow [the steps below](https://www.notion.com/help/jira#reconnect-your-synced-database) to reconnect Jira.
-
-* The `Watcher` property can take up to 12 hours to sync properly.
-
-* Two-way sync isn’t available on mobile (but one-way is).
-
-**Note:&#x20;**&#x49;f you delete a property in Jira, the associated database item in your synced database will be deleted too.
-
-## Reconnect your synced database
-
-If your webhook registration has failed, or your project sync has failed, you’ll see `Sync failed` at the top of the database. To solve this issue, try the sync again with a different set of projects. You can also ensure that your projects don’t have any issues in Jira.
-
-If your Jira token is no longer valid or someone has disconnected Jira from Notion, you’ll see `Sync stopped` at the top of the database. To solve this issue, select `Re-authenticate` next to `Sync stopped`. You must be a workspace owner to complete this process.
-
-Once your Jira instance is reconnected with Notion, your projects and work items databases won’t be recreated; instead, you’ll continue to use the projects and work items databases you had before.
-
-## Disconnect Jira
-
-If you want to completely disconnect Jira from Notion:
-
-1. Go to `Settings` in your sidebar → `Import`.
-
-2. Select select `•••` next to Jira → `Remove`.
-
-**Learn more**
-
-* [Common Jira Sync issues](https://www.notion.com/help/common-jira-sync-issues)
-
-* [Notion AI connector for Jira](https://www.notion.com/help/notion-ai-connector-for-jira)
+For a comparison with Workers and shared troubleshooting guidance, see [Sync data from other tools to Notion →](https://www.notion.com/help/sync-data-from-other-tools-to-notion)

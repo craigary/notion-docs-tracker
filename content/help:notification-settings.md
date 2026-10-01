@@ -21,6 +21,8 @@ Here's when you will get a notification:
 
 * You set a reminder for yourself to show up at a certain time.
 
+Want fewer notifications in your inbox without turning any off? You can filter your inbox by notification type so it shows only the kinds you care about. [See how to filter your inbox →](https://www.notion.com/help/updates-and-notifications)
+
 ### Types and timing
 
 There are several ways these notifications will reach you:
@@ -57,7 +59,7 @@ Go to `Settings` → `Notifications` to adjust your settings for:
 
 ![Notification settings - desktop](https://images.ctfassets.net/spoqsaf9291f/71WWbOFtx7DqLvC0slxGpk/6c27aaad2a4562e9933f23cd227dd5c8/Reference_Visuals_Group_125.png)
 
-**On mobile**, tap `•••` near the top of your home page → `Settings` → `My notifications`. <!-- -->You can manage Microsoft Teams notifications here too.
+**On mobile**, tap `•••` near the top of your home page → `Settings` → `My notifications`. You can manage Microsoft Teams notifications here too.
 
 ![Notification settings - mobile](https://images.ctfassets.net/spoqsaf9291f/6oYlA5GJlSeirspGiu125l/907a6cba2499942ddf2c2a4e9c095e8a/Notifications_settings_mobile.png)
 
@@ -102,4 +104,4 @@ Not at the moment, unfortunately 😓 On our to-do list though!
 
 ### I don’t want to be notified when I get mentioned in a person property in a database. How can I turn this kind of notification off?
 
-Unfortunately, if you don’t want to be notified when you’re mentioned in a person property, you’ll need to ask someone with edit access to turn off notifications in the [specific person property’s settings](https://www.notion.com/help/updates-and-notifications#notifications). Individual users can’t unsubscribe from these notifications.
+You can't unsubscribe from these, but you can hide them from view by filtering your inbox by notification type. Filtering changes what your inbox shows, it doesn't stop the notifications from being sent. [Learn about inbox filters →](https://www.notion.com/help/updates-and-notifications)
