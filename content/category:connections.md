@@ -14,11 +14,11 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/2HM5BPlsww5fF5gJDpI71B/94
 6 help:connected-properties
 7 help:slack
 8 help:connect-gitlab
-9 help:connect-asana
-10 help:github
-11 help:sync-data-from-other-tools-to-notion
-12 help:salesforce
-13 help:jira
+9 help:github
+10 help:salesforce
+11 help:jira
+12 help:connect-asana
+13 help:sync-data-from-other-tools-to-notion
 14 help:microsoft-teams-notifications
 
 ## Video
