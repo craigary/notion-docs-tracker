@@ -13,11 +13,11 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/fB3bs1S6denCTSAnrUsYx/f05
 5 help:data-access-consent
 6 help:delete-your-account
 7 help:notion-faces
-8 help:secondary-emails
-9 help:change-your-language
-10 help:passkeys
+8 help:change-your-language
+9 help:passkeys
+10 help:manage-email-and-calendar-settings
 11 help:log-in-and-out
-12 help:manage-email-and-calendar-settings
+12 help:secondary-emails
 
 ## FAQ
 
