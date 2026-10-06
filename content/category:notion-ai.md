@@ -12,18 +12,17 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/7j6zHBFAMtPgTdqjZQq46w/c7
 4 help:ai-meeting-notes
 5 help:enterprise-search
 6 help:notion-mcp
-7 help:manage-your-inbox-with-notion-agent
-8 help:install-the-notion-meetings-add-on
-9 help:instructions-for-notion-agent
-10 help:manage-ai-models-and-member-credit-spend
-11 help:create-and-edit-images-with-notion-ai
-12 help:turn-on-web-browser-for-notion-agent
-13 help:set-up-enterprise-managed-connections-for-notion-mcp
-14 help:slack-enterprise-grid-ai-connector
-15 help:research-mode
-16 help:create-and-manage-skills
-17 help:connect-mcp-servers-to-your-notion-agent
-18 help:use-your-chatgpt-plan-with-notion-agent
+7 help:install-the-notion-meetings-add-on
+8 help:instructions-for-notion-agent
+9 help:manage-ai-models-and-member-credit-spend
+10 help:create-and-edit-images-with-notion-ai
+11 help:turn-on-web-browser-for-notion-agent
+12 help:set-up-enterprise-managed-connections-for-notion-mcp
+13 help:slack-enterprise-grid-ai-connector
+14 help:create-and-manage-skills
+15 help:connect-mcp-servers-to-your-notion-agent
+16 help:use-your-chatgpt-plan-with-notion-agent
+17 help:manage-your-inbox-with-notion-agent
 
 ## Video
 

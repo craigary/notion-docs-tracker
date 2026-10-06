@@ -25,7 +25,7 @@ You can also let a broad group view a column while only a few people can edit it
 
 ## Set up property access
 
-You can add a max of 20 different property access exceptions.
+You can add a max of 20 different properties with permissions.
 
 1. Open the database in a table view on web or desktop. Use the original database, not a linked view of it.
 
