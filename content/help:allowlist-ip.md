@@ -51,4 +51,12 @@ Notion is hosted in US-West-2 (Oregon), EU-Central-1 (Frankfurt), AP-Northeast-1
 
 * audioprocessor.app.notion.com
 
-Notion is hosted on CloudFlare, so we recommend allowlisting [Cloudflare IP addresses](https://www.cloudflare.com/ips/).
+- Notion is hosted on CloudFlare, so we recommend allowlisting
+
+  [Cloudflare IP addresses](https://www.cloudflare.com/ips/).
+
+- The IP range you need depends on which way the connection goes.
+
+  * **When Notion AI connects to a server you host:&#x20;**&#x49;f your server limits incoming connections by IP address, allow the full `131.149.232.0/21` range as a source IP range. A regional subnet or the narrower `208.103.161.0/24` range may not be enough to allow all connections.
+
+  * **When you connect to Notion from your company's network:** Allow `208.103.161.0/24`.

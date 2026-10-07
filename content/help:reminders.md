@@ -51,6 +51,8 @@ When you set a reminder, you (or the person you’re reminding) will be notified
 
 * If Notion isn't open at the time of the reminder, both a mobile push notification and an email will be sent.
 
+In your inbox, reminders show up under the `Updates` filter. If you filter your inbox to other types, you won't see reminders until you turn `Updates` back on. [Learn about inbox filters →](https://www.notion.com/help/updates-and-notifications)
+
 
 ## FAQs
 
