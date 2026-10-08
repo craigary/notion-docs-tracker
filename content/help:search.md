@@ -122,4 +122,4 @@ You can use queries with CJK characters in search! This is an experience we are 
 
 ### Is there a way to customize the preset filters, recent pages, or recent searches?
 
-Unfortunately, not at the moment. If you’d like, you can create your own list of frequently visited pages by selecting `⭐` at the top right of any page. This will pin the page to the top of your sidebar for quick access.
+Unfortunately, not at the moment. If you’d like, you can create your own list of frequently visited pages by selecting `⭐` at the top right of any page. This will pin the page to the top of your sidebar for quick access. You can also add a shortcut to a page in one tab without favoriting it. [Learn how to customize your workspace →](https://www.notion.com/help/customize-your-sidebar)

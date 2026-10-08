@@ -15,6 +15,8 @@ Library helps you find and organize pages across your workspace, all from one pl
 
 In your sidebar, select **`Library`**.
 
+If you don't see the Library button, you can add it back to any tab in your sidebar. [Learn how to customize your workspace →](https://www.notion.com/help/customize-your-sidebar)
+
 ## Customize your sidebar
 
 With Library, you can remove sections from your sidebar to keep it clean. Customize which sections show in your sidebar, and choose how many favorites appear. If you remove a section from your sidebar, you can still access it later from your Library.
@@ -28,6 +30,8 @@ With Library, you can remove sections from your sidebar to keep it clean. Custom
 ![Library remove from sidebar](https://images.ctfassets.net/spoqsaf9291f/01LOHXhRhlzWMjy17gFrlX/b4fea64d0507b80d5079858e4eaec86f/Screenshot_2026-01-23_at_11.47.22%C3%A2__AM__1_.png)
 
 ![Add section to the sidebar within Library.](https://images.ctfassets.net/spoqsaf9291f/6QfcgY1kb0H3tsEQ7NTSkh/8f6c177d4eaf3d1aa5f2b86eba259e2b/Screenshot_2026-01-23_at_11.47.30%C3%A2__AM__1_.png)
+
+You can also change your sidebar from the sidebar itself, where you can reorder buttons and sections, add and remove tabs, pin a database view, and reset a tab. [Learn how to customize your sidebar →](https://www.notion.com/help/customize-your-sidebar)
 
 ## What you’ll see in Library
 

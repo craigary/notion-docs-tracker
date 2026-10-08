@@ -17,7 +17,7 @@ categoryKey: "category:sharing-and-collaboration"
 
 * Use the `Archive read` or  `Archive all` button to help ensure that your `Inbox` only contains your unfinished tasks.
 
-The `Inbox` at the top of your sidebar gathers updates from across your workspace. These updates are organized by page and by comment thread, so you can see all of the updates related to a specific page in one place. You’ll see an update in your inbox when:
+The `Inbox` at the top right corner of your sidebar gathers updates from across your workspace. These updates are organized by page and by comment thread, so you can see all of the updates related to a specific page in one place. You’ll see an update in your inbox when:
 
 * Someone @-mentions you or replies to your comment, or you have notifications set to `All comments` for a page.
 

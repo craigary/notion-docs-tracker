@@ -21,9 +21,17 @@ The Notion sidebar allows you to:
 
 **Tip:&#x20;**&#x4F;pen and close your sidebar by clicking the `>>` and `<<` buttons. Or, use the keyboard shortcut `cmd`/`ctrl` + `\`!
 
-In your sidebar, you'll see several features and menu options. Here's an overview of each of these.
+Your sidebar is made of tabs. Each tab holds:
 
-* **Workspace switcher:** Click on your current workspace's name to switch between the workspaces you belong to, create a new one, add another account, or log out. You can also access your settings from inside the workspace switcher.
+* **Shortcuts** that make or open something, like `New page` or `My Tasks` .
+
+* **Sections** that list your content, like Recents, Favorites, and Teamspaces.
+
+Every tab comes set up for you. If you want a different setup, you can show, hide, and reorder what's in a tab, add and remove tabs, and put any tab back the way it started. [Learn how to customize your sidebar →](https://www.notion.com/help/customize-your-sidebar)
+
+Two things stay in one spot. Your inbox sits in the top-right corner, and your workspace name sits at the bottom. Everything in between is yours to arrange.
+
+In your sidebar, you'll see several features and menu options. Here's an overview of each of these.
 
 * **Search:** Click to open Notion's search window, where you can either type what you're looking for or jump to a recently visited page. The shortcut `cmd/ctrl` + `K` also brings it up. 
 
@@ -33,15 +41,21 @@ In your sidebar, you'll see several features and menu options. Here's an overvie
 
 * **Meetings:&#x20;**&#x43;lick to see upcoming meetings and notes so you can quickly prep for a meeting, or review what happened after.
 
-* **Inbox:** Click to see all your notifications in one place. This menu combines revisions that were made on pages you have created, new mentions of you across your workspace, and new work assignments. A red notification badge will appear here when you have unread notifications. You can also filter your inbox by notification type to show only the kinds you care about. [Learn more about inbox notifications →](https://www.notion.com/help/updates-and-notifications)
+* **Inbox**: Click the inbox icon in the top-right corner of your sidebar to see all your notifications in one place. This menu combines revisions that were made on pages you have created, new mentions of you across your workspace, and new work assignments. A red notification badge will appear here when you have unread notifications. The Inbox always stays in this corner, so you can't hide it or move it. [Learn more about inbox notifications →](https://www.notion.com/help/updates-and-notifications)
+
+* **New item menu**: Next to the Inbox in the top-right corner, use this menu to start something new, like a page, a chat with Notion AI, or an AI meeting note.
 
 * **Library:&#x20;**&#x43;lick to browse and manage all content across your workspace. [Learn more about Library here →](https://www.notion.com/help/manage-your-library)
+
+* **Workspace switcher:** Click on your current workspace's name to switch between the workspaces you belong to, create a new one, add another account, or log out. You can also access your settings from inside the workspace switcher.
 
 ## Navigating the sidebar
 
 ### Top-level tabs
 
 The sidebar is organized into top-level tabs. Each tab has its own icon, contents, and purpose.
+
+You can also add and remove tabs. Add a tab for work you come back to often, and remove a tab you never open. If you remove one, you can add it again later. [Learn how to customize your sidebar →](https://www.notion.com/help/customize-your-sidebar)
 
 ### Home
 
@@ -60,6 +74,8 @@ To customize Home, click `•••` on the side of any section or the Home tab 
 * Hide section hides a section from Home.
 
 * Customize sidebar allows you to hide multiple row items and sections at once.
+
+The same menu lets you reorder the buttons at the top of the tab, add a section such as a database view, and reset the tab to the setup it came with. [See all the ways to customize a tab →](https://www.notion.com/help/customize-your-sidebar)
 
 **Open in Library**
 
@@ -93,6 +109,8 @@ Access meeting notes from previous meetings, sorted by recency. Click `•••
 
 View all your notifications in one place, including mentions, comments, page updates, and reminders. Click a notification to go directly to the source page.
 
+Your Inbox is in the top-right corner of the sidebar, next to the menu for making something new.
+
 Icons at the top of your inbox can bulk take actions like Mark all as read, Archive all, Archive read, or apply filters to the notification list. Filters include filtering by notification type, so your inbox shows only the kinds you care about.
 
 Click `•••` on the side of any notification to change page notification settings, mark a notification as read, or archive a notification.
@@ -103,7 +121,7 @@ Open the search modal to search content inside your workspace.
 
 ### Quick entry points
 
-At the bottom of each tab, you can create a new chat with AI, page, meeting note, or database using the buttons.
+Each tab has buttons for the things you make most often, like a new page, a chat with Notion AI, an AI meeting note, a database, or an agent. You can also add buttons that take you somewhere, like `My Tasks` or `Library`. Show, hide, and reorder these buttons so the ones you use are the ones you see. [Learn how to customize your sidebar →](https://www.notion.com/help/customize-your-sidebar)
 
 ## Sidebar sections
 
@@ -189,11 +207,15 @@ To add a page to your favorites, navigate to it, then click `⭐` at the top of 
 
 To remove a page from your favorites, open it and unclick `⭐` at the top. You can also hover over the page in your sidebar and click `•••`. You'll see the option to `Remove from Favorites`.
 
+Favorites aren't the only way to keep a page close. You can also add a shortcut to any page in a tab, without adding it to Favorites. [Learn how to add a page shortcut →](https://www.notion.com/help/customize-your-sidebar)
+
 ## Nested pages
 
 You can open up each toggle in your sidebar to reveal pages nested inside other pages. All pages have the same functionality, even if they're nested as sub-pages.
 
 For database pages, you can open the toggle to see all the different views you've created of that database. These are represented with a `•` next to them.
+
+You can also pin a database view to your sidebar, so a view you check often is one click away no matter where the database lives. [Learn how to pin a database view →](https://www.notion.com/help/customize-your-sidebar)
 
 ## Settings, templates, and trash
 
@@ -219,9 +241,7 @@ There are several ways to create new pages using Notion's sidebar:
 
 * You'll also see a `+` sign next to the `Private` section. Click to add a new page that only you can access.
 
-* There's also a `📝` button at the top of your sidebar.
-
-  * This creates a new page in preview mode, letting you start a new page and then choose where to put it in your workspace (or one of your other workspaces) using a dropdown menu. If you don't choose, it will default to your `Private` section.
+* There's also a 📝 button in your tab, and a menu in the top-right corner of the sidebar for making something new. Both create a new page in preview mode, letting you start a new page and then choose where to put it in your workspace (or one of your other workspaces) using a dropdown menu. If you don't choose, it will default to your `Private` section.
 
 * Lastly, if you hover over any existing page in your sidebar, you'll see a `+` appear. Click that to add a page nested inside that page.
 
@@ -260,7 +280,7 @@ There are a few ways to delete pages from your sidebar:
 
 ### How do I log out of my Notion account?
 
-Click on your current workspace's name at the very top left of your sidebar. Scroll to the bottom, and you'll see the option to `Log out` next to your email address.
+Click your workspace name at the very top of your sidebar. Scroll to the bottom of the menu, and you'll see the option to `Log out` next to your email address.
 
 
 ### My sidebar doesn't have any sections. How do I turn those on?
@@ -278,3 +298,8 @@ Home changed from a full-page experience to a part of your sidebar, organized in
 **Free and Plus plans**: You'll see the full sidebar layout, including the AI chat tab. You can use Notion AI with your available free AI credits.
 
 **AI turned off (Enterprise/Business)**: The AI chat tab will not appear. Instead, you'll see a `New` button in its place to create pages and other content.
+
+
+### How do I get my sidebar back the way it was?
+
+Open the tab you changed and reset it. The tab goes back to the buttons and sections it came with. Your pages and content aren't affected.

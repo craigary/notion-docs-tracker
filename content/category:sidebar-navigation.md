@@ -9,6 +9,7 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/2HM5BPlsww5fF5gJDpI71B/94
 1 help:navigate-with-the-sidebar
 2 help:manage-your-library
 3 help:search
+4 help:customize-your-sidebar
 
 ## Video
 
@@ -26,7 +27,7 @@ https://www.youtube.com/watch?v=lSmgY5OsZmU
 
 ### How do I log out of my Notion account?
 
-Click on your current workspace's name at the very top left of your sidebar. Scroll to the bottom, and you'll see the option to `Log out` next to your email address.
+Click your workspace name at the very top of your sidebar. Scroll to the bottom of the menu, and you'll see the option to `Log out` next to your email address.
 
 ### My sidebar doesn't have any sections. How do I turn those on?
 
@@ -41,3 +42,7 @@ Home changed from a full-page experience to a part of your sidebar, organized in
 **Free and Plus plans**: You'll see the full sidebar layout, including the AI chat tab. You can use Notion AI with your available free AI credits.
 
 **AI turned off (Enterprise/Business)**: The AI chat tab will not appear. Instead, you'll see a `New` button in its place to create pages and other content.
+
+### How do I get my sidebar back the way it was?
+
+Open the tab you changed and reset it. The tab goes back to the buttons and sections it came with. Your pages and content aren't affected.

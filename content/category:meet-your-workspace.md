@@ -44,7 +44,7 @@ We recommend using the least number of workspaces possible, and taking advantage
 
 ### How can I switch between workspaces that are under different email addresses?
 
-To add your workspaces from another email account, use the `Add another account` button in the workspace switcher at the top left of your Notion window, and follow the steps to login to your other account.
+To add your workspaces from another email account, use the `Add another account` button in the workspace switcher at the bottom of your sidebar, and follow the steps to login to your other account.
 
 ### Is there a limit to the number of accounts I can be signed into?
 

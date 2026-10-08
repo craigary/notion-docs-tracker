@@ -153,4 +153,4 @@ We keep backups of our database, which allows us to restore a snapshot of your c
 
 ### How do I log out of my Notion account?
 
-Click on your current workspace's name at the very top left of your sidebar. Scroll to the bottom, and you'll see the option to `Log out` next to your email address.
+Click your workspace name at the very top of your sidebar. Scroll to the bottom of the menu, and you'll see the option to `Log out` next to your email address.

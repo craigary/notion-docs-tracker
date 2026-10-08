@@ -45,7 +45,7 @@ You can only join a workspace via the `Create or Join Workspace` button if tha
 
 To join a workspace, you'll need to ask an admin from that workspace to send you an invite.
 
-To add your workspaces from another email account, use the `Add another account` button in the workspace switcher at the top left of your Notion window, and follow the steps to login to your other account. [More on this here →](https://www.notion.com/help/create-delete-and-switch-workspaces)
+To add your workspaces from another email account, use the `Add another account` button in the workspace switcher at the top left of your Notion window, and follow the steps to login to your other account. [Learn more about how to create, join, and leave workspaces →](https://www.notion.com/help/create-delete-and-switch-workspaces)
 
 ### My sidebar doesn't have any sections. How do I turn those on?
 
@@ -73,4 +73,4 @@ We keep backups of our database, which allows us to restore a snapshot of your c
 
 ### How do I log out of my Notion account?
 
-Click on your current workspace's name at the very top left of your sidebar. Scroll to the bottom, and you'll see the option to `Log out` next to your email address.
+Click your workspace name at the very top of your sidebar. Scroll to the bottom of the menu, and you'll see the option to `Log out` next to your email address.

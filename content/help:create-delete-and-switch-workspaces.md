@@ -13,7 +13,7 @@ categoryKey: "category:meet-your-workspace"
 
 By default, your workspace switcher will display all the workspaces associated with your email address. To create another workspace:
 
-1. Open the workspace switcher at the top left of your Notion window.
+1. Open the workspace switcher by clicking your workspace name at the bottom of your sidebar.
 
 2. Choose which email account you'd like the new workspace to be associated with, and click the `•••` to the right of that email address.
 
@@ -43,7 +43,7 @@ To join a workspace from another email account, use the `Add another account` 
 
 ## Switch between workspaces
 
-Throughout the day, you might need to hop between different workspaces to get things done. Just click on the name of your current workspace and select the one you want to jump to from the dropdown menu. That's it!
+Throughout the day, you might need to hop between different workspaces to get things done. Click on your workspace name at the bottom of your sidebar and select the one you want to jump to from the dropdown menu. That's it!
 
 You can also access `Settings` from the workspace switcher.
 
@@ -73,7 +73,7 @@ By default, your workspace switcher will display all the workspaces associated w
 
 To enable you to view all of your workspaces at once, we support logging in with multiple accounts at the same time!
 
-1. To add workspaces from another Notion account, open the workspace switcher at the top left of your Notion window, and click `Add another account`.
+1. To add workspaces from another Notion account, open the workspace switcher at the bottom of your sidebar, and click `Add another account`.
 
 2. Follow the steps to login to your other account, and you'll be taken straight to that workspace. You can also create a new account at this step.
 
@@ -85,7 +85,7 @@ To enable you to view all of your workspaces at once, we support logging in with
 
 You can log out of individual accounts, or log out of all your accounts at once.
 
-1. Open the workspace switcher at the top left of your Notion window.
+1. Open the workspace switcher at the bottom of your sidebar.
 
 2. To log out of one account but stay logged into others, use the `•••` button to the right of the account you want to log out of. Then, click `Log out`.
 
@@ -123,7 +123,7 @@ We recommend using the least number of workspaces possible, and taking advantage
 
 ### How can I switch between workspaces that are under different email addresses?
 
-To add your workspaces from another email account, use the `Add another account` button in the workspace switcher at the top left of your Notion window, and follow the steps to login to your other account.
+To add your workspaces from another email account, use the `Add another account` button in the workspace switcher at the bottom of your sidebar, and follow the steps to login to your other account.
 
 
 ### Is there a limit to the number of accounts I can be signed into?

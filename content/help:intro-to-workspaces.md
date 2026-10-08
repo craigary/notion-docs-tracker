@@ -19,13 +19,13 @@ Your Notion app interface is split into two sections: the sidebar and the editor
 
 * All the pages and databases you create will appear here.
 
-* The sidebar contains several sections, which you can reorder and customize.
+* The sidebar is organized into tabs. You can reorder and customize what's inside each one.
 
 * You can nest pages inside each other for infinite levels of organization.
 
 * It's also home to your settings, trash, and other tools.
 
-Learn more about your sidebar in [this article →](https://www.notion.com/help/navigate-with-the-sidebar)
+Learn more about how to [navigate with your sidebar →](https://www.notion.com/help/navigate-with-the-sidebar)
 
 ### Editor
 
@@ -37,11 +37,11 @@ Learn more about your sidebar in [this article →](https://www.notion.com/help/
 
 ## Sidebar tools
 
-### Control panel
+### Tabs
 
-The control panel at the top of your sidebar contains several key features:
+Your sidebar is organized into tabs. Each tab is made of buttons that create or open something and sections that list your content. Here are the tools you'll use most:
 
-* **Workspace switcher:** Click on your current workspace's name to switch between the workspaces you belong to, create a new one, join another one, or log out. You can also access your settings from inside the workspace switcher. [Learn more about switching workspaces here →](https://www.notion.com/help/create-delete-and-switch-workspaces)
+* **Workspace switcher**: Click your workspace name at the bottom of your sidebar to switch between the workspaces you belong to, create a new one, join another one, or log out. You can also open your settings from here. [Learn more about switching workspaces here →](https://www.notion.com/help/create-delete-and-switch-workspaces)
 
 * **Search:** Click to open Notion's search window, where you can either type in what you're looking for or quickly jump to a recently visited page. [Learn more about Search here →](https://www.notion.com/help/search)
 
@@ -49,11 +49,13 @@ The control panel at the top of your sidebar contains several key features:
 
 * **Meetings:&#x20;**&#x43;lick to see upcoming meetings and notes so you can quickly prep for a meeting, or review what happened after.
 
-* **Notion AI:**&#x43;lick to search and research with Notion AI. [Learn more about Notion AI here →](https://www.notion.com/help/notion-ai-faqs)
+* **Notion AI:&#x20;**&#x43;lick to search and research with Notion AI. [Learn more about Notion AI here →](https://www.notion.com/help/notion-ai-faqs)
 
-* **Inbox:** Click to see all your notifications in one place. This menu combines revisions that were made on pages you follow, mentions of you across your workspace, and new work assignments. A red notification badge will appear here when you have unread notifications. [Learn more about inbox here →](https://www.notion.com/help/updates-and-notifications)
+* **Inbox**: Click the inbox icon in the top-right corner of your sidebar to see all your notifications in one place. This menu combines revisions that were made on pages you follow, mentions of you across your workspace, and new work assignments. A red notification badge will appear here when you have unread notifications. [Learn more about your inbox here →](https://www.notion.com/help/updates-and-notifications)
 
 * **Library:&#x20;**&#x43;lick to browse and manage all content across your workspace. [Learn more about Library here →](https://www.notion.com/help/manage-your-library)
+
+Every tab comes set up for you, and you can change what's in it, add and remove tabs, and reset any tab to how it started. [Learn how to customize your sidebar →](https://www.notion.com/help/customize-your-sidebar)
 
 ### Sidebar sections
 
@@ -67,7 +69,7 @@ Your sidebar contains various sections to keep your workspace’s content organi
 
 * **Favorites:** This section houses pages that you’ve favorited so you can reference them easily.
 
-You can rearrange and customize your sidebar sections. [Learn how in this article →](https://www.notion.com/help/navigate-with-the-sidebar#sidebar-sections)
+You can rearrange and customize your sidebar sections. [Learn how to navigate with the sidebar →](https://www.notion.com/help/navigate-with-the-sidebar#sidebar-sections)
 
 **Tip:**
 
@@ -87,6 +89,8 @@ To remove a page from your favorites, open it and unclick ⭐ at the top. You ca
 
 **Tip:&#x20;**&#x46;avorites are helpful for stashing pages relevant to your current projects. You can easily add or remove them as your workflow and priorities change.
 
+You can also add a shortcut to a page in one tab without adding it to Favorites. [Learn how →](https://www.notion.com/help/customize-your-sidebar)
+
 ### Settings, templates, and trash
 
 * `Settings` allow you to adjust Notion to your preference. Learn more about settings [here →](https://www.notion.com/help/category/account-settings-and-privacy)
@@ -99,7 +103,7 @@ To remove a page from your favorites, open it and unclick ⭐ at the top. You ca
 
 There are a few ways to add a new page in Notion.
 
-* Click `📝` at the top of your left sidebar.
+* Click the 📝 button in your sidebar, or the menu for making something new in the top-right corner of your sidebar.
 
 * If you’re on the desktop app, use the shortcut `cmd/ctrl` + `N`.
 
@@ -177,7 +181,7 @@ You can only join a workspace via the `Create or Join Workspace` button if tha
 
 To join a workspace, you'll need to ask an admin from that workspace to send you an invite.
 
-To add your workspaces from another email account, use the `Add another account` button in the workspace switcher at the top left of your Notion window, and follow the steps to login to your other account. [More on this here →](https://www.notion.com/help/create-delete-and-switch-workspaces)
+To add your workspaces from another email account, use the `Add another account` button in the workspace switcher at the top left of your Notion window, and follow the steps to login to your other account. [Learn more about how to create, join, and leave workspaces →](https://www.notion.com/help/create-delete-and-switch-workspaces)
 
 
 ### My sidebar doesn't have any sections. How do I turn those on?
@@ -212,4 +216,4 @@ We keep backups of our database, which allows us to restore a snapshot of your c
 
 ### How do I log out of my Notion account?
 
-Click on your current workspace's name at the very top left of your sidebar. Scroll to the bottom, and you'll see the option to `Log out` next to your email address.
+Click your workspace name at the very top of your sidebar. Scroll to the bottom of the menu, and you'll see the option to `Log out` next to your email address.
