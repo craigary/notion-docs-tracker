@@ -1,7 +1,7 @@
 ---
 title: "Use your ChatGPT plan with Notion Agent"
 emoji: null
-description: "Connect your ChatGPT Plus or Pro account to use your plan with Notion Agent."
+description: "Connect your ChatGPT Plus, Pro, or Go account to use your plan with Notion Agent."
 url: "https://www.notion.com/help/use-your-chatgpt-plan-with-notion-agent"
 key: "help:use-your-chatgpt-plan-with-notion-agent"
 coverImage: null
@@ -9,7 +9,7 @@ category: "Notion AI"
 categoryKey: "category:notion-ai"
 ---
 
-If your workspace is on the Business or Enterprise plan and you have a ChatGPT Plus or Pro account, you can connect your ChatGPT account to Notion. Once connected, [Notion Agent](https://www.notion.com/help/notion-agent) can use your ChatGPT plan instead of your Notion plan. You’ll use your ChatGPT plan only when you select a specific GPT model. The model picker shows which plan is in use before you send a message.
+If your workspace is on the Business or Enterprise plan and you have a ChatGPT Plus, Pro, or Go account, you can connect your ChatGPT account to Notion. Once connected, [Notion Agent](https://www.notion.com/help/notion-agent) can use your ChatGPT plan instead of your Notion plan. You’ll use your ChatGPT plan only when you select a specific GPT model. The model picker shows which plan is in use before you send a message.
 
 ## Before you start
 
@@ -19,7 +19,7 @@ Each person connects their own ChatGPT account. Before you connect, check that:
 
 * You're a member of the workspace (guests can't use this).
 
-* You have a ChatGPT Plus or Pro account.
+* You have a ChatGPT Plus, Pro, or Go account.
 
 * You’re using [Notion Agent](https://www.notion.com/help/notion-agent). This feature doesn’t work with [Custom Agents](https://www.notion.com/help/custom-agents).
 
@@ -88,7 +88,7 @@ No. You can only use your ChatGPT account with [Notion Agent](https://www.notion
 
 ### Why don't I see the option to connect to ChatGPT?
 
-Make sure your workspace is on the Business or Enterprise plan, you're using [Notion Agent](https://www.notion.com/help/notion-agent), and you have a ChatGPT Plus or Pro account.
+Make sure your workspace is on the Business or Enterprise plan, you're using [Notion Agent](https://www.notion.com/help/notion-agent), and you have a ChatGPT Plus, Pro, or Go account.
 
 
 ### Why did my session use my Notion plan instead of my ChatGPT plan?
