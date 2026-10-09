@@ -15,11 +15,12 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/2HM5BPlsww5fF5gJDpI71B/94
 7 help:slack
 8 help:sync-data-from-other-tools-to-notion
 9 help:jira
-10 help:connect-asana
-11 help:github
+10 help:github
+11 help:manage-who-can-create-database-syncs
 12 help:salesforce
-13 help:connect-gitlab
-14 help:microsoft-teams-notifications
+13 help:connect-asana
+14 help:connect-gitlab
+15 help:microsoft-teams-notifications
 
 ## Video
 
