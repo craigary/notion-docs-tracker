@@ -27,9 +27,9 @@ Looking to connect a Custom Agent to external apps? Learn more about [MCP connec
 
 There are three ways to connect an MCP server. All of them open the same connection window.
 
-* **Ask your Agent:**
+* **Ask your agent:**
 
-  * In chat, ask your Agent to connect an app.
+  * In chat, ask your agent to connect an app.
 
   * For example, "Connect me to GitHub."
 
@@ -46,6 +46,8 @@ There are three ways to connect an MCP server. All of them open the same connect
   2. Open the `Discover` tab.
 
   3. Find the app you want, and select `Add to Notion AI`.
+
+We're always adding new apps you can connect, so this list changes over time and the Help Center might not list every option.
 
 Want to connect an MCP server that isn't listed? If your admin allows it, you'll see an `Add Custom MCP` button in `Settings` → `Connections` → `Discover`. Select it and enter the details from the app's MCP documentation.
 
@@ -65,7 +67,7 @@ Once you've authenticated your account, the MCP connection will appear under `Al
 
 Once an MCP server is connected, ask your Notion Agent for what you need.
 
-* **Being specific helps Notion Agent find things faster.** If your Agent doesn't use the MCP connection you expected, mention the MCP connection by name. For example, "Check FigJam for the latest mockups."
+* **Being specific helps Notion Agent find things faster.** If your agent doesn't use the MCP connection you expected, mention the MCP connection by name. For example, "Check FigJam for the latest mockups."
 
 * **Update settings so Notion Agent asks you permission&#x20;**&#x62;efore it creates or updates anything in a connected app.
 

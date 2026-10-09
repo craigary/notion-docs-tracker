@@ -11,10 +11,6 @@ categoryKey: "category:connections"
 
 * This feature is available on Business and Enterprise Plans.
 
-* Notion AI generates answers using LLMs like GPT-5 and Claude. Be sure to double-check all answers for accuracy.
-
-* There are many other ways to use Slack and Notion together. Learn more about our [Slack connection →](https://www.notion.com/help/slack)
-
 Synced databases allow you to sync data from other platforms as Notion databases. Syncs are continuous but only go one direction, meaning that data changes will need to happen on the original platform in order for updates to appear in Notion.
 
 Platforms include:

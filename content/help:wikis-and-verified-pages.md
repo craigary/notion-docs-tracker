@@ -73,10 +73,6 @@ Once verification expires, page owners will be notified to re-verify the page.
 
 * This feature is available on Business and Enterprise Plans.
 
-* Notion AI generates answers using LLMs like GPT-5 and Claude. Be sure to double-check all answers for accuracy.
-
-* There are many other ways to use Slack and Notion together. Learn more about our [Slack connection →](https://www.notion.com/help/slack)
-
 You can verify pages that don’t belong to a wiki. To do this:
 
 1. Open a page for which you have `Can edit` access or `Full access`.
@@ -100,10 +96,6 @@ For a page to be verified, it must have at least one owner. To add owners to a v
 ### Verify pages in a database
 
 * This feature is available on Business and Enterprise Plans.
-
-* Notion AI generates answers using LLMs like GPT-5 and Claude. Be sure to double-check all answers for accuracy.
-
-* There are many other ways to use Slack and Notion together. Learn more about our [Slack connection →](https://www.notion.com/help/slack)
 
 While you can verify individual pages in a database following the instructions above, you can also add verification as a property to an entire database to verify all of the database’s pages.
 

@@ -11,10 +11,6 @@ categoryKey: "category:notion-ai-connectors"
 
 * This feature is available on Business and Enterprise Plans.
 
-* Notion AI generates answers using LLMs like GPT-5 and Claude. Be sure to double-check all answers for accuracy.
-
-* There are many other ways to use Slack and Notion together. Learn more about our [Slack connection →](https://www.notion.com/help/slack)
-
 ## Connect GitHub to Notion AI
 
 **Who can connect GitHub to Notion AI?**

@@ -113,10 +113,6 @@ Having trouble with your formula? Learn about common formula errors and how to t
 
 * This feature is available on Business and Enterprise Plans.
 
-* Notion AI generates answers using LLMs like GPT-5 and Claude. Be sure to double-check all answers for accuracy.
-
-* There are many other ways to use Slack and Notion together. Learn more about our [Slack connection →](https://www.notion.com/help/slack)
-
 Know what you want your formula to do, but not quite sure how to build it? Want to make some tweaks to an existing formula? See an error in your formula, but don’t know how to fix it? Notion AI can help.
 
 When you’re in the formula editor, you’ll see a field containing the Notion AI face. Click into this field and tell Notion AI what you want your formula to do, or ask questions about the formula to understand it better.

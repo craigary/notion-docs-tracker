@@ -11,10 +11,6 @@ categoryKey: "category:notion-ai"
 
 * This feature is available on Business and Enterprise Plans.
 
-* Notion AI generates answers using LLMs like GPT-5 and Claude. Be sure to double-check all answers for accuracy.
-
-* There are many other ways to use Slack and Notion together. Learn more about our [Slack connection →](https://www.notion.com/help/slack)
-
 Enterprise Search is a feature of Notion AI. It finds answers to your questions in just seconds, searching your workspace and your connected apps like Slack, Google Drive, Jira, and more.
 
 When Enterprise Search answers a question using information from your workspace or a connected app, it'll always cite its sources so you can go back to the source.

@@ -137,10 +137,6 @@ Seeing other people in a page you didn't mean to share? Want to make a page priv
 
 * This feature is available on Business and Enterprise Plans.
 
-* Notion AI generates answers using LLMs like GPT-5 and Claude. Be sure to double-check all answers for accuracy.
-
-* There are many other ways to use Slack and Notion together. Learn more about our [Slack connection →](https://www.notion.com/help/slack)
-
 If your database has at least one person property, you’ll be able to assign specific permissions to the people in that person property. For example:
 
 * You might have an IT ticket database where you want ticket creators to be able to edit their tickets, but not accidentally make changes to tickets created by others.

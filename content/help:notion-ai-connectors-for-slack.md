@@ -11,10 +11,6 @@ categoryKey: "category:notion-ai-connectors"
 
 * This feature is available on Business and Enterprise Plans.
 
-* Notion AI generates answers using LLMs like GPT-5 and Claude. Be sure to double-check all answers for accuracy.
-
-* There are many other ways to use Slack and Notion together. Learn more about our [Slack connection →](https://www.notion.com/help/slack)
-
 Connect Slack to Notion AI to bring your team's Slack conversations into Notion. Once the Slack connector is set up, you can search Slack messages, summarize channels, and get answers from past discussions without leaving your workspace. Your Notion Agent can even take action in Slack for you, like posting a message or replying in a thread.
 
 ## Who can connect Slack to Notion AI
