@@ -7,22 +7,22 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/7j6zHBFAMtPgTdqjZQq46w/c7
 ---
 
 1 help:notion-ai-faqs
-2 help:autofill
-3 help:notion-agent
+2 help:notion-agent
+3 help:autofill
 4 help:ai-meeting-notes
 5 help:enterprise-search
 6 help:notion-mcp
-7 help:slack-enterprise-grid-ai-connector
-8 help:connect-mcp-servers-to-your-notion-agent
-9 help:create-and-manage-skills
-10 help:set-up-enterprise-managed-connections-for-notion-mcp
-11 help:manage-your-inbox-with-notion-agent
-12 help:install-the-notion-meetings-add-on
-13 help:instructions-for-notion-agent
-14 help:manage-ai-models-and-member-credit-spend
-15 help:turn-on-web-browser-for-notion-agent
-16 help:create-and-edit-images-with-notion-ai
-17 help:use-your-chatgpt-plan-with-notion-agent
+7 help:manage-your-inbox-with-notion-agent
+8 help:install-the-notion-meetings-add-on
+9 help:instructions-for-notion-agent
+10 help:manage-ai-models-and-member-credit-spend
+11 help:create-and-manage-skills
+12 help:turn-on-web-browser-for-notion-agent
+13 help:connect-mcp-servers-to-your-notion-agent
+14 help:create-and-edit-images-with-notion-ai
+15 help:use-your-chatgpt-plan-with-notion-agent
+16 help:slack-enterprise-grid-ai-connector
+17 help:set-up-enterprise-managed-connections-for-notion-mcp
 
 ## Video
 
