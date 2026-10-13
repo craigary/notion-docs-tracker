@@ -32,6 +32,8 @@ To see a complete list of features that are included in the Education Plan or to
 
 ## Upgrade to the Education Plan
 
+**Note**: Each school email can claim the Education Plan once, for one workspace. Upgrading it to a Plus, Business, or Enterprise plan permanently ends that workspace's Education eligibility.
+
 ### Individual students & teachers
 
 Individual students and teachers at accredited colleges and universities can upgrade to the Education Plan for free at any time.
@@ -127,7 +129,7 @@ If you can no longer verify with a valid education email, your workspace (includ
 
 ### Are there any discounts for students?
 
-The Education Plan for individual students is a free plan for a one-member workspace. It’s available for students signed in with their education institution's email per the WHED. Offer [terms and conditions](https://notion.notion.site/Notion-AI-Add-On-Student-Discount-Terms-and-Conditions-92f6a23077da41508f5928e9ad8c6dc6) apply.
+The Education Plan for individual students is a free plan for a one-member workspace. It’s available for students signed in with their education institution's email per the World Higher Education Database.
 
 With the Education Plan, students can organize plans, tasks and notes across school and life with unlimited pages & blocks, file uploads, more features to customize and publish your site, and 30-day version history.
 
@@ -194,4 +196,4 @@ No. Each school email can claim the student offer once, for one workspace. Here'
 
 * Once your school email has claimed the offer, you can't use it to claim the offer again on a new workspace. This is true even if you delete the first workspace you used it on.
 
-* If a workspace has already been on the Education Plan, you can't upgrade that same workspace to the Education Plan again.
+* If a workspace has already been on the Education Plan, you can't upgrade that same workspace to the Education Plan again. This stays true even if you upgrade the workspace to a paid plan and later move it back to the Free Plan.

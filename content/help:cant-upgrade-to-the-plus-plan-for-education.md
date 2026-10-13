@@ -11,11 +11,15 @@ categoryKey: "category:plans-billing-and-payment"
 
 ## Downgrade to the Free Plan first
 
-If you’re already subscribed to a paid Notion plan, you’ll need to [downgrade](https://www.notion.com/help/upgrade-or-downgrade-your-plan#downgrade-your-plan) to the Free Plan first in order to see the option to upgrade to the <!-- -->Education Plan<!-- --> for students and teachers. The upgrade option will appear only after the plan has been fully downgraded to the Free Plan <!-- -->at the end of your existing billing term.
+If you’re already subscribed to a paid Notion plan, you’ll need to [downgrade](https://www.notion.com/help/upgrade-or-downgrade-your-plan#downgrade-your-plan) to the Free Plan first in order to see the option to upgrade to the Education Plan for students and teachers. The upgrade option will appear only after the plan has been fully downgraded to the Free Plan at the end of your existing billing term.
+
+## Your workspace already used the Education Plan
+
+If this workspace has been on the Education Plan before, you can't put it back on the Education Plan. This is true even after you downgrade to the Free Plan. Each school email can also claim the Education Plan only once, for one workspace, even if you delete the first workspace you used it on. Learn more in [Get the Education Plan for students & teachers](https://www.notion.com/help/notion-for-education).
 
 ## Make sure your educational email address is tied to your Notion account
 
-Your account might not be tied to a valid educational email address. Make sure you [change your account email](https://www.notion.com/help/account-settings#account-security-settings) to your educational email. <!-- -->Your school email must be the main email on your account. A school email added as an extra address won't count.
+Your account might not be tied to a valid educational email address. Make sure you [change your account email](https://www.notion.com/help/account-settings#account-security-settings) to your educational email. Your school email must be the main email on your account. A school email added as an extra address won't count.
 
 ## Remove any other workspace members
 
