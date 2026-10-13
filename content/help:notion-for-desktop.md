@@ -119,7 +119,7 @@ If links to Notion pages aren't automatically opening in the desktop app, try fo
 
 1. Open the link in your browser.
 
-2. Click `•••` at the top right of the page. Scroll to the bottom of the menu that appears and click `Open in Mac app`.
+2. Click `•••` at the top right of the page, open `More`, and click `Open in Mac app`.
 
 ## If the desktop app keeps opening automatically
 

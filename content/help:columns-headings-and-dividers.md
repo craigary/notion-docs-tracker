@@ -151,9 +151,11 @@ You’ll see a table of contents in the right side of your Notion page by defaul
 
 If you don’t want to see a page-level table of contents:
 
-1. In the page you want to remove the table of contents from, select `•••` → `Customize page`.
+1. In the page you want to remove the table of contents from, select `•••` → `Appearance & layout`.
 
-2. Toggle off `Table of contents`.
+2. Turn off `Table of contents`.
+
+**Note**: Wiki home pages don't show the `Table of contents` option.
 
 ## Dividers
 

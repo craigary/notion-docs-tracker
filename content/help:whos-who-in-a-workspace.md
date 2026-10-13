@@ -43,7 +43,7 @@ Restricted members share many capabilities with regular workspace members. They 
 
 There are a few ways that restricted members are different from regular workspace members, including:
 
-* They need to be added to specific teamspaces and pages to be able to access them.
+* They need to be added to specific teamspaces and pages to be able to access them, including default teamspaces.
 
 * They can’t create teamspaces.
 
@@ -68,6 +68,14 @@ If you want to assign a lower level of access to restricted members in a teamspa
 2. Change the teamspace member’s access level to the level that you want to assign to **restricted members**.
 
 3. Add the permission group (for example, “Teamspace A members”) to the teamspace, and give it the access level you’d like.
+
+**How to give a restricted member teamspace access**
+
+Restricted members only see a teamspace after someone adds them to it. There are two ways to do that:
+
+1. Add them to the teamspace one at a time. Next to the teamspace name in your sidebar, click `•••` → `Add members`, then search for the restricted member and add them.
+
+2. Add them through a permission group (recommended for more than a few people). Put the restricted members in a permission group, then add that group to the teamspace. New people you add to the group later get access automatically. [Learn how to create and manage groups →](https://www.notion.com/help/manage-who-can-create-database-syncs)
 
 ## Guests
 

@@ -41,6 +41,8 @@ You can also import data from a number of apps like Confluence, Asana, Evernote,
 
 * Or go to `Settings `in your sidebar → `Import`, then choose an app or file type.
 
+* Or, from the page you want to import into, click `•••` at the top right, open `More`, and select `Import`. `Import` and `Export` sit next to each other here, and they're in the same place on regular pages, full-page databases, and wiki homes.
+
 You can import several files in one go for PDFs, HTML, Markdown, Word (.docx), and plain text (.txt). CSV and ZIP use different import options, so you won’t be able to import multiple files at at the same time.
 
 **Track your import progress:**

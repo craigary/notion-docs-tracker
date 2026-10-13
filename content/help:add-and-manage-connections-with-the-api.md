@@ -29,9 +29,9 @@ Use the search bar or category filters to find the connection you're looking for
 
 Connections built with the API follow a similar permission system to the sharing permissions for Notion users. In order to use a connection in your workspace, you'll need to add it to the specific page where it will be active.
 
-* Navigate to a page and select `•••` at the top right.
+* Navigate to a page and select `•••` at the top right, then open `More`.
 
-* At the bottom of the pop-up, click `Add connections`.
+* In the `Connections` group, select `Add connections`.
 
 * In the resulting pop-up, search for and select the connection you would like to add to this page. You'll only see connections that have been created for and associated with this workspace.
 

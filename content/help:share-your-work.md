@@ -33,7 +33,9 @@ If you have multiple people working with you in Notion, you can quickly share an
 
 * **Drag a private page to a default teamspace in your sidebar.** This automatically shares it with everyone.
 
-- **Share a page's URL.&#x20;**&#x45;very page in Notion has its own unique URL you can use to share it on Slack or elsewhere. Go to `Share` at the top right and click `Copy link`. Only people who have access to the page can see it.
+* **Share a page's URL.&#x20;**&#x45;very page in Notion has its own unique URL you can use to share it on Slack or elsewhere. Go to `Share` at the top right and click `Copy link`. Only people who have access to the page can see it.
+
+**Note**: Sharing with everyone doesn’t include restricted members. To learn more, see [Who’s who in a workspace →](https://www.notion.com/help/whos-who-in-a-workspace)
 
 ## Share with the web
 

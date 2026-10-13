@@ -151,7 +151,7 @@ Select `Done` → `Generate` on an AI block to generate content based on your se
 
 ### Translate a page
 
-Go to `•••` at the top of the page → `Translate` and Notion AI will translate the page into your desired language. You can also open a chat with your Agent and select `Translate this page`.
+Go to `•••` at the top of the page, open `More`, and select → `Translate`. Notion AI will translate the page into your desired language. You can also open a chat with your Agent and select `Translate this page`.
 
 ## Notion AI for databases
 
@@ -183,7 +183,7 @@ Workspace owners on any Notion plan can go to `Settings` → `Notion AI` and adj
 
 * **AI Meeting Notes:** Turn on various settings for AI Meeting Notes, including audio storage, transcript deletion, and more. Learn more about these settings [here →](https://www.notion.com/help/ai-meeting-notes)
 
-* **Model controls:** <!-- -->Choose which AI models your team can use. Premium models are off until you turn them on.
+* **Model controls:** Choose which AI models your team can use. Premium models are off until you turn them on.
 
 * **Usage:&#x20;**&#x53;et how many [Notion credits](https://www.notion.com/help/category/notion-credits) each member can spend, and give specific people a higher limit.
 

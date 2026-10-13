@@ -197,9 +197,9 @@ Here are the basics for styling your writing in Notion. [Learn more about stylin
 
 [](//videos.ctfassets.net/spoqsaf9291f/7FHtchTPxtgNlNyS39OVEC/07ca028fa02045182dd3263efbff1c17/switch_fonts.mp4)
 
-* To change text size, go to `•••` and switch on `Small text`.
+* To change text size, go to `•••, open Appearance & layout,` and switch on `Small text`.
 
-* You can shrink the margins on any page and widen your content area by going to `•••` at the top right of your Notion window and toggling on `Full width`.
+* To widen your content area, click `•••` at the top right of your Notion window, open `Appearance & layout`, and turn on `Full width`.
 
 ## Arrange and modify content
 

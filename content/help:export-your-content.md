@@ -17,7 +17,7 @@ You can save any Notion page or database to your computer as a PDF file. This is
 
 ### On desktop
 
-1. Click the `•••` icon at the upper right corner of any Notion page.
+1. Click the `•••` icon at the upper right corner of any Notion page, then open `More`.
 
 2. Choose `Export` from the dropdown menu.
 
@@ -47,7 +47,7 @@ You can save any Notion page or database to your computer as a PDF file. This is
 
 You can export Notion pages as PDF from your phone with these steps:
 
-1. Tap the `•••` icon in the upper right corner of any page. Scroll down and select `Export`.
+1. Tap the `•••` icon in the upper right corner of any page, open `More`, then select `Export`.
 
 2. Customize the `Export format` and `Page format` any way you want.
 

@@ -69,7 +69,7 @@ Your Library can have several tabs, so the `Skills` tab may not be the first one
 
 ## Create a skill from an existing page
 
-From any page, select `•••` at the top, then select `Use as a skill`.
+From any page, select `•••` at the top, select `Use with AI`, then select `Use as a skill`.
 
 You can also ask Notion Agent to mark a page as a skill for you. Skill pages show a banner at the top, so you can tell them apart from regular pages.
 
@@ -163,7 +163,7 @@ From then on, every page created in the database becomes a skill. This works bes
 
 If you already have a page that explains how to do a repeatable task, move it into a skills database. The page becomes a skill and picks up the skill properties, including `Description`.
 
-1. Open the page and select `•••` → `Move to`.
+1. Open the page and select `•••`, then select `Move to`.
 
 2. Choose your skills database.
 
@@ -223,7 +223,7 @@ There are a few ways to remove a skill, depending on what you want:
 
 * **Remove a skill you added:** If you added a skill from the `Discover` tab and don't want it anymore, you can toggle it off in the `Skills` tab of your Library. This only removes the skill for your Agent. It stays available for everyone else.
 
-* **Turn a skill page back into a regular page:** Select `•••` at the top of the page → `Use with AI`, then uncheck `Use as AI skill`. The page and its content stay right where they are. It just stops being a skill.
+* **Turn a skill page back into a regular page:** Select `•••` at the top of the page, select `Use with AI`, then uncheck `Use as AI skill`. The page and its content stay right where they are. It just stops being a skill.
 
 ## Download a skill to a local agent
 

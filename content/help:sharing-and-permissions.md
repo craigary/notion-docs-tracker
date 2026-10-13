@@ -47,7 +47,7 @@ There are two ways to share Notion pages with any teamspace that you’re a memb
 
 * In your sidebar, drag a page into a teamspace.
 
-**Note:** Pages inside a default teamspace are accessible by everyone in your workspace. A default teamspace is a teamspace that everyone in a workspace must be part of by default.
+**Note:** Pages inside a default teamspace are accessible by everyone in your workspace (except restricted members). A default teamspace is a teamspace that everyone in a workspace must be part of by default.
 
 To find out if a given teamspace is a default teamspace:
 

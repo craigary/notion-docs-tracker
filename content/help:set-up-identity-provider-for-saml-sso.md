@@ -348,7 +348,7 @@ Your IdP must support the SAML 2.0 spec to be used with Notion. To set up your I
 
    * (Optional) `lastName`
 
-   * (Optional) `profilePicture`
+   * (Optional) `profilePhoto - `This must be a link to an image. When set, this replaces the user's Notion avatar when they sign in with a SAML SSO.
 
 5. Copy the IdP metadata URL or IdP metadata XML for next steps.
 

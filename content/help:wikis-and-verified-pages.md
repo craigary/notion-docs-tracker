@@ -19,9 +19,11 @@ Wikis, page owners, and verified pages can help you centralize, find, and update
 
 To turn a page into a wiki:
 
-1. Select `•••` at the top of the page.
+1. Select `•••` at the top of the page<!-- -->, then open `More`.
 
 2. Select `Turn into wiki`.
+
+**Note**: You can only turn a page into a wiki if it’s a standalone page that you have Full access to.
 
 Wikis come with three default views:
 
@@ -37,9 +39,11 @@ You can create additional views with other layouts like a calendar, timeline, or
 
 If you no longer want a page to be a wiki:
 
-1. Select `•••` at the top of the page.
+1. Select `•••` at the top of the page, then select `More`.
 
 2. Select `Undo wiki`.
+
+**Note**: Wiki home pages have a shorter `Appearance & layout` menu. They don't include `Full width`, `Table of contents`, or `Customize layout`.
 
 ## Verified pages and owners
 

@@ -29,7 +29,7 @@ Workspace owners can designate default teamspaces: all new and current workspace
 
 **Note:**
 
-* Turning a teamspace into a default will automatically add every member of the workspace to the teamspace.
+* Turning a teamspace into a default will automatically add every member of the workspace to the teamspace, except for restricted members. Learn more in [Who's who in a workspace ->](https://www.notion.com/help/whos-who-in-a-workspace)
 
 * If you turn a default teamspace into a regular teamspace, all workspace members will be removed.
 

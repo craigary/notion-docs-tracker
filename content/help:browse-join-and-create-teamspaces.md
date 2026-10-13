@@ -11,7 +11,7 @@ categoryKey: "category:meet-your-workspace"
 
 ## Browse teamspaces
 
-When you join a workspace on the Plus, Business, or Enterprise Plan, you'll automatically be added to any teamspaces that have been set as default. To see all other existing teamspaces in your workspace:
+When you join a workspace on the Plus, Business, or Enterprise Plan, you'll automatically be added to any teamspaces that have been set as default, unless you’re a restricted member. To see all other existing teamspaces in your workspace:
 
 1. In your left sidebar, click `••• More`.
 

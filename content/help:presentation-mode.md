@@ -29,7 +29,7 @@ You don't need to set anything up in advance, just add dividers to any existing 
 
 4. The first slide is always your page title (with icon, if set)
 
-5. Open the `•••` menu at the top right of the page and select **Present**
+5. Open the `•••` menu at the top right of the page, open `More`, and select **Present**
 
 ### Tips for creating slides
 
@@ -49,7 +49,7 @@ You don't need to set anything up in advance, just add dividers to any existing 
 
 There are two ways to start a presentation:
 
-* **Three-dot menu:** Open the `•••` menu at the top right of the page and select `Present`
+* **Three-dot menu:** Open the `•••` menu at the top right of the page, open `More`, and select `Present`
 
 * **Keyboard shortcut:** Press `⌘ + Option + P` on Mac or `Ctrl + Alt + P` on Windows/Linux
 

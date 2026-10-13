@@ -27,7 +27,7 @@ To build a layout on desktop or web:
 
 1. Open the database as a [full page (not inline)](https://www.notion.com/help/intro-to-databases#full-page-vs.-inline-databases) and select `•••` at the top.
 
-2. Select `Customize layout`. Use the page preview toggle under the database name to see how your layout changes will look for any page in the database.
+2. Open `Appearance & layout` and select `Customize layout`. Use the page preview toggle under the database name to see how your layout changes will look for any page in the database.
 
 To build a layout on a smartphone or tablet:
 

@@ -59,7 +59,9 @@ To turn an existing page into a teamspace:
 
    * **Teamspace members** will receive access to pages within the teamspace as determined by teamspace owners. They will not have access to teamspace settings.
 
-Toggle on the `Make default teamspace` option if you’d like every member of your workspace to be added to that teamspace by default. When you do this, all existing members in your workspace will be added right away, and all future members will be added when they join your workspace.
+Toggle on the `Make default teamspace` option if you’d like every member of your workspace to be added to that teamspace by default (except restricted members). When you do this, all existing members in your workspace will be added right away, and all future members will be added when they join your workspace.
+
+Restricted members aren't added to a default teamspace automatically, even existing ones. To give a restricted member access, add them to the teamspace directly or through a permission group. Learn more about [who's who in a workspace →](https://www.notion.com/help/whos-who-in-a-workspace)
 
 ### **Adding with an invite link**
 

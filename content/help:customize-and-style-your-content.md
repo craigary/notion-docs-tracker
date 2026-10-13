@@ -9,11 +9,23 @@ category: "Pages & blocks"
 categoryKey: "category:write-edit-and-customize"
 ---
 
+## What's in the ••• menu
+
+The `•••` menu at the top right of a page is where you change how a page looks and complete key actions on a page, including `Move to`, `Duplicate`, `Archive`, and more.
+
+Some related settings are grouped together.
+
+* **Appearance & layout**: font, small text, full width, table of contents, page discussions, inline comments, and layout controls.
+
+* **Use with AI**: page-level AI actions, like setting the page as a skill or as instructions.
+
+* **More**: additional actions like `Present`, `Translate`, `Import`, `Export`, and `Turn into wiki`.
+
+The options listed in the menu change based on the page you're on and the permissions you have on that page, so you’ll only see the options that apply to that page.
+
 ## Text styling
 
-Notion is equipped with all the text styling features you've come to expect from any word processor — with a few more added in. Highlight any text to see this menu:
-
-![Edit bar](https://images.ctfassets.net/spoqsaf9291f/LF7MIVlU6X3mkKHAWqTyG/f31ce54cfbd2a7fe677193e876b5a25b/createyourfirstpage3.png)
+Notion is equipped with all the text styling features you've come to expect from any word processor — with a few more added in. Highlight any text to see the text edit menu.
 
 Of course, all the usual shortcuts apply, like `cmd/ctrl` + `B` for **bold** and `cmd/ctrl` + `shift` + `S` for strikethrough. But we've thrown in a couple others:
 
@@ -59,13 +71,9 @@ At the beginning of any line of text:
 
 ## Font and size
 
-* Choose from three different typography styles for every page you produce — selected to match most writing moods! Just click `•••` at the upper right of your page and pick `Default`, `Serif`, or `Mono`. All the text on your page will change accordingly.
+* Choose from three different typography styles for every page you make, selected to match most writing moods! Click `•••` at the upper right of your page, open `Appearance & layout`, and pick `Default`, `Serif`, or `Mono`. All the text on your page will change accordingly.
 
-[](//videos.ctfassets.net/spoqsaf9291f/7FHtchTPxtgNlNyS39OVEC/07ca028fa02045182dd3263efbff1c17/switch_fonts.mp4)
-
-* This same menu includes the `Small text` toggle. When you turn it on, the text on your page shrinks. Helpful if you want to fit more on a page or if you like the way it looks.
-
-[](//videos.ctfassets.net/spoqsaf9291f/3L32EcLaAGKKZ2RyexB0Qo/f98be3065b8e10e2ed931aa121a9895a/small_text.mp4)
+* This same <!-- -->Appearance & layout <!-- -->menu includes the `Small text` toggle. When you turn it on, the text on your page shrinks. This helps if you want to fit more on a page, or if you like the way it looks.
 
 ## Colors
 
@@ -73,53 +81,39 @@ Spice up your text by turning it a color or giving it a color highlight. There a
 
 * Give in-line text a color or highlight from the same menu you'd use to bold, italicize or comment — just highlight any text and choose a color from the `A` dropdown:
 
-[](//videos.ctfassets.net/spoqsaf9291f/EBaP61Azr1TgpqH2h2s9a/91f34cf6c16ae4b4352cc01f35d4d055/change_text_color.mp4)
-
 * You can also turn an entire block of text the same color. The easiest way to do this is to type that handy `/` followed by the name of the color you want to write in, like /red.
-
-[](//videos.ctfassets.net/spoqsaf9291f/53xm0DtatGp6GqL3p2rC9y/0ac31c06ba22f62045a6c7918b30946b/change_block_color.mp4)
 
 * You can also change the color of a text block by typing `cmd/ctrl` + `/` at any point and then the name of the color you want followed by `enter`.
 
-**Tip:&#x20;**&#x55;sing the same color over and over? Apply the last color you used with the shortcut `cmd/ctrl` + `shift` + `H`.
+**Tip:&#x20;**&#x55;sing the same color over and over? Apply the last color you used with the shortcut `cmd/ctrl` + `shift` + `H`.
 
 ## Page width
 
-You can shrink the margins on any page and widen your content area by going to `•••` at the top right of your Notion window and toggling on `Full width`.
+You can shrink the margins on any page and widen your content area. Click `•••` at the top right of your Notion window, open `Appearance & layout`, and turn on `Full width`.
 
-![Full width page](https://images.ctfassets.net/spoqsaf9291f/3gpf9eiK5UaBSEy9xp5RXc/5560bcd04fc92f3175668641d5c02d83/Full_width_page.png)
+## Customize page discussions
 
-## Customize backlinks and comments
+The top of any page in Notion can include page discussions, which capture conversations between you, your teammates, agents, and workers. You can use them to tag other teammates and agents, ask questions, trigger agents to complete actions on that page, and more.
 
-The top of any page in Notion can include two things: backlinks and comments.
+To customize page discussions for a **non-database page**:
 
-* Backlinks indicate all the pages that link to the current page so you can easily navigate between them.
+1. Click the `•••` button at the top right of the page and select `Appearance & layout.`
 
-![Backlinks](https://images.ctfassets.net/spoqsaf9291f/3IX7zRaFYe6i862Pfqv4om/93b8f3f81219e44a32462feeddeeaddc/Backlinks.png)
+2. Turn<!-- --> on or off `Page discussions`.
 
-* Comments capture conversation between you and your teammates. You can use them to tag each other, ask questions, provide feedback and more.
+**Tip**: On phones and tablets, and in some older views, you'll still find these under `Customize page` in the `•••` menu.
 
-![Page comments](https://images.ctfassets.net/spoqsaf9291f/2A91UqGVliTDUpCN4hqc38/842be47c23cfb9a8e5e4b54eada9b976/Page_comments.png)
+To customize page discussions for a **database page**:
 
-To customize backlinks and comments for a **non-database page**:
+1. Click `•••` at the top right of the page, open `Appearance & layout`, and select `Customize layout`.
 
-1. Click the `•••` button at the top right of the page and select `Customize page`.
+2. Click on the `Heading` module and toggle on or off `Page discussions`.
 
-2. In the window that opens, toggle on or off `Show backlinks`.
+3. Click on the settings button next to your database’s name at the top of the page. Decide if you’d like inline discussions on your page to be displayed as they are by `Default` (with the discussion visible alongside the person or agent's profile photo), or displayed in a `Minimal` way (with only the number of discussions showing, which you can click to expand).
 
-3. Toggle on or off `Page discussions`.
+4. You can also decide if you’d like your [page discussions](https://www.notion.com/help/comments-mentions-and-reminders) that are added at the page level to be `Expanded` (with all comments showing) or `Off` (not showing).
 
-To customize backlinks and comments for a **database page**:
-
-1. Click `•••` at the top right of the page and select `Customize layout`.
-
-2. Click on the `Heading` module and toggle on or off `Show backlinks`.
-
-3. Click on the settings button next to your database’s name at the top of the page. Decide if you’d like inline comments on your page to be displayed as they are by `Default` (with the comment visible alongside the commenter’s profile photo), or displayed in a `Minimal` way (with only the number of comments showing, which you can click to expand).
-
-4. You can also decide if you’d like your [page discussions](https://www.notion.com/help/comments-mentions-and-reminders), or comments that are added at the page level, to be `Expanded` (with all comments showing) or `Off` (not showing).
-
-5. When you're done adjusting these settings, select `Apply to all pages` at the top of the page. Note that your backlink and comment customizations will apply to every page in the database you're in.
+5. When you're done adjusting these settings, select `Apply to all pages` at the top of the page. Note that your discussion customizations will apply to every page in the database you're in.
 
 ## Customize database pages
 
@@ -137,8 +131,6 @@ You can add a callout to a page in a few ways:
 
 * Type `/callout` in your page and press `enter`.
 
-[](//videos.ctfassets.net/spoqsaf9291f/6pOIPSj971TgfZmUtast8j/ee2eab5626219508005c8957abb1efe6/add_callout.mp4)
-
 You can move your callout block around your page by hovering over it and using the `⋮⋮` that appears as a handle to drag and drop it. Callouts can even be placed in a column.
 
 ### Style your callout
@@ -153,13 +145,9 @@ You can move your callout block around your page by hovering over it and using t
 
 * Click `🔀` to generate random icon options until you find one you like!
 
-[](//videos.ctfassets.net/spoqsaf9291f/4P4ifWK8xr6Lba3MVuDRqj/b606bf24bc25bdd72bcc791a2d7b5293/callout_emoji.mp4)
+- Change the color of the callout block itself (or the text inside the block) by clicking the `⋮⋮` icon that appears to the left on hover.
 
-* Change the color of the callout block itself (or the text inside the block) by clicking the `⋮⋮` icon that appears to the left on hover.
-
-* Select `Color` and choose from the background color menu to change the entire block's color. Choosing `Default` turns the block white with a light gray outline.
-
-[](//videos.ctfassets.net/spoqsaf9291f/6JwKstqBvPbzpMOwLwAwn6/cc96ec1123ee537a828201119a0301be/callout_color.mp4)
+- Select `Color` and choose from the background color menu to change the entire block's color. Choosing `Default` turns the block white with a light gray outline.
 
 * Selecting a non-black color for the text turns the block white with a light gray outline.
 
@@ -171,9 +159,9 @@ Every page can have its own icon — either an emoji or an image you upload your
 
 To add or change a page icon:
 
-1. Hover over the top of any page and click `Add icon` <!-- -->or click your existing icon.
+1. Hover over the top of any page and click `Add icon` or click your existing icon.
 
-2. Select<!-- --> `🔀` to cycle through randomly chosen emojis until you find one you like. Alternatively, s<!-- -->elect an emoji from the `Emoji` tab, an icon from the `Icon` tab, or your own image or image URL using the `Upload` tab. Uploaded icons should ideally be 280 x 280 pixels.
+2. Select `🔀` to cycle through randomly chosen emojis until you find one you like. Alternatively, select an emoji from the `Emoji` tab, an icon from the `Icon` tab, or your own image or image URL using the `Upload` tab. Uploaded icons should ideally be 280 x 280 pixels.
 
 3. When you upload a file to turn into a page icon, you’ll also have the option to turn it into a custom emoji in your workspace’s [emoji library](https://www.notion.com/help/workspace-settings#emoji). Just check the box next to `Add to workspace Emoji library` while you’re uploading your file. You can then use your custom emoji as a page icon, a reaction, or inline in a page.
 
@@ -189,8 +177,6 @@ You can also use emojis inline throughout your page! Type : followed by the name
 
 **Note:** Custom emojis won’t render in mobile widgets.
 
-[](//videos.ctfassets.net/spoqsaf9291f/7ien4kYTdvkX09Ct8KbIuH/d9955a9bb7e3e8bda951e9cc85a47f86/icon.mp4)
-
 ## Cover art
 
 Cover art appears as a banner image at the top of any page, bringing some elegance, color, and style (even to databases).
@@ -204,8 +190,6 @@ Cover art appears as a banner image at the top of any page, bringing some elegan
 * Click `Upload` to add your own image from your computer, or click `Link` to paste in the URL of an image from the web.
 
 * You can also search for and choose an image from [Unsplash](http://unsplash.com/), a library of 1,000,000+ beautiful, usable stock photos.
-
-[](//videos.ctfassets.net/spoqsaf9291f/z43kCx4mcro72pKbvebWm/c6a372ac3f36e55ea80f4dfe17dc5fb9/page_cover_compressed__1_.mp4)
 
 
 ## FAQs
