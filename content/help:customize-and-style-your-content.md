@@ -73,7 +73,7 @@ At the beginning of any line of text:
 
 * Choose from three different typography styles for every page you make, selected to match most writing moods! Click `•••` at the upper right of your page, open `Appearance & layout`, and pick `Default`, `Serif`, or `Mono`. All the text on your page will change accordingly.
 
-* This same <!-- -->Appearance & layout <!-- -->menu includes the `Small text` toggle. When you turn it on, the text on your page shrinks. This helps if you want to fit more on a page, or if you like the way it looks.
+* This same Appearance & layout menu includes the `Small text` toggle. When you turn it on, the text on your page shrinks. This helps if you want to fit more on a page, or if you like the way it looks.
 
 ## Colors
 
@@ -99,7 +99,7 @@ To customize page discussions for a **non-database page**:
 
 1. Click the `•••` button at the top right of the page and select `Appearance & layout.`
 
-2. Turn<!-- --> on or off `Page discussions`.
+2. Turn on or off `Page discussions`.
 
 **Tip**: On phones and tablets, and in some older views, you'll still find these under `Customize page` in the `•••` menu.
 
