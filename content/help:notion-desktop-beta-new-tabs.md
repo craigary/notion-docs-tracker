@@ -21,7 +21,7 @@ With new tabs, all the tabs in a window share one running copy of Notion. Here's
 
 * Your open tabs keep their place, including how far you scrolled and what you had selected.
 
-* Notion uses less memory when you have multiple tabs open.
+* On average, Notion uses less memory when you have multiple tabs open.
 
 ## How to join
 

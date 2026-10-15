@@ -43,6 +43,16 @@ On desktop, you can use search and [Notion AI](https://www.notion.com/help/notio
 
   * On Windows: Right-click on the Notion icon in the task bar → select `Launch Preferences` → `Open Notion at Login` to remove the check mark beside it.
 
+## Desktop beta
+
+Want to try new desktop features early? The desktop beta turns on a new way tabs work. All the tabs in a window share one running copy of Notion, so switching tabs is faster, the sidebar stays put, and Notion uses less memory.
+
+In the beta, each window holds one workspace. A window with more than one workspace splits apart, and tab groups become their own windows. Your open tabs carry over, and your classic layout is saved so you can switch back.
+
+To join, click `Try Desktop Beta` in the tab bar when you see it, or go to `Settings` → `Preferences` → `Desktop beta`. To leave, click the Beta button (the bug icon) in the tab bar and choose `Leave beta`. Notion restarts each time.
+
+To learn what changes for your windows and tabs, see [Notion desktop beta: new tabs →](https://www.notion.com/help/notion-desktop-beta-new-tabs)
+
 ## Download the app
 
 ### Mac desktop app

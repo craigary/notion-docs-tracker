@@ -1,7 +1,7 @@
 ---
 title: "Notion beta program"
 emoji: null
-description: "Get early access to new mobile features before anyone else, and help shape the future of Notion’s iOS & Android apps! Compared to the standard mobile apps, you’ll receive bug fixes and updates much quicker 📲"
+description: "Get early access to new features before anyone else, and help shape the future of Notion! Compared to the standard apps, you’ll receive bug fixes and updates much quicker."
 url: "https://www.notion.com/help/notion-for-mobile-beta-version"
 key: "help:notion-for-mobile-beta-version"
 coverImage: null
@@ -65,7 +65,27 @@ Feedback is a gift! Help Notion’s engineering team make our mobile apps even b
 
 Go to [Notion’s app listing in the Google Play Store here](https://play.google.com/store/apps/details?id=notion.id\&hl=en_US\&gl=US). Scroll to the bottom of the page until you see the section titled “You’re a beta tester.” Tap the “Leave” button to be removed from the beta.
 
-## Becoming a mobile beta tester
+## Notion beta for desktop
+
+The desktop beta is for the Notion app on Mac and Windows. It lets you try new desktop features early, starting with a new way tabs work. Joining is your choice, and you can leave whenever you want. Notion restarts when you join or leave.
+
+### How to sign up
+
+* The first time it's available, click `Try Desktop Beta` in the tab bar, then choose `Restart and try now`.
+
+* You can also join any time from `Settings` → `Preferences` → `Desktop beta`.
+
+### How to submit feedback
+
+Click the Beta button (the bug icon) in the tab bar, then choose `Report a bug` or `Send feedback`. This opens an email that's already filled in with your app version and system details.
+
+### How to leave the beta
+
+Click the Beta button in the tab bar and choose `Leave beta`, or turn off `Desktop beta` in `Settings` → `Preferences`. Notion restarts and your classic tabs come back.
+
+To learn what changes for your windows and tabs, see our Notion desktop beta: new tabs article.
+
+## Becoming a beta tester
 
 Participation is entirely voluntary. Before you sign up, please keep in mind that by accessing and using our beta apps, you are acknowledging and accepting any risks from using an app that has not yet been released to the general public. For example, beta apps can contain more bugs than our publicly available products.
 

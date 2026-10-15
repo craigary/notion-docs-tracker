@@ -233,6 +233,8 @@ If you’re using Notion’s desktop app, you can manage settings for the app by
 
 * If you want any links to Notion pages to open in your web browser instead of the desktop app, toggle on `Open Notion links in browser`. You’ll need to go to Notion in your browser and ensure that `Open links in desktop app` is turned off in your settings.
 
+* Turn on `Desktop beta` to try new desktop features early, like a new way tabs work. Turning it on restarts Notion and joins the beta. Turning it off restarts Notion and brings back your classic tabs and tab groups. To learn more, see [Notion desktop beta: new tabs →](https://www.notion.com/help/notion-desktop-beta-new-tabs)
+
 ## View history
 
 If you don’t want your account to be recorded in page analytics, you can opt out altogether or for specific pages.
