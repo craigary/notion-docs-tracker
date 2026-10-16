@@ -27,7 +27,9 @@ Your sidebar is made of tabs. Each tab holds:
 
 * **Sections** that list your content, like Recents, Favorites, and Teamspaces.
 
-Every tab comes set up for you. If you want a different setup, you can show, hide, and reorder what's in a tab, add and remove tabs, and put any tab back the way it started. [Learn how to customize your sidebar →](https://www.notion.com/help/customize-your-sidebar)
+Every tab comes set up for you. Some tabs are set up by Notion, and your workspace can set up tabs for you too. These are called presets. To learn how your workspace sets these up, see [Manage sidebar presets for your workspace →](https://www.notion.com/help/manage-sidebar-presets-for-your-workspace)
+
+If you want a different setup, you can show, hide, and reorder what's in a tab, add and remove tabs, and put any tab back the way it started. [Learn how to customize your sidebar →](https://www.notion.com/help/customize-your-sidebar)
 
 Two things stay in one spot. Your inbox sits in the top-right corner, and your workspace name sits at the bottom. Everything in between is yours to arrange.
 

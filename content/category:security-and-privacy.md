@@ -6,19 +6,18 @@ key: "category:security-and-privacy"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/3YdwMwZLM4TOOtw3zhRapu/921aab4d60915dab285934890cec92af/trust_and_safety_thumb.png"
 ---
 
-1 help:security-and-privacy
-2 help:privacy
-3 help:gdpr-at-notion
-4 help:custom-agents-security-features
-5 help:security-best-practices-for-agent-connections
-6 help:allowlist-ip
-7 help:data-accessible-by-your-workspace-owner
-8 help:report-inappropriate-content
-9 help:how-notion-protects-against-prompt-injection-risks
-10 help:dormant-account-policy
-11 help:shared-responsibilities-model
-12 help:how-to-protect-yourself-from-malvertising
-13 help:data-residency
+1 help:privacy
+2 help:gdpr-at-notion
+3 help:custom-agents-security-features
+4 help:security-best-practices-for-agent-connections
+5 help:allowlist-ip
+6 help:data-accessible-by-your-workspace-owner
+7 help:report-inappropriate-content
+8 help:how-notion-protects-against-prompt-injection-risks
+9 help:dormant-account-policy
+10 help:shared-responsibilities-model
+11 help:how-to-protect-yourself-from-malvertising
+12 help:data-residency
 
 ## Guides
 

@@ -9,15 +9,17 @@ category: "Connections"
 categoryKey: "category:connections"
 ---
 
-A managed GitHub sync creates a **GitHub Pull Requests** database from repositories you choose. Notion imports existing pull requests and checks GitHub for updates in the background.
+A managed GitHub sync brings the GitHub work you choose into Notion: pull requests, issues, or both. Notion imports your existing records and checks GitHub for updates in the background.
 
-This guide covers **Database sync** in your GitHub connection settings. Synced properties are read-only. Make changes to pull requests in GitHub.
+This guide covers **Database sync** in your GitHub connection settings. Synced properties are read-only. Make changes to pull requests and issues in GitHub.
 
 **Note:** This GitHub integration replaces our [legacy version](https://www.notion.com/help/github-legacy). To keep your external data current, **set up your new syncs by October 30, 2026**. Your existing synced databases will remain in Notion, but they will stop updating after that date.
 
+If you used the legacy sync to bring in issues, you can sync issues with this version too.
+
 ## What you can sync
 
-You can sync pull requests from multiple repositories available through a GitHub App installation. The selected repositories feed into one Notion database.
+Choose what to bring into Notion from the repositories available through a GitHub App installation: pull requests, issues, or both. The repositories you select feed into Notion.
 
 | Information  | Properties                                                             |
 | ------------ | ---------------------------------------------------------------------- |
@@ -31,7 +33,7 @@ The **Author (GitHub)** property contains the GitHub username. **Author** is a N
 
 The **Description** property syncs the pull request’s description as plain text, copied exactly as written in GitHub. It isn’t rendered as Markdown.
 
-This sync doesn’t include GitHub issues, comments, assignees, or review details.
+You can sync GitHub issues on their own or alongside pull requests. This sync doesn't include pull request comments or review details.
 
 ## Before you start
 
@@ -59,19 +61,21 @@ Both your GitHub account and the app installation need access. Your GitHub organ
 
 5. Select the repositories to include.
 
-6. Choose all available history or a history window.
+6. Name your sync and choose what to bring into Notion: pull requests, issues, or both.
 
-7. Select **Create sync**.
+7. Choose all available history or a history window.
 
-Notion creates **GitHub Pull Requests** in your **Private** sidebar section and starts importing matching pull requests.
+8. Select **Create sync**.
+
+Notion creates the synced database in your Private sidebar section and starts importing matching records.
 
 **Tip:&#x20;**&#x41; repository is missing? Use **Manage access on GitHub** to check which repositories the app can access. If installation requires approval, ask a GitHub organization owner to approve it.
 
 ## How GitHub syncs run
 
-During the first import, Notion reads pull requests from each selected repository, starting with the most recently updated records and working through the selected history.
+During the first import, Notion reads pull requests and issues you chose from each selected repository, starting with the most recently updated records and working through the selected history.
 
-After the import, Notion regularly checks each repository for new and updated pull requests. Changes such as a new label, a closed pull request, or a merge update the corresponding properties in Notion.
+After the import, Notion regularly checks each repository for new and updated records. Changes such as a new label, a closed pull request, or a reopened issue will update the matching properties in Notion.
 
 The sync runs even when you close Notion. Large repositories, GitHub request limits, and temporary service issues can delay updates. Check the sync’s status for progress or errors.
 
@@ -81,13 +85,15 @@ Choose **All history**, **Last 30 days**, **Last 90 days**, or **Last 365 days**
 
 The window uses the pull request’s **Updated At** time. It doesn’t depend on when the pull request was created or whether it’s open, closed, or merged.
 
-For example, an open pull request that hasn’t changed in more than 90 days can fall outside a 90-day window.
+For example, an open pull request or issue that hasn’t changed in more than 90 days can fall outside a 90-day window.
 
-**Tip: Older pages can be removed.** When a pull request falls outside the selected window, its page is removed from the synced database, including values in your own Notion properties. Use all available history if you need to retain unchanged pull requests.
+**Tip: Older pages can be removed.** When a pull request or issue falls outside the selected window, its page is removed from the synced database, including values in your own Notion properties. Use all available history if you need to retain unchanged pull requests.
 
 ## Change or pause a sync
 
 Open the sync in **Settings** → **Connections** → **GitHub** → **Database sync**.
+
+* **Add or remove issues or pull requests**: Change what the sync brings in and select Save changes. Adding a type imports its matching records. Removing a type removes those pages. The records you've already imported for the types you keep stay in place.
 
 * **Add repositories:** Edit the selection and select **Save changes**. Notion imports matching pull requests from the added repositories.
 
@@ -101,11 +107,11 @@ Open the sync in **Settings** → **Connections** → **GitHub** → **Database 
 
 Before removing repositories or shortening history, preserve any Notion-only information you need from the affected pages.
 
-## Work with pull requests in Notion
+## Work with pull requests and issues in Notion
 
-Create views by repository, state, author, or label. Add your own properties to track release readiness or connect pull requests with your team’s planning process. Your own property values stay in Notion.
+Create views by repository, state, author, or label. Add your own properties to track release readiness or connect pull requests and issues with your team’s planning process. Your own property values stay in Notion.
 
-To change a GitHub property, open the pull request using **GitHub URL** and make the change in GitHub.
+To change a GitHub property, open the record using **GitHub URL** and make the change in GitHub.
 
 The database starts as private. If you share it, Notion’s sharing settings determine who can see the imported data. Viewers don’t each need access to the source repository, so review the database’s permissions before sharing private repository information.
 
@@ -123,9 +129,9 @@ Open the sync’s repository settings, review the repository selection, and save
 
 A GitHub username doesn’t always have an available public email that matches a Notion workspace member. Use **Author (GitHub)** to identify the author when the person property is empty. Changes to an author’s email or workspace membership may not refresh older synced pull requests automatically.
 
-### A pull request is missing
+### A pull request or issue is missing
 
-Confirm that its repository is selected, that its last update is within the history window, and that your Notion view isn’t filtering it out. The first import may still be running.
+Confirm that its type is included in the sync, that its repository is selected, that its last update is within the history window, and that your Notion view isn’t filtering it out. The first import may still be running.
 
 ### The database has stopped updating
 

@@ -33,6 +33,16 @@ Each result also shows where the setting lives, like *Workspace / General*, so y
 
 * Some settings may not show up in search yet. More are being added over time.
 
+## Sidebar
+
+If you're a workspace admin, you can set up ready-made sidebar tabs for your workspace, called presets. You choose which tabs new members get automatically and which ones they can add themselves.
+
+1. Go to `Settings` in your sidebar.
+
+2. Select `Sidebar`.
+
+For the full steps, see [Manage sidebar presets for your workspace →](https://www.notion.com/help/manage-sidebar-presets-for-your-workspace)
+
 ## Change your workspace name and icon
 
 To change your workspace name and icon:

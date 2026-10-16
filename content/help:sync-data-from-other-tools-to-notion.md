@@ -17,7 +17,7 @@ Notion manages these syncs so you can connect an account and use synced database
 
 | Connection | Data you can sync                                     | Databases created                                                |
 | ---------- | ----------------------------------------------------- | ---------------------------------------------------------------- |
-| GitHub     | Pull requests from selected repositories              | Pull Requests                                                    |
+| GitHub     | Pull requests and issues from selected repositories   | Depends on what you choose: pull requests, issues, or both       |
 | Jira       | Spaces and work items from selected Jira Cloud spaces | Jira Spaces and Jira Work Items                                  |
 | Salesforce | Accounts, contacts, and opportunities                 | Accounts, Contacts, and/or Opportunities, depending on selection |
 
@@ -45,7 +45,7 @@ GitHub Sync and Jira Sync require a Business plan (or the Mobile Business add-on
 
 3. Connect an account and complete the authorization steps for that tool.
 
-4. Choose the repositories, spaces, or object types you want to sync.
+4. Choose the repositories, spaces, or object types you want to sync. For GitHub, you also choose whether to bring in pull requests, issues, or both.
 
 5. Choose how much history to include. For sources that offer custom properties, such as Jira and Salesforce, you can also choose which custom properties to include in your sync.
 
@@ -121,7 +121,7 @@ Use a Notion Worker when you need to build a custom sync, such as importing from
 | Customize how data is fetched              | Use the built-in sync behavior.                        | Implement the source requests and sync behavior your workflow needs. |
 | Maintain the sync                          | Notion maintains the built-in connection logic.        | Your team maintains the Worker code; Notion runs the Worker.         |
 
-For example, use a managed GitHub sync to track pull requests in Notion. Consider a Worker if you need a custom source, additional record types, or calculations that combine data before import.
+For example, use a managed GitHub sync to track pull requests and issues in Notion. Consider a Worker if you need a custom source, additional record types, or calculations that combine data before import.
 
 ## Troubleshoot a sync
 

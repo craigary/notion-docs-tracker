@@ -33,11 +33,11 @@ More apps will be supported in the future!
 
 ### **Jira**
 
-Learn how to set up a synced database for Jira and what else you can do with our Jira <!-- -->connection<!-- --> [here →](https://www.notion.com/help/jira#synced-databases)
+Learn how to set up a synced database for Jira and what else you can do with our Jira connection [here →](https://www.notion.com/help/jira#synced-databases)
 
 ### **GitHub**
 
-Learn how to set up a synced database for GitHub and what else you can do with our GitHub <!-- -->connection<!-- --> [here →](https://www.notion.com/help/github#create-a-synced-database)
+Set up a GitHub sync to bring pull requests, issues, or both into Notion, and choose what to include during setup. Learn how in [Connect GitHub to Notion →](https://www.notion.com/help/github)
 
 ### **Asana**
 

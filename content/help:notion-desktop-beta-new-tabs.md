@@ -11,6 +11,10 @@ categoryKey: "category:notion-apps"
 
 The Notion desktop beta allows you to try new Notion Mac and Windows desktop features early, and share your feedback to help us improve Notion. Joining is your choice, and you can leave at any time. This doesn't change Notion on the web or on your phone.
 
+Before joining a desktop beta, make sure your desktop app is updated to version 7.39.0 or later. You can check for desktop app updates from Notion in the Mac menu bar or File in the Windows menu bar.
+
+You may also need to refresh Notion’s client inside the app. On Mac, press `Command + Shift + R` to refresh the client. This only refreshes the client, and doesn't update the desktop app, so you may need to do both.
+
 ## New tabs beta
 
 With new tabs, all the tabs in a window share one running copy of Notion. Here's what that means day to day:

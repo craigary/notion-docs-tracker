@@ -21,6 +21,12 @@ You can show, hide, and reorder both, in any tab. Each tab can hold up to 25 sho
 
 A few parts stay put. Your Inbox is always in the top-right corner, and your workspace switcher is always at the bottom. Everything in between is yours to arrange.
 
+## Where your tabs come from
+
+Some tabs you add yourself. Others come from your workspace. An admin can set up ready-made tabs called presets. You get some presets automatically, and you can add others yourself from `Add tab`.
+
+However a tab got there, it's yours to change. You can show or hide what's in it, remove it, or reset it. To learn how your workspace sets these up, see [Manage sidebar presets for your workspace →](https://www.notion.com/help/manage-sidebar-presets-for-your-workspace)
+
 ## Show, hide, and reorder what's in a tab
 
 1. Open the tab you want to change.
@@ -39,9 +45,23 @@ Add a tab for work you come back to often, like meetings or a project. Remove th
 
 * To add a tab, select `+` next to your tabs, then pick what the tab should hold. You need to enter customization mode first before the + button appears next to the tabs.
 
+* When you select `+`, you'll also see any optional tabs your workspace offers. Pick one to add it.
+
 * To delete a tab, click it again once it's the open tab, or right-click it, then select `Delete tab`.
 
 Removing a tab doesn't delete any pages. You can add the tab again whenever you want. Your sidebar can have up to six tabs. You can't delete your last tab.
+
+You can remove a tab your workspace added, just like any other tab. If you want it back later, add it again from `Add tab`.
+
+## Reset a tab to how it started
+
+If you changed a tab and want it back the way it started, you can reset it.
+
+1. Open the tab.
+
+2. Click the tab again, then select `Reset tab`.
+
+The tab goes back to the shortcuts and sections it came with. If the tab came from a preset, it goes back to that preset. Your pages and content aren't affected.
 
 ## Pin a database view to your sidebar
 
@@ -74,4 +94,14 @@ You can keep a page in your sidebar without adding it to Favorites.
 
 ### Does customizing my sidebar change what my team sees?
 
-No. Your sidebar setup is yours alone.
+No. Your sidebar setup is yours alone. Changing your own sidebar never changes anyone else's.
+
+
+### Where did this tab come from, and can I remove it?
+
+Some tabs come from your workspace. An admin can set up tabs for everyone, or offer tabs you can add yourself. You can change or remove a tab from your workspace like any other tab.
+
+
+### I changed a tab. How do I get it back?
+
+Open the tab, click it again, and select `Reset tab`. It goes back to how it started. If it came from a preset, it goes back to that preset.

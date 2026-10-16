@@ -14,13 +14,13 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/2HM5BPlsww5fF5gJDpI71B/94
 6 help:connected-properties
 7 help:slack
 8 help:github
-9 help:connect-gitlab
-10 help:jira
-11 help:connect-asana
-12 help:manage-who-can-create-database-syncs
-13 help:microsoft-teams-notifications
-14 help:salesforce
-15 help:sync-data-from-other-tools-to-notion
+9 help:sync-data-from-other-tools-to-notion
+10 help:connect-asana
+11 help:manage-who-can-create-database-syncs
+12 help:microsoft-teams-notifications
+13 help:salesforce
+14 help:connect-gitlab
+15 help:jira
 
 ## Video
 
