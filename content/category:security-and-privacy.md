@@ -14,10 +14,10 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/3YdwMwZLM4TOOtw3zhRapu/92
 6 help:data-accessible-by-your-workspace-owner
 7 help:report-inappropriate-content
 8 help:how-notion-protects-against-prompt-injection-risks
-9 help:dormant-account-policy
-10 help:shared-responsibilities-model
-11 help:how-to-protect-yourself-from-malvertising
-12 help:data-residency
+9 help:data-residency
+10 help:dormant-account-policy
+11 help:shared-responsibilities-model
+12 help:how-to-protect-yourself-from-malvertising
 
 ## Guides
 
