@@ -57,6 +57,8 @@ Use the table below as a starting point:
 
 **
 
+Estimate your Custom Agent’s credit needs
+
 * Your actual Custom Agent provides the most accurate estimate of your credit needs. After each run, the credits dashboard shows exact usage.
 
 * For best results:
@@ -69,7 +71,7 @@ Use the table below as a starting point:
 
 * These estimates are based on current usage data. As we improve agent efficiency, costs are expected to decrease over time. We'll update these benchmarks regularly.
 
-* For more tips on managing credit usage, see an<!-- --> [admin’s guide to getting started with Custom Agents →](https://www.notion.com/help/guides/admin-guide-to-getting-started-with-custom-agents)
+* For more tips on managing credit usage, see an [admin’s guide to getting started with Custom Agents →](https://www.notion.com/help/guides/admin-guide-to-getting-started-with-custom-agents)
 
 
 ## FAQs
