@@ -1,7 +1,7 @@
 ---
 title: "Microsoft SharePoint & OneDrive AI Connector (legacy)"
 emoji: null
-description: "Connect SharePoint & OneDrive to Notion AI."
+description: "Connect your own Microsoft account to use SharePoint and OneDrive with Notion AI."
 url: "https://www.notion.com/help/notion-ai-connector-for-microsoft-sharepoint-and-onedrive"
 key: "help:notion-ai-connector-for-microsoft-sharepoint-and-onedrive"
 coverImage: null
@@ -9,11 +9,11 @@ category: "Notion AI Connectors"
 categoryKey: "category:notion-ai-connectors"
 ---
 
-**This legacy connector will stop working on October 31, 2026. Upgrade to the new connector before that date.**
+**This legacy connector will stop working on October 31, 2026. Upgrade to the new connector before that date. Learn how in&#x20;**[**Connect SharePoint and OneDrive to Notion Agents →**](https://www.notion.com/help/connect-sharepoint-and-onedrive-to-notion-agents)****
 
-Beginning November 1, 2026, the legacy workspace-level connector will no longer provide SharePoint and OneDrive results in Notion AI. Each user must connect their own Microsoft account using the steps above, even if a workspace administrator has already connected the legacy connector or approved the Microsoft app.
+Starting November 1, 2026, the legacy workspace-level connector will no longer provide SharePoint or OneDrive results in Notion AI. Each person must connect their own Microsoft account, even if a workspace administrator has already connected the legacy connector or approved the Microsoft app.
 
-Once you connect, Notion AI uses your personal live connection. Your administrator’s previous site selection does not limit that connection. If you haven’t connected by the cutoff, SharePoint access in Notion AI will be unavailable until you complete setup.
+After you connect, Notion AI uses your personal live connection. Your administrator’s previous site selection won’t limit your connection. If you haven’t connected by October 31, 2026, SharePoint access in Notion AI will be unavailable until you set up your connection.
 
 The SharePoint and OneDrive AI Connector is a single Microsoft app and integration that gives Notion AI access to both SharePoint and OneDrive data.
 

@@ -17,7 +17,9 @@ If you're a Workspace Owner, this article will show you how to approve Notion wo
 
 ## How it works
 
-Workspace Owner can configure an on-premises or cloud-based proxy server to intercept traffic to [notion.so](http://notion.so/). The proxy inserts a new HTTP header (X-Notion-Allowed-Workspaces) that lists the workspaces your employees can access.
+Workspace Owners can set up an on-premises or cloud-based proxy server to intercept traffic to `notion.com` and its subdomains (`*.notion.com`). The proxy adds an HTTP header (`X-Notion-Allowed-Workspaces`) that lists the workspaces your team can use.
+
+**Point your proxy at the right addresses.** Apply the header to notion.com and all of its subdomains (`*.notion.com`). If you set it up only for `notion.so`, people on your network may still be able to sign in to workspaces you haven't approved.
 
 **Once enabled:**
 
@@ -39,6 +41,8 @@ Workspace Owner can configure an on-premises or cloud-based proxy server to inte
 
 3. **Configure the HTTP header:**
 
-   * Add the header X-Notion-Allowed-Workspaces and set its value to a comma-separated list of allowed workspaces.
+   * Add the header X-Notion-Allowed-Workspaces and set its value to a comma-separated list of allowed workspaces. Apply this header to traffic for `notion.com` and its subdomains (`*.notion.com`).
 
 **Note**: Network control covers people signing in to Notion. It doesn't cover calls made with an admin token from Notion's [admin APIs](https://developers.notion.com/reference/admin/intro), so plan where those calls run and keep tokens in a secrets manager.
+
+To make sure Notion works on your network, also allowlist Notion's domains and IP addresses. See [Notion IP addresses & domains](https://www.notion.com/help/allowlist-ip).

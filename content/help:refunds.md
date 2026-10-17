@@ -9,7 +9,7 @@ category: "Plans & billing"
 categoryKey: "category:plans-billing-and-payment"
 ---
 
-If you signed up for a paid Notion subscription by mistake, you can contact us in the app or email (email protected) from the workspace owner's email or your billing email to request a refund.
+If you signed up for a paid Notion subscription by mistake, you can contact support from within the app using the workspace owner's email or your billing email to request a refund.
 
 Keep in mind:
 
