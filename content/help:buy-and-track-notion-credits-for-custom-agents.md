@@ -1,7 +1,7 @@
 ---
 title: "Understand pricing for Custom Agents"
 emoji: null
-description: "Everything you need to know about how Custom Agents use Notion credits, including how to estimate credit usage and cost."
+description: "Learn how Custom Agents use Notion credits, including how to estimate credit usage and cost."
 url: "https://www.notion.com/help/buy-and-track-notion-credits-for-custom-agents"
 key: "help:buy-and-track-notion-credits-for-custom-agents"
 coverImage: null
@@ -78,7 +78,7 @@ Estimate your Custom Agent’s credit needs
 
 ### What happens if we run out of Notion credits?
 
-If your workspace doesn’t have enough Notion credits, Custom Agents will pause automatically until credits reset or an admin adds more credits. <!-- -->Premium models pause too.
+If your workspace doesn't have enough Notion credits, Custom Agents that run on shared workspace credits will pause automatically until credits reset or an admin adds more credits. High credit consumption models pause too. A Custom Agent you set up for your own use keeps working until your [Select credits](https://www.notion.com/help/standard-select-and-notion-credits-eligible-features) are used up, then follows the same credit rules.
 
 
 ### How do admins get notified before running out of Notion credits?
@@ -146,3 +146,10 @@ No. You can buy the amount of credits your workspace needs, including large amou
 ### What happens to our Notion credits if a payment fails?
 
 Your team keeps the Notion credits you've already paid for. Credits above that amount are put on hold until an admin fixes the payment, and then they unlock automatically. A failed Notion credit payment doesn't affect your main Notion plan. Learn more about [how Notion credit payments work →](https://www.notion.com/help/what-are-notion-credits)
+
+
+### How are Notion credits different from Standard and Select credits?
+
+[Standard and Select credits](https://www.notion.com/help/standard-select-and-notion-credits-eligible-features) are included with each Business or Enterprise seat. They’re separate per-member amounts that reset monthly and don’t roll over.
+
+[Notion credits](https://www.notion.com/help/category/notion-credits) are purchased by admins for the workspace. They cover eligible usage beyond Standard or Select credits when an admin allows it, plus high credit consumption models and Custom Agents funded by the workspace. [Monthly Notion credits](https://www.notion.com/help/what-are-notion-credits#monthly-vs.-annual-notion-credits) are a purchase option, not the Standard or Select credits included with your seat.

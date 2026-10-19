@@ -1,7 +1,7 @@
 ---
 title: "What is Notion AI?"
 emoji: null
-description: "Notion AI is integrated into your Notion workspace so that you can unlock knowledge and complete tasks with just a click."
+description: "Notion AI is integrated into your Notion workspace so that you can unlock knowledge and complete tasks with one click."
 url: "https://www.notion.com/help/notion-ai-faqs"
 key: "help:notion-ai-faqs"
 coverImage: null
@@ -11,9 +11,7 @@ categoryKey: "category:notion-ai"
 
 * Notion AI is available on Business and Enterprise Plans.
 
-* To keep Notion AI fast and reliable, Business and Enterprise plans include a usage allowance for certain Notion AI features. Learn more about [managing usage allowance for Notion AI →](https://www.notion.com/help/manage-your-usage-allowance-for-notion-ai)
-
-* Premium AI models spend [Notion credits](https://www.notion.com/help/what-are-notion-credits), and a workspace owner or admin has to turn them on first. Business trials may not have access to the model picker.
+* High credit consumption models spend [Notion credits](https://www.notion.com/help/what-are-notion-credits), and a workspace owner or admin has to turn them on first. Business trials may not have access to the model picker.
 
 * Users on the Free and Plus Plans get a limited number of [complimentary AI responses](https://www.notion.com/help/complimentary-ai-responses) so they can try Notion AI features out.
 
@@ -24,8 +22,6 @@ At a glance, Notion AI can do the following. We’ll dive into its features in m
 * Takes on entire tasks for you and chats with you via [Notion Agent](https://www.notion.com/help/notion-ai-faqs#personal-agent). Your Notion Agent can use context from your workspace and connected apps to create and edit pages and databases.
 
 * Searches your workspace and connected apps like Slack and Google Drive via [Enterprise Search](https://www.notion.com/help/notion-ai-faqs#enterprise-search) and Notion AI Connectors.
-
-* Dives deep into specific topics and generate reports via [Research Mode](https://www.notion.com/help/notion-ai-faqs#research-mode).
 
 * Transcribes, summarizes, and pulls insights from meetings via [AI Meeting Notes](https://www.notion.com/help/notion-ai-faqs#ai-meeting-notes-\(beta\)).
 
@@ -51,7 +47,7 @@ Please watch it on [YouTube](https://www.youtube.com/watch?v=yasGTeAsV6s)
 
 Your Notion Agent not only thinks for you — it actually does the work for you. It can take on tasks from beginning to end, looking at your workspace and connected apps, then even creating or editing content (pages, databases, charts, and much more) in your workspace on your behalf.
 
-You can [personalize your Agent’s appearance](https://www.notion.com/help/notion-agent#personalize-your-agent), and use [instructions and skills](http://www.notion.com/help/customize-your-notion-agent-with-instructions-and-skills) to shape how it responds. Your Notion Agent is a customizable teammate built into your workspace, so you can teach it how to work with and for you.
+You can [personalize your agent’s appearance](https://www.notion.com/help/notion-agent#personalize-your-agent), and use [instructions and skills](http://www.notion.com/help/customize-your-notion-agent-with-instructions-and-skills) to shape how it responds. Notion Agent is a customizable teammate built into your workspace, so you can teach it how to work with and for you.
 
 **Learn more about Notion Agent**
 
@@ -74,18 +70,6 @@ Notion AI is powerful because it’s able to find answers to your questions usin
 * [Enterprise Search](https://www.notion.com/help/enterprise-search)
 
 * [Find answers and generate reports with enterprise search](https://www.notion.com/help/guides/find-answers-and-generate-reports-with-enterprise-search)
-
-## Research Mode
-
-![hc: research mode](https://images.ctfassets.net/spoqsaf9291f/2OG12CXa6bEEwTtfAb1buJ/c532ba496a9374cd924db7afa23a7a37/Sept_15_Screenshot_from_Personal_Agent__2_.png)
-
-If you’re on the Business or Enterprise Plan, you can go to `Notion AI` in your sidebar and toggle on `Research Mode` to conduct analysis on more complex or open-ended queries. You could try creating a report on a project or exploring a hypothesis you have, using information from your workspace and from the web.
-
-**Learn more about Research Mode**
-
-* [Research Mode](https://www.notion.com/help/research-mode)
-
-* [Power your deep work using Research Mode in Notion](https://www.notion.com/help/guides/power-your-deep-work-using-research-mode-in-notion)
 
 ## AI Meeting Notes (beta)
 
@@ -185,9 +169,9 @@ Workspace owners on any Notion plan can go to `Settings` → `Notion AI` and adj
 
 * **Model controls:** Choose which AI models your team can use. Premium models are off until you turn them on.
 
-* **Usage:&#x20;**&#x53;et how many [Notion credits](https://www.notion.com/help/category/notion-credits) each member can spend, and give specific people a higher limit.
+* **Usage:&#x20;**&#x53;ee how much [Standard and Select usage](https://www.notion.com/help/standard-select-and-notion-credits-eligible-features) your team has used and when it refreshes.**&#x20;**&#x53;et how many [Notion credits](https://www.notion.com/help/category/notion-credits) each member can spend, and give specific people a higher limit.
 
-If the workspace uses Notion AI features beyond the usage allowance, you may see a temporary pause. Wait for access to refresh automatically, or workspace owners (Business or Enterprise plans) can let the team use [Notion credits](https://www.notion.com/help/category/notion-credits) to keep going right away. Learn more about the [usage allowance and how to manage this setting →](https://www.notion.com/help/manage-your-usage-allowance-for-notion-ai)
+If the workspace uses Notion AI features beyond <!-- -->their Standard or Select usage<!-- -->, you may see a temporary pause. Wait for access to refresh automatically, or workspace owners (Business or Enterprise plans) can let the team use [Notion credits](https://www.notion.com/help/category/notion-credits) to keep going right away. Learn more about [how to manage your AI credits →](https://www.notion.com/help/manage-your-ai-credits)
 
 ## Notion AI keyboard shortcut
 
@@ -237,11 +221,11 @@ Yes — workspace owners can disable web search for Notion AI across their entir
 
 ### Why am I getting an error?
 
-You may have hit your rolling, six-hour or monthly usage allowance for Notion AI. Learn more about what to do when certain Notion AI features are temporarily unavailable after [reaching your usage allowance →](https://www.notion.com/help/manage-your-usage-allowance-for-notion-ai#how-to-resume-using-notion-ai)
+You may have used up your Standard or Select usage for Notion AI. Learn more about [Standard and Select usage →](https://www.notion.com/help/standard-select-and-notion-credits-eligible-features)
 
 
 ### Do any AI models cost extra?
 
-Premium models cost much more to run, so using them requires [Notion credits](https://www.notion.com/help/what-are-notion-credits). These models stay off until a workspace owner or admin turns them on, and admins can set how many credits each person can spend. [Learn how to manage AI models and member credit spend →](https://www.notion.com/help/manage-ai-models-and-member-credit-spend)
+Yes. High credit consumption models require Notion credits from the start, rather than using your Standard or Select credits. These models stay off until a workspace owner or admin turns them on, and admins can set how many credits each person can spend.
 
-Notion charges tokens at each provider's published rates, with no markup. Provider rates and pricing methodology are subject to change.
+[Learn how to manage AI models and member credit spend →](https://www.notion.com/help/manage-ai-models-and-member-credit-spend)

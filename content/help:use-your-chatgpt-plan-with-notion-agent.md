@@ -49,13 +49,11 @@ Connect your account in `Settings` or from the model picker.
 
 ## How sessions work
 
-After you connect your account, Notion Agent can use either your ChatGPT plan or your workspace’s Notion plan allowance. The model you choose determines which plan gets used.
+After you connect your account, Notion Agent can use either your ChatGPT plan or your workspace’s Notion plan allowance. The model you choose determines which plan gets used. The model picker shows which plan is in use before you send a message.
 
 * **Select a specific GPT model:** use your ChatGPT plan for the session.
 
-* **Select Auto or a non-GPT model:** use your workspace’s [Notion credits](https://www.notion.com/help/category/notion-credits) for the session.
-
-The model picker shows which plan is in use before you send a message.
+* **Select Auto or a non-GPT model:** use your AI credits for the session. [Auto](https://www.notion.com/help/auto) draws on your Standard credits, and picking a non-GPT model yourself draws on your Select credits. Learn more about [Standard and Select credits →](https://www.notion.com/help/standard-select-and-notion-credits-eligible-features)
 
 ## If you run out of ChatGPT usage
 

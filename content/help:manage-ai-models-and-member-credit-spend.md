@@ -9,9 +9,7 @@ category: "Notion AI"
 categoryKey: "category:notion-ai"
 ---
 
-Premium AI models are designed for complex, long-running work and cost substantially more than the models included in your plan. Using a premium model with [Notion Agent](https://www.notion.com/help/notion-agent) spends [Notion credits](https://www.notion.com/help/category/notion-credits). Premium models stay switched off in every workspace until a workspace owner or admin turns them on, so nothing spends credits until you decide to allow it. Until then, they aren’t available for [Notion Agent](https://www.notion.com/help/notion-agent).
-
-Notion charges tokens at each provider’s published rates, with no markup. You pay the same rate the model provider charges, and this applies to premium model usage paid for with monthly workspace credits. Provider rates and pricing methodology are subject to change.
+High credit consumption models<!-- --> are designed for complex, long-running work and cost substantially more than the models included in your plan. <!-- -->When a member picks a high credit consumption model with [Notion Agent](https://www.notion.com/help/notion-agent), it draws on [Notion credits](https://www.notion.com/help/category/notion-credits) from the start. High credit consumption models stay switched off in every workspace until a workspace owner or admin turns them on, so nothing spends credits until you decide to allow it. Until then, they aren't available for [Notion Agent](https://www.notion.com/help/notion-agent).<!-- -->
 
 This article is for workspace owners and admins. If you’re a member and a model you want is unavailable, read the section on [what members see](https://www.notion.com/help/manage-ai-models-and-member-credit-spend#what-members-see) below.
 
@@ -21,11 +19,11 @@ This article is for workspace owners and admins. If you’re a member and a mode
 
 * Your workspace needs to be on the Business or Enterprise plan. Business trials may not have access to the model picker.
 
-* Your workspace needs [Notion credits](https://www.notion.com/help/what-are-notion-credits) available. Premium models spend credits every time someone uses them for [Notion Agent](https://www.notion.com/help/notion-agent).
+* Your workspace needs [Notion credits](https://www.notion.com/help/what-are-notion-credits) available to use <!-- -->high credit consumption models.
 
-## Turn on a premium model for your workspace
+## Turn on a high credit consumption model for your workspace
 
-Workspace owners and admins can turn on a premium model for the workspace:
+Workspace owners and admins can turn on a <!-- -->high credit consumption<!-- --> model for the workspace:
 
 1. In your sidebar, go to `Settings` → `Notion AI`.
 
@@ -35,17 +33,17 @@ Workspace owners and admins can turn on a premium model for the workspace:
 
 4. Turn the model on.
 
-Once a premium model is switched on, members can select it for [Notion Agent](https://www.notion.com/help/notion-agent) right away. Workspace owners and admins can switch a premium model off at any time, which makes it unavailable in the model picker.
+Once a high credit consumption model is switched on, members can select it for [Notion Agent](https://www.notion.com/help/notion-agent) right away. Workspace owners and admins can switch a high credit consumption model off at any time, which makes it unavailable in the model picker.
 
-Organizations on the Enterprise plan can use the Admin API to update premium model settings across workspaces programmatically. Learn more about [Notion's Admin API →](https://developers.notion.com/reference/admin/intro)
+Organizations on the Enterprise plan can use the Admin API to update high credit consumption model settings across workspaces programmatically. Learn more about [Notion's Admin API →](https://developers.notion.com/reference/admin/intro)
 
-These model controls apply to [Notion Agent](https://www.notion.com/help/notion-agent). [Custom Agents](https://www.notion.com/help/category/custom-agents) have their own model controls and model picker, so turning a premium model on or off for Notion Agent doesn’t change which models your Custom Agents can use.
+These model controls apply to [Notion Agent](https://www.notion.com/help/notion-agent). [Custom Agents](https://www.notion.com/help/category/custom-agents) have their own model controls and model picker, so turning a high credit consumption model on or off for Notion Agent doesn’t change which models your Custom Agents can use.
 
 Learn more about how admins can [manage access to models for Custom Agents](https://www.notion.com/help/custom-agents#admins-manage-access-to-models-for-custom-agents) →
 
-## Set how many credits each member can spend for premium models
+## Set how many credits each member can spend for high credit consumption models
 
-Workspace owners and admins can cap how many [Notion credits](https://www.notion.com/help/what-are-notion-credits) a person or group can spend using a premium model, so a single member or group can’t use up the workspace’s credits.
+Workspace owners and admins can cap how many [Notion credits](https://www.notion.com/help/what-are-notion-credits) a person or group can spend using a high credit consumption model, so a single member or group can't use up the workspace's credits.
 
 1. In your sidebar, go to `Settings` → `Notion AI`.
 
@@ -69,17 +67,15 @@ Workspace owners and admins can go to `Settings` → `Access & billing` → `Not
 
 * The model picker only lists models your workspace owner has turned on. If a specific model isn’t there, ask an admin to turn it on.
 
-* When you use a premium model with [Notion Agent](https://www.notion.com/help/notion-agent), it spends [Notion credits](https://www.notion.com/help/what-are-notion-credits). The models that are part of your plan don’t spend credits.
+* When you choose a high credit consumption model in [Notion Agent](https://www.notion.com/help/notion-agent), it uses [Notion credits](https://www.notion.com/help/what-are-notion-credits), not your [Select credits](https://www.notion.com/help/standard-select-and-notion-credits-eligible-features).
 
-* When you reach your credit limit, you can keep using the models included in your plan for [Notion Agent](https://www.notion.com/help/notion-agent). Ask an admin if you need a higher limit.
+* If you use up your Select credits and your credit limit, you can keep using the models included in your plan on [Auto](https://www.notion.com/help/auto), as long as you still have Standard credits available. Ask an admin if you need a higher credit limit. Learn more about [Standard and Select credits →](https://www.notion.com/help/standard-select-and-notion-credits-eligible-features)
 
-## Who can use premium models
+## Who can use high credit consumption models
 
-* Premium models are available on Business and Enterprise plans.
+* High credit consumption models are available on Business and Enterprise plans.
 
 * A workspace owner or admin needs to turn on each model before anyone can use it for [Notion Agent](https://www.notion.com/help/notion-agent).
-
-* Members need credits left under their own limit, and the workspace needs credits available.
 
 **More resources:**
 
@@ -98,32 +94,25 @@ Workspace owners and admins can go to `Settings` → `Access & billing` → `Not
 
 ### Will my workspace start spending Notion credits on its own?
 
-No. Premium models are switched off for Notion Agent in every workspace. Nothing spends credits until an admin turns a model on.
+No. High credit consumption models are switched off for Notion Agent in every workspace. Nothing spends credits until an admin turns a model on.
 
 
-### Does Notion charge more than the model's own price?
+### Why do high credit consumption models cost extra?
 
-No. Notion charges tokens at each provider’s published rates, with no markup. This applies to premium model usage paid for with monthly workspace credits.
-
-Provider rates and pricing methodology are subject to change.
+Some models are part of your plan, so using them with [Notion Agent](https://www.notion.com/help/notion-agent) on Auto draws from your Standard usage. High credit consumption models cost much more to run, so picking one yourself draws on Notion credits.
 
 
-### Why do premium models cost extra?
+### Why can't I pick a high credit consumption model for Notion Agent?
 
-Some models are part of your plan, so using them with [Notion Agent](https://www.notion.com/help/notion-agent) doesn't spend [Notion credits](https://www.notion.com/help/what-are-notion-credits). Premium models cost much more to run, so using them requires credits.
-
-
-### Why can't I pick a premium model for Notion Agent?
-
-Usually one of these three things:
+Usually one of these things:
 
 1. Your admin hasn't turned that model on yet.
 
-2. You've reached your own credit limit.
+2. You've used up your Select usage and reached your own credit limit.
 
 3. Your workspace is out of [Notion credits](https://www.notion.com/help/category/notion-credits).
 
-Your admin can check all three in `Settings` → `Notion AI`.
+Your admin can check these in `Settings` → `Notion AI`.
 
 
 ### Who can change these settings?
@@ -133,4 +122,4 @@ Workspace owners and admins on the Business and Enterprise plans.
 
 ### I used Claude Fable 5 before. What changed?
 
-Claude Fable 5 runs on [Notion credits](https://www.notion.com/help/what-are-notion-credits), and an admin needs to turn it on for your workspace. Your [Custom Agents](https://www.notion.com/help/custom-agents) and saved work aren't affected.
+Claude Fable 5 uses your workspace's [Notion credits](https://www.notion.com/help/category/notion-credits), not your [Standard or Select credits](https://www.notion.com/help/standard-select-and-notion-credits-eligible-features). A workspace admin must turn it on for your workspace before you can select it in Notion Agent. Your [Custom Agents](https://www.notion.com/help/custom-agents) and saved work aren't affected.

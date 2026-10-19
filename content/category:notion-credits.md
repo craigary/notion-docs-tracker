@@ -1,6 +1,6 @@
 ---
 title: "Notion credits"
-description: "Notion credits let you run Custom Agents, Workers, and additional usage for certain Notion AI features beyond the usage allowance. Learn how credits work, how to buy, and how to manage usage across your workspace so everything keeps running smoothly."
+description: "Notion credits let workspace admins add AI usage for their team. Admins can buy Notion credits for usage beyond included monthly credits, high credit consumption models, and Custom Agents funded by the workspace."
 url: "https://www.notion.com/help/category/notion-credits"
 key: "category:notion-credits"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/5xP7gHlhFbGP72MLcxD09X/27ded1f12d7dc112959c8d4cb40aa2bc/out_of_office-dark_2x.png"
@@ -11,68 +11,71 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/5xP7gHlhFbGP72MLcxD09X/27
 3 help:track-usage-in-the-notion-credits-dashboard
 4 help:allocate-credits-to-each-workspace
 5 help:set-up-auto-adjust-for-notion-credits
-6 help:manage-your-usage-allowance-for-notion-ai
+6 help:manage-your-ai-credits
+7 help:how-ai-credits-work-for-custom-agents
+8 help:auto
+9 help:standard-select-and-notion-credits-eligible-features
 
 ## FAQ
 
-### What happens if we run out of Notion credits?
+### What's the difference between Standard, Select, and Notion credits?
 
-If your workspace doesn’t have enough Notion credits, Custom Agents will pause automatically until credits reset or an admin adds more credits. Premium models pause too.
+Standard and Select credits come with workspaces on a Business or Enterprise plan.
 
-### How do admins get notified before running out of Notion credits?
+* **Standard credits** cover work where Notion picks the model.
 
-Admins receive in-app (and email) notifications when your workspace reaches 80% and 100% of its Notion credit usage, so you have time to adjust before agents pause.
+* **Select credits** cover work where you pick a model yourself, or use a Custom Agent you set up.
 
-### How do I buy more Notion credits?
+* **Notion credits** are a separate, workspace-managed balance your admin can turn on so you can keep going once your Standard or Select credits run out.
 
-Admins can purchase Notion credits either in-product or through their account team. Learn more about how to [purchase Notion credits](https://www.notion.com/help/custom-agent-pricing#purchase-notion-credits).
+Standard and Select credits are separate per-member balances. These balances can't be pooled across the workspace, transferred between members, or exchanged for other credit types. They’re not "Notion Credits" as defined in the [Notion AI and Notion Credit Terms](https://notion.notion.site/Notion-AI-and-Notion-Credit-Supplementary-Terms-fa9034c8b5a04818a6baf3eac2adddbb) and don’t count toward your Notion Credit Limit. The workspace-managed Notion credits described above are "Notion Credits" under those terms.
 
-### How do mid-month Notion credit changes work?
+### How many credits does each task use?
 
-If you increase your credits in the middle of your monthly service period, the additional credits are available immediately for the current service period. You’ll be billed for the higher recurring credit amount at the start of your next monthly service date.
+It depends on the task. In Notion’s estimates, simple tasks use about 5 credits, medium tasks about 10, and complex tasks about 25. Actual use varies with the task and its context.
 
-If you decrease your credits in the middle of your monthly service period, the lower amount takes effect at the start of the next service period. From then on, you’ll be billed for the lower recurring credit amount each month.
+See [estimated credits by task](https://www.notion.com/help/auto#compare-credit-use-across-tasks-in-notion) →
 
-### I work with an account team to purchase Notion credits. What happens if I upgrade, expand, or renew my Business or Enterprise plan, which includes Annual Notion Credits, in the middle of my billing interval?
+### What is Auto?
 
-You'll get a prorated credit for the unused prepaid Annual Notion Credits equal to the lesser of:
+[Auto](https://www.notion.com/help/auto) is Notion’s model router. It chooses the model that best balances quality, speed, and cost for each task, so you don’t have to choose one.
 
-* The dollar amount of Annual Notion Credits remaining unused, or
+### Can I combine or transfer my credits?
 
-* The Annual Notion Credit fees prorated for the time remaining in the subscription term
+No. Standard and Select credits are separate, and each person has their own. You can't combine them, move them between people, or trade one kind for another.
 
-This credit applies when a new Business or Enterprise order form replaces your current one before the end of its subscription term. Notion Credits have no cash value. Any credit applies toward the new plan.
+### When do my credits reset?
 
-### Does Autofill use Notion credits?
+Standard and Select credits each reset monthly, at the start of your billing cycle, and they don't roll over.
 
-Autofill has two options: Basic and Custom Agent.
+If you use one up, you can wait for it to reset, or keep going on [Notion credits](https://www.notion.com/help/category/notion-credits) if your admin has turned that on. The other keeps working as usual.
 
-* **Basic Autofill **is included on Business and Enterprise plans, and does not use Notion credits.
+### How will I know I'm close to running out?
 
-* **Custom Agent Autofill **uses Notion credits because it runs with Custom Agent capabilities (like using richer context and more advanced reasoning).
+You can track your Standard and Select credits from `Settings` → `Notion AI` → `Usage`.
 
-### What happens to Custom Agents if I downgrade my plan?
+We'll also notify you as you get close and when you've used up your Standard or Select credits.
 
-If you downgrade your Notion plan to Free or Plus, all existing Custom Agents are switched off, but not deleted. You can view (but not edit) the Custom Agent chat page and settings. Custom Agents can continue if you upgrade back to Business or Enterprise.
+### Can my workspace get additional Notion AI usage?
 
-### Can I purchase Notion credits if I manage my subscription through the App Store or Google Play?
+Yes. Workspace admins can let members keep using Notion AI beyond their Standard or Select credits by spending [Notion credits](https://www.notion.com/help/category/notion-credits).
 
-Not directly. If your Notion subscription is managed through a mobile app store (Apple App Store or Google Play), you won't be able to purchase Notion credits from within Notion.\
-\
-To buy credits, you'll need to:
+This is off by default. Admins can turn it on in `Settings` → `Notion AI`.
 
-* Cancel your mobile app store subscription.
+### Which credits does Notion Agent use?
 
-* Upgrade to a Notion plan directly on [notion.com](http://notion.com) (Business or Enterprise, with AI included).
+On [Auto](https://www.notion.com/help/auto), Notion Agent uses your Standard credits. When you pick a model yourself, it uses your Select credits.
 
-* Once your new subscription is active, an admin can purchase Notion credits from `Settings` → `Access & billing` → `Notion credits`.
+### How do Custom Agents use credits?
 
-Make sure your new plan includes AI before purchasing credits. [Notion credits](https://www.notion.com/help/category/notion-credits) are only available on Business and Enterprise plans.
+A Custom Agent you set up uses your Select credits, even when you share it with your team. Once your Select credits run out, it uses any extra credits your admin has given you. After that, it switches to your workspace's [Notion credits](https://www.notion.com/help/category/notion-credits) automatically (if your admin allows it). An admin can fund the agent with Notion credits at any time. You can also [ask your admin](https://www.notion.com/help/how-ai-credits-work-for-custom-agents#ask-an-admin-to-fund-your-custom-agent) to do this.
 
-### Is there a limit to how many credits we can buy?
+Learn more about how [AI credits work for Custom Agents →](https://www.notion.com/help/how-ai-credits-work-for-custom-agents)
 
-No. You can buy the amount of credits your workspace needs, including large amounts. If your payment method takes a few days to clear, your team can keep using credits up to the amount you set out to buy while the payment settles.
+### Do connected apps and the Notion API use credits?
 
-### What happens to our Notion credits if a payment fails?
+Everyday connected apps and the Notion API don’t use your credits, though normal rate limits still apply. Running an agent through a connected app or the API uses Notion credits.
 
-Your team keeps the Notion credits you've already paid for. Credits above that amount are put on hold until an admin fixes the payment, and then they unlock automatically. A failed Notion credit payment doesn't affect your main Notion plan. Learn more about [how Notion credit payments work →](https://www.notion.com/help/what-are-notion-credits)
+### Does AI Meeting Notes consume credits?
+
+AI meeting notes uses [Auto](https://www.notion.com/help/auto) and will begin consuming monthly Standard credit allowance starting December. A one hour meeting is estimated to use \~10 Standard credits.
