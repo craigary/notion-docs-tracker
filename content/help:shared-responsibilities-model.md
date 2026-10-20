@@ -13,7 +13,7 @@ This Shared Responsibilities Model makes sure that Notion and its Customers work
 
 Please refer to Notion’s [MSA](https://app.notion.com/p/notion/Master-Subscription-Agreement-4e1c5dd3e3de45dfa4a8ed60f1a43da0?source=copy_link) and [DPA](https://app.notion.com/p/notion/Data-Processing-Addendum-361b540101274b1fa7e16b90402b0d99?source=copy_link) for defined terms.
 
-# 1. What is the Notion Shared Responsibilities Model?
+## 1. What is the Notion Shared Responsibilities Model?
 
 Notion is a single space where you can think, write, and plan. As an all-in-one space that allows users to build their own tools for doing their best work, users entrust Notion with professional and personal information and, through [Connections](https://www.notion.com/connections) and [AI features](https://www.notion.com/help/guides/category/ai), with access to information held in other systems.
 
@@ -21,13 +21,13 @@ A Shared Responsibilities Model (SRM) is a framework that outlines the division 
 
 This document outlines the responsibilities shared between Notion and its Customers in protecting and maintaining the security of Notion's systems, user accounts, and Workspaces.
 
-# 2. Why the Notion SRM is important
+## 2. Why the Notion SRM is important
 
 The Notion SRM provides clarity for both Notion and its Customers on which party is responsible for specific processes, operations or controls. This allows Notion to focus on, and take responsibility for, the areas where we can best protect the confidentiality, integrity and availability of Notion's systems, while identifying where Customers are better placed to secure their own accounts, Workspaces and Customer Data. Overall, this enhances security and efficiency in protecting Notion systems and accounts.
 
 The SRM also promotes transparency in how Notion's Services are delivered, giving Customers the information they need to assess Notion within their own risk and assurance processes, and supporting both Notion and its Customers in meeting their respective obligations under applicable local, regional, national and international regulations.
 
-# 3. Structure of Notion's SRM
+## 3. Structure of Notion's SRM
 
 In short: Notion is responsible for building, operating, and protecting the architecture of the Notion Service. Customers are responsible for how they configure and use that Service including protecting their credentials, managing who has access to their Workspaces and Customer Data, and adhering to the [Content & Use policy](https://notion.notion.site/Content-Use-Policy-1b9a773d5583486cb5c1d39a8d777a55?pvs=143) and other relevant [Terms](https://notion.notion.site/Terms-and-Privacy-28ffdd083dc3473e9c2da6ec011b58ac?pvs=143).
 
@@ -35,7 +35,7 @@ Some responsibilities described in this document can only be carried out by Cust
 
 The tools available to meet a given responsibility vary by plan. Where a capability is limited to specific Subscription Plans, Customers on Subscription Plans without a given capability remain responsible for the underlying outcome, and should consider alternative controls.
 
-# 4. Summary of the SRM Controls and Responsibilities
+## 4. Summary of the SRM Controls and Responsibilities
 
 | **Control Category**                                | **Notion Responsibilities**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | **User Responsibilities**                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | --------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -50,7 +50,7 @@ The tools available to meet a given responsibility vary by plan. Where a capabil
 | **Compliance & certification**                      | • Maintain certifications and engage third-parties to perform independent audits.• Make security and compliance documentation [available](https://trust.notion.com).                                                                                                                                                                                                                                                                                                                                                 | • Determine whether Notion is suitable for the data and regulatory context in question.• Meet obligations arising under laws applicable to the User.                                                                                                                                                                                                                                                                                                                  |
 | **Acceptable use & content**                        | • Publish and enforce the [Content & Use policy](https://notion.notion.site/Content-Use-Policy-1b9a773d5583486cb5c1d39a8d777a55?pvs=143) and other relevant [Terms](https://notion.notion.site/Terms-and-Privacy-28ffdd083dc3473e9c2da6ec011b58ac?pvs=143).                                                                                                                                                                                                                                                          | • Use Notion within its intended capacity, without attempting to circumvent or test security controls.• Comply with the Content & Use Policy and Terms at all times.                                                                                                                                                                                                                                                                                                  |
 
-# 5. Detailed Notion & User Responsibilities
+## 5. Detailed Notion & User Responsibilities
 
 ## Access & authentication
 
