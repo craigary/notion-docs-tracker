@@ -61,7 +61,7 @@ Steps to set this up:
 
 3. Under `Allowed email domains`, enter any email domain that you want to grant access to automatically, like your company's email domain. You can add multiple allowed domains in this field, but you'll only be able to add domains that workspace members' accounts are under.
 
-Now, whenever someone signs into Notion with an email that has one of those domains, they'll see the option to join your workspace during onboarding. If the user joins your workspace, they will become a member of your workspace and you will be billed accordingly.
+Now, whenever someone signs into Notion with an email that has one of those domains, they'll see the option to join your workspace during onboarding. If the user joins your workspace, they will become a member of your workspace and you will be billed accordingly. People who use one of your organization's domains are added as members, not guests, whether they join here or you share a page with them.
 
 ### Change a member's role
 
@@ -111,7 +111,9 @@ Admins can update a temporary member's expiration date or remove their access at
 
 ## Add a guest
 
-Learn about the difference between guests and members [here →](https://www.notion.com/help/whos-who-in-a-workspace#guests)
+Guests are for people outside your organization. To add someone as a guest, use an email that isn't on one of your organization's domains. Anyone on your domains is added as a member instead.
+
+Learn more about the [difference between guests and members →](https://www.notion.com/help/whos-who-in-a-workspace?_gl=1*17fzg5t*_gcl_au*OTc2NTQ2MTQ5LjE3ODgyODc2NTYuOTA0OTk5ODMyLjE3OTIxMTQ0NTAuMTc5MjExNDQ1Ny4xNjcxMDE5ODM5LjE3OTIxMTQ0NTAuMTc5MjExNDQ1Nw..*_ga*NTg5OTEwNzMyLjE3NzkyMTU0NDk.*_ga_9ZJ8CB186L*czE3OTI2MDA3NzAkbzEzMCRnMSR0MTc5MjYwMDgyNyRqMyRsMCRoMA..#guests)
 
 ### From a page
 
@@ -129,15 +131,7 @@ Your guest will receive an email with a link to the page. If they don't already 
 
 **Note:**
 
-* If you’re not able to share a page with a guest, this might be because:
-
-  * Your workspace has reached its guest limit.
-
-  * Your workspace or teamspace has prevented guests from being added to the page.
-
-  * The email domain of the guest you’re trying to share the page with is not an allowed email domain for your workspace.
-
-* If you’re on an Enterprise plan and the owner has prevented members from inviting guests to pages, then any people you invite to a page will automatically be added as members. Before you select `Invite` in the steps above, you can hover over your guest’s name or email for more information on how that person will be added to the page.
+*
 
 ### From a guest's request
 
@@ -242,9 +236,9 @@ To remove a member or guest from a workspace, a workspace owner or a membership 
 
 ### Is there a limit to how many guests I can add?
 
-See the guest limit for your plan [here →](https://www.notion.com/pricing)
+Guest limits vary by plan. See the guest limit for your plan on [our pricing page →](https://www.notion.com/pricing)
 
-If your workspace is above the guest limit for your [plan](https://www.notion.com/pricing), **new users that you share content with can only be added as a member (instead of as a guest) if they belong to your workspace's email domains**. This could mean that they have an [allowed email domain](https://www.notion.com/help/workspace-settings#allowed-email-domains) or an email domain matching the workspace owner’s domain or one of the workspace’s [verified domains](https://www.notion.com/help/domain-management#domain-verification).
+People who use one of your organization's email domains are added as paid members, not guests, whether you're above or below your plan's guest limit. These domains include an [allowed email domain](https://www.notion.com/help/workspace-settings#allowed-email-domains), an email domain that matches the workspace owner's domain, or one of your workspace's [verified domains](https://www.notion.com/help/domain-management#domain-verification). To add someone as a guest, use an email address outside these domains, like a contractor's or client's own email.
 
 
 ### I clicked the Join or create workspace button, but it will only let me create a workspace. How do I join a workspace?

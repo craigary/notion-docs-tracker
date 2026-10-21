@@ -19,7 +19,7 @@ Select `Share` at the top of any page to:
 
 * Copy the page’s link to share it with others.
 
-* Open the `Publish` tab to share a page to the web. Learn more [here →](https://www.notion.com/help/public-pages-and-web-publishing)
+* Open the `Publish` tab to share a page to the web. Learn more about [publishing a Notion site →](https://www.notion.com/help/public-pages-and-web-publishing)
 
 ![Sharing & permissions - share menu](https://images.ctfassets.net/spoqsaf9291f/23AarIKXH9Leog04ZjSPie/402c55b221810b5f4e393a9cc33bbc59/share_menu__1_.png)
 
@@ -29,13 +29,13 @@ Sometimes you'll want to share a page with only select members of your workspace
 
 1. Select `Share` at the top of any page.
 
-2. Find and select the names of the members/groups in your workspace that you want to share the page with. You can also invite someone who isn’t in your workspace as a guest by entering their email address.
+2. Find and select the names of the members/groups in your workspace that you want to share the page with. You can also invite someone who isn’t in your workspace as a guest by entering their email address. If that email is on one of your organization's domains, they're added as a member, not a guest.
 
 3. Open the dropdown next to the names of the people you’re inviting, then select a permission level.
 
 4. Select `Invite`.
 
-When you share a page with specific workspace members, the page will appear in the `Shared` section of your sidebar. Learn more about sidebar sections [here →](https://www.notion.com/help/navigate-with-the-sidebar#sidebar-sections)
+When you share a page with specific workspace members, the page will appear in the `Shared` section of your sidebar. Learn more about [sidebar sections →](https://www.notion.com/help/navigate-with-the-sidebar#sidebar-sections)
 
 ### Share a page with a teamspace
 
@@ -59,21 +59,19 @@ To find out if a given teamspace is a default teamspace:
 
 ### Share a page with a guest
 
-**Note:**
+If you’re not able to share a page with a guest, this might be because:
 
-* If you’re not able to share a page with a guest, this might be because:
+* Your workspace has reached its guest limit.
 
-  * Your workspace has reached its guest limit.
+* Your workspace or teamspace has prevented guests from being added to the page.
 
-  * Your workspace or teamspace has prevented guests from being added to the page.
+* The email domain of the guest you’re trying to share the page with is not an allowed email domain for your workspace.
 
-  * The email domain of the guest you’re trying to share the page with is not an allowed email domain for your workspace.
-
-  * The email is on one of your organization's domains. People on your domains are added as members, not guests.
+* The email is on one of your organization's domains. People on your domains are added as members, not guests.
 
 * If you’re on an Enterprise plan and the owner has prevented members from inviting guests to pages, then any people you invite to a page will automatically be added as members. Before you select `Invite` in the steps above, you can hover over your guest’s name or email for more information on how that person will be added to the page.
 
-Guests are people who aren’t part of your Notion workspace. This could be a contractor or a client you’re working with. Learn more about guests [here →](https://www.notion.com/help/add-members-admins-guests-and-groups#guests)
+Guests are people who aren’t part of your Notion workspace. This could be a contractor or a client you’re working with. People who use your organization's email domains are treated as part of your workspace, so they join as members, not guests. Learn more about [managing members and guests →](https://www.notion.com/help/add-members-admins-guests-and-groups#guests)
 
 Once you’ve invited someone to your page as a guest, they’ll receive an email with a link to the page. To access your page, your guest will need their own Notion account.
 
@@ -105,7 +103,7 @@ Here are the different permission levels in Notion:
 
 * `Can edit`: Select this level of access for people who should be able to edit the content on the page, but not share the page with others.
 
-* `Can edit content`: This permission level is only found on **database pages**. People with this level of access can create and edit pages within the database, and edit property values for those pages. However, they will not be able to change the structure of the database and its properties, views, sorts, or filters. [Learn more about databases here →](https://www.notion.com/help/category/databases)
+* `Can edit content`: This permission level is only found on **database pages**. People with this level of access can create and edit pages within the database, and edit property values for those pages. However, they will not be able to change the structure of the database and its properties, views, sorts, or filters. [Learn more about databases →](https://www.notion.com/help/category/databases)
 
 * `Can create`: This permission level is only found on **database pages** and is available on Business and Enterprise plans. People with this level of access can create new pages within the database, but can’t view or edit existing pages they haven't been individually granted access to. This is useful when you want contributors to submit entries (like IT tickets, task requests, or form responses) without being able to see or modify other people's entries.
 
@@ -113,7 +111,7 @@ Here are the different permission levels in Notion:
 
 * `Can view`: People with this level of access can read the content on the page, but they won’t be able to comment, edit, or share.
 
-There are also different actions that people can take in a workspace depending on their role in the workspace. To learn more, read [this article →](https://www.notion.com/help/add-members-admins-guests-and-groups#who%E2%80%99s-who-in-a-workspace)
+There are also different actions that people can take in a workspace depending on their role in the workspace. Learn more about [managing members and guests →](https://www.notion.com/help/add-members-admins-guests-and-groups#who%E2%80%99s-who-in-a-workspace)
 
 ### Edit access levels
 
@@ -275,12 +273,21 @@ This request will go to the page creator, who can accept or ignore it. You’ll 
 
 ## Enterprise security settings
 
-If you’re a workspace owner on an Enterprise Plan, you can control content sharing with additional security settings. Learn more about these features [here →](https://www.notion.com/help/workspace-settings#workspace-security)
+If you’re a workspace owner on an Enterprise Plan, you can control content sharing with additional security settings. Learn more about [our workspace security features →](https://www.notion.com/help/workspace-settings#workspace-security)
 
 To see these settings, go to `Settings` in your sidebar, then select `Security`.
 
 
 ## FAQs
+
+### Why was someone I invited as a guest added as a member instead?
+
+If you share content with someone who uses one of your organization's email domains, Notion adds them as a paid member, not a guest. People on your organization's domains count as part of your team, so they join as members. This is expected, and it isn't affected by your plan's guest limit.
+
+Guests are meant for people outside your organization, like contractors or clients. To add someone as a guest, share with an email that isn't on one of your organization's domains.
+
+Your organization's domains include an allowed email domain, an email domain that matches the workspace owner's domain, or one of your workspace's verified domains.
+
 
 ### I tried adding a guest to my workspace but they were turned into a member automatically. How can I prevent that?
 
