@@ -15,22 +15,22 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/2lKwICICVv9jnFRGGEPZC6/da
 7 help:admin-content-search
 8 help:transfer-content-deprovisioned-user
 9 help:audit-log
-10 help:add-security-and-compliance-integrations
-11 help:workspace-analytics
+10 help:workspace-analytics
+11 help:add-security-and-compliance-integrations
 12 help:managed-users-dashboard
 13 help:enterprise-connection-settings
-14 help:custom-data-retention-settings
-15 help:deploy-notion-for-macos
+14 help:deploy-notion-for-macos
+15 help:custom-data-retention-settings
 16 help:remove-a-workspace-from-your-organization-or-contract
-17 help:set-up-microsoft-intune-with-notion-ios-and-android
-18 help:mfa-enforcement
-19 help:network-control
+17 help:mfa-enforcement
+18 help:manage-teamspaces
+19 help:set-up-microsoft-intune-with-notion-ios-and-android
 20 help:deploy-notion-for-windows
 21 help:legal-holds
-22 help:manage-teamspaces
-23 help:ip-address-restrictions
-24 help:organization-level-controls
-25 help:admin-apis-for-enterprise-organizations
+22 help:ip-address-restrictions
+23 help:organization-level-controls
+24 help:admin-apis-for-enterprise-organizations
+25 help:network-control
 
 ## Guides
 
