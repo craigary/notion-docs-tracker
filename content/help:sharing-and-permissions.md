@@ -69,6 +69,8 @@ To find out if a given teamspace is a default teamspace:
 
   * The email domain of the guest you’re trying to share the page with is not an allowed email domain for your workspace.
 
+  * The email is on one of your organization's domains. People on your domains are added as members, not guests.
+
 * If you’re on an Enterprise plan and the owner has prevented members from inviting guests to pages, then any people you invite to a page will automatically be added as members. Before you select `Invite` in the steps above, you can hover over your guest’s name or email for more information on how that person will be added to the page.
 
 Guests are people who aren’t part of your Notion workspace. This could be a contractor or a client you’re working with. Learn more about guests [here →](https://www.notion.com/help/add-members-admins-guests-and-groups#guests)

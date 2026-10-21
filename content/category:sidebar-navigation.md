@@ -9,8 +9,8 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/2HM5BPlsww5fF5gJDpI71B/94
 1 help:navigate-with-the-sidebar
 2 help:manage-your-library
 3 help:search
-4 help:customize-your-sidebar
-5 help:manage-sidebar-presets-for-your-workspace
+4 help:manage-sidebar-presets-for-your-workspace
+5 help:customize-your-sidebar
 
 ## Video
 
