@@ -13,13 +13,13 @@ This connector replaces our [legacy version](https://www.notion.com/help/notion-
 
 Each user must connect their own Microsoft account, even if a workspace administrator has already connected the legacy connector or approved the Microsoft app. Once you connect, Notion AI uses your personal live connection.
 
-Connect your Microsoft 365 account to find and work with SharePoint and OneDrive files in Notion AI. Ask Notion Agent to summarize documents, analyze spreadsheets, or work with files.
+Connect your Microsoft 365 account to read SharePoint and OneDrive files in Notion AI. Ask Notion Agent to summarize documents, analyze spreadsheets, and find the files you need. Creating and editing files is coming soon.
 
 Notion Agent retrieves files through live Microsoft tools when you need them. It can access only files that your connected Microsoft account has permission to access.
 
 ## Who can connect SharePoint and OneDrive to Notion AI?
 
-* Y<!-- -->ou need an active Microsoft 365 work or school account with SharePoint and OneDrive access.
+* You need an active Microsoft 365 work or school account with SharePoint and OneDrive access.
 
 * You need a Notion Business or Enterprise plan.
 
@@ -49,7 +49,7 @@ If Microsoft asks for administrator approval, contact your Microsoft administrat
 
 4. Review the permissions requested by the app and complete Microsoft’s authorization flow.
 
-5. Return to your chat and ask Notion Agent to find or work with a SharePoint or OneDrive file.
+5. Return to your chat and ask Notion Agent to find or read a SharePoint or OneDrive file.
 
 ## Connect to a Custom Agent (Coming soon)
 
@@ -58,7 +58,7 @@ Use a Custom Agent when you want a repeatable workflow with a defined set of fil
 1\. Open the Custom Agent’s settings and go to `Tools & access`.\
 2\. Add `SharePoint` and attach your Microsoft connection.\
 3\. Paste links to the sites, document libraries, folders or individual files the agent should use.\
-4\. Choose `Read` or `Read & Write` for each resource, according to the work you want the agent to perform.\
+4\. Choose `Read` for each resource.\
 5\. Save the configuration and test the agent with a file inside the allowed resources.
 
 ## Microsoft administrator approval
@@ -91,8 +91,6 @@ The connection supports these file workflows:
 
 * **Work with Excel**: Read workbook data, update cell ranges and append rows within the permissions of your Microsoft account.
 
-* **Create and organize files**: Create folders, copy or move files, upload files and move files to the recycle bin.
-
 * **Work on a specific file**: Provide its SharePoint or OneDrive link so the agent can access that resource directly.
 
 For example, you could ask:
@@ -102,10 +100,6 @@ For example, you could ask:
 * “Compare these two project proposals and highlight the differences: \[file links].”
 
 * “Read the regional sales workbook and summarize performance by region.”
-
-* "Add these approved expenses to the expense tracker in this folder: \[folder link].”
-
-* “Create a folder for the launch materials and save this document there.”
 
 
 ## FAQs
@@ -154,3 +148,14 @@ No. The Microsoft connection does not expand the agent’s access to Notion page
 ### Is all my SharePoint content indexed by Notion?
 
 This connection retrieves content through live Microsoft tools; it does not build a workspace-wide SharePoint search index in Notion. Retrieved content can be used in your agent’s responses and workflow, so refer to [Notion AI security practices](https://www.notion.com/help/notion-ai-security-practices) for information about how Notion AI handles data.
+
+
+### Can I restrict the SharePoint and OneDrive connection to a single Microsoft tenant?
+
+If your organization has more than one Microsoft tenant and you want Notion to reach only one of them, a Microsoft administrator can set this up in Microsoft Entra:
+
+1. Keep the Notion app turned on in the tenant you want to allow.
+
+2. In every other tenant, turn off user sign-in for the Notion app (or block it).
+
+After that, accounts in the blocked tenants can't connect SharePoint or OneDrive to any Notion workspace, and connections they already made stop working. In the allowed tenant, people still only see content their Microsoft permissions give them access to.
