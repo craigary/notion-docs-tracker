@@ -12,6 +12,10 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/5xP7gHlhFbGP72MLcxD09X/27
 4 help:track-usage-in-the-notion-credits-dashboard
 5 help:set-up-auto-adjust-for-notion-credits
 6 help:manage-your-ai-credits
-7 help:auto
+7 help:how-ai-credits-work-for-custom-agents
 8 help:standard-select-and-notion-credits-eligible-features
-9 help:how-ai-credits-work-for-custom-agents
+9 help:auto
+
+## Guides
+
+- [An admin’s guide to getting started with Custom Agents](https://www.notion.com/help/guides/admin-guide-to-getting-started-with-custom-agents)

@@ -7,8 +7,8 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/7j6zHBFAMtPgTdqjZQq46w/c7
 ---
 
 1 help:notion-ai-faqs
-2 help:autofill
-3 help:notion-agent
+2 help:notion-agent
+3 help:autofill
 4 help:ai-meeting-notes
 5 help:enterprise-search
 6 help:notion-mcp
@@ -20,11 +20,11 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/7j6zHBFAMtPgTdqjZQq46w/c7
 12 help:create-and-edit-images-with-notion-ai
 13 help:slack-enterprise-grid-ai-connector
 14 help:set-up-the-snowflake-mcp-for-notion
-15 help:turn-on-web-browser-for-notion-agent
-16 help:connect-mcp-servers-to-your-notion-agent
-17 help:install-the-notion-meetings-add-on
-18 help:create-and-manage-skills
-19 help:manage-ai-models-and-member-credit-spend
+15 help:manage-ai-models-and-member-credit-spend
+16 help:turn-on-web-browser-for-notion-agent
+17 help:connect-mcp-servers-to-your-notion-agent
+18 help:install-the-notion-meetings-add-on
+19 help:create-and-manage-skills
 
 ## Video
 

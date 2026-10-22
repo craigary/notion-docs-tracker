@@ -9,37 +9,61 @@ category: "Notion AI"
 categoryKey: "category:notion-ai"
 ---
 
-High credit consumption models<!-- --> are designed for complex, long-running work and cost substantially more than the models included in your plan. <!-- -->When a member picks a high credit consumption model with [Notion Agent](https://www.notion.com/help/notion-agent), it draws on [Notion credits](https://www.notion.com/help/category/notion-credits) from the start. High credit consumption models stay switched off in every workspace until a workspace owner or admin turns them on, so nothing spends credits until you decide to allow it. Until then, they aren't available for [Notion Agent](https://www.notion.com/help/notion-agent).<!-- -->
+High credit consumption models are designed for complex, long-running work and cost substantially more than the models included in your plan. When a member picks a high credit consumption model with [Notion Agent](https://www.notion.com/help/notion-agent), it draws on [Notion credits](https://www.notion.com/help/category/notion-credits) from the start. High credit consumption models stay switched off in every workspace until a workspace owner or admin turns them on, so nothing spends credits until you decide to allow it. Until then, they aren't available for [Notion Agent](https://www.notion.com/help/notion-agent).
 
-This article is for workspace owners and admins. If you’re a member and a model you want is unavailable, read the section on [what members see](https://www.notion.com/help/manage-ai-models-and-member-credit-spend#what-members-see) below.
+This article is for workspace owners. If you’re a member and a model you want is unavailable, read the section on [what members see](https://www.notion.com/help/manage-ai-models-and-member-credit-spend#what-members-see) below.
 
 ## Before you start
 
-* You need to be a workspace owner or admin to change these settings.
+* You need to be a workspace owner to change model and provider settings.
 
-* Your workspace needs to be on the Business or Enterprise plan. Business trials may not have access to the model picker.
+* Your workspace needs to be on the Business or Enterprise plan. <!-- -->Model controls aren't available during a Business trial.
 
-* Your workspace needs [Notion credits](https://www.notion.com/help/what-are-notion-credits) available to use <!-- -->high credit consumption models.
+* Your workspace needs [Notion credits](https://www.notion.com/help/what-are-notion-credits) available to use high credit consumption models.
 
-## Turn on a high credit consumption model for your workspace
+## Turn off a high credit consumption model for your workspace
 
-Workspace owners and admins can turn on a <!-- -->high credit consumption<!-- --> model for the workspace:
+Workspace owners can turn a high credit consumption model on or off for the workspace. Switching off an individual model stops members from picking that model for Notion Agent.
+
+To turn off a high credit consumption model for your workspace:
 
 1. In your sidebar, go to `Settings` → `Notion AI`.
 
-2. Open the `Usage` tab.
+2. Open the `Controls` tab.
 
 3. Find the model you want under the model controls.
 
-4. Turn the model on.
+4. Uncheck the model to turn it off.
 
-Once a high credit consumption model is switched on, members can select it for [Notion Agent](https://www.notion.com/help/notion-agent) right away. Workspace owners and admins can switch a high credit consumption model off at any time, which makes it unavailable in the model picker.
+5. Select `Save`.
+
+Once a high credit consumption model is switched off, it becomes unavailable in the model picker and members can’t select it for [Notion Agent](https://www.notion.com/help/notion-agent). Workspace owners can switch on a high credit consumption model at any time.
 
 Organizations on the Enterprise plan can use the Admin API to update high credit consumption model settings across workspaces programmatically. Learn more about [Notion's Admin API →](https://developers.notion.com/reference/admin/intro)
 
-These model controls apply to [Notion Agent](https://www.notion.com/help/notion-agent). [Custom Agents](https://www.notion.com/help/category/custom-agents) have their own model controls and model picker, so turning a high credit consumption model on or off for Notion Agent doesn’t change which models your Custom Agents can use.
+**These model controls apply to&#x20;**[**Notion Agent**](https://www.notion.com/help/notion-agent)****
 
-Learn more about how admins can [manage access to models for Custom Agents](https://www.notion.com/help/custom-agents#admins-manage-access-to-models-for-custom-agents) →
+[Custom Agents](https://www.notion.com/help/category/custom-agents) have their own model controls and model picker, so turning a high credit consumption model on or off for Notion Agent doesn’t change which models your Custom Agents can use. Learn more about how admins can [manage access to models for Custom Agents](https://www.notion.com/help/custom-agents#admins-manage-access-to-models-for-custom-agents) →
+
+## Restrict a model provider for your workspace
+
+Choose which model providers your whole workspace can use. This ensures your team can only work with certain providers. Restricting a model provider applies to your whole workspace at once, and changes the quality and efficiency of Auto.
+
+To restrict a model provider:
+
+1. In your sidebar, go to `Settings` → `Notion AI`.
+
+2. Open the model provider settings.
+
+3. Turn off any provider you don't want your workspace to use.
+
+4. Save your changes.
+
+Once you save, restricted model providers will disappear from the model picker for Notion Agent and Custom Agents. To let the workspace select models from these providers again, you’ll need to re-add them.
+
+**How provider restrictions affect Auto**
+
+Restricting model providers will obstructs the way Auto works, and may lead to your workspace consuming credits faster. Before saving a change, workspace owners will see a notification that restricting a model provider will affect Auto’s efficiency.
 
 ## Set how many credits each member can spend for high credit consumption models
 
@@ -65,7 +89,9 @@ Workspace owners and admins can go to `Settings` → `Access & billing` → `Not
 
 ## What members see
 
-* The model picker only lists models your workspace owner has turned on. If a specific model isn’t there, ask an admin to turn it on.
+* The model picker shows only models your workspace allows. Models your owner has restricted appear under
+
+  `Restricted models` and can't be selected. If a model isn't listed at all, its provider may be turned off. Ask a workspace owner.
 
 * When you choose a high credit consumption model in [Notion Agent](https://www.notion.com/help/notion-agent), it uses [Notion credits](https://www.notion.com/help/what-are-notion-credits), not your [Select credits](https://www.notion.com/help/standard-select-and-notion-credits-eligible-features).
 
@@ -123,3 +149,13 @@ Workspace owners and admins on the Business and Enterprise plans.
 ### I used Claude Fable 5 before. What changed?
 
 Claude Fable 5 uses your workspace's [Notion credits](https://www.notion.com/help/category/notion-credits), not your [Standard or Select credits](https://www.notion.com/help/standard-select-and-notion-credits-eligible-features). A workspace admin must turn it on for your workspace before you can select it in Notion Agent. Your [Custom Agents](https://www.notion.com/help/custom-agents) and saved work aren't affected.
+
+
+### Why did a model disappear from my model picker?
+
+A workspace owner may have restricted that model's provider for your whole workspace. When a provider is restricted, its models leave the picker for everyone. Ask an owner if you still need that provider.
+
+
+### I hid a model. Why is Auto still using it?
+
+Hiding a model only stops people from picking it by hand. Auto can still use it on its own. To keep Auto from using a provider at all, restrict the provider instead.

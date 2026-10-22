@@ -165,13 +165,13 @@ Workspace owners on any Notion plan can go to `Settings` → `Notion AI` and adj
 
 * **Personalization:** Give your Notion Agent a name, accessories, and instructions for how to behave.
 
-* **AI Meeting Notes:** Turn on various settings for AI Meeting Notes, including audio storage, transcript deletion, and more. Learn more about these settings [here →](https://www.notion.com/help/ai-meeting-notes)
+* **AI Meeting Notes:** Turn on various settings for AI Meeting Notes, including audio storage, transcript deletion, and more. Learn more about [AI Meeting Notes →](https://www.notion.com/help/ai-meeting-notes)
 
-* **Model controls:** Choose which AI models your team can use. Premium models are off until you turn them on.
+* **Model controls:** <!-- -->Choose which AI providers your workspace can use and which models members can pick for Notion Agent and Custom Agents. High credit consumption models stay off until a workspace owner turns them on. Learn how to [manage AI models and member credit spend →](https://www.notion.com/help/manage-ai-models-and-member-credit-spend)
 
-* **Usage:&#x20;**&#x53;ee how much [Standard and Select usage](https://www.notion.com/help/standard-select-and-notion-credits-eligible-features) your team has used and when it refreshes.**&#x20;**&#x53;et how many [Notion credits](https://www.notion.com/help/category/notion-credits) each member can spend, and give specific people a higher limit.
+* **Usage:&#x20;**&#x53;ee how many [Standard and Select ](https://www.notion.com/help/standard-select-and-notion-credits-eligible-features)credits your team has used and when it refreshes. Set how many [Notion credits](https://www.notion.com/help/category/notion-credits) each member can spend, and give specific people a higher limit.
 
-If the workspace uses Notion AI features beyond <!-- -->their Standard or Select usage<!-- -->, you may see a temporary pause. Wait for access to refresh automatically, or workspace owners (Business or Enterprise plans) can let the team use [Notion credits](https://www.notion.com/help/category/notion-credits) to keep going right away. Learn more about [how to manage your AI credits →](https://www.notion.com/help/manage-your-ai-credits)
+If the workspace uses Notion AI features beyond their Standard or Select usage, you may see a temporary pause. Wait for access to refresh automatically, or workspace owners (Business or Enterprise plans) can let the team use [Notion credits](https://www.notion.com/help/category/notion-credits) to keep going right away. Learn more about [how to manage your AI credits →](https://www.notion.com/help/manage-your-ai-credits)
 
 ## Notion AI keyboard shortcut
 

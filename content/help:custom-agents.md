@@ -325,15 +325,15 @@ Results depend on how you set things up. The way you split the work, the models 
 
 * Start with `Auto` for models. You can also give the primary agent a stronger model and give simple, focused tasks lighter models. Check the quality of the results before you add more work.
 
-* Check the `Activity` and `Insights` tabs after you test. Compare model use, output quality, and credits across runs. Sub-agent work uses Notion credits, so extra hand-offs can cost more. <!-- -->Hand-offs that use a premium model cost more because premium models spend credits at the model's own price.
+* Check the `Activity` and `Insights` tabs after you test. Compare model use, output quality, and credits across runs. Sub-agent work uses Notion credits, so extra hand-offs can cost more. <!-- -->Hand-offs that use a high credit consumption model cost more because these models spend credits at the model's own price.
 
 ## Choose a model for your Custom Agent
 
 Custom Agents can run on different large language models. This lets you balance speed, cost, and quality. You can adjust the model over time if your workflow changes or you see different performance needs.
 
-Supported models include Claude Fable 5 (Business and Enterprise plans only), Claude Sonnet 5, the newest GPT models, Gemini, and Grok. Auto is the recommended default. Your admin may also limit which models Custom Agents can use. Models your admin has turned off appear dimmed in the model menu and can't be selected.
+Supported models include Claude Fable 5 (Business and Enterprise plans only), Claude Sonnet 5, the newest GPT models, Gemini, and Grok. Auto is the recommended default. Your admin may also limit which models Custom Agents can use. <!-- -->Models your workspace owner has restricted appear under `Restricted models` in the model menu and can't be selected. Models from providers your workspace has turned off don't appear.
 
-Claude Fable 5 works best for things like in-depth research, complex writing, and tasks that involve lots of steps. Before anyone in your workspace can use it, an admin needs to turn it on. This is because Anthropic handles data from this model a bit differently from other models (see below). If you'd like access, ask your admin to turn it on for Custom Agents in `Settings` → `Notion AI`.
+Claude Fable 5 works best for things like in-depth research, complex writing, and tasks that involve lots of steps. Before anyone in your workspace can use it, an owner needs to turn it on. This is because Anthropic handles data from this model a bit differently from other models (see below). <!-- -->If you'd like access, ask your workspace owner to turn it on for Custom Agents in `Settings` → `Notion AI` → `Controls`.
 
 **A note on data handling:** When you use Claude Fable 5, Anthropic may store your prompts and responses for a period of time to keep the model safe and working well. Other AI models available in Notion don't work this way. That's why your admin needs to review and switch it on first.
 
@@ -359,25 +359,27 @@ Claude Fable 5 is available for Business and Enterprise plans only. Once it's on
 
 ## Admins: Manage access to models for Custom Agents
 
-If you're a workspace admin on a Business or Enterprise Plan, you can choose which AI models Custom Agents in your workspace can use. This helps keep model usage consistent with your organization's needs.
+If you're a workspace owner on a Business or Enterprise Plan, you can choose which AI models Custom Agents in your workspace can use. This helps keep model usage consistent with your organization's needs.
 
 To manage model access for Custom Agents:
 
-1. Go to `Settings` → `Notion AI` → `General`.
+1. Go to `Settings` → `Notion AI` → `Controls`.
 
-2. Find `Allowed models for Custom Agents`.
+2. Find `Models Custom Agents can use`.
 
-3. Find the model you want under the model controls.
+3. Select the model button and uncheck any model you want to restrict.
 
-4. Set your model restrictions.
-
-5. Save your changes.
+4. Select `Save`.
 
 A few things to keep in mind:
 
 * If a Custom Agent was using a model that you turn off, it automatically switches to your default model, or to Auto if you haven’t set a default model. You don't need to update each agent yourself.
 
-* Models that are turned off appear dimmed in the model menu, so Custom Agent creators can see they're not available.
+* Restricted models appear under `Restricted models` in the model menu, so Custom Agent creators can see they're not available.
+
+* When a workspace owner restricts a model provider, that provider's models are removed from this list and unselected automatically, for Custom Agents and everywhere else. You can select them again later if an owner allows the provider.
+
+* A restricted provider's models disappear from the model picker until the provider is allowed again. Learn how owners can [manage AI models →](https://www.notion.com/help/manage-ai-models-and-member-credit-spend)
 
 ## Share agents & manage access
 
@@ -499,7 +501,7 @@ The duplicate opens as a private agent. You can review and update its settings b
 
 * **Name:&#x20;**&#x54;he duplicate is named `{Original agent name} (1)`. You can rename it anytime.
 
-* **AI model:** The duplicate uses the same AI model as the original. <!-- -->If that model is a premium model, the copy spends [Notion credits](https://www.notion.com/help/category/notion-credits) the same way the original does.
+* **AI model:** The duplicate uses the same AI model as the original. If that model is a <!-- -->high credit consumption model<!-- -->, the copy spends [Notion credits](https://www.notion.com/help/category/notion-credits) the same way the original does.
 
 * **Instructions:** Copied into a new page. If any links in the instructions point to pages you don’t have access to, those show up as no-access chips and won’t be added to the duplicate’s resources.
 
@@ -660,11 +662,9 @@ After you publish:
 
 There are a few reasons a model might be missing:
 
-* An admin turned the model off for Custom Agents. Models that are off appear dimmed in the model menu.
+* A workspace owner restricted the model or turned off its provider. Restricted models appear under Restricted models in the model menu. Models from a turned-off provider don't appear.
 
-* You've reached your credit limit, or your workspace is out of [Notion credits](https://www.notion.com/help/category/notion-credits). Premium models pause until your limit goes up or your credits reset.
-
-* Your workspace reached its [usage allowance](https://www.notion.com/help/manage-your-usage-allowance-for-notion-ai). Some AI features pause until the allowance refreshes, which happens within six hours.
+* You've reached your credit limit, or your workspace is out of [Notion credits](https://www.notion.com/help/category/notion-credits). High credit consumption models pause until your limit goes up or your credits reset.
 
 
 ### I embedded a Custom Agent in a page. Why can't my teammates chat with it?
