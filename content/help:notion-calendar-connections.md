@@ -29,7 +29,7 @@ Notion Calendar connects with conferencing tools like Zoom, Microsoft Teams, and
 
 * At this time, Notion Calendar doesn’t support FaceTime as a conferencing option.
 
-### Set a default conferencing option
+### [Set a default conferencing option](https://www.notion.com/help/notion-calendar-connections#set-a-default-conferencing-option)
 
 A default conferencing option allows you to automatically add conferencing to an event that has at least one other participant when you’re using Notion Calendar on desktop.
 
@@ -59,7 +59,7 @@ If you remove Notion Calendar from your installed apps in Zoom App Marketplace, 
 
 * If you have any problems joining a meeting, try disconnecting then reconnecting your Zoom account.
 
-### Google Meet
+### [Google Meet](https://www.notion.com/help/notion-calendar-connections#google-meet)
 
 Because Notion Calendar is already connected to your Google account, you don’t need to do anything else to add Google Meet links to your meetings! Even if you’ve connected multiple Google accounts to Notion Calendar, Notion Calendar will make sure you’re joining meetings across your various calendars from the right Google account.
 

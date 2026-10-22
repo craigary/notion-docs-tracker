@@ -29,13 +29,13 @@ Workspace owners on the Enterprise Plan have access to additional settings for m
 
 ![Integration - Enterprise menu](https://images.ctfassets.net/spoqsaf9291f/5hClC5SVCaqs0It9asEcEr/59d3a712c45bd39b71a2d4a45c8368be/Integration_-_Enterprise_menu.png)
 
-### Auto-approve connections built by Notion
+### [Auto-approve connections built by Notion](https://www.notion.com/help/enterprise-connection-settings#auto-approve-connections-built-by-notion)
 
 * If `From approved list` is selected, workspace owners will see an additional option to auto-approve connections that are built by Notion. [See the full list of these connections here →](https://www.notion.com/integrations/all?collection=made-by-notion)
 
 ![Integration - Auto-approve](https://images.ctfassets.net/spoqsaf9291f/gyWbkRiuR2zBqjRU6ArGb/2ad5adfa347fee5bab390f991dcac8dd/Integration_-_Auto-approve.png)
 
-### Approved connections list
+### [Approved connections list](https://www.notion.com/help/enterprise-connection-settings#approved-connections-list)
 
 1. Click the `+ Add approved connection` button to approve additional connections for members in your workspace.
 
@@ -59,7 +59,7 @@ Workspace owners on the Enterprise Plan have access to additional settings for m
 
 ![Integration - Options](https://images.ctfassets.net/spoqsaf9291f/501dZyRoaYclqaXOwQVV1u/269b881a7bbcb1f56bcfd8a43b069b7e/Integration_-_Options.png)
 
-### View members with connections
+### [View members with connections](https://www.notion.com/help/enterprise-connection-settings#view-members-with-connections)
 
 In the `Manage` tab, select any connection to see which workspace members have it installed. You can disconnect individual members or all members at once.
 

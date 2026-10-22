@@ -65,7 +65,7 @@ If you aren’t the owner of your Notion workspace or your GitHub organization, 
 
 ![hc: github connector for members](https://images.ctfassets.net/spoqsaf9291f/19D9MKIIIA3YlIwGfb9eAc/3814a6db166d049fb628aa41689ebc00/Reference_Visuals_Group_124.png)
 
-### What content from GitHub can be connected to Notion AI?
+### [What content from GitHub can be connected to Notion AI?](https://www.notion.com/help/notion-ai-connector-for-github#what-content-from-github-can-be-connected-to-notion-ai)
 
 Once the AI Connector has been set up for the workspace it can index code, PRs, Issues, Files, and READMEs.
 

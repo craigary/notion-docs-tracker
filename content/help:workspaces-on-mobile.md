@@ -39,7 +39,7 @@ Tap on your current workspace's name at the top of your `🏠` tab to switch to 
 
 ## Creating on Notion for mobile
 
-### Editor tools
+### [Editor tools](https://www.notion.com/help/workspaces-on-mobile#editor-tools)
 
 While in a page, a toolbar appears above your keyboard. It contains all the options you need to add content to your page.
 
@@ -47,7 +47,7 @@ While in a page, a toolbar appears above your keyboard. It contains all the opti
 
 * From this toolbar, you can also @-mention a person or page, add a comment, insert an image, delete content, indent, select text color and highlight, and delete and duplicate a content block. Scroll horizontally to see all these options.
 
-### ••• menu
+### [••• menu](https://www.notion.com/help/workspaces-on-mobile#%E2%80%A2%E2%80%A2%E2%80%A2-menu)
 
 The `•••` menu contains additional options, including but not limited to:
 
@@ -65,7 +65,7 @@ The `•••` menu contains additional options, including but not limited to:
 
 * `Move to`**:** This opens up a menu where you can choose any other workspace or page to move the current page into.
 
-### Share menu
+### [Share menu](https://www.notion.com/help/workspaces-on-mobile#share-menu)
 
 Tap the share icon (square with upward arrow) to open this menu. From there, you can share the current page with others in a number of ways:
 
@@ -83,7 +83,7 @@ Tap the share icon (square with upward arrow) to open this menu. From there, you
 
 ## Settings on mobile
 
-### Notifications
+### [Notifications](https://www.notion.com/help/workspaces-on-mobile#notifications)
 
 Many more Notion settings are available on desktop. We've slimmed these down for mobile to include only:
 
@@ -97,7 +97,7 @@ Many more Notion settings are available on desktop. We've slimmed these down for
 
 * The option to start calendar weeks on Monday instead of Sunday.
 
-### Rage Shake
+### [Rage Shake](https://www.notion.com/help/workspaces-on-mobile#rage-shake)
 
 Rage Shake is a feature on Notion mobile (for Android) that allows users to report app issues by shaking their phone, triggering a notification to report a problem. To enable:
 
@@ -105,7 +105,7 @@ Rage Shake is a feature on Notion mobile (for Android) that allows users to repo
 
 2. Toggle on `Shake phone to report`.
 
-### Trash
+### [Trash](https://www.notion.com/help/workspaces-on-mobile#trash)
 
 * Tap to see deleted pages split into two categories: all deleted pages, and sub-pages deleted off the current page you're looking at.
 

@@ -59,7 +59,7 @@ Notion supports the following app protection controls through Intune:
 
 ## Set up Notion with Microsoft Intune
 
-### Step 1: Add Notion to Intune
+### [Step 1: Add Notion to Intune](https://www.notion.com/help/set-up-microsoft-intune-with-notion-ios-and-android#step-1-add-notion-to-intune)
 
 First, you’ll need to add Notion to Microsoft Endpoint Manager.
 
@@ -73,7 +73,7 @@ First, you’ll need to add Notion to Microsoft Endpoint Manager.
 
 5. Click `Create`**&#x20;**&#x74;o add the app.
 
-### Step 2: Create and assign app protection policies
+### [Step 2: Create and assign app protection policies](https://www.notion.com/help/set-up-microsoft-intune-with-notion-ios-and-android#step-2-create-and-assign-app-protection-policies)
 
 App protection policies control how corporate data is handled within Notion. You'll need to create separate policies for iOS and Android.
 
@@ -89,7 +89,7 @@ App protection policies control how corporate data is handled within Notion. You
 
 6. Review and create the policy. Then, repeat for the other platform.
 
-### Step 3: Enable Microsoft Intune in Notion
+### [Step 3: Enable Microsoft Intune in Notion](https://www.notion.com/help/set-up-microsoft-intune-with-notion-ios-and-android#step-3-enable-microsoft-intune-in-notion)
 
 An organization owner must turn on Intune in Notion.
 

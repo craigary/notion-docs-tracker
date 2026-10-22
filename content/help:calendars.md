@@ -23,7 +23,7 @@ If you want to create an inline calendar, type `/Calendar view` on any page an
 
 **Note:** Expand inline databases to full page by clicking `⤢` at the top right.
 
-### Add calendar view to a database
+### [Add calendar view to a database](https://www.notion.com/help/calendars#add-calendar-view-to-a-database)
 
 You can add a calendar to an existing database to view its data in that format. [Learn more about views here →](https://www.notion.com/help/views-filters-and-sorts)
 
@@ -35,7 +35,7 @@ You can add a calendar to an existing database to view its data in that format.�
 
 You can modify your calendar in a few different ways. Change its properties and appearance.
 
-### Weekly view
+### [Weekly view](https://www.notion.com/help/calendars#weekly-view)
 
 To get a more specific view of your calendar, you can display your pages as weeks instead of months:
 
@@ -43,7 +43,7 @@ To get a more specific view of your calendar, you can display your pages as week
 
 2. Click `Show calendar as` and then select `Week`.
 
-### Show another month
+### [Show another month](https://www.notion.com/help/calendars#show-another-month)
 
 Notion calendars display in monthly format. Skip back to a past month or ahead to a future month in one of two ways:
 
@@ -53,7 +53,7 @@ Notion calendars display in monthly format. Skip back to a past month or ahead t
 
 **Note:** Your calendar will remember which date range you were viewing last. Next time you open the page, that's the range you'll see.
 
-### Move and stretch cards
+### [Move and stretch cards](https://www.notion.com/help/calendars#move-and-stretch-cards)
 
 Rearrange cards on your calendar with drag-and-drop.
 
@@ -61,7 +61,7 @@ Rearrange cards on your calendar with drag-and-drop.
 
 * Have your card span multiple days by hovering over its right or left edge, clicking and dragging to expand it in either direction.
 
-### Display, hide, and order properties
+### [Display, hide, and order properties](https://www.notion.com/help/calendars#display-hide-and-order-properties)
 
 You can choose which properties you want displayed on the front of the cards on your calendar – like a due date or project lead.
 
@@ -71,7 +71,7 @@ You can choose which properties you want displayed on the front of the cards on 
 
 3. Use `⋮⋮` to drag your properties in the order in which you want them to be displayed in your calendar.
 
-### Switch between calendars
+### [Switch between calendars](https://www.notion.com/help/calendars#switch-between-calendars)
 
 If you have multiple date properties in your database, you can view separate calendars for each of them.
 
@@ -79,7 +79,7 @@ If you have multiple date properties in your database, you can view separate cal
 
 2. Click `Show calendar by` and select your date property.
 
-### Start your week on Monday
+### [Start your week on Monday](https://www.notion.com/help/calendars#start-your-week-on-monday)
 
 Calendars in Notion will use Sunday or Monday as the first day of the week, depending on your region. That includes the date picker for reminders and calendar databases. If you prefer, you can change this manually. To do this:
 

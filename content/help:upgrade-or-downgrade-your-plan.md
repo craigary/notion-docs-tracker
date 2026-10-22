@@ -61,7 +61,7 @@ If you upgrade your plan in the middle of a billing interval:
 
 * You can pay for your plan with a debit or credit card, Apple Pay, or Google Pay. Notion uses [Stripe](http://stripe.com/) to process payments.
 
-### Upgrade on mobile
+### [Upgrade on mobile](https://www.notion.com/help/upgrade-or-downgrade-your-plan#upgrade-on-mobile)
 
 If you’re on Notion on an iOS or Android device and you’re currently on the Free Plan with no other members, you’ll be able to upgrade from the Free Plan to the Plus Plan on that device. The Plus Plan may not be available for every workspace.
 
@@ -81,7 +81,7 @@ If you've purchased a subscription through the Apple App Store, you'll need to c
 
 ## Upgrade and add-on requests
 
-### Enable upgrade and add-on requests
+### [Enable upgrade and add-on requests](https://www.notion.com/help/upgrade-or-downgrade-your-plan#enable-upgrade-and-add-on-requests)
 
 To allow workspace members to request plan upgrades and add-ons, workspace owners can:
 
@@ -89,7 +89,7 @@ To allow workspace members to request plan upgrades and add-ons, workspace owner
 
 2. Toggle on `Allow members to request for all upgrades`.
 
-### Request an upgrade or add-on
+### [Request an upgrade or add-on](https://www.notion.com/help/upgrade-or-downgrade-your-plan#request-an-upgrade-or-add-on)
 
 If you’re not a workspace owner but would like to request a plan upgrade or an add-on, you can do this by following these steps:
 
@@ -99,7 +99,7 @@ If you’re not a workspace owner but would like to request a plan upgrade or an
 
 This will notify your workspace owner, and you’ll be notified in your Notion `Inbox` when your request is approved or denied.
 
-### Approve an upgrade or add-on
+### [Approve an upgrade or add-on](https://www.notion.com/help/upgrade-or-downgrade-your-plan#approve-an-upgrade-or-add-on)
 
 To review and approve members’ requests, workspace owners can:
 

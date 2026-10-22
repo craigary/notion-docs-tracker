@@ -126,19 +126,19 @@ The **Privacy** property describes the Asana project. It doesn’t control acces
 
 ## Troubleshoot your replacement
 
-### Some tasks are missing
+### [Some tasks are missing](https://www.notion.com/help/connect-asana#some-tasks-are-missing)
 
 Ask Notion AI to check the complete project selection, source access, pagination, and inclusion of completed tasks. Also check the Notion view’s filters. A task that isn’t included in the selected projects may not be returned by this sync.
 
-### Owners or assignees are empty
+### [Owners or assignees are empty](https://www.notion.com/help/connect-asana#owners-or-assignees-are-empty)
 
 Check **Owner name** or **Assignee name**. A person property can remain empty when the Asana email isn’t available or doesn’t match a Notion member or guest.
 
-### Updates have stopped
+### [Updates have stopped](https://www.notion.com/help/connect-asana#updates-have-stopped)
 
 Ask Notion AI to check the Worker’s latest runs and credential access. You may need to restart the sync with the complete project list. Repeated manual retries can hit request limits.
 
-### My existing views or values didn’t move
+### [My existing views or values didn’t move](https://www.notion.com/help/connect-asana#my-existing-views-or-values-didn%E2%80%99t-move)
 
 The replacement has new databases and record pages. Ask Notion AI to compare the old and new structures and handle each missing value or dependency before retiring the old sync.
 

@@ -11,7 +11,7 @@ categoryKey: "category:sharing-and-collaboration"
 
 ## Create a teamspace
 
-### Create a new teamspace
+### [Create a new teamspace](https://www.notion.com/help/intro-to-teamspaces#create-a-new-teamspace)
 
 Each workspace will have at least one teamspace that includes everyone, by default. To create an additional teamspace:
 
@@ -29,7 +29,7 @@ Each workspace will have at least one teamspace that includes everyone, by defau
 
 * Once you’ve populated all of these fields, select `Create teamspace`.
 
-### Turn an existing page into a teamspace
+### [Turn an existing page into a teamspace](https://www.notion.com/help/intro-to-teamspaces#turn-an-existing-page-into-a-teamspace)
 
 You can turn an existing page into a teamspace if:
 
@@ -63,7 +63,7 @@ Toggle on the `Make default teamspace` option if you’d like every member of yo
 
 Restricted members aren't added to a default teamspace automatically, even existing ones. To give a restricted member access, add them to the teamspace directly or through a permission group. Learn more about [who's who in a workspace →](https://www.notion.com/help/whos-who-in-a-workspace)
 
-### **Adding with an invite link**
+### [**Adding with an invite link**](https://www.notion.com/help/intro-to-teamspaces#adding-with-an-invite-link)
 
 To add many members at once, it might be better to allow and post an invite link.
 
@@ -103,7 +103,7 @@ Each teamspace has its own membership, permissions, & security settings. These c
 
 In the pop-up menu, you’ll see three tabs: General, Members, and Security. Below, we’ll walk through all the options in each.
 
-### General
+### [General](https://www.notion.com/help/intro-to-teamspaces#general)
 
 Here, you can modify general teamspace information.
 
@@ -117,7 +117,7 @@ You can also archive your teamspace. This will remove it from the sidebar of eve
 
 **Note:** Teamspace owners who are also workspace owners will be able to restore archived teamspaces in `Settings` → `Teamspaces`.
 
-### Members
+### [Members](https://www.notion.com/help/intro-to-teamspaces#members)
 
 In this tab, you can manage the membership of the teamspace.
 
@@ -133,7 +133,7 @@ In this tab, you can manage the membership of the teamspace.
 
 If your workspace is on an Enterprise Plan, you’ll see an additional option to set custom permissions on a member or group basis. [Learn more about permissions →](https://www.notion.com/help/sharing-and-permissions)
 
-### Permissions
+### [Permissions](https://www.notion.com/help/intro-to-teamspaces#permissions)
 
 This tab outlines the permission levels of the teamspace and the users within.
 
@@ -151,7 +151,7 @@ This tab outlines the permission levels of the teamspace and the users within.
 
 * For any teamspace, teamspace owners can choose **who can edit the teamspace sidebar**: any teamspace member or teamspace owners only.
 
-### Security
+### [Security](https://www.notion.com/help/intro-to-teamspaces#security)
 
 **Note:** Some of the following settings are available on specific Notion plans only.
 

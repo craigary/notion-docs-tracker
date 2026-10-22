@@ -15,7 +15,7 @@ Notion formulas can perform helpful calculations using your existing database pr
 
 Let’s look at a few different ways to use formulas. If you’re ready to get started building your own, jump to our instructions on creating a formula [below →](https://www.notion.com/help/formulas#create-a-formula)
 
-### Example 1: Project management
+### [Example 1: Project management](https://www.notion.com/help/formulas#example-1-project-management)
 
 In this example, we’ll use three formulas to track the progress of projects.
 
@@ -29,7 +29,7 @@ You can explore and play with the formula setups for this example by duplicating
 
 ![hc: formulas example 1](https://images.ctfassets.net/spoqsaf9291f/bLldMPYuBrH18N9dmBQg6/6378ddc577868587a4ebc78055b76c26/Image_from_Notion__1_.png)
 
-### Example 2: Project brainstorming
+### [Example 2: Project brainstorming](https://www.notion.com/help/formulas#example-2-project-brainstorming)
 
 In this example, we’ll use two formulas to brainstorm project ideas, calculate a priority score for each of them, and count the number of upvotes each project receives.
 
@@ -44,7 +44,7 @@ You can explore and play with the formula setups for this example by duplicating
 
 ![hc: formulas example 2 part 2](https://images.ctfassets.net/spoqsaf9291f/5TSmwJvAOYpCCSLE6fInC3/8d18c2652915835b8cd36120d496f2f4/Image_from_Notion__3_.png)
 
-### (Advanced) Example 3: Task management automation
+### [(Advanced) Example 3: Task management automation](https://www.notion.com/help/formulas#\(advanced\)-example-3-task-management-automation)
 
 In this example, we’ll use some formulas in a database [automation](https://www.notion.com/help/database-automations) (another kind of database property) to make it easier to manage projects and tasks as they’re completed by marking a parent task as `Done` when all its subtasks are `Done`.
 

@@ -53,7 +53,7 @@ To add the ID property to your database:
 
 3. To add an optional prefix to your IDs, select `Add ID prefix`. The prefix will be generated automatically, but you can change it anytime by entering your desired prefix in the text box and selecting `Update ID Prefix`.
 
-### ID URLs
+### [ID URLs](https://www.notion.com/help/sprints#id-urls)
 
 All pages with the ID property can be accessed via a special URL with the ID number. For example, if a page has the ID: `TASK-123` you can get to that page at `notion.so/TASK-123`.
 
@@ -79,7 +79,7 @@ Once you have a Task database, you can add Sprints to your set-up. To do this:
 
 4. Select `Turn on sprints`.
 
-### Sprint board and sprints database
+### [Sprint board and sprints database](https://www.notion.com/help/sprints#sprint-board-and-sprints-database)
 
 Once you turn on sprints for your database, a few items will be created to help you track them. **These will be accessible in your Notion sidebar, alongside the original database you used to set up sprints.**
 

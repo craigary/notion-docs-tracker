@@ -181,7 +181,7 @@ A well-designed agent runs faster and avoids unnecessary work. Three factors aff
 
 * How many steps it takes to complete a task
 
-### 1. Reduce how often your agent runs
+### [1. Reduce how often your agent runs](https://www.notion.com/help/best-practices-for-creating-and-optimizing-a-custom-agent#1.-reduce-how-often-your-agent-runs)
 
 The easiest way to improve performance is to limit unnecessary runs. Design triggers so the agent only runs when it’s likely to take action.
 
@@ -207,7 +207,7 @@ The easiest way to improve performance is to limit unnecessary runs. Design trig
 
 * This is normal and efficient—the agent only checks the trigger and instructions before exiting
 
-### **2. Be intentional about what your agent references**
+### [**2. Be intentional about what your agent references**](https://www.notion.com/help/best-practices-for-creating-and-optimizing-a-custom-agent#2.-be-intentional-about-what-your-agent-references)
 
 The more content an agent reads, the more work each run requires. Keep the scope tight.
 
@@ -215,7 +215,7 @@ The more content an agent reads, the more work each run requires. Keep the scope
 
 * Avoid asking the agent to search broadly if you already know which database or page it should use as the source of truth.
 
-### **3. Keep the number of steps low**
+### [**3. Keep the number of steps low**](https://www.notion.com/help/best-practices-for-creating-and-optimizing-a-custom-agent#3.-keep-the-number-of-steps-low)
 
 Each additional step in a run adds work, especially when the Custom Agent executes multiple searches.
 
@@ -227,7 +227,7 @@ Each additional step in a run adds work, especially when the Custom Agent execut
 
   * **Has to run in order:&#x20;***"Create a summary page in the Reports database, then post the link to #team-updates in Slack."&#x20;*&#x54;he agent needs the page URL before it can post the link, so these steps happen sequentially.
 
-### **4. Watch for loops and retries**
+### [**4. Watch for loops and retries**](https://www.notion.com/help/best-practices-for-creating-and-optimizing-a-custom-agent#4.-watch-for-loops-and-retries)
 
 If the agent frequently asks multiple follow-up questions, retries the same action, re-checks the same pages, or errors in predictable ways, the instructions or settings need improvement.
 

@@ -17,13 +17,13 @@ At Notio&#x6E;**,** our team is dedicated to developing and implementing data pr
 
 Every Notion employee and contractor signs up to non-disclosure terms to maintain the confidentiality and security of your data. Notion also holds any vendors that handle personal data to the same data management, security, and privacy practices and standards to which we hold ourselves.
 
-### What is Customer Data?
+### [What is Customer Data?](https://www.notion.com/help/privacy#what-is-customer-data)
 
 Notion defines Customer Data as any data that a customer stores in the Notion services. This can include personal information.
 
 Customer data does not include analytics data or Account Information, which we describe below. The terms of the Notion [MSA](https://www.notion.com/notion/Master-Subscription-Agreement-4e1c5dd3e3de45dfa4a8ed60f1a43da0) and Notion [DPA](https://www.notion.com/notion/Data-Processing-Addendum-361b540101274b1fa7e16b90402b0d99) apply to your Customer Data.
 
-### What is Account Information?
+### [What is Account Information?](https://www.notion.com/help/privacy#what-is-account-information)
 
 Account information is the information that our customers provide to us so that we can create and administer their customer accounts.
 
@@ -31,7 +31,7 @@ For example, account information includes names, usernames, passwords, phone num
 
 The terms of the Notion [Privacy Policy](https://www.notion.com/notion/Privacy-Policy-3468d120cf614d4c9014c09f6adc9091) apply to any personal information included in Account Information.
 
-### Who owns and controls Customer Data?
+### [Who owns and controls Customer Data?](https://www.notion.com/help/privacy#who-owns-and-controls-customer-data)
 
 You own your Customer Data, including any content you submit or upload to the Notion Service.
 
@@ -39,11 +39,11 @@ You control your Customer Data. You determine what content and data will be uplo
 
 You also control the administration of the Customer Data by managing your groups, permissions and the user credentials that are under your control.
 
-### How does Notion use my Account Information?
+### [How does Notion use my Account Information?](https://www.notion.com/help/privacy#how-does-notion-use-my-account-information)
 
 The Notion [Privacy Policy](https://www.notion.com/notion/Privacy-Policy-3468d120cf614d4c9014c09f6adc9091) describes in detail how Notion collects and uses your account information.
 
-### Who should I contact if I have any questions about Notion’s data protection practices?
+### [Who should I contact if I have any questions about Notion’s data protection practices?](https://www.notion.com/help/privacy#who-should-i-contact-if-i-have-any-questions-about-notion%E2%80%99s-data-protection-practices)
 
 If you have any questions about our privacy practices, please contact us at:
 
@@ -57,7 +57,7 @@ The General Data Protection Regulation (GDPR) is a comprehensive data protection
 
 As the GDPR is widely considered to be the most stringent global privacy standard, we have mapped our privacy program to the GDPR and other global privacy regulations.
 
-### Notion as Processor and Controller
+### [Notion as Processor and Controller](https://www.notion.com/help/privacy#notion-as-processor-and-controller)
 
 The GDPR and other data protection legislation have two primary classifications related to the collection and processing of personal data: data controller and data processor.
 
@@ -65,7 +65,7 @@ A data controller determines the means and purposes for processing personal data
 
 Where our customer is a data controller or data processor, Notion is the data processor of personal data that our customer and their users upload to the Notion service. We process any such personal data at our customer’s direction and on our customer’s behalf. We conduct this processing in accordance with Notion’s [Data Processing Addendum](https://www.notion.com/notion/Data-Processing-Addendum-361b540101274b1fa7e16b90402b0d99).
 
-### Cross Border Transfers - Standard Contractual Clauses
+### [Cross Border Transfers - Standard Contractual Clauses](https://www.notion.com/help/privacy#cross-border-transfers-standard-contractual-clauses)
 
 We understand and adhere to the rules for international transfers of personal data outside of the European Economic Area and UK.
 
@@ -73,13 +73,13 @@ In order for our customers to be confident of Notion’s data transfer processes
 
 For more information about our technical security measures, please see our [security page](https://www.notion.com/security).
 
-### Transfer Impact Assessment
+### [Transfer Impact Assessment](https://www.notion.com/help/privacy#transfer-impact-assessment)
 
 Notion understands and appreciates the importance of maintaining transfer impact assessments (TIA) as a supplementary measure and as a critical piece of your privacy compliance program.
 
 To assist our customers in completing these assessment&#x73;**,** we maintain [Transfer Impact Assessment page](https://www.notion.com/notion/Transfer-Impact-Assessment-Information-77d5463434bb4c9eb80371bb56c0f2c1) that includes all of the information about Notion that you need to complete your TIA.
 
-### Subprocessor List
+### [Subprocessor List](https://www.notion.com/help/privacy#subprocessor-list)
 
 We work with certain companies and tool systems to provide our services to you. All of these companies have been carefully vetted for best-in-class security and data privacy practices. For more informatio&#x6E;**,** please see our [list of subprocessors.](https://www.notion.com/notion/Notion-s-List-of-Subprocessors-268fa5bcfa0f46b6bc29436b21676734)
 
@@ -89,23 +89,23 @@ Data governance relates to the policies and procedures that dictate how data is 
 
 Notion’s commitment to data governance is key to keeping our users data secure, private, accurate, and accessible.
 
-### Privacy by Design
+### [Privacy by Design](https://www.notion.com/help/privacy#privacy-by-design)
 
 At Notion, we believe in privacy by design, which means that privacy considerations are built into every aspect of our products and services from the outset. This includes the development of new products, features, and the selection of vendors.
 
 Notion conducts regular training with our personnel to reinforce the concept that Notion needs to think of user privacy at all stages of the development lifecycle.
 
-### Data Export
+### [Data Export](https://www.notion.com/help/privacy#data-export)
 
 Companies generally have a duty to back up their information in multiple places. To help with this Notion offers the option to save any Notion page, database, and non-database page to your computer in various formats. This way our customers can further protect themselves by backing up their information at any time.
 
-### Data Import
+### [Data Import](https://www.notion.com/help/privacy#data-import)
 
 Notion’s data import function lets you upload information from external sources and combine it with the data already held in your workspace.
 
 Like most people, you probably have data, documents, and notes scattered across many files and apps. You can centralize your information in one place by moving it all into Notion.
 
-### Data Deletion
+### [Data Deletion](https://www.notion.com/help/privacy#data-deletion)
 
 The workspace owner controls the workspace’s Customer Data. This includes all of the content submitted by customers and their users. When users leave a workspace, they may have the right to request that their data is deleted by the workspace owner. When customers terminate their subscription they also have the right to request that their data be deleted by Notion.
 
@@ -129,11 +129,11 @@ To delete a workspace, you must be a workspace owner of that workspace. When you
 
 To learn more about how to delete your Notion account please see our [Delete Your Account](https://www.notion.com/help/delete-your-account) page. If you are a Customer and would like to terminate your contract, please see our [MSA](https://www.notion.com/notion/Master-Subscription-Agreement-4e1c5dd3e3de45dfa4a8ed60f1a43da0).
 
-### Data Access
+### [Data Access](https://www.notion.com/help/privacy#data-access)
 
 Notion provides an advanced set of access functionality to help customers effectively protect their information. Notion also uses encryption to protect Customer Data from outside access.To learn more about how data access works at Notion please see our [Data Access Consent](https://www.notion.com/help/data-access-consent) page.
 
-### Data Backup
+### [Data Backup](https://www.notion.com/help/privacy#data-backup)
 
 All Customer Data is stored in the cloud, and we keep per-minute backups of your page content on our server. That said, your data belongs to you, so we've made it easy to create your own backups and keep your information portable. To learn more about this please see Notion’s [Back up your Data](https://www.notion.com/help/back-up-your-data) page.
 

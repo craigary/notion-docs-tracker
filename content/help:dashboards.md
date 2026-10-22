@@ -39,7 +39,7 @@ You’ll start in `Edit` mode, so you can begin designing your layout right away
 
 ![hc: new dashboard view](https://images.ctfassets.net/spoqsaf9291f/3coUUDzdXxUq55VChvUBzG/67b58c0797c2e761506e1dd80988b946/New_dashboard_view.png)
 
-### Create with a slash command
+### [Create with a slash command](https://www.notion.com/help/dashboards#create-with-a-slash-command)
 
 You can also create a dashboard view with a slash command:
 
@@ -51,7 +51,7 @@ You can also create a dashboard view with a slash command:
 
 You can create a dashboard manually, or use Notion Agent to generate a first draft.
 
-### Create with Notion Agent
+### [Create with Notion Agent](https://www.notion.com/help/dashboards#create-with-notion-agent)
 
 You can also use **Notion Agent** to create and refine a dashboard. This is especially helpful when you want a quick starting point or aren’t sure which widgets to include.
 
@@ -75,7 +75,7 @@ Notion Agent can also help you **iterate on an existing dashboard**. For example
 
 Widgets form the building blocks of dashboard views. Each widget displays a database view from a data source. Dashboards can combine widgets from one or multiple databases.
 
-### Add widgets
+### [Add widgets](https://www.notion.com/help/dashboards#add-widgets)
 
 1. Enter `Edit` mode by selecting `Edit` in the database header.
 
@@ -89,7 +89,7 @@ Widgets form the building blocks of dashboard views. Each widget displays a data
 
 If you’re planning a larger layout, keep in mind dashboards support up to **4 widgets per row** and **12 widgets total**.
 
-### Manage widgets
+### [Manage widgets](https://www.notion.com/help/dashboards#manage-widgets)
 
 To open a widget’s actions menu, right-click the widget (or click its title).
 
@@ -97,7 +97,7 @@ To open a widget’s actions menu, right-click the widget (or click its title).
 
 * **Delete a widget:** Select `Delete` to remove the widget from the dashboard.
 
-### Arrange widgets
+### [Arrange widgets](https://www.notion.com/help/dashboards#arrange-widgets)
 
 In `Edit` mode, you can organize your layout by moving widgets into different rows, reordering them within a row, or removing widgets you do not need.
 
@@ -105,7 +105,7 @@ In `Edit` mode, you can organize your layout by moving widgets into different ro
 
 * If you don’t see an option to move a widget, open the widget menu by right-clicking the widget or clicking its title, then use the available move or reorder options.
 
-### **Adjust widget widths and row heights**
+### [**Adjust widget widths and row heights**](https://www.notion.com/help/dashboards#adjust-widget-widths-and-row-heights)
 
 **Widths:**
 
@@ -121,7 +121,7 @@ In `Edit` mode, you can organize your layout by moving widgets into different ro
 
 [](//videos.ctfassets.net/spoqsaf9291f/3LbAVIQ1j5Jkwl6X8vv2d9/8c0c604ebd458be558593e88e16fab37/Adjust_widgets_dashboard_views.mp4)
 
-### Change what a widget shows
+### [Change what a widget shows](https://www.notion.com/help/dashboards#change-what-a-widget-shows)
 
 Each widget displays a specific database view. From the widget’s view options, you can adjust settings such as:
 
@@ -151,7 +151,7 @@ Global filters let you apply a filter across multiple widgets in a dashboard at 
 
 ![hc : global filters dashboard view](https://images.ctfassets.net/spoqsaf9291f/4VnfvJaGUfrQda4Zeiw2XH/14db569c6569ea18ba718e9d13035a03/Filter_multiple_sources.png)
 
-### Using global filters across widgets
+### [Using global filters across widgets](https://www.notion.com/help/dashboards#using-global-filters-across-widgets)
 
 Global filters work differently from widget-level filters:
 
@@ -178,7 +178,7 @@ Dashboard views have two modes. This helps keep dashboards stable for viewers wh
 
 Each widget displays a specific database view. You can adjust either the widget’s layout or the view it displays.
 
-### **Edit the widget layout**
+### [**Edit the widget layout**](https://www.notion.com/help/dashboards#edit-the-widget-layout)
 
 In `Edit` mode, you can:
 
@@ -188,7 +188,7 @@ In `Edit` mode, you can:
 
 * Remove it from the dashboard
 
-### **Edit the widget’s database view**
+### [**Edit the widget’s database view**](https://www.notion.com/help/dashboards#edit-the-widget%E2%80%99s-database-view)
 
 From the widget’s view options, you can update the underlying view settings (like filters, sorts, groups, and visualization type).
 
@@ -258,7 +258,7 @@ If you need rich text, images, and multiple databases in one freeform page, use 
 
 Here are a few patterns you can use as a starting point.
 
-### 1) Team status hub
+### [1) Team status hub](https://www.notion.com/help/dashboards#1\)-team-status-hub)
 
 A simple layout for weekly team check-ins, combining progress, current work, and blockers in one place.
 
@@ -276,7 +276,7 @@ A simple layout for weekly team check-ins, combining progress, current work, and
 
   * Timeline of key milestones
 
-### 2) Incident or ticket overview
+### [2) Incident or ticket overview](https://www.notion.com/help/dashboards#2\)-incident-or-ticket-overview)
 
 A triage-focused layout to monitor volume, urgency, and ownership so nothing slips through.
 
@@ -296,7 +296,7 @@ A triage-focused layout to monitor volume, urgency, and ownership so nothing sli
 
   * Timeline of tickets by created date
 
-### 3) Executive reporting
+### [3) Executive reporting](https://www.notion.com/help/dashboards#3\)-executive-reporting)
 
 A high-level layout for leadership to scan key metrics, top priorities, and milestone timing at a glance.
 

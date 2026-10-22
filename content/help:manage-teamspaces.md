@@ -47,7 +47,7 @@ Choose who can create teamspaces within your workspace:
 
 ## Manage existing teamspaces in your workspace
 
-### View all existing teamspaces
+### [View all existing teamspaces](https://www.notion.com/help/manage-teamspaces#view-all-existing-teamspaces)
 
 Within the workspace's teamspace settings, you'll see a list of all the teamspaces you have access to, as well as several informational fields:
 
@@ -67,7 +67,7 @@ Within the workspace's teamspace settings, you'll see a list of all the teamspac
 
 From this menu, you can also search for and create new teamspaces. You can also filter by status (active or archived), owner and access level.
 
-### Take ownership of a teamspace
+### [Take ownership of a teamspace](https://www.notion.com/help/manage-teamspaces#take-ownership-of-a-teamspace)
 
 Workspace owners on the Enterprise Plan can take see, join and make themselves owner of any teamspace.
 
@@ -77,7 +77,7 @@ Workspace owners on the Enterprise Plan can take see, join and make themselves o
 
 3. Click the `•••` button at right side of a teamspace row to join as a member or owner.
 
-### Archive a teamspace
+### [Archive a teamspace](https://www.notion.com/help/manage-teamspaces#archive-a-teamspace)
 
 Workspace owners can archive a teamspace. To do this:
 
@@ -87,7 +87,7 @@ Workspace owners can archive a teamspace. To do this:
 
 Note that a teamspace can only be archived, not deleted.
 
-### Restore archived teamspaces
+### [Restore archived teamspaces](https://www.notion.com/help/manage-teamspaces#restore-archived-teamspaces)
 
 Workspace owners who are also owners of a teamspace can restore that teamspace if it is archived. Here's how:
 
@@ -101,7 +101,7 @@ Workspace owners who are also owners of a teamspace can restore that teamspace i
 
 The teamspace and all of its content will be re-added to everyone’s sidebars who previously had access to the teamspace.
 
-### Manage teamspaces without an owner
+### [Manage teamspaces without an owner](https://www.notion.com/help/manage-teamspaces#manage-teamspaces-without-an-owner)
 
 It's possible that a teamspace does not have an owner. In this case, workspace owners may assign a new teamspace owner.
 

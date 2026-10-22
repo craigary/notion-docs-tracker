@@ -49,7 +49,7 @@ Download Notion Calendar for [Mac](https://www.notion.com/product/calendar/downl
 
 Notion Calendar is available for both iOS and Android. The mobile experience is slightly different from the web and desktop experiences, but seamlessly syncs with other platforms.
 
-### Notion Calendar mobile widgets
+### [Notion Calendar mobile widgets](https://www.notion.com/help/notion-calendar-apps#notion-calendar-mobile-widgets)
 
 The Notion Calendar home screen widget is available on both iOS 14 and above on both iPhone and iPad, as well as Android 8. Learn how to get home screen widgets for iOS [here](https://support.apple.com/en-us/118610), and Android [here](https://support.google.com/android/answer/9450271?hl=en).
 
@@ -61,7 +61,7 @@ Open Notion Calendar settings in your mobile app to customize your home or lock 
 
 You can also exclude certain calendars from appearing in your home screen or lock screen widgets.
 
-### Things you can't do on Notion Calendar for mobile
+### [Things you can't do on Notion Calendar for mobile](https://www.notion.com/help/notion-calendar-apps#things-you-can't-do-on-notion-calendar-for-mobile)
 
 At the moment, you can't do the following while using Notion Calendar for mobile:
 

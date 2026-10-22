@@ -85,7 +85,7 @@ To manage the templates you’ve added to your workspace, open Marketplace by go
 
 ![hc: added templates](https://images.ctfassets.net/spoqsaf9291f/6ShZcDh8vqUVLE0Ar8M4uR/ae2337e03ac9841b6bc4bba46163f0ac/added.gif)
 
-### Review a template
+### [Review a template](https://www.notion.com/help/finding-templates-on-marketplace#review-a-template)
 
 To review a template that you’ve added:
 
@@ -95,7 +95,7 @@ To review a template that you’ve added:
 
 3. Follow the prompts to write your review. Make sure that the review is related to the template you added, doesn’t contain profanity or inappropriate content, and is easy to understand. Reviews in violation of these guidelines may not be published.
 
-### Contact the creator
+### [Contact the creator](https://www.notion.com/help/finding-templates-on-marketplace#contact-the-creator)
 
 To contact the template’s creator:
 
@@ -103,7 +103,7 @@ To contact the template’s creator:
 
 2. Select `Contact creator`.
 
-### Request a refund
+### [Request a refund](https://www.notion.com/help/finding-templates-on-marketplace#request-a-refund)
 
 **Note:**
 

@@ -25,7 +25,7 @@ categoryKey: "category:sharing-and-collaboration"
 
 If you have a lot of people in the same workspace, it can be easy for accidental edits and changes to get made to a page or database. You can use `Lock page` or `Lock database` to prevent this without fully revoking edit rights from other members of your workspace.
 
-### Lock a page
+### [Lock a page](https://www.notion.com/help/collaborate-within-a-workspace#lock-a-page)
 
 You can lock a page so that no one can make changes to the page’s content unless they explicitly turn the lock off — including you.
 
@@ -43,7 +43,7 @@ Once a page is locked, you’ll see `Locked` appear next to the name of your pag
 
 **Note:** Anyone with full or edit access to your page can turn page lock off using the same menu. It's designed to provide one layer of extra protection so people have to be intentional about the changes they make.
 
-### Lock views
+### [Lock views](https://www.notion.com/help/collaborate-within-a-workspace#lock-views)
 
 For full page databases, you can lock in structure while allowing other members of your workspace to continue editing the actual data.
 
@@ -59,7 +59,7 @@ For full page databases, you can lock in structure while allowing other members 
 
 ![Database lock](https://images.ctfassets.net/spoqsaf9291f/f3ZmkwxrEeVNdTh82WHX9/c76784650dba4cbbd83b029e0cd9a38f/lock_database.png)
 
-### Unlock a page or database
+### [Unlock a page or database](https://www.notion.com/help/collaborate-within-a-workspace#unlock-a-page-or-database)
 
 To unlock a page or database:
 

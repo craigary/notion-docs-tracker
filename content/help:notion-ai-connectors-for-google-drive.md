@@ -43,7 +43,7 @@ Connection time depends on how many users and files are in your Google Drive. Mo
 
 [Target audiences](https://support.google.com/a/answer/9934697?hl=en) are not supported (for example, 20 individual users added to a target audience named “Sales team”). Even if a file has been shared with a target audience, only people who have access to the file directly or through a group can search for it.
 
-### Which content from Google Drive can I connect to Notion AI?
+### [Which content from Google Drive can I connect to Notion AI?](https://www.notion.com/help/notion-ai-connectors-for-google-drive#which-content-from-google-drive-can-i-connect-to-notion-ai)
 
 * If you select `All users in their organization` while you're connecting Google Drive to Notion AI, Notion AI can search all Google Docs, Slides, Sheets, and files in your drive.
 

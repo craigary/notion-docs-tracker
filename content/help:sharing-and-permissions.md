@@ -37,7 +37,7 @@ Sometimes you'll want to share a page with only select members of your workspace
 
 When you share a page with specific workspace members, the page will appear in the `Shared` section of your sidebar. Learn more about [sidebar sections →](https://www.notion.com/help/navigate-with-the-sidebar#sidebar-sections)
 
-### Share a page with a teamspace
+### [Share a page with a teamspace](https://www.notion.com/help/sharing-and-permissions#share-a-page-with-a-teamspace)
 
 Teamspaces are dedicated spaces for every team within your organization or company. Each teamspace has its own members and permission levels, which can be customized by its teamspace owners. [Learn more about adding members and assigning permissions in teamspaces →](https://www.notion.com/help/intro-to-teamspaces)
 
@@ -57,7 +57,7 @@ To find out if a given teamspace is a default teamspace:
 
 3. In the `Members` tab, look for `Permissions`. If you see `Default`, this means that teamspace is a default teamspace.
 
-### Share a page with a guest
+### [Share a page with a guest](https://www.notion.com/help/sharing-and-permissions#share-a-page-with-a-guest)
 
 If you’re not able to share a page with a guest, this might be because:
 
@@ -113,7 +113,7 @@ Here are the different permission levels in Notion:
 
 There are also different actions that people can take in a workspace depending on their role in the workspace. Learn more about [managing members and guests →](https://www.notion.com/help/add-members-admins-guests-and-groups#who%E2%80%99s-who-in-a-workspace)
 
-### Edit access levels
+### [Edit access levels](https://www.notion.com/help/sharing-and-permissions#edit-access-levels)
 
 **Note:** If someone has requested a change in their permissions on a page you own, you’ll be able to see, approve, and reject those requests from your `Inbox`.
 
@@ -167,7 +167,7 @@ You can create new permissions for additional person properties in your database
 
 **Note:** By default, when a person is mentioned in these properties, they’ll be notified. User groups are **not** notified by default. To change these settings or learn more about these notifications, see [here →](https://www.notion.com/help/updates-and-notifications#notifications)
 
-### What others see when you set up page-level access
+### [What others see when you set up page-level access](https://www.notion.com/help/sharing-and-permissions#what-others-see-when-you-set-up-page-level-access)
 
 How others can interact with a database’s content once you’ve assigned page-level access depends on whether they have access to the database or not.
 
@@ -207,7 +207,7 @@ Make sure anyone whose access you’re restricting through page-level access doe
 
 Learn more about access levels [here →](https://www.notion.com/help/sharing-and-permissions)
 
-### Delete a permission rule
+### [Delete a permission rule](https://www.notion.com/help/sharing-and-permissions#delete-a-permission-rule)
 
 To delete a permission rule for a specific person or created by property:
 
@@ -255,11 +255,11 @@ You can tell who else has access to a page because their profile photos can be s
 
 ## Request access
 
-### Request access to a page
+### [Request access to a page](https://www.notion.com/help/sharing-and-permissions#request-access-to-a-page)
 
 If you open a page that you don’t have access to, you can select `No access` on the page to send a request. This will notify the page’s creators or editors, who can choose to accept or deny your access request.
 
-### Request edit access
+### [Request edit access](https://www.notion.com/help/sharing-and-permissions#request-edit-access)
 
 If you have view or comment access to a page and want edit access:
 

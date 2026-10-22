@@ -47,7 +47,7 @@ Let’s walk through some of the first steps you can take to set up a new databa
 
 ## Full-page vs. inline databases
 
-### Full-page databases
+### [Full-page databases](https://www.notion.com/help/intro-to-databases#full-page-databases)
 
 * Full page databases appear just like any other page in your sidebar.
 
@@ -55,7 +55,7 @@ Let’s walk through some of the first steps you can take to set up a new databa
 
 * To turn a full page database into an inline database, drag the database into another page in the sidebar, which will turn it into a subpage. Then navigate into the page, and select `⋮⋮` → `Turn into inline`.
 
-### Inline databases
+### [Inline databases](https://www.notion.com/help/intro-to-databases#inline-databases)
 
 * Controls and menus for your inline database are hidden until you hover over it.
 
@@ -119,7 +119,7 @@ To open database items as pages:
 
 * Because database items are pages, any other type of content you drag into a database (like bullets or to-do items), will automatically turn into pages.
 
-### Item options
+### [Item options](https://www.notion.com/help/intro-to-databases#item-options)
 
 Right click on an item to reveal a list of actions. Those actions include:
 
@@ -135,7 +135,7 @@ Right click on an item to reveal a list of actions. Those actions include:
 
 * `Edit property`: Brings up a menu with all your table's properties. Click the one you want and then click the new value for it.
 
-### Customize database pages
+### [Customize database pages](https://www.notion.com/help/intro-to-databases#customize-database-pages)
 
 The top section of any page in a Notion database can include several things:
 
@@ -191,7 +191,7 @@ For **comments**, you can choose to show them:
 
 When using a database in a shared workspace, Notion has features in place to prevent accidental edits that could impact other teammates.
 
-### "Can edit content" permission level
+### ["Can edit content" permission level](https://www.notion.com/help/intro-to-databases#can-edit-content-permission-level)
 
 Click `Share` at the top of a database to see and manage all users' permission levels. [Learn more about sharing and permissions here →](https://www.notion.com/help/sharing-and-permissions)
 
@@ -213,7 +213,7 @@ Users with `Can edit content` permissions in a database will **not&#x20;**&#x62;
 
 **Note:** Users with `Can edit content` access will still be able to create linked databases and edit views, sorts, and filters in that linked database. [Learn more about linked databases →](https://www.notion.com/help/data-sources-and-linked-databases)
 
-### Lock views
+### [Lock views](https://www.notion.com/help/intro-to-databases#lock-views)
 
 Find this option in the `•••` menu at the very top right of the Notion window. Switch it on to prevent anyone from changing properties and views in your database. They'll still be able to edit the data it contains.
 

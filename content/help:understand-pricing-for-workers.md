@@ -161,19 +161,19 @@ A Stripe webhook triggers on subscription creates and cancels, and you receive 3
 
 During the free beta, you can track Worker credit usage over the last 30 days directly in the [CLI](https://www.notion.com/help/use-notion-from-your-terminal-with-notion-cli).
 
-### **View usage for a specific Worker (detailed)**
+### [**View usage for a specific Worker (detailed)**](https://www.notion.com/help/understand-pricing-for-workers#view-usage-for-a-specific-worker-\(detailed\))
 
 Shows a detailed breakdown for one Worker’s usage over the last 30 days. This includes estimated preview credits, execution count, and runtime/network metrics that help explain what’s driving usage.
 
 ![View usage for a Worker](https://images.ctfassets.net/spoqsaf9291f/5Glwtx8EkWkEzzv5hkbzNj/59c2c5d4c75e5943213279f063079ae4/Screenshot_2026-05-18_at_5.10.45%C3%A2__PM.png)
 
-### **View usage across all Workers (summary)**
+### [**View usage across all Workers (summary)**](https://www.notion.com/help/understand-pricing-for-workers#view-usage-across-all-workers-\(summary\))
 
 Shows a summary of all Workers, including estimated preview credits used and executions over the last 30 days.
 
 ![View usage across workers](https://images.ctfassets.net/spoqsaf9291f/VtEG4wbVplyTfiqbNKksi/d8c887fe9f8c6d4f37f8d847c60fb3b4/Screenshot_2026-05-18_at_5.26.31%C3%A2__PM.png)
 
-### Track usage in the Notion credits dashboard
+### [Track usage in the Notion credits dashboard](https://www.notion.com/help/understand-pricing-for-workers#track-usage-in-the-notion-credits-dashboard)
 
 You can view Worker usage in the Notion credits dashboard:
 

@@ -35,7 +35,7 @@ If you were given analytics access through an admin role, you can see analytics 
 
 Each tab shows you a different combination of analytics about your workspace.
 
-### Member engagement
+### [Member engagement](https://www.notion.com/help/workspace-analytics#member-engagement)
 
 In the `Members` tab, you can analyze how members are adopting and engaging with workspace content. You’ll see a graph that displays active members over the last 90 days.
 
@@ -47,7 +47,7 @@ There’s also a list of workspace members with their activity. Note that any me
 
   * You can sort by `Page views`, `Page edits`, and `Last active`.
 
-### Content analysis
+### [Content analysis](https://www.notion.com/help/workspace-analytics#content-analysis)
 
 In the `Content` tab, you can track how members are engaging with workspace content. By analyzing metrics such as the number of views, number of unique viewers, and last edited date, you can quickly determine which content is most popular or outdated.
 
@@ -63,7 +63,7 @@ To search for pages:
 
 **Note:&#x20;**&#x4F;nly pages a member has access to will appear in their Content tab.
 
-### AI analytics
+### [AI analytics](https://www.notion.com/help/workspace-analytics#ai-analytics)
 
 Go to the `AI` tab in workspace analytics to see how your team is using AI across the workspace. Track metrics like Active AI members, AI actions, and AI actions per user to understand adoption and usage.
 
@@ -75,7 +75,7 @@ To export this data to CSV, click the download icon at the top of the table.
 
 ![AI analytics tab](https://images.ctfassets.net/spoqsaf9291f/0xPdccF8OMI6HZkNnaqXN/c950f69de7d2c420211d71412c63f05b/Screenshot_2026-02-04_at_3.19.21%C3%A2__PM.png)
 
-### Search behavior
+### [Search behavior](https://www.notion.com/help/workspace-analytics#search-behavior)
 
 In the `Search` tab, you can understand what workspace members are searching for, the number of times and the click-through rate of each query. These metrics can help you identify potential gaps in your documentation as well as help you make changes to content to improve discovery.
 

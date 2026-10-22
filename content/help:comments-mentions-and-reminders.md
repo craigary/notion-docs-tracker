@@ -13,7 +13,7 @@ categoryKey: "category:sharing-and-collaboration"
 
 If you’re looking to manage how page discussions and inline comments look in **pages in a database**, learn more [here →](https://www.notion.com/help/layouts)
 
-### Top-level page discussions
+### [Top-level page discussions](https://www.notion.com/help/comments-mentions-and-reminders#top-level-page-discussions)
 
 If you want to give or get high-level feedback on a page, you can leave a comment at the top of it to start a discussion. To do this:
 
@@ -29,7 +29,7 @@ To open a previously resolved comment, select `💬` at the top of the page. Fil
 
 ![Comments - page comment](https://images.ctfassets.net/spoqsaf9291f/4VLm9ki0LsBdRMXKlZ7pZ1/4acd101e1c82ad599ff7996b9734167a/Page_comment.png)
 
-### Inline page comments
+### [Inline page comments](https://www.notion.com/help/comments-mentions-and-reminders#inline-page-comments)
 
 Offer your opinion or ask a question by commenting on specific parts of a page. There are several ways to make a comment in Notion:
 
@@ -61,7 +61,7 @@ To customize how you want page comments to be displayed in a page:
 
 3. In the dropdown that appears, select `Default` to see all page comments in the right side of the page, or `Minimal` to show comment icons on the right side of the page. You’ll have to click on a comment icon to open and see the comment.
 
-### Comments pane
+### [Comments pane](https://www.notion.com/help/comments-mentions-and-reminders#comments-pane)
 
 All comments made in a page can be seen in the comments pane. To open the pane, click `💬` at the top of your page. There will be a red circle beside it if there are any unread comments. From here:
 
@@ -77,7 +77,7 @@ Comment threads with the most recent reply will appear at the top of the comment
 
 **Tip:** Re-open any resolved comments from the `Updates` menu at the top right of your page, or in `All Updates` under `Mentions`.
 
-### Database comments
+### [Database comments](https://www.notion.com/help/comments-mentions-and-reminders#database-comments)
 
 **Database page comments**
 
@@ -105,7 +105,7 @@ You can leave comments directly on database properties when you’re in table vi
 
 ## Mentions
 
-### Mention a person or group
+### [Mention a person or group](https://www.notion.com/help/comments-mentions-and-reminders#mention-a-person-or-group)
 
 When you want to get other people in your workspace to look at something, you can mention them anywhere inside a page, database, comment, or discussion. There are a few ways to mention others in Notion:
 
@@ -125,7 +125,7 @@ When you want to get other people in your workspace to look at something, you ca
 
 ![Mentions - mention person in DB](https://images.ctfassets.net/spoqsaf9291f/4BFC9v5GwG31gRyBqj19pr/e70c75e7b38fa3686dd34d77ddca96af/db_mention_a_person.png)
 
-### Mention a page
+### [Mention a page](https://www.notion.com/help/comments-mentions-and-reminders#mention-a-page)
 
 To reference and add an inline link to another page inside a Notion page, type `@` followed by the page's title. You'll see a menu pop up that'll search for that page in real-time. Find the right one and press `enter`. Now you and others can jump to the linked page directly.
 
@@ -135,7 +135,7 @@ If you change the title of a page, the new title will automatically reflect that
 
 **Tip**: Whenever you @-mention a page, a backlink is created automatically! [Learn more about backlinks →](https://www.notion.com/help/create-links-and-backlinks)
 
-### Mention a date
+### [Mention a date](https://www.notion.com/help/comments-mentions-and-reminders#mention-a-date)
 
 When you type `@` followed by a date (or the words **today, tomorrow,** or **yesterday**), you'll add an inline timestamp to your page. For example, typing `@1/12` automatically adds a timestamp that looks like: January 12, 2021.
 
@@ -143,7 +143,7 @@ When you type `@` followed by a date (or the words **today, tomorrow,** or 
 
 **Note:** The words **today, tomorrow,** and **yesterday** turn into their corresponding numbered dates as time passes.
 
-### Mention notifications
+### [Mention notifications](https://www.notion.com/help/comments-mentions-and-reminders#mention-notifications)
 
 When someone mentions you in a workspace, you'll see a red badge appear next to `Inbox` in your sidebar with the number of notifications waiting for you. To see and manage your mention notifications:
 
@@ -159,7 +159,7 @@ From your Inbox, you can also directly reply to a comment by clicking `Reply`. Y
 
 ## Reactions
 
-### Inline reactions
+### [Inline reactions](https://www.notion.com/help/comments-mentions-and-reminders#inline-reactions)
 
 To add a reaction to text in a page:
 
@@ -169,7 +169,7 @@ To add a reaction to text in a page:
 
 3. Choose the emoji you'd like to use as a reaction.
 
-### Comment reactions
+### [Comment reactions](https://www.notion.com/help/comments-mentions-and-reminders#comment-reactions)
 
 Add emoji reactions to a comment to communicate quickly with teammates! Here's how:
 

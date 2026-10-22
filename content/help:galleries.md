@@ -19,7 +19,7 @@ Here's how to to add a database in gallery view to Notion:
 
 If you want to create an inline gallery, type `/Gallery view` on any page and press `enter`.
 
-### Add gallery view to a database
+### [Add gallery view to a database](https://www.notion.com/help/galleries#add-gallery-view-to-a-database)
 
 You can add a gallery to an existing database to view its data in that format.
 
@@ -31,7 +31,7 @@ You can add a gallery to an existing database to view its data in that format.
 
 Edit your gallery so it does the job you need it to do. There are several ways to change its organization and appearance to fit the task at hand.
 
-### Change card preview
+### [Change card preview](https://www.notion.com/help/galleries#change-card-preview)
 
 To change the card preview:
 
@@ -51,11 +51,11 @@ To change the card preview:
 
    * When turned off, the image will be cropped to fill the entire card frame.
 
-### Rearrange cards
+### [Rearrange cards](https://www.notion.com/help/galleries#rearrange-cards)
 
 To reorder the cards in your gallery, just click and hold, then drag left, right, up, or down.
 
-### Change card size
+### [Change card size](https://www.notion.com/help/galleries#change-card-size)
 
 To change the size of your cards:
 
@@ -65,7 +65,7 @@ To change the size of your cards:
 
 **Tip:** You can also hide the name of any card in your gallery, allowing you to show the image as a standalone element. In the `Properties` menu, switch off `Name`. Helpful for simple and elegant mood boards and photo collections.
 
-### Display, hide, and order properties
+### [Display, hide, and order properties](https://www.notion.com/help/galleries#display-hide-and-order-properties)
 
 To choose how properties are displayed in your gallery:
 

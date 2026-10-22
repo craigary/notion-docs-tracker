@@ -35,7 +35,7 @@ If you're on the Plus, Business, or Enterprise Plan, Notion automatically makes 
 
 **Note:** Subpages of any downloaded pages won’t automatically download for offline use. Make sure to download any important subpages individually!
 
-### Downloading databases for offline use
+### [Downloading databases for offline use](https://www.notion.com/help/use-pages-offline#downloading-databases-for-offline-use)
 
 When you download a database or a page containing a database, **the first 50 rows of the first view** of the database will also be downloaded for offline use. We’re continuing to make databases work even better offline.
 

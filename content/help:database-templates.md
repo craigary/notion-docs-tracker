@@ -45,7 +45,7 @@ Repeating database templates automatically create a copy of a template in your d
 
 ![hc: repeating database templates](https://images.ctfassets.net/spoqsaf9291f/10dsaMZupWoQLkp3PvDF52/28e670ca9f493b0c98162b53570d29b5/repeat_db_templates__1_.png)
 
-### Create a repeating database template
+### [Create a repeating database template](https://www.notion.com/help/database-templates#create-a-repeating-database-template)
 
 To create a repeating database template:
 
@@ -57,7 +57,7 @@ To create a repeating database template:
 
 4. You can make your template repeat daily, weekly, monthly, or yearly. Indicate how many weeks, months, or years you want in between repeats, as well as your start date and the time you want your database template to be repeated.
 
-### Nesting database templates
+### [Nesting database templates](https://www.notion.com/help/database-templates#nesting-database-templates)
 
 You may want to create a database inside of a recurring database template, with that database having templates of its own. While this is possible, be mindful of the limitations:
 

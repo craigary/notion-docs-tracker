@@ -15,7 +15,7 @@ categoryKey: "category:import-export-and-integrate"
 
 You can save any Notion page or database to your computer as a PDF file. This is one way to back up your information if you want to keep it in some form on your hard drive.
 
-### On desktop
+### [On desktop](https://www.notion.com/help/export-your-content#on-desktop)
 
 1. Click the `•••` icon at the upper right corner of any Notion page, then open `More`.
 
@@ -43,7 +43,7 @@ You can save any Notion page or database to your computer as a PDF file. This is
 
 **Note:&#x20;**&#x49;f a PDF export fails, Notion will instead export as HTML.
 
-### On mobile
+### [On mobile](https://www.notion.com/help/export-your-content#on-mobile)
 
 You can export Notion pages as PDF from your phone with these steps:
 
@@ -67,7 +67,7 @@ You can export Notion pages as PDF from your phone with these steps:
 
 **Note:** When you export as HTML, you can also export comments at both the page and block levels. This includes resolved and unresolved comments and any files, pages, or users mentioned in them.
 
-### On desktop
+### [On desktop](https://www.notion.com/help/export-your-content#on-desktop)
 
 Any Notion page or database can be exported as an HTML file. Here's how:
 
@@ -85,7 +85,7 @@ Any Notion page or database can be exported as an HTML file. Here's how:
 
 5. If you export with sub-pages included, you'll see them neatly organized in their own folders when you unzip the file. These folders will also contain the images and other assets on your pages saved separately.
 
-### On mobile
+### [On mobile](https://www.notion.com/help/export-your-content#on-mobile)
 
 1. Tap the `•••` icon at the upper right of your screen.Scroll down and tap `Export`.
 
@@ -107,7 +107,7 @@ Any Notion page or database can be exported as an HTML file. Here's how:
 
 Any non-database Notion page can be exported as a Markdown file. Full page databases will be exports as a CSV file, with Markdown files for each subpage. Callout blocks will be exported as HTML, as there is no Markdown equivalent.
 
-### On desktop
+### [On desktop](https://www.notion.com/help/export-your-content#on-desktop)
 
 1. Click on the `•••` icon at the top right of any Notion page you want to export. Click `Export`.
 
@@ -127,7 +127,7 @@ Any non-database Notion page can be exported as a Markdown file. Full page datab
 
 7. You can open the Markdown files as plain text with Markdown syntax.
 
-### On mobile
+### [On mobile](https://www.notion.com/help/export-your-content#on-mobile)
 
 1. Tap the `•••` icon at the upper right of your screen.
 
@@ -147,7 +147,7 @@ Any non-database Notion page can be exported as a Markdown file. Full page datab
 
 ## Print a Notion page
 
-### On your browser
+### [On your browser](https://www.notion.com/help/export-your-content#on-your-browser)
 
 1. Go to `File` → `Print`.
 
@@ -157,7 +157,7 @@ Any non-database Notion page can be exported as a Markdown file. Full page datab
 
 **Note:** You cannot print a full-page database this way. You'll need to export it as a PDF first and then print the PDF file.
 
-### On the desktop app
+### [On the desktop app](https://www.notion.com/help/export-your-content#on-the-desktop-app)
 
 There is no way to print directly from the Notion desktop app. You'll need to export your page or database as a PDF first and then print that file. Full instructions on exporting to PDF can be found [above](https://www.notion.com/help/export-your-content#export-as-pdf).
 

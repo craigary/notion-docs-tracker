@@ -23,13 +23,13 @@ You’ll be asked if you’d like to upgrade the guest to a member — select `S
 
 ## Adding members to your workspace
 
-### On a monthly plan
+### [On a monthly plan](https://www.notion.com/help/members-and-billing#on-a-monthly-plan)
 
 When you add members to your workspace on a monthly plan, you get your regular monthly invoice billing you for the month ahead (including new members), but the invoice will also include retroactive prorated charges for the members you added during your last billing interval.
 
 ![hc: notion monthly billing adding a member](https://images.ctfassets.net/spoqsaf9291f/3Op72c9tgCMVuywV4EQ0yz/ed6c67f0b5bf04001df68c6517f65974/Monthly_add.png)
 
-### On a yearly plan
+### [On a yearly plan](https://www.notion.com/help/members-and-billing#on-a-yearly-plan)
 
 When you add members to your workspace on a yearly plan, you'll receive an invoice at the **next month** mark (on the same calendar date you bought your plan) that will include two things:
 

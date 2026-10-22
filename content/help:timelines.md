@@ -23,7 +23,7 @@ Here's how to to add a timeline to Notion:
 
 If you want to create an inline timeline, type `/Timeline view` on any page and press `enter`.
 
-### Add timeline view to a database
+### [Add timeline view to a database](https://www.notion.com/help/timelines#add-timeline-view-to-a-database)
 
 Add a timeline to an existing database to view its data in that format. [More on views here →](https://www.notion.com/help/views-filters-and-sorts)
 
@@ -37,7 +37,7 @@ Add a timeline to an existing database to view its data in that format. [More o
 
 Edit your timeline so it does the job you need it to do. There are several ways to change the appearance of your timeline and the projects you plot on it however is most helpful to you.
 
-### Adjust timeframe
+### [Adjust timeframe](https://www.notion.com/help/timelines#adjust-timeframe)
 
 You can view your projects on any time scale, from hours all the way up to years.
 
@@ -45,7 +45,7 @@ You can view your projects on any time scale, from hours all the way up to years
 
    * Your timeline will automatically adjust to show your current projects rendered on the new time scale.
 
-### Adjust project length
+### [Adjust project length](https://www.notion.com/help/timelines#adjust-project-length)
 
 1. Hover over the left or right edge of any project. Your cursor will indicate that you can drag and drop each edge to make it as long or short as you want it to be.
 
@@ -53,17 +53,17 @@ You can view your projects on any time scale, from hours all the way up to years
 
 **Note:** You'll see small arrows appear on each row of your timeline to indicate that a project has occurred before or after your current view, or included scope before or after. You can click on these arrows to jump right to the project.
 
-### Come back to today
+### [Come back to today](https://www.notion.com/help/timelines#come-back-to-today)
 
 At any time, you can jump to the current day on your timeline. Just click `Today` on the right side of the timeline.
 
-### Show or hide table
+### [Show or hide table](https://www.notion.com/help/timelines#show-or-hide-table)
 
 In Notion, you can show a table to the left of your timeline so you can always see a full list of your projects no matter when they are scheduled.
 
 To show or hide table in any timeline, click the `>>` or `<<` on the left.
 
-### Limit projects displayed
+### [Limit projects displayed](https://www.notion.com/help/timelines#limit-projects-displayed)
 
 Depending on how many projects you have in a timeline, and what you're using the timeline for, you may want to only see 10 project pages at a time, or many more. To set your preference:
 
@@ -71,7 +71,7 @@ Depending on how many projects you have in a timeline, and what you're using the
 
 2. Select `Load limit` and select a number of pages.
 
-### Show or hide properties
+### [Show or hide properties](https://www.notion.com/help/timelines#show-or-hide-properties)
 
 Timelines give you a few ways to display properties at a glance so you can see information about your projects right away. <!-- -->To show or hide properties in your timeline:
 
@@ -89,11 +89,11 @@ If you have a table open in your timeline view, you can also show properties in 
 
 3. Use `⋮⋮` to drag your properties in the order in which you want them to be displayed in your table.
 
-### Rearrange timeline
+### [Rearrange timeline](https://www.notion.com/help/timelines#rearrange-timeline)
 
 To reorder items in your timeline, click and drag any timeline item up or down. If you have a table open next to your timeline, you can click and drag columns in that table to reorder them.
 
-### Plot by a different set of dates
+### [Plot by a different set of dates](https://www.notion.com/help/timelines#plot-by-a-different-set-of-dates)
 
 If you have multiple date properties in your database, you can plot your projects on your timeline using any of them. It’s also easy to switch between them.
 
@@ -105,7 +105,7 @@ For example, you might have one date property for project work and another for t
 
    * You can choose to have start and end dates as separate properties that dictate how your projects or plotted. You can turn that on in this menu. Or you can have the date range you want to plot exist in the same date property.
 
-### Calculations
+### [Calculations](https://www.notion.com/help/timelines#calculations)
 
 When you have a table open in timeline view, you can run calculations that will show you information about the data contained in each of the table’s columns.
 

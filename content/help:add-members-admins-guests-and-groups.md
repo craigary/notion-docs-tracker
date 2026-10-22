@@ -21,7 +21,7 @@ categoryKey: "category:sharing-and-collaboration"
 
 **Note:&#x20;**&#x4F;n paid plans, you'll be charged per member in your workspace. For more information on plans, [go here →](https://www.notion.com/pricing)
 
-### With email
+### [With email](https://www.notion.com/help/add-members-admins-guests-and-groups#with-email)
 
 To add a member using their email:
 
@@ -35,7 +35,7 @@ To add a member using their email:
 
 5. They'll receive an email with a link to sign in and join your workspace.
 
-### Using a link
+### [Using a link](https://www.notion.com/help/add-members-admins-guests-and-groups#using-a-link)
 
 To add a member via a link:
 
@@ -49,7 +49,7 @@ To add a member via a link:
 
 5. If you don’t want to be able to invite people to your workspace with a link, turn off the toggle next to `Invite link`.
 
-### With an allowed domain
+### [With an allowed domain](https://www.notion.com/help/add-members-admins-guests-and-groups#with-an-allowed-domain)
 
 If you're using Notion at your company, you can make it easy for anyone to automatically join your workspace as a member when they sign in with their work email.
 
@@ -63,7 +63,7 @@ Steps to set this up:
 
 Now, whenever someone signs into Notion with an email that has one of those domains, they'll see the option to join your workspace during onboarding. If the user joins your workspace, they will become a member of your workspace and you will be billed accordingly. People who use one of your organization's domains are added as members, not guests, whether they join here or you share a page with them.
 
-### Change a member's role
+### [Change a member's role](https://www.notion.com/help/add-members-admins-guests-and-groups#change-a-member's-role)
 
 To change a member's role in the workspace:
 
@@ -115,7 +115,7 @@ Guests are for people outside your organization. To add someone as a guest, use 
 
 Learn more about the [difference between guests and members →](https://www.notion.com/help/whos-who-in-a-workspace?_gl=1*17fzg5t*_gcl_au*OTc2NTQ2MTQ5LjE3ODgyODc2NTYuOTA0OTk5ODMyLjE3OTIxMTQ0NTAuMTc5MjExNDQ1Ny4xNjcxMDE5ODM5LjE3OTIxMTQ0NTAuMTc5MjExNDQ1Nw..*_ga*NTg5OTEwNzMyLjE3NzkyMTU0NDk.*_ga_9ZJ8CB186L*czE3OTI2MDA3NzAkbzEzMCRnMSR0MTc5MjYwMDgyNyRqMyRsMCRoMA..#guests)
 
-### From a page
+### [From a page](https://www.notion.com/help/add-members-admins-guests-and-groups#from-a-page)
 
 Remember that guests can be added to individual pages, not to an entire workspace. To share a page with a guest:
 
@@ -133,7 +133,7 @@ Your guest will receive an email with a link to the page. If they don't already 
 
 *
 
-### From a guest's request
+### [From a guest's request](https://www.notion.com/help/add-members-admins-guests-and-groups#from-a-guest's-request)
 
 To make it easier for you to add guests to your workspace, Notion also allows people outside of your workspace to request access to certain pages in your workspace. This feature is available and turned on by default for all plans except Enterprise.
 
@@ -151,7 +151,7 @@ Once the guest submits a request to access a page, a notification will be sent t
 
 Members of a workspace can request to add guests to it. This feature is available on Enterprise Plans only, and only workspace owners can enable or disable it.
 
-### Enable guest addition and guest requests
+### [Enable guest addition and guest requests](https://www.notion.com/help/add-members-admins-guests-and-groups#enable-guest-addition-and-guest-requests)
 
 To allow members to directly add guests to workspace pages, workspace owners can:
 
@@ -173,7 +173,7 @@ Once this is turned on, members and workspace admins will have to submit a reque
 
 * `Allow members to request adding guests` is a workspace level setting, and will override any teamspace level guest setting. This means if a teamspace allows guests, but the workspace has enabled guest requests, members will have to submit guest invite requests to add guests to pages in the teamspace.
 
-### Request to invite a guest
+### [Request to invite a guest](https://www.notion.com/help/add-members-admins-guests-and-groups#request-to-invite-a-guest)
 
 If you're a workspace owner, **you can** **invite guests directly**.
 
@@ -189,7 +189,7 @@ If you're a member:
 
 5. A notification will be sent to your workspace owner about your request, along with the page, role and email of the guest you requested. You will also receive confirmation that your workspace owner has been notified.
 
-### Approve a guest
+### [Approve a guest](https://www.notion.com/help/add-members-admins-guests-and-groups#approve-a-guest)
 
 **Guest invite requests must be approved on a per page, per guest basis.&#x20;**&#x4F;nly workspace owners can view and approve guest requests. Each request will have the email of the guest, the member who requested it, the role that was requested, and the name of the page.
 

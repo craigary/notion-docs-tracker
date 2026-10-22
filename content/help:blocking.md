@@ -11,7 +11,7 @@ categoryKey: "category:notion-calendar"
 
 Have a doctor’s appointment that you don’t want a teammate to schedule over? Notion Calendar’s blocking features make it easy to block events across your various calendars. For example, Notion Calendar can put a block on your work calendar for an event you have on your personal calendar, so people know you’re busy without being able to see your personal commitments. You can block single events or auto-block whole calendars.
 
-### Block an event or an entire calendar
+### [Block an event or an entire calendar](https://www.notion.com/help/blocking#block-an-event-or-an-entire-calendar)
 
 On desktop or web:
 

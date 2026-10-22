@@ -17,7 +17,7 @@ You can learn more about our solutions partner program [here →](https://www.no
 
 ## Types of partners and how to become a partner
 
-### Consulting partners
+### [Consulting partners](https://www.notion.com/help/become-a-notion-partner#consulting-partners)
 
 Consulting partners focus on delivering high-quality Notion services, such as workflow design, workspace configuration, training, and change management.
 
@@ -33,7 +33,7 @@ To become a consulting partner, you must do all of the following:
 
 After you’ve become an official consulting partner, you can submit your profile to be listed on Marketplace. Learn more about Marketplace [here →](https://www.notion.com/help/offering-services-on-marketplace)
 
-### Sales partners
+### [Sales partners](https://www.notion.com/help/become-a-notion-partner#sales-partners)
 
 Sales partners manage the full customer lifecycle, from license resell and technical implementation to custom integrations, migrations, and enterprise onboarding
 

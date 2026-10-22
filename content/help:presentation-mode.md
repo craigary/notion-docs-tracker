@@ -31,7 +31,7 @@ You don't need to set anything up in advance, just add dividers to any existing 
 
 5. Open the `•••` menu at the top right of the page, open `More`, and select **Present**
 
-### Tips for creating slides
+### [Tips for creating slides](https://www.notion.com/help/presentation-mode#tips-for-creating-slides)
 
 * **Use headings&#x20;**&#x74;o give each slide a clear title
 

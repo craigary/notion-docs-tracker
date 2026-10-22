@@ -37,7 +37,7 @@ If your organization is on the Enterprise Plan, organization owners can hand off
 
 There are two kinds of admin roles. Ready-made roles each cover a whole area of settings. Custom roles allow you to choose the exact settings a person can manage.
 
-### Ready-made admin roles
+### [Ready-made admin roles](https://www.notion.com/help/enterprise-admins#ready-made-admin-roles)
 
 Notion offers a set of ready-made admin roles:
 
@@ -49,7 +49,7 @@ Notion offers a set of ready-made admin roles:
 | **Analytics viewer** | See analytics about members, content, and search across the organization.                                                         |
 | **Billing admin**    | See and manage your organization's Notion credits. This role only appears for organizations that work with the Notion sales team. |
 
-### Create a custom admin role
+### [Create a custom admin role](https://www.notion.com/help/enterprise-admins#create-a-custom-admin-role)
 
 **Note**: Custom admin roles are in beta and are subject to the beta terms of your agreement.
 

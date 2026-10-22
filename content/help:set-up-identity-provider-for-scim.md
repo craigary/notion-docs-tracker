@@ -25,7 +25,7 @@ Notion’s Azure SCIM integration supports the following provisioning features:
 
 * [Single sign-on](https://learn.microsoft.com/en-us/azure/active-directory/saas-apps/notion-tutorial) to Notion (recommended).
 
-### Step 1: Configure user provisioning in Notion
+### [Step 1: Configure user provisioning in Notion](https://www.notion.com/help/set-up-identity-provider-for-scim#step-1-configure-user-provisioning-in-notion)
 
 Start by configuring Notion to support provisioning with Azure AD. To do this:
 
@@ -37,7 +37,7 @@ Start by configuring Notion to support provisioning with Azure AD. To do this:
 
    * Notion’s SCIM tenant URL is <https://app.notion.com/scim/v2>, which you’ll use later.
 
-### Step 2: Add Notion from the Azure AD application gallery
+### [Step 2: Add Notion from the Azure AD application gallery](https://www.notion.com/help/set-up-identity-provider-for-scim#step-2-add-notion-from-the-azure-ad-application-gallery)
 
 Next, you’ll want to add Notion from the Azure AD application gallery following [these instructions](https://learn.microsoft.com/en-us/azure/active-directory/manage-apps/add-application-portal).
 
@@ -47,7 +47,7 @@ If you choose to scope who will be provisioned to your app **based on assignment
 
 If you choose to scope who will be provisioned **based solely on attributes of the user or group**, you can use a scoping filter as described [here](https://learn.microsoft.com/en-us/azure/active-directory/app-provisioning/define-conditional-rules-for-provisioning-user-accounts).
 
-### Step 3: Configure automatic user provisioning to Notion
+### [Step 3: Configure automatic user provisioning to Notion](https://www.notion.com/help/set-up-identity-provider-for-scim#step-3-configure-automatic-user-provisioning-to-notion)
 
 To configure user provisioning in Azure:
 
@@ -101,7 +101,7 @@ Notion’s Google SCIM integration supports the following provisioning features:
 
 * Deactivating users, which removes them from your workspace.
 
-### Step 1: Configure user provisioning in Notion
+### [Step 1: Configure user provisioning in Notion](https://www.notion.com/help/set-up-identity-provider-for-scim#step-1-configure-user-provisioning-in-notion)
 
 To configure user provisioning in Notion:
 
@@ -111,7 +111,7 @@ To configure user provisioning in Notion:
 
 3. Copy an existing token or select `Add token` to create a new token.
 
-### Step 2: Configure provisioning in Google
+### [Step 2: Configure provisioning in Google](https://www.notion.com/help/set-up-identity-provider-for-scim#step-2-configure-provisioning-in-google)
 
 To configure user provisioning in Google:
 
@@ -137,7 +137,7 @@ Notion's Okta SCIM integration supports the following provisioning features:
 
 * Pushing groups.
 
-### Step 1: Configure user provisioning in Notion
+### [Step 1: Configure user provisioning in Notion](https://www.notion.com/help/set-up-identity-provider-for-scim#step-1-configure-user-provisioning-in-notion)
 
 To configure user provisioning in Notion:
 
@@ -157,7 +157,7 @@ To configure user provisioning in Notion:
 
 6. Copy an existing token or select `Add token` to create a new token.
 
-### Step 2: Configure user provisioning in Okta
+### [Step 2: Configure user provisioning in Okta](https://www.notion.com/help/set-up-identity-provider-for-scim#step-2-configure-user-provisioning-in-okta)
 
 To configure user provisioning in Okta:
 
@@ -195,7 +195,7 @@ Notion’s OneLogin SCIM integration supports the following provisioning feature
 
 * Creating rules to map OneLogin roles with permission groups in Notion.
 
-### Step 1: Configure user provisioning in Notion
+### [Step 1: Configure user provisioning in Notion](https://www.notion.com/help/set-up-identity-provider-for-scim#step-1-configure-user-provisioning-in-notion)
 
 To configure user provisioning in Notion:
 
@@ -217,7 +217,7 @@ To configure user provisioning in Notion:
 
 **Note:** Workspace owners can only copy and use tokens that they themselves have generated. If a token has already been created by another workspace owner, you can coordinate to determine if another token is necessary. All tokens will expire once the workspace owner that generated the token leaves the workspace or is downgraded to a member.
 
-### Step 2: Configure provisioning in OneLogin
+### [Step 2: Configure provisioning in OneLogin](https://www.notion.com/help/set-up-identity-provider-for-scim#step-2-configure-provisioning-in-onelogin)
 
 To configure user provisioning in OneLogin:
 

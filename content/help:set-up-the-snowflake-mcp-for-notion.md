@@ -51,7 +51,7 @@ Before your team can connect Snowflake to Notion, a Snowflake admin needs to set
 
 You'll set up a role and warehouse, create the Snowflake-managed MCP server, grant it access to the resources it needs, configure the OAuth scope and security integration, and add a network policy if your organization requires one.
 
-### Collect these values first
+### [Collect these values first](https://www.notion.com/help/set-up-the-snowflake-mcp-for-notion#collect-these-values-first)
 
 Fill in this worksheet with your Notion workspace admin before you start. Members can skip it and sign in with their own Snowflake accounts once setup is complete.
 
@@ -83,7 +83,7 @@ Use a dedicated, least-privileged role and one approved warehouse whenever possi
 
 **A user's default secondary roles (optional).** Use this model only when the server needs privileges inherited from each user's Snowflake `DEFAULT_SECONDARY_ROLES`. Set `OAUTH_USE_SECONDARY_ROLES = IMPLICIT`, omit `ALLOWED_ROLES_LIST`, and use an explicit primary-role scope. Snowflake doesn't allow `IMPLICIT` secondary roles with `ALLOWED_ROLES_LIST`, so omit the allowlist when you use this model.
 
-### Step 2: Create or choose the role and warehouse
+### [Step 2: Create or choose the role and warehouse](https://www.notion.com/help/set-up-the-snowflake-mcp-for-notion#step-2-create-or-choose-the-role-and-warehouse)
 
 Use a dedicated, least-privileged role for the MCP server whenever possible.
 
@@ -207,7 +207,7 @@ If you remove this setup, new members can no longer find the server. Existing co
 
 Once your admins have the Snowflake MCP connection ready, there are two ways to use it. If you’re setting this up for a team, start with 11A. If you just want to ask your own questions, skip to 11B. You can do both; they’re separate connections.
 
-### Step 11A: Set up a managed Custom Agent for your team
+### [Step 11A: Set up a managed Custom Agent for your team](https://www.notion.com/help/set-up-the-snowflake-mcp-for-notion#step-11a-set-up-a-managed-custom-agent-for-your-team)
 
 A Custom Agent gives your team one place to ask about Snowflake data. You connect Snowflake once, add instructions about your metrics and tables, and share the agent with your team. Everyone who uses it will be required to sign in to Snowflake with their own credentials, so each person gets answers only based on the data they’re allowed to see.
 
@@ -243,7 +243,7 @@ Share the agent with your team the same way you share any Custom Agent. The firs
 
 Scheduled and triggered runs don't have a signed-in person, so they can't use anyone's Snowflake access yet. If you need Snowflake data on a schedule, talk to your Snowflake admin before setting that up.
 
-### Step 11B: Connect Snowflake to your own Notion Agent
+### [Step 11B: Connect Snowflake to your own Notion Agent](https://www.notion.com/help/set-up-the-snowflake-mcp-for-notion#step-11b-connect-snowflake-to-your-own-notion-agent)
 
 If you want to ask your own questions in your own chat, connect Snowflake to your Notion Agent. You sign in with your own Snowflake account, so your agent reaches only what you're allowed to see.
 
@@ -336,7 +336,7 @@ REFRESH OAUTH_CLIENT_SECRET_2;`
 
 * **A request times out.** Ask a more specific question, or split your request into smaller questions.
 
-### For admins: sign-in and connection errors
+### [For admins: sign-in and connection errors](https://www.notion.com/help/set-up-the-snowflake-mcp-for-notion#for-admins-sign-in-and-connection-errors)
 
 These errors usually come from Snowflake settings, not Notion. Share them with your Snowflake admin.
 

@@ -17,7 +17,7 @@ Looking to adjust notifications, appearance, language, or what day your weeks st
 
 You can connect multiple calendars to Notion Calendar. Connected accounts and their calendars are listed in the left sidebar of Notion Calendar. You can collapse accounts, reorder them, and reorder calendars within them.
 
-### Add a calendar
+### [Add a calendar](https://www.notion.com/help/manage-your-calendars-and-events#add-a-calendar)
 
 To add a calendar to Notion Calendar:
 
@@ -41,7 +41,7 @@ Have a Notion database you’d like to view and manage in Notion Calendar? Any d
 
 * At this time, it’s not possible to subscribe to a new calendar from inside Notion Calendar. Subscribe to a calendar directly from Google Calendar, and it’ll show up in Notion Calendar.
 
-### Remove a calendar
+### [Remove a calendar](https://www.notion.com/help/manage-your-calendars-and-events#remove-a-calendar)
 
 You can remove any calendar from Notion Calendar. To do this:
 
@@ -53,7 +53,7 @@ You can remove any calendar from Notion Calendar. To do this:
 
 Want to change the Notion account you’ve linked to Notion Calendar? [Follow the instructions here →](https://www.notion.com/help/manage-your-google-and-notion-calendar-accounts#change-your-primary-google-account)
 
-### Set a default calendar
+### [Set a default calendar](https://www.notion.com/help/manage-your-calendars-and-events#set-a-default-calendar)
 
 Notion Calendar defaults to a calendar when you create new events. This can be a [Notion database](https://www.notion.com/help/use-notion-calendar-with-notion#connect-notion-database-entries-to-notion-calendar), too! To set a default calendar:
 
@@ -65,11 +65,11 @@ Notion Calendar defaults to a calendar when you create new events. This can be a
 
 Alternatively, on desktop, you can also right-click on a calendar in your sidebar and select `Make default calendar`.
 
-### Hide a calendar
+### [Hide a calendar](https://www.notion.com/help/manage-your-calendars-and-events#hide-a-calendar)
 
 If you want to hide a calendar, select `👁️` next to its name in the left sidebar of Notion Calendar. This will take all events on that calendar away from view and the icon will have a strikethrough. To show a calendar, select `👁️` again.
 
-### Change a calendar's color
+### [Change a calendar's color](https://www.notion.com/help/manage-your-calendars-and-events#change-a-calendar's-color)
 
 On desktop or web, hover over the name of a calendar in your left sidebar. Then, select `•••` and choose a new color.
 
@@ -77,7 +77,7 @@ On desktop or web, hover over the name of a calendar in your left sidebar. Then,
 
 **Note:&#x20;**&#x4F;n mobile, you can’t update an event’s details unless they were created on mobile and you’re the organizer. If you need to make changes, you can do so on desktop or web.
 
-### View a calendar’s upcoming events
+### [View a calendar’s upcoming events](https://www.notion.com/help/manage-your-calendars-and-events#view-a-calendar%E2%80%99s-upcoming-events)
 
 To view all of the upcoming events you have in a specific calendar, click on its name in the left sidebar of Notion Calendar. From here, you can also:
 
@@ -91,7 +91,7 @@ To view all of the upcoming events you have in a specific calendar, click on its
 
 * Select `+` at the top of the panel to create a new event on the calendar.
 
-### Create events
+### [Create events](https://www.notion.com/help/manage-your-calendars-and-events#create-events)
 
 To create an event in Notion Calendar, select a time slot in your calendar, then enter details for your event. If you want to create a focus, out of office, or birthday event, open the dropdown next to `Event` and choose your desired event type. To add participants and rooms, select `Participants and Rooms` and click on the relevant people and rooms. Once you’re done, select `Send invite` to notify invitees.
 
@@ -111,15 +111,15 @@ To create multiple-day events with time details, select a time slot in your cale
 
 **Note:&#x20;**&#x59;ou can use headers, hyperlinks, numbered and bulleted lists, and more in your event description.
 
-### Recurring events
+### [Recurring events](https://www.notion.com/help/manage-your-calendars-and-events#recurring-events)
 
 Notion Calendar supports viewing and editing recurring events from Microsoft Outlook calendars. You can edit individual occurrences or all future events in a series.
 
-### Delegated calendars
+### [Delegated calendars](https://www.notion.com/help/manage-your-calendars-and-events#delegated-calendars)
 
 If you manage or have been delegated access to another person's Microsoft Outlook calendar, you can add it to Notion Calendar. The delegated calendar will appear under the account you used to connect Outlook, and you can view and manage events on it based on your delegated permissions.
 
-### RSVP to events
+### [RSVP to events](https://www.notion.com/help/manage-your-calendars-and-events#rsvp-to-events)
 
 To respond to a calendar invite, right-click the event on desktop or select the event on mobile, then select your RSVP status.
 
@@ -131,17 +131,17 @@ Select an event to see any RSVP notes for it.
 
 **If the same event shows up on more than one of your calendars — that is, if they share the same event ID — Notion Calendar will merge those events automatically.** If an event has been auto-merged and you want to RSVP from a specific calendar, hide your other calendars and RSVP from the calendar that’s visible.
 
-### Change an event's location
+### [Change an event's location](https://www.notion.com/help/manage-your-calendars-and-events#change-an-event's-location)
 
 To add or remove the location for an event, select the event and edit the `Location` field in the right context panel.
 
 **Note:** At this time, travel time isn’t supported in Notion Calendar.
 
-### Change your status and event privacy
+### [Change your status and event privacy](https://www.notion.com/help/manage-your-calendars-and-events#change-your-status-and-event-privacy)
 
 Select an event. Then, in the right context panel, show your status as `Busy` or `Free`. You can also make your event’s details visible to others by making them `Public`, or only to yourself and other participants by making them `Private`.
 
-### Change your event type
+### [Change your event type](https://www.notion.com/help/manage-your-calendars-and-events#change-your-event-type)
 
 In Notion Calendar, there are different kinds of events: `Event`, `Focus time`, `Out of office`, and `Birthday`.
 
@@ -151,7 +151,7 @@ You can change your event type at any time using Notion Calendar on desktop or w
 
 **Note:** At this time, Focus and OOO events are only available to Notion Calendar users with work or school accounts managed by Google Workspace.
 
-### Email participants
+### [Email participants](https://www.notion.com/help/manage-your-calendars-and-events#email-participants)
 
 Select an event, then select `•••` at the top right of the right context panel → `Email participants`. This will open a mailto: link.
 
@@ -171,13 +171,13 @@ To update to Gmail in Chrome:
 
 * Select `Allow`.
 
-### Mark participant as optional
+### [Mark participant as optional](https://www.notion.com/help/manage-your-calendars-and-events#mark-participant-as-optional)
 
 Select an event, then add a participant to it from the right context panel. Then, select `•••` next to their name → `Mark optional`.
 
 If an event appears on multiple calendars, and you want to edit the event from a specific calendar, toggle off the other calendars in your calendar list in the left sidebar so only the calendar that you want to use to edit is visible.
 
-### Move an event to a different calendar
+### [Move an event to a different calendar](https://www.notion.com/help/manage-your-calendars-and-events#move-an-event-to-a-different-calendar)
 
 Because Notion Calendar brings all of your commitments together in one place, it’s easy to move an event from one calendar to another. To do this:
 
@@ -187,7 +187,7 @@ Because Notion Calendar brings all of your commitments together in one place, it
 
 * In the dropdown, select a new calendar for the event.
 
-### Bulk edit events
+### [Bulk edit events](https://www.notion.com/help/manage-your-calendars-and-events#bulk-edit-events)
 
 You can take action on multiple events at a time. These include changing their color or blocking them on another calendar. To do this:
 
@@ -201,7 +201,7 @@ You can also shift multiple events over on your calendar. To do this:
 
 * Drag the events to their desired time slots. They’ll all move together.
 
-### Delete an event
+### [Delete an event](https://www.notion.com/help/manage-your-calendars-and-events#delete-an-event)
 
 There are a few ways to delete an event in Notion Calendar:
 

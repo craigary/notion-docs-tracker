@@ -15,7 +15,7 @@ These are instructions for setting up Notion [SAML SSO](https://www.notion.com/h
 
 ## Entra ID
 
-### Step 1: Create a new application integration
+### [Step 1: Create a new application integration](https://www.notion.com/help/set-up-identity-provider-for-saml-sso#step-1-create-a-new-application-integration)
 
 To create a new application integration in Entra ID:
 
@@ -27,7 +27,7 @@ To create a new application integration in Entra ID:
 
 4. In the `Add` from the gallery section, type `Notion` in the search box. Select Notion from results panel and then add the app. Wait a few seconds while the app is added to your tenant.
 
-### Step 2: Create SAML Integration
+### [Step 2: Create SAML Integration](https://www.notion.com/help/set-up-identity-provider-for-saml-sso#step-2-create-saml-integration)
 
 To set up the SAML integration:
 
@@ -35,7 +35,7 @@ To set up the SAML integration:
 
 2. On the `Select a single sign-on method` page, select `SAML`.
 
-### Step 3: SAML settings
+### [Step 3: SAML settings](https://www.notion.com/help/set-up-identity-provider-for-saml-sso#step-3-saml-settings)
 
 To configure SAML settings in Notion:
 
@@ -59,7 +59,7 @@ To configure SAML settings in Notion:
 
 8. Choose how people sign in and whether new accounts are created for them, then save once. All of these choices can be made before you save.
 
-### Step 4: Configure Notion in Entra ID
+### [Step 4: Configure Notion in Entra ID](https://www.notion.com/help/set-up-identity-provider-for-saml-sso#step-4-configure-notion-in-entra-id)
 
 To set up in Notion in Entra ID:
 
@@ -89,7 +89,7 @@ To set up in Notion in Entra ID:
 
 5. In Notion, go to `Settings` → `Identity`, and paste the `App Federation Metadata URL` value you copied into the `IdP metadata URL field` text box. Make sure `Identity Provider URL` is selected.
 
-### Step 5: Assign users to Notion
+### [Step 5: Assign users to Notion](https://www.notion.com/help/set-up-identity-provider-for-saml-sso#step-5-assign-users-to-notion)
 
 To assign users to Notion:
 
@@ -111,7 +111,7 @@ To assign users to Notion:
 
 ## Google
 
-### Step 1: Get Google identity provider (IdP) information
+### [Step 1: Get Google identity provider (IdP) information ](https://www.notion.com/help/set-up-identity-provider-for-saml-sso#step-1-get-google-identity-provider-\(idp\)-information)
 
 To get information from Google Identity Provider (IdP):
 
@@ -127,7 +127,7 @@ To get information from Google Identity Provider (IdP):
 
 6. Leave the Admin Console open. You'll continue with the configuration wizard after performing the next step in the Notion application.
 
-### Step 2: Set up Notion as SAML 2.0 service provider
+### [Step 2: Set up Notion as SAML 2.0 service provider](https://www.notion.com/help/set-up-identity-provider-for-saml-sso#step-2-set-up-notion-as-saml-2.0-service-provider)
 
 To set up Notion as a SAML service provider:
 
@@ -155,7 +155,7 @@ To set up Notion as a SAML service provider:
 
 8. Ensure that the remaining options (Login method, Automatic account creation and Linked workspaces)**&#x20;**&#x63;ontain the desired values for your configuration.
 
-### Step 3: Finish SSO configuration in Admin Console
+### [Step 3: Finish SSO configuration in Admin Console](https://www.notion.com/help/set-up-identity-provider-for-saml-sso#step-3-finish-sso-configuration-in-admin-console)
 
 To complete SSO configuration in Admin Console:
 
@@ -177,7 +177,7 @@ To complete SSO configuration in Admin Console:
 
 **Note:** Regardless of how many group names you enter, the SAML response will only include groups that a user is a member of (directly or indirectly). Find more information [here →](https://support.google.com/a/answer/11143403)
 
-### Step 4: Enable the Notion app
+### [Step 4: Enable the Notion app](https://www.notion.com/help/set-up-identity-provider-for-saml-sso#step-4-enable-the-notion-app)
 
 To enable Notion:
 
@@ -203,7 +203,7 @@ To enable Notion:
 
 ## Okta
 
-### Step 1: Add the Notion app from Okta's application directory
+### [Step 1: Add the Notion app from Okta's application directory](https://www.notion.com/help/set-up-identity-provider-for-saml-sso#step-1-add-the-notion-app-from-okta's-application-directory)
 
 To add Notion from Okta’s application directory:
 
@@ -219,7 +219,7 @@ To add Notion from Okta’s application directory:
 
 6. Above the `Advanced Sign-on Settings`**&#x20;**&#x73;ectio&#x6E;**,** click on the `Identity Provider`**&#x20;**&#x6D;etadat&#x61;**.** This will open a new browser tab. Copy the link of the URL.
 
-### Step 2: Configure SAML settings in Notion
+### [Step 2: Configure SAML settings in Notion](https://www.notion.com/help/set-up-identity-provider-for-saml-sso#step-2-configure-saml-settings-in-notion)
 
 To set up Notion settings for SAML:
 
@@ -260,7 +260,7 @@ You'll be able to assign users and groups to Notion in the `Okta - Assignments` 
 
 **Note:** If you’re planning to [configure provisioning with SCIM](https://www.notion.com/help/set-up-identity-provider-for-scim#onelogin), please do that before you configure SAML SSO.
 
-### Step 1: Create SAML integration
+### [Step 1: Create SAML integration](https://www.notion.com/help/set-up-identity-provider-for-saml-sso#step-1-create-saml-integration)
 
 To create a new application integration:
 
@@ -270,7 +270,7 @@ To create a new application integration:
 
 2. Navigate to the `SSO` tab and copy the `Issuer URL` value. Paste it somewhere to be retrieved later.
 
-### Step 2: SAML settings
+### [Step 2: SAML settings](https://www.notion.com/help/set-up-identity-provider-for-saml-sso#step-2-saml-settings)
 
 To configure SAML settings in Notion:
 
@@ -292,7 +292,7 @@ To configure SAML settings in Notion:
 
    * The `Identity Provider Details` is a field in which you need to provide either an IdP URL or IdP metadata XML.
 
-### Step 3: Configure Notion app in OneLogin
+### [Step 3: Configure Notion app in OneLogin](https://www.notion.com/help/set-up-identity-provider-for-saml-sso#step-3-configure-notion-app-in-onelogin)
 
 To set up Notion in OneLogin:
 
@@ -326,7 +326,7 @@ For detailed documentation, visit TrustLogin’s website [here →](https://supp
 
 If you don't use one of Notion’s supported SAML providers, you can also configure your IdP to use SAML with Notion.
 
-### Step 1: Set up your IdP
+### [Step 1: Set up your IdP](https://www.notion.com/help/set-up-identity-provider-for-saml-sso#step-1-set-up-your-idp)
 
 Your IdP must support the SAML 2.0 spec to be used with Notion. To set up your IdP:
 
@@ -352,7 +352,7 @@ Your IdP must support the SAML 2.0 spec to be used with Notion. To set up your I
 
 5. Copy the IdP metadata URL or IdP metadata XML for next steps.
 
-### Step 2: Set up SAML in Notion
+### [Step 2: Set up SAML in Notion](https://www.notion.com/help/set-up-identity-provider-for-saml-sso#step-2-set-up-saml-in-notion)
 
 To set up SAML in Notion:
 

@@ -79,7 +79,7 @@ To connect Jira to your Notion workspace:
 
 Notion will install a Jira Forge app named Notion-AI-Connector using the credentials provided. You don't need to build or install this app yourself. Once your Site URL, API token, and Developer Space ID are confirmed, Notion sets it up for you automatically. The connection can take up to 36 hours to complete. You can manage the connection by opening Notion AI at the bottom of your screen and clicking on `•••` → `Connect Jira` → `Settings`.
 
-### What content from Jira can be connected to Notion AI?
+### [What content from Jira can be connected to Notion AI?](https://www.notion.com/help/jira-ai-connector#what-content-from-jira-can-be-connected-to-notion-ai)
 
 All Jira Cloud products are supported: Jira Software, Jira Product Discovery, Jira Service Management, Jira Work Management.
 

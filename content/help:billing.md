@@ -27,7 +27,7 @@ Go to `Settings` in your sidebar → `People` to view how many paid seats a work
 
 ![hc: manage paid seats and members](https://images.ctfassets.net/spoqsaf9291f/4Rg9bxVHKFhjrTokxyyL50/13886e8d17bdb3fabcbcc787e9ed22ed/Reference_Visuals_Group_173.png)
 
-### Accidental member additions
+### [Accidental member additions](https://www.notion.com/help/billing#accidental-member-additions)
 
 Before you add someone to your workspace as a member, remember that **adding members to a paid Notion workspace is a billable action and will incur additional charges on your invoice**.
 
@@ -37,7 +37,7 @@ To avoid accidentally adding members to your workspace, go to the Notion page yo
 
 You’ll be asked if you’d like to upgrade the guest to a member — select `Skip for now` to ensure that they’ll be added to that page at no cost.
 
-### Adding and removing members
+### [Adding and removing members](https://www.notion.com/help/billing#adding-and-removing-members)
 
 Here’s what happens when you add or remove members.
 
@@ -95,7 +95,7 @@ To change your billing interval:
 
 4. You’ll see your new billing details and an estimate for your next bill. Click `Confirm changes` if everything looks good.
 
-### Change from monthly to yearly
+### [Change from monthly to yearly](https://www.notion.com/help/billing#change-from-monthly-to-yearly)
 
 **When you change from monthly to yearly**, you'll establish a new billing cycle, with your plan automatically renewing on the calendar day you made this change the next year.
 
@@ -111,7 +111,7 @@ For example:
 
 * Since half the month went by, we remove the unused time (the latter half of the month) from your yearly price.
 
-### Change from yearly to monthly
+### [Change from yearly to monthly](https://www.notion.com/help/billing#change-from-yearly-to-monthly)
 
 **When you change from yearly to monthly**, the new monthly billing cycle will take effect the day your annual cycle ends. Your plan will automatically renew each month on the same calendar day going forward.
 

@@ -27,7 +27,7 @@ You want to know both which customers bought which items, as well as which items
 
 * Here, when you add an item bought into the **Customers** database, the customers who bought them automatically appear in the `↗ Customers` column in the **Items** database.
 
-### Example use cases
+### [Example use cases](https://www.notion.com/help/relations-and-rollups#example-use-cases)
 
 * Connect your **database of restaurants** with your **database of neighborhoods** so you can see which restaurants are in which neighborhoods at a glance.
 
@@ -95,7 +95,7 @@ To change how relations are displayed in a database page:
 
 2. Click `Property visibility` and select `Always show`, `Hide when empty`, or `Always hide`.
 
-### Customize displayed properties for relations
+### [Customize displayed properties for relations](https://www.notion.com/help/relations-and-rollups#customize-displayed-properties-for-relations)
 
 When you set up a relation in your database, you can also choose to display certain properties of linked pages. For example, let’s say you have a database of frequently asked questions at your company. Each FAQ has a relation to a page that further explains the answer to the question. You might want people to also be able to see the owner of each page, so they know who to reach out to with more questions. You can set your FAQ database up so that the owner is visible along with the relevant page!
 
@@ -165,7 +165,7 @@ Rollups help you aggregate data in your databases based on relations. Going back
 
   * Doing this adds up the prices of each item related to a customer's name, giving you the total dollars they spent in your rollup column.
 
-### Rollup types
+### [Rollup types](https://www.notion.com/help/relations-and-rollups#rollup-types)
 
 There are different calculations you can apply as a rollup. Here are all of them:
 
@@ -211,7 +211,7 @@ There are different calculations you can apply as a rollup. Here are all of them
 
 * `Date range`: Computes the span of time between the latest and earliest dates in the date property for related pages.
 
-### Aggregate rollups
+### [Aggregate rollups](https://www.notion.com/help/relations-and-rollups#aggregate-rollups)
 
 In both tables and boards, you can apply calculations to your rollup column to get a sense of sums, ranges, averages, etc. for your entire database.
 

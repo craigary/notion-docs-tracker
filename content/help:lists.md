@@ -21,7 +21,7 @@ If you want to create an inline list, type `/List view` on any page and press 
 
 **Note:** Expand inline databases to full page by clicking `⤢` at the top right.
 
-### Add list view to a database
+### [Add list view to a database](https://www.notion.com/help/lists#add-list-view-to-a-database)
 
 You can add a list to an existing database to view its data in that format. [More on views here →](https://www.notion.com/help/views-filters-and-sorts)
 
@@ -31,7 +31,7 @@ You can add a list to an existing database to view its data in that format. [Mo
 
 ## Customize your list
 
-### Edit list properties
+### [Edit list properties](https://www.notion.com/help/lists#edit-list-properties)
 
 In lists, all the properties assigned to an item appear at the far right.
 

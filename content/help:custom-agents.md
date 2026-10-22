@@ -253,7 +253,7 @@ To control what an Agent can see in Notion:
 
 Linking to Notion pages in your **Instructions** doesn’t add them to the connected **Tools and Access**.
 
-### Allow or block web access
+### [Allow or block web access](https://www.notion.com/help/custom-agents#allow-or-block-web-access)
 
 Agents can optionally browse the web when needed. Use web access when your workflow depends on external information. Keep it off for strictly internal workflows or when you want stricter control over sources. To control web access:
 
@@ -265,7 +265,7 @@ Agents can optionally browse the web when needed. Use web access when your workf
 
 4. Turn web access `off` to restrict the Agent to Notion and configured apps only.
 
-### Give Custom Agents access to Slack
+### [Give Custom Agents access to Slack](https://www.notion.com/help/custom-agents#give-custom-agents-access-to-slack)
 
 Custom Agents can read and write to Slack through a dedicated integration.
 
@@ -383,7 +383,7 @@ A few things to keep in mind:
 
 Custom Agents behave like Notion pages when it comes to sharing with others in your workspace, with a few differences.
 
-### Share agents with your team
+### [Share agents with your team](https://www.notion.com/help/custom-agents#share-agents-with-your-team)
 
 When shared, Agents can appear in the sidebar under an Agents section, in search results, and in any workspace area that lists or references agents.
 
@@ -395,7 +395,7 @@ When shared, Agents can appear in the sidebar under an Agents section, in search
 
 3. Add people, groups, or the entire workspace.
 
-### Permission levels
+### [Permission levels](https://www.notion.com/help/custom-agents#permission-levels)
 
 Agents use a simplified set of permission levels:
 
@@ -445,7 +445,7 @@ Once your Custom Agent is built, it will appear in the sidebar. Every Custom Age
 
 Treat configuration as a conversation. Use Custom Agent **Chat** to test, debug, and iterate on your instructions. Ask the agent to run one-off tasks, provide context on errors, and test different scenarios.
 
-### Use the Settings tab to edit an agent
+### [Use the Settings tab to edit an agent](https://www.notion.com/help/custom-agents#use-the-settings-tab-to-edit-an-agent)
 
 1. Open the `Agent` page.
 
@@ -457,7 +457,7 @@ Treat configuration as a conversation. Use Custom Agent **Chat** to test, debug,
 
 5. Use the `Chat` tab and the `Activity` tab to verify that the agent behaves as expected after edits.
 
-### Undo a change with version history
+### [Undo a change with version history](https://www.notion.com/help/custom-agents#undo-a-change-with-version-history)
 
 To restore a previous version of your Custom Agent:
 

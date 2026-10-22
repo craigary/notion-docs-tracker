@@ -13,7 +13,7 @@ categoryKey: "category:enterprise-admin"
 
 Notion’s installer is based on the Nullsoft Scriptable Install System and supports most of the command line flags aimed at supporting IT administrators with rolling out Notion to a fleet of machines.
 
-### Silent installation and uninstallation
+### [Silent installation and uninstallation](https://www.notion.com/help/deploy-notion-for-windows#silent-installation-and-uninstallation)
 
 If you want to install Notion silently from a script, you can use the `/S` parameter. With this flag, Notion will install itself without showing any user interface. Once the installation has finished, it will **not** launch itself.
 
@@ -21,7 +21,7 @@ Please note that PowerShell by default does not wait for external processes to f
 
 > `Notion Install.exe /S | Out-Null`
 
-### Install to a custom directory
+### [Install to a custom directory](https://www.notion.com/help/deploy-notion-for-windows#install-to-a-custom-directory)
 
 If you want to install Notion to a custom directory, you can use the `/D` parameter.
 

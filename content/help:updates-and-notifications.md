@@ -35,7 +35,7 @@ If you have the Notion desktop or mobile app installed:
 
 You can turn these notifications on or off from `Settings` → `Notifications`. [Learn more about notification settings here →](https://www.notion.com/help/notification-settings)
 
-### Interact with your inbox
+### [Interact with your inbox](https://www.notion.com/help/updates-and-notifications#interact-with-your-inbox)
 
 You can interact with notifications in your inbox in several ways.
 
@@ -73,7 +73,7 @@ Filtering changes what your inbox shows. It doesn't turn your notifications off.
 
 To see everything again, turn all the types back on. If you turn off every type, your inbox shows a short message instead of looking empty.
 
-### Manage your inbox with Notion Agent
+### [Manage your inbox with Notion Agent](https://www.notion.com/help/updates-and-notifications#manage-your-inbox-with-notion-agent)
 
 Open a chat with [Notion Agent ](https://www.notion.com/help/notion-agent)directly from your inbox by selecting the Agent icon at the top of the inbox panel. Your Notion Agent can read your notifications, group them by type or read status, and archive them on your behalf.
 
@@ -87,7 +87,7 @@ Try these prompts:
 
 * "Show me all @mentions from this week."
 
-### Inbox in the mobile app
+### [Inbox in the mobile app](https://www.notion.com/help/updates-and-notifications#inbox-in-the-mobile-app)
 
 In the Notion mobile app, you’ll also be able to filter your notifications and take bulk actions. There are a few other things you can do in your inbox in the mobile app:
 
@@ -105,11 +105,11 @@ In the Notion mobile app, you’ll also be able to filter your notifications and
 
 ## Notifications
 
-### Get notified about page updates
+### [Get notified about page updates](https://www.notion.com/help/updates-and-notifications#get-notified-about-page-updates)
 
 To get notifications when certain updates are made to a page, select `•••` at the top of the page → `Notify me` → `All comments` or `Replies and @mentions`.
 
-### Get notified about database page updates
+### [Get notified about database page updates](https://www.notion.com/help/updates-and-notifications#get-notified-about-database-page-updates)
 
 You can also be notified when updates are made to specific pages in your database. To do this, open a database page and select `•••` at the top of the page → `Notify me`. From here, you can select:
 
@@ -119,7 +119,7 @@ You can also be notified when updates are made to specific pages in your databas
 
 * `Replies and @mentions`.
 
-### Notify people in a person property
+### [Notify people in a person property](https://www.notion.com/help/updates-and-notifications#notify-people-in-a-person-property)
 
 If your database has a person property, you can notify people mentioned in that property that they have been mentioned on a specific database page. To do this:
 

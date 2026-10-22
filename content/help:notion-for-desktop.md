@@ -15,7 +15,7 @@ Notion's desktop app is a clean, distraction-free interface without all the temp
 
 You'll receive push notifications in the desktop app when something important happens inside Notion, like when someone mentions you, someone assigns you a task, or you set a reminder for yourself.
 
-### Open search when you create a new tab
+### [Open search when you create a new tab](https://www.notion.com/help/notion-for-desktop#open-search-when-you-create-a-new-tab)
 
 Navigating to a new page is quick and easy in the desktop app. With Notion for desktop, you can set every new tab you create to open up a search window. From the search window that opens when you open a new tab, you can:
 
@@ -31,7 +31,7 @@ This setting will be turned on by default, but if you’d like to turn this off:
 
 2. Toggle off `Open Search when creating a new tab`. If this setting is toggled off, new tabs will display the default page specified in the `On Start up` setting.
 
-### Command Search
+### [Command Search](https://www.notion.com/help/notion-for-desktop#command-search)
 
 On desktop, you can use search and [Notion AI](https://www.notion.com/help/notion-ai-faqs) even when you’re outside of the Notion app. Trigger Command Search with a customizable keyboard shortcut, your menu bar on Mac, or your task bar on Windows so you can search or ask Notion AI without switching between windows or bringing the Notion desktop app to the foreground. To make it easier to access Notion this way, a few things will happen by default:
 
@@ -55,7 +55,7 @@ To learn what changes for your windows and tabs, see [Notion desktop beta: new t
 
 ## Download the app
 
-### Mac desktop app
+### [Mac desktop app](https://www.notion.com/help/notion-for-desktop#mac-desktop-app)
 
 1. To get the Mac desktop app, go to [notion.com/desktop](https://www.notion.com/desktop) and click `Download for macOS`.
 
@@ -63,7 +63,7 @@ To learn what changes for your windows and tabs, see [Notion desktop beta: new t
 
 3. Open the Notion app and log in using your email.
 
-### Windows desktop app
+### [Windows desktop app](https://www.notion.com/help/notion-for-desktop#windows-desktop-app)
 
 1. To get the Windows desktop app, go to [notion.com/desktop](https://www.notion.com/desktop) and click `Download for Windows`.
 
@@ -71,7 +71,7 @@ To learn what changes for your windows and tabs, see [Notion desktop beta: new t
 
 3. Open the Notion app and log in using your email.
 
-### Windows MSIX installer
+### [Windows MSIX installer](https://www.notion.com/help/notion-for-desktop#windows-msix-installer)
 
 Notion is also available as an MSIX package for Windows. MSIX is a modern app format that's more secure, cleaner to install and uninstall, and easier for IT teams to deploy across a company.
 

@@ -37,7 +37,7 @@ When you add a secondary email to your Notion account:
 
 ## Adding and managing secondary emails
 
-### Add a secondary email
+### [Add a secondary email](https://www.notion.com/help/secondary-emails#add-a-secondary-email)
 
 1. Go to `Settings` in your sidebar
 
@@ -53,7 +53,7 @@ When you add a secondary email to your Notion account:
 
 You can add up to **5 secondary emails** per account.
 
-### Change your primary email
+### [Change your primary email](https://www.notion.com/help/secondary-emails#change-your-primary-email)
 
 Your primary email is where Notion sends account notifications. To change which email is your primary:
 
@@ -63,7 +63,7 @@ Your primary email is where Notion sends account notifications. To change which 
 
 3. Select `Make primary`
 
-### Remove a secondary email
+### [Remove a secondary email](https://www.notion.com/help/secondary-emails#remove-a-secondary-email)
 
 1. Go to `Settings`, then click on your profile
 
@@ -77,7 +77,7 @@ Your primary email is where Notion sends account notifications. To change which 
 
 Organizations on Enterprise plans can control whether users are allowed to add and manage secondary emails.
 
-### Default settings for managed users
+### [Default settings for managed users](https://www.notion.com/help/secondary-emails#default-settings-for-managed-users)
 
 By default, secondary emails are disabled for users with verified domain email addresses. This means:
 
@@ -87,7 +87,7 @@ By default, secondary emails are disabled for users with verified domain email a
 
 * Verified domains cannot be added as secondary emails to accounts outside the organization
 
-### Organization settings
+### [Organization settings](https://www.notion.com/help/secondary-emails#organization-settings)
 
 Organization owners can configure secondary email settings:
 
@@ -101,7 +101,7 @@ Organization owners can configure secondary email settings:
 
    * `Only verified domains`: Users can only add secondary emails that match your organization's verified domains
 
-### Admin management of secondary emails
+### [Admin management of secondary emails](https://www.notion.com/help/secondary-emails#admin-management-of-secondary-emails)
 
 Administrators can manage secondary emails for their users through:
 
@@ -111,7 +111,7 @@ Administrators can manage secondary emails for their users through:
 
 * **Audit logs:** Track all secondary email add, remove, and primary email change actions
 
-### SSO with secondary emails
+### [SSO with secondary emails](https://www.notion.com/help/secondary-emails#sso-with-secondary-emails)
 
 If your organization uses SSO, users can sign in with any verified email as long as your Identity Provider (IDP) supports those email addresses.
 

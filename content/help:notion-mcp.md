@@ -65,7 +65,7 @@ Notion MCP continues to respect all existing Notion permissions.
 
 If your company uses Okta to sign in to Notion, you can manage how supported AI tools like Claude connect to Notion using enterprise-managed connections. Your Oktakta admin sets up the connection once for the whole team, so members don't need to approve it themselves. Learn more about setting up [enterprise-managed connections for Notion MCP](https://www.notion.com/help/set-up-enterprise-managed-connections-for-notion-mcp)→
 
-### How to enable
+### [How to enable](https://www.notion.com/help/notion-mcp#how-to-enable)
 
 Workspace owners on the Enterprise Plan can control whether members can connect external AI apps through Notion MCP using the following steps:
 

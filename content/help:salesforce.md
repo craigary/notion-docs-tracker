@@ -79,13 +79,13 @@ Notion periodically checks for new properties. A newly added property may remain
 
 ## How Salesforce syncs run
 
-### The first import
+### [The first import](https://www.notion.com/help/salesforce#the-first-import)
 
 Notion imports live records for each selected object type within your history window. Records already marked as deleted in Salesforce aren’t included in the initial import.
 
 The import runs in batches. Its duration depends on the number of records and Salesforce’s request limits. You can open the databases while the import continues.
 
-### Ongoing updates
+### [Ongoing updates](https://www.notion.com/help/salesforce#ongoing-updates)
 
 Notion checks for changes every minute. It uses the time Salesforce last changed a record to find new and updated records, then updates the matching Notion pages.
 
@@ -137,23 +137,23 @@ Changes to Salesforce access may stop future updates without removing previously
 
 ## Troubleshoot a Salesforce sync
 
-### I can’t connect or select an object type
+### [I can’t connect or select an object type](https://www.notion.com/help/salesforce#i-can%E2%80%99t-connect-or-select-an-object-type)
 
 Ask your Salesforce administrator to confirm that your account has API access and permission to read the object. Your organization may also need to approve the connection.
 
-### A field is missing or empty
+### [A field is missing or empty](https://www.notion.com/help/salesforce#a-field-is-missing-or-empty)
 
 Check the object’s property selection and the connected account’s field access. Some field types aren’t supported. A new property may be present before its values appear on older records.
 
-### An account relation is empty
+### [An account relation is empty](https://www.notion.com/help/salesforce#an-account-relation-is-empty)
 
 Include **Accounts** in the same sync as the contacts or opportunities. Confirm that the account is within the history window and that the connected account can read the account reference field. The account may also still be importing.
 
-### A deleted record is still present
+### [A deleted record is still present](https://www.notion.com/help/salesforce#a-deleted-record-is-still-present)
 
 Salesforce must make the deletion available to the sync before Notion can process it. A deletion that was purged before detection may leave a page in Notion. Review the affected database if its contents must reflect that removal.
 
-### Updates have stopped
+### [Updates have stopped](https://www.notion.com/help/salesforce#updates-have-stopped)
 
 Open the sync’s status details. Reconnect or ask your Salesforce administrator to restore access if prompted. Salesforce request limits and temporary outages can delay updates while Notion retries.
 

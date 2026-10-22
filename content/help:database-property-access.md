@@ -59,7 +59,7 @@ These are the default access levels that you set above for everyone who can open
 
 * `No access`: The column and its values are hidden from that person.
 
-### Person property access exceptions
+### [Person property access exceptions](https://www.notion.com/help/database-property-access#person-property-access-exceptions)
 
 If you’re using a person property in your database - for example, you have a projects database with a `Project Owner` property - you can make the access level of other properties in the database dependent on the value of that person property.
 

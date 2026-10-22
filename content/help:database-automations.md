@@ -103,7 +103,7 @@ Automations can take one action or multiple actions. You can choose from a varie
 
 Get more inspiration for using database workflows in [this guide →](https://www.notion.com/help/guides/Create-streamlined-project-management-workflow-using-database-automations)
 
-### Send mail to
+### [Send mail to](https://www.notion.com/help/database-automations#send-mail-to)
 
 **Note:**
 
@@ -141,7 +141,7 @@ To set up an automation to send an email:
 
    * `Send replies to`: If you want replies to your email to be sent to someone other than the email address you used to send it, you can use this optional setting to send the reply to a person property, or a person in your workspace.
 
-### Define variables
+### [Define variables](https://www.notion.com/help/database-automations#define-variables)
 
 You can define a custom variable with mentions and formulas. You can then use this variable in other database automation actions. To define a variable:
 

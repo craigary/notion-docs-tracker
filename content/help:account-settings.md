@@ -101,7 +101,7 @@ If you want to change or remove your password:
 
 All passwords are encrypted on our servers, so we don't have access to any password data.
 
-### Reset your password
+### [Reset your password](https://www.notion.com/help/account-settings#reset-your-password)
 
 If you forgot your password, follow the instructions to reset it [here →](https://www.notion.com/help/cant-log-in#if-you-forgot-your-password)
 
@@ -185,7 +185,7 @@ If you're on web and you want any links to Notion pages to open in your desktop 
 
 You'll need to have the desktop app already installed. You’ll also need to go to Notion in your desktop app and ensure that Open links in browser is turned off in your settings.
 
-### If Notion links aren't automatically opening in the desktop app
+### [If Notion links aren't automatically opening in the desktop app](https://www.notion.com/help/account-settings#if-notion-links-aren't-automatically-opening-in-the-desktop-app)
 
 If links to Notion pages aren't automatically opening in the desktop app, try following these steps:
 

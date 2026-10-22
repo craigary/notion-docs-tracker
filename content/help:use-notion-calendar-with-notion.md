@@ -69,13 +69,13 @@ You might use Notion databases to track important projects or events. You can br
 
 View Notion databases from the comfort of your calendar.
 
-### Who can connect a Notion database to Notion Calendar?
+### [Who can connect a Notion database to Notion Calendar?](https://www.notion.com/help/use-notion-calendar-with-notion#who-can-connect-a-notion-database-to-notion-calendar)
 
 To connect a Notion database to Notion Calendar, you must have at least `Can view` access to the database.
 
 To edit or add pages in a database via Notion Calendar, you must have at least `Can edit content` access to the database. Otherwise, you’ll only be able to view database pages in your calendar.
 
-### Add a Notion database to Notion Calendar
+### [Add a Notion database to Notion Calendar](https://www.notion.com/help/use-notion-calendar-with-notion#add-a-notion-database-to-notion-calendar)
 
 To add a Notion database to Notion Calendar:
 

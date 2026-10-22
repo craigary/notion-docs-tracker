@@ -127,23 +127,23 @@ The **Visibility** property describes the Jira space. It doesn’t control who c
 
 ## Troubleshoot a Jira sync
 
-### I can’t find a site or space
+### [I can’t find a site or space](https://www.notion.com/help/jira#i-can%E2%80%99t-find-a-site-or-space)
 
 Confirm that you connected the correct Jira account and site. Ask your Jira administrator to check your access to the space and its work items.
 
-### A custom property is missing or empty
+### [A custom property is missing or empty](https://www.notion.com/help/jira#a-custom-property-is-missing-or-empty)
 
 Check that the property is selected, or turn on **Sync all current and future custom properties**. The connected account also needs access to the field. New fields may appear in Notion before existing work items receive values for them.
 
-### A parent or space relation is empty
+### [A parent or space relation is empty](https://www.notion.com/help/jira#a-parent-or-space-relation-is-empty)
 
 Confirm that the related record is included in the sync. A parent work item may be outside the selected spaces or history window, or may still be importing.
 
-### A deleted or restricted Jira item still appears in Notion
+### [A deleted or restricted Jira item still appears in Notion](https://www.notion.com/help/jira#a-deleted-or-restricted-jira-item-still-appears-in-notion)
 
 A deletion or permission change in Jira may not remove the Notion page right away. Check the Notion database’s contents and sharing settings if the item should no longer be visible.
 
-### Updates have stopped
+### [Updates have stopped](https://www.notion.com/help/jira#updates-have-stopped)
 
 Open the sync’s status details. Reconnect the account or restore Jira access when prompted. Temporary Jira outages and request limits can delay updates while Notion retries.
 

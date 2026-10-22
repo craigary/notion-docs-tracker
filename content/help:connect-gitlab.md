@@ -123,23 +123,23 @@ Notion’s permissions control access to the synced data. A GitLab project’s *
 
 ## Troubleshoot your replacement
 
-### A project is missing
+### [A project is missing](https://www.notion.com/help/connect-gitlab#a-project-is-missing)
 
 Confirm the complete project list and token access. Give Notion AI the project’s URL or numeric ID if its path has changed. Don’t run a refresh with a shortened list just to work around an access error.
 
-### An issue or merge request is missing
+### [An issue or merge request is missing](https://www.notion.com/help/connect-gitlab#an-issue-or-merge-request-is-missing)
 
 Ask Notion AI to check the project selection, whether it’s checking issues and merging requests in every state, and every page of results. Check the Notion view’s filters as well.
 
-### The dashboard is empty
+### [The dashboard is empty](https://www.notion.com/help/connect-gitlab#the-dashboard-is-empty)
 
 Ask Notion AI to check the source databases, their latest sync results, and project relations before rebuilding the dashboard. A dashboard can be empty while the initial import is still running.
 
-### I see duplicate databases
+### [I see duplicate databases](https://www.notion.com/help/connect-gitlab#i-see-duplicate-databases)
 
 Ask Notion AI to inspect the existing Worker, database URLs, and page structure before creating anything else. The skill calls for five actual synced databases and one dashboard under **GitLab Sync**. Have Notion AI identify any duplicates before removing them.
 
-### Updates have stopped
+### [Updates have stopped](https://www.notion.com/help/connect-gitlab#updates-have-stopped)
 
 Ask Notion AI to check the Worker’s latest runs, token expiry, token permissions, and access to every selected project. For a self-managed instance, also check the configured GitLab host. Request limits can delay updates.
 

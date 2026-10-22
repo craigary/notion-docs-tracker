@@ -33,7 +33,7 @@ By default, your board will be grouped by a status property if your database has
 
 ## Edit your board's groups
 
-### Group by a different property
+### [Group by a different property](https://www.notion.com/help/boards#group-by-a-different-property)
 
 If you want to group your board by assignee, for example, instead of status, you can change the property that your board is grouping by. To do this:
 
@@ -49,7 +49,7 @@ Let’s say you want to group by a property that doesn’t already exist in your
 
 3. Find the type of property you want, like `Select`, and set your property up with a name and, if needed, options (like `P0`, `P1`, and `P2`).
 
-### Add a new group
+### [Add a new group](https://www.notion.com/help/boards#add-a-new-group)
 
 You might want to change the labels for each of the groups in your board view. For example, maybe you want to turn `In progress` into `Ongoing`, or you need a new `In review` status. You’ll need to edit the property itself to accomplish this. To edit a property:
 
@@ -59,7 +59,7 @@ You might want to change the labels for each of the groups in your board view. F
 
 3. Click into each status option that your database currently has and give your options a new name or color, or `Delete` them entirely. You can also select `+` next to your existing options to create a new one.
 
-### Add or change sub-groups
+### [Add or change sub-groups](https://www.notion.com/help/boards#add-or-change-sub-groups)
 
 In board view, you can add a second layer of groups, called sub-groups. This lets you further organize your database items within a group.
 

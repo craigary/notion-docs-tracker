@@ -29,7 +29,7 @@ Workspace owners can do all of the above, as well as [restrict the ability to pu
 
 Looking to customize your Notion Site slug? To do this, open your published page in Notion, then select `Share` → `Publish`. Click on your current slug, enter your preferred slug, and click `Save`. Learn more about custom slugs [here →](https://www.notion.com/help/public-pages-and-web-publishing#adjust-settings-for-your-notion-site)
 
-### Create a new notion.site domain
+### [Create a new notion.site domain](https://www.notion.com/help/manage-your-notion-sites#create-a-new-notion.site-domain)
 
 **Note:&#x20;**&#x49;f you’re on a free plan, you can claim one `notion.site` domain. If you’re on a paid plan, you can claim up to five.
 
@@ -55,7 +55,7 @@ Once you've set your own workspace domain, it will be displayed at the start of 
 
 * If you switch to a new custom notion.site domain, any existing links starting with the previous domain (`previousdomain.notion.site`) will no longer work! You'll need to re-share new links containing the new domain.
 
-### Connect a custom domain
+### [Connect a custom domain](https://www.notion.com/help/manage-your-notion-sites#connect-a-custom-domain)
 
 **Note:&#x20;**&#x54;his feature is only available on paid plans.
 
@@ -63,7 +63,7 @@ Workspace owners on paid plans can connect their existing custom domains with No
 
 When you use a custom domain with Notion Sites, you’ll also have the option to remove any Notion branding for that custom domain. Learn more about customizing your Sites in [this article →](https://www.notion.com/help/edit-and-customize-your-notion-sites)
 
-### Change or assign your domain's Homepage
+### [Change or assign your domain's Homepage](https://www.notion.com/help/manage-your-notion-sites#change-or-assign-your-domain's-homepage)
 
 **Note:&#x20;**&#x54;his feature is only available on paid plans.
 
@@ -79,7 +79,7 @@ To update the Homepage for a domain:
 
    * If you already have a Homepage assigned but want to clear it, select `X`.
 
-### Update, validate, or delete a domain
+### [Update, validate, or delete a domain](https://www.notion.com/help/manage-your-notion-sites#update-validate-or-delete-a-domain)
 
 To update, validate, or delete a domain:
 

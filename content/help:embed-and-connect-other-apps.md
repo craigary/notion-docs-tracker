@@ -50,7 +50,7 @@ These can be added specifically from the `/` menu or by clicking `+` in the 
 
 **Note:** Embeds that require login to an external site will not work on Notion's desktop app or mobile apps.
 
-### Supported file types
+### [Supported file types](https://www.notion.com/help/embed-and-connect-other-apps#supported-file-types)
 
 In Notion, you can embed:
 
@@ -64,7 +64,7 @@ In Notion, you can embed:
 
 ## Embed actions and options
 
-### Turn a URL into an embed
+### [Turn a URL into an embed](https://www.notion.com/help/embed-and-connect-other-apps#turn-a-url-into-an-embed)
 
 ****In most cases, Notion will recognize an embeddable URL when you paste it into your page. You can also paste copied images.
 
@@ -74,7 +74,7 @@ In Notion, you can embed:
 
 2. In the menu that appears, select `Paste as bookmark`.
 
-### Resize and arrange embeds
+### [Resize and arrange embeds](https://www.notion.com/help/embed-and-connect-other-apps#resize-and-arrange-embeds)
 
 Most embeds can be resized to suit their content and the format of your page.
 
@@ -84,7 +84,7 @@ Most embeds can be resized to suit their content and the format of your page.
 
 * You can also drag and drop embeds into columns.
 
-### Go to an embed's source
+### [Go to an embed's source](https://www.notion.com/help/embed-and-connect-other-apps#go-to-an-embed's-source)
 
 It's easy to link back to where the embed came from.
 
@@ -94,7 +94,7 @@ It's easy to link back to where the embed came from.
 
 3. Select `View Original` and your browser will open to the source page.
 
-### Replace embedded content
+### [Replace embedded content](https://www.notion.com/help/embed-and-connect-other-apps#replace-embedded-content)
 
 As your project evolves, you'll likely need to update embedded content. You can replace both content you've embedded from elsewhere online, or content you've uploaded in order to embed and display it on your page.
 
@@ -130,7 +130,7 @@ Link mentions are another way to incorporate links into your Notion page. They a
 
 * The ability to [install workspace-wide security and compliance connections](https://www.notion.com/help/add-security-and-compliance-integrations).
 
-### Integrate with Zoom
+### [Integrate with Zoom](https://www.notion.com/help/embed-and-connect-other-apps#integrate-with-zoom)
 
 We now support Zoom meeting link previews in Notion and managing weekly Zoom meetings in calendar view. For projects with recurring Zoom invites, you can preview meeting URL information and join meetings straight from Notion.
 
@@ -142,7 +142,7 @@ We now support Zoom meeting link previews in Notion and managing weekly Zoom mee
 
 At any time, you can uninstall the Zoom app by navigating to `Settings` → `Connections` and selecting `Delete`.
 
-### Embed from Google Drive
+### [Embed from Google Drive](https://www.notion.com/help/embed-and-connect-other-apps#embed-from-google-drive)
 
 You can search your Google Drive from inside Notion and embed content without having to navigate away from the app. Here's how:
 
@@ -154,7 +154,7 @@ You can search your Google Drive from inside Notion and embed content without ha
 
 4. You can connect multiple Google accounts to embed files from multiple Google Drives.
 
-### Embed a Google Calendar
+### [Embed a Google Calendar](https://www.notion.com/help/embed-and-connect-other-apps#embed-a-google-calendar)
 
 You can embed a view-only Google Calendar into Notion if the Gmail address you use for your calendar is the same one you use for Notion.
 
@@ -166,7 +166,7 @@ You can embed a view-only Google Calendar into Notion if the Gmail address you u
 
 4. Paste that URL into Notion and select `Create Embed` from the menu that appears.
 
-### Integrate Slack
+### [Integrate Slack](https://www.notion.com/help/embed-and-connect-other-apps#integrate-slack)
 
 **Looking for our Slack integration?&#x20;**[**Click here!**](https://www.notion.com/help/slack)
 

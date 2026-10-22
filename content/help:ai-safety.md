@@ -17,11 +17,11 @@ Notion AI lives in your workspace and helps you search, chat, and write, allowin
 
 ## Notion's core AI safety pillars
 
-### Transparency
+### [Transparency](https://www.notion.com/help/ai-safety#transparency)
 
 Notion is committed to transparency, keeping users informed about how Notion AI is developed, deployed, and used. We regularly update customers about which AI models are in use (such as those by OpenAI and Anthropic) and strive to provide accessible disclosures about Notion and our subprocessors that help provide Notion AI capabilities.
 
-### Model development and usage
+### [Model development and usage](https://www.notion.com/help/ai-safety#model-development-and-usage)
 
 * Notion leverages models developed by its subprocessors, organizations such as OpenAI and Anthropic, to serve Notion AI to our customers.
 
@@ -29,7 +29,7 @@ Notion is committed to transparency, keeping users informed about how Notion AI 
 
 * Our models and AI tools are not designed to make automated decisions on individuals; They are designed to support our customers in doing their work, faster.
 
-### End user privacy and safety
+### [End user privacy and safety](https://www.notion.com/help/ai-safety#end-user-privacy-and-safety)
 
 * By default, we do not use your workspace data or personal information to train our models.
 
@@ -41,7 +41,7 @@ Notion is committed to transparency, keeping users informed about how Notion AI 
 
 * We partner with organizations like [ROOST](http://roost.tools) (Robust Open Online Safety Tools) to leverage and support open source AI trust tooling to make our platform safer for our customers.
 
-### Internal testing and controls
+### [Internal testing and controls](https://www.notion.com/help/ai-safety#internal-testing-and-controls)
 
 * We rigorously test our models internally before deployment to our customers to promote accuracy and reliability for our users.
 
@@ -49,7 +49,7 @@ Notion is committed to transparency, keeping users informed about how Notion AI 
 
 * We perform thorough reviews on vendors like OpenAI that process customer data to ensure they meet our standards and our customers' expectations in how we treat their data.
 
-### Continuous improvement
+### [Continuous improvement](https://www.notion.com/help/ai-safety#continuous-improvement)
 
 * Notion is constantly updating and deploying new models to better serve our customers by reviewing model and product effectiveness and iterating to improve.
 

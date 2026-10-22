@@ -11,7 +11,7 @@ categoryKey: "category:notion-apps"
 
 ## Notion beta for iOS
 
-### How to sign up
+### [How to sign up](https://www.notion.com/help/notion-for-mobile-beta-version#how-to-sign-up)
 
 Like many other apps, Notion’s iOS beta is distributed through TestFlight.
 
@@ -23,7 +23,7 @@ Like many other apps, Notion’s iOS beta is distributed through TestFlight.
 
 **Note**: Apple only allows up to 10,000 people to sign up for a beta app through TestFlight. First come, first served!
 
-### How to submit feedback
+### [How to submit feedback](https://www.notion.com/help/notion-for-mobile-beta-version#how-to-submit-feedback)
 
 Feedback is a gift! Help Notion’s engineering team make our mobile apps even better by sending bug reports and feedback:
 
@@ -31,13 +31,13 @@ Feedback is a gift! Help Notion’s engineering team make our mobile apps even b
 
 * In the TestFlight app, tap on “Notion Beta,” then tap the “Send Beta Feedback” button.
 
-### How to leave the beta
+### [How to leave the beta](https://www.notion.com/help/notion-for-mobile-beta-version#how-to-leave-the-beta)
 
 In the TestFlight app, tap on “Notion Beta,” then scroll to the bottom of the page. Tap the “Stop testing” button to be removed from the beta.
 
 ## Notion beta for Android
 
-### How to sign up
+### [How to sign up](https://www.notion.com/help/notion-for-mobile-beta-version#how-to-sign-up)
 
 1. Go to [Notion’s app listing in the Google Play Store here](https://play.google.com/store/apps/details?id=notion.id\&hl=en_US\&gl=US).
 
@@ -47,7 +47,7 @@ In the TestFlight app, tap on “Notion Beta,” then scroll to the bottom of th
 
 ![Screenshots of signing up for Notion's Android beta in the Google Play store.](https://images.ctfassets.net/spoqsaf9291f/6nTGF8XuqiMbTWJXG6bdRO/ef4e65d1888d5932708932e6b7ebd5ab/Sign_up_on_Android.png)
 
-### How to submit feedback
+### [How to submit feedback](https://www.notion.com/help/notion-for-mobile-beta-version#how-to-submit-feedback)
 
 Feedback is a gift! Help Notion’s engineering team make our mobile apps even better by sending bug reports and feedback:
 
@@ -61,7 +61,7 @@ Feedback is a gift! Help Notion’s engineering team make our mobile apps even b
 
 5. Scroll until you find Notion in the list, then tap “Write feedback”.
 
-### How to leave the beta
+### [How to leave the beta](https://www.notion.com/help/notion-for-mobile-beta-version#how-to-leave-the-beta)
 
 Go to [Notion’s app listing in the Google Play Store here](https://play.google.com/store/apps/details?id=notion.id\&hl=en_US\&gl=US). Scroll to the bottom of the page until you see the section titled “You’re a beta tester.” Tap the “Leave” button to be removed from the beta.
 
@@ -69,17 +69,17 @@ Go to [Notion’s app listing in the Google Play Store here](https://play.google
 
 The desktop beta is for the Notion app on Mac and Windows. It lets you try new desktop features early, starting with a new way tabs work. Joining is your choice, and you can leave whenever you want. Notion restarts when you join or leave.
 
-### How to sign up
+### [How to sign up](https://www.notion.com/help/notion-for-mobile-beta-version#how-to-sign-up)
 
 * The first time it's available, click `Try Desktop Beta` in the tab bar, then choose `Restart and try now`.
 
 * You can also join any time from `Settings` → `Preferences` → `Desktop beta`.
 
-### How to submit feedback
+### [How to submit feedback](https://www.notion.com/help/notion-for-mobile-beta-version#how-to-submit-feedback)
 
 Click the Beta button (the bug icon) in the tab bar, then choose `Report a bug` or `Send feedback`. This opens an email that's already filled in with your app version and system details.
 
-### How to leave the beta
+### [How to leave the beta](https://www.notion.com/help/notion-for-mobile-beta-version#how-to-leave-the-beta)
 
 Click the Beta button in the tab bar and choose `Leave beta`, or turn off `Desktop beta` in `Settings` → `Preferences`. Notion restarts and your classic tabs come back.
 

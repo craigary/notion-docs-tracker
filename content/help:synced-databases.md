@@ -31,15 +31,15 @@ More apps will be supported in the future!
 
 ## Create a synced database
 
-### **Jira**
+### [**Jira**](https://www.notion.com/help/synced-databases#jira)
 
 Learn how to set up a synced database for Jira and what else you can do with our Jira connection [here →](https://www.notion.com/help/jira#synced-databases)
 
-### **GitHub**
+### [**GitHub**](https://www.notion.com/help/synced-databases#github)
 
 Set up a GitHub sync to bring pull requests, issues, or both into Notion, and choose what to include during setup. Learn how in [Connect GitHub to Notion →](https://www.notion.com/help/github)
 
-### **Asana**
+### [**Asana**](https://www.notion.com/help/synced-databases#asana)
 
 To create a synced database for Asana:
 
@@ -63,6 +63,6 @@ You can add any Notion property to a synced database. There are two things to kn
 
 * If an added Notion property shares a name with any third-party properties (Jira, GitHub, GitLab, or Asana), that property will not sync.
 
-### People properties in synced databases
+### [People properties in synced databases](https://www.notion.com/help/synced-databases#people-properties-in-synced-databases)
 
 Synced databases will include people properties! Now, you can use identity mapping to connect third party [GitHub](https://www.notion.com/help/github#create-a-synced-database) and [Jira](https://www.notion.com/help/jira#synced-databases) identities to your team's Notion profiles.

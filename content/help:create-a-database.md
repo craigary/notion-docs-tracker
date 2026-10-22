@@ -21,7 +21,7 @@ To create a new database:
 
    [](//videos.ctfassets.net/spoqsaf9291f/40BE2Sw1gbfABgvimhHuHR/b28e0d7b0189f30960d6130a9a1c8950/create_a_database.mp4)
 
-### Create a database with Notion AI
+### [Create a database with Notion AI](https://www.notion.com/help/create-a-database#create-a-database-with-notion-ai)
 
 You can create a database in just seconds using [Notion AI](https://www.notion.com/help/notion-ai-faqs).
 
@@ -69,7 +69,7 @@ To create a database with Notion AI from `Home`:
 
 * Databases created with `Build` mode in `Home` will be added to your workspace as a new page. If you want to use Notion AI to build a database in a specific page, navigate to that page and create a new database with Notion AI in that page. You can also move your database created by AI to another page in your workspace.
 
-### Create a database from a template
+### [Create a database from a template](https://www.notion.com/help/create-a-database#create-a-database-from-a-template)
 
 You can also use some existing templates to get started! To do this:
 

@@ -19,7 +19,7 @@ You can create a database in just seconds using [Notion AI](https://www.notion.c
 
 * If you are not on those plans, Notion AI will use credits from your workspace, including [any complimentary credits](https://www.notion.com/help/complimentary-ai-responses) you may have available.
 
-### From a page
+### [From a page](https://www.notion.com/help/autofill#from-a-page)
 
 To create a database with Notion AI in an existing page:
 
@@ -35,7 +35,7 @@ To create a database with Notion AI in an existing page:
 
 6. Choose how you prefer to visualize your database items and select `Done`.
 
-### From Home
+### [From Home](https://www.notion.com/help/autofill#from-home)
 
 To create a database with Notion AI from `Home`:
 

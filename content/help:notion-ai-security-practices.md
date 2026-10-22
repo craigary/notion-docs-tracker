@@ -31,7 +31,7 @@ For further information see:
 
 ## How Notion AI works
 
-### Which AI Providers does Notion use?
+### [Which AI Providers does Notion use?](https://www.notion.com/help/notion-ai-security-practices#which-ai-providers-does-notion-use)
 
 Notion AI runs on a mix of large language models (LLMs).
 
@@ -41,7 +41,7 @@ We review providers and models regularly to give you the best experience, so thi
 
 See the [Data Processing Addendum](https://notion.notion.site/Data-Processing-Addendum-361b540101274b1fa7e16b90402b0d99) for details.
 
-### How Notion AI uses your Workspace Content
+### [How Notion AI uses your Workspace Content](https://www.notion.com/help/notion-ai-security-practices#how-notion-ai-uses-your-workspace-content)
 
 When Notion AI answers a question using your workspace, two things happen:
 
@@ -99,7 +99,7 @@ An embedding is a numerical representation of text that captures its meaning, so
 
   * **External Agents:&#x20;**&#x44;ifferent controls apply. See [External Agents](https://www.notion.com/help/category/external-agents).
 
-### Deleting and Restoring your Data
+### [Deleting and Restoring your Data](https://www.notion.com/help/notion-ai-security-practices#deleting-and-restoring-your-data)
 
 * Delete a page or workspace and you can restore it within 30 days. After 30 days, deleted content is unrecoverable and moves into permanent deletion in line with the retention policies outlined in our Data Processing Addendum. For more information, see: [How to delete or restore](https://www.notion.com/help/duplicate-delete-and-restore-content).
 

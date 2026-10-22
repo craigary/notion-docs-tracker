@@ -34,7 +34,7 @@ To see a complete list of features that are included in the Education Plan or to
 
 **Note**: Each school email can claim the Education Plan once, for one workspace. Upgrading it to a Plus, Business, or Enterprise plan permanently ends that workspace's Education eligibility.
 
-### Individual students & teachers
+### [Individual students & teachers](https://www.notion.com/help/notion-for-education#individual-students-&-teachers)
 
 Individual students and teachers at accredited colleges and universities can upgrade to the Education Plan for free at any time.
 
@@ -70,7 +70,7 @@ Once you’ve met the above requirements, follow these steps in the desktop or w
 
 You must have a valid educational email address to upgrade to the Education Plan. We don’t accept student IDs or other documentation to verify a student or educator status.
 
-### Student organizations
+### [Student organizations](https://www.notion.com/help/notion-for-education#student-organizations)
 
 Before you apply, make sure of the following:
 

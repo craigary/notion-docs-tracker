@@ -89,7 +89,7 @@ To set this up:
 
 3. Toggle on `Activity in your workspace` to be notified of all of the above. This will automatically also toggle on `Only user or group mentions`. If you only want to receive Slack notifications when you’re mentioned in your workspace, toggle off `Activity in your workspace`.
 
-### Turn Slack notifications off
+### [Turn Slack notifications off](https://www.notion.com/help/slack#turn-slack-notifications-off)
 
 To stop receiving notifications in Slack:
 
@@ -117,7 +117,7 @@ When you build a button, database button, or database automation in Notion, you 
 
 Let’s look at the various places you can build a Slack notification automation in Notion.
 
-### In a button
+### [In a button](https://www.notion.com/help/slack#in-a-button)
 
 When you create a button in your page, you can set it to send a Slack notification to a specific Slack channel. To do this:
 
@@ -129,7 +129,7 @@ When you create a button in your page, you can set it to send a Slack notificati
 
 Whenever that button is clicked in the future, a Slack notification will be sent. Learn more about buttons and how to set them up [here →](https://www.notion.com/help/buttons)
 
-### In a database
+### [In a database](https://www.notion.com/help/slack#in-a-database)
 
 You can receive a message in Slack anytime someone adds or makes a change to a page in a database.
 
@@ -149,7 +149,7 @@ You can receive a message in Slack anytime someone adds or makes a change to a p
 
 ![hc: slack db automation](https://images.ctfassets.net/spoqsaf9291f/r2tJqNjdMVFWiLQ6um9i3/5e8cf6f7e740b7fe25aef0aabf3ec2e1/Group_27.png)
 
-### In a database button
+### [In a database button](https://www.notion.com/help/slack#in-a-database-button)
 
 When you add a button property to your database, you can set it to send a Slack notification to a specific Slack channel. To do this:
 

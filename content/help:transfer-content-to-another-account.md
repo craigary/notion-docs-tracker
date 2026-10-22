@@ -35,7 +35,7 @@ If you have multiple workspaces associated with your Notion account and you want
 
 If you’re seeing “Duplication failed” or a similar error message when attempting to move content from one workspace to another, review and try the list of common solutions below.
 
-### You reached the duplication rate limit
+### [You reached the duplication rate limit](https://www.notion.com/help/transfer-content-to-another-account#you-reached-the-duplication-rate-limit)
 
 Notion has a max duplication rate limit of 50,000 blocks per hour. Large sets of pages, databases, and nested content can quickly exceed this limit.
 
@@ -47,7 +47,7 @@ To resolve this:
 
 * Wait 1 hour before retrying the duplication.
 
-### The destination workspace can’t accept additional blocks
+### [The destination workspace can’t accept additional blocks](https://www.notion.com/help/transfer-content-to-another-account#the-destination-workspace-can%E2%80%99t-accept-additional-blocks)
 
 The workspace you’re moving content to may have plan or workspace-level limitations that prevent new blocks from being created. This is most common with free plans and workspaces that have exceeded their block or usage limits.
 
@@ -59,7 +59,7 @@ To resolve this:
 
 * Upgrade the destination workspace if needed.
 
-### The content being moved includes a locked or protected template
+### [The content being moved includes a locked or protected template](https://www.notion.com/help/transfer-content-to-another-account#the-content-being-moved-includes-a-locked-or-protected-template)
 
 Some Marketplace templates and protected content include blocks with restricted access. This content will duplicate successfully within the same workspace, but fail when an attempt is made to duplicate it to different workspaces.
 
@@ -71,7 +71,7 @@ To resolve this:
 
 * If needed, recreate the content structure manually within the destination workspace.
 
-### Permissions or account access issues
+### [Permissions or account access issues](https://www.notion.com/help/transfer-content-to-another-account#permissions-or-account-access-issues)
 
 The duplicating account must have the right permissions in both the source and destination workspaces. Duplication can fail if:
 
@@ -89,7 +89,7 @@ To resolve this:
 
 * Ensure you have permissions to create pages in the destination workspace.
 
-### None of the above
+### [None of the above](https://www.notion.com/help/transfer-content-to-another-account#none-of-the-above)
 
 If none of the above resolves the issue, or if you’re not sure what’s causing it, try the solutions below.
 

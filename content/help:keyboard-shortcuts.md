@@ -31,7 +31,7 @@ If you're not a born shortcutter, we get it. You can still work like a Notion po
 
 * Use `cmd/ctrl` + `shift` + `L` to toggle between dark mode and light mode.
 
-### Desktop keyboard shortcuts
+### [Desktop keyboard shortcuts](https://www.notion.com/help/keyboard-shortcuts#desktop-keyboard-shortcuts)
 
 * Use `cmd/ctrl` + `N` to create a new page.
 
@@ -223,7 +223,7 @@ Everything in Notion is a block — from a line of type (or paragraph) to an ima
 
 Pressing `/` in Notion brings up a full menu of content blocks you can choose to insert. You can shortcut this further by pressing `/` and then typing what you want. Here are your choices:
 
-### Basic
+### [Basic](https://www.notion.com/help/keyboard-shortcuts#basic)
 
 * `/text` or `/plain` creates a new text block.
 
@@ -251,7 +251,7 @@ Pressing `/` in Notion brings up a full menu of content blocks you can choose 
 
 * `esc` clears the `/` menu. Handy if you're just trying to use a / in your writing.
 
-### Inline
+### [Inline](https://www.notion.com/help/keyboard-shortcuts#inline)
 
 * `/mention` lets you mention a page or a person in your workspace
 
@@ -261,7 +261,7 @@ Pressing `/` in Notion brings up a full menu of content blocks you can choose 
 
 * `/emoji` brings up the emoji picker
 
-### Media
+### [Media](https://www.notion.com/help/keyboard-shortcuts#media)
 
 * `/image` will bring up the option to upload or embed an image, or add one from Unsplash.
 
@@ -279,7 +279,7 @@ Pressing `/` in Notion brings up a full menu of content blocks you can choose 
 
 * `/embed` lets you add any one of the 500+ embeds that work with Notion.
 
-### Advanced
+### [Advanced](https://www.notion.com/help/keyboard-shortcuts#advanced)
 
 * `/duplicate` creates an exact copy of the current block.
 

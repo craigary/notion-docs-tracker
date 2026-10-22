@@ -41,7 +41,7 @@ To publish a Notion Site:
 
 Select `View site` to see your Notion Site live on the web! As you make changes to the content in a published Notion page, the Site will update automatically.
 
-### Make your site embeddable
+### [Make your site embeddable](https://www.notion.com/help/public-pages-and-web-publishing#make-your-site-embeddable)
 
 Embed any of your published Notion pages—forms, charts, databases, and more—into your non-Notion websites.
 

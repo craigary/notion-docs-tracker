@@ -117,23 +117,23 @@ The database starts as private. If you share it, Notion’s sharing settings det
 
 ## Troubleshoot a GitHub sync
 
-### I can’t find an organization or repository
+### [I can’t find an organization or repository](https://www.notion.com/help/github#i-can%E2%80%99t-find-an-organization-or-repository)
 
 Check that you’ve selected the correct GitHub account and app installation. Confirm that both your account and the app have repository access. If an organization restricts app installations, ask an owner to approve access.
 
-### A repository was renamed or moved
+### [A repository was renamed or moved](https://www.notion.com/help/github#a-repository-was-renamed-or-moved)
 
 Open the sync’s repository settings, review the repository selection, and save it again. If it moved to a different organization, confirm that the connection has access in the new location.
 
-### The Author property is empty
+### [The Author property is empty](https://www.notion.com/help/github#the-author-property-is-empty)
 
 A GitHub username doesn’t always have an available public email that matches a Notion workspace member. Use **Author (GitHub)** to identify the author when the person property is empty. Changes to an author’s email or workspace membership may not refresh older synced pull requests automatically.
 
-### A pull request or issue is missing
+### [A pull request or issue is missing](https://www.notion.com/help/github#a-pull-request-or-issue-is-missing)
 
 Confirm that its type is included in the sync, that its repository is selected, that its last update is within the history window, and that your Notion view isn’t filtering it out. The first import may still be running.
 
-### The database has stopped updating
+### [The database has stopped updating](https://www.notion.com/help/github#the-database-has-stopped-updating)
 
 Open the sync’s status details. Reconnect your GitHub account or restore repository access if prompted. GitHub request limits and temporary outages can delay updates while Notion retries.
 

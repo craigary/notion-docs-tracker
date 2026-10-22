@@ -21,7 +21,7 @@ If your databases feel slow, there are a few possible causes and a few ways to i
 
 ## Things you can do to speed up your database setup
 
-### Avoid building too many databases into high-traffic pages
+### [Avoid building too many databases into high-traffic pages](https://www.notion.com/help/optimize-database-load-times-and-performance#avoid-building-too-many-databases-into-high-traffic-pages)
 
 If you have a large workspace, avoid having lots of [inline databases](https://www.notion.com/help/intro-to-databases#full-page-vs.-in-line-databases), like dashboards, in high-traffic pages. The more simultaneously viewed databases, the more stress on your setup.
 
@@ -33,23 +33,23 @@ Try housing each database in its own page first. Once you’ve done that, if you
 
 When using a single linked database, only one database view is open at a time, and therefore only that one database is listening for updates. You should see an improvement in performance with this setup.
 
-### Avoid complex reference chains
+### [Avoid complex reference chains](https://www.notion.com/help/optimize-database-load-times-and-performance#avoid-complex-reference-chains)
 
 Formulas and rollups are extremely powerful, but the more complex they are, the slower your database may be. For example, a formula that depends on several other formulas that each depend on rollups may take longer to calculate.
 
-### Minimize the number of filters and sorts on formulas and rollups
+### [Minimize the number of filters and sorts on formulas and rollups](https://www.notion.com/help/optimize-database-load-times-and-performance#minimize-the-number-of-filters-and-sorts-on-formulas-and-rollups)
 
 Databases that are [filtered and sorted](https://www.notion.com/help/views-filters-and-sorts) on [formula](https://www.notion.com/help/formulas) and [rollup](https://www.notion.com/help/relations-and-rollups#rollups) properties may take a bit longer to load.
 
-### Filter on simple properties
+### [Filter on simple properties](https://www.notion.com/help/optimize-database-load-times-and-performance#filter-on-simple-properties)
 
 Adding filters based on simple properties such as select, multi-select, status, number, and date may improve the speed of your database. Even if you have complex filters, this may help by reducing the number of pages that need to be processed.
 
-### Hide unnecessary properties
+### [Hide unnecessary properties](https://www.notion.com/help/optimize-database-load-times-and-performance#hide-unnecessary-properties)
 
 If some properties are less important in your database view, hiding them may improve responsiveness and interactivity.
 
-### If you can’t add a new property
+### [If you can’t add a new property](https://www.notion.com/help/optimize-database-load-times-and-performance#if-you-can%E2%80%99t-add-a-new-property)
 
 If you see an error when trying to add a new property, your database may have reached the [500-property limit](https://www.notion.com/help/database-properties#property-count-limit).
 
@@ -59,7 +59,7 @@ To get back under the limit:
 
 * Audit select and multi-select properties. If you have multiple properties that serve the same purpose, consider merging them.
 
-### Delete any unused pages
+### [Delete any unused pages](https://www.notion.com/help/optimize-database-load-times-and-performance#delete-any-unused-pages)
 
 We suggest removing any unnecessary or duplicative pages from your database to keep it as simple and up-to-date as possible. If that’s not an option for you, adding a filter on the `Created time` property to filter out old pages may significantly improve performance for very large databases.
 
@@ -67,7 +67,7 @@ We suggest removing any unnecessary or duplicative pages from your database to k
 
 To ensure the best database performance for all users, we apply size limits to databases. Once these limits are hit, new changes to your database will not be saved.
 
-### Row count limit
+### [Row count limit](https://www.notion.com/help/optimize-database-load-times-and-performance#row-count-limit)
 
 Each Notion database can hold up to 250,000 rows. You’ll see signals if you’re approaching or have exceeded this limit:
 
@@ -75,7 +75,7 @@ Each Notion database can hold up to 250,000 rows. You’ll see signals if you’
 
 * **At or over the limit:** You won’t be able to add new rows. Requests to add rows will return an error.
 
-### At the database page level
+### [At the database page level](https://www.notion.com/help/optimize-database-load-times-and-performance#at-the-database-page-level)
 
 **For each page in a database, all data from all properties of that page is limited to a total size of 2.5MB.**
 
@@ -97,7 +97,7 @@ When you’ve reached the limit for database pages, you’ll see a banner at the
 
 * Delete any unnecessary properties, which will also delete the data within those properties.
 
-### At the database level
+### [At the database level](https://www.notion.com/help/optimize-database-load-times-and-performance#at-the-database-level)
 
 **There is also a 1.5MB limit for the total size of all properties used in your database.** You can think of this limit as applying to the overall structure of your database, like how many properties you have in a database and how many options each database property (like a select or multi-select property) contains.
 
@@ -113,7 +113,7 @@ In order to stay under this limit, you can do the following:
 
 * Shorten the length of any formulas you’re using in formula properties.
 
-### Deleting properties
+### [Deleting properties](https://www.notion.com/help/optimize-database-load-times-and-performance#deleting-properties)
 
 If you choose to delete a property to clear up space and avoid hitting any limits, you can always restore those deleted properties and their data. To do this:
 

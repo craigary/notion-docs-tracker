@@ -83,7 +83,7 @@ We also promote top creators using:
 
 Featured templates and creators get refreshed for every language at varying timeframes, from weekly to monthly. We only take new submissions into account for each refresh.
 
-### How we choose featured templates
+### [How we choose featured templates](https://www.notion.com/help/getting-featured-in-the-template-gallery#how-we-choose-featured-templates)
 
 Selections for featured templates are at Notion's discretion. We also aim to amplify as many community creations in this section as possible. Featured templates are chosen based on:
 

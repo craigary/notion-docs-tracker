@@ -53,13 +53,13 @@ In your sidebar, you'll see several features and menu options. Here's an overvie
 
 ## Navigating the sidebar
 
-### Top-level tabs
+### [Top-level tabs](https://www.notion.com/help/navigate-with-the-sidebar#top-level-tabs)
 
 The sidebar is organized into top-level tabs. Each tab has its own icon, contents, and purpose.
 
 You can also add and remove tabs. Add a tab for work you come back to often, and remove a tab you never open. If you remove one, you can add it again later. [Learn how to customize your sidebar →](https://www.notion.com/help/customize-your-sidebar)
 
-### Home
+### [Home](https://www.notion.com/help/navigate-with-the-sidebar#home)
 
 Your Home tab is organized in sections, including Upcoming events, Recents, Favorites, Agents, Teamspaces, Shared pages, Private pages, and Notion apps.
 
@@ -83,7 +83,7 @@ The same menu lets you reorder the buttons at the top of the tab, add a section 
 
 Next to each section, click the book icon to Open in Library. From Library, you can browse and navigate the full list of workspace content within that section. Learn more about Library [in this article](https://www.notion.com/help/manage-your-library).
 
-### Chats with Notion AI
+### [Chats with Notion AI](https://www.notion.com/help/navigate-with-the-sidebar#chats-with-notion-ai)
 
 Access Custom Agents and your Notion AI conversations to browse recent threads or pick up where you left off.
 
@@ -97,7 +97,7 @@ Access previous chats with Notion AI, sorted by recency. A blue dot next to a ch
 
 Click `•••` on the side of any chat to customize how they appear in the sidebar: Rename, Change icon, Delete, or Open chats.
 
-### Meetings
+### [Meetings](https://www.notion.com/help/navigate-with-the-sidebar#meetings)
 
 **Upcoming events**
 
@@ -107,7 +107,7 @@ View and join any upcoming events. Click `•••` on the side of any event to
 
 Access meeting notes from previous meetings, sorted by recency. Click `•••` on the side of any meeting note to Copy link to block, Duplicate, or Move to to add the meeting note to a page.
 
-### Inbox
+### [Inbox](https://www.notion.com/help/navigate-with-the-sidebar#inbox)
 
 View all your notifications in one place, including mentions, comments, page updates, and reminders. Click a notification to go directly to the source page.
 
@@ -117,11 +117,11 @@ Icons at the top of your inbox can bulk take actions like Mark all as read, Arch
 
 Click `•••` on the side of any notification to change page notification settings, mark a notification as read, or archive a notification.
 
-### Search
+### [Search](https://www.notion.com/help/navigate-with-the-sidebar#search)
 
 Open the search modal to search content inside your workspace.
 
-### Quick entry points
+### [Quick entry points](https://www.notion.com/help/navigate-with-the-sidebar#quick-entry-points)
 
 Each tab has buttons for the things you make most often, like a new page, a chat with Notion AI, an AI meeting note, a database, or an agent. You can also add buttons that take you somewhere, like `My Tasks` or `Library`. Show, hide, and reorder these buttons so the ones you use are the ones you see. [Learn how to customize your sidebar →](https://www.notion.com/help/customize-your-sidebar)
 
@@ -133,7 +133,7 @@ Each tab has buttons for the things you make most often, like a new page, a chat
 
 * Click and drag your sidebar sections to rearrange them.
 
-### Private pages
+### [Private pages](https://www.notion.com/help/navigate-with-the-sidebar#private-pages)
 
 Every user's workspace comes with a `Private` section. Anything you add here is only visible to you, and can't be seen by the people in your workspace. This section is where you might store your own tasks or notes, or pages you want to work on individually before sharing with others.
 
@@ -165,7 +165,7 @@ If you’ve chosen not to display all your private pages in your sidebar, you’
 
 ![hc: private pane](https://images.ctfassets.net/spoqsaf9291f/7uyAupp0Q6w9tivfcSme0y/fdac27a956edbd1fd5ff22049eff0450/Group_62__1_.png)
 
-### Shared pages
+### [Shared pages](https://www.notion.com/help/navigate-with-the-sidebar#shared-pages)
 
 Any pages that you've shared with select individuals in your workspace will appear under your sidebar's `Shared` section. You'll see this category in your sidebar as soon as you invite someone to a shared page.
 
@@ -191,7 +191,7 @@ If you’ve chosen not to display all your shared pages in your sidebar, you’l
 
 * Select `>>` at the top to keep the shared pane open.
 
-### Teamspace pages
+### [Teamspace pages](https://www.notion.com/help/navigate-with-the-sidebar#teamspace-pages)
 
 If you're on a Plus, Business, or Enterprise Plan, you'll see a sidebar section called `Teamspaces`. Teamspaces can be used by and tailored for every team within your organization or company. [Learn more about teamspaces →](https://www.notion.com/help/intro-to-teamspaces)
 
@@ -201,7 +201,7 @@ In the `Teamspaces` section, you'll also see any other teamspaces that you are a
 
 Keep your sidebar clean by leaving any teamspaces you don't need to access. Hover over the teamspace name and click `•••` → `Leave teamspace`.
 
-### Favorites
+### [Favorites](https://www.notion.com/help/navigate-with-the-sidebar#favorites)
 
 `Favorites` is where you can easily access all of the pages most important to you. This section will appear in your sidebar once you favorite your first page.
 

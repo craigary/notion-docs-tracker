@@ -79,6 +79,6 @@ Anyone viewing a publicly shared Notion page on the web has the option to report
 
 Any page you report will be added to our customer experience team's queue for review. We'll investigate whether the page violates our terms.
 
-### Request a DMCA takedown
+### [Request a DMCA takedown ](https://www.notion.com/help/report-inappropriate-content#request-a-dmca-takedown)
 
 In cases where public page content misappropriates or infringes on intellectual property or copyrighted material, users may also request for this content to be taken down by submitting a [DMCA notice](https://www.notion.com/notion/DMCA-Policy-69d880bd37fe496a9b7c64ccc65e024d).

@@ -79,7 +79,7 @@ Connection webhooks enable connections to monitor and respond to changes in Noti
 
 When changes occur in pages or databases shared with your [connection](https://www.notion.com/integrations/all), Notion automatically sends notifications to your webhook endpoint, allowing your connection to instantly update other tools, run automated tasks, or display the latest changes.
 
-### Set up connection webhooks
+### [Set up connection webhooks](https://www.notion.com/help/create-integrations-with-the-notion-api#set-up-connection-webhooks)
 
 For instructions, please visit our [developer docs](https://developers.notion.com/reference/webhooks).
 
@@ -91,7 +91,7 @@ For instructions, please visit our [developer docs](https://developers.notion.co
 
 For these types of notifications, use the [audit log](https://www.notion.com/help/audit-log) instead.
 
-### Webhook actions vs. connection webhooks
+### [Webhook actions vs. connection webhooks](https://www.notion.com/help/create-integrations-with-the-notion-api#webhook-actions-vs.-connection-webhooks)
 
 [Webhook actions](https://www.notion.com/help/webhook-actions#webhooks-limitations) and connection webhooks share some similarities—both have triggers and can send events to third-party services. However, connection webhooks offer broader capabilities:
 

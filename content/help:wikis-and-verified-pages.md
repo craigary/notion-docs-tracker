@@ -13,7 +13,7 @@ Wikis, page owners, and verified pages can help you centralize, find, and update
 
 ## Wikis
 
-### Create a wiki
+### [Create a wiki](https://www.notion.com/help/wikis-and-verified-pages#create-a-wiki)
 
 **Note:** At this time, only pages can be turned into wikis. You can’t turn a database into a wiki.
 
@@ -35,7 +35,7 @@ Wikis come with three default views:
 
 You can create additional views with other layouts like a calendar, timeline, or list.
 
-### Undo a wiki
+### [Undo a wiki](https://www.notion.com/help/wikis-and-verified-pages#undo-a-wiki)
 
 If you no longer want a page to be a wiki:
 
@@ -51,7 +51,7 @@ You can verify content in your workspace to show that its contents are up to dat
 
 Verified pages will have a blue check mark next to their name when they’re @-mentioned, and when they’re displayed in Notion search results. When a page’s verification expires, its owner will be notified in their Notion inbox as well as via email.
 
-### Verify pages in wikis
+### [Verify pages in wikis](https://www.notion.com/help/wikis-and-verified-pages#verify-pages-in-wikis)
 
 **Note:** By default, whoever creates a page in a wiki becomes the page’s owner, but you can change the page owner at any time.
 
@@ -73,7 +73,7 @@ Once verification expires, page owners will be notified to re-verify the page.
 
 ![Verified pages + page owners](https://images.ctfassets.net/spoqsaf9291f/1EenAHebFOpMqvbvQYqVyu/f09a1677006d6b3a083f7655001e8aff/verified_pages.png)
 
-### Verify individual pages in your workspace
+### [Verify individual pages in your workspace](https://www.notion.com/help/wikis-and-verified-pages#verify-individual-pages-in-your-workspace)
 
 * This feature is available on Business and Enterprise Plans.
 
@@ -97,7 +97,7 @@ For a page to be verified, it must have at least one owner. To add owners to a v
 
 4. Add people from your workspace.
 
-### Verify pages in a database
+### [Verify pages in a database](https://www.notion.com/help/wikis-and-verified-pages#verify-pages-in-a-database)
 
 * This feature is available on Business and Enterprise Plans.
 
@@ -121,7 +121,7 @@ By default, a page’s creator will also become its `Owner`. To change the setti
 
 3. Select `Default` to decide if the `Owner` for any new pages created in the database should be the person the page was `Created by`, or if there should be `No default`.
 
-### Remove verification
+### [Remove verification](https://www.notion.com/help/wikis-and-verified-pages#remove-verification)
 
 To remove verification for a page in a wiki or an individual page:
 
@@ -135,7 +135,7 @@ To remove verification for page in a database with a verification property:
 
 2. Select `Remove verification`.
 
-### Manage all your verified pages
+### [Manage all your verified pages](https://www.notion.com/help/wikis-and-verified-pages#manage-all-your-verified-pages)
 
 To see all of the verified pages in your workspace:
 

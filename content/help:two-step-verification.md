@@ -31,7 +31,7 @@ To set up two-step verification:
 
 **Note:** Depending on your region, you may only be able to verify using an authenticator app.
 
-### Using authenticator
+### [Using authenticator](https://www.notion.com/help/two-step-verification#using-authenticator)
 
 If you want to set up two-step verification using an authenticator code:
 
@@ -41,7 +41,7 @@ If you want to set up two-step verification using an authenticator code:
 
 3. If this is your first added two-step method, make sure to save your backup codes.
 
-### Using text
+### [Using text](https://www.notion.com/help/two-step-verification#using-text)
 
 If you want to set up two-step verification using a code sent to your phone number:
 
@@ -71,7 +71,7 @@ You can have up to four verification methods, two authenticators and two phone n
 
 3. Verify your identity using an active two-step method.
 
-### Remove two-step verification
+### [Remove two-step verification](https://www.notion.com/help/two-step-verification#remove-two-step-verification)
 
 To remove two-step verification:
 
@@ -79,7 +79,7 @@ To remove two-step verification:
 
 2. Click `Delete` and confirm your choice.
 
-### Add a verification method
+### [Add a verification method](https://www.notion.com/help/two-step-verification#add-a-verification-method)
 
 To add another verification method:
 

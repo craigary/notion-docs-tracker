@@ -25,7 +25,7 @@ To create a reminder in a page:
 
 Inline reminders turn red when they change to @Today or are past due.
 
-### Create a reminder for someone else in a page
+### [Create a reminder for someone else in a page](https://www.notion.com/help/reminders#create-a-reminder-for-someone-else-in-a-page)
 
 You can create reminders for other people in a page (but not in a database). To do this, make sure to mention the person’s name in the same block as the reminder, as in `@Alyssa @remind next Monday 9am to review this proposal`.
 

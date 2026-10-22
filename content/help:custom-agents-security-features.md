@@ -17,13 +17,13 @@ For general Notion AI security practices, see [Notion AI security & privacy prac
 
 Custom Agents include multiple layers of protection to help you avoid sharing sensitive information.​
 
-### Admin controls
+### [Admin controls](https://www.notion.com/help/custom-agents-security-features#admin-controls)
 
 Workspace admins can manage Custom Agents across the organization through an Agent Directory, creation controls, content search, audit logs, AI analytics, and ownership transfer tools to maintain visibility and control over all agents in the workspace.
 
 Learn more about Admin controls [here.](https://www.notion.com/help/custom-agents-sharing-and-permissions)
 
-### Warnings when sharing private resources
+### [Warnings when sharing private resources](https://www.notion.com/help/custom-agents-security-features#warnings-when-sharing-private-resources)
 
 You'll see a clear warning explaining what sensitive resources the Agent can access and asking you to confirm you want to share it. This includes warnings for:
 
@@ -37,7 +37,7 @@ You'll see a clear warning explaining what sensitive resources the Agent can acc
 
 These warnings help you pause and consider whether everyone you're sharing with should have access to the agent's resources.
 
-### Stricter edit permissions for third-party integrations
+### [Stricter edit permissions for third-party integrations](https://www.notion.com/help/custom-agents-security-features#stricter-edit-permissions-for-third-party-integrations)
 
 To prevent unintended data sharing through Slack and other third-party connected apps:
 
@@ -49,7 +49,7 @@ To edit third-party connection settings an editor did not set up, they must remo
 
 Learn more about security for third-party connections in [this article.](https://www.notion.com/help/security-best-practices-for-agent-connections)
 
-### Automatic editor access checks
+### [Automatic editor access checks](https://www.notion.com/help/custom-agents-security-features#automatic-editor-access-checks)
 
 Custom Agents include automatic security checks to prevent agents from continuing to access data if editors don't have the correct permissions:
 
@@ -59,7 +59,7 @@ Custom Agents include automatic security checks to prevent agents from continuin
 
 This prevents "orphaned" agents from continuing to access sensitive data after everyone who set them up has left the team or lost access.
 
-### Visibility in share menus
+### [Visibility in share menus](https://www.notion.com/help/custom-agents-security-features#visibility-in-share-menus)
 
 Custom Agents appear in the share menu of any page or database they have access to, just like people do.
 
@@ -71,7 +71,7 @@ Custom Agents appear in the share menu of any page or database they have access 
 
 To check, open any page or database, click `Share`, and look for Custom Agents in the list. If you have Full Access to the page or database, you'll see their permission level and can remove them if needed.
 
-### Settings transparency for all users
+### [Settings transparency for all users](https://www.notion.com/help/custom-agents-security-features#settings-transparency-for-all-users)
 
 Anyone with `Can view and interact` permission can see the agent's full settings page in view-only mode.
 
@@ -87,11 +87,11 @@ Anyone with `Can view and interact` permission can see the agent's full settings
 
 Users with `Can view and interact` permissions can view agent settings but cannot edit, share, or modify the agent.
 
-### Admin controls for Custom Agents
+### [Admin controls for Custom Agents](https://www.notion.com/help/custom-agents-security-features#admin-controls-for-custom-agents)
 
 Workspace admins can manage Custom Agents across the organization through an Agent Directory, creation controls, content search, audit logs, AI analytics, and ownership transfer tools to maintain visibility and control over all agents in the workspace. <!-- -->Admins can also [manage access to specific AI models](https://www.notion.com/help/custom-agents#admins-manage-access-to-models-for-custom-agents) for Custom Agents.
 
-### URL confirmation
+### [URL confirmation](https://www.notion.com/help/custom-agents-security-features#url-confirmation)
 
 Custom Agents ask for confirmation before accessing unexpected external links:
 
@@ -99,7 +99,7 @@ Custom Agents ask for confirmation before accessing unexpected external links:
 
 * You'll receive a notification to review and approve the URL before the agent proceeds.
 
-### Choosing the right model
+### [Choosing the right model](https://www.notion.com/help/custom-agents-security-features#choosing-the-right-model)
 
 When working with Notion AI, you may use the model picker to control the model that you work with. If you hover over the model, you’ll see details like the speed, intelligence, and cost. Smaller models are generally faster and cheaper to work with, but we’ve applied a warning that they “may be more vulnerable to prompt injection”.
 

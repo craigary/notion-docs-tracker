@@ -105,7 +105,7 @@ To change how pages open in a particular view:
 
 Notion makes it easy to filter your database so it only displays the items that meet specific criteria. These filters can be as simple or complex as you like!
 
-### Add a filter
+### [Add a filter](https://www.notion.com/help/views-filters-and-sorts#add-a-filter)
 
 To filter the entries you see in a database view:
 
@@ -121,7 +121,7 @@ To filter the entries you see in a database view:
 
 [](//videos.ctfassets.net/spoqsaf9291f/1tPvNGamDPQ0ktYRBktG5W/4ba9d2380dc546833a4777f3aa1952ea/filter.mp4)
 
-### Add an advanced filter
+### [Add an advanced filter](https://www.notion.com/help/views-filters-and-sorts#add-an-advanced-filter)
 
 [YouTube video player](https://www.youtube-nocookie.com/embed/EWoz404YIeU?enablejsapi=1\&autoplay=0\&mute=0\&playsinline=1\&controls=1\&loop=0\&modestbranding=1\&rel=0)Play
 
@@ -141,7 +141,7 @@ You can create more specific database views and combine `AND` and `OR` logic
 
 **Tip:** You can turn a simple filter into an advanced one by opening the edit menu at the top of your database and selecting `Filter`. Click on a particular filter and in the menu that appears, select `•••` → `Add to advanced filter`.
 
-### Delete a filter
+### [Delete a filter](https://www.notion.com/help/views-filters-and-sorts#delete-a-filter)
 
 To delete a filter:
 
@@ -179,7 +179,7 @@ To sort your database:
 
 * For `Select` and `Multi-select` properties, you get to define what sorting order means. Click on the property, then drag options up or down to set the sort order.
 
-### Delete a sort
+### [Delete a sort](https://www.notion.com/help/views-filters-and-sorts#delete-a-sort)
 
 To delete a sort:
 
@@ -209,7 +209,7 @@ The database will now group by values of that property. You can go to the settin
 
 * `Hide empty groups`.
 
-### Remove grouping
+### [Remove grouping](https://www.notion.com/help/views-filters-and-sorts#remove-grouping)
 
 To turn grouping off:
 

@@ -33,7 +33,7 @@ To create a chart in Notion:
 
 **Note:&#x20;**&#x41;t this time, you can’t edit database entries from chart view. Use or create another view to edit your data.
 
-### Add a chart view to a database
+### [Add a chart view to a database](https://www.notion.com/help/charts#add-a-chart-view-to-a-database)
 
 Chart view works with existing databases so that it can take your current database items and visualize them. To add a chart view to a database:
 
@@ -49,7 +49,7 @@ Create a chart just like you would any other database view.
 
 ![hc: customize chart](https://images.ctfassets.net/spoqsaf9291f/6kZqT8IOPtSKavYBipHoDK/2098124a8ac3265935641e62f5564da1/Group_95.png)
 
-### Change your chart type
+### [Change your chart type](https://www.notion.com/help/charts#change-your-chart-type)
 
 There are several types of charts you can choose from. To change your chart type:
 
@@ -57,7 +57,7 @@ There are several types of charts you can choose from. To change your chart type
 
 2. Under chart type, select `Vertical bar chart`, `Horizontal bar chart`, `Line chart,` `Donut chart` or `Number chart`
 
-### Customize your bar or line chart
+### [Customize your bar or line chart](https://www.notion.com/help/charts#customize-your-bar-or-line-chart)
 
 **Note:**
 
@@ -91,7 +91,7 @@ To configure your Y axis:
 
    * `Cumulative`: You’ll see this option if your chart is showing `Count` or `Sum` and your X axis property is sorted in ascending order. Toggle on `Cumulative` if you want your chart to reflect the total amount of information gathered over time. Toggle off `Cumulative` if you want the chart to reflect the data for the current moment in time. For example, let’s say you have a chart where you’re tracking how many tasks you have completed. You completed two tasks yesterday, and three tasks today. If `Cumulative` is toggled on, you’ll see two tasks completed yesterday, and five tasks (two from yesterday, three from today) completed today. If `Cumulative` is toggled off, you’ll see two tasks completed yesterday, and three tasks completed today.
 
-### Customize your donut chart
+### [Customize your donut chart](https://www.notion.com/help/charts#customize-your-donut-chart)
 
 **Note:** Your donut chart won’t be able to show rollups, buttons, unique IDs, files and media, and certain formulas.
 
@@ -107,7 +107,7 @@ Donut charts can be customized slightly differently from other chart types. To c
 
    * `Sort by`: Choose how your data should be sorted. For example, you might want to sort by ascending status (going from to-do to complete). You can also control what’s shown or hidden from your chart by selecting `👁️` next to any of the options under `Visible groups`. For example, you might choose to exclude any tasks marked as complete from your chart if you’re only looking to visualize your in-progress tasks. Anything that’s hidden will move to `Hidden groups`.
 
-### Change your chart style
+### [Change your chart style](https://www.notion.com/help/charts#change-your-chart-style)
 
 You can customize the look and feel of your chart. To do this:
 
@@ -149,7 +149,7 @@ Open up a chart view and you can do the following:
 
 * Copy the link to the chart.
 
-### Drilldowns
+### [Drilldowns](https://www.notion.com/help/charts#drilldowns)
 
 For any chart you have permission to view, you can click into a specific part of that chart to see the data points within it. For example, you might want to see which tasks are marked as `P0`.
 

@@ -13,7 +13,7 @@ categoryKey: "category:notion-apps"
 
 Our desktop [Web Clipper](https://www.notion.com/web-clipper) is a browser extension available for Chrome and Safari.
 
-### Install the extension
+### [Install the extension](https://www.notion.com/help/web-clipper#install-the-extension)
 
 * [Download](https://chrome.google.com/webstore/detail/notion-web-clipper/knheggckgoiihginacbkhaalnibhilkk?hl=en) the Chrome extension 🌈
 
@@ -47,7 +47,7 @@ Once you've downloaded and installed the Web Clipper, you'll see a small Notion 
 
 ![Web Clipper](https://images.ctfassets.net/spoqsaf9291f/3aAP7fEb0FWbu9K6pf0V6d/a36f96e884789ca76a4309fd29fa33ef/Web_Clipper.png)
 
-### Use the clipper
+### [Use the clipper](https://www.notion.com/help/web-clipper#use-the-clipper)
 
 1. Log into Notion on your browser with the account you want to clip into.
 
@@ -77,7 +77,7 @@ Our mobile Web Clipper uses native share sheet functionality on both iOS and And
 
 **Note:** You'll need iOS version 13.0 or above to use Web Clipper on iPhone or iPad. For Android, you'll need version 7.0 or above.
 
-### Clip on iOS
+### [Clip on iOS](https://www.notion.com/help/web-clipper#clip-on-ios)
 
 1. Open Safari or Chrome on your device and tap the `Share` icon on any page you want to save. (It looks like a box with an upward arrow in the center.)
 
@@ -91,7 +91,7 @@ Our mobile Web Clipper uses native share sheet functionality on both iOS and And
 
 6. Go to the page you chose to see your clipping, comment on it, add properties, etc.!
 
-### Clip on Android
+### [Clip on Android](https://www.notion.com/help/web-clipper#clip-on-android)
 
 Notion will be added automatically to your browser's sharing options, no extra steps required!
 
@@ -103,7 +103,7 @@ Notion will be added automatically to your browser's sharing options, no extra s
 
 4. Go to the page you chose to see your clipping, comment on it, add properties, etc.!
 
-### Clip images & local files on your phone
+### [Clip images & local files on your phone](https://www.notion.com/help/web-clipper#clip-images-&-local-files-on-your-phone)
 
 Want to add the photos you take on your phone to your Notion workspace? You can do that in just a few steps:
 

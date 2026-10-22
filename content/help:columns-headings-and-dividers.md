@@ -27,7 +27,7 @@ Sometimes, it makes sense to put pieces of information next to each other. In th
 
 **Note:&#x20;**&#x43;olumns are available on tablet but not mobile. On your phone, you'll see the content in any right-hand column simply placed under the content in the left column.
 
-### Remove columns
+### [Remove columns](https://www.notion.com/help/columns-headings-and-dividers#remove-columns)
 
 To remove columns, simply do the reverse of the action you took to create them.
 
@@ -67,7 +67,7 @@ You can make the following adjustments to your table:
 
 **Note:&#x20;**&#x41;t this time, you can’t paste in multiple simple table cells at once.
 
-### Merge and unmerge cells
+### [Merge and unmerge cells](https://www.notion.com/help/columns-headings-and-dividers#merge-and-unmerge-cells)
 
 You can merge cells in a simple table to create spanning headers and visually grouped sections.
 
@@ -87,7 +87,7 @@ The top-left (anchor) cell keeps all content. Other selected cells are cleared.
 
 The anchor cell keeps its text. All covered cells are restored as empty individual cells.
 
-### Convert a simple table to a database
+### [Convert a simple table to a database](https://www.notion.com/help/columns-headings-and-dividers#convert-a-simple-table-to-a-database)
 
 While a simple table lets you quickly visualize information, you can convert it to a database any time you need database functionality such as filters, sorts, or specific property value types. [Learn more about databases here →](https://www.notion.com/help/category/databases)
 
@@ -131,7 +131,7 @@ A table of contents can appear in a page in two ways:
 
 * At the right side of your page as you scroll through it, as a page-level setting.
 
-### Table of contents block
+### [Table of contents block](https://www.notion.com/help/columns-headings-and-dividers#table-of-contents-block)
 
 ![Table of contents](https://images.ctfassets.net/spoqsaf9291f/5uLGtDE8QhV7N5YWK98zMp/36c5288a499310fc164634b98ac1f504/table_of_contents.png)
 
@@ -145,7 +145,7 @@ There are a few ways to add a table of contents block in Notion:
 
 **Note:** Indented headings will not be included in a table of contents.
 
-### Table of contents page-level setting
+### [Table of contents page-level setting](https://www.notion.com/help/columns-headings-and-dividers#table-of-contents-page-level-setting)
 
 You’ll see a table of contents in the right side of your Notion page by default if your page has two or more headings. This table of contents will follow you as you scroll through the page so you can access it at any time. Hover over the table of contents to expand it and see all of the headings in your page.
 
