@@ -11,7 +11,7 @@ categoryKey: "category:troubleshooting"
 
 If Notion is down or you’re unable to access Notion:
 
-* Check our [status page](https://status.notion.so/) and [X](https://twitter.com/NotionStatus) for live updates on any known issues.
+* Check our [status page](https://status.notion.so/) for live updates on any known issues.
 
 * Try disabling any firewalls, VPNs, or privacy or security software you have on your device that may be blocking access to Notion.
 
