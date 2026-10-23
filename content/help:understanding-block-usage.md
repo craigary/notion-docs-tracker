@@ -19,9 +19,9 @@ Restrictions on block usage apply to workspaces that are on the Free Plan and ha
 
 | **Plan**                   | **Workspace size**                 | **Block usage**                                                                                                                          |
 | -------------------------- | ---------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
-| Free                       | 1 workspace owner only             | Unlimited                                                                                                                                |
+| Free                       | 1 workspace owner only             | Limited for 2+ members                                                                                                                   |
 | Free                       | 2+ workspace owners\*              | 1,000 blocks per workspace. After this, your workspace will need to upgrade to a paid Notion plan in order to continue creating content. |
-| Plus, Business, Enterprise | 1+ workspace owners and/or members | Unlimited                                                                                                                                |
+| Plus, Business, Enterprise | 1+ workspace owners and/or members | Included                                                                                                                                 |
 
 \*People added to workspaces on a Free Plan can only join as workspace owners.
 
@@ -29,7 +29,7 @@ We count blocks based on the amount of content created in your workspace since s
 
 ## Upgrade to another plan
 
-If you find yourself approaching 1,000 blocks in your workspace, it might be worth considering an upgrade to a paid plan. Paid plans offer unlimited blocks and additional features for teams collaborating in Notion. Visit our [pricing page](https://www.notion.com/pricing) for more details.
+If you find yourself approaching 1,000 blocks in your workspace, it might be worth considering an upgrade to a paid plan. Paid plans offer included blocks and additional features for teams collaborating in Notion. Visit our [pricing page](https://www.notion.com/pricing) for more details.
 
 
 ## FAQs

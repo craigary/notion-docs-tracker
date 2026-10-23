@@ -1,7 +1,7 @@
 ---
 title: "Notion for startups"
 emoji: null
-description: "Eligible startups can get 1-6 months free of Notion's Business Plan, including Notion AI. To qualify, you must be a new, non-paying Notion customer and meet our program requirements. Learn more below."
+description: "Eligible startups can get 1-6 months free of Notion's Business Plan, including monthly AI credits. To qualify, you must be a new, non-paying Notion customer and meet our program requirements. Learn more below."
 url: "https://www.notion.com/help/notion-for-startups"
 key: "help:notion-for-startups"
 coverImage: null
@@ -11,13 +11,13 @@ categoryKey: "category:plans-billing-and-payment"
 
 Notion helps companies move faster and extend runway by consolidating multiple tools into one workspace—docs, wiki, project management, and AI.
 
-Our [Notion for Startups program](https://www.notion.com/startups) offers eligible companies **up to 6 months free** of Notion’s Business Plan (which includes Notion AI). [Terms and conditions](https://www.notion.com/notion/Notion-for-Startup-Terms-936b74c0323745a186b1497747074020) apply.
+Our [Notion for Startups program](https://www.notion.com/startups) offers eligible companies **up to 6 months free** of Notion’s Business Plan (which <!-- -->includes monthly AI credits<!-- -->). [Terms and conditions](https://www.notion.com/notion/Notion-for-Startup-Terms-936b74c0323745a186b1497747074020) apply.
 
-* **Partner-affiliated startups:&#x20;**&#x47;et **6 months free&#x20;**&#x6F;n the Business Plan (including Notion AI). Request a code from your partner and include it in the application. See the full partner list and apply [here](https://www.notion.com/startups-apply).
+* **Partner-affiliated startups:&#x20;**&#x47;et **6 months free&#x20;**&#x6F;n the Business Plan (<!-- -->including monthly AI credits<!-- -->). Request a code from your partner and include it in the application. See the full partner list and apply [here](https://www.notion.com/startups-apply).
 
-* **Non-partner startups:&#x20;**&#x47;et **3 months free&#x20;**&#x6F;n a new Business Plan (including Notion AI). Apply [here](https://www.notion.com/startups-apply).
+* **Non-partner startups:&#x20;**&#x47;et **3 months free&#x20;**&#x6F;n a new Business Plan (<!-- -->including monthly AI credits<!-- -->). Apply [here](https://www.notion.com/startups-apply).
 
-* **SMBs (including service-based businesses) or teams under 10 employees:&#x20;**&#x47;et **1 month free&#x20;**&#x6F;n a new Business Plan (including Notion AI). Apply [here](https://www.notion.com/startups-apply).
+* **SMBs (including service-based businesses) or teams under 10 employees:&#x20;**&#x47;et **1 month free&#x20;**&#x6F;n a new Business Plan (<!-- -->including monthly AI credits<!-- -->). Apply [here](https://www.notion.com/startups-apply).
 
 **How to use the offer**
 
@@ -90,7 +90,7 @@ Our terms and conditions can be found [here](https://www.notion.com/notion/Noti
 
 ### How do I become a partner of Notion for Startups program?
 
-We work with more than a thousand VCs/accelerators, communities, and tech platforms around the world like AWS Activate, Stripe Atlas, Hubspot, Slack, Shopify, JP Morgan, and more. We offer their portfolio 6 months free and Notion AI towards Business plans. **If interested, please fill out this&#x20;**[form](https://startupshub.notion.site/1c1590db1742802ba5e3ca6411499628)**&#x20;to apply as a partner.**
+We work with more than a thousand VCs/accelerators, communities, and tech platforms around the world like AWS Activate, Stripe Atlas, Hubspot, Slack, Shopify, JP Morgan, and more. <!-- -->We offer their portfolio 6 months free of the Business plan. <!-- -->**If interested, please fill out this&#x20;**[form](https://startupshub.notion.site/1c1590db1742802ba5e3ca6411499628)**&#x20;to apply as a partner.**
 
 Once you've applied, our team will reach out to you within two to five business days if your company is a good fit for our program. Feel free to check out [notion.com/startups](http://notion.com/startups) for more info.
 

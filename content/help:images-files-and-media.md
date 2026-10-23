@@ -279,6 +279,4 @@ The alignment controls are hidden if the block is the same width as content on t
 
 ### Are there size limits for images and files?
 
-While you can upload an unlimited number of images and files into Notion, there are limits on the size of each image and file.
-
 If you’re on the Free Plan, you can upload files of up to 5MB each. If you’re on a paid plan, you can upload files of up to 5GB each. If you upload an image and get an error telling you that the image is too large to be displayed, you can try uploading the image as a file.

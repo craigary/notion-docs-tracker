@@ -13,7 +13,7 @@ categoryKey: "category:notion-sites"
 
 With Notion Sites, you can:
 
-* Publish an unlimited number of pages to the web.
+* Publish pages to the web.
 
 * [Claim one notion.site domain.](https://www.notion.com/help/manage-your-notion-sites#manage-your-domains)
 

@@ -17,16 +17,16 @@ There are two types of free Education Plans:
 
 * **The Education Plan for individual students and teachers:&#x20;**&#x61; free plan for a one-member workspace. It’s available for students or teachers signed in with their education institution's email per the WHED.
 
-* **Education Plan for student organizations:&#x20;**&#x61; free plan for a workspace with unlimited members. It’s available for verified student orgs who have submitted an application [here →](https://www.notion.com/notion-for-student-orgs-apply)
+* **Education Plan for student organizations:&#x20;**&#x61; free plan for a workspace with multiple members. It’s available for verified student orgs who have submitted an application [here →](https://www.notion.com/notion-for-student-orgs-apply)
 
 Check out more of the differences below:
 
-| **Education Plan for individual students and teachers**                                                   | **Education Plan for student organizations**                                                                    |
-| --------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
-| **One** [member](https://www.notion.com/help/add-members-admins-guests-and-groups#members) per workspace  | **Unlimited** [members](https://www.notion.com/help/add-members-admins-guests-and-groups#members) per workspace |
-| Up to 100 [guests](https://www.notion.com/help/add-members-admins-guests-and-groups#guests) per workspace | Up to 100 [guests](https://www.notion.com/help/add-members-admins-guests-and-groups#guests) per workspace       |
-| Unlimited uploads                                                                                         | Unlimited uploads                                                                                               |
-| Edit history for any page going back 30 days                                                              | Edit history for any page going back 30 days                                                                    |
+| **Education Plan for individual students and teachers**                                                   | **Education Plan for student organizations**                                                                   |
+| --------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| **One** [member](https://www.notion.com/help/add-members-admins-guests-and-groups#members) per workspace  | **Multiple** [members](https://www.notion.com/help/add-members-admins-guests-and-groups#members) per workspace |
+| Up to 100 [guests](https://www.notion.com/help/add-members-admins-guests-and-groups#guests) per workspace | Up to 100 [guests](https://www.notion.com/help/add-members-admins-guests-and-groups#guests) per workspace      |
+| Included uploads                                                                                          | Included uploads                                                                                               |
+| Edit history for any page going back 30 days                                                              | Edit history for any page going back 30 days                                                                   |
 
 To see a complete list of features that are included in the Education Plan or to learn about other plans offered by Notion, visit our [pricing page →](https://www.notion.com/pricing)
 
@@ -131,14 +131,14 @@ If you can no longer verify with a valid education email, your workspace (includ
 
 The Education Plan for individual students is a free plan for a one-member workspace. It’s available for students signed in with their education institution's email per the World Higher Education Database.
 
-With the Education Plan, students can organize plans, tasks and notes across school and life with unlimited pages & blocks, file uploads, more features to customize and publish your site, and 30-day version history.
+With the Education Plan, students can organize plans, tasks and notes across school and life with included pages & blocks, file uploads, more features to customize and publish your site, and 30-day version history.
 
 
 ### What's Notion's student organization plan?
 
 Student-led organizations at select verified higher education institutions around the globe can get access to our Education Plan and add all of their org members to collaborate entirely for free.
 
-With the Education Plan, student orgs can upload unlimited blocks and files, add members to their workspace, get 30-day page history, add up to 100 guests, and more, free of charge.
+With the Education Plan, student orgs can upload blocks and files, add members to their workspace, get 30-day page history, add up to 100 guests, and more, free of charge.
 
 [Sign your org up for the free offer here](https://www.notion.com/notion-for-student-orgs-apply).
 
@@ -155,7 +155,7 @@ You’re eligible for the free Education Plan if:
 
 You’re not eligible if:
 
-1. You’re a K-12 student or K-12 educator. You can still use our Free Plan with unlimited storage for free! Learn more on our [pricing page](https://www.notion.com/pricing).
+1. You’re a K-12 student or K-12 educator. You can still use our Free Plan with included storage for free! Learn more on our [pricing page](https://www.notion.com/pricing).
 
 2. Your Notion account is associated with a personal email address, such as a gmail.com or email address.
 

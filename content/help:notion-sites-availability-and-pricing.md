@@ -15,7 +15,7 @@ categoryKey: "category:notion-sites"
 
 The Free plan includes the ability to:
 
-* Publish an unlimited number of Notion Sites.
+* Publish Notion Sites.
 
 * Claim one `notion.site` domain.
 
@@ -25,7 +25,7 @@ The Free plan includes the ability to:
 
 Paid plans include the ability to:
 
-* Publish an unlimited number of Notion Sites.
+* Publish Notion Sites.
 
 * Claim up to five `notion.site` domains.
 

@@ -19,9 +19,9 @@ Notion offers a Free Plan as well as several paid plans. You can compare our pla
 
 * Plus Plan: This plan is great for collaboration within small teams. The Plus Plan may not be available for every workspace.
 
-* Business Plan: This plan allows businesses to work together using Notion AI and advanced integrations.
+* Business Plan: <!-- -->This plan allows businesses to work together using Notion AI, with monthly Standard and Select credits per member, and advanced integrations.
 
-* Enterprise Plan: This plan is for larger organizations looking for scalability, advanced controls, and security. It also includes Notion AI.
+* Enterprise Plan: This plan is for larger organizations looking for scalability, advanced controls, and security. <!-- -->It also includes Notion AI with monthly Standard and Select credits per member.
 
   * Organizations with fewer than 100 employees can [upgrade to Enterprise from their Notion settings](https://www.notion.com/help/upgrade-or-downgrade-your-plan#upgrade-your-plan).
 

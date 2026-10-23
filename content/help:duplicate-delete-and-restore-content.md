@@ -127,7 +127,7 @@ If you're not on the Enterprise Plan, a more limited history of changes made to 
 
 * Any number of days if you're on an Enterprise Plan.
 
-Need unlimited page history? [Upgrade](https://www.notion.com/help/upgrade-or-downgrade-your-plan#upgrade-your-plan) to our Enterprise Plan, or [contact our sales team](https://www.notion.com/contact-sales) to learn more about Enterprise features.
+Need page history? [Upgrade](https://www.notion.com/help/upgrade-or-downgrade-your-plan#upgrade-your-plan) to our Enterprise Plan, or [contact our sales team](https://www.notion.com/contact-sales) to learn more about Enterprise features.
 
 ### [See a page's version history](https://www.notion.com/help/duplicate-delete-and-restore-content#see-a-page's-version-history)
 
@@ -141,9 +141,9 @@ To access version history for a page, you will need at least `Can edit` access.
 
    * Click on any past version to see what the page looked like at that point in time.
 
-When you open version history, you can select a version and see the highlights of what changed. This makes it easier to review edits without manually comparing two versions side by side. Y<!-- -->ou can also edit how changes are grouped.
+When you open version history, you can select a version and see the highlights of what changed. This makes it easier to review edits without manually comparing two versions side by side. You can also edit how changes are grouped.
 
-In version history, y<!-- -->ou’ll see changes like:
+In version history, you’ll see changes like:
 
 * Text edits (what was added, removed, or changed).
 
@@ -161,9 +161,9 @@ In version history, y<!-- -->ou’ll see changes like:
 
 * To recover only specific content blocks from a previous version, click on a certain version of a page, copy those blocks, and paste them into your current page.
 
-* You can also restore a past version of a page so it becomes your current one. Open the desired version and click `Restore`. <!-- -->You can also bookmark a version and name it.
+* You can also restore a past version of a page so it becomes your current one. Open the desired version and click `Restore`. You can also bookmark a version and name it.
 
-* Even if you or someone on your team restores a past version, you can always go back to the page as it was. Open `Version history` again, choose the version you want to return to, and restore it. You can also <!-- -->share a version of a page or a database by sending the URL.
+* Even if you or someone on your team restores a past version, you can always go back to the page as it was. Open `Version history` again, choose the version you want to return to, and restore it. You can also share a version of a page or a database by sending the URL.
 
 * If you’re restoring a database, all of its pages and their properties will be restored. However, any contents of the database pages, like text inside of the pages, won’t be restored. To restore database page contents, you’ll have to restore an earlier version of every individual page.
 
