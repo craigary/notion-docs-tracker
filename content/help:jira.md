@@ -15,6 +15,10 @@ This guide covers **Database sync** in your Jira connection settings. Synced pro
 
 **Note:&#x20;**&#x54;his Jira integration replaces our [legacy version](https://www.notion.com/help/jira-legacy). To keep your external data current, **set up your new syncs by October 30**. Your existing synced databases will remain in Notion, but they will stop updating after that date.
 
+When you set up a database sync, Notion creates a new page for it in your Private section. It won't replace your legacy sync, so both will stay in place while you move your work over.
+
+**Tip**: Let Notion AI move your setup over for you. Try a prompt like: "Take a look at the filters on my legacy Jira database (@mention your legacy sync) and set up the same filters on my new Jira database (@mention your new database sync)."
+
 ## What you can sync
 
 A Jira sync creates two databases:
