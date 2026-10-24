@@ -163,3 +163,8 @@ Admins can edit the AI app to change both its name and its logo, and we recommen
 After you rename it, future audit log events will show the updated name and logo, while older audit log events will show the name that was in place at the time (often the original URL or a previous name).
 
 Notion also logs name change events in the audit log, and you can still search audit log events for the tool using its connection URL, which stays present in the event details even if the display name changes.
+
+
+### Can AI apps connected through Notion MCP see my connected sources?
+
+Yes, on Business and Enterprise plans with Notion AI. When a workspace has AI Connectors set up, an AI app connected through Notion MCP can search your connected sources, such as Slack, Google Drive, and GitHub. It only sees what your own connection can already see, the same as Notion AI. The content goes to the AI app you connected, such as Claude or ChatGPT, and that app's own terms apply to it.
