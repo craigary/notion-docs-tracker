@@ -11,10 +11,10 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/5xP7gHlhFbGP72MLcxD09X/27
 3 help:allocate-credits-to-each-workspace
 4 help:track-usage-in-the-notion-credits-dashboard
 5 help:set-up-auto-adjust-for-notion-credits
-6 help:standard-select-and-notion-credits-eligible-features
-7 help:auto
-8 help:how-ai-credits-work-for-custom-agents
-9 help:manage-your-ai-credits
+6 help:how-ai-credits-work-for-custom-agents
+7 help:manage-your-ai-credits
+8 help:standard-select-and-notion-credits-eligible-features
+9 help:auto
 
 ## Guides
 
