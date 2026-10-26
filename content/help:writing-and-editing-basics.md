@@ -35,6 +35,8 @@ There are three tools to familiarize yourself with in order to create any page y
 
   * `Suggest edits`: Lets you make a suggestion on the block.
 
+  * `Edit with AI`: Opens a box where you can tell Notion AI what to change, or take action on your block with Notion AI.
+
   * `Ask AI`: Lets you ask Notion AI anything, or take actions on your block using Notion AI.
 
   * `Word and character count`: When you select one or more blocks, the menu shows how many words and characters are in your selection.

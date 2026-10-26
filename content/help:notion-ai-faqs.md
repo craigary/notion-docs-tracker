@@ -113,6 +113,8 @@ Whether you’re working on a first draft or making edits to existing pages, Not
 
 You can highlight text in a page or hit `space` in a page and have Notion AI:
 
+To edit a page with AI, select the text or blocks you want to change, then choose `Edit with AI`. Notion AI can:
+
 * Make edits to the page, like adding a summary or translating the page’s content.
 
 * Review and edit a particular section of the page by fixing grammar, making content longer or shorter, changing the tone, and more.
@@ -167,7 +169,7 @@ Workspace owners on any Notion plan can go to `Settings` → `Notion AI` and adj
 
 * **AI Meeting Notes:** Turn on various settings for AI Meeting Notes, including audio storage, transcript deletion, and more. Learn more about [AI Meeting Notes →](https://www.notion.com/help/ai-meeting-notes)
 
-* **Model controls:** <!-- -->Choose which AI providers your workspace can use and which models members can pick for Notion Agent and Custom Agents. High credit consumption models stay off until a workspace owner turns them on. Learn how to [manage AI models and member credit spend →](https://www.notion.com/help/manage-ai-models-and-member-credit-spend)
+* **Model controls:** Choose which AI providers your workspace can use and which models members can pick for Notion Agent and Custom Agents. High credit consumption models stay off until a workspace owner turns them on. Learn how to [manage AI models and member credit spend →](https://www.notion.com/help/manage-ai-models-and-member-credit-spend)
 
 * **Usage:&#x20;**&#x53;ee how many [Standard and Select ](https://www.notion.com/help/standard-select-and-notion-credits-eligible-features)credits your team has used and when it refreshes. Set how many [Notion credits](https://www.notion.com/help/category/notion-credits) each member can spend, and give specific people a higher limit.
 
