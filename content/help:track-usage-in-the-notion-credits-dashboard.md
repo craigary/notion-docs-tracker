@@ -179,14 +179,14 @@ Workspace owners can decide whether members can use Notion credits after hitting
 If your workspace doesn't have enough Notion credits, Custom Agents that run on shared workspace credits will pause automatically until credits reset or an admin adds more credits. High credit consumption models pause too. A Custom Agent you set up for your own use keeps working until your [Select credits](https://www.notion.com/help/standard-select-and-notion-credits-eligible-features) are used up, then follows the same credit rules.
 
 
-### How do admins get notified before running out of Notion credits?
+### How do owners get notified before running out of Notion credits?
 
-Admins receive in-app (and email) notifications when your workspace reaches 80% and 100% of its Notion credit usage, so you have time to adjust before agents pause.
+Owners receive in-app (and email) notifications when your workspace reaches 80% and 100% of its Notion credit usage, so you have time to adjust before agents pause.
 
 
 ### How do I buy more Notion credits?
 
-Admins can purchase Notion credits either in-product or through their account team. Learn more about how to [purchase Notion credits](https://www.notion.com/help/custom-agent-pricing#purchase-notion-credits).
+Workspace owners can purchase Notion credits either in-product or through their account team. Learn more about[ Notion credits](https://www.notion.com/help/custom-agent-pricing#purchase-notion-credits).
 
 
 ### How do mid-month Notion credit changes work?
@@ -238,7 +238,7 @@ Make sure your new plan includes AI before purchasing credits. [Notion credits](
 
 ### Is there a limit to how many credits we can buy?
 
-No. You can buy the amount of credits your workspace needs, including large amounts. If your payment method takes a few days to clear, your team can keep using credits up to the amount you set out to buy while the payment settles.
+No. Workspace owners can buy the amount of credits the workspace needs, including large amounts. If your payment method takes a few days to clear, your team can keep using credits up to the amount you set out to buy while the payment settles.
 
 
 ### What happens to our Notion credits if a payment fails?

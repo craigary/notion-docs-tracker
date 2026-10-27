@@ -1,7 +1,7 @@
 ---
 title: "Purchase Notion credits"
 emoji: null
-description: "Learn how to purchase Notion credits in the Notion credits dashboard, and how to manage them in settings."
+description: "Learn how workspace owners can purchase Notion credits in the Notion credits dashboard and manage them in settings."
 url: "https://www.notion.com/help/purchase-notion-credits"
 key: "help:purchase-notion-credits"
 coverImage: null
@@ -9,13 +9,13 @@ category: "Notion credits"
 categoryKey: "category:notion-credits"
 ---
 
-Workspace owners and admins can purchase Notion credits in two ways:
+Workspace owners can purchase Notion credits in two ways:
 
 * Purchase in the [Notion credits dashboard](https://www.notion.com/help/track-usage-in-the-notion-credits-dashboard).
 
 * Purchase through an account team.
 
-Admins can also turn on Auto Adjust to automatically buy more credits if the workspace is running low. [Learn more about how Auto Adjust changes your plan →](https://www.notion.com/help/set-up-auto-adjust-for-notion-credits#how-auto-adjust-changes-your-plan)
+Owners<!-- --> can also turn on Auto Adjust to automatically buy more credits if the workspace is running low. [Learn more about how Auto Adjust changes your plan →](https://www.notion.com/help/set-up-auto-adjust-for-notion-credits#how-auto-adjust-changes-your-plan)
 
 ![HC: Notion credits dashboard](https://images.ctfassets.net/spoqsaf9291f/6VO6tMhJVcel0B9aHSnZRn/5a7e4b5b0f208cde35c390cf648bbcbd/%C3%A2____35_.png)
 
@@ -35,7 +35,7 @@ Your account team can help you plan credit needs and explore additional options.
 
 ## Manage Notion credits
 
-Admins can manage monthly Notion credits from settings:
+Owners can manage monthly Notion credits from settings:
 
 1. Go to `Settings`→ `Access & billing` → `Billing`.
 
@@ -55,14 +55,14 @@ Admins can manage monthly Notion credits from settings:
 If your workspace doesn't have enough Notion credits, Custom Agents that run on shared workspace credits will pause automatically until credits reset or an admin adds more credits. High credit consumption models pause too. A Custom Agent you set up for your own use keeps working until your [Select credits](https://www.notion.com/help/standard-select-and-notion-credits-eligible-features) are used up, then follows the same credit rules.
 
 
-### How do admins get notified before running out of Notion credits?
+### How do owners get notified before running out of Notion credits?
 
-Admins receive in-app (and email) notifications when your workspace reaches 80% and 100% of its Notion credit usage, so you have time to adjust before agents pause.
+Owners receive in-app (and email) notifications when your workspace reaches 80% and 100% of its Notion credit usage, so you have time to adjust before agents pause.
 
 
 ### How do I buy more Notion credits?
 
-Admins can purchase Notion credits either in-product or through their account team. Learn more about how to [purchase Notion credits](https://www.notion.com/help/custom-agent-pricing#purchase-notion-credits).
+Workspace owners can purchase Notion credits either in-product or through their account team. Learn more about[ Notion credits](https://www.notion.com/help/custom-agent-pricing#purchase-notion-credits).
 
 
 ### How do mid-month Notion credit changes work?
@@ -114,7 +114,7 @@ Make sure your new plan includes AI before purchasing credits. [Notion credits](
 
 ### Is there a limit to how many credits we can buy?
 
-No. You can buy the amount of credits your workspace needs, including large amounts. If your payment method takes a few days to clear, your team can keep using credits up to the amount you set out to buy while the payment settles.
+No. Workspace owners can buy the amount of credits the workspace needs, including large amounts. If your payment method takes a few days to clear, your team can keep using credits up to the amount you set out to buy while the payment settles.
 
 
 ### What happens to our Notion credits if a payment fails?
