@@ -5,8 +5,8 @@ description: "Let everyone in your Google Meet call know when you're transcribin
 url: "https://www.notion.com/help/install-the-notion-meetings-add-on"
 key: "help:install-the-notion-meetings-add-on"
 coverImage: null
-category: "Notion AI"
-categoryKey: "category:notion-ai"
+category: "AI Meeting Notes"
+categoryKey: "category:ai-meeting-notes"
 ---
 
 The Notion Meetings Add-on browser extension makes it clear to everyone in a Google Meet call that the meeting is being transcribed. It also labels who said what in your transcript.

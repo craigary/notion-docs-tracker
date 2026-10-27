@@ -13,9 +13,9 @@ categoryKey: "category:notion-credits"
 
 New Business and Enterprise workspaces move to the [new credit system](https://www.notion.com/help/standard-select-and-notion-credits-eligible-features) starting October 19, 2026. For existing workspaces, it takes effect on November 2, 2026.
 
-Notion credits are an add-on for Business and Enterprise plans. They’re shared across your workspace and let you run [Custom Agents](https://www.notion.com/help/custom-agents), [Workers](https://www.notion.com/help/run-custom-code-with-workers), [high credit consumption models](https://www.notion.com/help/manage-ai-models-and-member-credit-spend), and additional Notion AI <!-- -->usage for [eligible features beyond your Standard and Select usage](https://www.notion.com/help/standard-select-and-notion-credits-eligible-features).
+Notion credits are an add-on for Business and Enterprise plans. They’re shared across your workspace and let you run [Custom Agents](https://www.notion.com/help/custom-agents), [Workers](https://www.notion.com/help/run-custom-code-with-workers), [high credit consumption models](https://www.notion.com/help/manage-ai-models-and-member-credit-spend), and additional Notion AI usage for [eligible features beyond your Standard and Select usage](https://www.notion.com/help/standard-select-and-notion-credits-eligible-features).
 
-If you manage billing in-product, admins can [purchase credits](https://www.notion.com/help/purchase-notion-credits) and track usage in the [Notion credits dashboard](https://www.notion.com/help/track-usage-in-the-notion-credits-dashboard). If you work with an account team, they can help you estimate credit needs and review credit options.
+If you manage billing in-product, workspace owners can [purchase credits](https://www.notion.com/help/purchase-notion-credits) and track usage in the [Notion credits dashboard](https://www.notion.com/help/track-usage-in-the-notion-credits-dashboard). If you work with an account team, they can help you estimate credit needs and review credit options.
 
 ## Monthly vs. annual Notion credits
 
@@ -41,7 +41,6 @@ There are two types of Notion credits you can buy: monthly and annual. The type 
 | $10 per 1,000 credits.                             | $13 per 1,000 credits.                                                 |
 | Billed monthly alongside your subscription.        | Paid upfront in one payment.                                           |
 | Reset each month. Unused credits don't carry over. | Expire when your subscription renews. Unused credits don't carry over. |
-| Raise or lower the amount each month.              | Add more anytime. Lower or cancel at renewal.                          |
 
 **Monthly credits** are a good fit if your workspace uses a steady amount of credits each month, like [Custom Agent](https://www.notion.com/help/custom-agents) workflows with predictable usage. Unused credits reset each month.
 
@@ -53,23 +52,23 @@ You can view your billing date, as well as your credit reset and expiration date
 
 ## How monthly credits work
 
-Monthly credits cost $10 per 1,000 credits per month and you can adjust the amount each month based on your needs.
+Monthly credits cost $10 per 1,000 credits per month and you can adjust the amount based on your needs.
 
 * **Purchase anytime.** If you run out of credits before the next reset, you can buy more mid-cycle to keep features running. You’ll get the full amount right away, and credits aren’t prorated.
 
 * **Credits reset monthly.** Your credits reset to the amount you purchased. Unused credits don’t carry over to the next month.
 
-* **Match your credits to your monthly usage.** Admins can raise or lower the amount for each billing cycle. Increases are available immediately, while decreases take effect at the start of the next month.
+* **Match your credits to your monthly usage.** Increases are available immediately, while decreases take effect at the start of the next month.
 
 * **Credits are billed monthly.** Monthly credits are billed alongside your monthly Notion subscription.
 
 ## How annual credits work
 
-Annual credits cost $13 per 1,000 credits. Admins on annual Business or Enterprise plans can buy annual Notion credits.
+Annual credits cost $13 per 1,000 credits. Owners on annual Business or Enterprise plans can buy annual Notion credits.
 
 * **Purchase anytime.** Buy annual credits at any time and use the full amount right away. If you need more later, you can add credits without waiting for renewal.
 
-* **Adjust as your needs change.** Increase your annual credit amount anytime, with new credits available immediately. You can schedule a decrease or cancellation for your next renewal.
+* **Adjust as your needs change.** Increase your annual credit amount anytime, with new credits available immediately. You can schedule a decrease or cancellation for your next renewal. If you work with an account team, you can add credits during your contract term, up to three times a year. To lower your committed amount, renew your contract.
 
 * **Use your existing credits first.** If your workspace has multiple types of credits, Notion uses free credits first, followed by monthly credits and then annual credits.
 
@@ -85,7 +84,7 @@ If a Notion credit payment doesn't go through:
 
 * Credits above the amount you've paid for are put on hold. Once you update your payment details and the payment goes through, the rest of your credits unlock automatically.
 
-* You'll see an alert in Notion when a payment needs attention, so an admin can fix it.
+* You'll see an alert in Notion when a payment needs attention, so an owner can fix it. You can't buy more credits until all unpaid invoices are paid. You can view invoices on your billing page.
 
 Some payment methods, like bank transfers, take a few days to clear. While a payment is still clearing, your team can keep using credits up to the amount you set out to buy. Nothing is put on hold unless the payment actually fails.
 
@@ -124,8 +123,15 @@ Your Notion plan and your Notion credits are billed separately. A failed Notion 
 
 * **Select credits** cover work where you pick a model yourself, or use a Custom Agent you own.
 
-* **Notion credits** are a separate, workspace-managed balance admins can purchase. They cover eligible usage beyond Standard or Select credits when an admin allows it, plus high credit consumption models and Custom Agents funded by the workspace.
+* **Notion credits** are a separate, workspace-managed balance owners can purchase. They cover eligible usage beyond Standard or Select credits when an owner allows it, plus high credit consumption models and Custom Agents funded by the workspace.
 
 Monthly Notion credits are purchased for the workspace. They’re separate from the Standard and Select credits included with each seat.
 
 Standard and Select credits can’t be pooled across the workspace, transferred between members, or exchanged for other credit types. They’re not “Notion Credits” under the [Notion AI and Notion Credit Terms](https://notion.notion.site/Notion-AI-and-Notion-Credit-Supplementary-Terms-fa9034c8b5a04818a6baf3eac2adddbb) and don’t count toward your Notion Credit Limit. Workspace-managed Notion credits are “Notion Credits” under those terms.⁠
+
+
+### Can I change my credits before my plan or contract renews?
+
+If you manage billing in-product, you can raise or lower monthly credits each month, and add annual credits anytime (reductions happen at your next service period).
+
+If you work with an account team, you can add credits during your contract term, up to three times a year. You can't lower your committed amount until you renew your contract.
