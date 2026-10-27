@@ -11,6 +11,8 @@ categoryKey: "category:connections"
 
 Our database syncs let you work with and enrich information from other tools alongside your team’s plans, docs, and projects. Connect an account, choose what to sync, and Notion creates the databases and keeps them updated.
 
+**Moving from an older sync?** If you used an older sync for GitHub, Jira, Asana, or GitLab, those syncs stop updating on October 30, 2026. Your existing synced databases stay in Notion, but the data won't refresh after that date. The new sync creates new databases, so setting it up is a fresh start. Nothing moves over on its own, and you can run your old and new syncs side by side until October 30.
+
 ## What you can sync
 
 Notion manages these syncs so you can connect an account and use synced databases without building or maintaining the integration yourself.
