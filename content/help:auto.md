@@ -128,15 +128,6 @@ Before making a model broadly available, Notion assesses its quality, cost, and 
 Not necessarily. Auto chooses a model for each task and can change models during longer work.
 
 
-### Will Auto use models my admin has turned off?
-
-No. Auto only uses models your workspace allows.
-
-* If an owner restricts an individual model, Auto falls back to the next lowest-cost model allowed by your workspace.
-
-* If an owner restricts a model provider, Auto can't use that provider's models. When making a change, owners will see a warning explaining how it affects Auto's overall quality.
-
-
 ### Can I see which models Auto uses most often?
 
 Not currently. Auto chooses a model for each task and may switch models during longer work. You can’t see which models it used or how often.
@@ -145,3 +136,8 @@ Not currently. Auto chooses a model for each task and may switch models during l
 ### How much can Auto save me?
 
 It depends on the task, but for most everyday work in Notion, Auto can make your credits go up to 10 times further than picking a model yourself. Simple tasks like polishing an email use fewer credits than complex work like building a strategy doc.
+
+
+### I hid a model. Why is Auto still using it?
+
+Hiding a model only stops people from picking it by hand. Auto can still use it on its own. To keep Auto from using a provider at all, restrict the provider instead.
