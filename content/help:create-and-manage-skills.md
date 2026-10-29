@@ -115,6 +115,20 @@ In the block menu:
 
 Skills are available on text, headings (H1, H2, H3), quote, callout, bulleted list, numbered list, to-do, toggle, image, and synced blocks. Skills won't appear on empty blocks or block types not in this list. If you apply a skill to a block that has content nested inside it, the skill includes that nested content too.
 
+## How to run a skill on your meeting notes
+
+Notion can suggest skills on your AI meeting notes, so you can act on a meeting in one click.
+
+1. Open a meeting note that's being transcribed, or one with a finished summary.
+
+2. You'll see suggested skills on the note. You can also open your Notion Agent from the face icon in the bottom corner of the note to see them.
+
+3. Select a suggested skill to run it, like recapping decisions during the meeting or creating follow-up tasks after it ends. You can also create a newskill from here.
+
+You'll see different suggestions during the meeting than after it ends. To choose which skills appear on meeting notes, go to `Library` → `Skills` → `•••` → `Show skill` and turn on `During meetings`, `After meetings`, or both. Each list holds up to 12 skills.
+
+Learn more about [AI Meeting Notes →](https://www.notion.com/help/ai-meeting-notes)
+
 ## Keep your team's skills in a skills database
 
 A skills database gives your team one place to create and manage skills together. Every page you create in it becomes a skill automatically, and each skill gets a description property. Notion Agent reads that description to decide when to use the skill on its own.

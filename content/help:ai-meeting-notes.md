@@ -53,7 +53,11 @@ If you're using this feature on the Notion mobile app, a few things to note:
 
 This allows us to transcribe other participants' audio when you're using headphones during virtual meetings.
 
-To create AI Meeting Notes, type `/meet` into any page in the desktop app. If you’re on a web browser, you’ll be prompted to open the Notion desktop app or download it if you haven’t already.
+To create AI Meeting Notes, type `/meet` into any page in the desktop app.
+
+To create AI Meeting Notes as their own page, use the `Meeting notes` tab in your sidebar or the compose button. On the desktop app, Notion also sends you a notification to start AI Meeting Notes when you join a video call.
+
+To take meeting notes inside a page you're already in, type `/meet` anywhere on that page. These notes are embedded on the page, and you can expand them into a full page. Select `Open as page` to view the note as a full page.
 
 ![HC: AI Meeting Notes](https://images.ctfassets.net/spoqsaf9291f/2wIymhTp0123btQpVbApgK/0f53efa6d85cc0f62eec706533f025c1/Random_Image_1__1_.png)
 
@@ -66,6 +70,8 @@ To create AI Meeting Notes, type `/meet` into any page in the desktop app. If yo
 * Once the meeting is over and you want to stop transcribing, select `Stop`. The AI summary will automatically start generating. Note that at least one minute of recorded audio is required to generate a summary.
 
 * If you’d like to resume your recording, click the slider icon at the top of the meeting notes block → `Resume transcription`.
+
+If you’re using a meeting platform, Notion can detect when you’ve left the call and automatically stop transcription. You can also select `Stop` when you’re done. The AI summary will automatically start generating. At least one minute of recorded audio is required to generate a summary. To detect when a call ends, Notion uses meeting-app presence and various audio signals, such as whether audio is active (note: we don't use the audio or video content itself).
 
 ## Upload an audio recording
 
@@ -85,8 +91,6 @@ Notion will transcribe the audio and generate a summary, just like a live record
 
 **Supported formats:** AAC, M4A, MP3, and WAV.
 
-**Note:** MOV, MP4, and Loom files are not currently supported for upload.
-
 ## Follow the transcript with speaker labels & citations
 
 When AI Meeting Notes detects that the person speaking has changed, it will start transcribing on a new line.
@@ -102,6 +106,8 @@ In other meeting setups (like in-person conversations or group meetings), speake
 * Using Notion in a browser or on the mobile app.
 
 Using Google Meet in Chrome? Install the [Notion Meetings Add-on](https://www.notion.com/help/install-the-notion-meetings-add-on) browser extension to get speaker labels in your Google Meet calls, including group meetings (desktop only).
+
+Using Zoom on a Mac? You can [get speaker names in your Zoom calls](https://www.notion.com/help/get-speaker-labels-in-zoom-calls) too, including group meetings. Turn it on in the Notion desktop app under `Settings` → `Meeting notes` → `Preferences`, then give Notion the Mac permission it needs to tell speakers apart.
 
 You’ll also find citations to your transcript in your meeting notes summary. Hover over a citation to see the snippet of your transcript that’s been referenced. You can also click on a citation to jump to the corresponding line in your transcript.
 
@@ -161,7 +167,35 @@ You can set any summary instructions — including custom ones — as your defau
 
 3. Hover over the instructions you want to use as default.
 
-4. Click **`•••`** → `Set as default`
+4. Click **`•••`** → `Set as default`.
+
+## Run skills on your meeting notes
+
+Skills are reusable AI actions you can run in one click, like "catch me up" during a meeting or "create follow-up tasks" after it ends. Notion can suggest skills right on your meeting notes, so you can act on a meeting without retyping the same prompt every time. Skills on meeting notes are available on web and desktop, not on the mobile app.
+
+To see suggested skills:
+
+* While your meeting is being transcribed, you'll see useful skills on the note during the meeting.
+
+* After your meeting summary is ready, you'll see skills on the note for wrapping up the meeting.
+
+You don't need to open your Notion Agent to see them, though you still can from the face icon in the bottom corner of the note.
+
+A skill can show up during meetings, after meetings, or both, and each list holds up to 12 skills. Any skill you've added shows up too, with your own skills first, then Notion's defaults.
+
+Select a suggested skill to run it. To see all of your skills or create a new one, open your Notion Agent from the note and select `Manage skills`.
+
+Notion's built-in meeting skills include:
+
+* **During a meeting:&#x20;**&#x43;atch me up, Suggest questions, and Recap decisions.
+
+* **After a meeting:** Make summary more detailed, Create follow-up tasks, and Complete action items for me.
+
+You can also create your own skills for things like a follow-up email, a Slack recap, a tl;dr, filing the note, or filling in database properties.
+
+To choose which skills appear on your meeting notes, go to `Library` → `Skills`, select `•••` on a skill, then `Show skill` and turn on `During meetings`, `After meetings`, or `In the editor`. The `Manage skills` button in the note's agent opens this same page.
+
+Learn more about [skills →](https://www.notion.com/help/create-and-manage-skills)
 
 ## Consent message
 
@@ -185,11 +219,13 @@ To help you request consent, you’ll have a few easy options:
 
 You can choose to have an audio message play automatically at the start of each transcription to let others know you are using AI Meeting Notes.
 
-**If you are a workspace owner:&#x20;**&#x79;ou can turn this functionality on for all users in your workspace by going to `Settings` → `Notion AI` → `AI Meeting Notes `and updating the Enforce consent for all workspace members setting.
+**If you're a workspace owner:** you can turn this functionality on for all users in your workspace by going to `Settings` → `Meeting notes` and updating the **Enforce consent for all workspace members** setting.
 
-**If you are in a workspace where this setting has been enabled by the workspace owner:** the consent message will play each time you use AI Meeting Notes. Remember to unmute your speakers and disconnect any headphones before starting transcription so meeting participants can hear the consent message clearly.
+**If you're an organization owner on the Enterprise Plan**: you can set this consent message for every workspace in your organization from the organization console under `Security` → `Notion AI`. You can leave it up to each workspace, turn it on by default, or require it everywhere. When you require it, workspace owners can't turn it off for their workspace.
 
-**If you are in a workspace where automatic consent message isn't enabled:** you can turn this setting on for yourself. You will see a message in the meeting notes block asking you to choose your default consent option:
+**If you're in a workspace where this setting has been enabled by the workspace owner:** the consent message will play each time you use AI Meeting Notes. Remember to unmute your speakers and disconnect any headphones before starting transcription so meeting participants can hear the consent message clearly.
+
+**If you're in a workspace where automatic consent message isn't enabled:** you can turn this setting on for yourself. You will see a message in the meeting notes block asking you to choose your default consent option:
 
 * Get consent myself: continue obtaining consent from all participants manually
 
@@ -197,7 +233,7 @@ You can choose to have an audio message play automatically at the start of each 
 
 This message disappears after you select your default consent option. You can update your preference at any time:
 
-* Go to `Settings` → `Notion AI` → `AI Meeting Notes` and update the `Auto play consent message on start` option.
+* Go to `Settings` → `Meeting notes` and update the `Auto play consent message on start option`.
 
 * Open the slider menu at the top of the AI Meeting Notes block and update the
 
@@ -205,13 +241,23 @@ This message disappears after you select your default consent option. You can up
 
 ## Control who can access your meeting notes
 
-By default, meeting notes you create are **private to you**. You can choose to automatically share notes created from a Notion calendar event with meeting participants who are members of your workspace.
+All meeting notes have their own sharing settings, no matter where you create them:
 
-To do so, go to `Settings` → `Notion AI` and toggle on `Auto-share with internal calendar event participants`.
+1. Open the meeting note.
+
+   * If it's embedded in another page, select `Open as page` first.
+
+2. Select `Share` at the top of the note to choose who can open it.
+
+Meeting notes created from `/meet` are embedded on a page, but you can expand them into a full page. This lets you share the meeting note separately from the rest of the page content.
+
+Who can access your meeting notes depends on their sharing settings and where they're stored. Notes in a shared database may inherit access from that database. You can choose to automatically share notes created from a Notion calendar event with meeting participants who are members of your workspace.
+
+To do so, go to `Settings` → `Meeting notes` and toggle on `Auto-share with internal calendar event participants`.
 
 #### When auto-sharing is disabled
 
-* Meeting notes remain private to you.
+* Meeting participants aren't automatically granted access. They may still have access through the database where the note is stored. Turning off auto-sharing doesn't make notes in a shared database private.
 
 * After creating notes from a Notion calendar event, you'll see an option to "share with participants" if you want to grant access.
 
@@ -227,11 +273,21 @@ To do so, go to `Settings` → `Notion AI` and toggle on `Auto-share with intern
 
 **Note:** <!-- -->Auto-share is a personal setting. Each workspace member can configure their own preference for meeting notes they create.
 
+## File meeting notes in the right database
+
+Meeting notes can be stored in a meetings database, a database built for meeting pages. Meetings databases include meeting details like `Title`, `Date`, and `Attendees`, plus the meeting note content like summary, notes, transcript, and recording controls.
+
+New standalone meeting notes are saved in your default meetings database unless a filing rule applies to the calendar event. If you don't have one yet, Notion creates a private `My meetings` database for you. You can change your default database in settings unless your workspace requires a specific database.
+
+To move a meeting note, use the `Filed in` menu on the note and choose another meetings database. If you choose a database that is not set up for meeting notes yet, Notion may ask if you want to turn it into a meetings database. Existing pages in that database won't change.
+
+For recurring meetings, you can file future notes from the same event series in the same database. This works from the `Meetings` tab, calendar notifications, and the Calendar app when your calendar is connected.
+
 ## Choose a default database for AI Meeting Notes
 
-Want to store all of your AI Meeting Notes in one database for easy access? To set a default database for your meeting notes:
+Want to store all of your AI Meeting Notes in one database for easy access? Your default database is where new AI Meeting Notes pages are saved first. To set a default database for your meeting notes:
 
-1. Go to `Settings` → `Notion AI`.
+1. Go to `Settings` → `Meeting notes`.
 
 2. Open the dropdown menu next to `Default meetings database`.
 
@@ -239,7 +295,35 @@ Want to store all of your AI Meeting Notes in one database for easy access? To s
 
 The next time you create a new AI Meeting Notes page (from an AI Meeting Notes notification, for example), the page will automatically be created inside your default database.
 
+If you haven't chosen a default yet, Notion creates a private `My meetings` database for you. You can move any meeting note to another meetings database later.
+
 Make sure each AI Meeting Notes page in your database is shared with the right people so they can access it.
+
+Meeting notes pages come with built-in details: `Title`, `Date`, and `Attendees`. If your note is linked to a calendar event, these fill in automatically. In a database, they show up as properties, so your notes stay organized without extra setup.
+
+### [Workspace owners: set one database for your whole workspace](https://www.notion.com/help/ai-meeting-notes#workspace-owners-set-one-database-for-your-whole-workspace)
+
+If you're a workspace owner, you can pick one database where new AI Meeting Notes from everyone in your workspace are saved. That way, nobody has to set up a default on their own, which is especially helpful when new people join your team.
+
+1. Open your workspace settings and find `Set default meetings database for workspace`.
+
+2. Pick a database from the menu. It's the same `Filed in` menu you use on a meeting note, without the `+ New meetings database` option.
+
+3. If the database isn't a meetings database yet, Notion shows a `Turn into meetings database?` screen. Turning it into one adds date and attendee fields, so set those up before you continue.
+
+4. Select `Set default` in the `Set default meetings database for workspace?` box.
+
+5. After you save, you might see a warning that some members can't create meeting notes in this database. The warning doesn't block the change. Make sure those members have permission to create pages in the database so they can add notes.
+
+After you confirm, each member's default updates to the database you picked, and their setting shows a `Set by workspace admin` label.
+
+Only new meeting notes are affected. Notes that were already saved stay where they are.
+
+### [Workspace members: when an owner picks the database for you](https://www.notion.com/help/ai-meeting-notes#workspace-members-when-an-owner-picks-the-database-for-you)
+
+When your owner sets a default meetings database for the workspace, member settings update to that database and shows it was set by the owner. You can switch to a different meetings database unless your owner turns on `Require this database for all members`.
+
+The database's own sharing settings decide who can open each note. Setting a workspace default doesn't change who can see them.
 
 ## Troubleshoot common issues
 
@@ -275,7 +359,7 @@ If you’re not able to see AI Meeting Notes in your slash menu, it’s possible
 
 **How to fix it**
 
-* **If you’re a workspace owner**, go to `Settings` → `Notion AI` and toggle on `AI Meeting Notes`.
+* **If you’re a workspace owner**, go to `Settings` → `Meeting notes` and toggle on `AI Meeting Notes`.
 
 * **If you’re not a workspace owner**, reach out to your workspace owner and ask if they can turn on AI Meeting Notes for your workspace.
 
@@ -413,7 +497,7 @@ Change this in `Settings` → `Calendar accounts` → `{your email}` → `Prefer
 
 **Note:** This feature is still rolling out to users. Thanks for your patience as we make it available to you soon!
 
-Select `Meetings` in your Notion sidebar to manage your AI Meeting Notes in one place. Here, you can view your upcoming meetings and your previous AI Meeting Notes.
+Go to `Settings` → `Meeting notes` manage your AI Meeting Notes in one place. Here, you can view your upcoming meetings and your previous AI Meeting Notes.
 
 ### [Upcoming meetings](https://www.notion.com/help/ai-meeting-notes#upcoming-meetings)
 
@@ -447,7 +531,7 @@ Select `New` at the top of the list view to create new AI Meeting Notes.
 
 ### [Hide meetings tab](https://www.notion.com/help/ai-meeting-notes#hide-meetings-tab)
 
-If you don’t want the `Meetings` tab in your Notion sidebar, you can turn it off by going to `Settings` → `Notion AI` and toggling on `Hide meetings tab`.
+If you don't want the `Meetings` tab in your Notion sidebar, you can turn it off by going to `Settings` → `Meeting notes` and turning on `Hide meetings tab`.
 
 ## Legal considerations for recording and transcribing communications
 
@@ -497,13 +581,13 @@ When you use AI Meeting Notes on the Notion mobile app, the audio file is upload
 
 Notion gives you the option to upload your own audio or video for AI Meeting Notes transcription. You can upload a file directly to an AI Meeting Notes block, or upload through `/audio` or `/video` and convert that upload into an AI Meeting Notes block. Unlike a live recording, an uploaded file is stored on Notion's servers. An uploaded file is deleted when you delete it from the AI Meeting Notes block by clicking the slider icon → `Delete audio` or `Delete video`, or when the page containing the block is deleted (once deleted, the page will follow your workspace's [data retention settings](https://www.notion.com/help/duplicate-delete-and-restore-content#what-happens-when-a-page-is-deleted)).
 
-If you are a workspace owner and do not want the AI Meeting Notes feature available to members of your workspace, you may opt-out your workspace at any time by going to `Settings` → `Notion AI` and toggling off `Workspace availability`.
+If you're a workspace owner and don't want the AI Meeting Notes feature available to members of your workspace, you can opt-out your workspace at any time by going to `Settings` → `Meeting notes` and toggling off `Enable Meeting notes for workspace`.
 
 ## Local audio storage
 
 Local copies of recorded meeting audio are available to the user initiating AI Meeting Notes (the “recorder”). The 10 most recently recorded meeting audio files will be stored on the recorder’s local device and available to download. Only the recorder has the ability to download a locally saved audio file.
 
-This capability is turned off by default for all plans. If you want local audio storage enabled to your users, you may opt-in your workspace at any time by going to `Settings` → `Notion AI` and toggling on `Store audio locally`.
+This capability is turned off by default for all plans. If you want local audio storage enabled to your users, you can opt-in your workspace at any time by going to `Settings` → `Meeting notes` and toggling on `Store audio locally`.
 
 ## Delete transcription and audio
 
@@ -515,7 +599,7 @@ A transcription can be deleted in two ways:
 
 * By deleting the parent page where the AI Meeting Notes block sits. Once deleted, the page will follow your workspace’s [data retention settings](https://www.notion.com/help/duplicate-delete-and-restore-content#what-happens-when-a-page-is-deleted).
 
-Enterprise Plan workspace owners can set an **automatic** deletion schedule for transcriptions by going to `Settings` → `Notion AI` and setting a deletion schedule for `Automatic transcript deletion`. Summaries and notes will remain in AI Meeting Notes blocks in your workspace, but all transcriptions will be automatically deleted following the chosen deletion schedule. The automatic transcript deletion schedule will not delete transcripts in pages that are [legally held](https://www.notion.com/help/legal-holds).
+Enterprise Plan workspace owners can set an **automatic** deletion schedule for transcriptions by going to `Settings` → `Meeting notes` and setting a deletion schedule for `Automatic transcript deletion`. Summaries and notes will remain in AI Meeting Notes blocks in your workspace, but all transcriptions will be automatically deleted following the chosen deletion schedule. The automatic transcript deletion schedule will not delete transcripts in pages that are [legally held](https://www.notion.com/help/legal-holds).
 
 ### [Delete locally stored audio](https://www.notion.com/help/ai-meeting-notes#delete-locally-stored-audio)
 
@@ -557,20 +641,22 @@ We recommend you obtain consent from all meeting participants before you start u
 
 ### Who can access the transcription, notes, and summary from an AI Meeting Notes block?
 
-Meeting Notes inherit the permissions of the page they're saved on. If the transcription is captured on a private page, you'll need to manually share it with teammates to give them access.
+All AI Meeting Notes have their own sharing settings. Select `Share` at the top of the note to choose who can open it.
+
+Meeting notes created from `/meet` are embedded in a page, but you can expand them into a full page and share them separately from the rest of the page content.
 
 Audio for an AI Meeting Notes block is stored on the recorder's local device and only available to the recorder for download.
 
 
 ### Can I turn off AI Meeting Notes?
 
-Yes, AI Meeting Notes can be turned off by a **workspace owner**.
+****
 
-1. Click `Settings` in your sidebar.
+Yes, AI Meeting Notes can be turned off by a workspace owner.
 
-2. Select `Notion AI`.
+* Go to `Settings` → `Meeting notes` in your sidebar.
 
-3. Toggle off `Workspace availability`.
+* Toggle off `Enable Meeting notes for workspace`.
 
 Local audio storage is off by default. To enable this capability, workspace owners can toggle on `Store audio locally`.
 
@@ -593,3 +679,22 @@ Not at this time. Custom instructions must be created directly from Instructions
 ### How does Notion identify speakers in a transcript?
 
 Notion detects when speakers are shifting in audio, then uses context from non-audio sources (for example, calendar event information) to label speakers. [Speaker labeling](https://www.notion.com/help/ai-meeting-notes#follow-the-transcript-with-speaker-labels-&-citations) happens within a single meeting only.
+
+For Google Meet calls, you can [install the Notion Meetings browser extension →](https://www.notion.com/help/install-the-notion-meetings-add-on)
+
+In Zoom calls on a Mac, Notion can also read the Zoom participant list and who's speaking to add people's Zoom display names to the transcript. It never reads your screen or Zoom chat to do this. Learn about [speaker labels in Zoom calls →](https://www.notion.com/help/get-speaker-labels-in-zoom-calls)
+
+
+### What is a meetings database?
+
+A meetings database is built for meeting note pages. It includes meeting details like `Title`, `Date`, and `Attendees`. New pages in that database are created as meeting notes.
+
+
+### Can I save future notes from a recurring meeting in the same database?
+
+Yes. If a meeting note is linked to a recurring calendar event, you can move it to the right meetings database and choose to file future notes from that event series there too.
+
+
+### Can I choose which skills appear on my meeting notes?
+
+Yes. Go to `Library` → `Skills`, select `•••` on a skill, then `Show skill` to turn it on for `During meetings`, `After meetings`, or both. During and after are separate lists, and each one holds up to 12 skills.

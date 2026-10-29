@@ -21,7 +21,7 @@ When you start transcribing in a Google Meet call, the extension:
 
 ## Before you start
 
-* The extension works with Google Meet in Chrome (version 127 or later) on a computer. <!-- -->To check, open Chrome and go to `Settings` → `About Chrome`. <!-- -->It doesn't work with other meeting tools or on phones and tablets.
+* The extension works with Google Meet in Chrome (version 127 or later) on a computer. To check, open Chrome and go to `Settings` → `About Chrome`. It doesn't work with other meeting tools or on phones and tablets.
 
 * Only the person transcribing needs the extension. No one else in the call has to install anything.
 
@@ -37,7 +37,19 @@ When you start transcribing in a Google Meet call, the extension:
 
 3. If you already have a Google Meet call open, reload the page. You can also select `Reload` in the add-on's popup.
 
-**For workspace owners:** Your IT team can install the extension automatically for everyone in your organization. That way, every transcribed meeting includes the pinned chat message and recording indicator.
+**For workspace owners:** <!-- -->Your IT team can install the extension automatically for everyone in your organization, so members don’t have to install it themselves. That way, every transcribed meeting includes the pinned chat message and recording indicator. To install the extension for everyone:
+
+1. Sign in to the [Google Admin console](https://admin.google.com/).
+
+2. Go to `Devices` → `Chrome` → `Apps & extensions` → `Users & browsers`.
+
+3. Select the `+` button in the lower corner and choose `Add from Chrome Web Store`.
+
+4. Select `Search by ID` in the upper-right corner and paste the extension ID: `elcapahgfbebpelbadffbdlhienmadnp`.
+
+5. Choose `Select` to add the extension.
+
+6. Set the installation policy to `Force install` or `Force install + pin to browser toolbar` so everyone in your organization has the extension.
 
 ## How the in-meeting message works
 

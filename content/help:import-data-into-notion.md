@@ -65,6 +65,8 @@ As soon as you begin an import, you can view the upload time, status, and size.
 
 * For Monday.com, click [this article →](https://www.notion.com/help/monday)
 
+* For Granola, click [this article →](https://www.notion.com/help/import-meeting-notes-from-granola)
+
 ## Import from apps
 
 ## Evernote
