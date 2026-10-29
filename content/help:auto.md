@@ -113,6 +113,11 @@ Running every matchup by hand is expensive, so we trained an AI judge to closely
 No. Auto is a model router. For each task, it chooses from models by multiple AI providers.
 
 
+### I hid a model. Why is Auto still using it?
+
+Hiding a model only stops people from picking it by hand. Auto can still use it on its own. To keep Auto from using a provider at all, restrict the provider instead.
+
+
 ### Which AI models does Auto use?
 
 Auto uses a range of models, from fast and efficient to more capable. We don't publish a fixed list because the lineup changes as new models are released and evaluated, and because it depends on which models your workspace allows.
@@ -136,8 +141,3 @@ Not currently. Auto chooses a model for each task and may switch models during l
 ### How much can Auto save me?
 
 It depends on the task, but for most everyday work in Notion, Auto can make your credits go up to 10 times further than picking a model yourself. Simple tasks like polishing an email use fewer credits than complex work like building a strategy doc.
-
-
-### I hid a model. Why is Auto still using it?
-
-Hiding a model only stops people from picking it by hand. Auto can still use it on its own. To keep Auto from using a provider at all, restrict the provider instead.

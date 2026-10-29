@@ -1,7 +1,7 @@
 ---
-title: "Manage who can create database syncs"
+title: "Set up and manage database syncs"
 emoji: null
-description: "Workspace owners can choose who's allowed to create database syncs with providers like Jira, GitHub, and Salesforce. Pick all members, owners only, or owners plus specific groups."
+description: "Any workspace member can create database syncs with providers like Jira, GitHub, and Salesforce. Workspace owners manage connection permissions and can review or remove any sync."
 url: "https://www.notion.com/help/manage-who-can-create-database-syncs"
 key: "help:manage-who-can-create-database-syncs"
 coverImage: null
@@ -11,7 +11,7 @@ categoryKey: "category:connections"
 
 Workspace owners can control who is allowed to create connections from the workspace’s connection settings. Any workspace member (other than guests) can create a database sync for a supported provider, as long as the workspace’s plan includes that provider’s sync. Members can sign in with their own accounts and sync data from source accounts they can access.
 
-**Note**: This setting controls who can create database syncs. Existing syncs are managed from the relevant provider’s connection page.
+**Note**: This setting controls who can create internal connections, like the ones your team builds with Workers. It doesn't change who can create database syncs. Existing syncs are managed from the relevant provider’s connection page.
 
 ## Who can manage this setting
 
@@ -32,6 +32,8 @@ The **Manage** tab has two sections:
 * **Manage permissions:** Configure connection installation permissions, custom MCP server access, and who can create internal connections.
 
 ## Choose who can create internal connections
+
+This setting doesn't limit who can create database syncs. Right now, any workspace member can create a database sync for a supported provider.
 
 1. In **Settings → Connections → Manage**, scroll to **Manage permissions**.
 
@@ -132,7 +134,12 @@ During the first import, one database may be **Healthy** while another is still 
 
 ### Does changing this permission affect existing syncs?
 
-No, if a workspace owner updates who can create syncs, existing syncs will remain in place.
+No. Connection permission settings never affect existing syncs, and they don't restrict new database sync creation. Existing syncs are managed from the provider's connection page.
+
+
+### Does this setting control who can create database syncs?
+
+No. Right now, any workspace member can create a database sync for a supported provider, as long as your plan includes it. This setting controls who can create internal connections, like the ones your team builds with Workers.
 
 
 ### Can workspace owners edit or delete a sync created by another member?
