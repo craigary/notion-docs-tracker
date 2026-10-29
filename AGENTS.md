@@ -39,3 +39,23 @@ Validate changes with `bun run check`. If you touch scraping logic, manually run
 ## Commit & Pull Request Guidelines
 
 Content updates are auto-committed by GitHub Actions with the conventional message `docs: daily sync of Notion docs content`; keep those commits separate from code changes. For manual commits, keep them short and task-specific. In pull requests, describe which sync path changed: scraping, frontend sync, backend sync, Markdown output, or Telegram output.
+
+## Translation Workflow (manual, agent-assisted)
+
+Chinese translations live in the Frontend data source body. Rules and terminology are in `translation/style-guide.md` and `translation/glossary.md`. The full runbook is the project skill `.workbuddy/skills/notion-doc-translate/SKILL.md`; load it before doing any translation work.
+
+The loop is always: `bun run translate:context <identifier>` → read the workpack in `.cache/translate/` → write a patches JSON → `bun run translate:apply -- --file <patches>` (dry-run) → rerun with `--apply`.
+
+**Never use `replace_content` on Frontend pages.** Pages can contain blocks that `retrieveMarkdown` cannot represent (they surface as `<unknown .../>`), and a full-page replace deletes them. Only targeted `update_content` patches are safe. Note that `content/` files are CRLF/LF mixed; normalize newlines before splitting them by heading.
+
+**Links stay as English URLs.** Do not map `notion.com/help/<slug>` to Frontend pages or `/p/<id>?pvs=25`. Target pages may be missing, stale, or lack the anchored heading, so auto-mapping produces dead links. The user converts them to internal Notion links himself during maintenance. Do not revert existing `/p/` links back to English either. Every internal link must be listed in the report so he can work through them.
+
+**Never touch the `Status` property.** The user sets it manually.
+
+**Do not "fix" inconsistent UI labels.** Notion's own Chinese UI is inconsistent (e.g. `AI Meeting Notes` appears as both `会议记录` and `AI 速记`); that inconsistency is upstream and must be preserved.
+
+**Every translation report must include a `⚠️ 需要你手动处理` section** covering links, terminology guesses, structural mismatches, questionable source content, and anything left undone. Write `无` rather than omitting a subsection. Never report just "done" — the user verifies the result and needs to know exactly where to look and what is still broken. Also state how far the checks actually went: say which targeted checks ran, never imply a full proofread.
+
+## Status Auditing
+
+`bun run audit` cross-checks git history, Backend `Content` fingerprints, Frontend CJK ratio, and flip timestamps to classify every `In Progress` row. `bun run apply-status` reverts only the rows it can prove are false positives (dry-run by default).

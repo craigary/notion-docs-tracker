@@ -28,6 +28,9 @@ report.[0-9]_.[0-9]_.[0-9]_.[0-9]_.json
 *.tsbuildinfo
 reports/
 
+# agent 工作记忆（本地过程记录，不进版本控制）
+.workbuddy/memory/
+
 # IntelliJ based IDEs
 .idea
 
