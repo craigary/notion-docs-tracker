@@ -7,8 +7,8 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/7G4JNRFJJ1vUWQMQqZmeuf/15
 ---
 
 1 help:ai-meeting-notes
-2 help:import-meeting-notes-from-granola
-3 help:install-the-notion-meetings-add-on
+2 help:install-the-notion-meetings-add-on
+3 help:import-meeting-notes-from-granola
 4 help:get-speaker-labels-in-zoom-calls
 
 ## Video

@@ -31,13 +31,11 @@ When you start transcribing in a Google Meet call, the extension:
 
 ## Install the extension
 
-1. Open the Chrome Web Store and search for the Notion Meetings Add-on.
+1. Open the [Notion Meetings Add-on in the Chrome Web Store.](https://chromewebstore.google.com/detail/notion-meetings-add-on/bmfgmiihbljnfndmpdffjfliciaddbfc)
 
 2. Select `Add to Chrome`.
 
-3. If you already have a Google Meet call open, reload the page. You can also select `Reload` in the add-on's popup.
-
-**For workspace owners:** <!-- -->Your IT team can install the extension automatically for everyone in your organization, so members don’t have to install it themselves. That way, every transcribed meeting includes the pinned chat message and recording indicator. To install the extension for everyone:
+**For workspace owners:** Your IT team can install the extension automatically for everyone in your organization, so members don’t have to install it themselves. That way, every transcribed meeting includes the pinned chat message and recording indicator. To install the extension for everyone:
 
 1. Sign in to the [Google Admin console](https://admin.google.com/).
 
@@ -45,7 +43,7 @@ When you start transcribing in a Google Meet call, the extension:
 
 3. Select the `+` button in the lower corner and choose `Add from Chrome Web Store`.
 
-4. Select `Search by ID` in the upper-right corner and paste the extension ID: `elcapahgfbebpelbadffbdlhienmadnp`.
+4. Select `Search by ID` in the upper-right corner and paste the extension ID: `bmfgmiihbljnfndmpdffjfliciaddbfc`.
 
 5. Choose `Select` to add the extension.
 
