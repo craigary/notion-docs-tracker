@@ -1,7 +1,7 @@
 ---
 title: "Notion AI settings overview"
 emoji: null
-description: "Learn how workspace owners use Notion AI settings in the AI Command Center to manage AI access, controls, credits, and usage."
+description: "Learn how workspace owners use the AI Command Center in Notion AI Settings to manage AI access, controls, credits, and usage."
 url: "https://www.notion.com/help/notion-ai-settings-overview"
 key: "help:notion-ai-settings-overview"
 coverImage: null
