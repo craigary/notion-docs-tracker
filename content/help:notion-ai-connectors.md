@@ -124,4 +124,4 @@ Notion treats all of your content with the privacy principle of data minimizatio
 
 ### Can AI apps connected through Notion MCP see my connected sources?
 
-Yes, on Business and Enterprise plans with Notion AI. When a workspace has AI Connectors set up, an AI app connected through Notion MCP can search your connected sources, such as Slack, Google Drive, and GitHub. It only sees what your own connection can already see, the same as Notion AI. The content goes to the AI app you connected, such as Claude or ChatGPT, and that app's own terms apply to it.
+Yes, on Business and Enterprise plans with Notion AI. When a workspace has AI Connectors set up, an AI app connected through Notion MCP can search your connected sources, such as Slack, Google Drive, and GitHub. <!-- -->It can also open a result to read the full item. <!-- -->It only sees what your own connection can already see, the same as Notion AI. The content goes to the AI app you connected, such as Claude or ChatGPT, and that app's own terms apply to it.

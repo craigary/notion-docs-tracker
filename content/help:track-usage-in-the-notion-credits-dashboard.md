@@ -1,5 +1,5 @@
 ---
-title: "Track usage in the Notion credits dashboard"
+title: "Track Notion credits usage"
 emoji: null
 description: "Learn how to use the Notion credits dashboard to track usage, plan future credit needs, and manage ongoing spend."
 url: "https://www.notion.com/help/track-usage-in-the-notion-credits-dashboard"
@@ -13,105 +13,25 @@ categoryKey: "category:notion-credits"
 
 New Business and Enterprise workspaces move to the [new credit system](https://www.notion.com/help/standard-select-and-notion-credits-eligible-features) starting October 19, 2026. For existing workspaces, it takes effect on November 2, 2026.
 
-The Notion credits dashboard gives a clear view of how Custom Agents, Autofill, Workers, and high credit consumption models use Notion credits across the workspace. Use it to track usage, plan future credit needs, and manage ongoing spend. To access it, go to `Settings` → `Access & billing` → `Notion credits`.
+The Notion AI usage page gives you a clear view of how Custom Agents, Autofill, Workers, and high credit consumption models use Notion credits across the workspace. Use it to track usage, plan future credit needs, and manage ongoing spend. To access it, go to `Settings` → `Notion AI` → `Usage`.
 
-Admins on Business and Enterprise plans can monitor usage in the dashboard. Custom Agent creators and Worker creators can also see workspace-level credit pacing. The table will show only the Custom Agents or Workers they've created.
+Only owners on Business and Enterprise plans can access the Notion AI page. For a tour of each tab, see [Notion AI settings overview →](https://www.notion.com/help/notion-ai-settings-overview)
 
-In the dashboard, you can view:
+This page breaks usage down by credit type (Standard, Select, and Notion) and shows usage by member, group, and agent. A member or agent that's close to its limit has a `Near limit` flag. You'll see a `Credit requested` flag when someone has asked for more.
 
-* Credit usage in real time.
+![The Notion AI usage page.](https://images.ctfassets.net/spoqsaf9291f/z76XojgFXzlG6y9jlxjsP/0bca4385d0c0ce481391de4577141c31/notion-ai-usage-tab.png)
 
-* Estimated usage through your monthly service date.
+Workspace owners can review and approve credit requests from `Settings` → `Requests`. Learn more in [Review requests for Notion credits →](https://www.notion.com/help/review-requests-for-notion-credits)
 
-* Agent-level runs and credit usage, so you can identify the agents driving spend and adjust them as needed.
-
-* Workspace members who are using credits past the[ allowance](https://www.notion.com/help/manage-your-usage-allowance-for-notion-ai).
-
-* Credits each member spends on high credit consumption models.
-
-* Trial credits from your account team. These appear as their own category, so you can track them separately from the credits you purchased.
+You can export this data as a CSV or pull it with the [Admin API](https://www.notion.com/help/manage-custom-agents-with-the-admin-api) to bring it into your own reporting.
 
 If you manage multiple workspaces, you’ll also have a Notion credits dashboard in your admin console where you can track credit pacing and usage across your organization.
-
-![HC: Notion credits dashboard](https://images.ctfassets.net/spoqsaf9291f/6VO6tMhJVcel0B9aHSnZRn/5a7e4b5b0f208cde35c390cf648bbcbd/%C3%A2____35_.png)
-
-## How to read the Notion credits dashboard
-
-## 1. Usage summary
-
-* At the top of the dashboard, you’ll see the total Notion credits used for the selected period and your credits reset date. The selected period is based on your workspace’s billing cycle.
-
-* This gives you a quick snapshot of usage so far and when your monthly billing cycle ends.
-
-## 2. Time period controls
-
-In the top-right corner, use the period selector (for example, `Current period`) and navigation arrows to review past periods.
-
-## 3. Usage chart
-
-The usage chart shows credit usage over time:
-
-* Current shows your actual credits used so far.
-
-* Estimated projects where your usage is likely to land by the reset date if current patterns continue. The estimate is provided for informational purposes only and actual future usage may differ.
-
-Use this to spot whether you’re pacing toward running out of credits before the reset.
-
-## 4. Workspace usage cards
-
-Under **This month’s usage**, you’ll see adoption and activity metrics such as:
-
-* Agent builders: How many members are creating Custom Agents.
-
-* Agents in action: How many live Custom Agents are running during the period.
-
-* Runs completed: How many tasks agents have completed across your workspace.
-
-## 5. Usage breakdown
-
-The usage table is organized into tabs so you can filter by type.
-
-* **All:&#x20;**&#x45;very Custom Agent, Autofill, and Worker in your workspace.
-
-* **Custom Agents:&#x20;**&#x43;ustom Agent spend only.
-
-* **Autofill:&#x20;**&#x41;utofill spend only.
-
-* **Workers:&#x20;**&#x57;orker spend only. Workers show a Free badge during the beta period.
-
-* **Mine:&#x20;**&#x4F;nly the Custom Agents and Workers you created
-
-For each item, the table shows:
-
-* Notion credits used
-
-* Runs completed
-
-* Status
-
-* Created by
-
-Member spend has its own row. That covers credits people spend past the [AI allowance](https://www.notion.com/help/manage-your-usage-allowance-for-notion-ai) and credits they spend on high credit consumption models, so you can see who is using them and how much they cost.
-
-## Include Worker spend in the main chart
-
-By default, Worker spend is tracked separately from Custom Agent spend and isn't included in the main usage chart or total credit number. To fold Worker spend into the chart and total, select the three-dot menu `•••` at the top of the dashboard and toggle on **Include Worker spend**.
-
-## Trial credits from your account team
-
-If your account team has given your organization trial credits, here's how they work:
-
-* Trial credits appear in the Notion credits dashboard as their own category, separate from the credits you purchased. If your organization has a multi-workspace contract, you can also see them in the org console.
-
-* Admins get an alert when your organization has used 80% of its trial credits, and another when trial credits are fully used.
-
-* Unused trial credits don't carry over after the trial ends.
 
 ## What actions can an admin take to manage credit pacing?
 
 Admins can monitor credit usage so spend stays predictable. Admins have several ways to manage credit pacing:
 
-* **Visibility:&#x20;**&#x54;rack usage and trends in the Notion credits dashboard.
+* **Visibility:&#x20;**&#x54;rack usage and trends in the Notion usage page.
 
 * **Guardrails:&#x20;**&#x44;ecide who can create agents (and set limits). Set a credit limit for each member.
 
@@ -121,11 +41,11 @@ Admins can monitor credit usage so spend stays predictable. Admins have several 
 
 ## 1. Monitor usage to know what’s driving spend
 
-Use the Notion credits dashboard to track usage over time and see which features are using the most credits. Notion also notifies admins when the workspace is approaching or has reached the credit limit, so admins have time to act.
+Use the Notion usage page to track usage over time and see which features are using the most credits. Notion also notifies admins when the workspace is approaching or has reached the credit limit, so admins have time to act.
 
-When a member uses Notion credits beyond the [allowance](https://www.notion.com/help/manage-your-usage-allowance-for-notion-ai), their usage appears as an individual row in the credits dashboard. Admins can see which users are spending credits past the limit and how much they've used.
+When a member uses Notion credits beyond the [allowance](https://www.notion.com/help/manage-your-usage-allowance-for-notion-ai), their usage appears as an individual row on the usage page. Admins can see which users are spending credits past the limit and how much they've used.
 
-H<!-- -->igh credit consumption models which spend credits show up the same way. When a member uses one of these, their usage will have a row here.
+High credit consumption models which spend credits show up the same way. When a member uses one of these, their usage will have a row here.
 
 ## 2. Set guardrails to prevent surprises
 
@@ -133,15 +53,13 @@ Set credit limits for individual Custom Agents so they pause when they hit a thr
 
 ![HC: set credit limit](https://images.ctfassets.net/spoqsaf9291f/EhzKTguV9VcYMMpBVGcVA/290894bba36e2f96f313757e54ce97b8/Group_8__1_.png)
 
-Control who can create Custom Agents (everyone, workspace owners only, or selected members).
+Control who can create Custom Agents (everyone, workspace owners only, selected members, or groups).
 
 ![HC: Control who can create agents](https://images.ctfassets.net/spoqsaf9291f/2M692lzUmDcPECP8aymuZ1/f1dbe760ec11f9bc1ce045f8eace0f79/image.png)
 
 ## 3. Intervene quickly to stop usage
 
-Pause or switch off a Custom Agent anytime to immediately stop credit usage while you review activity or adjust the agent.
-
-![HC: switch off a custom agent](https://images.ctfassets.net/spoqsaf9291f/1fHvOe6FKw71oVHY2RjJuJ/f8cfd533f74675531084e9d30feed461/image__1_.png)
+Pause or switch off a Custom Agent anytime to immediately stop credit usage while you review activity or adjust the agent. You can also switch the agent to a model that uses fewer credits. Learn more about [workspace admin controls for Custom Agents →](https://www.notion.com/help/custom-agents-sharing-and-permissions#workspace-admin-controls)
 
 ## 4. Use Insights to optimize performance
 
@@ -176,7 +94,7 @@ Workspace owners can decide whether members can use Notion credits after hitting
 
 ### What happens if we run out of Notion credits?
 
-If your workspace doesn't have enough Notion credits, Custom Agents that run on shared workspace credits will pause automatically until credits reset or an admin adds more credits. High credit consumption models pause too. A Custom Agent you set up for your own use keeps working until your [Select credits](https://www.notion.com/help/standard-select-and-notion-credits-eligible-features) are used up, then follows the same credit rules.
+If your workspace doesn't have enough Notion credits, Custom Agents that run on shared workspace credits will pause automatically until credits reset or a workspace owner adds more credits. High credit consumption models pause too. A Custom Agent you set up for your own use keeps working until your [Select credits](https://www.notion.com/help/standard-select-and-notion-credits-eligible-features) are used up, then follows the same credit rules.
 
 
 ### How do owners get notified before running out of Notion credits?
@@ -231,7 +149,7 @@ To buy credits, you'll need to:
 
 * Upgrade to a Notion plan directly on [notion.com](http://notion.com) (Business or Enterprise, with AI included).
 
-* Once your new subscription is active, an admin can purchase Notion credits from `Settings` → `Access & billing` → `Notion credits`.
+* Once your new subscription is active, a workspace owner can purchase Notion credits from `Settings` → `Access & billing` → `Notion credits`.
 
 Make sure your new plan includes AI before purchasing credits. [Notion credits](https://www.notion.com/help/category/notion-credits) are only available on Business and Enterprise plans.
 
@@ -243,11 +161,11 @@ No. Workspace owners can buy the amount of credits the workspace needs, includin
 
 ### What happens to our Notion credits if a payment fails?
 
-Your team keeps the Notion credits you've already paid for. Credits above that amount are put on hold until an admin fixes the payment, and then they unlock automatically. A failed Notion credit payment doesn't affect your main Notion plan. Learn more about [how Notion credit payments work →](https://www.notion.com/help/what-are-notion-credits)
+Your team keeps the Notion credits you've already paid for. Credits above that amount are put on hold until a workspace owner fixes the payment, and then they unlock automatically. A failed Notion credit payment doesn't affect your main Notion plan. Learn more about [how Notion credit payments work →](https://www.notion.com/help/what-are-notion-credits)
 
 
 ### How are Notion credits different from Standard and Select credits?
 
 [Standard and Select credits](https://www.notion.com/help/standard-select-and-notion-credits-eligible-features) are included with each Business or Enterprise seat. They’re separate per-member amounts that reset monthly and don’t roll over.
 
-[Notion credits](https://www.notion.com/help/category/notion-credits) are purchased by admins for the workspace. They cover eligible usage beyond Standard or Select credits when an admin allows it, plus high credit consumption models and Custom Agents funded by the workspace. [Monthly Notion credits](https://www.notion.com/help/what-are-notion-credits#monthly-vs.-annual-notion-credits) are a purchase option, not the Standard or Select credits included with your seat.
+[Notion credits](https://www.notion.com/help/category/notion-credits) are purchased by a workspace owner for the workspace. They cover eligible usage beyond Standard or Select credits when an owner allows it, plus high credit consumption models and Custom Agents funded by the workspace. [Monthly Notion credits](https://www.notion.com/help/what-are-notion-credits#monthly-vs.-annual-notion-credits) are a purchase option, not the Standard or Select credits included with your seat.

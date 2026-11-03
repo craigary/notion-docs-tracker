@@ -1,6 +1,6 @@
 ---
 title: "Notion credits"
-description: "Notion credits let workspace admins add AI usage for their team. Admins can buy Notion credits for usage beyond included monthly credits, high credit consumption models, and Custom Agents funded by the workspace."
+description: "Notion credits let workspace owners add AI usage for their team. Owners can buy Notion credits for usage beyond included monthly credits, high credit consumption models, and Custom Agents funded by the workspace."
 url: "https://www.notion.com/help/category/notion-credits"
 key: "category:notion-credits"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/5xP7gHlhFbGP72MLcxD09X/27ded1f12d7dc112959c8d4cb40aa2bc/out_of_office-dark_2x.png"
@@ -11,10 +11,11 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/5xP7gHlhFbGP72MLcxD09X/27
 3 help:track-usage-in-the-notion-credits-dashboard
 4 help:allocate-credits-to-each-workspace
 5 help:set-up-auto-adjust-for-notion-credits
-6 help:standard-select-and-notion-credits-eligible-features
-7 help:manage-your-ai-credits
-8 help:how-ai-credits-work-for-custom-agents
-9 help:auto
+6 help:how-ai-credits-work-for-custom-agents
+7 help:standard-select-and-notion-credits-eligible-features
+8 help:manage-your-ai-credits
+9 help:review-requests-for-notion-credits
+10 help:auto
 
 ## Guides
 

@@ -109,6 +109,6 @@ No. The ChatGPT connection is used only for billing and usage attribution.
 Yes. Notion AI’s data-retention policy applies, including no retention for Enterprise and 30-day retention otherwise.
 
 
-### Can workspace admins see which members have connected a ChatGPT plan?
+### Can workspace owners see which members have connected a ChatGPT plan?
 
-Admins can use audit logs to see connection and disconnection events. Usage volume is not available.
+Workspace owners can use audit logs to see connection and disconnection events. Usage volume is not available.

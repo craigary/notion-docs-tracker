@@ -165,17 +165,19 @@ To set up the custom SIEM integration:
 
 ### [What to know about the custom SIEM integration](https://www.notion.com/help/add-security-and-compliance-integrations#what-to-know-about-the-custom-siem-integration)
 
-* **All audit log event types** are included — the same events available in your Notion audit log are sent to your SIEM endpoint.
+* **All audit log event types** **are included**: The same events available in your Notion audit log are sent to your SIEM endpoint.
 
-* **Real-time delivery** — events are sent as they occur.
+* **Real-time delivery:** Events are sent as they occur.
 
-* **Single webhook per workspace** — you can only configure one custom SIEM webhook per workspace at a time.
+* **Single webhook per workspace:** You can only configure one custom SIEM webhook per workspace at a time.
 
-* **Retry behavior** — if your endpoint fails to receive an event, Notion will retry up to seven times over approximately 24 hours.
+* **Retry behavior:** If your endpoint fails to receive an event, Notion will retry up to seven times over approximately 24 hours.
 
-* **No page content** — event payloads include metadata about actions (who did what and when), but do not include the content of pages.
+* **No page content:** Event payloads include metadata about actions (who did what and when), but do not include the content of pages.
 
-* **No syslog support** — the custom SIEM integration uses webhooks only; syslog is not supported.
+* **No syslog support:&#x20;**&#x54;he custom SIEM integration uses webhooks only; syslog is not supported.
+
+* **Teamspace included**: Events that happen in a teamspace carry the teamspace that owns the content, so you can point rules and alerts at one teamspace. This starts with events recorded on August 9, 2026. Events that aren't tied to a teamspace don't carry this detail.
 
 ### [Disconnect the custom SIEM integration](https://www.notion.com/help/add-security-and-compliance-integrations#disconnect-the-custom-siem-integration)
 

@@ -53,7 +53,7 @@ The following filters are available at the top of the audit log:
 
 5. **Teamspace**: Filter events by one or more teamspaces to see only what happened in the teamspaces you pick. This is useful when you want to review activity in one team's content without scrolling through everything else.
 
-   **Note**: You can only filter by teamspace events that were captured on or after August 9, 2026. Results before that date may be incomplete.
+   **Note**: You can only filter by teamspace events that were captured on or after August 9, 2026. Results before that date may be incomplete. Some events aren't tied to a teamspace at all, like account activity and most workspace-wide settings changes. Those don't show up when you filter by teamspace.
 
 6. **Related**: Filter for events that were triggered by the same underlying action. Some workspace changes generate a group of related events: for example, moving a page may log both a page moved event and a permission update. To filter for related events, hover over any audit log row and select the magnifying glass icon.
 

@@ -9,10 +9,6 @@ category: "Notion credits"
 categoryKey: "category:notion-credits"
 ---
 
-**When changes start**
-
-New Business and Enterprise workspaces move to the [new credit system](https://www.notion.com/help/standard-select-and-notion-credits-eligible-features) starting October 19, 2026. For existing workspaces, it takes effect on November 2, 2026.
-
 Auto is a model router that reads each task and sends it to the model that best balances quality, speed, and cost. For each task, Auto chooses a model from multiple AI providers, based on Notion’s evaluations and the models your workspace allows. It uses faster models for quick questions and edits, and more capable models for complex work.
 
 ## Let Auto choose a model
@@ -25,9 +21,9 @@ Auto is on by default in the model picker, in [Notion Agent](https://www.notion.
 
 * **Auto keeps up with new models.** Notion evaluates new models for quality, speed, cost, and reliability before making them available. The models available through Auto may change. Learn how Notion [evaluates models against common knowledge work →](https://labs.notion.com/knowledge-board#methodology)
 
-* **Auto follows your workspace settings.** <!-- -->It uses only models your workspace allows and that meet its requirements, including model controls and provider restrictions. If an owner limits the models Auto can use, Auto falls back to the next lowest-cost model the workspace allows.
+* **Auto follows your workspace settings.** It uses only models your workspace allows and that meet its requirements, including model controls and provider restrictions. If an owner limits the models Auto can use, Auto falls back to the next lowest-cost model the workspace allows.
 
-* **Auto needs enough models switched on to work well.** If an owner turns off too many models for the workspace, Auto will become less efficient. <!-- -->When saving a change that restricts Auto’s overall quality, workspace owners will see a warning.
+* **Auto needs enough models switched on to work well.** If an owner turns off too many models for the workspace, Auto will become less efficient. When saving a change that restricts Auto’s overall quality, workspace owners will see a warning.
 
 ## Choose a model yourself
 
@@ -63,11 +59,11 @@ In [Custom Agent](https://www.notion.com/help/custom-agents#choose-a-model-for-y
 
 Once selected, the Custom Agent will use that model until you change it.
 
-Workspace owners control which models members can choose. Models from providers your workspace has turned off don't appear. Models your workspace has restricted appear under `Restricted models` and can't be selected. <!-- -->Learn how to [manage AI models and member credit spend](https://www.notion.com/help/manage-ai-models-and-member-credit-spend) →
+Workspace owners control which models members can choose. Models from providers your workspace has turned off don't appear. Models your workspace has restricted appear under `Restricted models` and can't be selected. Learn how to [manage AI models and member credit spend](https://www.notion.com/help/manage-ai-models-and-member-credit-spend) →
 
 ## How Auto & AI credits work
 
-On Business and Enterprise plans, [Notion Agent](https://www.notion.com/help/notion-agent) uses Standard credits when you use Auto and Select credits when you choose a model yourself. If you run out of either, your admin can allow you to keep using AI features with [Notion credits](https://www.notion.com/help/category/notion-credits). Learn more about [managing your AI credits →](https://www.notion.com/help/manage-your-ai-credits)
+On Business and Enterprise plans, [Notion Agent](https://www.notion.com/help/notion-agent) uses Standard credits when you use Auto and Select credits when you choose a model yourself. If you run out of either, a workspace owner can allow you to keep using AI features with [Notion credits](https://www.notion.com/help/category/notion-credits). Learn more about [managing your AI credits →](https://www.notion.com/help/manage-your-ai-credits)
 
 ## How Auto makes your credits go further
 

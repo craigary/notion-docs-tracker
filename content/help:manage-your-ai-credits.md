@@ -1,7 +1,7 @@
 ---
 title: "Manage your AI credits"
 emoji: null
-description: "Learn how the Standard and Select credits included with Business and Enterprise plans work, how to track your usage, and how Notion credits can keep your team working. "
+description: "Learn how the Standard and Select credit allowances included with Business and Enterprise plans work, how to track your usage, and how Notion credits can keep your team working. "
 url: "https://www.notion.com/help/manage-your-ai-credits"
 key: "help:manage-your-ai-credits"
 coverImage: null
@@ -9,11 +9,7 @@ category: "Notion credits"
 categoryKey: "category:notion-credits"
 ---
 
-**When changes start**
-
-New Business and Enterprise workspaces move to the [new credit system](https://www.notion.com/help/standard-select-and-notion-credits-eligible-features) starting October 19, 2026. For existing workspaces, it takes effect on November 2, 2026.
-
-Business and Enterprise plans give each workspace member a set amount of Notion AI credits each month. Additional usage via [Notion credits](https://www.notion.com/help/category/notion-credits) is a separate, workspace-managed balance your admin can turn on so you can keep going once your Standard or Select credits run out.
+Business and Enterprise plans give each workspace member a set amount of Notion AI credits each month. Additional usage via [Notion credits](https://www.notion.com/help/category/notion-credits) is a separate, workspace-managed balance an owner can turn on so you can keep going once your Standard or Select allowances run out.
 
 * **Standard credits**: Used for work where Notion picks the model for you. Each member gets 1,500 Standard credits a month.\*
 
@@ -27,13 +23,13 @@ It sends each task to the model that best balances quality, speed, and cost, so 
 
 | **Credits**  | **What it’s for**                                                                                                  | **Included monthly**          | **If you run out**                                           |
 | ------------ | ------------------------------------------------------------------------------------------------------------------ | ----------------------------- | ------------------------------------------------------------ |
-| **Standard** | Work where Notion picks the model (Auto)                                                                           | 1,500 per member, no rollover | Your admin can let you continue with Notion credits          |
-| **Select**   | Work where you pick a model yourself, or use a Custom Agent you set up for your own use                            | 500 per member, no rollover   | Your admin can let you continue with Notion credits          |
-| **Notion**   | Usage beyond Standard or Select credits, high credit consumption models, and Custom Agents funded by the workspace | N/A                           | Admins can purchase more or adjust how credits are allocated |
+| **Standard** | Work where Notion picks the model (Auto)                                                                           | 1,500 per member, no rollover | An owner can let you continue with Notion credits            |
+| **Select**   | Work where you pick a model yourself, or use a Custom Agent you set up for your own use                            | 500 per member, no rollover   | An owner can let you continue with Notion credits            |
+| **Notion**   | Usage beyond Standard or Select credits, high credit consumption models, and Custom Agents funded by the workspace | N/A                           | Owners can purchase more or adjust how credits are allocated |
 
-Standard and Select credits are separate. Using one doesn’t affect the other. You can’t combine them or transfer them between members. Each resets monthly, and unused credits don’t roll over. Notion lets you know when you’re close to using up your Standard or Select credits. Once you use up all Standard or Select credits, impacted work will pause until your credits reset.
+Standard and Select allowances are separate. Using one doesn’t affect the other. You can’t combine them or transfer them between members. Each resets monthly, and unused credits don’t roll over. Notion lets you know when you’re close to using up your Standard or Select credits. Once you use up all Standard or Select credits, impacted work will pause until your credits reset.
 
-If your admin allows it, you can continue with your workspace’s [Notion credits](https://www.notion.com/help/category/notion-credits), which can cover eligible usage beyond the Standard or Select credits included each month. Notion credits can also pay for high credit consumption models, and [Custom Agents](https://www.notion.com/help/how-ai-credits-work-for-custom-agents) funded by the workspace.
+A workspace owner can set up a Notion credit limit allowing you to continue using<!-- --> your workspace’s [Notion credits](https://www.notion.com/help/category/notion-credits), which can cover eligible usage beyond the Standard or Select allowances included each month. Notion credits can also pay for high credit consumption models, and [Custom Agents](https://www.notion.com/help/how-ai-credits-work-for-custom-agents) funded by the workspace.
 
 For the full feature list, see [Standard, Select, and Notion credits: eligible features →](https://www.notion.com/help/standard-select-and-notion-credits-eligible-features)
 
@@ -79,39 +75,35 @@ Credit use varies by scenario. For example, asking Notion Agent to polish an ema
 
 ## Track your credit usage & get alerts
 
-You can see how much of your Standard and Select credits you’ve used, how much is left, and when they reset by going to `Settings` → `Notion AI` → `Usage`.
+You can see how much of your Standard and Select allowances you’ve used, how much is left, and when they reset by going to `Settings` → `Notion AI` → `Usage`.
 
 Notion also alerts you in Notion Agent chat when your Standard or Select credits are running low or have run out, so you have time to adjust.
 
 ## What happens when your credits run out
 
-Standard and Select credits are separate. Using one doesn’t affect the other.
+Standard and Select allowances are separate. Using one doesn’t affect the other.
 
-* **If you run out of Standard credits:** Features that use Standard credits pause until your next monthly reset, unless your admin allows you to continue with Notion credits. Any Select credits you have left won’t cover Standard features.
+* **If you run out of Standard credits:** Features that use Standard credits pause until your next monthly reset. Any Select credits you have left won’t cover Standard features. <!-- -->A workspace owner can set up a Notion credit limit allowing you to continue using<!-- --> your workspace’s [Notion credits](https://www.notion.com/help/category/notion-credits), which can cover eligible usage beyond the Standard or Select credits included each month.
 
-* **If you run out of Select credits:** Features that use Select credits pause until your next monthly reset, unless your admin allows you to continue with Notion credits. If you still have Standard credits, [switch Notion Agent to Auto](https://www.notion.com/help/auto) to keep using features covered by Standard.
+* **If you run out of Select credits:** Features that use Select credits pause until your next monthly reset, unless an owner allows you to continue with Notion credits. If you still have Standard credits, [switch Notion Agent to Auto](https://www.notion.com/help/auto) to keep using features covered by Standard.
 
-* **If you run out of both:** You can continue with Notion credits if your admin allows it and your workspace has credits available.
+* **If you run out of both:** You can continue with Notion credits if an owner allows it and your workspace has credits available.
 
-## Ask an admin for more Notion credits
+## Ask a workspace owner for more Notion credits
 
-If you’ve used up your Standard or Select credits and want to keep going, you can ask a workspace admin for more right from the alert. Your admin will see a request to add [Notion credits](https://www.notion.com/help/category/notion-credits) for the workspace so you and your team can keep AI features working.
+If you’ve used up your Standard or Select credits and want to keep going, you can ask a workspace owner for more right from the alert. They'll see a request to add [Notion credits](https://www.notion.com/help/category/notion-credits) for the workspace so you and your team can keep AI features working.
 
-## For admins: let members keep going on Notion credits
+## For owners: let members keep going on Notion credits
 
-By default, members who use up their Standard or Select credits have to wait for them to reset. Workspace owners and admins can let members keep going on [Notion credits](https://www.notion.com/help/category/notion-credits) instead.
+By default, members who use up their Standard or Select allowances have to wait for them to reset. Workspace owners can <!-- -->set up a Notion credit limit letting <!-- -->members keep going using the workspace's [Notion credits](https://www.notion.com/help/category/notion-credits), which can cover eligible usage beyond the Standard or Select credits included each month.
 
-To turn this on:
+To give members more usage, set a credit limit by going to `Settings` → `Notion AI`, and finding the `Credits` tab.
 
-* In the sidebar, go to `Settings` → `Notion AI`.
+When a credit limit is set, members who use up their Standard or Select allowances will keep going with Notion credits. When this setting is not on, members will need to wait for their credits to reset, or can request more credits.
 
-* Turn on **Allow workspace to use Notion credits after AI limit is reached.**
+## For owners: track credit usage from the dashboard
 
-When this is on, members who use up their Standard or Select credits will see the option to keep going with Notion credits. When it’s off, they wait for them to reset. This setting covers both Standard and Select credits.
-
-## For admins: track credit usage from the dashboard
-
-If a workspace owner or admin allows members to use [Notion credits](https://www.notion.com/help/category/notion-credits) past their Standard or Select credits, they can [track credit usage in the Notion credits dashboard](https://www.notion.com/help/track-usage-in-the-notion-credits-dashboard) by going to `Settings` → `Access & billing` → `Notion credits`. Each member’s usage appears as its own row so you can see who is spending credits and how much.
+If a workspace owner sets a credit limit allowing members to use [Notion credits](https://www.notion.com/help/category/notion-credits) past their Standard or Select allowances, they can [track credit usage in the Notion credits dashboard](https://www.notion.com/help/track-usage-in-the-notion-credits-dashboard) by going to `Settings` → `Access & billing` → `Notion credits`. Each member’s usage appears as its own row so you can see who is spending credits and how much.
 
 Credits spent on high credit consumption models show up in the same rows, so you can see who is using them and how much they cost.
 
@@ -132,7 +124,7 @@ Standard and Select credits come with workspaces on a Business or Enterprise pla
 
 * **Select credits** cover work where you pick a model yourself, or use a Custom Agent you set up.
 
-* **Notion credits** are a separate, workspace-managed balance your admin can turn on so you can keep going once your Standard or Select credits run out.
+* **Notion credits** are a separate, workspace-managed balance an owner can turn on so you can keep going once your Standard or Select credits run out.
 
 Standard and Select credits are separate per-member balances. These balances can't be pooled across the workspace, transferred between members, or exchanged for other credit types. They’re not "Notion Credits" as defined in the [Notion AI and Notion Credit Terms](https://notion.notion.site/Notion-AI-and-Notion-Credit-Supplementary-Terms-fa9034c8b5a04818a6baf3eac2adddbb) and don’t count toward your Notion Credit Limit. The workspace-managed Notion credits described above are "Notion Credits" under those terms.
 
@@ -158,7 +150,7 @@ No. Standard and Select credits are separate, and each person has their own. You
 
 Standard and Select credits each reset monthly, at the start of your billing cycle, and they don't roll over.
 
-If you use one up, you can wait for it to reset, or keep going on [Notion credits](https://www.notion.com/help/category/notion-credits) if your admin has turned that on. The other keeps working as usual.
+If you use one up, you can wait for it to reset, or keep going on [Notion credits](https://www.notion.com/help/category/notion-credits) if a workspace owner has turned that on. The other keeps working as usual.
 
 
 ### How will I know I'm close to running out?
@@ -170,9 +162,9 @@ We'll also notify you as you get close and when you've used up your Standard or 
 
 ### Can my workspace get additional Notion AI usage?
 
-Yes. Workspace admins can let members keep using Notion AI beyond their Standard or Select credits by spending [Notion credits](https://www.notion.com/help/category/notion-credits).
+Yes. Workspace owners can let members keep using Notion AI beyond their Standard or Select credits by spending [Notion credits](https://www.notion.com/help/category/notion-credits).
 
-This is off by default. Admins can turn it on in `Settings` → `Notion AI`.
+This is off by default. Workspace owners can turn it on in `Settings` → `Notion AI`.
 
 
 ### Which credits does Notion Agent use?
@@ -182,7 +174,7 @@ On [Auto](https://www.notion.com/help/auto), Notion Agent uses your Standard cre
 
 ### How do Custom Agents use credits?
 
-A Custom Agent you set up uses your Select credits, even when you share it with your team. Once your Select credits run out, it uses any extra credits your admin has given you. After that, it switches to your workspace's [Notion credits](https://www.notion.com/help/category/notion-credits) automatically (if your admin allows it). An admin can fund the agent with Notion credits at any time. You can also [ask your admin](https://www.notion.com/help/how-ai-credits-work-for-custom-agents#ask-an-admin-to-fund-your-custom-agent) to do this.
+A Custom Agent you set up uses your Select credits, even when you share it with your team. Once your Select credits run out, it uses any extra credits a workspace owner has given you. After that, it switches to your workspace's [Notion credits](https://www.notion.com/help/category/notion-credits) automatically (if an owner allows it). An owner can fund the agent with Notion credits at any time. You can also [ask an workspace owner](https://www.notion.com/help/how-ai-credits-work-for-custom-agents#ask-a-workspace-owner-to-fund-your-custom-agent) to do this.
 
 Learn more about how [AI credits work for Custom Agents →](https://www.notion.com/help/how-ai-credits-work-for-custom-agents)
 

@@ -11,7 +11,7 @@ categoryKey: "category:notion-ai"
 
 * Notion AI is available on Business and Enterprise Plans.
 
-* High credit consumption models spend [Notion credits](https://www.notion.com/help/what-are-notion-credits), and a workspace owner or admin has to turn them on first. Business trials may not have access to the model picker.
+* High credit consumption models spend [Notion credits](https://www.notion.com/help/what-are-notion-credits), and a workspace owner has to turn them on first. Business trials may not have access to the model picker.
 
 * Users on the Free and Plus Plans get a limited number of [complimentary AI responses](https://www.notion.com/help/complimentary-ai-responses) so they can try Notion AI features out.
 
@@ -228,6 +228,6 @@ You may have used up your Standard or Select usage for Notion AI. Learn more abo
 
 ### Do any AI models cost extra?
 
-Yes. High credit consumption models require Notion credits from the start, rather than using your Standard or Select credits. These models stay off until a workspace owner or admin turns them on, and admins can set how many credits each person can spend.
+Yes. High credit consumption models require Notion credits from the start, rather than using your Standard or Select credits. These models stay off until a workspace owner turns them on, and owners can set how many credits each person can spend.
 
 [Learn how to manage AI models and member credit spend →](https://www.notion.com/help/manage-ai-models-and-member-credit-spend)

@@ -9,10 +9,6 @@ category: "Notion credits"
 categoryKey: "category:notion-credits"
 ---
 
-**When changes start**
-
-New Business and Enterprise workspaces move to the [new credit system](https://www.notion.com/help/standard-select-and-notion-credits-eligible-features) starting October 19, 2026. For existing workspaces, it takes effect on November 2, 2026.
-
 Notion credits are an add-on for Business and Enterprise plans. They’re shared across your workspace and let you run [Custom Agents](https://www.notion.com/help/custom-agents), [Workers](https://www.notion.com/help/run-custom-code-with-workers), [high credit consumption models](https://www.notion.com/help/manage-ai-models-and-member-credit-spend), and additional Notion AI usage for [eligible features beyond your Standard and Select usage](https://www.notion.com/help/standard-select-and-notion-credits-eligible-features).
 
 If you manage billing in-product, workspace owners can [purchase credits](https://www.notion.com/help/purchase-notion-credits) and track usage in the [Notion credits dashboard](https://www.notion.com/help/track-usage-in-the-notion-credits-dashboard). If you work with an account team, they can help you estimate credit needs and review credit options.

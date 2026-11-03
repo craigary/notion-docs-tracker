@@ -145,6 +145,14 @@ Workspace admins can manage Custom Agents across the organization using the foll
 
 On the Enterprise Plan, admins can also manage Custom Agents from their own tools using the [Admin API](https://www.notion.com/help/manage-custom-agents-with-the-admin-api). See the Admin API section below.
 
+In `Settings` → `Notion AI`, admins on Business and Enterprise plans can review and manage agent spend for the workspace. The `Overview` tab lists each agent with its owner, type, model, runs, and credits used, and you can change the model an agent uses right from that table. To set credit limits, open the `Credits` tab, where you can set a limit for one agent or a default for all of them.
+
+For a tour of these tabs, see [Notion AI settings overview →](https://www.notion.com/help/notion-ai-settings-overview)
+
+To keep a business-critical agent from pausing, set its credit limit to `Unlimited`, which removes the per-agent cap. The agent can still be limited by the credits your workspace has available. An agent uses its owner's Select credits by default, then workspace Notion credits if you allow it, and you can change an agent's funding from its `Credits` tab.
+
+[Learn how AI credits work for Custom Agents →](https://www.notion.com/help/how-ai-credits-work-for-custom-agents)
+
 ### [Agent Directory](https://www.notion.com/help/custom-agents-sharing-and-permissions#agent-directory)
 
 * Search and view all Custom Agents in your workspace.
@@ -155,7 +163,9 @@ On the Enterprise Plan, admins can also manage Custom Agents from their own tool
 
 * **Enterprise only:** Change permissions and delete any agent, even if you don't have access to it.
 
-To access the **Agent Directory**, go to `Settings`, select `Notion AI` from the sidebar, enter the `Agents` tab. Browse or search for agents in your workspace.
+The agent list also shows each agent's model, runs completed, and credits used, and you can change the model an agent uses right from the table. An agent that has never been published shows as `Draft`, since a draft can't run.
+
+To access the **Agent Directory**, go to `Settings`, select `Notion AI` from the sidebar, enter the `Overview` tab. Browse or search for agents in your workspace.
 
 ![Image of agent directory within Notion AI.](https://images.ctfassets.net/spoqsaf9291f/6fYfD4V4o71mEhMVgfIMNw/253416820a83c31fb49fb58638b8bbdd/Agent_directory.png)
 
@@ -165,7 +175,7 @@ Restrict who can create Custom Agents:
 
 1. Go to `Settings `> `Notion AI`.
 
-2. Enter `Agents `tabs and go to `Control who can create agents`.
+2. Enter `Controls `tabs and go to `Control who can create agents`.
 
 3. Choose who can create agents: `All workspace members `(default), `Workspace owners only`, or `Workspace owners + added groups only.`
 

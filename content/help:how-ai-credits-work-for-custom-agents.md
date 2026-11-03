@@ -1,17 +1,13 @@
 ---
 title: "How AI credits work for Custom Agents"
 emoji: null
-description: "Learn which type of credits a Custom Agent uses, who pays when you share one, and how admins can fund an agent with Notion credits."
+description: "Learn which type of credits a Custom Agent uses, who pays when you share one, and how workspace owners can fund an agent with Notion credits."
 url: "https://www.notion.com/help/how-ai-credits-work-for-custom-agents"
 key: "help:how-ai-credits-work-for-custom-agents"
 coverImage: null
 category: "Notion credits"
 categoryKey: "category:notion-credits"
 ---
-
-**When changes start**
-
-New Business and Enterprise workspaces move to the [new credit system](https://www.notion.com/help/standard-select-and-notion-credits-eligible-features) starting October 19, 2026. For existing workspaces, it takes effect on November 2, 2026.
 
 Business and Enterprise plans include two kinds of AI credits for each member: Standard credits and Select credits. By default, a [Custom Agent](https://www.notion.com/help/custom-agents) uses its owner’s Select credits, even when other people use it. A workspace admin can instead fund an agent with a monthly budget of [Notion credits](https://www.notion.com/help/category/notion-credits), and can set budgets and spending controls for each agent.
 
@@ -27,7 +23,7 @@ Admins can also [switch an agent to draw directly from the workspace’s Notion 
 
 A shared Custom Agent uses the owner’s [Select credits](https://www.notion.com/help/manage-your-ai-credits) by default. The owner can set a spending cap for each agent, so one agent can’t use up all their credits.
 
-Admins can also [switch an agent to draw directly from the workspace’s Notion credits](https://www.notion.com/help/how-ai-credits-work-for-custom-agents#for-admins-fund-&-control-custom-agent-spending) at any time.
+Workspace owners can also [switch an agent to draw directly from the workspace’s Notion credits](https://www.notion.com/help/how-ai-credits-work-for-custom-agents#for-admins-fund-&-control-custom-agent-spending) at any time.
 
 ## What happens when a workspace has no Notion credits
 
@@ -43,13 +39,13 @@ A Custom Agent uses credits in this order:
 
 2. The agent owner’s additional Notion credit allowance, if available.
 
-3. The workspace’s shared Notion credits, if available and an admin allows their use.
+3. The workspace’s shared Notion credits, if available and a workspace owner allows their use.
 
-Admins can also [switch an agent to draw directly from the workspace’s Notion credits](https://www.notion.com/help/how-ai-credits-work-for-custom-agents#for-admins-fund-&-control-custom-agent-spending) at any time, bypassing the owner’s Select credits and additional allowances.
+Workspace owners can also [switch an agent to draw directly from the workspace’s Notion credits](https://www.notion.com/help/how-ai-credits-work-for-custom-agents#for-admins-fund-&-control-custom-agent-spending) at any time, bypassing the agent owner’s Select credits and additional allowances.
 
-## Ask an admin to fund your Custom Agent
+## Ask a workspace owner to fund your Custom Agent
 
-If you own a Custom Agent, you can ask a workspace admin to fund it with Notion credits.
+If you own a Custom Agent, you can ask a workspace owner to fund it with Notion credits.
 
 1. Open the Custom Agent.
 
@@ -57,21 +53,21 @@ If you own a Custom Agent, you can ask a workspace admin to fund it with Notion 
 
 3. Next to `Credit source`, select `Owner allowance` → `Request workspace credits`.
 
-Enter the monthly budget you recommend. The admin will review your request and approve or deny it. The agent will use workspace credits only after the admin approves the request.
+Enter the monthly budget you recommend. The workspace owner will review your request and approve or deny it. The agent will use workspace credits only after a workspace owner approves the request.
 
-## For admins: fund & control Custom Agent spending
+## For owners: fund & control Custom Agent spending
 
-Workspace admins can:
+Workspace owners can:
 
 * Fund any Custom Agent with a monthly budget of Notion credits.
 
-* Switch an agent’s funding to Notion credits, so it doesn’t use the owner’s Select credits.
+* Switch an agent’s funding to Notion credits, so it doesn’t use the agent owner’s Select credits.
 
 * Set or adjust each agent’s budget and spending controls.
 
 * Set a Notion credit limit for a member, which caps how many Notion credits that person’s agents can spend.
 
-If you’re a workspace admin, you can bypass a member’s credit pool and fund a Custom Agent directly with Notion credits. We recommend this path for Custom Agents your entire workspace uses:
+If you’re a workspace owner, you can bypass a member’s credit pool and fund a Custom Agent directly with Notion credits. We recommend this path for Custom Agents your entire workspace uses:
 
 1. Open the Custom Agent.
 
@@ -84,7 +80,7 @@ If you’re a workspace admin, you can bypass a member’s credit pool and fund 
 
 ### Who pays for a Custom Agent I share with my team?
 
-You do, by default. A Custom Agent uses its owner's [Select credits](https://www.notion.com/help/manage-your-ai-credits), even when other workspace members use it. An admin can switch it to run on your workspace's [Notion credits](https://www.notion.com/help/category/notion-credits) instead.
+You do, by default. A Custom Agent uses its owner's [Select credits](https://www.notion.com/help/manage-your-ai-credits), even when other workspace members use it. A workspace owner can switch it to run on your workspace's [Notion credits](https://www.notion.com/help/category/notion-credits) instead.
 
 
 ### What happens when my Select credits run out?
@@ -101,7 +97,7 @@ Existing Custom Agents created before November 2, 2026, will continue to draw fr
 
 ### Why did all my Custom Agents stop at once?
 
-You may have reached your [Notion credit](https://www.notion.com/help/category/notion-credits) limit, which caps how many of your workspace's Notion credits you can spend. Once you hit this limit, none of your agents can run until it resets or a workspace admin raises it. You can ask an admin for a higher limit.
+You may have reached your [Notion credit](https://www.notion.com/help/category/notion-credits) limit, which caps how many of your workspace's Notion credits you can spend. Once you hit this limit, none of your agents can run until it resets or a workspace owner raises it. You can ask a workspace owner for a higher limit.
 
 
 ### Can I set a budget for a single Custom Agent?

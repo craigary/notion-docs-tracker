@@ -111,7 +111,7 @@ Admins can update a temporary member's expiration date or remove their access at
 
 ## Add a guest
 
-Guests are for people outside your organization. To add someone as a guest, use an email that isn't on one of your organization's domains. Anyone on your domains is added as a member instead.
+Guests are people outside your organization. Anyone with an email on one of your organization's domains is added as a member.
 
 Learn more about the [difference between guests and members →](https://www.notion.com/help/whos-who-in-a-workspace?_gl=1*17fzg5t*_gcl_au*OTc2NTQ2MTQ5LjE3ODgyODc2NTYuOTA0OTk5ODMyLjE3OTIxMTQ0NTAuMTc5MjExNDQ1Ny4xNjcxMDE5ODM5LjE3OTIxMTQ0NTAuMTc5MjExNDQ1Nw..*_ga*NTg5OTEwNzMyLjE3NzkyMTU0NDk.*_ga_9ZJ8CB186L*czE3OTI2MDA3NzAkbzEzMCRnMSR0MTc5MjYwMDgyNyRqMyRsMCRoMA..#guests)
 

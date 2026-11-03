@@ -9,11 +9,7 @@ category: "Notion credits"
 categoryKey: "category:notion-credits"
 ---
 
-**When changes start**
-
-New Business and Enterprise workspaces move to the new credit system explained in this article starting October 19, 2026. For existing workspaces, it takes effect on November 2, 2026.
-
-Business and Enterprise plans include [two kinds of AI credits](https://www.notion.com/help/manage-your-ai-credits) for each member, plus a shared workspace balance your admin manages.
+Business and Enterprise plans include [two kinds of AI credit](https://www.notion.com/help/manage-your-ai-credits) allowances for each member, plus a shared workspace balance a workspace owner manages.
 
 ## How Standard & Select credits work
 
@@ -25,19 +21,19 @@ Standard and Select credits come with your seat. They aren’t cash or a cash ba
 
 * They each reset monthly and don’t roll over.
 
-* If you run out of one kind, features that use it pause until your next reset, unless your admin lets you keep going using [Notion credits](https://www.notion.com/help/category/notion-credits).
+* If you run out of one kind, features that use it pause until your next reset, unless a workspace owner lets you keep going using [Notion credits](https://www.notion.com/help/category/notion-credits).
 
 \* Your included amount may vary depending on your plan and purchase arrangement. To check your allowance, go to `Settings` → `Notion AI` → `Usage`.
 
 ## How Notion credits work
 
-If your admin allows it, you can use your workspace’s [Notion credits](https://www.notion.com/help/category/notion-credits) for eligible AI usage after your Standard or Select credits run out.
+If a workspace owner allows it, you can use your workspace’s [Notion credits](https://www.notion.com/help/category/notion-credits) for eligible AI usage after your Standard or Select credits run out.
 
 ## Which features use each credit
 
 A checkmark means that credit type covers the feature.
 
-| **Feature**                                                   | **Standard credits** | **Select credits** | **Notion credits (with admin approval)**                 |
+| **Feature**                                                   | **Standard credits** | **Select credits** | **Notion credits (with owner approval)**                 |
 | ------------------------------------------------------------- | -------------------- | ------------------ | -------------------------------------------------------- |
 | Notion Agent on Auto                                          | ✓                    | ✗                  | ✓ after Standard runs out                                |
 | Notion Agent with a model you pick                            | ✗                    | ✓                  | ✓ after Select runs out                                  |
@@ -53,7 +49,7 @@ Database Autofill does not currently reduce credit balance.
 
 ## Who pays for a Custom Agent
 
-By default, a [Custom Agent](https://www.notion.com/help/category/custom-agents) uses its owner’s Select credits, even when you share it with your team. An admin can instead fund an agent with a monthly budget of Notion credits, and can set budgets and spending controls for each agent. Learn more about [how AI credits work for Custom Agents →](https://www.notion.com/help/how-ai-credits-work-for-custom-agents)
+By default, a [Custom Agent](https://www.notion.com/help/category/custom-agents) uses its owner’s Select credits, even when you share it with your team. A workspace owner can instead fund an agent with a monthly budget of Notion credits, and can set budgets and spending controls for each agent. Learn more about [how AI credits work for Custom Agents →](https://www.notion.com/help/how-ai-credits-work-for-custom-agents)
 
 ## Notion MCP & the Notion API
 

@@ -51,7 +51,7 @@ Find the friendly face at the bottom of Notion to chat with your agent. When you
 
   * “Summarize this week’s conversations from my team Slack channel.”
 
-* Notion Agent can also take action in Slack for you. Once you connect your own Slack account, it can look up people, search channels you're in (including private channels and direct messages), read recent messages, open shared files, post messages, reply in threads, edit messages it posted, and add or remove reactions. It acts as you, so anything it posts shows up as coming from you, and it can only reach what you can already see in Slack. If your agent can only search Slack, connect your Slack account when prompted or check with a workspace admin. [Learn more about Slack actions →](https://www.notion.com/help/notion-ai-connectors-for-slack)
+* Notion Agent can also take action in Slack for you. Once you connect your own Slack account, it can look up people, search channels you're in (including private channels and direct messages), read recent messages, open shared files, post messages, reply in threads, edit messages it posted, and add or remove reactions. It acts as you, so anything it posts shows up as coming from you, and it can only reach what you can already see in Slack. If your agent can only search Slack, connect your Slack account when prompted or check with a workspace owner. [Learn more about Slack actions →](https://www.notion.com/help/notion-ai-connectors-for-slack)
 
   * Try these prompts:
 
@@ -246,9 +246,9 @@ Your feedback isn’t used to train your Notion Agent. Instead, it’s shared wi
 
 There are three common reasons:
 
-1. **An admin hasn't turned the model on.&#x20;**&#x48;igh credit consumption models are off in every workspace until a workspace owner or admin turns them on in `Settings` → `Notion AI`. Ask your admin if you need one.
+1. **A workspace owner hasn't turned the model on.&#x20;**&#x48;igh credit consumption models are off in every workspace until a workspace owner turns them on in `Settings` → `Notion AI`. Ask an owner if you need one.
 
-2. **You've reached your credit limit.** High credit consumption models spend [Notion credits](https://www.notion.com/help/what-are-notion-credits), and your workspace can set a limit for each person. You can keep using the models included in your plan, and your admin can raise your limit.
+2. **You've reached your credit limit.** High credit consumption models spend [Notion credits](https://www.notion.com/help/what-are-notion-credits), and your workspace can set a limit for each person. You can keep using the models included in your plan, and a workspace owner can raise your limit.
 
 3. **Your workspace reached its allowance.** Some AI features pause until the credits refresh. [Learn how to manage your AI credits →](https://www.notion.com/help/manage-your-usage-allowance-for-notion-ai)
 
@@ -257,4 +257,4 @@ There are three common reasons:
 
 Some models are part of your plan, so using them with [Notion Agent](https://www.notion.com/help/notion-agent) doesn't spend [Notion credits](https://www.notion.com/help/what-are-notion-credits). High credit consumption models cost much more to run, so using them requires Notion credits.
 
-Your admin decides whether these models are available and how many credits each person can spend. Learn more about [managing AI models and member credit spend →](https://www.notion.com/help/manage-ai-models-and-member-credit-spend)
+Workspace owners <!-- -->decide whether these models are available and how many credits each person can spend. Learn more about [managing AI models and member credit spend →](https://www.notion.com/help/manage-ai-models-and-member-credit-spend)
