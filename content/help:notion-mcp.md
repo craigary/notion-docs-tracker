@@ -4,7 +4,7 @@ emoji: null
 description: "Connect your favorite AI apps, like Claude, ChatGPT, and Cursor, directly to your Notion workspace."
 url: "https://www.notion.com/help/notion-mcp"
 key: "help:notion-mcp"
-coverImage: null
+coverImage: "https://img.youtube.com/vi/2p8_o5fN_6g/maxresdefault.jpg"
 category: "Notion AI"
 categoryKey: "category:notion-ai"
 ---
@@ -25,6 +25,8 @@ Unlike traditional integrations, MCP is designed specifically for AI agents. It'
 
 **For personal productivity**: Create detailed travel itineraries, organize learning materials, or turn meeting recordings into actionable task lists.
 
+Learn more about [how different teams use Notion MCP →](https://www.notion.com/blog/mcp-use-cases)
+
 ## Getting started
 
 Ready to connect your AI apps to Notion? Here's how:
@@ -36,6 +38,42 @@ Ready to connect your AI apps to Notion? Here's how:
 3. **For custom MCP connections**: Check out our [developer docs](https://developers.notion.com/docs/get-started-with-mcp#connect-through-your-ai-tool) for step-by-step setup instructions and manual connection methods for supported MCP clients.
 
 4. **View supported tools**: See the full list of [compatible AI apps](https://developers.notion.com/docs/mcp-supported-tools) and their capabilities.
+
+## Set up your agent with the setup prompt
+
+Connecting your AI app to Notion MCP gives it access to your workspace, but most agents only use Notion when you ask. The **setup prompt** teaches your agent to check Notion for context before it answers, save useful work back to Notion, and remember what matters from chat to chat.
+
+* **One shared brain for every agent:** Your context, Skills, and work live in Notion, so any agent you connect can pick up where the last one left off.
+
+* **Stop starting from zero:** Your agent saves your preferences, decisions, and project details to a private Memories database you can review and edit.
+
+* **Your workspace stays the way you like it:&#x20;**&#x54;he setup prompt adapts to how your workspace is already organized, and your agent asks before it creates or changes anything.
+
+To get started:
+
+1. Connect your AI app to Notion MCP. See [getting started](https://www.notion.com/help/notion-mcp#getting-started) above.
+
+2. Share the setup prompt with your agent:
+
+   * **Claude:&#x20;**[Open the setup prompt in Claude](https://claude.ai/new?q=Help%20me%20set%20up%20Notion%20as%20my%20context%20system%20using%20this%20guide%3A%20https%3A%2F%2Fdevelopers.notion.com%2Fprompts%2Fsetup)
+
+   * **ChatGPT:&#x20;**[Open the setup prompt in ChatGPT](https://chatgpt.com/plugins/notion?install=\&prompt=Help+me+set+up+Notion+as+my+context+system+using+this+guide%3A+https%3A%2F%2Fdevelopers.notion.com%2Fprompts%2Fsetup)
+
+   * **Any other agent:** Start a new chat and paste:
+
+     `Help me set up Notion as my context system using this guide: <https://developers.notion.com/prompts/setup`>
+
+3. Follow the steps your agent suggests. It offers to import your Memories, recent work, and skills, then saves an Agent Operating Guide in Notion.
+
+4. Add the custom instructions your agent gives you to your AI app's settings, so future chats remember to use Notion:
+
+   * **ChatGPT:&#x20;**`Settings` → `Personalization` → `Custom Instructions`
+
+   * **Claude:&#x20;**`Settings` → `Account` → `Instructions for Claude`
+
+   * **GrokBot:** There isn't a lasting place to save instructions yet, so share your Agent Operating Guide at the start of each new chat.
+
+Run the setup prompt once for each agent you connect. For full details, see the [setup prompt in our developer docs](https://developers.notion.com/prompts/setup) →
 
 ## Best practices
 
@@ -63,7 +101,7 @@ With MCP Governance enabled, Enterprise admins can:
 
 Notion MCP continues to respect all existing Notion permissions.
 
-If your company uses Okta to sign in to Notion, you can manage how supported AI tools like Claude connect to Notion using enterprise-managed connections. Your Oktakta admin sets up the connection once for the whole team, so members don't need to approve it themselves. Learn more about setting up [enterprise-managed connections for Notion MCP](https://www.notion.com/help/set-up-enterprise-managed-connections-for-notion-mcp)→
+On the Enterprise plan, you can manage how supported AI apps such as Claude connect to Notion using enterprise-managed connections. An admin sets up the connection once for the whole team, so members don't need to approve it themselves. You can set this up with your own identity provider, such as Okta, or by trusting Claude to confirm who's on your team, so any single sign-on provider works. Learn more about [setting up enterprise-managed connections for Notion MCP →](https://www.notion.com/help/set-up-enterprise-managed-connections-for-notion-mcp)
 
 ### [How to enable](https://www.notion.com/help/notion-mcp#how-to-enable)
 

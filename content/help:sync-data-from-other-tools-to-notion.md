@@ -89,6 +89,8 @@ You can create views, filter and sort records, and add your own Notion propertie
 
 Give your own properties distinct names so they don’t conflict with properties managed by the sync.
 
+If you stop syncing a property, its column stays in the database until you delete it. Turn the property off in the sync first, then delete the column. If you delete the column first, the sync adds it back.
+
 The databases start as private pages. Share them using Notion’s page permissions when you’re ready.
 
 **Note**: Notion sharing controls who can see the synced data. A person with access to the Notion database may be able to see records they can’t access in the source tool. Source permissions aren’t copied to each viewer in Notion. Review access before sharing.
@@ -142,6 +144,10 @@ Open the sync’s status details. Reconnect if authorization has expired, or ask
 ### [The sync has reached a row limit](https://www.notion.com/help/sync-data-from-other-tools-to-notion#the-sync-has-reached-a-row-limit)
 
 Reduce the selected data or choose a shorter history window. Review the effect before saving: removing a source or shortening history can remove synced pages. The connection-specific guides explain what happens when you change a selection.
+
+### [The sync has reached the property limit](https://www.notion.com/help/sync-data-from-other-tools-to-notion#the-sync-has-reached-the-property-limit)
+
+Notion databases have a limit on how many properties they can hold. If a synced database reaches it, delete properties you don't need, or sync fewer properties. Turning a property off in the sync leaves its column in the database, so deleting those unused columns can free up room. Each connection's guide explains how to change what the sync includes.
 
 ## Related guides
 

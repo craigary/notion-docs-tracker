@@ -117,6 +117,24 @@ Open the sync in **Settings** → **Connections** → **Jira** → **Database sy
 
 * **Change history:** Expanding the window imports more work items. Shortening it removes work items outside the new window.
 
+### [Add a synced property](https://www.notion.com/help/jira#add-a-synced-property)
+
+1. Open the sync in **Settings** → **Connections** → **Jira** → **Database sync**, and edit it.
+
+2. Open **Custom properties** for a space, then select the properties to add.
+
+3. Click **Save**. The new properties show up as columns in your **Jira Work Items** database. Existing pages can stay empty until the work item changes in Jira or is imported again.
+
+### [Remove a synced property](https://www.notion.com/help/jira#remove-a-synced-property)
+
+1. Open the sync and edit it.
+
+2. Deselect the custom properties you want to remove.
+
+3. Click **Save**.
+
+4. Delete those properties from your **Jira Work Items** database. Turning a property off in the sync doesn't remove its column, so it stays until you delete it. If you delete the column before you turn the property off in the sync, it comes back on the next sync.
+
 Preserve any Notion-only information you need before removing spaces or shortening history.
 
 To stop the sync permanently, use **Delete sync**. The existing Notion databases and pages remain, but stop receiving updates. Their synced properties remain read-only. Deleting the sync cannot be undone.
@@ -150,6 +168,10 @@ A deletion or permission change in Jira may not remove the Notion page right awa
 ### [Updates have stopped](https://www.notion.com/help/jira#updates-have-stopped)
 
 Open the sync’s status details. Reconnect the account or restore Jira access when prompted. Temporary Jira outages and request limits can delay updates while Notion retries.
+
+### [The database reached its property limit](https://www.notion.com/help/jira#the-database-reached-its-property-limit)
+
+If a sync tries to add more properties than the database can hold, you’ll see a message saying the property limit was reached. To fix it, delete properties you don't need, or turn off properties you no longer sync. Turning a property off leaves its column in place, so deleting those unused columns can free up room.
 
 ## Related guides
 

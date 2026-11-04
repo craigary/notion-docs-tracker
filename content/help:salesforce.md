@@ -121,6 +121,21 @@ You can edit the sync name, selected object types, property selections, and hist
 
 * **Shorten history:** Notion removes records outside the new window.
 
+### [Add a synced property](https://www.notion.com/help/salesforce#add-a-synced-property)
+
+1. Open the sync in **Settings** → **Connections** → **Salesforce** → **Database sync**, and edit it.
+
+2. For the object type you want, select the properties to add.
+
+3. Click **Save**. The new properties show up as columns in your database. Existing pages can stay empty until the source record changes or is imported again.
+
+### [Remove a synced property](https://www.notion.com/help/salesforce#remove-a-synced-property)
+
+1\. Open the sync and edit it.\
+2\. Deselect the properties you want to remove.\
+3\. Click **Save**.\
+4\. Delete those properties from your Notion database. Turning a property off in the sync doesn't remove its column, so it stays until you delete it. If you delete the column before you turn the property off in the sync, it comes back on the next sync.
+
 Use **Pause sync** to temporarily stop syncing without losing its data or settings, then **Resume sync** when you’re ready to continue. This doesn’t affect existing Notion pages.
 
 To stop the entire sync permanently, use **Delete sync**. The databases and pages remain, but no longer receive updates. Synced properties remain read-only. Deleting the sync can’t be undone.
@@ -156,6 +171,10 @@ Salesforce must make the deletion available to the sync before Notion can proces
 ### [Updates have stopped](https://www.notion.com/help/salesforce#updates-have-stopped)
 
 Open the sync’s status details. Reconnect or ask your Salesforce administrator to restore access if prompted. Salesforce request limits and temporary outages can delay updates while Notion retries.
+
+### [The database reached its property limit](https://www.notion.com/help/salesforce#the-database-reached-its-property-limit)
+
+If a sync tries to add more properties than the database can hold, you’ll see a message saying the property limit was reached. To fix it, delete properties you don't need, or turn off properties you no longer sync. Turning a property off leaves its column in place, so deleting those unused columns can free up room.
 
 ## Related guides
 
