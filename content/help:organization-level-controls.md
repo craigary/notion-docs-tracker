@@ -165,7 +165,7 @@ From the Notion credits dashboard, organization owners can:
 
 ### [Manage on-demand spend for all workspaces](https://www.notion.com/help/organization-level-controls#manage-on-demand-spend-for-all-workspaces)
 
-Organization owners can also manage whether on-demand spend is turned on for workspaces under the contract.
+Organization owners can manage whether on-demand spend is turned on for workspaces under the contract. <!-- -->Defaults vary by plan and contract, so on-demand spend may already be on for some workspaces. To monitor and control spending, review this setting and adjust it per workspace.
 
 * If on-demand spend is on, agents can continue running after your credits run out.
 
