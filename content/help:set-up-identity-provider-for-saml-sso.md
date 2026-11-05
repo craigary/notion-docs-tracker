@@ -67,7 +67,7 @@ To set up in Notion in Entra ID:
 
 2. On the `Basic SAML Configuration` section, if you wish to configure the application in IdP initiated mode, enter the values for the following fields:
 
-   * In the `Identifier (Entity ID)` text box, enter the following URL: `https://www.notion.so/sso/saml`.
+   * In the `Identifier (Entity ID)` text box, enter the following URL: `https://www.notion.com/sso/saml`.
 
    * In the `Reply URL (Assertion Consumer Service URL)` text box, use the ACS URL from Notion, found on the `Identity & provisioning` tab of `Settings` in your left-hand sidebar.
 
@@ -338,7 +338,7 @@ Your IdP must support the SAML 2.0 spec to be used with Notion. To set up your I
 
    1. Similarly, configure `username` to `urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress`.
 
-3. Configure `EntityID` to [https://notion.so/sso/saml](https://stg.notion.so/sso/saml). You can find this in `Settings` → the bottom of `Identity & Provisioning`.
+3. Configure `EntityID` to [https://notion.com/sso/saml](https://stg.notion.com/sso/saml). You can find this in `Settings` → the bottom of `Identity & Provisioning`.
 
 4. Configure the following attributes:
 
