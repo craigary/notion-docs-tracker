@@ -12,8 +12,8 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/2HM5BPlsww5fF5gJDpI71B/94
 4 help:jira-ai-connector
 5 help:notion-ai-connector-for-linear
 6 help:notion-ai-connector-for-microsoft-teams
-7 help:notion-ai-connector-for-microsoft-sharepoint-and-onedrive
-8 help:notion-ai-connectors-for-slack
+7 help:notion-ai-connectors-for-slack
+8 help:connect-sharepoint-and-onedrive-to-notion-agents
 9 help:box-ai-connector
 10 help:microsoft-outlook-ai-connector
 11 help:notion-calendar-ai-connector
@@ -22,7 +22,6 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/2HM5BPlsww5fF5gJDpI71B/94
 14 help:asana-ai-connector
 15 help:google-calendar-ai-connector
 16 help:notion-mail-ai-connector
-17 help:connect-sharepoint-and-onedrive-to-notion-agents
 
 ## Video
 

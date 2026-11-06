@@ -43,6 +43,12 @@ A Custom Agent uses credits in this order:
 
 Workspace owners can also [switch an agent to draw directly from the workspace’s Notion credits](https://www.notion.com/help/how-ai-credits-work-for-custom-agents#for-admins-fund-&-control-custom-agent-spending) at any time, bypassing the agent owner’s Select credits and additional allowances.
 
+**Using Custom Agents on your phone**
+
+On the mobile app, you can only use Custom Agents you own. Agents that other people share with you are available on desktop or the web, not on your mobile device.
+
+You also can't create a Custom Agent on mobile. To build a new agent, open Notion on desktop or the web. Once it's set up, you can chat with it from your phone.
+
 ## Ask a workspace owner to fund your Custom Agent
 
 If you own a Custom Agent, you can ask a workspace owner to fund it with Notion credits.

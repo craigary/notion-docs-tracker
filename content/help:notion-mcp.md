@@ -1,5 +1,5 @@
 ---
-title: "Notion MCP"
+title: "Connect AI tools to your workspace with Notion MCP"
 emoji: null
 description: "Connect your favorite AI apps, like Claude, ChatGPT, and Cursor, directly to your Notion workspace."
 url: "https://www.notion.com/help/notion-mcp"
@@ -103,23 +103,15 @@ Notion MCP continues to respect all existing Notion permissions.
 
 On the Enterprise plan, you can manage how supported AI apps such as Claude connect to Notion using enterprise-managed connections. An admin sets up the connection once for the whole team, so members don't need to approve it themselves. You can set this up with your own identity provider, such as Okta, or by trusting Claude to confirm who's on your team, so any single sign-on provider works. Learn more about [setting up enterprise-managed connections for Notion MCP →](https://www.notion.com/help/set-up-enterprise-managed-connections-for-notion-mcp)
 
-### [How to enable](https://www.notion.com/help/notion-mcp#how-to-enable)
+## How to set up these controls
 
-Workspace owners on the Enterprise Plan can control whether members can connect external AI apps through Notion MCP using the following steps:
+Workspace owners on the Enterprise plan can choose which external AI apps members can connect through Notion MCP:
 
-1. Go to `Settings` → `Connections`.
+* Go to `Settings` → `Notion MCP` → `Manage workspace clients`.
 
-2. Open the `Permissions` tab.
+* Under `Which clients members can connect`, choose `Approved MCP clients only`.
 
-3. Under `AI apps`, set `Restrict AI apps members can connect` to `Only from approved list`.
-
-   * If any external AI apps are already connected to the Notion MCP, they will automatically be added to the approved list.
-
-4. Click `Manage approved AI apps` to review which external AI apps are approved.
-
-5. If you need to add more, click `Add approved AI apps` and use the modal to search and approve additional external AI apps
-
-6. Once an external AI app is on the approved list, any member in the workspace can connect the Notion MCP to that external AI app. It will be in the list of External AI apps as `Not Connected`.
+* Select `Manage approved list` to review or add clients.
 
 ## Popular AI apps
 
@@ -129,7 +121,7 @@ Notion MCP works with leading AI platforms:
 
 * [Cursor](https://cursor.sh): The AI-powered code editor with seamless Notion integration.
 
-* [ChatGPT Pro](https://chat.openai.com): Use ChatGPT Pro's advanced features with your Notion content.
+* [ChatGPT](https://chatgpt.com/): Connect ChatGPT to your Notion workspace. You can also [open Notion pages alongside your chat](https://www.notion.com/help/use-notion-pages-in-chatgpt) and edit them live.
 
 More connections are being added regularly. Any AI app that supports the Model Context Protocol can connect to Notion.
 

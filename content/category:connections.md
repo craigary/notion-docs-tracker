@@ -10,17 +10,17 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/2HM5BPlsww5fF5gJDpI71B/94
 2 help:add-and-manage-connections-with-the-api
 3 help:create-integrations-with-the-notion-api
 4 help:link-previews
-5 help:synced-databases
+5 help:synced-databases-legacy
 6 help:connected-properties
 7 help:slack
-8 help:manage-who-can-create-database-syncs
-9 help:connect-gitlab
-10 help:sync-data-from-other-tools-to-notion
-11 help:jira
-12 help:salesforce
-13 help:github
-14 help:connect-asana
-15 help:microsoft-teams-notifications
+8 help:github
+9 help:salesforce
+10 help:jira
+11 help:manage-who-can-create-database-syncs
+12 help:connect-asana
+13 help:sync-data-from-other-tools-to-notion
+14 help:microsoft-teams-notifications
+15 help:connect-gitlab
 
 ## Video
 
