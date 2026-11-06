@@ -289,15 +289,6 @@ Guests are meant for people outside your organization, like contractors or clien
 Your organization's domains include an allowed email domain, an email domain that matches the workspace owner's domain, or one of your workspace's verified domains.
 
 
-### I tried adding a guest to my workspace but they were turned into a member automatically. How can I prevent that?
-
-If your workspace is above the guest limit for your [plan](https://www.notion.com/pricing), new users that you share content with will be automatically added as a member (instead of as a guest) if they have the same organization email domain.
-
-To allow for a new user with the same organization email domain to be added as a guest, you will need to remove existing guests to fall below your plan limit, upgrade to a plan with a higher limit, or work with our sales team (for eligible customers).
-
-You may have the Allowed Email Domains setting turned on. When enabled, this feature allows people with that email domain to join your workspace as a member automatically. You can disable this setting in the `General` tab of `Settings` in the left sidebar.
-
-
 ### What’s the difference between sharing my Notion page with anyone on the web with the link and sharing my Notion page as a Notion Site?
 
 * If you want to collaborate with a client on a proposal, you might want to use a public sharing link.
