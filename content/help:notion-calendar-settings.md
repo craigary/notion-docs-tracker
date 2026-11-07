@@ -61,7 +61,7 @@ Open the `Notifications` tab of your settings to adjust the following:
 
 * **Upcoming meeting notifications:** Choose how early you want to be notified about a meeting, and what sound you want notifications to play.
 
-You can receive Notion Calendar desktop notifications by allowing them in your device’s settings. To receive Notion Calendar browser notifications, go to <https://calendar.notion.so/settings/notifications>. If notifications are turned off, go to your browser’s settings and make sure to allow notifications from <https://calendar.notion.so>.
+You can receive Notion Calendar desktop notifications by allowing them in your device’s settings. To receive Notion Calendar browser notifications, go to <https://calendar.notion.com/settings/notifications>. If notifications are turned off, go to your browser’s settings and make sure to allow notifications from <https://calendar.notion.com>.
 
 If you have one email address connected to both a Google Calendar and an iCloud Calendar, but you want events from iCloud to go to your Google Calendar, you can set up iCloud email notifications following the instructions [here →](https://support.apple.com/guide/icloud/receive-emails-updates-shared-calendars-mm8074582205/icloud)
 

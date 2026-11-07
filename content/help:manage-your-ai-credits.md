@@ -15,7 +15,7 @@ Business and Enterprise plans give each workspace member a set amount of Notion 
 
 * **Select credits**: Used for work where you pick the model yourself, or use a [Custom Agent](https://www.notion.com/help/how-ai-credits-work-for-custom-agents) that isn’t funded by your workspace. Each member gets 500 Select credits a month.\*
 
-\* Your included amount may vary depending on your plan and purchase arrangement. To check your allowance, go to `Settings` → `Notion AI` → `Usage`.
+\* Your included amount may vary depending on your plan and purchase arrangement. To check your allowance, go to `Settings` → `Notion AI` → `Me`.
 
 [**Auto**](https://www.notion.com/help/auto)**&#x20;is Notion’s model router.**
 
@@ -29,7 +29,7 @@ It sends each task to the model that best balances quality, speed, and cost, so 
 
 Standard and Select allowances are separate. Using one doesn’t affect the other. You can’t combine them or transfer them between members. Each resets monthly, and unused credits don’t roll over. Notion lets you know when you’re close to using up your Standard or Select credits. Once you use up all Standard or Select credits, impacted work will pause until your credits reset.
 
-A workspace owner can set up a Notion credit limit allowing you to continue using<!-- --> your workspace’s [Notion credits](https://www.notion.com/help/category/notion-credits), which can cover eligible usage beyond the Standard or Select allowances included each month. Notion credits can also pay for high credit consumption models, and [Custom Agents](https://www.notion.com/help/how-ai-credits-work-for-custom-agents) funded by the workspace.
+A workspace owner can set up a Notion credit limit allowing you to continue using your workspace’s [Notion credits](https://www.notion.com/help/category/notion-credits), which can cover eligible usage beyond the Standard or Select allowances included each month. Notion credits can also pay for high credit consumption models, and [Custom Agents](https://www.notion.com/help/how-ai-credits-work-for-custom-agents) funded by the workspace.
 
 For the full feature list, see [Standard, Select, and Notion credits: eligible features →](https://www.notion.com/help/standard-select-and-notion-credits-eligible-features)
 
@@ -75,7 +75,9 @@ Credit use varies by scenario. For example, asking Notion Agent to polish an ema
 
 ## Track your credit usage & get alerts
 
-You can see how much of your Standard and Select allowances you’ve used, how much is left, and when they reset by going to `Settings` → `Notion AI` → `Usage`.
+You can see how much of your Standard and Select allowances you’ve used, how much is left, and when they reset by going to `Settings` → `Notion AI` → `Me`.
+
+On your mobile phone, you can open your Notion AI settings to check your own credits. Buying credits and the workspace usage dashboard aren't available in the mobile app.
 
 Notion also alerts you in Notion Agent chat when your Standard or Select credits are running low or have run out, so you have time to adjust.
 
@@ -83,11 +85,15 @@ Notion also alerts you in Notion Agent chat when your Standard or Select credits
 
 Standard and Select allowances are separate. Using one doesn’t affect the other.
 
-* **If you run out of Standard credits:** Features that use Standard credits pause until your next monthly reset. Any Select credits you have left won’t cover Standard features. <!-- -->A workspace owner can set up a Notion credit limit allowing you to continue using<!-- --> your workspace’s [Notion credits](https://www.notion.com/help/category/notion-credits), which can cover eligible usage beyond the Standard or Select credits included each month.
+* **If you run out of Standard credits:** Features that use Standard credits pause until your next monthly reset. Any Select credits you have left won’t cover Standard features. A workspace owner can set up a Notion credit limit allowing you to continue using your workspace’s [Notion credits](https://www.notion.com/help/category/notion-credits), which can cover eligible usage beyond the Standard or Select credits included each month.
 
 * **If you run out of Select credits:** Features that use Select credits pause until your next monthly reset, unless an owner allows you to continue with Notion credits. If you still have Standard credits, [switch Notion Agent to Auto](https://www.notion.com/help/auto) to keep using features covered by Standard.
 
 * **If you run out of both:** You can continue with Notion credits if an owner allows it and your workspace has credits available.
+
+**If your subscription is billed through the Apple App Store or Google Play:**
+
+When your Standard or Select credits run out, features that use them pause until they reset at the start of your next billing cycle. You can't buy extra credits with an app-store subscription. To buy extra credits, a workspace owner must first cancel the existing plan, wait for it to fully expire, then move billing to [notion.com](http://notion.com) on a Business or Enterprise plan that includes AI.
 
 ## Ask a workspace owner for more Notion credits
 
@@ -95,7 +101,7 @@ If you’ve used up your Standard or Select credits and want to keep going, you 
 
 ## For owners: let members keep going on Notion credits
 
-By default, members who use up their Standard or Select allowances have to wait for them to reset. Workspace owners can <!-- -->set up a Notion credit limit letting <!-- -->members keep going using the workspace's [Notion credits](https://www.notion.com/help/category/notion-credits), which can cover eligible usage beyond the Standard or Select credits included each month.
+By default, members who use up their Standard or Select allowances have to wait for them to reset. Workspace owners can set up a Notion credit limit letting members keep going using the workspace's [Notion credits](https://www.notion.com/help/category/notion-credits), which can cover eligible usage beyond the Standard or Select credits included each month.
 
 To give members more usage, set a credit limit by going to `Settings` → `Notion AI`, and finding the `Credits` tab.
 

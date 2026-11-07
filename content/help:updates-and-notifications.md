@@ -131,7 +131,7 @@ If your database has a person property, you can notify people mentioned in that 
 
 4. In the menu that appears, choose whether you want to notify `Users and groups`, `Users only`, or `None`.
 
-**Note:** By default, only individual users will be notified in person properties to reduce the number of notifications sent to users in a group. If you want group members to be notified, make sure to turn this on following the steps above.
+**Note**: By default, Notion notifies only the people named directly, the same as choosing `Individuals only`. This keeps group members from getting extra notifications. To notify everyone in a mentioned group, choose `Individuals & groups` using the steps above.
 
 **Tip:** Want to get Slack notifications when important updates happen in your Notion workspace? Learn [how to set up Slack notifications →](https://www.notion.com/help/slack#get-notifications-in-slack)
 

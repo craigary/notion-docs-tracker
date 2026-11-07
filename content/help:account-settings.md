@@ -55,22 +55,6 @@ You'll need to delete that account first before adding the email as an alias. Lo
 
 Whether you can manage your own email aliases depends on your organization's policy. Your admin may have set aliases to: **Disabled** (not allowed), **Only verified domains** (only emails matching your company's verified domains), or **Enabled** (any email). Contact your workspace admin if you're unable to add an alias.
 
-## FAQs
-
-#### **I tried changing my email address but got an error message saying: "A user with this email already exists."**
-
-If you'd like to change your account email to one that’s already tied to another Notion account, you'll need to delete that account first before adding the email as an alias. To do this:
-
-1. Log into the account tied to your desired email address, then go to `Settings` → `{your name}` → `Delete my account`.
-
-2. Then return to your main account and add the email as an alias.
-
-#### **Can I have multiple email addresses on my Notion account?**
-
-Yes, you can. See [Secondary emails](https://www.notion.com/help/secondary-emails) to learn more about using multiple email addresses for your Notion account.
-
-If you get an error telling you that your new email is already being used with a different account, you first need to [delete the account](https://www.notion.com/help/delete-your-account) tied to that email and then try again.
-
 ## Set, change, or remove your password
 
 If you want to log into Notion using a permanent password instead of temporary login codes:
@@ -292,11 +276,11 @@ If you receive an unexpected email notifying you of a change to your password, y
 
 ### I tried changing my email address but got an error message saying: "A user with this email already exists."
 
-If you'd like to change your account email to one that’s already tied to another Notion account, you can log into the account that’s currently associated with your desired email address and delete that account to free up that email address. To do this:
+I<!-- -->f you'd like to change your account email to one that’s already tied to another Notion account, you'll need to delete that account first before adding the email as an alias. To do this:
 
 1. Log into the account tied to your desired email address, then go to `Settings` → `{your name}` → `Delete my account`.
 
-2. Log into the account whose email address you want to change, then go to `Settings` → `{your name}` → `Change email`.
+2. Then return to your main account and add the email as an alias.
 
 
 ### What if I accidentally deleted something permanently? Any way to get it back?

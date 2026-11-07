@@ -21,15 +21,15 @@ Workspace owners and membership admins can create and edit groups. To do this:
 
 2. Select `Create a group` and enter a name for your group. To set an icon for the group, just click the emoji icon that appears on hover.
 
-3. Toggle open your new group and select `Add members`.
+3. Toggle open your new group. In the `Search members` box, type a name or email. Matches split into `In this group` for people who are already in it, and `Not in group` for other workspace members you can add.
 
-4. Add as many members as you want to any group.
+4. To add one person, select `Add` next to their name under `Not in group`. To add several people at once, select `Add members`, pick the people you want, then confirm.
 
 5. You can also click `Remove` to the right of any group member.
 
 6. Select `•••` next to a group to `Rename` it, `Create teamspace from group`, or `Delete` it.
 
-7. You can always search someone's name or email to see which group they're in.
+7. The `Search members` box also helps you check who's already in a group. Type a name or email, and anyone who matches and is already in the group shows under `In this group`.
 
 ![HC: Manage groups](https://images.ctfassets.net/spoqsaf9291f/5SZvcOROmtVWj6Ps0iFUhj/528181945e993c0ab27a30583252ac67/Group_70__1_.png)
 

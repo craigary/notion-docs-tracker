@@ -17,6 +17,8 @@ categoryKey: "category:sharing-and-collaboration"
 
 * [Who should be a workspace member, and who should be a guest?](https://www.notion.com/help/guides/Who-should-be-a-workspace-member-who-should-be-a-guest)
 
+* Want to add someone to a group? See [Create & manage groups →](https://www.notion.com/help/create-and-manage-groups)
+
 ## Add a member
 
 **Note:&#x20;**&#x4F;n paid plans, you'll be charged per member in your workspace. For more information on plans, [go here →](https://www.notion.com/pricing)

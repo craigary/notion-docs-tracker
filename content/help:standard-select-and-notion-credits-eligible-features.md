@@ -23,7 +23,7 @@ Standard and Select credits come with your seat. They aren’t cash or a cash ba
 
 * If you run out of one kind, features that use it pause until your next reset, unless a workspace owner lets you keep going using [Notion credits](https://www.notion.com/help/category/notion-credits).
 
-\* Your included amount may vary depending on your plan and purchase arrangement. To check your allowance, go to `Settings` → `Notion AI` → `Usage`.
+* Your included amount may vary depending on your plan and purchase arrangement. To check your allowance, go to `Settings` → `Notion AI` → `Me`.
 
 ## How Notion credits work
 

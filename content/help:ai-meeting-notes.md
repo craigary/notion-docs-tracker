@@ -517,8 +517,6 @@ You can hover over an upcoming meeting and:
 
 * Only events tied to your Notion workspace email will appear in `Upcoming meetings`.
 
-* If your [`Upcoming events` widget](https://www.notion.com/help/home-and-my-tasks#upcoming-events) in `Home` is set to `Mirror calendar app`, note that any calendars you’ve hidden in Notion Calendar will also not be reflected in the `Meetings` tab.
-
 ### [AI Meeting Notes list view](https://www.notion.com/help/ai-meeting-notes#ai-meeting-notes-list-view)
 
 In the `Meetings` tab, you’ll also be able to see a consolidated view of all your meeting notes. The list view in your `Meetings` tab is different from your [default database for storing AI Meeting Notes](https://www.notion.com/help/ai-meeting-notes#choose-a-default-database-for-ai-meeting-notes) — it shows you meeting notes you created as well as meeting notes linked to calendar events that you attended, regardless of where those meeting notes are stored in your workspace. This allows you to quickly find any notes you need.

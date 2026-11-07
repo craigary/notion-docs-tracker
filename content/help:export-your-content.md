@@ -105,7 +105,7 @@ Any Notion page or database can be exported as an HTML file. Here's how:
 
 ## Export as Markdown & CSV
 
-Any non-database Notion page can be exported as a Markdown file. Full page databases will be exports as a CSV file, with Markdown files for each subpage. Callout blocks will be exported as HTML, as there is no Markdown equivalent.
+Any non-database Notion page can be exported as a Markdown file. Full page databases will be exported as a CSV file, with Markdown files for each subpage. Callout blocks will be exported as HTML, as there is no Markdown equivalent.
 
 ### [On desktop](https://www.notion.com/help/export-your-content#on-desktop)
 

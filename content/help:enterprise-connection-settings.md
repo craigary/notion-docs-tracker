@@ -27,6 +27,8 @@ Workspace owners on the Enterprise Plan have access to additional settings for m
 
 * `Approved only`: Workspace members can only install connections pre-approved by a workspace owner. If a workspace owner installs an integration that isn't already on the approved list, it'll automatically be added to the approved list afterwards.
 
+These settings are separate from any limit the developer set on their own connection. A developer can build a connection that only certain workspaces are allowed to install. For someone in your workspace to install a connection, both have to allow it. Your workspace has to be on the developer's list, and your approval settings have to allow the connection.
+
 ![Integration - Enterprise menu](https://images.ctfassets.net/spoqsaf9291f/5hClC5SVCaqs0It9asEcEr/59d3a712c45bd39b71a2d4a45c8368be/Integration_-_Enterprise_menu.png)
 
 ### [Auto-approve connections built by Notion](https://www.notion.com/help/enterprise-connection-settings#auto-approve-connections-built-by-notion)

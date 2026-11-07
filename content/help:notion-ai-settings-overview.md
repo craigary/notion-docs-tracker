@@ -5,8 +5,8 @@ description: "Learn how workspace owners use the AI Command Center in Notion AI 
 url: "https://www.notion.com/help/notion-ai-settings-overview"
 key: "help:notion-ai-settings-overview"
 coverImage: null
-category: "Administer your workspace"
-categoryKey: "category:enterprise-admin"
+category: "Notion AI"
+categoryKey: "category:notion-ai"
 ---
 
 Use Notion AI settings to manage how your workspace uses [Notion Agent](https://www.notion.com/help/notion-agent) and [Custom Agents](https://www.notion.com/help/custom-agents). Manage model controls, credit balances and limits, usage, connected apps, and AI insights in one place.
@@ -55,6 +55,8 @@ When a member or an agent needs more Notion credits, they can send a request ins
 
 * Members can see their own usage and personalization settings under the `Me` tab, and any Custom Agents they own, but can't change workspace-wide controls or limits.
 
+* On a mobile device, use the `Me` tab to check your own credits. Workspace-wide tabs like `Overview` and `Usage`, buying credits, and setting limits need the desktop app or a browser.
+
 **Note**: Only workspace owners can review and approve credit requests, and they can route requests to a chosen group instead of handling them alone. Learn how to [review requests for Notion credits →](https://www.notion.com/help/review-requests-for-notion-credits)
 
 ## Best practices for handling credit requests
@@ -89,8 +91,6 @@ When a member or an agent needs more Notion credits, they can send a request ins
 ### Does Notion AI settings replace Access & billing?
 
 No. `Access & billing` still covers your Notion plan and payment details. Notion AI settings is where you manage AI-specific controls, credits, and usage.
-
-The `Notion credits` page will be removed on Nov. 2, 2026. After that, manage credits from the `Credits` tab in `Notion AI` settings.
 
 
 ### Can I export the usage data?

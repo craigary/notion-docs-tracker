@@ -12,10 +12,10 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/5xP7gHlhFbGP72MLcxD09X/27
 4 help:track-notion-credits-usage
 5 help:set-up-auto-adjust-for-notion-credits
 6 help:review-requests-for-notion-credits
-7 help:manage-your-ai-credits
-8 help:auto
-9 help:standard-select-and-notion-credits-eligible-features
-10 help:how-ai-credits-work-for-custom-agents
+7 help:standard-select-and-notion-credits-eligible-features
+8 help:how-ai-credits-work-for-custom-agents
+9 help:auto
+10 help:manage-your-ai-credits
 
 ## Guides
 

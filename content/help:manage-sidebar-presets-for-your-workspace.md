@@ -67,16 +67,6 @@ Presets give members a starting point. Members stay in control of their own side
 
 * Reset a changed tab back to its preset.
 
-## FAQs
-
-**Does every workspace need a default preset?**
-
-Yes. You need at least one default preset so new members start with a sidebar.
-
-**Is this available on mobile?**
-
-These steps are for Notion on desktop only.
-
 
 ## FAQs
 

@@ -53,7 +53,7 @@ There are a few ways that restricted members are different from regular workspac
 
 * They won't see `Connect` in `Settings`, and they can't use Connect to link other apps to Notion.
 
-* They won't see Agents in the workspace. They can't create Custom Agents, use them, or be given access to them.
+* They won't see agents in the workspace. They can't create Custom Agents, use them, or be given access to them.
 
 You can find controls related to restricted members in `Settings`. Learn more: [Workspace security](https://www.notion.com/help/workspace-settings#workspace-security)
 

@@ -169,7 +169,9 @@ In version history, you’ll see changes like:
 
   * If you’re restoring a page with an [inline database](https://www.notion.com/help/intro-to-databases) (in other words, a database inside of a page), you can choose to restore or not restore the database’s pages and properties.
 
-**Note:** Restoring a database may affect existing database views, as well as how other people see the database.
+**Note:** Restoring a database can change its existing views, since the older version may use different view settings.
+
+If a database limits who can see or edit certain columns, those limits stay in place after a restore. The database keeps the column rules it has now, not the rules from the older version. So a restore won't show a hidden column to someone who shouldn't see it, and it won't bring back column rules you've changed. To learn how these rules work, see [Manage database property access →](https://www.notion.com/help/database-property-access)
 
 ### [Version history on mobile](https://www.notion.com/help/duplicate-delete-and-restore-content#version-history-on-mobile)
 

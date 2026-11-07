@@ -23,6 +23,8 @@ The Developer Platform includes:
 
 * **Admin API**: Run organization admin work with code, on the Enterprise Plan.
 
+Building a connection that other people sign in to? See [Notion API connections](https://www.notion.com/help/create-integrations-with-the-notion-api) to create one and choose which workspaces are allowed to install it.
+
 You can turn on Developer Mode to find developer tools inside Notion. Use it to copy IDs, open connections and personal access tokens from your sidebar, and check Workers without switching to a separate website. Learn more about [developer mode →](https://www.notion.com/help/turn-on-developer-mode-to-use-developer-tools-in-notion)
 
 View an overview of all capabilities, stay up-to-date, and learn more about Notion’s Developer Platform in the [developer documentation](https://developers.notion.com/guides/get-started/overview).

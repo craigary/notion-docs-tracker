@@ -49,6 +49,36 @@ All newly added connections are internal initially. If you're a developer workin
 
 Then, follow the instructions in our [developer guide](https://developers.notion.com/docs/authorization) to convert it to a public connection.
 
+### [Choose where your public connection can be installed](https://www.notion.com/help/create-integrations-with-the-notion-api#choose-where-your-public-connection-can-be-installed)
+
+When you create a public connection, you choose who can install it:
+
+* `Any workspace`: anyone can install your connection in their own Notion workspace.
+
+* `Selected workspaces`: only the workspaces you list can install your connection.
+
+Pick `Selected workspaces` when you are building something just for your own company and you do not want other organizations to install it.
+
+Notion checks this every time someone installs your connection. If their workspace is not on your list, the install stops and they see an error.
+
+Only connections that anyone can install can be listed in the connections gallery. A connection that is limited to selected workspaces will not show up there.
+
+**Note**: You choose this when you create the connection. If you need a different setting later, create a new connection.
+
+A connection you own shows up in the developer portal for every workspace that is allowed to install it, already has it installed, or is the workspace where you built it.
+
+### [Change the workspace where you build a public connection](https://www.notion.com/help/create-integrations-with-the-notion-api#change-the-workspace-where-you-build-a-public-connection)
+
+Every public connection has one workspace where you build and test it. You can switch to a different one without starting over.
+
+1. Open your connection in the developer portal.
+
+2. Go to the connection's settings.
+
+3. Pick the workspace you want to build in.
+
+Notion connects your connection to the workspace you picked. You do not need to create a new connection.
+
 ## Granular connection permissions
 
 During the app setup process, developers will be able to choose the access level required from the user.

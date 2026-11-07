@@ -83,7 +83,7 @@ This won’t grant access to the full set of values for this property. If you wa
 
 * Agents can be granted their own permissions on properties. Notion AI usually inherits the user’s permissions. If the user can’t see a column, then their agent can’t read it or fill it in. Note that this means Notion AI or an agent may report that the column does not exist.
 
-* Restoring an older version of a database will retain the current version's property access rules.
+* Restoring an earlier version of a page or database keeps the property access rules the database has now. The rules aren't dropped during a restore, and the older version's rules don't come back. So restoring isn't a way to get back column rules you've changed. To restore a version, see [Delete & restore content →](https://www.notion.com/help/duplicate-delete-and-restore-content)
 
 ## Limitations
 
@@ -140,3 +140,5 @@ Try the same workflow as someone who can see the column. If it works for them, t
 * [Database properties](https://www.notion.com/help/database-properties)
 
 * [Views, filters & sorts](https://www.notion.com/help/views-filters-and-sorts)
+
+* [Delete & restore content](https://www.notion.com/help/duplicate-delete-and-restore-content)
