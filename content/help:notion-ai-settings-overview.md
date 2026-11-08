@@ -31,19 +31,35 @@ This article is for workspace owners on the Business or Enterprise plan. If you'
 
 ## What's in Notion AI settings
 
-**Overview**: See how your workspace uses credits by month, day, credit type (Standard, Select, or Notion), or feature. Find members who are nearing their limit or have requested more credits. The tab also lists each agent, its owner, type, number of runs, and credits used. You can change an agent’s model from the table.
+### [Overview](https://www.notion.com/help/notion-ai-settings-overview#overview)
 
-**Controls**: Choose which model providers and models people can use with [Notion Agent](https://www.notion.com/help/notion-agent) and Custom Agents. Set the default model for new Custom Agents, and choose who can create agents: everyone, workspace owners only, or selected members and groups. Restricting a model provider changes the quality and efficiency of Auto. Learn more about [restricting a model provider for your workspace →](https://www.notion.com/help/manage-ai-models-and-member-credit-spend#restrict-a-model-provider-for-your-workspace)
+See how your workspace uses credits by month, day, credit type (Standard, Select, or Notion), or feature. Find members who are nearing their limit or have requested more credits. The tab also lists each agent, its owner, type, number of runs, and credits used. You can change an agent’s model from the table.
 
-**Credits**: See each credit type's balance, reset date, and expiration date. Buy more Notion credits, and set default or custom credit limits for members, groups, and agents. You can also choose `Unlimited` to remove an individual limit, and choose members to help manage and review credit requests.
+### [Controls](https://www.notion.com/help/notion-ai-settings-overview#controls)
 
-**Usage**: See a detailed breakdown of credit usage by member, group, and agent to understand where your workspace’s credits are going. Export usage data as a CSV or use the [Admin API](https://www.notion.com/help/admin-apis-for-enterprise-organizations) to create your own reports.
+Choose which model providers and models people can use with [Notion Agent](https://www.notion.com/help/notion-agent) and Custom Agents. Set the default model for new Custom Agents, and choose who can create agents: everyone, workspace owners only, or selected members and groups. Restricting a model provider changes the quality and efficiency of Auto. Learn more about [restricting a model provider for your workspace →](https://www.notion.com/help/manage-ai-models-and-member-credit-spend#restrict-a-model-provider-for-your-workspace)
 
-**Connectors**: See which apps your workspace can connect to Notion AI and which apps are already connected.
+### [Credits](https://www.notion.com/help/notion-ai-settings-overview#credits)
 
-**Insights**: See the kinds of work people across your workspace do with AI. Use these insights to understand how your team uses AI and share helpful workflows.
+See each credit type's balance, reset date, and expiration date. Buy more Notion credits, and set default or custom credit limits for members, groups, and agents. You can also choose `Unlimited` to remove an individual limit, and choose members to help manage and review credit requests.
 
-**Me**: Your own credit usage breakdown and personalization settings, plus a list of the agents you own. All members have this tab.
+### [Usage](https://www.notion.com/help/notion-ai-settings-overview#usage)
+
+See a detailed breakdown of credit usage by member, group, and agent to understand where your workspace’s credits are going. Export usage data as a CSV or use the [Admin API](https://www.notion.com/help/admin-apis-for-enterprise-organizations) to create your own reports.
+
+### [Connectors](https://www.notion.com/help/notion-ai-settings-overview#connectors)
+
+See which apps your workspace can connect to Notion AI and which apps are already connected.
+
+### [Me](https://www.notion.com/help/notion-ai-settings-overview#me)
+
+Your own credit usage breakdown and personalization settings, plus a list of the agents you own. All members have this tab.
+
+### [Insights](https://www.notion.com/help/notion-ai-settings-overview#insights)
+
+See the kinds of work people across your workspace do with AI. Use these insights to understand how your team uses AI and share helpful workflows.
+
+![Admins can use the Insights tab to understand how your team uses AI.](https://images.ctfassets.net/spoqsaf9291f/5vSoI5XWk8em4VyegvewC7/acbee6846ef6def29058a2df43e02298/e1de1f83-cd41-4521-8617-a3a85aa12ee7.png)
 
 ## Review requests for more credits
 
