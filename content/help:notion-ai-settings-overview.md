@@ -57,9 +57,9 @@ Your own credit usage breakdown and personalization settings, plus a list of the
 
 ### [Insights](https://www.notion.com/help/notion-ai-settings-overview#insights)
 
-See the kinds of work people across your workspace do with AI. Use these insights to understand how your team uses AI and share helpful workflows.
+**Insights is temporarily paused.&#x20;**&#x49;nsights help you understand how your team uses AI. This page is disabled for now, so use cases and conversation counts aren't available. Check back soon.
 
-![Admins can use the Insights tab to understand how your team uses AI.](https://images.ctfassets.net/spoqsaf9291f/5vSoI5XWk8em4VyegvewC7/acbee6846ef6def29058a2df43e02298/e1de1f83-cd41-4521-8617-a3a85aa12ee7.png)
+![Insights](https://images.ctfassets.net/spoqsaf9291f/5vSoI5XWk8em4VyegvewC7/ea6e5af100da52f5777e5b1379755867/8d582bb1-0988-45b8-9b7a-1737c5c3d5c3.png)
 
 ## Review requests for more credits
 

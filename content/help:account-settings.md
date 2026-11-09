@@ -288,3 +288,8 @@ I<!-- -->f you'd like to change your account email to one that’s already tied 
 If you accidentally delete a page, a workspace, or even your entire account, we can help! Send us a message in the app by clicking `?` at the bottom of your sidebar, or email us at email protected.
 
 We keep backups of our database, which allows us to restore a snapshot of your content in the past 30 days if you need it.
+
+
+### Can I have multiple email addresses on my Notion account?
+
+Yes, you can. See [Secondary emails](https://www.notion.com/help/secondary-emails) to learn more about using multiple email addresses for your Notion account. If you get an error telling you that your new email is already being used with a different account, you first need to delete the account tied to that email and then try again.
