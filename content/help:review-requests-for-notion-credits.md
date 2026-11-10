@@ -79,4 +79,6 @@ Yes. You can set a credit limit for one member or a group, or for your entire wo
 
 ### Where do members send requests from?
 
-When a member reaches a limit, they can send a request for more directly from their own Notion AI settings in `Settings` > `Notion AI` > `Me`. Learn more in [Manage your usage allowance for Notion AI](https://www.notion.com/help/manage-your-ai-credits) and [How AI credits work for Custom Agents](https://www.notion.com/help/how-ai-credits-work-for-custom-agents).
+When a member reaches a limit, they can send a request for more directly from their own Notion AI settings in `Settings` > `Notion AI` > `Me`. <!-- -->They can also start a request when they hit their credit limit.
+
+Learn more in [Manage your usage allowance for Notion AI](https://www.notion.com/help/manage-your-ai-credits) and [How AI credits work for Custom Agents](https://www.notion.com/help/how-ai-credits-work-for-custom-agents).

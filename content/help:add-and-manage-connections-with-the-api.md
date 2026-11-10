@@ -23,7 +23,9 @@ You can also open connection tools from the developer section in your sidebar af
 
 Use the search bar or category filters to find the connection you're looking for. Connections are grouped by app, so products with multiple capabilities appear as one entry. Once a connection is added, you can add it to individual pages and databases in the `•••` menu under `Connections`.
 
-**Note:** On Enterprise plans, workspace owners can restrict which connections members are allowed to install. If a connection you're looking for isn't available, contact your workspace owner.
+**Note**: On Enterprise plans, workspace owners can restrict which connections members are allowed to install. If a connection you're looking for isn't available, contact your workspace owner.
+
+**Note**: Some connections are built for specific workspaces only. If the developer limited their connection to certain workspaces and yours is not one of them, the install stops and you see an error. Contact the developer of the connection, not Notion support, and ask them to add your workspace.
 
 ## Add connections to pages
 
