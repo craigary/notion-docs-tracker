@@ -33,7 +33,7 @@ There are two ways to connect Google Drive. You can connect your Google account 
 
 **Connect from your settings**
 
-This is the quickest way if you want to use the same Google account across more than one agent.
+Do this to access Google Drive with Notion Agent and use the same Google account across more than one agent.
 
 1. Go to `Settings` → `Connections`.
 
@@ -63,7 +63,7 @@ Your Google account is now connected to Notion. You can add Google Drive to any 
 
 3. Select `+ Add connection` → `Google Drive`.
 
-4. Follow the steps to sign in to Google and allow access. <!-- -->On the next Google screen, check every Drive box. If any are left unchecked, your agents won't be able to run.
+4. Follow the steps to sign in to Google and allow access. On the next Google screen, check every Drive box. If any are left unchecked, your agents won't be able to run.
 
    * Optional: Choose specific shared drives or folders to limit what the agent can access.
 
@@ -115,7 +115,7 @@ This disconnects your Google account from every agent that was using it.
 
 ## Add an optional trigger
 
-When connecting a Custom Agent to Google Drive, you can set up a trigger so the agent checks Google Drive for changes. To do so, point it to a folder (or a Drive link) and choose how often it should look. If something changes, the agent will notice and run. <!-- -->You can watch a folder or a shared drive. Only files directly inside the folder are watched. Changes in subfolders don't trigger the agent, and you can't watch your entire `My Drive.`
+When connecting a Custom Agent to Google Drive, you can set up a trigger so the agent checks Google Drive for changes. To do so, point it to a folder (or a Drive link) and choose how often it should look. If something changes, the agent will notice and run. You can watch a folder or a shared drive. Only files directly inside the folder are watched. Changes in subfolders don't trigger the agent, and you can't watch your entire `My Drive.`
 
 ## Test the connection
 

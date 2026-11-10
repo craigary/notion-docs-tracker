@@ -57,7 +57,7 @@ Some work uses your workspace’s [Notion credits](https://www.notion.com/help/c
 
 * Custom Agents funded by the workspace
 
-* Running an agent through the Notion API or a connected app
+* Running Notion Agent or a Custom Agent through the Notion API or a connected app
 
 ## How Auto makes your credits go further
 
@@ -97,7 +97,15 @@ When your Standard or Select credits run out, features that use them pause until
 
 ## Ask a workspace owner for more Notion credits
 
-If you’ve used up your Standard or Select credits and want to keep going, you can ask a workspace owner for more right from the alert. They'll see a request to add [Notion credits](https://www.notion.com/help/category/notion-credits) for the workspace so you and your team can keep AI features working.
+If you use up your Standard or Select credits and want to keep going, you can ask a workspace owner to raise your credit limit. You pick how many credits you want and add a short reason, so the owner has what they need to decide.
+
+Here's how it works:
+
+* Your request stays pending until a workspace owner approves or declines it. While you wait, the credits included in your plan keep working. Only the work that needs the extra credits pauses.
+
+* If your request is approved, you get a higher limit just for you. It doesn't change anyone else's limit.
+
+* Approving a request raises your limit, but it doesn't buy credits. If your workspace runs out of Notion credits, you still can't spend until an owner adds more.
 
 ## For owners: let members keep going on Notion credits
 
@@ -187,9 +195,16 @@ Learn more about how [AI credits work for Custom Agents →](https://www.notion.
 
 ### Do connected apps and the Notion API use credits?
 
-Everyday connected apps and the Notion API don’t use your credits, though normal rate limits still apply. Running an agent through a connected app or the API uses Notion credits.
+Running Notion Agent or a Custom Agent through a connected app or a Notion API uses Notion credits. Using connected apps or a Notion API without running Notion Agent or a Custom Agent does not itself use Standard, Select, or Notion credits, though rate limits may still apply.
 
 
 ### Does AI Meeting Notes consume credits?
 
 AI meeting notes uses [Auto](https://www.notion.com/help/auto) and will begin consuming monthly Standard credit allowance starting December. A one hour meeting is estimated to use \~10 Standard credits.
+
+
+### I pay through the App Store or Google Play. How do my credits work?
+
+If your plan includes AI, you get the same monthly Standard and Select credits as Business plans.
+
+You can't buy credits with an app-store subscription. When you run out, that work waits until your credits reset at the start of your next billing cycle. To buy more credits, a workspace owner must first cancel the existing plan, wait for it to fully expire, then move billing to [notion.com](http://notion.com) on a Business or Enterprise plan that includes AI.

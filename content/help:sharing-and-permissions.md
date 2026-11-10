@@ -29,7 +29,7 @@ Sometimes you'll want to share a page with only select members of your workspace
 
 1. Select `Share` at the top of any page.
 
-2. Find and select the names of the members/groups in your workspace that you want to share the page with. You can also invite someone who isn’t in your workspace as a guest by entering their email address. If that email is on one of your organization's domains, they're added as a member, not a guest.
+2. Find and select the names of the members or groups in your workspace that you want to share the page with. You can also invite someone who isn’t in your workspace as a guest by entering their email address. If that email is on one of your organization's domains, they're added as a member, not a guest.
 
 3. Open the dropdown next to the names of the people you’re inviting, then select a permission level.
 
@@ -61,15 +61,15 @@ To find out if a given teamspace is a default teamspace:
 
 If you’re not able to share a page with a guest, this might be because:
 
-* Your workspace has reached its guest limit.
-
-* Your workspace or teamspace has prevented guests from being added to the page.
+* The email is on one of your organization's domains. People on your domains are added as members, not guests.
 
 * The email domain of the guest you’re trying to share the page with is not an allowed email domain for your workspace.
 
-* The email is on one of your organization's domains. People on your domains are added as members, not guests.
+* Your workspace or teamspace has prevented guests from being added to the page.
 
-* If you’re on an Enterprise plan and the owner has prevented members from inviting guests to pages, then any people you invite to a page will automatically be added as members. Before you select `Invite` in the steps above, you can hover over your guest’s name or email for more information on how that person will be added to the page.
+* Your workspace has reached its guest limit.
+
+* If you’re on an Enterprise plan and the owner has prevented members from inviting guests to pages, then any people you invite to a page will automatically be added as members. Before you select `Invite`, you can hover over your guest’s name or email for more information on how that person will be added to the page.
 
 Guests are people who aren’t part of your Notion workspace. This could be a contractor or a client you’re working with. People who use your organization's email domains are treated as part of your workspace, so they join as members, not guests. Learn more about [managing members and guests →](https://www.notion.com/help/add-members-admins-guests-and-groups#guests)
 

@@ -81,6 +81,8 @@ If you’re a workspace owner, you can bypass a member’s credit pool and fund 
 
 3. Next to `Credit source`, select `Owner allowance` → `Workspace budget`.
 
+If you're a workspace owner on a Business or Enterprise plan, you can set a credit limit and pause a Custom Agent even if it isn't shared with you, including a private agent built by someone else.
+
 
 ## FAQs
 

@@ -258,3 +258,8 @@ There are three common reasons:
 Some models are part of your plan, so using them with [Notion Agent](https://www.notion.com/help/notion-agent) doesn't spend [Notion credits](https://www.notion.com/help/what-are-notion-credits). High credit consumption models cost much more to run, so using them requires Notion credits.
 
 Workspace owners <!-- -->decide whether these models are available and how many credits each person can spend. Learn more about [managing AI models and member credit spend →](https://www.notion.com/help/manage-ai-models-and-member-credit-spend)
+
+
+### What does Notion Agent remember?
+
+[Memories](https://www.notion.com/help/view-your-notion-agent-memories) are a way Notion Agent and Custom Agents can personalize help. Unlike [instructions](https://www.notion.com/help/instructions-for-notion-agent), which you write yourself, Memories are useful context an agent learns over time, like your role, priorities, collaborators, and important pages.

@@ -99,6 +99,20 @@ Share your Custom Agent with your team just like a Notion page by clicking `Shar
 
 * Delete the agent.
 
+## How Memories work with Custom Agent permissions
+
+If a Custom Agent has Memories turned on, it keeps what it learns in a short summary and a collection of memory notes. Memories follow the agent's own access, the same way its other settings do.
+
+* Custom Agent Memories follow the agent's sharing permissions. If everyone in your company can view the agent, they can also view its Memories. If the agent is private to you, its Memories are only visible to you.
+
+* Anyone with `Can view and interact` access can read the agent's memories. `Can edit` and `Full access` work the same way they do for the rest of the agent.
+
+* If you delete the agent, its memories are deleted too. Restore the agent and its memories come back.
+
+* One Custom Agent can’t find another agent’s Memories.
+
+Memories are off by default for each Custom Agent. Anyone with `Can edit` or `Full access` to the agent can [switch them on](https://www.notion.com/help/custom-agents#turn-memories-on-for-a-custom-agent).
+
 ## Duplicate a Custom Agent
 
 You can duplicate a Custom Agent to create a private copy you can adapt for your own workflow. The duplicate is private by default. Only you have access until you share it.
@@ -143,6 +157,8 @@ Workspace admins can manage Custom Agents across the organization using the foll
 
 **Note:** Admins should regularly review agents using these tools, remove unnecessary access, and archive unused agents.
 
+Owners can view credit usage, set a credit limit, and pause a Custom Agent they don't have access to, including private agents. Opening an agent, changing its permissions, deleting it, or transferring ownership requires the Enterprise plan.
+
 On the Enterprise Plan, admins can also manage Custom Agents from their own tools using the [Admin API](https://www.notion.com/help/manage-custom-agents-with-the-admin-api). See the Admin API section below.
 
 In `Settings` → `Notion AI`, admins on Business and Enterprise plans can review and manage agent spend for the workspace. The `Overview` tab lists each agent with its owner, type, model, runs, and credits used, and you can change the model an agent uses right from that table. To set credit limits, open the `Credits` tab, where you can set a limit for one agent or a default for all of them.
@@ -160,6 +176,8 @@ To keep a business-critical agent from pausing, set its credit limit to `Unlimit
 * See who created each agent and when it was last active.
 
 * Disable and re-enable agent editing, chatting, and triggers to stop automated runs.
+
+* **Business and Enterprise plans:&#x20;**&#x49;f you're a workspace owner, view an agent's credit usage, set a credit limit, and pause any agent, even one you don't have access to.
 
 * **Enterprise only:** Change permissions and delete any agent, even if you don't have access to it.
 
@@ -301,3 +319,8 @@ Custom Agents appear in the share menu of any page or database they have access 
 To check, open the page or database, click `Share`, and look for Custom Agents in the list.
 
 You can also add a Custom Agent to a page or database from the same menu. Click `Share`, search for the agent by name, and select it to give it access.
+
+
+### Can I control what a Custom Agent spends if it isn't shared with me?
+
+If you're a workspace owner, yes. On Business and Enterprise plans, you can view an agent's credit usage, set a credit limit, and pause it, even for a private agent you can't open.

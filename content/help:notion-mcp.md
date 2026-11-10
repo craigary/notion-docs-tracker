@@ -31,7 +31,7 @@ Learn more about [how different teams use Notion MCP →](https://www.notion.com
 
 Ready to connect your AI apps to Notion? Here's how:
 
-1. **Browse the Notion MCP Gallery**: Visit [our gallery to connect popular AI apps](https://developers.notion.com/docs/get-started-with-mcp#connect-through-the-notion-app) with just a few clicks.
+1. **Browse the Notion MCP Gallery**: Visit [our gallery to connect popular AI apps](https://developers.notion.com/docs/get-started-with-mcp#connect-through-the-notion-app) with just a few clicks. <!-- -->In Notion, you can also go to `Settings` → `Notion MCP`.
 
 2. **Connect through the AI tool directly**: Many compatible AI apps have built-in options to connect to Notion MCP in their settings or integrations menu
 
@@ -83,7 +83,7 @@ When using Notion MCP, keep these tips in mind:
 
 * **Use descriptive page titles**: AI apps rely on clear page titles to understand your content structure.
 
-* **Be mindful of permissions**: Remember that MCP tools act with your full Notion permissions—they can access everything you can access.
+* **Be mindful of permissions**: <!-- -->Remember that MCP tools act with your full Notion permissions. They can access everything you can access.
 
 ## Admin controls for MCP
 
@@ -97,6 +97,10 @@ With MCP Governance enabled, Enterprise admins can:
 
 * Enforce these controls at the workspace level (admin-managed).
 
+* See which members have connected each MCP client, and disconnect them.
+
+* Turn off opening and editing Notion pages inside MCP clients such as ChatGPT, with the `Open Notion pages in MCP clients` setting. This is on by default.
+
 * Set up an enterprise-managed connection so your identity provider manages connections for supported AI apps.
 
 Notion MCP continues to respect all existing Notion permissions.
@@ -107,11 +111,21 @@ On the Enterprise plan, you can manage how supported AI apps such as Claude conn
 
 Workspace owners on the Enterprise plan can choose which external AI apps members can connect through Notion MCP:
 
-* Go to `Settings` → `Notion MCP` → `Manage workspace clients`.
+1. Go to `Settings` → `Notion MCP.`
 
-* Under `Which clients members can connect`, choose `Approved MCP clients only`.
+2. Open the `Manage workspace clients` tab.
 
-* Select `Manage approved list` to review or add clients.
+3. Select `Approved MCP clients` (or `Manage approved list` if no clients are approved yet) to review which MCP clients are approved. You can do this before you turn on restrictions.
+
+4. To approve more, select `Add approved MCP client`. Search for the MCP client, or add it by its redirect URL, then select `Approve`.
+
+5. Go back to `Manage workspace clients`. Under `Which clients members can connect`, choose `Approved MCP clients only`.
+
+   * Notion warns you that MCP clients that aren't approved will stop working right away. If members used unapproved clients in the last 30 days, it also shows how many. Select `Switch anyway` to confirm.
+
+   * MCP clients that workspace owners connect are approved automatically. Clients that other members already connected are not.
+
+6. Once an MCP client is approved, any member in the workspace can connect it. Members find it in `Settings` → `Notion MCP` and select `Enable`. MCP clients that aren't approved show `Disabled by admin` instead.
 
 ## Popular AI apps
 
@@ -150,22 +164,22 @@ Yes. Only admin-approved tools can connect, and MCP does not bypass Notion permi
 
 ### Can admins see which AI apps users are connecting?
 
-Enterprise Admins control which AI apps and MCP clients are allowed, and which ones have active connections in the workspace. Detailed visibility into which users are using each tool is not yet available.
+Yes. In `Settings` → `Notion MCP` → `Manage workspace clients`, select `All MCP clients`. You'll see every MCP client in your workspace, whether it's approved, and which members have connected it. To see the full list of members for a client, open its `•••` menu and select `View members`.
 
 
 ### Why is an AI app not on the approved list, but still listed under Connected tools?
 
-If a tool was connected before it was removed from the approved list, it may still appear under Connected tools because we cannot revoke existing tokens for previously connected tools. Even so, Notion blocks every call from any AI app or MCP client that is not on the approved list, so it is functionally blocked.
+If members connected a tool before it was removed from the approved list, it stays in `All MCP clients` with a `Not approved` label. Even so, Notion blocks every call from any AI app or MCP client that is not on the approved list, so it is functionally blocked. To remove those connections completely, open the tool's `•••` menu and select `Disconnect all members`.
 
 
 ### Can I disconnect all users from a specific AI app?
 
-No. If you need to remove access for a specific tool, the current workaround is to disconnect all Notion MCP connections and have users reconnect only from tools that are on the approved list.
+Yes. In `All MCP clients`, open the `•••` menu next to the AI app and select `Disconnect all members`, then confirm with `Disconnect`. This revokes every member's access for that app. Members will need to reconnect manually, and can only do so if the app is approved. You can also disconnect one member at a time from `View members`.
 
 
 ### How do I disconnect all of the external AI apps or Notion MCP?
 
-Use the `Disconnect All Users` button. This disconnects every external AI tool and MCP client that is connected to the workspace through Notion MCP, and users will need to re-authenticate. After re-authentication, users can only connect to Notion MCP from tools that are on the approved list.
+In `Settings` → `Notion MCP` → `Manage workspace clients`, find `Disconnect all connections to Notion MCP` and select `Disconnect all users`. <!-- -->This disconnects every external AI tool and MCP client that is connected to the workspace through Notion MCP, and users will need to re-authenticate. After re-authentication, users can only connect to Notion MCP from tools that are on the approved list.
 
 
 ### Which AI tools can connect to Notion MCP?
@@ -179,16 +193,20 @@ Some tools list Notion in a directory for one-click setup, and others support a 
 
 Yes. If a tool supports MCP, it can be approved even if it is not shown in the directory.
 
-To add a new tool to the approved list, a workspace owner or admin needs to successfully connect to Notion MCP from that tool (for example, by using a custom MCP connector if the tool supports it).
+There are two ways to add a new tool to the approved list:
 
-Once the connection succeeds, that tool will appear as an option for the workspace, and other users will be able to use it too.
+* **Connect from the tool:&#x20;**&#x57;hen a workspace owner successfully connects to Notion MCP from that tool (for example, by using a custom MCP connector), the tool is approved automatically.
+
+* **Add it by redirect URL:** Select `Add approved MCP client`, then enter the tool's OAuth redirect URL and an optional name under `Add by redirect URL`.
+
+Once the tool is approved, other users will be able to use it too. A workspace can have up to 200 approved custom MCP clients.
 
 
 ### How do I rename a custom AI app?
 
 After connecting a custom AI app, Notion will initially name the AI app using the redirect URL we receive during the connection flow.
 
-Admins can edit the AI app to change both its name and its logo, and we recommend doing this so the tool is easy to recognize for end users and in audit logs.
+Admins can edit the AI app to change both its name and its logo, and we recommend doing this so the tool is easy to recognize for end users and in audit logs. <!-- -->To do this, open the app's `•••` menu in `All MCP clients` and select `Edit`.
 
 After you rename it, future audit log events will show the updated name and logo, while older audit log events will show the name that was in place at the time (often the original URL or a previous name).
 

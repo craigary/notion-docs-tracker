@@ -11,6 +11,8 @@ categoryKey: "category:notion-ai"
 
 Instructions tell your personal [Notion Agent](https://www.notion.com/help/notion-agent) how to respond by default, including tone, formatting, and rules to follow. Your Agent uses your active Instructions page in every chat. You can only use one Instructions page at a time, but you can switch it anytime.
 
+Instructions are different from [Memories](https://www.notion.com/help/view-your-notion-agent-memories), which are context your agents learn over time to make future chats more helpful.
+
 ## When should I use Instructions?
 
 Use Instructions for things like tone, writing style, and rules you want Notion Agent to follow every time it takes an action or responds.

@@ -325,15 +325,15 @@ Results depend on how you set things up. The way you split the work, the models 
 
 * Start with `Auto` for models. You can also give the primary agent a stronger model and give simple, focused tasks lighter models. Check the quality of the results before you add more work.
 
-* Check the `Activity` and `Insights` tabs after you test. Compare model use, output quality, and credits across runs. Sub-agent work uses Notion credits, so extra hand-offs can cost more. <!-- -->Hand-offs that use a high credit consumption model cost more because these models spend credits at the model's own price.
+* Check the `Activity` and `Insights` tabs after you test. Compare model use, output quality, and credits across runs. Sub-agent work uses Notion credits, so extra hand-offs can cost more. Hand-offs that use a high credit consumption model cost more because these models spend credits at the model's own price.
 
 ## Choose a model for your Custom Agent
 
 Custom Agents can run on different large language models. This lets you balance speed, cost, and quality. You can adjust the model over time if your workflow changes or you see different performance needs.
 
-Supported models include Claude Fable 5 (Business and Enterprise plans only), Claude Sonnet 5, the newest GPT models, Gemini, and Grok. Auto is the recommended default. Your admin may also limit which models Custom Agents can use. <!-- -->Models your workspace owner has restricted appear under `Restricted models` in the model menu and can't be selected. Models from providers your workspace has turned off don't appear.
+Supported models include Claude Fable 5 (Business and Enterprise plans only), Claude Sonnet 5, the newest GPT models, Gemini, and Grok. Auto is the recommended default. Your admin may also limit which models Custom Agents can use. Models your workspace owner has restricted appear under `Restricted models` in the model menu and can't be selected. Models from providers your workspace has turned off don't appear.
 
-Claude Fable 5 works best for things like in-depth research, complex writing, and tasks that involve lots of steps. Before anyone in your workspace can use it, an owner needs to turn it on. This is because Anthropic handles data from this model a bit differently from other models (see below). <!-- -->If you'd like access, ask your workspace owner to turn it on for Custom Agents in `Settings` → `Notion AI` → `Controls`.
+Claude Fable 5 works best for things like in-depth research, complex writing, and tasks that involve lots of steps. Before anyone in your workspace can use it, an owner needs to turn it on. This is because Anthropic handles data from this model a bit differently from other models (see below). If you'd like access, ask your workspace owner to turn it on for Custom Agents in `Settings` → `Notion AI` → `Controls`.
 
 **A note on data handling:** When you use Claude Fable 5, Anthropic may store your prompts and responses for a period of time to keep the model safe and working well. Other AI models available in Notion don't work this way. That's why your admin needs to review and switch it on first.
 
@@ -479,6 +479,28 @@ To restore a previous version of your Custom Agent:
 
 5. Confirm to revert the agent to that version.
 
+## Improve your Custom Agent over time with Memories
+
+When you turn on [Memories](https://www.notion.com/help/view-your-notion-agent-memories), a Custom Agent can learn from its own chats and improve as it works with you. Start with a simple agent and let it pick up useful context along the way, instead of writing every rule up front.
+
+* Memories stay with that one agent. The agent doesn't share Memories with other Custom Agents.
+
+* The agent keeps a short summary of what it's learned, plus a collection of memory notes it can search.
+
+* If you correct the agent or ask it to remember something in a chat, it can update what it remembers.
+
+Keep using Instructions for the rules your Custom Agent must always follow. Memories add context on top of your Instructions, but they don't replace them.
+
+## Turn Memories on for a Custom Agent
+
+Memories are off by default for each Custom Agent until you switch them on. Anyone with `Can edit` or `Full access` to the agent can turn them on:
+
+1. Open your Custom Agent's `Settings`.
+
+2. In **Advanced**, turn on `Memories`.
+
+Once Memories are on, your agent can carry context from one chat into the next, so what it learns in one conversation can shape later ones. You can turn Memories off again anytime in `Settings`. Turning Memories off stops your agent from making or using Memories. Anything already saved stays put, so you can turn Memories back on later without losing anything.Anyone with `Can view and interact` access to the agent can view its Memories.
+
 ## Duplicate a Custom Agent
 
 Duplicating a Custom Agent lets you copy an existing agent and adapt it for a similar workflow, without rebuilding from scratch.
@@ -501,7 +523,7 @@ The duplicate opens as a private agent. You can review and update its settings b
 
 * **Name:&#x20;**&#x54;he duplicate is named `{Original agent name} (1)`. You can rename it anytime.
 
-* **AI model:** The duplicate uses the same AI model as the original. If that model is a <!-- -->high credit consumption model<!-- -->, the copy spends [Notion credits](https://www.notion.com/help/category/notion-credits) the same way the original does.
+* **AI model:** The duplicate uses the same AI model as the original. If that model is a high credit consumption model, the copy spends [Notion credits](https://www.notion.com/help/category/notion-credits) the same way the original does.
 
 * **Instructions:** Copied into a new page. If any links in the instructions point to pages you don’t have access to, those show up as no-access chips and won’t be added to the duplicate’s resources.
 
