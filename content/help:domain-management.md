@@ -1,15 +1,13 @@
 ---
 title: "Domain management"
 emoji: null
-description: "This article will cover how to verify ownership of a domain and which advanced workspace security settings it will unlock for Enterprise customers."
+description: "This article covers how to verify ownership of a domain and which advanced workspace security settings it will unlock for Enterprise customers."
 url: "https://www.notion.com/help/domain-management"
 key: "help:domain-management"
 coverImage: null
 category: "Administer your workspace"
 categoryKey: "category:enterprise-admin"
 ---
-
-**Note:** This article is for users on the Enterprise Plan. If you’re on the Business Plan, check out this article to learn how to verify a domain for your workspace, and [this article](https://www.notion.com/help/saml-sso-configuration) to learn how to set up SAML SSO for your workspace.
 
 Domain management features allows Enterprise [organization owners](https://www.notion.com/help/organization-level-controls#who-can-apply-organization-level-controls) to claim ownership over an email address domain associated with their workspace. This unlocks the ability to configure SAML SSO for an organization, build Notion connections using link previews, and control who can create workspaces.
 
@@ -19,9 +17,23 @@ Once a domain is verified, you can add it to one or more SAML configurations. Th
 
 **Note:&#x20;**&#x54;o verify a domain for your organization, you must be an [organization owner](https://www.notion.com/help/organization-level-controls).
 
-To verify a domain for your workspace:
+How you verify a domain depends on your plan.
 
-1. Go to [notion.com/settings/organization](https://www.notion.com/settings/organization).
+### [Business Plan](https://www.notion.com/help/domain-management#business-plan)
+
+1. Go to `Settings` → `Identity`.
+
+2. Select `Add email domain`.
+
+3. Enter your email domain and select `Get verification code`.
+
+4. Follow the prompts to update your DNS record.
+
+5. Select `Verify domain` to have Notion check your DNS record.
+
+### [Enterprise Plan](https://www.notion.com/help/domain-management#enterprise-plan)
+
+1. Open the workspace switcher and select `Manage organization`. You may need to select `Set up organization` first.
 
 2. In the `General` tab of your organization settings, select `Manage email domains`.
 
@@ -31,11 +43,11 @@ To verify a domain for your workspace:
 
 5. Follow the prompts to update your DNS record.
 
-6. Click `Verify domain` to prompt Notion to check your DNS record.
+6. Select `Verify domain` to have Notion check your DNS record.
 
-   * If your domain’s status is `Pending`, select `•••`**&#x20;**&#x6E;ext to the domain → `View details` → `Verify` to manually verify it.
+   * If your domain's status is `Pending`, select `•••` next to the domain, then `View details` → `Verify` to verify it yourself.
 
-7. Once verification is complete, you’ll see a confirmation dialog and your domain’s status will be `Verified`.
+7. When verification is done, you'll see a confirmation and your domain's status will be `Verified`.
 
 **Note:**
 
@@ -61,7 +73,7 @@ To customize workspace creation permissions:
 
 You can customize permissions for who can create new workspaces using your verified domains. To do this:
 
-1. Go to [notion.com/settings/organization](https://www.notion.com/settings/organization).
+1. Open the workspace switcher and select `Manage organization`. You may need to select `Set up organization` first.
 
 2. Go to the `People` tab.
 
@@ -109,7 +121,7 @@ To change workspace ownership:
 
 To do this, organization owners can follow these steps:
 
-1. Go to [notion.com/settings/organization](https://www.notion.com/settings/organization).
+1. Open the workspace switcher and select `Manage organization`. You may need to select `Set up organization` first.
 
 2. Open the `General` tab.
 
@@ -141,7 +153,7 @@ During this 14-day notification period, workspace owners can only request owners
 
 [Organization owners](https://www.notion.com/help/organization-level-controls) can also export the list of claimable workspaces as a CSV. To do this:
 
-1. Go to [notion.com/settings/organization](https://www.notion.com/settings/organization).
+1. Open the workspace switcher and select `Manage organization`. You may need to select `Set up organization` first.
 
 2. Open the `General` tab.
 
@@ -165,7 +177,7 @@ To delete a workspace:
 
 To delete a workspace, organization owners can follow these steps:
 
-1. Go to [notion.com/settings/organization](https://www.notion.com/settings/organization).
+1. Open the workspace switcher and select `Manage organization`. You may need to select `Set up organization` first.
 
 2. Open the `General` tab.
 
