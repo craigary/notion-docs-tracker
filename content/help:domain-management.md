@@ -15,11 +15,11 @@ Once a domain is verified, you can add it to one or more SAML configurations. Th
 
 ## Verify a domain for your organization
 
-**Note:&#x20;**&#x54;o verify a domain for your organization, you must be an admin on a Business plan or an [organization owner](https://www.notion.com/help/organization-level-controls) on an Enterprise plan.
-
 How you verify a domain depends on your plan.
 
 ### [Business Plan](https://www.notion.com/help/domain-management#business-plan)
+
+**Note**: To verify a domain on the Business Plan, you must be a workspace owner.
 
 1. Go to `Settings` → `Identity`.
 
@@ -32,6 +32,8 @@ How you verify a domain depends on your plan.
 5. Select `Verify domain` to have Notion check your DNS record.
 
 ### [Enterprise Plan](https://www.notion.com/help/domain-management#enterprise-plan)
+
+**Note:&#x20;**&#x54;o verify a domain on the Enterprise Plan, you must be a&#x6E;**&#x20;**[organization owner](https://www.notion.com/help/organization-level-controls).
 
 1. Open the workspace switcher and select `Manage organization`. You may need to select `Set up organization` first.
 

@@ -26,11 +26,11 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/2lKwICICVv9jnFRGGEPZC6/da
 18 help:legal-holds
 19 help:manage-teamspaces
 20 help:network-control
-21 help:ip-address-restrictions
-22 help:mfa-enforcement
-23 help:set-up-microsoft-intune-with-notion-ios-and-android
-24 help:organization-level-controls
-25 help:admin-apis-for-enterprise-organizations
+21 help:admin-apis-for-enterprise-organizations
+22 help:ip-address-restrictions
+23 help:mfa-enforcement
+24 help:set-up-microsoft-intune-with-notion-ios-and-android
+25 help:organization-level-controls
 
 ## Guides
 
