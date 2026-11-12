@@ -10,8 +10,8 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/CGvbKADJG2JbVyR2akeT8/018
 2 help:best-practices-for-creating-and-optimizing-a-custom-agent
 3 help:buy-and-track-notion-credits-for-custom-agents
 4 help:mcp-connections-for-custom-agents
-5 help:mobile-custom-agents
-6 help:connect-calendar-to-custom-agents
+5 help:connect-calendar-to-custom-agents
+6 help:mobile-custom-agents
 7 help:connect-mail-to-custom-agents
 8 help:custom-agents-sharing-and-permissions
 9 help:manage-custom-agents-with-the-admin-api

@@ -20,8 +20,8 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/1qGgHCH80dWW0ZnIUl1O7t/c2
 12 help:keyboard-shortcuts
 13 help:archive-pages
 14 help:duplicate-public-pages
-15 help:use-pages-offline
-16 help:presentation-mode
+15 help:presentation-mode
+16 help:use-pages-offline
 
 ## Video
 

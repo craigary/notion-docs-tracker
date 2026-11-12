@@ -8,14 +8,14 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/5xP7gHlhFbGP72MLcxD09X/27
 
 1 help:what-are-notion-credits
 2 help:purchase-notion-credits
-3 help:allocate-credits-to-each-workspace
-4 help:track-notion-credits-usage
+3 help:track-notion-credits-usage
+4 help:allocate-credits-to-each-workspace
 5 help:set-up-auto-adjust-for-notion-credits
-6 help:standard-select-and-notion-credits-eligible-features
-7 help:review-requests-for-notion-credits
-8 help:manage-your-ai-credits
-9 help:how-ai-credits-work-for-custom-agents
-10 help:auto
+6 help:auto
+7 help:how-ai-credits-work-for-custom-agents
+8 help:review-requests-for-notion-credits
+9 help:standard-select-and-notion-credits-eligible-features
+10 help:manage-your-ai-credits
 
 ## Guides
 

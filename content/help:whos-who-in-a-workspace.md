@@ -31,7 +31,7 @@ Read on to learn more about each type of user.
 
 Members are individuals **in your company or organization**. These could be colleagues at the same organization or people who read, edit, and comment on a lot of the same pages in a workspace.
 
-Members can be added to workspaces on the Free Plan at no charge. Workspaces with more than one member will be able to use up to 1,000 blocks in that workspace. If you want unlimited block usage on the Free Plan, you’ll need to make sure your workspace only contains one person. To do this, you can avoid adding new members, remove existing members, and add any collaborators as [guests](https://www.notion.com/help/add-members-admins-guests-and-groups). You can learn more about this [here →](https://www.notion.com/help/understanding-block-usage)
+Members can be added to workspaces on the Free Plan at no charge. Workspaces with more than one member will be able to use up to 1,000 blocks in that workspace. A Free Plan workspace with only one person isn't held to that 1,000 block limit. To keep it that way, you can avoid adding new members, remove existing members, and add any collaborators as [guests](https://www.notion.com/help/add-members-admins-guests-and-groups). Learn more about [block usage →](https://www.notion.com/help/understanding-block-usage)
 
 On paid plans, you’ll pay for each member that’s added to the workspace.
 

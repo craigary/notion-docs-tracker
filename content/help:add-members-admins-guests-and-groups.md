@@ -131,10 +131,6 @@ Remember that guests can be added to individual pages, not to an entire workspac
 
 Your guest will receive an email with a link to the page. If they don't already use Notion, they’ll need to sign up to access your page.
 
-**Note:**
-
-*
-
 ### [From a guest's request](https://www.notion.com/help/add-members-admins-guests-and-groups#from-a-guest's-request)
 
 To make it easier for you to add guests to your workspace, Notion also allows people outside of your workspace to request access to certain pages in your workspace. This feature is available and turned on by default for all plans except Enterprise.
