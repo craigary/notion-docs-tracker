@@ -15,7 +15,7 @@ Notion uses a billing model that charges you based on the number of seats, or li
 
 Before you add someone to your workspace as a member, remember that **adding members to a paid Notion workspace is a billable action and will incur additional charges on your invoice**.
 
-If you don’t want to add a new member to your workspace but would like to collaborate with people via Notion, you can invite **guests** to specific Notion **pages** instead, provided you haven’t met [your plan’s guest limit](https://www.notion.com/pricing). Guests get access at the page level and are more limited in what they can do in a Notion workspace. Learn more about members and guests [here →](https://www.notion.com/help/whos-who-in-a-workspace)
+If you don’t want to add a new member to your workspace but would like to collaborate with people via Notion, you can invite **guests** to specific Notion **pages** instead, provided you haven’t met [your plan’s guest limit](https://www.notion.com/pricing). Guests get access at the page level and are more limited in what they can do in a Notion workspace. Learn more about [who's who in a workspace →](https://www.notion.com/help/whos-who-in-a-workspace)
 
 To avoid accidentally adding members to your workspace, go to the Notion page you want to invite a guest to, select `Share` at the top of that page, and after you enter their email address, hover over their email address to confirm that they’re being added as a guest before you select `Invite`.
 

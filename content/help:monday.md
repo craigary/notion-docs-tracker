@@ -23,7 +23,7 @@ The Monday.com importer helps you bring your all Monday.com boards into Notion.
 | Comments          | Monday Docs (a link to the original doc will be added instead) |
 | Files             | Certain column types (see Limitations)                         |
 
-## Monday.com → Notion mapping
+## [Monday.com](http://Monday.com) → Notion mapping
 
 * If you import a board that **isn't a task or project board**, it will be imported as a regular database following your original board's structure.
 

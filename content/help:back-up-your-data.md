@@ -13,7 +13,7 @@ Learn more about our [privacy policy](https://www.notion.com/Terms-and-Privacy-2
 
 ## Export your entire workspace
 
-**Note:&#x20;**&#x54;o verify a domain for your organization, you must be an [organization owner](https://www.notion.com/help/organization-level-controls).
+**Note:&#x20;**&#x54;o verify a domain for your organization, you must be an admin on a Business plan or an [organization owner](https://www.notion.com/help/organization-level-controls) on an Enterprise plan.
 
 Your Notion data will always be backed up in the cloud, but you can also export it for safekeeping. You can export all your pages as HTML, Markdown, or CSV (for databases), along with any files you've uploaded, too.
 

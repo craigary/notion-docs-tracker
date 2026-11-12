@@ -9,7 +9,7 @@ category: "Database views"
 categoryKey: "category:database-views"
 ---
 
-**Note:** Everyone on a paid plan can create unlimited charts. Members on the Free Plan can try one chart for free. Learn more about charts availability [here →](https://www.notion.com/help/charts#chart-view-availability)
+**Note:** Charts are included on every paid plan. Members on the Free Plan can try one chart for free. Learn more about [charts availability →](https://www.notion.com/help/charts#chart-view-availability)
 
 ## Create a chart view of a database
 
@@ -207,7 +207,7 @@ Learn more about dashboard views [here →](https://www.notion.com/help/dashboar
 
 ## Chart view availability
 
-Everyone can try charts. If you’re on a Free plan, you can create one chart, and if you’re on a paid plan, you can create unlimited charts. Learn more about our plans and pricing [here →](https://www.notion.com/pricing)
+Everyone can try charts. If you’re on a Free plan, you can create one chart. If you’re on a paid plan, you can create more than one. Learn more about our [plans and pricing](https://www.notion.com/pricing)[ →](https://www.notion.com/pricing)
 
 If you’re on a Free Plan, you can delete your one free chart to create and use another. Once you’ve deleted your free chart, you’ll need to create a new chart or duplicate an existing chart in your workspace to be able to access it for free. For example, if you delete your free chart from your workspace and then download a template that uses a chart, you’ll need to duplicate that chart to use it.
 

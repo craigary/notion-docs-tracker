@@ -15,7 +15,7 @@ Once a domain is verified, you can add it to one or more SAML configurations. Th
 
 ## Verify a domain for your organization
 
-**Note:&#x20;**&#x54;o verify a domain for your organization, you must be an [organization owner](https://www.notion.com/help/organization-level-controls).
+**Note:&#x20;**&#x54;o verify a domain for your organization, you must be an admin on a Business plan or an [organization owner](https://www.notion.com/help/organization-level-controls) on an Enterprise plan.
 
 How you verify a domain depends on your plan.
 

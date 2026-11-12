@@ -1,7 +1,7 @@
 ---
-title: "Install the Notion Meetings Add-on for Google Meet"
+title: "Set up the AI Meeting Notes Add-on for Google Meet"
 emoji: null
-description: "Let everyone in your Google Meet call know when you're transcribing, and see who said what in your notes."
+description: "Learn how to install the add-on, tell everyone you're transcribing, and get speaker labels in your notes."
 url: "https://www.notion.com/help/install-the-notion-meetings-add-on"
 key: "help:install-the-notion-meetings-add-on"
 coverImage: null
@@ -9,15 +9,19 @@ category: "AI Meeting Notes"
 categoryKey: "category:ai-meeting-notes"
 ---
 
-The Notion Meetings Add-on browser extension makes it clear to everyone in a Google Meet call that the meeting is being transcribed. It also labels who said what in your transcript.
+The AI Meeting Notes Add-on browser extension makes it clear to everyone in a Google Meet call that the meeting is being transcribed. It also labels who said what in your transcript.
 
-When you start transcribing in a Google Meet call, the extension:
+This article walks you through setup from start to finish: install the add-on, connect it, start transcribing, let people know, and check that it's working.
 
-* Posts and pins a message in the Meet chat, so everyone in the call, including people who join late, knows the meeting is being transcribed.
+When you start transcribing in a Google Meet call, the add-on can:
 
-* Shows a recording indicator over your camera while you transcribe.
+* Post and pin a message in the Meet chat, so everyone in the call, including people who join late, knows the meeting is being transcribed. This is off until it's turned on.
 
-* Labels speakers in your transcript, so it's easy to see who said what.
+* Show a recording indicator over your camera while you transcribe.
+
+* Label speakers in your transcript, so it's easy to see who said what.
+
+The chat message and the camera indicator are off until they're turned on. You can turn them on for yourself, or an owner can turn them on for your whole workspace.
 
 ## Before you start
 
@@ -27,65 +31,73 @@ When you start transcribing in a Google Meet call, the extension:
 
 * You'll need access to [AI Meeting Notes](https://www.notion.com/help/ai-meeting-notes) in Notion.
 
-* Start a transcription from the latest version of the Notion desktop app or from Notion open in Chrome. To check the connection, select the Notion Meetings Add-on icon in your Chrome toolbar. The status should be `Connected`.
+* You start transcribing from the Notion desktop app or from Notion open in Chrome, so keep one of those open while you meet.
 
-## Install the extension
+## Step 1: Install the add-on
 
-1. Open the [Notion Meetings Add-on in the Chrome Web Store.](https://chromewebstore.google.com/detail/notion-meetings-add-on/bmfgmiihbljnfndmpdffjfliciaddbfc)
+* Open the[ Add-on in the Chrome Web Store](https://chromewebstore.google.com/detail/notion-meetings-add-on/bmfgmiihbljnfndmpdffjfliciaddbfc).
 
-2. Select `Add to Chrome`.
+* Select `Add to Chrome`.
 
-**For workspace owners:** Your IT team can install the extension automatically for everyone in your organization, so members don’t have to install it themselves. That way, every transcribed meeting includes the pinned chat message and recording indicator. To install the extension for everyone:
+* If a Google Meet tab was already open, reload it so the add-on can work there.
 
-1. Sign in to the [Google Admin console](https://admin.google.com/).
+**Your IT team can install the add-on for everyone**
 
-2. Go to `Devices` → `Chrome` → `Apps & extensions` → `Users & browsers`.
+If your company sets this up for you, you may already have the add-on and you won’t need to install it again. You can skip to Step 2.
 
-3. Select the `+` button in the lower corner and choose `Add from Chrome Web Store`.
+Learn more about [setup steps for admins →](https://www.notion.com/help/set-up-ai-meeting-notes-for-google-meet-and-zoom)
 
-4. Select `Search by ID` in the upper-right corner and paste the extension ID: `bmfgmiihbljnfndmpdffjfliciaddbfc`.
+## Step 2: Connect the add-on
 
-5. Choose `Select` to add the extension.
+The add-on needs to connect to Notion. It connects to wherever you start transcribing:
 
-6. Set the installation policy to `Force install` or `Force install + pin to browser toolbar` so everyone in your organization has the extension.
+* If you use the Notion desktop app, keep the app open and up to date.
 
-## How the in-meeting message works
+* If you use Notion in Chrome, keep Notion open in a tab.
 
-1. Join a Google Meet call in Chrome and start transcribing with AI Meeting Notes.
+To check the connection, select the Notion Meetings Add-on icon in your Chrome toolbar. When it's ready, the popup says `Connected`.
 
-2. The extension posts a message in the Meet chat and pins it, so it stays visible for anyone who joins later.
+## Step 3: Start transcribing
 
-3. If your camera is on, a recording indicator appears over your video.
+1. Join a Google Meet call in Chrome.
 
-* The camera indicator only appears when your camera is on. The pinned chat message appears either way.
+2. Start meeting notes from the Notion desktop app or from Notion open in Chrome.
 
-* The extension helps you let participants know about transcription, but you're still responsible for getting consent. <!-- -->Learn more about [consent and recording laws →](https://www.notion.com/help/ai-meeting-notes)
+3. While you transcribe, the add-on icon in your toolbar shows `Transcribing` with a link to the live meeting note. Select it to jump to your notes.
 
-## The chat message is a setting
+## Step 4: Let people know you're transcribing
 
-The chat message is controlled by a setting called `Automated chat message in video calls`. It's on by default for every member, so you don't have to set anything up. You can turn it off for yourself any time.
+You're responsible for getting everyone's consent before you transcribe. The add-on can help you tell people, but it doesn't ask for consent for you.
 
-Owners can require the message for everyone in a workspace or organization. If an owner requires it, members can't turn it off.
+Two things can let people know:
 
-## What Notion can see
+* A pinned chat message. The add-on posts a message in the Meet chat and pins it, so it stays visible for anyone who joins later.
 
-To label speakers, the extension reads who's in the call and who's currently speaking from Google Meet. The recording indicator is drawn on your own device.
+* A recording indicator over your camera, shown while you transcribe.
 
-The extension doesn't collect the text of your Meet chat, and it doesn't send your video anywhere new.
+Both are off until they're turned on. To turn on the chat message for yourself, go to `Settings` → `Meeting notes` → `Preferences` and turn on `Automated chat message in video calls`. Your owner can turn this on for everyone, or require it so you can't turn it off. If it's required, you'll see it's already on.
+
+The camera indicator only appears when your camera is on. The pinned chat message appears either way.
+
+See more ways to [share a consent message or ask out loud →](https://www.notion.com/help/ai-meeting-notes)
+
+You can also learn more about [consent and recording laws](https://www.notion.com/help/ai-meeting-notes) →
+
+## Step 5: Check your setup
+
+Here's how to confirm the add-on is working:
+
+* The setup button changes from `Set up for Google Meet` to `Installed for Google Meet` once the add-on is installed and connected.
+
+* During a call you're transcribing, the add-on icon shows `Transcribing` with a link to the live note.
+
+* When you're not in a call, the add-on popup shows `Connected`.
 
 ## Speaker labels
 
-With the Notion Meetings Add-on installed, transcripts from your Google Meet calls label each speaker. This makes your notes easier to read, search, and organize, especially in group meetings.
+Speaker labels need a meeting transcribed in a supported language. Right now that is English and Japanese, so if your transcript doesn't show names, the language may not be supported yet.
 
-**Turn on speaker labels**
-
-1. Install the Notion Meetings Add-on from the Chrome Web Store.
-
-2. Reload any Google Meet tab you already had open.
-
-3. Open the add-on and check that it says `Connected`.
-
-`Connected` means the add-on is talking to the Notion desktop app. If you see `Not connected`, the app usually isn't running or needs an update. Open Notion, update to the latest version, then reload your Meet tab.
+With the add-on installed, transcripts from your Google Meet calls label each speaker. This makes your notes easier to read, search, and organize, especially in group meetings.
 
 **Why some lines don't have a name**
 
@@ -97,7 +109,13 @@ Sometimes a line in the transcript won't have a name. This usually happens when:
 
 * The audio comes from outside the call, so there's no one to match it to.
 
-## Troubleshoot the extension
+## What Notion can see
+
+To label speakers, the add-on reads who's in the call and who's currently speaking from Google Meet. The recording indicator is drawn on your own device.
+
+The add-on doesn't collect the text of your Meet chat, and it doesn't send your video anywhere new. Speaker labels aren't available through the API or MCP.
+
+## Troubleshoot
 
 * **The message posted but didn't pin.&#x20;**&#x47;oogle Meet only lets some people pin messages in the chat. If the message posts but doesn't pin, your meeting's settings may not allow pinning. The message is still visible in the chat for everyone.
 
@@ -109,17 +127,21 @@ Sometimes a line in the transcript won't have a name. This usually happens when:
 
 * **Nothing happens in a Meet tab you already had open.&#x20;**&#x49;f a Google Meet tab was open before you installed or updated the add-on, reload that tab so the add-on can work in it.
 
+* **The popup doesn't say&#x20;****`Transcribing`****&#x20;during a call.** Reload the Meet tab and start transcribing again. If you use the desktop app, make sure it's open and up to date. If you use Notion in Chrome, keep that tab open.
+
+* **Your transcript has no speaker labels.&#x20;**&#x43;heck that the add-on says `Connected`, then reload the Meet tab. If you see `Not connected`, the Notion desktop app usually isn't running or needs an update. Open Notion, update to the latest version, then reload your Meet tab. Remember that some lines stay unnamed on purpose, like during crosstalk.
+
 
 ## FAQs
 
-### Do other people in my meeting need the extension?
+### Do other people in my meeting need the add-on?
 
 No. Only the person transcribing needs it installed.
 
 
-### Does the extension record on its own?
+### Does the add-on record on its own?
 
-No. It only adds the chat message and indicator when you choose to start transcribing.
+No. It only adds the chat message and indicator when you choose to start transcribing, and only if you've turned them on.
 
 
 ### Which meeting tools does it work with?
@@ -130,3 +152,8 @@ The extension works with Google Meet.
 ### Can I use this on my phone?
 
 No, the extension works in Chrome on a computer.
+
+
+### Why don't people see a message that I'm transcribing?
+
+The chat message is off until it's turned on. Turn it on in `Settings` → `Meeting notes` → `Preferences`, or ask a workspace owner to turn it on for everyone.

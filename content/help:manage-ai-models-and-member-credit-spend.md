@@ -67,6 +67,22 @@ Once you save, restricted model providers will disappear from the model picker f
 
 Restricting model providers will obstructs the way Auto works, and may lead to your workspace consuming credits faster. Before saving a change, workspace owners will see a notification that restricting a model provider will affect Auto’s efficiency.
 
+## Require Auto for Notion Agent
+
+Workspace owners can require Auto for every Notion Agent chat in the workspace. While it's on, members can't pick a model for Notion Agent. The model picker shows `Auto` and explains that your workspace requires it. This setting covers Notion Agent only.
+
+To require Auto for Notion Agent:
+
+1. In your sidebar, go to `Settings` → `Notion AI` → `Controls`.
+
+2. Find **Require Auto for Notion Agent** just above the list of models members can choose for Notion Agent.
+
+3. Turn it on.
+
+4. Read the confirmation, then confirm. It explains that any chat already using another model switches to Auto, and that Custom Agents, AI Meeting Notes, and Translate aren't affected.
+
+Requiring Auto doesn't change which models Auto can use. Auto still draws from the providers your workspace allows. The list of models members can choose isn't the same as the models Auto picks from.
+
 ## Set how many Notion credits each member can spend
 
 Workspace owners can cap how many [Notion credits](https://www.notion.com/help/what-are-notion-credits) a person or group can spend using a high credit consumption model, so a single member or group can't use up the workspace's credits.
@@ -98,6 +114,8 @@ Workspace owners can go to `Settings` → `Notion AI` → `Usage` to see how man
 * The model picker shows only models your workspace allows. Models your owner has restricted appear under
 
   `Restricted models` and can't be selected. If a model isn't listed at all, its provider may be turned off. Ask a workspace owner.
+
+* If your workspace requires Auto for Notion Agent, the picker shows `Auto` and you can't choose another model. Ask a workspace admin if you need to pick a model.
 
 * When you choose a high credit consumption model in [Notion Agent](https://www.notion.com/help/notion-agent), it uses [Notion credits](https://www.notion.com/help/what-are-notion-credits), not your [Select credits](https://www.notion.com/help/standard-select-and-notion-credits-eligible-features).
 
