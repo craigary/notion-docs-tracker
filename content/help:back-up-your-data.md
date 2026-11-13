@@ -53,28 +53,28 @@ You can view and restore past versions of any Notion page going back several day
 
 ## Accidental deletions
 
-Accidents happen! If you accidentally delete a page, a workspace, or even your entire account, we can help. We keep backups of our database, which allows us to restore a snapshot of any page in the past 30 days if you need it.
+If you accidentally delete a page, a workspace, or even your entire account, we can help. We keep backups of our database, which allows us to restore a snapshot of any page in the past 30 days if you need it.
 
-Send us a message in Notion by clicking `?` at the bottom right on desktop (or in your sidebar on mobile), or email us at email protected.
+Send us a message in Notion by clicking `?` at the bottom right on desktop (or in your sidebar on mobile). You can also get in touch with Notion support→
 
 
 ## FAQs
 
 ### I tried clicking the Export all workspace content button but received an error message.
 
-Oof, so sorry about this 😓 For particularly large workspaces, the `Export all workspace content` function may have some trouble completing the export. We're investigating this issue and hope to have a resolution soon.
+For large workspaces, the `Export all workspace content` function may have some trouble completing the export.
 
 As a temporary workaround for this issue, you can export in smaller batches:
 
-1. Navigate to a top-level page in your workspace
+1. Navigate to a top-level page in your workspace.
 
-2. Click the `•••` button at the top right of the page, then click `Export` (you may not see this option if you're not an admin in the workspace)
+2. Click the `•••` button at the top right of the page, then click `Export` (you may not see this option if you're not an admin in the workspace).
 
-3. Choose `Markdown & CSV` or `HTML` as the export format, and turn on the `Include subpages` toggle
+3. Choose `Markdown & CSV` or `HTML` as the export format, and turn on the `Include subpages` toggle.
 
-4. Repeat for any other important top-level pages in the workspace that you'd like to have a backup of
+4. Repeat for any other important top-level pages in the workspace.
 
-Please note that we keep per-minute backups on our servers, and can help with data recovery at any time at email protected. Thanks for your patience while we work on fixing this issue!
+We keep per-minute backups on our servers, and can also help with data recovery. Message support for more help.
 
 
 ### Is there a way to schedule automatic backups?

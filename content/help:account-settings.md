@@ -271,7 +271,7 @@ If you receive an unexpected email notifying you of a change to your password, y
 
 * We'll send a link to your email address. When you click that link, you'll be taken to `Settings` in your Notion workspace, and your password will be reset.
 
-* Please report any suspicious activity like this to our support team, email protected.
+* Message support to report any suspicious activity like this to our team.
 
 
 ### I tried changing my email address but got an error message saying: "A user with this email already exists."
@@ -285,7 +285,7 @@ I<!-- -->f you'd like to change your account email to one that’s already tied 
 
 ### What if I accidentally deleted something permanently? Any way to get it back?
 
-If you accidentally delete a page, a workspace, or even your entire account, we can help! Send us a message in the app by clicking `?` at the bottom of your sidebar, or email us at email protected.
+If you accidentally delete a page, a workspace, or even your entire account, we can help. Send us a message in the app by clicking `?` at the bottom of your sidebar. Message support for more help.
 
 We keep backups of our database, which allows us to restore a snapshot of your content in the past 30 days if you need it.
 

@@ -47,7 +47,7 @@ If you no longer have access to the email address you used to sign up for Notion
 
 You may be asked to verify using your old email address. If you no longer have access to that email, you won’t be able to complete the change from settings.
 
-Still having trouble logging in? Contact us at email protected.
+You can also get in touch with Notion support→
 
 **Learn more**
 

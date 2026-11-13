@@ -9,7 +9,7 @@ category: "Workspace settings"
 categoryKey: "category:meet-your-workspace"
 ---
 
-**Note:** Many of these settings are only visible if you're an admin on a Plus Plan or Enterprise Plan. They don't appear in the mobile app at all. [Contact sales to learn more about our Enterprise plan →](https://notionup.typeform.com/to/FbZ6Tk)
+Many of these settings are only visible if you're an admin on a Plus Plan or Enterprise Plan. They don't appear in the mobile app at all. [Contact sales to learn more about our Enterprise plan →](https://notionup.typeform.com/to/FbZ6Tk)
 
 ## Search your settings
 
@@ -264,6 +264,6 @@ When you move top-level pages, all their sub-pages go with them. They'll appear 
 
 ### What if I accidentally deleted something permanently? Any way to get it back?
 
-If you accidentally delete a page, a workspace, or even your entire account, we can help! Send us a message in the app by clicking `?` at the bottom of your sidebar, or email us at email protected.
+If you accidentally delete a page, a workspace, or even your entire account, we can help. Send us a message in the app by clicking `?` at the bottom of your sidebar. Message support for more help.
 
 We keep backups of our database, which allows us to restore a snapshot of your content in the past 30 days if you need it.

@@ -201,11 +201,13 @@ You can change your payment method at any time in your billing settings.
 
 ### How do refunds work?
 
-Our refund policy is simple. If you believe you've made a mistake signing up for a paid Notion subscription online or in-app, please contact us inside the app or email email protected. We'll be happy to refund you the full amount (not pro-rated) if you downgrade your subscription within three days of signing up for monthly billing, or within 30 days of signing up for annual billing.
+If you believe you've made a mistake signing up for a paid Notion subscription online or in-app, you can request a refund. Message support for more help with this.
+
+We'll be happy to refund you the full amount (not pro-rated) if you downgrade your subscription within three days of signing up for monthly billing, or within 30 days of signing up for annual billing.
 
 If you have accidentally added members to your workspace, you can remove those members at any time. If you’ve been charged for members who were accidentally added, we're happy to provide a refund of the prorated charges if you reach out within three days of the invoice date (please make sure the additional members have been removed from your workspace when writing in).
 
-And if for any reason you're unhappy with Notion, please let us know at email protected — we'd love to hear your feedback, and will be happy to work with you to create the best experience possible.
+If for any reason you're unhappy with Notion, get in touch with Notion support. We'd love to hear your feedback, and will be happy to work with you to create the best experience possible.
 
 
 ### Do you have a Service-Level Agreement (SLA)?

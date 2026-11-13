@@ -61,4 +61,4 @@ We don't send email invoices at this time, but you can view your invoice by goin
 
 ### How can I update my invoices to include my billing address and/or VAT number?
 
-We can update this info for you! Just message us in the app by clicking the Notion AI face at the bottom right of the desktop app (or in your sidebar on mobile), or email us at email protected.
+We can update this info for you. Message us in the app by clicking the Notion AI face at the bottom corner of the desktop app (or in your sidebar on mobile). Message support for more info.

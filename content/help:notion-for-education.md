@@ -66,7 +66,7 @@ Once you’ve met the above requirements, follow these steps in the desktop or w
 
 3. Select `Get free education plan`. If your school is recognized by our system, you’ll be upgraded automatically.
 
-4. If you satisfy all requirements above for access to the plan but don't see `Get free education plan`, you can get in touch with email protected for more help.
+4. If you satisfy all requirements above for access to the plan but don't see `Get free education plan`, you can get in touch with Notion support→
 
 You must have a valid educational email address to upgrade to the Education Plan. We don’t accept student IDs or other documentation to verify a student or educator status.
 

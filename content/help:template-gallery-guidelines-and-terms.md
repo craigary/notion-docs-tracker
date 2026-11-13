@@ -181,7 +181,7 @@ We reserve the right, at our sole discretion, to modify or replace these Notion 
 
 ## Reporting violations
 
-See something that doesn't follow the Notion Marketplace Terms of Use? Write to us at email protected.
+See something that doesn't follow the Notion Marketplace Terms of Use? You can get in touch with Notion support→
 
 **Learn more**
 

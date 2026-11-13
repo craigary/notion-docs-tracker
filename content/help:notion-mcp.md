@@ -31,7 +31,7 @@ Learn more about [how different teams use Notion MCP →](https://www.notion.com
 
 Ready to connect your AI apps to Notion? Here's how:
 
-1. **Browse the Notion MCP Gallery**: Visit [our gallery to connect popular AI apps](https://developers.notion.com/docs/get-started-with-mcp#connect-through-the-notion-app) with just a few clicks. <!-- -->In Notion, you can also go to `Settings` → `Notion MCP`.
+1. **Browse the Notion MCP Gallery**: Visit [our gallery to connect popular AI apps](https://developers.notion.com/docs/get-started-with-mcp#connect-through-the-notion-app) with just a few clicks. In Notion, you can also go to `Settings` → `Notion MCP`.
 
 2. **Connect through the AI tool directly**: Many compatible AI apps have built-in options to connect to Notion MCP in their settings or integrations menu
 
@@ -83,7 +83,7 @@ When using Notion MCP, keep these tips in mind:
 
 * **Use descriptive page titles**: AI apps rely on clear page titles to understand your content structure.
 
-* **Be mindful of permissions**: <!-- -->Remember that MCP tools act with your full Notion permissions. They can access everything you can access.
+* **Be mindful of permissions**: Remember that MCP tools act with your full Notion permissions. They can access everything you can access.
 
 ## Admin controls for MCP
 
@@ -126,6 +126,30 @@ Workspace owners on the Enterprise plan can choose which external AI apps member
    * MCP clients that workspace owners connect are approved automatically. Clients that other members already connected are not.
 
 6. Once an MCP client is approved, any member in the workspace can connect it. Members find it in `Settings` → `Notion MCP` and select `Enable`. MCP clients that aren't approved show `Disabled by admin` instead.
+
+## Feedback from MCP connections
+
+MCP feedback sharing is available to workspaces in Notion's AI early access program (LEAP). A workspace owner decides whether the AI apps you connect can send this feedback, and Notion uses it to improve Notion MCP. For example, if apps keep picking the wrong tool, we can write clearer instructions for that tool. Sharing is off by default, and your team can keep using Notion MCP with sharing turned off.
+
+### [What your AI app can send](https://www.notion.com/help/notion-mcp#what-your-ai-app-can-send)
+
+When your app uses a Notion tool, it can add one or both of the following to its request. The app decides whether to send feedback and what to say.
+
+* **A description of the task.** The app can write one sentence, up to 300 characters, about what it's trying to do and why it picked the tool. For example, "I used search to find the project plan before adding a deadline."
+
+* **A category for an earlier tool call.** The app can flag a bug, unclear instructions, a missing feature, a task that took too many steps, or work that a Notion tool could have handled. The category comes from a fixed list, and the app picks the one it thinks fits.
+
+We ask apps to leave out names, page content, the values they pass to a tool, and secrets. The app writes the sentence in its own words, so it can still include those details. For example, it might name a private project or repeat a line from a plan it was asked to find.
+
+Because the app writes the text, feedback may include names or text from your pages. Turn this on only if that's okay for your workspace.
+
+### [Who controls sharing](https://www.notion.com/help/notion-mcp#who-controls-sharing)
+
+A workspace owner controls this setting, and it applies to everyone who uses Notion MCP in the workspace. Joining the early access program keeps sharing off until an owner turns it on.
+
+To find the setting, a workspace owner can search `Settings` for “feedback,” or open `Privacy` in `Settings` → `Notion AI`. An owner can turn sharing off in the same place.
+
+Turning the setting off stops new feedback right away.
 
 ## Popular AI apps
 

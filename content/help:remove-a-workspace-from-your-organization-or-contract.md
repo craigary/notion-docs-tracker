@@ -15,7 +15,7 @@ There are two separate actions you can take related to a workspace in your organ
 
 1. **Remove a workspace from your organization settings:&#x20;**&#x54;his disassociates the workspace from your organization in Notion’s admin console. The workspace will no longer appear under your organization’s Workspaces list, and organization-level settings and controls will no longer apply to it. Removing a workspace from your organization settings does not automatically remove it from your contract or stop billing.
 
-2. **Remove a workspace from your contract**: This removes the workspace from your billing agreement with Notion. You'll no longer be billed for that workspace under your contract. This is a separate step from removing a workspace from your organization settings, and must be requested directly through email protected (or through your sales contact).
+2. **Remove a workspace from your contract**: This removes the workspace from your billing agreement with Notion. You'll no longer be billed for that workspace under your contract. This is a separate step from removing a workspace from your organization settings, and must be requested directly. You can request this through your sales contact, or get in touch with Notion support→
 
 ## Remove a workspace from your organization settings
 
@@ -35,7 +35,7 @@ Once removed, that workspace will no longer be managed by your organization’s 
 
 ## Remove a workspace from your contract
 
-To remove a workspace from your multi-workspace contract and stop billing for it, you need to contact Notion directly (email protected). This can't be done through the organization settings.
+To remove a workspace from your multi-workspace contract and stop billing for it, you need to contact Notion directly. This can't be done through the organization settings.
 
 To request a workspace removal from your contract:
 
