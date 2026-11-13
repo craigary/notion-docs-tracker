@@ -1,5 +1,5 @@
 ---
-title: "Salesforce AI Connector (beta)"
+title: "Salesforce AI Connector"
 emoji: null
 description: "Connect Notion AI with your Salesforce to seamlessly bring in information from your accounts, leads, opportunities, and contacts."
 url: "https://www.notion.com/help/salesforce-ai-connector"
@@ -65,7 +65,7 @@ Notion AI can read all Salesforce objects and records that the connected account
 
 ### Does Notion AI respect my Salesforce permissions?
 
-Yes. Notion AI strictly follows existing permissions as outlined in our [Notion AI Security Practices](https://www.notion.com/help/notion-ai-security-practices). Users can only generate content and receive responses about emails they have permission to access in Salesforce.
+Yes. Notion AI strictly follows existing permissions as outlined in our [Notion AI Security Practices](https://www.notion.com/help/notion-ai-security-practices). Users can only generate content and receive responses about objects and records they have permission to access in Salesforce.
 
 1. Global overrides
 
@@ -103,7 +103,7 @@ New objects and records created in salesforce will be available in Notion AI sea
 
 ### Can I limit the scope of my search to only Salesforce?
 
-Yes! In Notion AI, click `Find in` to toggle between `Everything you can access`, `Notion`, and `Salesforce`.
+Yes! In Notion AI, click `All sources` to toggle between `All sources`, `Notion`, and `Salesforce`.
 
 
 ### Who can access Salesforce content using Notion AI?

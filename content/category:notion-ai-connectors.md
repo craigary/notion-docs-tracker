@@ -9,19 +9,19 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/2HM5BPlsww5fF5gJDpI71B/94
 1 help:notion-ai-connectors
 2 help:notion-ai-connector-for-github
 3 help:notion-ai-connectors-for-google-drive
-4 help:notion-ai-connector-for-linear
-5 help:jira-ai-connector
+4 help:jira-ai-connector
+5 help:notion-ai-connector-for-linear
 6 help:notion-ai-connector-for-microsoft-teams
 7 help:notion-ai-connectors-for-slack
-8 help:asana-ai-connector
-9 help:google-calendar-ai-connector
-10 help:notion-mail-ai-connector
-11 help:microsoft-outlook-ai-connector
-12 help:notion-calendar-ai-connector
-13 help:connect-sharepoint-and-onedrive-to-notion-agents
-14 help:notion-ai-connector-for-gmail
-15 help:box-ai-connector
-16 help:salesforce-ai-connector
+8 help:notion-mail-ai-connector
+9 help:microsoft-outlook-ai-connector
+10 help:notion-calendar-ai-connector
+11 help:connect-sharepoint-and-onedrive-to-notion-agents
+12 help:salesforce-ai-connector
+13 help:notion-ai-connector-for-gmail
+14 help:box-ai-connector
+15 help:asana-ai-connector
+16 help:google-calendar-ai-connector
 
 ## Video
 
