@@ -124,7 +124,7 @@ Notion provides the permissions model that determines what an authenticated user
 
 * Ensuring Customer Data published to the web is intended for a public audience, and configuring options such as search engine indexing accordingly.
 
-* Transferring Customer Data held privately by a user before that user departs, or within the limited window during which transfer remains possible. After that window, private Customer Data is generally unrecoverable, and transfer tooling is available only on the Enterprise Plan.
+* Transferring Customer Data owned by a user before that user departs, or within the limited window during which transfer remains possible. After that window, private Customer Data is generally unrecoverable, and transfer tooling is available only on the Enterprise Plan.
 
 ## Data governance & privacy
 

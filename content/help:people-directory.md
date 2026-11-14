@@ -9,11 +9,9 @@ category: "Sharing & permissions"
 categoryKey: "category:sharing-and-collaboration"
 ---
 
-The People Directory is a built-in database in your Notion workspace that contains profiles for all current and former workspace members. It’s a central resource to view and manage information about people in your workspace, and you can even add properties tailored to your organization's needs.
+The People Directory is a built-in database in your Notion workspace that contains profiles for all current and former workspace members, including guests. It’s a central resource to view and manage information about people in your workspace, and you can even add properties tailored to your organization's needs.
 
 Enterprise Plan workspaces with SCIM configured can keep information up-to-date by automatically [importing data from a HRIS provider](https://www.notion.com/help/people-directory#sync-scim-properties-to-the-people-directory). You can choose which properties to display from the directory settings.
-
-**Note:** Guests in your workspace won’t be shown in the People Directory.
 
 ## Who can use the People Directory?
 

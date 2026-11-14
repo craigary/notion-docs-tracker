@@ -149,7 +149,7 @@ Events are split into the following categories:
 
 * **File downloaded:** That a user opened or downloaded `file name` from a certain page.
 
-* **Private content transferred:** That the private pages of a user who left the workspace were transferred to a current user. Learn more by reading [Transfer content from a deprovisioned user](https://www.notion.com/help/transfer-content-deprovisioned-user).
+* **Private content transferred:** That pages owned by a user who left the workspace were moved to a current user, or that a current user was given access to pages the departed user had shared. Learn more by reading [Transfer content from a deprovisioned user](https://www.notion.com/help/transfer-content-deprovisioned-user).
 
 * **Automation created:** That a user created a new automation.
 

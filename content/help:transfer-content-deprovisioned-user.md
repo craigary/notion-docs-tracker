@@ -11,17 +11,29 @@ categoryKey: "category:enterprise-admin"
 
 ## When can a workspace owner transfer content?
 
-When a user is deleted, deprovisioned, or leaves a workspace, they may leave behind private page content. This feature allows a workspace owner of an Enterprise Plan workspace to transfer this content to another, current user so it is easily recovered.
+When a user is deleted, deprovisioned, or leaves a workspace, they may leave behind pages they owned. This feature allows a workspace owner of an Enterprise Plan workspace to transfer this content to another, current user so the work isn't lost.
 
-**Note:&#x20;**&#x54;his process applies on a user’s *private content* after they have left a workspace. Content shared with a current workspace member will **not** be transferrable.
+What happens to each page depends on who could see it:
 
-A workspace owner is able to reassign the private content of a user who has recently left the workspace if:
+* Pages only that person could see are moved to the recipient. They show up in the recipient's Private section, grouped under a new page called "Transferred pages of {name}."
+
+* Pages they owned but had already shared with other people stay where they are. The recipient gets full access to each one, and a link to it is added to that same "Transferred pages of {name}" page.
+
+Some pages aren't transferred:
+
+* Pages that get their access from a parent page or teamspace, like most teamspace pages.
+
+* Pages in trash.
+
+* Pages the whole workspace already has full access to.
+
+A workspace owner is able to reassign the content of a user who has recently left the workspace if:
 
 * The user is not currently part of the workspace (they have been deprovisioned).
 
-* The user had private pages.
+* The user had pages.
 
-* The user’s private pages were not already reassigned to another user.
+* The user’s pages were not already reassigned to another user.
 
 * The user was part of the workspace fewer than 30 days ago.
 
@@ -33,17 +45,17 @@ A workspace owner is able to reassign the private content of a user who has rece
 
 2. Navigate to the `Recently left` users tab.
 
-3. For the user who has been deprovisioned (the “recently left user”), select the destination where you would like to send the deprovisioned user’s private pages.
+3. For the user who has been deprovisioned (the “recently left user”), choose the member who should receive their pages. Each person in the list shows their email next to their name, so you can tell apart two people who share a name.
 
-4. You will see a confirmation modal; select `Transfer private pages` to continue the private page transfer process.
+4. In the confirmation window, select the `Transfer pages` button to continue.
 
-5. All of the deprovisioned user's private pages will appear in the destination user’s sidebar, nested under a new top-level private page.
+5. Notion adds a new page called "Transferred pages of {name}" to the recipient's Private section. Pages only the departed user could see are moved inside it. Pages they'd already shared with others stay in place, and this page collects a link to each one. The recipient now has full access to all of these pages.
 
-**Note:&#x20;**&#x41; user who has had all their private pages reassigned will no longer be visible in the `Recently left` list.
+**Note:&#x20;**&#x41; user who has had all their pages reassigned will no longer be visible in the `Recently left` list.
 
 ## Reassign content using the Content Transfer API
 
-Enterprise plan workspace owners can use the Content Transfer API to transfer private pages from recently removed workspace members to another member. This API requires the same eligibility criteria mentioned [above](https://www.notion.com/help/transfer-content-deprovisioned-user#when-can-a-workspace-owner-transfer-content).
+Enterprise plan workspace owners can use the Content Transfer API to transfer pages from recently removed workspace members to another member. This API requires the same eligibility criteria mentioned [above](https://www.notion.com/help/transfer-content-deprovisioned-user#when-can-a-workspace-owner-transfer-content).
 
 To use this API, Enterprise Plan workspace owners can:
 
@@ -72,7 +84,7 @@ To use this API, Enterprise Plan workspace owners can:
 >
 > `-H "Notion-Version: 2022-06-28"`
 
-3\. The API will return a failure response if the validation fails. Validations can fail if the from user is still in the workspace, or the workspace is not on the Enterprise Plan. If the validation passes, the API will return a success response and start processing the transfer. When the transfer is complete, transferred content should appear in the recipient's private Notion content. The recipient will also receive an inbox and email notification.
+3\. The API will return a failure response if the validation fails. Validations can fail if the from user is still in the workspace, or the workspace is not on the Enterprise Plan. If the validation passes, the API will return a success response and start processing the transfer. When the transfer is complete, transferred content should appear in the recipient's Notion content. The recipient will also receive an inbox and email notification.
 
 ## Restore a user's content and access
 

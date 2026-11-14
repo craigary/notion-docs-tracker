@@ -65,6 +65,28 @@ These settings are separate from any limit the developer set on their own connec
 
 In the `Manage` tab, select any connection to see which workspace members have it installed. You can disconnect individual members or all members at once.
 
+## Choose who can create connections and tokens
+
+Workspace owners can choose who's allowed to create internal connections and personal access tokens.
+
+1. Go to `Settings` → `Connections`.
+
+2. Select the `Manage` tab.
+
+3. Find the setting for who can create internal connections and open the dropdown.
+
+4. Choose one:
+
+   * **Any member**: All workspace members can create connections and tokens.
+
+   * **Workspace owners only**: Only workspace owners can create them.
+
+   * **Workspace owners and selected groups**: Workspace owners and members of the groups you pick can create them.
+
+5. If you pick **Workspace owners and selected groups**, choose the groups that should have access.
+
+**Note**: This setting also controls who can be added as an owner of a connection. Existing workspaces start with Workspace owners only until an owner changes it.
+
 ## Disable webhook actions in a workspace
 
 Workspace owners on an Enterprise Plan can also disable the `Send webhook` action for your entire workspace. Learn more about webhook actions [here →](https://www.notion.com/help/webhook-actions)

@@ -15,6 +15,8 @@ categoryKey: "category:account-settings-and-privacy"
 
 * Not be in an organization that requires login via identity provider (such as Okta, Microsoft Azure, Google Workspace, etc.).
 
+If you have a password, two-step verification is required. You'll set it up right after you set or change your password, and you'll need to keep at least one method on your account.
+
 Two-step verification adds an extra layer of protection to your Notion account.
 
 By enabling two-step verification, you can help keep your Notion account and your organization more secure. This feature is available to all plan types and can be set up easily in your account settings.
@@ -30,6 +32,8 @@ To set up two-step verification:
 3. Choose to set up using `Code from authenticator` or `Text me a code`.
 
 **Note:** Depending on your region, you may only be able to verify using an authenticator app.
+
+**Note**: You'll also be asked to set up two-step verification right after you set or change a password. If you don't finish setup, the password you just set is removed and we'll email you. You can still get back in with another login method, like a one-time email code.
 
 ### [Using authenticator](https://www.notion.com/help/two-step-verification#using-authenticator)
 
@@ -71,13 +75,15 @@ You can have up to four verification methods, two authenticators and two phone n
 
 3. Verify your identity using an active two-step method.
 
-### [Remove two-step verification](https://www.notion.com/help/two-step-verification#remove-two-step-verification)
+### [Remove a two-step verification method](https://www.notion.com/help/two-step-verification#remove-a-two-step-verification-method)
 
-To remove two-step verification:
+To remove a two-step verification method:
 
 1. Hover and click the ••• next to the active method you want to remove.
 
 2. Click `Delete` and confirm your choice.
+
+**Important**: You need to keep at least one verification method. If you have more than one (for example, a phone number and an authenticator app), you can remove one as long as another stays on your account. When only one method is left, the option to delete it is hidden.
 
 ### [Add a verification method](https://www.notion.com/help/two-step-verification#add-a-verification-method)
 
@@ -93,6 +99,11 @@ To add another verification method:
 ### Do I need two-step verification?
 
 Two<!-- -->-step verification isn't required, but we highly recommend that you use it as an extra layer of security to protect the contents of your Notion workspace.
+
+
+### Why was my password removed?
+
+If you set or change a password but don't finish setting up two-step verification, Notion removes the password you just set and sends you an email. Your account stays safe, and you can still log in another way, like a one-time email code. To use a password again, set it and finish two-step verification setup.
 
 
 ### I login to Notion through an identity provider. Do I still need two-step verification?

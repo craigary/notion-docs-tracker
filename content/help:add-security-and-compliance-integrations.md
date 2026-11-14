@@ -263,7 +263,7 @@ For page events, the page audience describes the visibility level of the target 
 
 * **workspace.permissions.member\_role\_updated**: A member’s role in a workspace was updated. Roles include member, membership admin, workspace owner.
 
-* **workspace.private\_content\_transferred**: The private content of a deprovisioned workspace member was transferred to a new location. Enterprise workspace owners can [transfer content](https://www.notion.com/help/transfer-content-deprovisioned-user) from deprovisioned users.
+* **workspace.private\_content\_transferred**: The content of a deprovisioned workspace member was transferred to a new location, or a current member was given access to pages that member had shared. Enterprise workspace owners can [transfer content](https://www.notion.com/help/transfer-content-deprovisioned-user) from deprovisioned users.
 
 * **workspace.saml\_sso\_idp\_metadata\_url\_added**: The IdP (Identity Provider) metadata URL was added by a workspace owner.
 
@@ -407,7 +407,7 @@ For page events, the page audience describes the visibility level of the target 
 
 * **integration.deleted**: An internal integration associated with the workspace was deleted. Deletions can occur in the My Integrations dashboard, or an admin can remove access to an internal integration for all users.
 
-* **integration.secret\_reset**: An internal integration’s installation access token was reset (or “refreshed”)..
+* **integration.secret\_reset**: An internal integration’s API token was reset (or “refreshed”).
 
 ## Compliance partner connections
 

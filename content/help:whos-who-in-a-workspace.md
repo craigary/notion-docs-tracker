@@ -55,6 +55,8 @@ There are a few ways that restricted members are different from regular workspac
 
 * They won't see agents in the workspace. They can't create Custom Agents, use them, or be given access to them.
 
+* A workspace owner can turn off their ability to create new private pages. When it's turned off, they can't start new top-level private pages, but any private pages they already have stay available, and they can still work in the teamspaces and pages they've been added to.
+
 You can find controls related to restricted members in `Settings`. Learn more: [Workspace security](https://www.notion.com/help/workspace-settings#workspace-security)
 
 ### [Restricted members in teamspaces](https://www.notion.com/help/whos-who-in-a-workspace#restricted-members-in-teamspaces)

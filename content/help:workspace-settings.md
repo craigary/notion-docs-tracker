@@ -197,6 +197,8 @@ Depending on how you're using your workspace, you may want to keep the data you 
 
 * `Who can add restricted members to pages`: Choose whether workspace owners, any member with admin approval, or any member can add restricted members to a page.
 
+* `Allow restricted members to create private pages`: Choose whether restricted members can start new private pages. Turn this off to stop restricted members from creating new top-level private pages. Private pages they already have stay available, and they can still work in the teamspaces and pages they've been added to.
+
 * `Once pages are moved to Trash, delete them after`: This allows you to choose how long pages will be deleted after being moved to Trash.
 
 * `After pages are deleted from Trash, retain them for`: This allows you to choose how long pages can be retained after being deleted from Trash.

@@ -63,7 +63,7 @@ If you choose to allow only connection owners to manage access, that means onl
 
 ## Manage connections in your workspace
 
-**Note:** Workspace owners manage all connections in a workspace. <!-- -->Learn more about [enterprise connection settings →](https://www.notion.com/help/enterprise-connection-settings)
+**Note:** Each connection has one or more owners, and every owner can manage the connection and get its API token. Who can create a connection depends on your plan and your workspace's settings. Learn more about [enterprise connection settings →](https://www.notion.com/help/enterprise-connection-settings)
 
 * Go to `Settings` → `Connections`. Here, you'll see the full connections catalog of all connections grouped by app, with search and category filters.
 
@@ -151,18 +151,18 @@ Notion has partnered directly with several services (such as [Zapier](https://w
 
 **Tip:** Want to see partner connections in action? [Check out this guide →](https://www.notion.com/help/guides/visual-link-previews-streamline-collaboration)
 
-### [Connect via installation access token](https://www.notion.com/help/add-and-manage-connections-with-the-api#connect-via-installation-access-token)
+### [Connect via API token](https://www.notion.com/help/add-and-manage-connections-with-the-api#connect-via-api-token)
 
-Some partner platforms require an installation access token in order to link to your workspace.
+Some partner platforms require an API token in order to link to your workspace.
 
 * In this case, first follow these instructions to create a corresponding internal connection for your workspace.
 
 * Once you've created the internal connection, navigate to `Settings` in your sidebar and then the `Connections` tab.
 
-* Click the `•••` menu next to the existing connection that you'd like to link to a partner platform, and press `Copy installation access token`.
+* Click the `•••` menu next to the existing connection that you'd like to link to a partner platform, and press `Copy API token`.
 
 ![Add & manage connections - internal connection token](https://images.ctfassets.net/spoqsaf9291f/1EdzyxZuVOL043FzByZb62/d955d0171a63a62e6181831ce716416e/Integration_menu_-_Token.png)
 
-* Paste this installation access token into the corresponding field on the partner platform's set up form.
+* Paste this API token into the corresponding field on the partner platform's set up form.
 
 **Note:** Notion does not support troubleshooting for partner connections. Please direct any feedback and questions to the respective partner's support team.

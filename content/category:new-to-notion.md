@@ -16,8 +16,8 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/2HM5BPlsww5fF5gJDpI71B/94
 8 help:start-with-a-template
 9 help:share-your-work
 10 help:collaborate-with-people
-11 help:contact-notion-for-press-and-media-inquiries
-12 help:badges-and-certifications
+11 help:badges-and-certifications
+12 help:contact-notion-for-press-and-media-inquiries
 
 ## Video
 

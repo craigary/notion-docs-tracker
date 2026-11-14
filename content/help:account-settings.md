@@ -73,6 +73,8 @@ If you want to log into Notion using a permanent password instead of temporary l
 
    * Special characters are allowed, but not required.
 
+**Note**: After you set a password, you'll be asked to set up two-step verification with an authenticator app or a text message. If you don't finish setup, the password you just set is removed and we'll email you. Learn more about [two-step verification →](https://www.notion.com/help/two-step-verification)
+
 If you want to change or remove your password:
 
 1. In the sidebar, select the down arrow next to the workspace name to go to `Settings` → `{your name}`.
@@ -80,6 +82,8 @@ If you want to change or remove your password:
 2. Select `Change password`.
 
 3. Enter a new password and select `Change password`, or select `Remove password`.
+
+If you change your password and don't already have two-step verification, you'll be asked to set it up. If you don't finish setup, your new password is removed and we'll email you. You can still log in another way, like a one-time email code.
 
 **Note:** Never share your password with anyone, even Notion support! If someone's claiming to be Notion support and asking for your password, it's not us.
 
