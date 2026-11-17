@@ -39,9 +39,11 @@ If you're not a born shortcutter, we get it. You can still work like a Notion po
 
 * Use `option` + `shift` + `click` to open a page as a new window.
 
-* Use `cmd/ctrl` + `click` to open a link as a new Notion tab.
+* Use `cmd/ctrl` + `click` to open a link as a new Notion tab. If the link points to another workspace, it opens in a separate window, since each window holds one workspace.
 
 * Use `cmd/ctrl` + `T` to create a new Notion tab.
+
+* Use `cmd/ctrl` + `shift` + `T` to reopen the last closed tab.
 
 **Tip:** You can add any emoji in-line on a Notion page by typing `:` followed by the name of the emoji, like `:apple` for 🍎 or `:clapping` for 👏.
 

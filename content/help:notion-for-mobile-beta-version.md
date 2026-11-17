@@ -67,7 +67,7 @@ Go to [Notion’s app listing in the Google Play Store here](https://play.google
 
 ## Notion beta for desktop
 
-The desktop beta is for the Notion app on Mac and Windows. It lets you try new desktop features early, starting with a new way tabs work. Joining is your choice, and you can leave whenever you want. Notion restarts when you join or leave.
+The desktop beta is for the Notion app on Mac and Windows. It lets you try new desktop features early. Joining is your choice, and you can leave whenever you want. Notion restarts when you join or leave.
 
 ### [How to sign up](https://www.notion.com/help/notion-for-mobile-beta-version#how-to-sign-up)
 
@@ -81,9 +81,7 @@ Click the Beta button (the bug icon) in the tab bar, then choose `Report a bug` 
 
 ### [How to leave the beta](https://www.notion.com/help/notion-for-mobile-beta-version#how-to-leave-the-beta)
 
-Click the Beta button in the tab bar and choose `Leave beta`, or turn off `Desktop beta` in `Settings` → `Preferences`. Notion restarts and your classic tabs come back.
-
-To learn what changes for your windows and tabs, see our Notion desktop beta: new tabs article.
+Click the Beta button in the tab bar and choose `Leave beta`, or turn off `Desktop beta` in `Settings` → `Preferences`. Notion restarts.
 
 ## Becoming a beta tester
 

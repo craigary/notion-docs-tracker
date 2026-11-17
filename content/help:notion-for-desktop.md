@@ -11,7 +11,7 @@ categoryKey: "category:notion-apps"
 
 ## Why use the desktop app?
 
-Notion's desktop app is a clean, distraction-free interface without all the temptation of tabs. Switching between tabs in the desktop app is smooth and quick so that you can work more efficiently. You can even hover over a tab to preview the page inside it.
+Notion's desktop app gives you a clean, focused space to work. All the tabs in a window share one running copy of Notion, so switching between tabs is fast, the sidebar stays put, and Notion uses less memory when you have a lot of tabs open. Each window holds one workspace. You can even hover over a tab to preview the page inside it.
 
 You'll receive push notifications in the desktop app when something important happens inside Notion, like when someone mentions you, someone assigns you a task, or you set a reminder for yourself.
 
@@ -45,13 +45,7 @@ On desktop, you can use search and [Notion AI](https://www.notion.com/help/notio
 
 ## Desktop beta
 
-Want to try new desktop features early? The desktop beta turns on a new way tabs work. All the tabs in a window share one running copy of Notion, so switching tabs is faster, the sidebar stays put, and Notion uses less memory.
-
-In the beta, each window holds one workspace. A window with more than one workspace splits apart, and tab groups become their own windows. Your open tabs carry over, and your classic layout is saved so you can switch back.
-
-To join, click `Try Desktop Beta` in the tab bar when you see it, or go to `Settings` → `Preferences` → `Desktop beta`. To leave, click the Beta button (the bug icon) in the tab bar and choose `Leave beta`. Notion restarts each time.
-
-To learn what changes for your windows and tabs, see [Notion desktop beta: new tabs →](https://www.notion.com/help/notion-desktop-beta-new-tabs)
+Want to try experimental desktop features early? You can join the Desktop Beta from `Settings` → `Preferences` → `Desktop beta`. Joining restarts Notion, and you can leave anytime from the same setting.
 
 ## Download the app
 
