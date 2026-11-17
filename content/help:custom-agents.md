@@ -325,7 +325,7 @@ Results depend on how you set things up. The way you split the work, the models 
 
 * Start with `Auto` for models. You can also give the primary agent a stronger model and give simple, focused tasks lighter models. Check the quality of the results before you add more work.
 
-* Check the `Activity` and `Insights` tabs after you test. Compare model use, output quality, and credits across runs. Sub-agent work uses Notion credits, so extra hand-offs can cost more. Hand-offs that use a high credit consumption model cost more because these models spend credits at the model's own price.
+* Check the `Activity` and `Analytics` tabs after you test. Compare model use, output quality, and credits across runs. Sub-agent work uses Notion credits, so extra hand-offs can cost more. Hand-offs that use a high credit consumption model cost more because these models spend credits at the model's own price.
 
 ## Choose a model for your Custom Agent
 
@@ -545,13 +545,13 @@ The duplicate opens as a private agent. You can review and update its settings b
 
 The duplicate is private by default, only you can see it. Share it from the `Share` menu when you’re ready.
 
-## Export Insights data as CSV
+## Export Custom Agent Analytics data as CSV
 
-If you have full access to a Custom Agent, you can export its Insights chats and threads as a CSV file for analysis or reporting outside of Notion.
+If you have full access to a Custom Agent, you can export its Analytics chats and threads as a CSV file for analysis or reporting outside of Notion.
 
 To export:
 
-1. Open the Custom Agent and go to the `Insights` tab.
+1. Open the Custom Agent and go to the `Analytics` tab. You can also open the agent's three-dot menu and select `View analytics`.
 
 2. Select the time period you want to export.
 

@@ -63,11 +63,11 @@ Control who can create Custom Agents (everyone, workspace owners only, selected 
 
 Pause or switch off a Custom Agent anytime to immediately stop credit usage while you review activity or adjust the agent. You can also switch the agent to a model that uses fewer credits. Learn more about [workspace admin controls for Custom Agents →](https://www.notion.com/help/custom-agents-sharing-and-permissions#workspace-admin-controls)
 
-## 4. Use Insights to optimize performance
+## 4. Use Custom Agent Analytics to optimize performance
 
-Insights helps Custom Agent creators and workspace admins understand activity so they can make targeted updates that improve performance. Use Insights to spot runs that take extra steps, fail and retry, or use a more expensive model than the job requires. Then, update the agent’s instructions or settings so it runs more efficiently.
+Analytics<!-- --> helps Custom Agent creators and workspace admins understand activity so they can make targeted updates that improve performance. Use Analytics to spot runs that take extra steps, fail and retry, or use a more expensive model than the job requires. Then, update the agent’s instructions or settings so it runs more efficiently.
 
-Open Insights directly within an agent to:
+Open <!-- -->Analytics<!-- --> directly within an agent to:
 
 * Monitor your Custom Agent’s activity and credit usage.
 
@@ -77,9 +77,9 @@ Open Insights directly within an agent to:
 
 * Find and fix failed runs so your agent works more reliably.
 
-Learn more about how to use Insights to [reduce costs and improve a Custom Agent](https://www.notion.com/help/guides/best-practices-for-improving-your-custom-agent) [→](https://www.notion.com/help/guides/best-practices-for-improving-your-custom-agent)
+You can also open the agent's three-dot menu and select `View analytics`.
 
-![HC: view agent insightss](https://images.ctfassets.net/spoqsaf9291f/4QclXZuMjYGpNkBwZV7c2i/c1cfe629e1ccd50aebeac8e8d54d831d/insights_chart_english__2___1_.png)
+Learn more about how to use Analytics to [reduce costs and improve a Custom Agent](https://www.notion.com/help/guides/best-practices-for-improving-your-custom-agent) [→](https://www.notion.com/help/guides/best-practices-for-improving-your-custom-agent)
 
 ## 5. Control whether members can spend credits past the allowance
 
