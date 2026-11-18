@@ -39,6 +39,8 @@ Notion is hosted in US-West-2 (Oregon), EU-Central-1 (Frankfurt), AP-Northeast-1
 
 * notion.site
 
+* notion-custom.com
+
 * app.notion.com
 
 * api.notion.com

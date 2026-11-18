@@ -93,6 +93,10 @@ Notion will transcribe the audio and generate a summary, just like a live record
 
 ## Follow the transcript with speaker labels & citations
 
+**Speaker labels need a meeting transcribed in a supported language**
+
+We currently support: Arabic, Chinese (Simplified), Chinese (Traditional), Danish, Dutch, English, Finnish, French, German, Hebrew, Indonesian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Russian, Spanish, Swedish, Thai, and Vietnamese. If your transcript doesn't show names, the language may not be included yet.
+
 When AI Meeting Notes detects that the person speaking has changed, it will start transcribing on a new line.
 
 On the desktop app, Notion can label speakers in the transcript so it’s easier to follow who said what. This works best for virtual one-on-one meetings, where Notion can capture both your microphone and your system audio. If your meeting note is linked to a calendar event, Notion can also label the other participant by name.

@@ -227,7 +227,7 @@ At the bottom of the sidebar, there are a couple more workspace essentials.
 
 * **Templates:** This opens our template picker, where you can create a new page using starter content to help you accomplish any one of 50+ jobs.
 
-* **Trash:** The `Trash` contains all the pages you delete. You can drag and drop them in here. You can also click on trash to search, view and restore these pages. **Note that you won’t be able to edit a page that’s in the trash unless you restore it.**
+* **Trash:** The `Trash` contains all the pages you move there. You can drag and drop them in here. You can also click on trash to search, view and restore these pages. **Note that you won’t be able to edit a page that’s in the trash unless you restore it.**
 
 **Note:** By default, pages will remain in Trash for 30 days before they are automatically removed from Trash. Enterprise plan workspace owners may customize these settings. [Learn more here →](https://www.notion.com/help/custom-data-retention-settings)
 
@@ -267,13 +267,13 @@ Your sidebar is flexible. You can configure it however is most helpful for you.
 
 * You can also collapse or hide the `Favorites`, `Workspace`, `Shared`, or `Private` sections of your sidebar. Just click on those headings to hide or reveal them.
 
-## Delete pages
+## Move pages to the trash
 
-There are a few ways to delete pages from your sidebar:
+There are a few ways to move pages to the trash from your sidebar:
 
-* Click on the `•••` icon that appears when you hover over a page and select `Delete`.
+* Click on the `•••` icon that appears when you hover over a page and select `Move to Trash`.
 
-* Drag a page from your workspace into the `Trash`. This will delete all the sub-pages nested within that page, including database items.
+* Drag a page from your workspace into the `Trash`. This will move all the sub-pages nested within that page, including database items, to the trash.
 
 * Go to `Library` and select the section name. Then, click `Remove from sidebar`.
 

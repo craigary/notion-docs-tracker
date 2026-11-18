@@ -107,9 +107,9 @@ Rage Shake is a feature on Notion mobile (for Android) that allows users to repo
 
 ### [Trash](https://www.notion.com/help/workspaces-on-mobile#trash)
 
-* Tap to see deleted pages split into two categories: all deleted pages, and sub-pages deleted off the current page you're looking at.
+* Tap to see pages you've moved to the trash, split into two categories: all pages in trash, and sub-pages you removed from the current page you're looking at.
 
-* Tap the trash icon to delete a page forever.
+* Tap the trash icon to permanently delete a page.
 
 * Tap the arced arrow icon to restore a page to your workspace.
 

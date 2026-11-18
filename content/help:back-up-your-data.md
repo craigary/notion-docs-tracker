@@ -47,6 +47,8 @@ To export your workspace content:
 
 To restore pages, go to `Trash`, find the page you're looking for, and click on the curved arrow icon next to it. Your page will return to where it was last in your workspace.
 
+A page in Trash isn't gone yet. If you don't restore it in time, it becomes deleted and then permanently deleted. Once a page is permanently deleted, no one can restore it.
+
 ## Restore from edit history
 
 You can view and restore past versions of any Notion page going back several days, depending on what plan you're on. [Learn more about edit history here →](https://www.notion.com/help/duplicate-delete-and-restore-content)
@@ -105,6 +107,6 @@ Not at the moment, but we're continuing to update our API, which may help to ena
 
 ### How can I empty my trash?
 
-There isn’t a way to empty your trash all at once. You can go in and delete individual pages from the trash — otherwise, pages in the trash will be automatically and permanently deleted after 30 days.
+There isn’t a way to empty your trash all at once. You can go in and permanently delete individual pages from the trash. Otherwise, pages in the trash will be automatically and permanently deleted after 30 days.
 
-Enterprise plan workspace owners may customize these settings. [Learn more here →](https://www.notion.com/help/custom-data-retention-settings)
+Enterprise plan workspace owners may customize these settings. Learn more about [custom data retention settings →](https://www.notion.com/help/custom-data-retention-settings)

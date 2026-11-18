@@ -29,33 +29,35 @@ You can right click on any content in Notion (or use the gesture that correspond
 
 To delete, select any content block or text and hit the `delete` key.
 
-## Delete pages
+## Move pages to Trash
 
-There are many ways to delete pages in Notion:
+There are many ways to move pages to the trash in Notion:
 
-* Hover over the page in your left sidebar, select `•••` (or right click) and select `Delete` from the menu.
+* Hover over the page in your left sidebar, select `•••` (or right click) and select `Move to Trash` from the menu.
 
-* Select `•••` at the very top right of a page and select `Delete` from the dropdown menu.
+* Select `•••` at the very top right of a page and select `Move to Trash` from the dropdown menu.
 
-![Delete page •••](https://images.ctfassets.net/spoqsaf9291f/1h49x54cjhsOCTLNp9VRS4/866faf7de0ac5b252275b3c64a471d44/Delete_page__________.png)
-
-* If you're deleting a sub-page from an existing page, hover over it and click on the **`⋮⋮`** icon (or right click) to see the option to `Delete`.
+* If you're moving a sub-page to the trash from an existing page, hover over it and click on the **`⋮⋮`** icon (or right click) to see the option to `Move to Trash`.
 
 * Drag any page or content block into the `Trash` at the bottom of your left sidebar.
 
 * You can always select any page block and press the `backspace` or `delete` keys.
 
-### [What happens when a page is deleted](https://www.notion.com/help/duplicate-delete-and-restore-content#what-happens-when-a-page-is-deleted)
+### [What happens when yo move a page to the trash](https://www.notion.com/help/duplicate-delete-and-restore-content#what-happens-when-yo-move-a-page-to-the-trash)
 
-By default, pages will remain in Trash for 30 days before they are permanently deleted from Trash.
+When you move a page to Trash, it isn't gone right away. Removing a page happens in stages:
 
-Once pages are permanently deleted from Trash, they are retained for 30 days before they become inaccessible to all users, even workspace owners.
+* **In Trash**: The page goes to Trash, where you can still open it and restore it. By default, pages stay in Trash for 30 days.
 
-Enterprise Plan workspace owners may customize these settings. [Learn more here →](https://www.notion.com/help/custom-data-retention-settings)
+* **Deleted**: When the time in Trash runs out, or when you permanently delete the page from Trash, it becomes deleted. By default, deleted pages are kept for another 30 days.
+
+* **Permanently deleted**: After that, the page is permanently deleted and no one can get it back, including workspace owners.
+
+Enterprise Plan workspace owners may customize these settings. Learn more about [custom data retention settings →](https://www.notion.com/help/custom-data-retention-settings)
 
 ## Find pages in Trash
 
-Once you delete a page, it will end up in Trash. You'll see `Trash` at the bottom of your sidebar on both desktop and mobile. Once you open `Trash`, you can:
+Once you move a page to the trash, you'll find it there. You'll see `Trash` at the bottom of your sidebar on both desktop and mobile. Once you open `Trash`, you can:
 
 * Search for a specific page.
 
@@ -63,9 +65,9 @@ Once you delete a page, it will end up in Trash. You'll see `Trash` at the botto
 
   * `Last edited by`: The last person to edit the page.
 
-  * `In`: The page that the deleted content used to live in.
+  * `In`: The page that the removed content used to live in.
 
-  * `Teamspace`: The teamspace that the deleted content used to belong to.
+  * `Teamspace`: The teamspace that the removed content used to belong to.
 
 * Open a deleted page to see its contents. From there, you can restore the page or permanently delete it from the trash. **Note that you won’t be able to edit a page that’s in the trash unless you restore it.**
 
@@ -93,7 +95,7 @@ To unarchive a page, go to the banner at the top of the page and click Unarchive
 
 ### [What happens when a page is archived](https://www.notion.com/help/duplicate-delete-and-restore-content#what-happens-when-a-page-is-archived)
 
-Archiving is different from deleting — archived pages are still accessible. When you archive a page:
+Archiving is different from moving a page to the trash. Archived pages are still accessible. When you archive a page:
 
 * You will see an **Archived** banner at the top of the page.
 
@@ -221,9 +223,9 @@ We keep backups of our database, which allows us to restore a snapshot of your c
 
 ### How can I empty my trash?
 
-There isn’t a way to empty your trash all at once. You can go in and delete individual pages from the trash — otherwise, pages in the trash will be automatically and permanently deleted after 30 days.
+There isn’t a way to empty your trash all at once. You can go in and permanently delete individual pages from the trash. Otherwise, pages in the trash will be automatically and permanently deleted after 30 days.
 
-Enterprise plan workspace owners may customize these settings. [Learn more here →](https://www.notion.com/help/custom-data-retention-settings)
+Enterprise plan workspace owners may customize these settings. Learn more about [custom data retention settings →](https://www.notion.com/help/custom-data-retention-settings)
 
 
 ### Can I use page history to restore a version that's over 30 days old?

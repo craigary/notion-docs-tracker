@@ -95,7 +95,9 @@ Here's how to confirm the add-on is working:
 
 ## Speaker labels
 
-Speaker labels need a meeting transcribed in a supported language. Right now that is English and Japanese, so if your transcript doesn't show names, the language may not be supported yet.
+**Speaker labels need a meeting transcribed in a supported language**
+
+We currently support: Arabic, Chinese (Simplified), Chinese (Traditional), Danish, Dutch, English, Finnish, French, German, Hebrew, Indonesian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Russian, Spanish, Swedish, Thai, and Vietnamese. If your transcript doesn't show names, the language may not be included yet.
 
 With the add-on installed, transcripts from your Google Meet calls label each speaker. This makes your notes easier to read, search, and organize, especially in group meetings.
 

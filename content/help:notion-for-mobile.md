@@ -47,6 +47,14 @@ You can create a shortcut on your iOS device to quickly access [Notion AI](https
 
 3. Customize the [action button](https://support.apple.com/guide/iphone/iphe89d61d66/ios) so that it opens Notion AI.
 
+## Mobile subscriptions
+
+Using the Notion mobile app isn't the same as buying a subscription in the app. You can use Notion on mobile no matter where you bought your workspace's plan. If you own a workspace with no other members, and it doesn't already have a plan bought through Notion on desktop or web, you can buy Notion Plus or Notion Business through the Apple App Store or Google Play.
+
+Notion Business isn't the same as the Business Plan you buy through Notion on desktop or web. It has a one-member limit and doesn't include every Business feature.
+
+See what [a mobile Notion Business subscription includes →](https://www.notion.com/help/upgrade-or-downgrade-your-plan#upgrade-on-mobile)
+
 ## Key differences between mobile and desktop
 
 * There are no hover states on mobile. Instead, you'll see `•••` and `+` icons. On desktop, these icons only appear on hover.
@@ -65,7 +73,7 @@ On mobile, you also can't take the following actions. You'll have to log in on y
 
 * Edit workspace security settings.
 
-* Edit plan or billing settings.
+* Edit plan or billing settings in Notion. Eligible single-member workspaces can buy a mobile subscription in the app, then manage it through the Apple App Store or Google Play.
 
 **Learn more**
 

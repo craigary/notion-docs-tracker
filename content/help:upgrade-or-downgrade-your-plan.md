@@ -19,9 +19,9 @@ Notion offers a Free Plan as well as several paid plans. You can compare our pla
 
 * Plus Plan: This plan is great for collaboration within small teams. The Plus Plan may not be available for every workspace.
 
-* Business Plan: <!-- -->This plan allows businesses to work together using Notion AI, with monthly Standard and Select credits per member, and advanced integrations.
+* Business Plan: This plan allows businesses to work together using Notion AI, with monthly Standard and Select credits per member, and advanced integrations.
 
-* Enterprise Plan: This plan is for larger organizations looking for scalability, advanced controls, and security. <!-- -->It also includes Notion AI with monthly Standard and Select credits per member.
+* Enterprise Plan: This plan is for larger organizations looking for scalability, advanced controls, and security. It also includes Notion AI with monthly Standard and Select credits per member.
 
   * Organizations with fewer than 100 employees can [upgrade to Enterprise from their Notion settings](https://www.notion.com/help/upgrade-or-downgrade-your-plan#upgrade-your-plan).
 
@@ -63,31 +63,45 @@ If you upgrade your plan in the middle of a billing interval:
 
 ### [Upgrade on mobile](https://www.notion.com/help/upgrade-or-downgrade-your-plan#upgrade-on-mobile)
 
-If you’re on Notion on an iOS or Android device and you’re currently on the Free Plan with no other members, you’ll be able to upgrade from the Free Plan to the Plus Plan on that device. The Plus Plan may not be available for every workspace.
+If you're the owner of a workspace with no other members, and the workspace doesn't already have a plan bought through Notion on desktop or web, you can subscribe to Notion Plus or Notion Business in the iOS or Android app. If you already have Notion Plus through the app, you can switch to Notion Business there too. On Android, in-app purchases are available only when Notion is installed from Google Play. Plan availability may vary by workspace.
 
-Plus Plan subscriptions purchased on mobile are limited to workspaces with only one member. If you want to upgrade to the Plus Plan for a workspace with multiple members, you’ll have to do that desktop or web.
+Subscriptions you buy in the mobile app are limited to workspaces with one member. To upgrade a workspace with more than one member, use Notion on desktop or web.
 
-To upgrade to the Plus Plan (one-member limit) on mobile:
+Notion Plus is the mobile subscription for the Plus Plan. Notion Business is a single-member mobile subscription that includes many Business features, but it doesn't include every feature in the Business Plan you buy through Notion on desktop or web. In your workspace settings, a subscription bought in the app is labeled as purchased in-app through Apple or Google Play.
+
+Notion Business doesn't include:
+
+* Extra Notion credit purchases, Workers, or the agent computer environment.
+
+* SAML single sign-on, domain management, or Security Center.
+
+* Private teamspaces or custom teamspace permissions.
+
+* Personal access token and internal connection controls, member list export, Custom Agent creation controls, or controls for member upgrade requests.
+
+Notion Business comes with monthly Standard and Select AI credits. If you use up an allowance, the features that rely on it pause until the allowance resets. You can't buy more Notion credits while your subscription is billed through the App Store or Google Play. To buy more credits, cancel your app store subscription, wait for it to fully expire, then upgrade to an eligible Business or Enterprise plan through Notion on desktop or web.
+
+[Learn more about AI credits →](https://www.notion.com/help/manage-your-ai-credits)
+
+To upgrade on mobile:
 
 1. Open the Notion app on your mobile device.
 
-2. Tap `•••` in the top right corner → `Upgrade Plan`.
+2. Tap `•••` → `Upgrade plan`. If you already have a subscription bought in the app, you'll see `Manage plan` instead.
 
-3. Follow the prompts to finish subscribing to the plan.
+3. Choose an available subscription and follow the prompts to finish subscribing.
 
-Subscriptions you purchase on mobile can be managed through the Apple App Store or Google Play Store.
+You can manage subscriptions you buy on mobile through the Apple App Store or Google Play. For an Apple App Store subscription, contact Apple directly about subscription issues, including cancellations and refunds.
 
-If you've purchased a subscription through the Apple App Store, you'll need to contact the Apple App Store directly for any issues with your subscription, including cancellations and refunds.
+## Upgrade & add-on requests
 
-## Upgrade and add-on requests
-
-### [Enable upgrade and add-on requests](https://www.notion.com/help/upgrade-or-downgrade-your-plan#enable-upgrade-and-add-on-requests)
+### [Enable upgrade & add-on requests](https://www.notion.com/help/upgrade-or-downgrade-your-plan#enable-upgrade-&-add-on-requests)
 
 To allow workspace members to request plan upgrades and add-ons, workspace owners can:
 
 1. Go to `Settings` → `Requests`.
 
-2. Toggle on `Allow members to request for all upgrades`.
+2. Toggle on `Allow members to request upgrades`.
 
 ### [Request an upgrade or add-on](https://www.notion.com/help/upgrade-or-downgrade-your-plan#request-an-upgrade-or-add-on)
 
@@ -182,9 +196,9 @@ Whether you're on a monthly or yearly billing schedule, your account may be char
 
 ### How do I cancel my paid plan?
 
-Your Notion subscription, annual or monthly, will automatically renew until you cancel it. You can cancel your subscription by going to `Settings` in the left-hand sidebar on a desktop computer, then selecting `Billing`, then `Change plan`. After you cancel, you’ll still have access to all the paid features until the end of your billing cycle.
+Your paid subscription renews automatically until you cancel it. If you subscribed through Notion on desktop or web, go to `Settings` → `Billing` → `Change plan` to cancel. If you subscribed through the Apple App Store or Google Play, cancel through that store. You'll keep access to your paid features until the end of your current billing period.
 
-Learn more about billing in [this article](https://www.notion.com/help/billing).
+Learn more about [billing →](https://www.notion.com/help/billing)
 
 
 ### What happens if my payment fails? Like if my credit card expires?
@@ -229,4 +243,6 @@ Yes! You can use the same email address to create and join multiple teams. Howev
 
 ### Can I change my plan settings on mobile?
 
-No, you can only make modifications to your Notion plan on desktop or web.
+Plans bought through Notion on desktop or web can only be changed on desktop or web. If you subscribed in the iOS or Android app, manage your subscription through the Apple App Store or Google Play.
+
+[Learn more about upgrading on mobile →](https://www.notion.com/help/upgrade-or-downgrade-your-plan#upgrade-on-mobile)
