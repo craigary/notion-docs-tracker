@@ -11,7 +11,7 @@ categoryKey: "category:write-edit-and-customize"
 
 Archive lets you retire content without deleting it. Archive pages when content is outdated or no longer useful, but you still want to preserve context, history, and links.
 
-Archiving is different from deleting — archived pages are still accessible.
+Archiving is different from moving a page to Trash. Archived pages are still accessible.
 
 Archive is currently in beta and subject to the terms of your agreement. Archive is only available for users on Business and Enterprise plans.
 
@@ -47,13 +47,13 @@ Open the page you want to archive:
 
 To unarchive a page, open the page, in banner at the top of the page click `Unarchive`.
 
-## When to archive vs. deleting
+## When to archive vs. move a page to Trash
 
 * **Archive** content when:
 
   * The content is no longer relevant but the information it contains may need to be referenced in the future
 
-* **Delete** content when:
+* **Move** content to the trash when:
 
   * The page is truly disposable (test pages, duplicates, etc.)
 
