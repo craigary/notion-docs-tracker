@@ -131,7 +131,7 @@ Workspace owners on the Enterprise plan can choose which external AI apps member
 
 Notion MCP works with leading AI platforms:
 
-* [Anthropic Claude](https://claude.ai): Connect Claude Desktop or [Claude.ai](http://Claude.ai) to your Notion workspace.
+* [Anthropic Claude](https://claude.ai): Connect Claude Desktop or [Claude.ai](http://Claude.ai) to your Notion workspace. <!-- -->You can also [open Notion pages alongside your chat](https://www.notion.com/help/use-notion-pages-in-chatgpt) and edit them live.
 
 * [Cursor](https://cursor.sh): The AI-powered code editor with seamless Notion integration.
 

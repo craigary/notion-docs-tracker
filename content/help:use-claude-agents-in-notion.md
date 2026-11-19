@@ -9,7 +9,9 @@ category: "External Agents"
 categoryKey: "category:external-agents"
 ---
 
-**Note:** Claude agents in Notion is currently in beta and subject to the beta terms of your agreement.
+* Claude agents in Notion is currently in beta and subject to the beta terms of your agreement.
+
+* Looking to open Notion pages inside Claude? That's a different feature. Learn how to [open and edit your Notion pages alongside a Claude chat →](https://www.notion.com/help/use-notion-pages-in-chatgpt)
 
 Claude agents keep your workflow inside Notion, while Anthropic runs the agent behind the scenes. You get Claude’s coding and file-editing strengths, plus Notion as the place where your team collaborates. This lets you chat with Claude agents directly in Notion, delegate work, and see results without switching apps.
 
@@ -29,7 +31,7 @@ Claude agents keep your workflow inside Notion, while Anthropic runs the agent b
 
 ## How billing works
 
-Claude agents run through Notion credits, which are charged per run. <!-- -->You don't need an Anthropic account or API key.
+Claude agents run through Notion credits, which are charged per run. You don't need an Anthropic account or API key.
 
 Notion prices credits the same as [Custom Agents](https://www.notion.com/help/buy-and-track-notion-credits-for-custom-agents#how-custom-agents-use-credits). Tasks with more steps, more reading, or more tool use cost more credits.
 
