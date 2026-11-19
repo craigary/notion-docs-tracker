@@ -43,7 +43,7 @@ There are many ways to move pages to the trash in Notion:
 
 * You can always select any page block and press the `backspace` or `delete` keys.
 
-### [What happens when yo move a page to the trash](https://www.notion.com/help/duplicate-delete-and-restore-content#what-happens-when-yo-move-a-page-to-the-trash)
+### [What happens when you move a page to the trash](https://www.notion.com/help/duplicate-delete-and-restore-content#what-happens-when-you-move-a-page-to-the-trash)
 
 When you move a page to Trash, it isn't gone right away. Removing a page happens in stages:
 

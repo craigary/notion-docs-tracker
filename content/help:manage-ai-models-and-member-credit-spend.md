@@ -67,6 +67,16 @@ Once you save, restricted model providers will disappear from the model picker f
 
 Restricting model providers will obstructs the way Auto works, and may lead to your workspace consuming credits faster. Before saving a change, workspace owners will see a notification that restricting a model provider will affect Auto’s efficiency.
 
+## Check your provider choices
+
+On November 16, 2026, we changed where you turn model providers on and off. Before, you managed providers from the model controls, right next to the checkboxes for each model. Now providers have their own setting that covers your whole workspace.
+
+Your earlier choices still apply. Any provider you turned off either for Notion AI or Custom Agent before stays off, and any single model you unchecked stays unchecked. You'll find them in the restricted models list, so you don't need to set them up again.
+
+That provider setting used to function as a master switch, sitting on top of your model restrictions for Notion AI and Custom Agents. The new experience doesn't have that switch anymore, and just shows the model list. So if you turned off a provider like Anthropic before, all of its models now show as unchecked in that list, and you won't see a separate provider switch for it.
+
+One thing to watch: the new provider setting might show a provider as on, even if you turned it off before. Try not to turn that provider off and on again. Doing that clears your earlier choice and turns all of that provider's models back on. To check what's restricted, look at the models list instead of re-toggling the provider.
+
 ## Require Auto for Notion Agent
 
 Workspace owners can require Auto for every Notion Agent chat in the workspace. While it's on, members can't pick a model for Notion Agent. The model picker shows `Auto` and explains that your workspace requires it. This setting covers Notion Agent only.
