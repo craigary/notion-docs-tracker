@@ -25,13 +25,13 @@ To change your payment method:
 
 ## Accepted payment methods
 
-On Notion for web, you can pay for your plan with a debit or credit card, or Apple Pay. You can also use [Stripe Link](https://stripe.com/payments/link) to pay with a saved card or save your card for future use on any Stripe checkout. Notion uses [Stripe](http://stripe.com/) to process payments.
+On Notion for web, you can pay with a debit or credit card, Apple Pay, or Google Pay.<!-- --> You can also use [Stripe Link](https://stripe.com/payments/link) to pay with a saved card or save your card for future use on any Stripe checkout. Notion uses [Stripe](http://stripe.com/) to process payments.
 
-On an iOS device, you can pay with Apple Pay. Unfortunately, you can't make payments in the Android app at this time.
+When you buy a subscription in the Notion mobile app, payment is handled by the Apple App Store or Google Play. On Android, in-app purchases are available only if you installed Notion from Google Play. Check your app store account for the payment methods available to you.
 
 If you pay with debit or credit card, you're charged upfront for the month or year you're about to spend on Notion.
 
-Payments for subscriptions you purchase on mobile can be managed through the Apple App Store or Google Play Store. If you've purchased a subscription through the Apple App Store, you'll need to contact the Apple App Store directly for any issues with your subscription, including cancellations and refunds.
+Manage your mobile subscription through the store where you bought it. If you bought it through the Apple App Store, contact Apple directly about subscription issues, including cancellations and refunds. For questions about a Google Play purchase, contact Notion support.
 
 All valid billing credits will expire six months from the date they are generated. Once credits have expired, they can’t be reinstated.
 

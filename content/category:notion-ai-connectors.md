@@ -20,8 +20,8 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/2HM5BPlsww5fF5gJDpI71B/94
 12 help:microsoft-outlook-ai-connector
 13 help:notion-calendar-ai-connector
 14 help:connect-sharepoint-and-onedrive-to-notion-agents
-15 help:box-ai-connector
-16 help:notion-ai-connector-for-gmail
+15 help:notion-ai-connector-for-gmail
+16 help:box-ai-connector
 17 help:fix-slack-permission-errors-in-notion-ai
 
 ## Video

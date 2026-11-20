@@ -614,13 +614,6 @@ If an Enterprise Plan workspace owner has turned on both `Automatic transcript d
 
 ## FAQs
 
-### What language is AI Meeting Notes available for?
-
-English, Chinese, Spanish, French, German, Japanese, Korean, Portuguese, Russian, Thai, Vietnamese, Danish, Finnish, Norwegian, Dutch, and Swedish.
-
-[Speaker labeling](https://www.notion.com/help/ai-meeting-notes#follow-the-transcript-with-speaker-labels-&-citations) is currently available in English only.
-
-
 ### Is AI Meeting Notes available offline?
 
 AI Meeting Notes is not currently supported while offline.

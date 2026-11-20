@@ -6,8 +6,8 @@ key: "category:databases"
 coverImage: "https://images.ctfassets.net/spoqsaf9291f/1fkexDNoDJAwQduymONneL/9c19f9259ecf4f03fa874b22678e74bf/databases_hero.png"
 ---
 
-1 help:formulas
-2 help:intro-to-databases
+1 help:intro-to-databases
+2 help:formulas
 3 help:formula-syntax
 4 help:database-properties
 5 help:relations-and-rollups
