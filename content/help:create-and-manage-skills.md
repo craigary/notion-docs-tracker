@@ -326,7 +326,7 @@ Workspace owners can choose skills to install for everyone, so the whole team st
 
 Default skills are installed for members automatically, including in their connected agents. Members can still turn off a default skill for themselves.
 
-The **Skills** section also has settings to turn off skills for the whole workspace, to turn off skills in connected agents, and to turn off local skill downloads.
+The **Skills** section also has settings to turn off skills for the whole workspace, and to turn off local skill downloads. <!-- -->Turning off skills for the whole workspace turns them off everywhere, including in connected agents.
 
 ## Remove a skill
 

@@ -167,6 +167,8 @@ Workspace owners on any Notion plan can go to `Settings` → `Notion AI` and adj
 
 * **Personalization:** Give your Notion Agent a name, accessories, and instructions for how to behave.
 
+* **Skills:** Set default skills for your workspace, choose whether to allow local skill downloads, and turn skills off for the whole workspace. Turning skills off for the whole workspace turns them off everywhere, including in connected agents. Learn more about [skills →](https://www.notion.com/help/create-and-manage-skills)
+
 * **AI Meeting Notes:** Turn on various settings for AI Meeting Notes, including audio storage, transcript deletion, and more. Learn more about [AI Meeting Notes →](https://www.notion.com/help/ai-meeting-notes)
 
 * **Model controls:** Choose which AI providers your workspace can use and which models members can pick for Notion Agent and Custom Agents. High credit consumption models stay off until a workspace owner turns them on. Learn how to [manage AI models and member credit spend →](https://www.notion.com/help/manage-ai-models-and-member-credit-spend)

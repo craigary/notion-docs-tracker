@@ -51,8 +51,6 @@ Notion offers a set of ready-made admin roles:
 
 ### [Create a custom admin role](https://www.notion.com/help/enterprise-admins#create-a-custom-admin-role)
 
-**Note**: Custom admin roles are in beta and are subject to the beta terms of your agreement.
-
 We recommend using a custom role when you want to give someone access to a specific set of features, or limit them to certain workspaces. Use a ready-made role when you want someone to manage a whole area and you want that role to stay up to date on its own.
 
 **Note**: New Notion features aren’t added to custom roles by default. A custom role only includes the exact settings you chose when you built it. If Notion later adds a new feature to that area, the custom role won’t include it until you edit the role to add it.

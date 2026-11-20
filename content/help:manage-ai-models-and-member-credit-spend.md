@@ -73,7 +73,7 @@ On November 16, 2026, we changed where you turn model providers on and off. Befo
 
 Your earlier choices still apply. Any provider you turned off either for Notion AI or Custom Agent before stays off, and any single model you unchecked stays unchecked. You'll find them in the restricted models list, so you don't need to set them up again.
 
-That provider setting used to function as a master switch, sitting on top of your model restrictions for Notion AI and Custom Agents. The new experience doesn't have that switch anymore, and just shows the model list. So if you turned off a provider like Anthropic before, all of its models now show as unchecked in that list, and you won't see a separate provider switch for it.
+That provider setting used to have separate model switches for Notion AI and Custom Agents. The new experience functions as a master switch for all model providers. So if you turned off a provider like Anthropic before, all of its models now show as unchecked in that list, and you won't see a separate provider switch for it.
 
 One thing to watch: the new provider setting might show a provider as on, even if you turned it off before. Try not to turn that provider off and on again. Doing that clears your earlier choice and turns all of that provider's models back on. To check what's restricted, look at the models list instead of re-toggling the provider.
 

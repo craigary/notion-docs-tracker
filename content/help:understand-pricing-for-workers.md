@@ -119,7 +119,7 @@ A Custom Agent makes 4 tool calls per run and runs 50 times per day. Each tool c
 
 * **Monthly credits needed:&#x20;**$13.80/$0.01 per credit = 1380 credits/month
 
-## Examples: Webhooks (alpha)
+## Examples: Webhooks (beta)
 
 The examples below show typical webhook volumes and what they might cost. Your actual usage depends on how many events your tools send and how many webhook triggers you’ve set up. Each incoming event that you handle counts as one Worker run, so total cost scales with your event volume.
 
