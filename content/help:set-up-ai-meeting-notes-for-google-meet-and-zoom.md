@@ -1,5 +1,5 @@
 ---
-title: "Set up AI Meeting Notes for Google Meet & Zoom"
+title: "Set up AI Meeting Notes for your team in Google Meet & Zoom"
 emoji: null
 description: "Learn how workspace owners and IT admins can set up meeting notes for their whole team across Google Meet and Zoom."
 url: "https://www.notion.com/help/set-up-ai-meeting-notes-for-google-meet-and-zoom"
@@ -75,7 +75,7 @@ On Jamf, you can build the same declaration in `Blueprints` → `App Settings` �
 
 `notion.id {identifier "notion.id" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = LBQJ96FQ8D}`
 
-For the Jamf steps, see [Deploying App Privacy Permission Defaults in macOS 27](https://support.jamf.com/en/articles/16923001-deploying-app-privacy-permission-defaults-in-macos-27) <!-- -->→
+For the Jamf steps, see [Deploying App Privacy Permission Defaults in macOS 27](https://support.jamf.com/en/articles/16923001-deploying-app-privacy-permission-defaults-in-macos-27) →
 
 If someone opened Notion before the declaration reached their Mac, macOS won’t show the prompt. To show it the next time they open Notion, run `tccutil reset All notion.id` on that Mac. This resets all of Notion’s privacy permissions on that Mac, including microphone access, so they’ll be asked for those again.
 
@@ -92,6 +92,8 @@ Here’s what the pre-grant does and doesn’t do:
 Notion can post an automatic notice in the call chat when someone starts transcribing, so people know the meeting is being transcribed. You control how this works for your team.
 
 * **Automated chat message in video calls:** on by default for every member in Google Meet and Zoom calls. Members can turn it off for themselves unless an owner requires it.
+
+* **Add a message after the default:** Workspace owners can add text after the default chat message in Google Meet and Zoom, such as a link to a privacy notice. This helps explain how your organization processes participants’ personal info. Go to `Settings` → `Meeting notes` and enter your text below **Chat message text**. If you leave the field empty, only the default message is sent.
 
 * **Require it for everyone:** go to `Settings` → `Meeting notes` and turn on `Enforce consent for all workspace members`. When you require it, members can’t turn it off.
 

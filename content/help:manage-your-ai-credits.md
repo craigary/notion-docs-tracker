@@ -174,11 +174,23 @@ You can track your Standard and Select credits from `Settings` → `Notion AI` �
 We'll also notify you as you get close and when you've used up your Standard or Select credits.
 
 
+### I'm on a Free or Plus plan. Where's my credit counter?
+
+The credit counter in `Settings` → `Notion AI` → `Me` is only for Business and Enterprise plans. Free and Plus plans don't have a Standard or Select credit counter.
+
+
 ### Can my workspace get additional Notion AI usage?
 
 Yes. Workspace owners can let members keep using Notion AI beyond their Standard or Select credits by spending [Notion credits](https://www.notion.com/help/category/notion-credits).
 
-This is off by default. Workspace owners can turn it on in `Settings` → `Notion AI`.
+This is off by default. <!-- -->Workspace owners can turn it on by setting a credit limit in `Settings` → `Notion AI` → `Credits`.
+
+
+### I bought credits but still see “out of credits.”
+
+Buying Notion credits alone won't unblock your work. Notion credits can cover eligible usage after your included Standard or Select credits run out, up to the limit a workspace owner sets for you. If no limit is set, work that needs more credits stays paused, even after your workspace buys credits. The low-credit alert may stay visible until an owner sets or raises your limit.
+
+A workspace owner can set or raise your limit in `Settings` → `Notion AI` → `Credits`. If you're not an owner, ask one to set a limit for you.
 
 
 ### Which credits does Notion Agent use?
