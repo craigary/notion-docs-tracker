@@ -9,7 +9,7 @@ category: "Notion AI Connectors"
 categoryKey: "category:notion-ai-connectors"
 ---
 
-This connector replaces our [legacy version](https://www.notion.com/help/notion-ai-connector-for-microsoft-sharepoint-and-onedrive). To keep your data current, **update to the new connector by October 31, 2026.&#x20;**&#x49;f you haven’t connected by that date, SharePoint access in Notion AI will be unavailable until you complete setup.
+This connector replaces our older one. The older SharePoint and OneDrive connector no longer works. To keep using SharePoint and OneDrive with Notion AI, connect this one.
 
 Each user must connect their own Microsoft account, even if a workspace administrator has already connected the legacy connector or approved the Microsoft app. Once you connect, Notion AI uses your personal live connection.
 
@@ -109,6 +109,11 @@ For example, you could ask:
 Your Notion workspace may require admin approval for connections. Workspace owners and admins can control which personal connections members can use, along with link previews, database sync, and MCP connections. If SharePoint isn’t approved for your workspace, the connection shows `Contact an admin` instead of `Connect`.
 
 Ask a workspace owner or admin to approve SharePoint in `Settings` → `Connections` → `Manage`. Once SharePoint is approved, connect your own Microsoft account. Notion workspace approval is separate from Microsoft administrator approval, and your organization may require both.
+
+
+### Why do I see an error when I try to resync or re-pick content on my old SharePoint connection?
+
+The old connector no longer works. Resyncing or re-picking content on an old connection now shows an error instead of doing nothing, and you'll see a banner asking you to reconnect. To fix it, connect the new SharePoint and OneDrive connector with your own Microsoft account.
 
 
 ### What permissions will Notion AI have once connected?

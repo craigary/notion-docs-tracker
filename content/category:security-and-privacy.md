@@ -13,12 +13,12 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/3YdwMwZLM4TOOtw3zhRapu/92
 5 help:allowlist-ip
 6 help:data-accessible-by-your-workspace-owner
 7 help:report-inappropriate-content
-8 help:security-incident-involving-a-third-party-ai-vendor
-9 help:how-to-protect-yourself-from-malvertising
-10 help:data-residency
-11 help:how-notion-protects-against-prompt-injection-risks
-12 help:dormant-account-policy
-13 help:shared-responsibilities-model
+8 help:how-notion-protects-against-prompt-injection-risks
+9 help:dormant-account-policy
+10 help:shared-responsibilities-model
+11 help:how-to-protect-yourself-from-malvertising
+12 help:security-incident-involving-a-third-party-ai-vendor
+13 help:data-residency
 
 ## Guides
 

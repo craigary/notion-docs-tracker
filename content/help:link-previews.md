@@ -17,15 +17,28 @@ Link previews allow you to see live, synced visualizations of links directly in 
 | Slack                 | Asana                             |
 | Trello                | Linear                            |
 | Zoom                  | Figma                             |
-| Adobe XD              | Dropbox                           |
+| Zendesk               | Dropbox                           |
 | OneDrive & Sharepoint | Pitch                             |
 | Amplitude             | Hex                               |
 | GRID                  | GitLab                            |
 | Box                   | Lucid (Lucidspark and Lucidchart) |
 | Whimsical             | ClickUp                           |
-| Zendesk               |                                   |
 
 **Note:&#x20;**&#x55;<!-- -->sers will need edit access in<!-- --> <!-- -->SharePoint and OneDrive in order to use link previews.
+
+## If you see a "No longer updates" badge
+
+Some apps that used to work with link previews have been retired. If a preview comes from one of these apps, you'll see a **No longer updates** badge on it.
+
+Here's what the badge means:
+
+* The preview stays on your page. You won't lose it.
+
+* It's frozen, so it won't refresh when the original file or item changes.
+
+* You can't reconnect these apps. If you try to reinstall or reconnect one, you'll get an error, so there's no way to turn live updates back on.
+
+Adobe XD is one of the apps this applies to.
 
 ## Pasting a link as a preview
 
@@ -97,3 +110,8 @@ Run through these steps to try to resolve.
    * Error message and code
 
    * URL you’re trying to preview (if possible)
+
+
+### Why doesn't my link preview update anymore?
+
+The app it came from may have been retired. When that happens, the preview shows a **No longer updates** badge and stays frozen. It won't refresh, and you can't reconnect that app to bring back live updates.
