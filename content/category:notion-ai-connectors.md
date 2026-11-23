@@ -13,16 +13,16 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/2HM5BPlsww5fF5gJDpI71B/94
 5 help:jira-ai-connector
 6 help:notion-ai-connector-for-microsoft-teams
 7 help:notion-ai-connectors-for-slack
-8 help:box-ai-connector
-9 help:notion-ai-connector-for-gmail
-10 help:asana-ai-connector
-11 help:google-calendar-ai-connector
-12 help:fix-slack-permission-errors-in-notion-ai
-13 help:microsoft-outlook-ai-connector
-14 help:notion-calendar-ai-connector
-15 help:connect-sharepoint-and-onedrive-to-notion-agents
+8 help:fix-slack-permission-errors-in-notion-ai
+9 help:box-ai-connector
+10 help:notion-ai-connector-for-gmail
+11 help:asana-ai-connector
+12 help:google-calendar-ai-connector
+13 help:notion-mail-ai-connector
+14 help:microsoft-outlook-ai-connector
+15 help:notion-calendar-ai-connector
 16 help:salesforce-ai-connector
-17 help:notion-mail-ai-connector
+17 help:connect-sharepoint-and-onedrive-to-notion-agents
 
 ## Video
 
