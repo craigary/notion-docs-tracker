@@ -233,3 +233,8 @@ Enterprise plan workspace owners may customize these settings. Learn more about 
 You can if you're on a [Business or Enterprise Plan](https://www.notion.com/pricing). [Contact sales to learn more→](https://notionup.typeform.com/to/FbZ6Tk)
 
 Before you restore a version, Notion shows a preview so you can better understand what will change. This is especially helpful for pages with databases or nested content.
+
+
+### Does deleting files free up my file storage?
+
+Yes, once Notion runs its daily storage check. Files in Trash and on deleted pages don't count toward your storage, but your usage updates once a day, not instantly. So after you delete files, uploads turn back on at the next daily check. If you need to upload right away, moving to a paid plan turns uploads back on immediately. There's no single screen that lists your files, so to delete a file, open the page where it lives and delete it there. To learn more, see [File storage limits in Notion](https://www.notion.com/help/file-storage-limits-in-notion).

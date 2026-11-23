@@ -25,6 +25,8 @@ When you’re uploading or trying to open an image, video, or audio in Notion, y
 
 This might happen for several reasons. For example, if you have lots of images on one page, you might see this error since all of the images are loading at once.
 
+If a new upload won't go through and you see a message about getting more storage, your workspace may be out of file storage. Free workspaces have 512 MB of total storage, and when a workspace reaches it, new uploads pause. Files you've already uploaded still open, download, and edit as usual.
+
 ## What you can try to fix the error
 
 To fix this error:
@@ -40,6 +42,8 @@ To fix this error:
 * You might not have the right permission to view the file, or the permissions may have expired. For example, secure URLs to file uploads in Notion expire after 24 hours. Try downloading the media file to your device and reuploading to Notion to ensure it remains available.
 
 * Check to see if a YouTube video contains copyrighted music, and try playing the embed in your web browser instead of the desktop app. YouTube videos with copyrighted music may not play in the desktop app.
+
+* If you saw a message about getting more storage, your Free workspace is out of file storage. Move to a paid plan to turn uploads back on right away, or delete files you don't need and wait for the next daily storage check. See [File storage limits in Notion](https://www.notion.com/help/file-storage-limits-in-notion).
 
 ## File types supported in Notion
 

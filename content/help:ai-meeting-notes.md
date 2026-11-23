@@ -97,7 +97,7 @@ Notion will transcribe the audio and generate a summary, just like a live record
 
 **Speaker labels need a meeting transcribed in a supported language**
 
-We currently support: Arabic, Chinese (Simplified), Chinese (Traditional), Danish, Dutch, English, Finnish, French, German, Hebrew, Indonesian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Russian, Spanish, Swedish, Thai, and Vietnamese. If your transcript doesn't show names, the language may not be included yet.
+We currently support: Arabic, Cantonese, Chinese (Simplified), Chinese (Traditional), Danish, Dutch, English, Finnish, French, German, Hebrew, Indonesian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Russian, Spanish, Swedish, Thai, and Vietnamese. If your transcript doesn't show names, the language may not be included yet.
 
 When AI Meeting Notes detects that the person speaking has changed, it will start transcribing on a new line.
 

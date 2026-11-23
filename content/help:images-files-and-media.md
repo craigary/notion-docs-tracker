@@ -13,9 +13,11 @@ categoryKey: "category:write-edit-and-customize"
 
 * If you're on the Free Plan, all files you upload must be under 5MB.
 
-* If you're on a paid plan, PDFs must be under 20MB and images (PNG, JPG) must be under 5MB.
+* If you're on a paid plan, you can upload files of up to 5GB each.
 
-* I<!-- -->f you upload an image and get an error telling you that the image is too large to be displayed, you can try uploading the image as a file.
+* If you upload an image and get an error telling you that the image is too large to be displayed, you can try uploading the image as a file.
+
+* Free workspaces also have 512 MB of total file storage, shared across the whole workspace. Paid plans include more. The 5 MB limit above is for each single file. See [File storage limits in Notion](https://www.notion.com/help/file-storage-limits-in-notion).
 
 You can also upload files to Notion using our file upload API. Learn more [here →](https://developers.notion.com/reference/file-upload)
 
@@ -280,3 +282,5 @@ The alignment controls are hidden if the block is the same width as content on t
 ### Are there size limits for images and files?
 
 If you’re on the Free Plan, you can upload files of up to 5MB each. If you’re on a paid plan, you can upload files of up to 5GB each. If you upload an image and get an error telling you that the image is too large to be displayed, you can try uploading the image as a file.
+
+On the Free Plan, your workspace also has 512 MB of total file storage, shared across everyone in the workspace. That's separate from the 5MB per-file limit. See [File storage limits in Notion](https://www.notion.com/help/file-storage-limits-in-notion).

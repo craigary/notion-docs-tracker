@@ -15,33 +15,35 @@ In Notion, the pages you create can contain much more than plain text. Every pag
 
 ## Block usage
 
-Restrictions on block usage apply to workspaces that are on the Free Plan and have more than one workspace owner.\*
+Block usage limits apply to workspaces on the Free Plan. How many blocks you can add depends on how many people are in the workspace. A workspace with just one person can add up to 5,000 blocks. A workspace with two or more people can add up to 1,000 blocks. Paid plans include blocks, so these limits don't apply.
 
 | **Plan**                   | **Workspace size**                 | **Block usage**                                                                                                                          |
 | -------------------------- | ---------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
-| Free                       | 1 workspace owner only             | Limited for 2+ members                                                                                                                   |
-| Free                       | 2+ workspace owners\*              | 1,000 blocks per workspace. After this, your workspace will need to upgrade to a paid Notion plan in order to continue creating content. |
+| Free                       | Just you (one person)              | Up to 5,000 blocks. After that, you can still view and edit your content, but you'll need to upgrade to a paid plan to add new content.  |
+| Free                       | Two or more people\*               | 1,000 blocks per workspace. After this, your workspace will need to upgrade to a paid Notion plan in order to continue creating content. |
 | Plus, Business, Enterprise | 1+ workspace owners and/or members | Included                                                                                                                                 |
 
 \*People added to workspaces on a Free Plan can only join as workspace owners.
+
+**Note**: Content added through the API and connected tools (like MCP) counts toward your block limit too, even when you don't have Notion open.
 
 We count blocks based on the amount of content created in your workspace since signing up — **deleting blocks, or emptying the trash, will not reduce your block count**.
 
 ## Upgrade to another plan
 
-If you find yourself approaching 1,000 blocks in your workspace, it might be worth considering an upgrade to a paid plan. Paid plans offer included blocks and additional features for teams collaborating in Notion. Visit our [pricing page](https://www.notion.com/pricing) for more details.
+If you're getting close to your workspace's block limit, it might be worth upgrading to a paid plan. Paid plans don’t have block limits and include additional features for teams collaborating in Notion. Visit our [pricing page](https://www.notion.com/pricing) for more details.
 
 
 ## FAQs
 
 ### Can I delete blocks to avoid these restrictions?
 
-No, deleting content does not reduce your block count or free up additional blocks. Once your workspace has created 1,000 blocks, it will experience restrictions — regardless of subsequent deletions.
+No, deleting content does not reduce your block count or free up additional blocks. Once your workspace has reached its block limit, it will experience restrictions — regardless of subsequent deletions.
 
 
 ### If I’m subject to these restrictions, what happens to my existing content?
 
-You can continue to edit existing content even if your workspace has hit 1,000 blocks.
+You can continue to <!-- -->view, edit, move, export, and delete<!-- --> existing content even if your workspace has reached its block limit.
 
 
 ### How can I check how many blocks I've used?
@@ -49,9 +51,14 @@ You can continue to edit existing content even if your workspace has hit 1,000 b
 You can see how many blocks you’ve used by going to `Settings` → `Upgrade plan`. You’ll also see a notification in your workspace’s sidebar when you’ve used a majority of your blocks so you can plan ahead.
 
 
+### I'm the only person in my workspace. Do block limits apply to me?
+
+Yes. A Free workspace with just one person can add up to 5,000 blocks. You can still view, edit, move, export, and delete everything you've already made. To get unlimited blocks, upgrade to a paid plan.
+
+
 ### How can I check if I have other members or workspace owners in my workspace?
 
-You can confirm if your workspace has multiple workspace owners by going to `Settings` → `People`. Having more than one workspace owner will subject the workspace to block usage restrictions.
+You can confirm if your workspace has multiple workspace owners by going to `Settings` → `People`. The number of people in your workspace sets which limit applies: up to 5,000 blocks for one person, or 1,000 blocks for two or more.
 
 
 ### Can I archive my teamspaces to avoid block usage restrictions?
@@ -61,9 +68,18 @@ No. Teamspaces are not considered blocks, so they don’t count towards block us
 
 ### What if I need more time to figure out if I want to or can upgrade to a paid plan?
 
-Don’t worry! We automatically offer a three-day grace period when your workspace hits 1,000 blocks to help you figure out the right next step.
+Don't worry! When your workspace reaches its block limit (5,000 blocks for one person, or 1,000 for two or more) we automatically give you a three-day grace period.
 
 
 ### What are my options if I don't want to upgrade to a paid plan?
 
-If you prefer not to upgrade at this time, you can [remove additional members](https://www.notion.com/help/add-members-admins-guests-and-groups#members) from your workspace so that your workspace has only one member. Workspaces with only one member have access to unlimited blocks. You can add collaborators as [guests](https://www.notion.com/help/add-members-admins-guests-and-groups#guests) to continue working with these users in a more limited capacity.
+Every Free workspace has a block limit, so removing people won't give you unlimited blocks. If you prefer not to upgrade right now, you can keep viewing, editing, and organizing the content you already have. To get unlimited blocks, upgrade to a paid plan. You can also add collaborators as guests to keep working with them in a more limited way.
+
+
+### What happens if I add a second member to a one-person workspace, or vice versa?
+
+Your block limit depends on how many people are in your Free workspace.
+
+If you add a second person to a one-person workspace, the limit changes from 5,000 blocks to 1,000 blocks. You can still view and edit your existing content, but you can’t add new blocks after reaching the limit.
+
+If you remove people until only one person remains, the limit changes from 1,000 blocks to 5,000 blocks. You can add blocks until you reach the new limit.

@@ -7,11 +7,11 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/7G4JNRFJJ1vUWQMQqZmeuf/15
 ---
 
 1 help:ai-meeting-notes
-2 help:install-the-notion-meetings-add-on
-3 help:import-meeting-notes-from-granola
-4 help:ai-meeting-notes-security-and-privacy
-5 help:set-up-ai-meeting-notes-for-google-meet-and-zoom
-6 help:get-speaker-labels-in-zoom-calls
+2 help:get-speaker-labels-in-zoom-calls
+3 help:install-the-notion-meetings-add-on
+4 help:import-meeting-notes-from-granola
+5 help:ai-meeting-notes-security-and-privacy
+6 help:set-up-ai-meeting-notes-for-google-meet-and-zoom
 
 ## Video
 

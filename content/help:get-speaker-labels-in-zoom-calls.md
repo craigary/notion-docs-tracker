@@ -29,7 +29,7 @@ Learn how admins can [set up meeting notes for everyone in the workspace →](ht
 
 **Speaker labels need a meeting transcribed in a supported language**
 
-We currently support: Arabic, Chinese (Simplified), Chinese (Traditional), Danish, Dutch, English, Finnish, French, German, Hebrew, Indonesian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Russian, Spanish, Swedish, Thai, and Vietnamese. If your transcript doesn't show names, the language may not be included yet.
+We currently support: Arabic, Cantonese, Chinese (Simplified), Chinese (Traditional), Danish, Dutch, English, Finnish, French, German, Hebrew, Indonesian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Russian, Spanish, Swedish, Thai, and Vietnamese. If your transcript doesn't show names, the language may not be included yet.
 
 1. In the Notion desktop app, go to `Settings` → `Meeting notes` → `Preferences`.
 

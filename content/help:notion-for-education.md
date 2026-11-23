@@ -25,8 +25,10 @@ Check out more of the differences below:
 | --------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
 | **One** [member](https://www.notion.com/help/add-members-admins-guests-and-groups#members) per workspace  | **Multiple** [members](https://www.notion.com/help/add-members-admins-guests-and-groups#members) per workspace |
 | Up to 100 [guests](https://www.notion.com/help/add-members-admins-guests-and-groups#guests) per workspace | Up to 100 [guests](https://www.notion.com/help/add-members-admins-guests-and-groups#guests) per workspace      |
-| Included uploads                                                                                          | Included uploads                                                                                               |
+| 10 GB of file storage per workspace                                                                       | 10 GB of file storage per workspace                                                                            |
 | Edit history for any page going back 30 days                                                              | Edit history for any page going back 30 days                                                                   |
+
+File storage is the total size of the files you upload across your workspace, like images, PDFs, and attachments. You can always view, edit, and download files you've already added.
 
 To see a complete list of features that are included in the Education Plan or to learn about other plans offered by Notion, visit our [pricing page →](https://www.notion.com/pricing)
 
@@ -118,6 +120,8 @@ To keep using the free Education Plan, you’ll need to verify your student stat
 
 If you can no longer verify with a valid education email, your workspace (including all your content) moves to the Free Plan. You don't need to do anything, and your workspace features change to match what's included in the Free Plan.
 
+On the Free Plan, your workspace gets 512 MB of file storage. You can still view, edit, and download the files you've already added. If you're over the limit, you won't be able to upload new files until you're back under it or you upgrade.
+
 **Learn more about Notion for education**
 
 * [Setting up Notion for school](https://www.notion.com/help/guides/setting-up-notion-for-school)
@@ -131,7 +135,7 @@ If you can no longer verify with a valid education email, your workspace (includ
 
 The Education Plan for individual students is a free plan for a one-member workspace. It’s available for students signed in with their education institution's email per the World Higher Education Database.
 
-With the Education Plan, students can organize plans, tasks and notes across school and life with included pages & blocks, file uploads, more features to customize and publish your site, and 30-day version history.
+With the Education Plan, students can organize plans, tasks and notes across school and life with included pages & blocks, file uploads, 10 GB of file storage, more features to customize and publish your site, and 30-day version history.
 
 
 ### What's Notion's student organization plan?
@@ -155,7 +159,7 @@ You’re eligible for the free Education Plan if:
 
 You’re not eligible if:
 
-1. You’re a K-12 student or K-12 educator. You can still use our Free Plan with included storage for free! Learn more on our [pricing page](https://www.notion.com/pricing).
+1. You’re a K-12 student or K-12 educator. You can still use our Free Plan. Learn more on our [pricing page](https://www.notion.com/pricing).
 
 2. Your Notion account is associated with a personal email address, such as a gmail.com or email address.
 

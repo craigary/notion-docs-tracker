@@ -17,6 +17,8 @@ To start an import, go to `Settings` → `Import`, or type `/` on any page and s
 
 Before you import, take a quick look at **What imports**, **What doesn’t import**, and **Limitations** below so there are no surprises.
 
+**Note**: Imported files count toward your workspace's file storage. Free workspaces have 512 MB of total file storage. If an import would put you over, Notion brings in what it can and lists the files it skipped, so nothing disappears quietly. See [File storage limits in Notion](https://www.notion.com/help/file-storage-limits-in-notion).
+
 Notion lets you directly import the following file types:
 
 * Plaintext (.txt)
@@ -650,7 +652,7 @@ Most imports add new content. For CSV, imports add rows rather than updating exi
 
 ### Do imported blocks count towards the storage limit for Free Plan workspaces with multiple members?
 
-No, imported blocks will not count towards the limit. However, any blocks subsequently created inside imported pages will count towards the limit as usual.
+No, imported blocks will not count towards the limit. However, any blocks subsequently created inside imported pages will count towards the limit as usual. Imported files (like images, PDFs, and attachments) do count toward your workspace's 512 MB of file storage. To learn more, see [File storage limits in Notion](https://www.notion.com/help/file-storage-limits-in-notion).
 
 
 ### I can't seem to import from Evernote China/Evernote Business.

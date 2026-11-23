@@ -15,9 +15,9 @@ For an in-depth guide to billing and payment, read [this article →](https://w
 
 Notion offers a Free Plan as well as several paid plans. You can compare our plans and see their prices at [notion.com/pricing](https://www.notion.com/pricing). Plan availability can vary by workspace, so not every plan below may be offered to you. At a glance, our plans are:
 
-* Free Plan: This plan is meant for individuals who want to organize their personal projects and tasks.
+* Free Plan: This plan is meant for individuals who want to organize their personal projects and tasks. It includes 512 MB of total file storage per workspace.
 
-* Plus Plan: This plan is great for collaboration within small teams. The Plus Plan may not be available for every workspace.
+* Plus Plan: This plan is great for collaboration within small teams. The Plus Plan may not be available for every workspace. The Plus Plan comes with 256 GB of storage, plus 5 GB for each member you add. It also includes more file storage and larger file uploads than the Free Plan.
 
 * Business Plan: This plan allows businesses to work together using Notion AI, with monthly Standard and Select credits per member, and advanced integrations.
 
@@ -60,6 +60,8 @@ If you upgrade your plan in the middle of a billing interval:
 * You save when you choose to be billed yearly. [Learn more about how billing works here →](https://www.notion.com/help/billing#yearly-vs.-monthly-billing)
 
 * You can pay for your plan with a debit or credit card, Apple Pay, or Google Pay. Notion uses [Stripe](http://stripe.com/) to process payments.
+
+Note: If your Free workspace is out of file storage and new uploads have paused, moving to the Plus plan turns uploads back on right away. To learn more, see [File storage limits in Notion →](https://www.notion.com/help/file-storage-limits-in-notion)
 
 ### [Upgrade on mobile](https://www.notion.com/help/upgrade-or-downgrade-your-plan#upgrade-on-mobile)
 
@@ -146,7 +148,7 @@ To downgrade your plan:
 
 ### How is the Free Plan different from the Plus Plan?
 
-The Plus Plan supports additional members, so multiple people can share a collaborative workspace together. It also includes some extra features like more version history, larger file uploads and more guests. Compare plans in more detail on [our pricing page →](https://www.notion.com/pricing)
+The Plus Plan supports additional members, so multiple people can share a collaborative workspace together. It also includes some extra features like more version history, larger file uploads and more guests. The Plus Plan also comes with more file storage than the Free Plan's 512 MB. Compare plans in more detail on [our pricing page →](https://www.notion.com/pricing)
 
 
 ### What is a block?
