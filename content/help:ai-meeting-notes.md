@@ -401,7 +401,7 @@ Sometimes a transcript includes words that weren't said, or misreads what was sp
 
 **Help us investigate a bad transcript**
 
-* Turn on audio saving by going to `Settings` → `Notion AI` → `AI Meeting Notes` and enabling the setting to store meeting audio. Restart Notion after turning it on.
+* Turn on audio saving by going to `Settings` → `Meeting notes` and turning on the setting to store meeting audio. Restart Notion after turning it on.
 
 * When you reach out to support about a transcription issue, share the saved audio file so the team can review the audio quality and speech clarity.
 
@@ -553,6 +553,8 @@ All AI Meeting Notes have their own sharing settings. Select `Share` at the top 
 Meeting notes created from `/meet` are embedded in a page, but you can expand them into a full page and share them separately from the rest of the page content.
 
 Audio for an AI Meeting Notes block is stored on the recorder's local device and only available to the recorder for download.
+
+You can download audio only for recordings made in the Notion desktop app or browser. Recordings made on iOS or Android are uploaded for transcription and deleted after processing, so you can't download their audio.
 
 
 ### Can I turn off AI Meeting Notes?
