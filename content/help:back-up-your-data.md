@@ -57,7 +57,7 @@ You can view and restore past versions of any Notion page going back several day
 
 If you accidentally delete a page, a workspace, or even your entire account, we can help. We keep backups of our database, which allows us to restore a snapshot of any page in the past 30 days if you need it.
 
-Send us a message in Notion by clicking `?` at the bottom right on desktop (or in your sidebar on mobile). You can also get in touch with Notion support→
+Send us a message in Notion by clicking `?` at the bottom right on desktop (or in your sidebar on mobile). You can also get in touch with Notion support
 
 
 ## FAQs

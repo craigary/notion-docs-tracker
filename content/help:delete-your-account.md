@@ -39,7 +39,7 @@ To delete your account:
 
 ![Delete your account - delete account](https://images.ctfassets.net/spoqsaf9291f/wQlnwrYtrEY5pW6d8lwMt/04f89e68dc1af45de88795acc4b8f634/Group_116.png)
 
-Deleted something by accident? We may be able to restore your content within 30 days of deletion. You can get in touch with Notion support→
+Deleted something by accident? We may be able to restore your content within 30 days of deletion. You can get in touch with Notion support
 
 
 ## FAQs
