@@ -31,7 +31,7 @@ You can edit the same page at the same time with an unlimited number of people.
 
 There are several ways to communicate with your teammates inside Notion — hopefully helping you cut down on meetings and status checks.
 
-### [Mention a teammate](https://www.notion.com/help/collaborate-with-people?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#mention-a-teammate)
+### [Mention a teammate](https://www.notion.com/help/collaborate-with-people?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#mention-a-teammate)
 
 Want to get someone's attention on a page?
 
@@ -43,7 +43,7 @@ Want to get someone's attention on a page?
 
 ![Mentions - mention person](https://images.ctfassets.net/spoqsaf9291f/5lQFMTGtMy3V6ojwt8Z1Y1/0399ae7d9421c4bced6112d2af06a0bb/collaboratewithpeople3.png)
 
-### [Leave a comment](https://www.notion.com/help/collaborate-with-people?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#leave-a-comment)
+### [Leave a comment](https://www.notion.com/help/collaborate-with-people?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#leave-a-comment)
 
 Comments let you attach your thoughts, questions, or opinions to specific content on a page.
 

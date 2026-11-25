@@ -9,11 +9,7 @@ category: "Notion credits"
 categoryKey: "category:notion-credits"
 ---
 
-**When changes start**
-
-New Business and Enterprise workspaces move to the [new credit system](https://www.notion.com/help/standard-select-and-notion-credits-eligible-features) starting October 19, 2026. For existing workspaces, it takes effect on November 2, 2026.
-
-The Notion AI usage page gives you a clear view of how Custom Agents, Autofill, Workers, and high credit consumption models use Notion credits across the workspace. Use it to track usage, plan future credit needs, and manage ongoing spend. To access it, go to `Settings` → `Notion AI` → `Usage`.
+The Notion AI usage page gives you a clear view of how Custom Agents, Workers, and high credit consumption models use Notion credits across the workspace. Use it to track usage, plan future credit needs, and manage ongoing spend. To access it, go to `Settings` → `Notion AI` → `Usage`.
 
 Only owners on Business and Enterprise plans can access the Notion AI page. For a tour of each tab, see [Notion AI settings overview →](https://www.notion.com/help/notion-ai-settings-overview)
 
@@ -65,9 +61,9 @@ Pause or switch off a Custom Agent anytime to immediately stop credit usage whil
 
 ## 4. Use Custom Agent Analytics to optimize performance
 
-Analytics<!-- --> helps Custom Agent creators and workspace admins understand activity so they can make targeted updates that improve performance. Use Analytics to spot runs that take extra steps, fail and retry, or use a more expensive model than the job requires. Then, update the agent’s instructions or settings so it runs more efficiently.
+Analytics helps Custom Agent creators and workspace admins understand activity so they can make targeted updates that improve performance. Use Analytics to spot runs that take extra steps, fail and retry, or use a more expensive model than the job requires. Then, update the agent’s instructions or settings so it runs more efficiently.
 
-Open <!-- -->Analytics<!-- --> directly within an agent to:
+Open Analytics directly within an agent to:
 
 * Monitor your Custom Agent’s activity and credit usage.
 

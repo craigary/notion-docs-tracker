@@ -83,7 +83,7 @@ This table compares estimated credit use for common tasks with Auto and Opus 5.5
 | **Medium**    | - Track task progress - Write a work report - Find a document in your workspace - Triage customer support inquiries - Manage your inbox - Transcribe and summarize a one hour meeting\*        | 10                             | 85                                 |
 | **Complex**   | - Manage hiring and job applications - Create and configure databases - Draft a performance review - Refine a strategy document or quarterly plan - Maintain CRM contacts and sales follow-ups | 25                             | 150                                |
 
-\* AI meeting notes uses Auto and will begin consuming monthly Standard credit allowance on December 1, 2026. A one hour meeting is estimated to use \~10 Standard credits.
+\* <!-- -->Database Autofill and AI Meeting Notes do not currently reduce credit balance, but may in the future as functionality evolves.
 
 Credit use varies by scenario. For example, asking Notion Agent to polish an email in a long thread with complex info may use more credits. Even for tasks that typically use more credits, Auto produced results comparable to frontier models.
 

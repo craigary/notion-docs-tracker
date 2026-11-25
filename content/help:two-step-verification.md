@@ -35,7 +35,7 @@ To set up two-step verification:
 
 **Note**: You'll also be asked to set up two-step verification right after you set or change a password. If you don't finish setup, the password you just set is removed and we'll email you. You can still get back in with another login method, like a one-time email code.
 
-### [Using authenticator](https://www.notion.com/help/two-step-verification?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#using-authenticator)
+### [Using authenticator](https://www.notion.com/help/two-step-verification?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#using-authenticator)
 
 If you want to set up two-step verification using an authenticator code:
 
@@ -45,7 +45,7 @@ If you want to set up two-step verification using an authenticator code:
 
 3. If this is your first added two-step method, make sure to save your backup codes.
 
-### [Using text](https://www.notion.com/help/two-step-verification?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#using-text)
+### [Using text](https://www.notion.com/help/two-step-verification?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#using-text)
 
 If you want to set up two-step verification using a code sent to your phone number:
 
@@ -75,7 +75,7 @@ You can have up to four verification methods, two authenticators and two phone n
 
 3. Verify your identity using an active two-step method.
 
-### [Remove a two-step verification method](https://www.notion.com/help/two-step-verification?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#remove-a-two-step-verification-method)
+### [Remove a two-step verification method](https://www.notion.com/help/two-step-verification?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#remove-a-two-step-verification-method)
 
 To remove a two-step verification method:
 
@@ -85,7 +85,7 @@ To remove a two-step verification method:
 
 **Important**: You need to keep at least one verification method. If you have more than one (for example, a phone number and an authenticator app), you can remove one as long as another stays on your account. When only one method is left, the option to delete it is hidden.
 
-### [Add a verification method](https://www.notion.com/help/two-step-verification?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#add-a-verification-method)
+### [Add a verification method](https://www.notion.com/help/two-step-verification?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#add-a-verification-method)
 
 To add another verification method:
 

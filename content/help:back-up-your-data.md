@@ -21,7 +21,13 @@ If you're on a Business or Enterprise Plan, you can also export your entire work
 
 **Note**: The option to export workspace content as a PDF is going away. This change will be rolled out to workspaces gradually between now and August 31, 2026. You can still export workspace content as an HTML, Markdown, or CSV file, and export individual pages as a PDF.
 
-Pages that the exporter doesn't have access to, such as private pages of other users, will not be included in the export. Workspace admins on the Enterprise Plan can give themselves and others access to specific pages using content search, so that those pages can be included in future exports. Some content also may not be exported based on teamspace settings.
+If you're a workspace owner, a full export includes every teamspace, even private teamspaces you haven't joined. That gives you a complete copy of your workspace in one export.
+
+Other people's private pages aren't included by default.
+
+You can't leave one teamspace out of a full workspace export. A teamspace's `Disable page exports` setting only blocks exports of single pages. It doesn't remove that teamspace from a full export. If you only need some pages, you can export them from the page's `•••` menu instead.
+
+On the Enterprise Plan, you can also use the admin API to export specific teamspaces.
 
 A sitemap (index.html) is included the export to help you navigate the exported workspace. The list items in the sitemap are locally linked to the exported pages in HTML and Markdown formats.
 

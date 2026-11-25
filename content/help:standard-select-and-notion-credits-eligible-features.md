@@ -38,14 +38,11 @@ A checkmark means that credit type covers the feature.
 | Notion Agent on Auto                                          | ✓                    | ✗                  | ✓ after Standard runs out                                |
 | Notion Agent with a model you pick                            | ✗                    | ✓                  | ✓ after Select runs out                                  |
 | AI editing, page translation, AI blocks, AI database formulas | ✓                    | ✗                  | ✓ after Standard runs out                                |
-| AI Meeting Notes\*                                            | ✓                    | ✗                  | ✓ after Standard runs out                                |
 | Custom Agents                                                 | ✗                    | ✓                  | ✓ when funded by the workspace, or after Select runs out |
 | High credit consumption models                                | ✗                    | ✗                  | ✓                                                        |
 | Workers (Beta)                                                | ✗                    | ✗                  | No credits used while in Beta                            |
 
-\* AI meeting notes uses Auto and will begin consuming monthly Standard credit allowance on December 1, 2026. A one hour meeting is estimated to use \~10 Standard credits.
-
-Database Autofill does not currently reduce credit balance.
+\* <!-- -->Database Autofill and AI Meeting Notes do not currently reduce credit balance, but may in the future as functionality evolves.
 
 ## Who pays for a Custom Agent
 

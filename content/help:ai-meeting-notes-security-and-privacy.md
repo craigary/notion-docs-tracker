@@ -31,7 +31,7 @@ This capability is only available in the Notion desktop app or browser and is tu
 
 ## Delete transcription & audio
 
-### [Delete a transcription](https://www.notion.com/help/ai-meeting-notes-security-and-privacy?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#delete-a-transcription)
+### [Delete a transcription](https://www.notion.com/help/ai-meeting-notes-security-and-privacy?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#delete-a-transcription)
 
 You can delete a transcription in two ways:
 
@@ -41,7 +41,7 @@ You can delete a transcription in two ways:
 
 Enterprise Plan workspace owners can set an **automatic** deletion schedule for transcriptions by going to `Settings` → `Meeting notes` and setting a deletion schedule for `Automatic transcript deletion`. Summaries and notes will remain in AI Meeting Notes blocks in your workspace, but all transcriptions will be automatically deleted following the chosen deletion schedule. The automatic transcript deletion schedule will not delete transcripts in pages that are [legally held](https://www.notion.com/help/legal-holds).
 
-### [Delete locally stored audio](https://www.notion.com/help/ai-meeting-notes-security-and-privacy?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#delete-locally-stored-audio)
+### [Delete locally stored audio](https://www.notion.com/help/ai-meeting-notes-security-and-privacy?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#delete-locally-stored-audio)
 
 You can choose to store audio recordings on the recorder's local device when using AI Meeting Notes in the Notion desktop app or browser. The recorder can delete locally stored audio from their local device at any time by clicking the slider icon in the AI Meeting Notes block, hovering over `Audio Recordings`, and selecting `Delete recordings`. This deletes all recordings for the specific AI Meeting Notes block.
 
@@ -51,7 +51,7 @@ If an Enterprise Plan workspace owner has turned on both `Automatic transcript d
 
 If the recorder downloads an audio file, deletion of the downloaded audio file is up to the recorder. Similarly, if the recorder chooses to share an audio file with third parties, deletion of the distributed copies of the audio file is up to those third parties.
 
-### [**Retention controls**](https://www.notion.com/help/ai-meeting-notes-security-and-privacy?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#retention-controls)
+### [**Retention controls**](https://www.notion.com/help/ai-meeting-notes-security-and-privacy?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#retention-controls)
 
 By default, we retain meeting audio and transcripts for 1 day, and audio is deleted as soon as it's transcribed. Keeping meeting context findable is the point of the feature, so we recommend 1-day retention as the default rather than zero-day retention. Organizations that need content removed on demand can use our full delete APIs to remove recordings and transcripts. Enterprise owners can also set an automatic transcript deletion schedule.
 
@@ -89,7 +89,7 @@ Below is some general information on the laws and regulations that relate to tra
 
 Consult with your legal counsel to evaluate your specific use case to make sure that you use AI Meeting Notes in a legally compliant manner. You are responsible for ensuring that your use of Notion complies with all applicable laws and regulations. See our [Master Subscription Agreement](https://www.notion.com/Master-Subscription-Agreement-4e1c5dd3e3de45dfa4a8ed60f1a43da0) and [Content and Use Policy](https://www.notion.com/notion/Content-Use-Policy-1b9a773d5583486cb5c1d39a8d777a55) for more information.
 
-### [Laws related to recording & transcribing communications](https://www.notion.com/help/ai-meeting-notes-security-and-privacy?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#laws-related-to-recording-&-transcribing-communications)
+### [Laws related to recording & transcribing communications](https://www.notion.com/help/ai-meeting-notes-security-and-privacy?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#laws-related-to-recording-&-transcribing-communications)
 
 In the United States, certain laws require consent of at least one of the participants before recording or transcribing a call or conversation. Others require you to obtain consent from every participant before recording or transcribing a call.
 
@@ -97,7 +97,7 @@ Outside the United States, such as in the European Union, there are similar laws
 
 In addition to consent requirements, there may also be laws governing how you use, disclose, and secure your call recordings or transcriptions. These laws may vary depending on where your participants are located, the business sector, and industry standards.
 
-### [Best practices for recording & transcribing communications](https://www.notion.com/help/ai-meeting-notes-security-and-privacy?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#best-practices-for-recording-&-transcribing-communications)
+### [Best practices for recording & transcribing communications](https://www.notion.com/help/ai-meeting-notes-security-and-privacy?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#best-practices-for-recording-&-transcribing-communications)
 
 **Obtaining consent**
 

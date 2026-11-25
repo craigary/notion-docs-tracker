@@ -33,7 +33,7 @@ By default, your board will be grouped by a status property if your database has
 
 ## Edit your board's groups
 
-### [Group by a different property](https://www.notion.com/help/boards?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#group-by-a-different-property)
+### [Group by a different property](https://www.notion.com/help/boards?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#group-by-a-different-property)
 
 If you want to group your board by assignee, for example, instead of status, you can change the property that your board is grouping by. To do this:
 
@@ -49,7 +49,7 @@ Let’s say you want to group by a property that doesn’t already exist in your
 
 3. Find the type of property you want, like `Select`, and set your property up with a name and, if needed, options (like `P0`, `P1`, and `P2`).
 
-### [Add a new group](https://www.notion.com/help/boards?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#add-a-new-group)
+### [Add a new group](https://www.notion.com/help/boards?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#add-a-new-group)
 
 You might want to change the labels for each of the groups in your board view. For example, maybe you want to turn `In progress` into `Ongoing`, or you need a new `In review` status. You’ll need to edit the property itself to accomplish this. To edit a property:
 
@@ -59,7 +59,7 @@ You might want to change the labels for each of the groups in your board view. F
 
 3. Click into each status option that your database currently has and give your options a new name or color, or `Delete` them entirely. You can also select `+` next to your existing options to create a new one.
 
-### [Add or change sub-groups](https://www.notion.com/help/boards?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#add-or-change-sub-groups)
+### [Add or change sub-groups](https://www.notion.com/help/boards?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#add-or-change-sub-groups)
 
 In board view, you can add a second layer of groups, called sub-groups. This lets you further organize your database items within a group.
 

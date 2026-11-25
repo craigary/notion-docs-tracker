@@ -79,7 +79,13 @@ Your Notion data will always be backed up in the cloud, but you can also export 
 
 If you're on a Business or Enterprise Plan, you can also export your entire workspace to PDF, which can be helpful for legal and compliance backups.
 
-Pages that the exporter doesn't have access to, such as private pages of other users, will not be included in the export. Workspace owners on the Enterprise Plan can give themselves and others access to specific pages using content search, so that those pages can be included in future exports. Some content also may not be exported based on teamspace settings.
+If you're a workspace owner, a full export includes every teamspace, even private teamspaces you haven't joined. That gives you a complete copy of your workspace in one export.
+
+Other people's private pages aren't included by default.
+
+You can't leave one teamspace out of a full workspace export. A teamspace's `Disable page exports` setting only blocks exports of single pages. It doesn't remove that teamspace from a full export. If you only need some pages, you can export them from the page's `•••` menu instead.
+
+On the Enterprise Plan, you can also use the admin API to export specific teamspaces.
 
 A sitemap (index.html) is included the export to help you navigate the exported workspace. The list items in the sitemap are locally linked to the exported pages in HTML and Markdown formats.
 
@@ -181,7 +187,7 @@ Depending on how you're using your workspace, you may want to keep the data you 
 
 * `Allow page guests to request to be added as members to the workspace`: This setting is available to users on the Plus Plan or higher.
 
-### [Security settings available on Enterprise Plans only](https://www.notion.com/help/workspace-settings?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#security-settings-available-on-enterprise-plans-only)
+### [Security settings available on Enterprise Plans only](https://www.notion.com/help/workspace-settings?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#security-settings-available-on-enterprise-plans-only)
 
 * `Disable publishing sites and forms`: Don't let members publish [Notion Sites](https://www.notion.com/help/public-pages-and-web-publishing) or [forms](https://www.notion.com/help/forms) to the web. Any Sites or forms already live on the web will be taken down.
 

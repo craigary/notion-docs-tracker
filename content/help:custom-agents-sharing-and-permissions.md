@@ -169,7 +169,7 @@ To keep a business-critical agent from pausing, set its credit limit to `Unlimit
 
 [Learn how AI credits work for Custom Agents →](https://www.notion.com/help/how-ai-credits-work-for-custom-agents)
 
-### [Agent Directory](https://www.notion.com/help/custom-agents-sharing-and-permissions?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#agent-directory)
+### [Agent Directory](https://www.notion.com/help/custom-agents-sharing-and-permissions?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#agent-directory)
 
 * Search and view all Custom Agents in your workspace.
 
@@ -187,7 +187,7 @@ To access the **Agent Directory**, go to `Settings`, select `Notion AI` from the
 
 ![Image of agent directory within Notion AI.](https://images.ctfassets.net/spoqsaf9291f/6fYfD4V4o71mEhMVgfIMNw/253416820a83c31fb49fb58638b8bbdd/Agent_directory.png)
 
-### [Creation controls](https://www.notion.com/help/custom-agents-sharing-and-permissions?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#creation-controls)
+### [Creation controls](https://www.notion.com/help/custom-agents-sharing-and-permissions?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#creation-controls)
 
 Restrict who can create Custom Agents:
 
@@ -201,7 +201,7 @@ Restrict who can create Custom Agents:
 
 ## Enterprise plan controls
 
-### [Content Admin Search](https://www.notion.com/help/custom-agents-sharing-and-permissions?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#content-admin-search)
+### [Content Admin Search](https://www.notion.com/help/custom-agents-sharing-and-permissions?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#content-admin-search)
 
 * See what pages and databases each Custom Agent can access.
 
@@ -215,7 +215,7 @@ To access Content search, go to `Settings` > `Content search` and use the Shared
 
 ![Content search](https://images.ctfassets.net/spoqsaf9291f/1drdK1xM5XPd0I6oOLW596/191d9a53553bc4f2af09189d5f5a395d/Content_search.png)
 
-### [Audit Log](https://www.notion.com/help/custom-agents-sharing-and-permissions?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#audit-log)
+### [Audit Log](https://www.notion.com/help/custom-agents-sharing-and-permissions?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#audit-log)
 
 * Full history of all Custom Agent actions.
 
@@ -225,7 +225,7 @@ To access the Audit Log, go to `Settings` > `Audit log` and filter for Custom Ag
 
 ![Audit log](https://images.ctfassets.net/spoqsaf9291f/3A5wr7nqZWoJCSoGAu6day/6b91dd639815d58e7c2d1723a54e511c/Audit_log.png)
 
-### [AI Analytics](https://www.notion.com/help/custom-agents-sharing-and-permissions?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#ai-analytics)
+### [AI Analytics](https://www.notion.com/help/custom-agents-sharing-and-permissions?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#ai-analytics)
 
 * Identify most-used and unused agents.
 
@@ -235,7 +235,7 @@ To access AI Analytics Go to `Settings` > `Analytics` and enter the `AI` **tab.*
 
 ![AI analytics](https://images.ctfassets.net/spoqsaf9291f/HCENMeWnF5QtrVSXPogbC/df41ce2254661696a6de5bb6e6194f13/AI_analytic.png)
 
-### [Transfer ownership](https://www.notion.com/help/custom-agents-sharing-and-permissions?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#transfer-ownership)
+### [Transfer ownership](https://www.notion.com/help/custom-agents-sharing-and-permissions?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#transfer-ownership)
 
 Transferring ownership ensures business-critical agents continue running when users leave the workspace. After 7 days of no ownership, the agent stops running.
 
@@ -247,7 +247,7 @@ Transferring ownership ensures business-critical agents continue running when us
 
 Transferring ownership is also supported via Public API.
 
-### [Admin API](https://www.notion.com/help/custom-agents-sharing-and-permissions?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#admin-api)
+### [Admin API](https://www.notion.com/help/custom-agents-sharing-and-permissions?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#admin-api)
 
 Manage Custom Agents from your own tools and scripts:
 

@@ -123,7 +123,7 @@ You can create a custom layout that applies to all pages in a database. Learn mo
 
 Callout blocks are useful for highlighting specific text or breaking it out from the rest of a document. Perhaps you want to draw attention to a warning or a tip.
 
-### [Add a callout](https://www.notion.com/help/customize-and-style-your-content?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#add-a-callout)
+### [Add a callout](https://www.notion.com/help/customize-and-style-your-content?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#add-a-callout)
 
 You can add a callout to a page in a few ways:
 
@@ -133,7 +133,7 @@ You can add a callout to a page in a few ways:
 
 You can move your callout block around your page by hovering over it and using the `⋮⋮` that appears as a handle to drag and drop it. Callouts can even be placed in a column.
 
-### [Style your callout](https://www.notion.com/help/customize-and-style-your-content?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#style-your-callout)
+### [Style your callout](https://www.notion.com/help/customize-and-style-your-content?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#style-your-callout)
 
 * Your callout block can contain other block types like bullets and headings. You can drag these blocks around to rearrange them within your callout.
 

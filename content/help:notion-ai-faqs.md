@@ -125,7 +125,7 @@ To edit a page with AI, select the text or blocks you want to change, then choos
 
 When Notion AI creates or edits content for you, you'll have the option to accept or discard those changes, or have Notion AI try again.
 
-### [AI blocks](https://www.notion.com/help/notion-ai-faqs?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#ai-blocks)
+### [AI blocks](https://www.notion.com/help/notion-ai-faqs?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#ai-blocks)
 
 ![hc: ai blocks](https://images.ctfassets.net/spoqsaf9291f/3axYtnLCPRpjaubr0dvMRc/2e801675e7b282104ce613e69e993f2a/Sept_15_Screenshot_from_Personal_Agent__4_.png)
 
@@ -135,7 +135,7 @@ If you want a custom output, give Notion AI as much information as possible to d
 
 Select `Done` → `Generate` on an AI block to generate content based on your selected output. You can continue to use the same AI block over time — just click `Generate` to refresh the content! You can also edit your AI block setup by selecting the slider icon inside the block.
 
-### [Translate a page](https://www.notion.com/help/notion-ai-faqs?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#translate-a-page)
+### [Translate a page](https://www.notion.com/help/notion-ai-faqs?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#translate-a-page)
 
 Go to `•••` at the top of the page, open `More`, and select → `Translate`. Notion AI will translate the page into your desired language. You can also open a chat with your Agent and select `Translate this page`.
 

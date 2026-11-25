@@ -19,7 +19,7 @@ You can create a database in just seconds using [Notion AI](https://www.notion.c
 
 * If you are not on those plans, Notion AI will use credits from your workspace, including [any complimentary credits](https://www.notion.com/help/complimentary-ai-responses) you may have available.
 
-### [From a page](https://www.notion.com/help/autofill?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#from-a-page)
+### [From a page](https://www.notion.com/help/autofill?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#from-a-page)
 
 To create a database with Notion AI in an existing page:
 
@@ -35,7 +35,7 @@ To create a database with Notion AI in an existing page:
 
 6. Choose how you prefer to visualize your database items and select `Done`.
 
-### [From Home](https://www.notion.com/help/autofill?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#from-home)
+### [From Home](https://www.notion.com/help/autofill?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#from-home)
 
 To create a database with Notion AI from `Home`:
 
@@ -67,9 +67,7 @@ Autofill has two options:
 
 * **Basic Autofill&#x20;**&#x69;s best for simple fills, like summaries, tagging, and translation. Basic Autofill is included in Business and Enterprise plans.
 
-* **Custom Agent Autofill** is best for more complex work like using web or workspace search and handling multi-step instructions. Custom Agent Autofill uses
-
-  [Notion credits](https://www.notion.com/help/custom-agent-pricing) based on the work needed to complete each task.
+* **Custom Agent Autofill** is best for more complex work like using web or workspace search and handling multi-step instructions. Custom Agent Autofill uses [Notion credits](https://www.notion.com/help/custom-agent-pricing) based on the work needed to complete each task.
 
 ## Basic Autofill
 

@@ -18,7 +18,7 @@ Every Notion plan includes file storage for your workspace, shared across everyo
 | Free       | 512 MB total                               |
 | Plus       | 256 GB, plus 5 GB for each member you add  |
 | Business   | 512 GB, plus 10 GB for each member you add |
-| Enterprise | 1 TB, plus 20 GB for each member you add   |
+| Enterprise | Custom                                     |
 
 * This limit covers all the files in your workspace added together.
 

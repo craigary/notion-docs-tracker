@@ -9,11 +9,15 @@ category: "Notion AI Connectors"
 categoryKey: "category:notion-ai-connectors"
 ---
 
-**Note:**
+**Jira in Notion AI is moving to the new Atlassian connection**
 
-* This feature is only available for users on the Business Plan or Enterprise Plan.
+The Atlassian MCP server lets Notion AI search Jira using Jira Query Language, create and update issues, and with Confluence and other Atlassian products.
 
-* The Notion AI connector for Jira is currently in beta and subject to the beta terms of your agreement.
+To keep using Jira with Notion AI, **connect your own Atlassian account by January 18, 2027,** when the Jira connector Forge app will be decommissioned by Atlassian.
+
+Each person connects their own Atlassian account. If your Notion workspace limits which connections members can add, an admin needs to approve Atlassian first. Jira database sync and Jira link previews aren't affected and keep working as they do today.
+
+Learn how to [upgrade to the Atlassian MCP server for Jira in Notion AI →](https://www.notion.com/help/connect-atlassian-to-notion-ai)
 
 ## Connect Jira to Notion AI
 
@@ -23,9 +27,11 @@ categoryKey: "category:notion-ai-connectors"
 
 * Your workspace must be on the Business or Enterprise Plan and have more than one member.
 
+* The Notion AI connector for Jira is currently in beta and subject to the beta terms of your agreement.
+
 **How do I connect my Jira site?**
 
-**Note:** Notion AI connectors support all Jira cloud products, including:
+**Notion AI connectors support all Jira cloud products, including:**
 
 * Jira Software
 
@@ -79,7 +85,7 @@ To connect Jira to your Notion workspace:
 
 Notion will install a Jira Forge app named Notion-AI-Connector using the credentials provided. You don't need to build or install this app yourself. Once your Site URL, API token, and Developer Space ID are confirmed, Notion sets it up for you automatically. The connection can take up to 36 hours to complete. You can manage the connection by opening Notion AI at the bottom of your screen and clicking on `•••` → `Connect Jira` → `Settings`.
 
-### [What content from Jira can be connected to Notion AI?](https://www.notion.com/help/jira-ai-connector?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#what-content-from-jira-can-be-connected-to-notion-ai)
+### [What content from Jira can be connected to Notion AI?](https://www.notion.com/help/jira-ai-connector?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#what-content-from-jira-can-be-connected-to-notion-ai)
 
 All Jira Cloud products are supported: Jira Software, Jira Product Discovery, Jira Service Management, Jira Work Management.
 
@@ -133,7 +139,9 @@ You could try prompting Notion AI with the following:
 
 * “What are the Jira projects that involve the mobile app?”
 
-**Note:** Notion AI isn't meant to run complex analytics or perform math on large data sets. For example, it won't be able to tell you how many tickets were created in the last month. Try asking questions about specific projects or issues.
+**Notion AI isn't meant to run complex analytics or perform math on large data sets**
+
+For example, it won't be able to tell you how many tickets were created in the last month. Try asking questions about specific projects or issues.
 
 ## Troubleshooting
 

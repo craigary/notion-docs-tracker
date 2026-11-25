@@ -39,8 +39,6 @@ For the full feature list, see [Standard, Select, and Notion credits: eligible f
 
 * Your [Notion Agent](https://www.notion.com/help/notion-agent) on [Auto](https://www.notion.com/help/auto) (including chat)
 
-* AI Meeting Notes \* (starting December 1, 2026)
-
 * Writing and translation
 
 * AI blocks, formulas, and inline editing
@@ -69,7 +67,7 @@ For most everyday work in Notion, [Auto](https://www.notion.com/help/auto) can h
 | **Medium**    | - Track task progress - Write a work report - Find a document in your workspace - Triage customer support inquiries - Manage your inbox - Transcribe and summarize a one hour meeting\*        | 10                             | 85                                 |
 | **Complex**   | - Manage hiring and job applications - Create and configure databases - Draft a performance review - Refine a strategy document or quarterly plan - Maintain CRM contacts and sales follow-ups | 25                             | 150                                |
 
-\* AI meeting notes uses Auto and will begin consuming monthly Standard credit allowance on December 1, 2026. A one hour meeting is estimated to use \~10 Standard credits.
+\* <!-- -->Database Autofill and AI Meeting Notes do not currently reduce credit balance, but may in the future as functionality evolves.
 
 Credit use varies by scenario. For example, asking Notion Agent to polish an email in a long thread with complex info may use more credits. Even for tasks that typically use more credits, Auto produced results comparable to frontier models.
 
@@ -212,7 +210,7 @@ Running Notion Agent or a Custom Agent through a connected app or a Notion API u
 
 ### Does AI Meeting Notes consume credits?
 
-AI meeting notes uses [Auto](https://www.notion.com/help/auto) and will begin consuming monthly Standard credit allowance starting December. A one hour meeting is estimated to use \~10 Standard credits.
+AI Meeting Notes does not currently reduce credit balance, but may in the future as functionality evolves.
 
 
 ### I pay through the App Store or Google Play. How do my credits work?

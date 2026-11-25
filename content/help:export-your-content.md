@@ -15,7 +15,7 @@ categoryKey: "category:import-export-and-integrate"
 
 You can save any Notion page or database to your computer as a PDF file. This is one way to back up your information if you want to keep it in some form on your hard drive.
 
-### [On desktop](https://www.notion.com/help/export-your-content?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#on-desktop)
+### [On desktop](https://www.notion.com/help/export-your-content?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#on-desktop)
 
 1. Click the `•••` icon at the upper right corner of any Notion page, then open `More`.
 
@@ -43,7 +43,7 @@ You can save any Notion page or database to your computer as a PDF file. This is
 
 **Note:&#x20;**&#x49;f a PDF export fails, Notion will instead export as HTML.
 
-### [On mobile](https://www.notion.com/help/export-your-content?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#on-mobile)
+### [On mobile](https://www.notion.com/help/export-your-content?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#on-mobile)
 
 You can export Notion pages as PDF from your phone with these steps:
 
@@ -67,7 +67,7 @@ You can export Notion pages as PDF from your phone with these steps:
 
 **Note:** When you export as HTML, you can also export comments at both the page and block levels. This includes resolved and unresolved comments and any files, pages, or users mentioned in them.
 
-### [On desktop](https://www.notion.com/help/export-your-content?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#on-desktop)
+### [On desktop](https://www.notion.com/help/export-your-content?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#on-desktop)
 
 Any Notion page or database can be exported as an HTML file. Here's how:
 
@@ -85,7 +85,7 @@ Any Notion page or database can be exported as an HTML file. Here's how:
 
 5. If you export with sub-pages included, you'll see them neatly organized in their own folders when you unzip the file. These folders will also contain the images and other assets on your pages saved separately.
 
-### [On mobile](https://www.notion.com/help/export-your-content?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#on-mobile)
+### [On mobile](https://www.notion.com/help/export-your-content?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#on-mobile)
 
 1. Tap the `•••` icon at the upper right of your screen.Scroll down and tap `Export`.
 
@@ -107,7 +107,7 @@ Any Notion page or database can be exported as an HTML file. Here's how:
 
 Any non-database Notion page can be exported as a Markdown file. Full page databases will be exported as a CSV file, with Markdown files for each subpage. Callout blocks will be exported as HTML, as there is no Markdown equivalent.
 
-### [On desktop](https://www.notion.com/help/export-your-content?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#on-desktop)
+### [On desktop](https://www.notion.com/help/export-your-content?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#on-desktop)
 
 1. Click on the `•••` icon at the top right of any Notion page you want to export. Click `Export`.
 
@@ -127,7 +127,7 @@ Any non-database Notion page can be exported as a Markdown file. Full page datab
 
 7. You can open the Markdown files as plain text with Markdown syntax.
 
-### [On mobile](https://www.notion.com/help/export-your-content?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#on-mobile)
+### [On mobile](https://www.notion.com/help/export-your-content?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#on-mobile)
 
 1. Tap the `•••` icon at the upper right of your screen.
 
@@ -147,7 +147,7 @@ Any non-database Notion page can be exported as a Markdown file. Full page datab
 
 ## Print a Notion page
 
-### [On your browser](https://www.notion.com/help/export-your-content?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#on-your-browser)
+### [On your browser](https://www.notion.com/help/export-your-content?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#on-your-browser)
 
 1. Go to `File` → `Print`.
 
@@ -157,7 +157,7 @@ Any non-database Notion page can be exported as a Markdown file. Full page datab
 
 **Note:** You cannot print a full-page database this way. You'll need to export it as a PDF first and then print the PDF file.
 
-### [On the desktop app](https://www.notion.com/help/export-your-content?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#on-the-desktop-app)
+### [On the desktop app](https://www.notion.com/help/export-your-content?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#on-the-desktop-app)
 
 There is no way to print directly from the Notion desktop app. You'll need to export your page or database as a PDF first and then print that file. Full instructions on exporting to PDF can be found [above](https://www.notion.com/help/export-your-content#export-as-pdf).
 
@@ -167,7 +167,13 @@ There is no way to print directly from the Notion desktop app. You'll need to ex
 
 Your Notion data will always be backed up in the cloud, but you can also export it for safekeeping. You can export all your pages as HTML, Markdown, or CSV (for databases), along with any files you've uploaded, too.
 
-Pages that the exporter doesn't have access to, such as private pages of other users, will not be included in the export. Workspace admins on the Enterprise Plan can give themselves and others access to specific pages using content search, so that those pages can be included in future exports. Some content also may not be exported based on teamspace settings.
+If you're a workspace owner, a full export includes every teamspace, even private teamspaces you haven't joined. That gives you a complete copy of your workspace in one export.
+
+Other people's private pages aren't included by default.
+
+You can't leave one teamspace out of a full workspace export. A teamspace's `Disable page exports` setting only blocks exports of single pages. It doesn't remove that teamspace from a full export. If you only need some pages, you can export them from the page's `•••` menu instead.
+
+On the Enterprise Plan, you can also use the admin API to export specific teamspaces.
 
 To export your workspace content:
 

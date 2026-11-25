@@ -47,7 +47,7 @@ There are a few different ways to add math equations inline, and all are keyboar
 
 [](//videos.ctfassets.net/spoqsaf9291f/6rgqKIB5fH9Fm2Kww4aR9t/3e94ef14a9e1aaad49e0964776f0d935/Inline_math_edit_bar.mp4)
 
-### [Edit an inline equation](https://www.notion.com/help/math-equations?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#edit-an-inline-equation)
+### [Edit an inline equation](https://www.notion.com/help/math-equations?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#edit-an-inline-equation)
 
 * You can edit an existing equation by clicking on it. This will open the equation input, and any changes you make to the equation will reflect live on your page.
 

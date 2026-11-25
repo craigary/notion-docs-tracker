@@ -13,7 +13,7 @@ categoryKey: "category:new-to-notion"
 
 Your Notion app interface is split into two sections: the sidebar and the editor.
 
-### [Sidebar](https://www.notion.com/help/intro-to-workspaces?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#sidebar)
+### [Sidebar](https://www.notion.com/help/intro-to-workspaces?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#sidebar)
 
 * Notion's expandable sidebar is your navigation system.
 
@@ -27,7 +27,7 @@ Your Notion app interface is split into two sections: the sidebar and the editor
 
 Learn more about how to [navigate with your sidebar →](https://www.notion.com/help/navigate-with-the-sidebar)
 
-### [Editor](https://www.notion.com/help/intro-to-workspaces?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#editor)
+### [Editor](https://www.notion.com/help/intro-to-workspaces?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#editor)
 
 * This is where all the content you create lives.
 
@@ -37,7 +37,7 @@ Learn more about how to [navigate with your sidebar →](https://www.notion.com/
 
 ## Sidebar tools
 
-### [Tabs](https://www.notion.com/help/intro-to-workspaces?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#tabs)
+### [Tabs](https://www.notion.com/help/intro-to-workspaces?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#tabs)
 
 Your sidebar is organized into tabs. Each tab is made of buttons that create or open something and sections that list your content. Here are the tools you'll use most:
 
@@ -57,7 +57,7 @@ Your sidebar is organized into tabs. Each tab is made of buttons that create or 
 
 Every tab comes set up for you, and you can change what's in it, add and remove tabs, and reset any tab to how it started. [Learn how to customize your sidebar →](https://www.notion.com/help/customize-your-sidebar)
 
-### [Sidebar sections](https://www.notion.com/help/intro-to-workspaces?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#sidebar-sections)
+### [Sidebar sections](https://www.notion.com/help/intro-to-workspaces?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#sidebar-sections)
 
 Your sidebar contains various sections to keep your workspace’s content organized:
 
@@ -79,7 +79,7 @@ You can rearrange and customize your sidebar sections. [Learn how to navigate wi
 
 **Note:** If you drag a page into `Private` in your sidebar, everyone but you will lose access.
 
-### [Favorites](https://www.notion.com/help/intro-to-workspaces?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#favorites)
+### [Favorites](https://www.notion.com/help/intro-to-workspaces?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#favorites)
 
 `Favorites` is where you can easily access all of the pages most important to you. This section will appear in your sidebar once you favorite your first page.
 
@@ -91,7 +91,7 @@ To remove a page from your favorites, open it and unclick ⭐ at the top. You ca
 
 You can also add a shortcut to a page in one tab without adding it to Favorites. [Learn how →](https://www.notion.com/help/customize-your-sidebar)
 
-### [Settings, templates, and trash](https://www.notion.com/help/intro-to-workspaces?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#settings-templates-and-trash)
+### [Settings, templates, and trash](https://www.notion.com/help/intro-to-workspaces?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#settings-templates-and-trash)
 
 * `Settings` allow you to adjust Notion to your preference. Learn more about settings [here →](https://www.notion.com/help/category/account-settings-and-privacy)
 
@@ -99,7 +99,7 @@ You can also add a shortcut to a page in one tab without adding it to Favorites.
 
 * `Trash` contains all the pages you delete. You can drag and drop them in here. You can also click on trash to search, view, and restore these pages.
 
-### [Create a new page](https://www.notion.com/help/intro-to-workspaces?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#create-a-new-page)
+### [Create a new page](https://www.notion.com/help/intro-to-workspaces?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#create-a-new-page)
 
 There are a few ways to add a new page in Notion.
 
@@ -109,19 +109,19 @@ There are a few ways to add a new page in Notion.
 
 * If you’re on mobile, tap `📝` at the bottom of your screen.
 
-### [Hover options](https://www.notion.com/help/intro-to-workspaces?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#hover-options)
+### [Hover options](https://www.notion.com/help/intro-to-workspaces?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#hover-options)
 
 When you hover over a page in your sidebar, you'll see both a `+` button to add a page nested inside it, and a `•••` icon, which opens a menu of actions you can apply to the page: `Delete`, `Duplicate`, `Copy link`, `Rename`, and `Move to`**.**
 
 ## Editor tools
 
-### [Breadcrumb navigation](https://www.notion.com/help/intro-to-workspaces?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#breadcrumb-navigation)
+### [Breadcrumb navigation](https://www.notion.com/help/intro-to-workspaces?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#breadcrumb-navigation)
 
 * Always know where you are in respect to your page structure. See how the page you're currently looking at fits into other pages.
 
 * You can click on any page in this breadcrumb to immediately jump to it. Sometimes this will be abridged with a `...` — click to view all the pages in between.
 
-### [Collaborators](https://www.notion.com/help/intro-to-workspaces?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#collaborators)
+### [Collaborators](https://www.notion.com/help/intro-to-workspaces?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#collaborators)
 
 * You can see the profile photos of everyone else who has access to the page you're on. If you hover over any of them, you can see the full list, their names, and email addresses.
 
@@ -129,7 +129,7 @@ When you hover over a page in your sidebar, you'll see both a `+` button to ad
 
 * When you collaborate in real-time on the same content, you can see people's photos moving around, corresponding to the block they're reading or editing.
 
-### [Share menu](https://www.notion.com/help/intro-to-workspaces?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#share-menu)
+### [Share menu](https://www.notion.com/help/intro-to-workspaces?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#share-menu)
 
 * Each row in this menu represents a different person or group of people you can share the page with. The dropdown menus on the right let you set their level of access. [Learn more about permissions here →](https://www.notion.com/help/sharing-and-permissions#permission-levels)
 
@@ -137,7 +137,7 @@ When you hover over a page in your sidebar, you'll see both a `+` button to ad
 
 * `Invite` lets you add people both inside or outside your workspace to a page using their email address. [Learn more about sharing here →](https://www.notion.com/help/sharing-and-permissions)
 
-### [••• menu](https://www.notion.com/help/intro-to-workspaces?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#%E2%80%A2%E2%80%A2%E2%80%A2-menu)
+### [••• menu](https://www.notion.com/help/intro-to-workspaces?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#%E2%80%A2%E2%80%A2%E2%80%A2-menu)
 
 This menu contains many options, including:
 
