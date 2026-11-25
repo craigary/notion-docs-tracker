@@ -129,7 +129,7 @@ AI Meeting Notes can structure notes based on the type of meeting you’re havin
 
 Connect AI Meeting Notes to Notion Calendar so you can start notes with one click directly from your calendar, and connect existing notes to calendar events. Click the slider icon at the top of the AI Meeting Notes block to set it up!
 
-### [Create custom summary instructions](https://www.notion.com/help/ai-meeting-notes#create-custom-summary-instructions)
+### [Create custom summary instructions](https://www.notion.com/help/ai-meeting-notes?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#create-custom-summary-instructions)
 
 In addition to built-in instructions, you can create custom instructions to define the structure of your meeting summaries. To add custom instructions:
 
@@ -163,7 +163,7 @@ If you open a meeting notes block where a shared instructions page is already se
 
 If you don’t have access to the selected instructions page, your Instructions setting will default to **Auto**.
 
-### [Set default summary instructions](https://www.notion.com/help/ai-meeting-notes#set-default-summary-instructions)
+### [Set default summary instructions](https://www.notion.com/help/ai-meeting-notes?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#set-default-summary-instructions)
 
 You can set any summary instructions — including custom ones — as your default so it's applied automatically to all new meetings.
 
@@ -309,7 +309,7 @@ Make sure each AI Meeting Notes page in your database is shared with the right p
 
 Meeting notes pages come with built-in details: `Title`, `Date`, and `Attendees`. If your note is linked to a calendar event, these fill in automatically. In a database, they show up as properties, so your notes stay organized without extra setup.
 
-### [Workspace owners: set one database for your whole workspace](https://www.notion.com/help/ai-meeting-notes#workspace-owners-set-one-database-for-your-whole-workspace)
+### [Workspace owners: set one database for your whole workspace](https://www.notion.com/help/ai-meeting-notes?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#workspace-owners-set-one-database-for-your-whole-workspace)
 
 If you're a workspace owner, you can pick one database where new AI Meeting Notes from everyone in your workspace are saved. That way, nobody has to set up a default on their own, which is especially helpful when new people join your team.
 
@@ -327,7 +327,7 @@ After you confirm, each member's default updates to the database you picked, and
 
 Only new meeting notes are affected. Notes that were already saved stay where they are.
 
-### [Workspace members: when an owner picks the database for you](https://www.notion.com/help/ai-meeting-notes#workspace-members-when-an-owner-picks-the-database-for-you)
+### [Workspace members: when an owner picks the database for you](https://www.notion.com/help/ai-meeting-notes?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#workspace-members-when-an-owner-picks-the-database-for-you)
 
 When your owner sets a default meetings database for the workspace, member settings update to that database and shows it was set by the owner. You can switch to a different meetings database unless your owner turns on `Require this database for all members`.
 
@@ -335,7 +335,7 @@ The database's own sharing settings decide who can open each note. Setting a wor
 
 ## Troubleshoot common issues
 
-### [AI Meeting Notes won’t launch, or transcription isn’t working](https://www.notion.com/help/ai-meeting-notes#ai-meeting-notes-won%E2%80%99t-launch-or-transcription-isn%E2%80%99t-working)
+### [AI Meeting Notes won’t launch, or transcription isn’t working](https://www.notion.com/help/ai-meeting-notes?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#ai-meeting-notes-won%E2%80%99t-launch-or-transcription-isn%E2%80%99t-working)
 
 Depending on which version of your operating system or the Notion app you’re on, AI Meeting Notes might not work properly and you might get an error telling you the feature couldn't launch.
 
@@ -349,7 +349,7 @@ Depending on which version of your operating system or the Notion app you’re o
 
 * Reload your page or restart the app.
 
-### [Can’t use the slash command (/meet) for AI Meeting Notes](https://www.notion.com/help/ai-meeting-notes#can%E2%80%99t-use-the-slash-command-\(-meet\)-for-ai-meeting-notes)
+### [Can’t use the slash command (/meet) for AI Meeting Notes](https://www.notion.com/help/ai-meeting-notes?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#can%E2%80%99t-use-the-slash-command-\(-meet\)-for-ai-meeting-notes)
 
 If you’re not able to see AI Meeting Notes in your slash menu, it’s possible that AI Meeting Notes has been turned off for your workspace.
 
@@ -359,7 +359,7 @@ If you’re not able to see AI Meeting Notes in your slash menu, it’s possible
 
 * **If you’re not a workspace owner**, reach out to your workspace owner and ask if they can turn on AI Meeting Notes for your workspace.
 
-### [AI Meeting Notes won't start or work on the mobile app](https://www.notion.com/help/ai-meeting-notes#ai-meeting-notes-won't-start-or-work-on-the-mobile-app)
+### [AI Meeting Notes won't start or work on the mobile app](https://www.notion.com/help/ai-meeting-notes?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#ai-meeting-notes-won't-start-or-work-on-the-mobile-app)
 
 **How to fix it**
 
@@ -383,7 +383,7 @@ Sometimes AI Meeting Notes works on your other devices, like your computer or yo
 
 * Contact support and share these details, along with the page where you hit the error, so the team can look into the device-specific issue.
 
-### [My transcript has errors or made-up words](https://www.notion.com/help/ai-meeting-notes#my-transcript-has-errors-or-made-up-words)
+### [My transcript has errors or made-up words](https://www.notion.com/help/ai-meeting-notes?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#my-transcript-has-errors-or-made-up-words)
 
 Sometimes a transcript includes words that weren't said, or misreads what was spoken. This usually comes down to one of two things:
 
@@ -405,7 +405,7 @@ Sometimes a transcript includes words that weren't said, or misreads what was sp
 
 * When you reach out to support about a transcription issue, share the saved audio file so the team can review the audio quality and speech clarity.
 
-### [Running Notion in a virtual desktop (VDI)](https://www.notion.com/help/ai-meeting-notes#running-notion-in-a-virtual-desktop-\(vdi\))
+### [Running Notion in a virtual desktop (VDI)](https://www.notion.com/help/ai-meeting-notes?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#running-notion-in-a-virtual-desktop-\(vdi\))
 
 If your company uses a virtual desktop (sometimes called VDI), Notion may only capture what your microphone picks up. That’s because Notion is running on a remote computer, while meeting audio from tools like Zoom often plays on your local machine. Since that audio doesn’t reach the remote computer, AI Meeting Notes can’t transcribe other participants. That means Notion can only hear what your own mic picks up.
 
@@ -491,7 +491,7 @@ Change this in `Settings` → `Calendar accounts` → `{your email}` → `Prefer
 
 Go to `Settings` → `Meeting notes` manage your AI Meeting Notes in one place. Here, you can view your upcoming meetings and your previous AI Meeting Notes.
 
-### [Upcoming meetings](https://www.notion.com/help/ai-meeting-notes#upcoming-meetings)
+### [Upcoming meetings](https://www.notion.com/help/ai-meeting-notes?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#upcoming-meetings)
 
 Prepare for your upcoming meetings in this section. You can easily see what meetings are coming next, prepare your meeting notes in advance, and start your transcription directly from here.
 
@@ -509,7 +509,7 @@ You can hover over an upcoming meeting and:
 
 * Only events tied to your Notion workspace email will appear in `Upcoming meetings`.
 
-### [AI Meeting Notes list view](https://www.notion.com/help/ai-meeting-notes#ai-meeting-notes-list-view)
+### [AI Meeting Notes list view](https://www.notion.com/help/ai-meeting-notes?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#ai-meeting-notes-list-view)
 
 In the `Meetings` tab, you’ll also be able to see a consolidated view of all your meeting notes. The list view in your `Meetings` tab is different from your [default database for storing AI Meeting Notes](https://www.notion.com/help/ai-meeting-notes#choose-a-default-database-for-ai-meeting-notes) — it shows you meeting notes you created as well as meeting notes linked to calendar events that you attended, regardless of where those meeting notes are stored in your workspace. This allows you to quickly find any notes you need.
 
@@ -519,7 +519,7 @@ You can also open the slider menu at the top of the list to adjust view settings
 
 Select `New` at the top of the list view to create new AI Meeting Notes.
 
-### [Hide meetings tab](https://www.notion.com/help/ai-meeting-notes#hide-meetings-tab)
+### [Hide meetings tab](https://www.notion.com/help/ai-meeting-notes?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#hide-meetings-tab)
 
 If you don't want the `Meetings` tab in your Notion sidebar, you can turn it off by going to `Settings` → `Meeting notes` and turning on `Hide meetings tab`.
 

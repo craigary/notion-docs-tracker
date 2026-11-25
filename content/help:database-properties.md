@@ -67,7 +67,7 @@ From here, you can:
 
 You can also edit individual properties by clicking directly into them in your database. This will open a menu where you can edit the property’s name, filter or sort by that property, run calculations, and more.
 
-### [Hide or show properties](https://www.notion.com/help/database-properties#hide-or-show-properties)
+### [Hide or show properties](https://www.notion.com/help/database-properties?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#hide-or-show-properties)
 
 If you want specific properties to be hidden or shown in a database view:
 
@@ -163,7 +163,7 @@ To apply conditional color to a database view:
 
 8. Select `Add another` to create additional color conditions for your database view.
 
-### [How conditional color can be applied](https://www.notion.com/help/database-properties#how-conditional-color-can-be-applied)
+### [How conditional color can be applied](https://www.notion.com/help/database-properties?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#how-conditional-color-can-be-applied)
 
 * Conditional color is available on the following views:
 
@@ -211,7 +211,7 @@ To apply conditional color to a database view:
 
 * To apply conditional color to a property and not an entire database page, you must be in a **table view** of a database.
 
-### [Delete a color setting](https://www.notion.com/help/database-properties#delete-a-color-setting)
+### [Delete a color setting](https://www.notion.com/help/database-properties?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#delete-a-color-setting)
 
 To delete a color setting:
 

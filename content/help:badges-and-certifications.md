@@ -29,7 +29,7 @@ When you complete specific learning paths in Notion Academy and pass a knowledge
 
 Certifications are our highest level of skill validation, awarded to individuals who have earned all three badges and passed a proctored exam. These individuals can obtain our **Administrator Certification**, which deals with core platform management and governance.
 
-### [What partner certifications are available?](https://www.notion.com/help/badges-and-certifications#what-partner-certifications-are-available)
+### [What partner certifications are available?](https://www.notion.com/help/badges-and-certifications?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#what-partner-certifications-are-available)
 
 Partner certifications are only available through to approved applicants of our [Solution Partner program](https://www.notion.com/partners/solutions-partner-program). These certifications represent specialized expertise in delivering Notion solutions to clients. They validate a partner's ability to implement, optimize, and scale Notion across organizations. Partner certification options include:
 

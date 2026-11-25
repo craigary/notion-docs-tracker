@@ -62,7 +62,7 @@ A good rule of thumb is that if you’d copy and paste the same prompt twice, it
 
 ## Basic usage
 
-### [Create a skill from your Library](https://www.notion.com/help/create-and-manage-skills#create-a-skill-from-your-library)
+### [Create a skill from your Library](https://www.notion.com/help/create-and-manage-skills?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#create-a-skill-from-your-library)
 
 1. Go to `Library` in your sidebar and open the `Skills` tab.
 
@@ -74,7 +74,7 @@ Your Library can have several tabs, so the `Skills` tab may not be the first one
 
 Every skill page has a **Description** field and a **Files** field. Use **Files** for supporting material like examples, templates, or scripts.
 
-### [Create a skill from an existing page](https://www.notion.com/help/create-and-manage-skills#create-a-skill-from-an-existing-page)
+### [Create a skill from an existing page](https://www.notion.com/help/create-and-manage-skills?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#create-a-skill-from-an-existing-page)
 
 From any page, select `•••` at the top, select `Use with AI`, then select `Use as AI skill`.
 
@@ -82,7 +82,7 @@ You can also ask Notion Agent to mark a page as a skill for you.
 
 Skill pages show skill controls at the top, like the `Enabled` switch and `Run`, so you can tell them apart from regular pages.
 
-### [Bring in skills you already have](https://www.notion.com/help/create-and-manage-skills#bring-in-skills-you-already-have)
+### [Bring in skills you already have](https://www.notion.com/help/create-and-manage-skills?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#bring-in-skills-you-already-have)
 
 If you already have skills saved as `SKILL.md` files, you can bring them into Notion:
 
@@ -92,7 +92,7 @@ If you already have skills saved as `SKILL.md` files, you can bring them into No
 
 * **Turn a database of how-tos into skills:** Learn how to [turn an existing database into a skills database →](https://www.notion.com/help/create-and-manage-skills#turn-an-existing-database-into-a-skills-database)
 
-### [Choose which skills to enable ](https://www.notion.com/help/create-and-manage-skills#choose-which-skills-to-enable)
+### [Choose which skills to enable ](https://www.notion.com/help/create-and-manage-skills?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#choose-which-skills-to-enable)
 
 Turning on a skill makes it available to you in Notion Agent and in your connected agents. Turning it off removes it from both.
 
@@ -172,7 +172,7 @@ There are three ways to use your Notion skills outside Notion. Each one keeps No
 | **Who controls access** | Members and admins in Notion                                          | Admins in the agent app                                  | You                                                |
 | **Works with**          | Claude, ChatGPT, Cursor, Codex, and any agent connected to Notion MCP | Claude, Codex, and other agents with plugin marketplaces | Claude Code, Codex, Cursor, Gemini, and Grok Build |
 
-### [Use skills in connected agents over MCP](https://www.notion.com/help/create-and-manage-skills#use-skills-in-connected-agents-over-mcp)
+### [Use skills in connected agents over MCP](https://www.notion.com/help/create-and-manage-skills?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#use-skills-in-connected-agents-over-mcp)
 
 Agents connected to Notion over MCP can load your skills from Notion at the start of each session and pick the right one for the task. When you edit a skill in Notion, every connected agent gets the update. You need a working [Notion MCP connection](https://www.notion.com/help/notion-mcp) first.
 
@@ -186,11 +186,11 @@ Agents connected to Notion over MCP can load your skills from Notion at the star
 
 Set up each agent app separately. If you use Claude and Cursor, run the setup prompt in each one.
 
-### [Sync skills to GitHub](https://www.notion.com/help/create-and-manage-skills#sync-skills-to-github)
+### [Sync skills to GitHub](https://www.notion.com/help/create-and-manage-skills?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#sync-skills-to-github)
 
 GitHub sync copies your Notion skills to a GitHub repository every hour. Your admin can then add that repository as a plugin marketplace in [Claude](https://support.claude.com/en/articles/13837433-manage-plugins-for-your-organization) or [ChatGPTcodex](https://help.openai.com/en/articles/20001504-importing-and-syncing-plugin-marketplaces-from-github), so skills show up for everyone in those apps. Get started with the open-source [Notion skills GitHub sync](https://github.com/makenotion/notion-skills-github-sync) project.
 
-### [Download a skill to a local agent](https://www.notion.com/help/create-and-manage-skills#download-a-skill-to-a-local-agent)
+### [Download a skill to a local agent](https://www.notion.com/help/create-and-manage-skills?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#download-a-skill-to-a-local-agent)
 
 Send a copy of a skill to a local agent like Claude Code, Codex, Cursor, Gemini, or Grok Build. This works in the Notion desktop app, if your workspace allows local skill downloads.
 
@@ -202,7 +202,7 @@ Send a copy of a skill to a local agent like Claude Code, Codex, Cursor, Gemini,
 
 Notion saves the skill as a `SKILL.md` file and asks before installing any attached files. When the skill changes in Notion, the downloaded copy is marked as out of date so you know to download it again.
 
-### [Use the Skills API](https://www.notion.com/help/create-and-manage-skills#use-the-skills-api)
+### [Use the Skills API](https://www.notion.com/help/create-and-manage-skills?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#use-the-skills-api)
 
 Developers can also list, download, and upload skills with the Agent Skills API. See the [developer docs](https://developers.notion.com/guides/agent-skills/overview) →
 

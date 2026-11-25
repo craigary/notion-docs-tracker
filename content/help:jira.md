@@ -117,7 +117,7 @@ Open the sync in **Settings** → **Connections** → **Jira** → **Database sy
 
 * **Change history:** Expanding the window imports more work items. Shortening it removes work items outside the new window.
 
-### [Add a synced property](https://www.notion.com/help/jira#add-a-synced-property)
+### [Add a synced property](https://www.notion.com/help/jira?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#add-a-synced-property)
 
 1. Open the sync in **Settings** → **Connections** → **Jira** → **Database sync**, and edit it.
 
@@ -125,7 +125,7 @@ Open the sync in **Settings** → **Connections** → **Jira** → **Database sy
 
 3. Click **Save**. The new properties show up as columns in your **Jira Work Items** database. Existing pages can stay empty until the work item changes in Jira or is imported again.
 
-### [Remove a synced property](https://www.notion.com/help/jira#remove-a-synced-property)
+### [Remove a synced property](https://www.notion.com/help/jira?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#remove-a-synced-property)
 
 1. Open the sync and edit it.
 
@@ -149,27 +149,27 @@ The **Visibility** property describes the Jira space. It doesn’t control who c
 
 ## Troubleshoot a Jira sync
 
-### [I can’t find a site or space](https://www.notion.com/help/jira#i-can%E2%80%99t-find-a-site-or-space)
+### [I can’t find a site or space](https://www.notion.com/help/jira?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#i-can%E2%80%99t-find-a-site-or-space)
 
 Confirm that you connected the correct Jira account and site. Ask your Jira administrator to check your access to the space and its work items.
 
-### [A custom property is missing or empty](https://www.notion.com/help/jira#a-custom-property-is-missing-or-empty)
+### [A custom property is missing or empty](https://www.notion.com/help/jira?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#a-custom-property-is-missing-or-empty)
 
 Check that the property is selected, or turn on **Sync all current and future custom properties**. The connected account also needs access to the field. New fields may appear in Notion before existing work items receive values for them.
 
-### [A parent or space relation is empty](https://www.notion.com/help/jira#a-parent-or-space-relation-is-empty)
+### [A parent or space relation is empty](https://www.notion.com/help/jira?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#a-parent-or-space-relation-is-empty)
 
 Confirm that the related record is included in the sync. A parent work item may be outside the selected spaces or history window, or may still be importing.
 
-### [A deleted or restricted Jira item still appears in Notion](https://www.notion.com/help/jira#a-deleted-or-restricted-jira-item-still-appears-in-notion)
+### [A deleted or restricted Jira item still appears in Notion](https://www.notion.com/help/jira?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#a-deleted-or-restricted-jira-item-still-appears-in-notion)
 
 A deletion or permission change in Jira may not remove the Notion page right away. Check the Notion database’s contents and sharing settings if the item should no longer be visible.
 
-### [Updates have stopped](https://www.notion.com/help/jira#updates-have-stopped)
+### [Updates have stopped](https://www.notion.com/help/jira?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#updates-have-stopped)
 
 Open the sync’s status details. Reconnect the account or restore Jira access when prompted. Temporary Jira outages and request limits can delay updates while Notion retries.
 
-### [The database reached its property limit](https://www.notion.com/help/jira#the-database-reached-its-property-limit)
+### [The database reached its property limit](https://www.notion.com/help/jira?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#the-database-reached-its-property-limit)
 
 If a sync tries to add more properties than the database can hold, you’ll see a message saying the property limit was reached. To fix it, delete properties you don't need, or turn off properties you no longer sync. Turning a property off leaves its column in place, so deleting those unused columns can free up room.
 

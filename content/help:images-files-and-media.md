@@ -61,7 +61,7 @@ You can embed videos from YouTube, Vimeo, and other major sources.
 
 ## Media block types
 
-### [Images](https://www.notion.com/help/images-files-and-media#images)
+### [Images](https://www.notion.com/help/images-files-and-media?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#images)
 
 Notion makes it easy to add, resize, and arrange images in any configuration or format (JPG, PNG, GIF, etc.). You can drag and drop an image into a Notion page, or you can upload an image as a block in your page. To do this:
 
@@ -89,7 +89,7 @@ You can also add images to databases, and display them as a [gallery](https://ww
 
 [](//videos.ctfassets.net/spoqsaf9291f/3GTn0LNm42sPft14Yvo5NU/f480ef6872db13b966c16b9a62c957fa/Image_in_database.mp4)
 
-### [Files](https://www.notion.com/help/images-files-and-media#files)
+### [Files](https://www.notion.com/help/images-files-and-media?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#files)
 
 Looking to import content into Notion? [See the instructions in this article →](https://www.notion.com/help/import-data-into-notion#pdf)
 
@@ -113,7 +113,7 @@ You can also add files to database pages. To do this:
 
 [](//videos.ctfassets.net/spoqsaf9291f/1ebaxPnK5QYbarJ31nv3ph/1855ed7a40b73825d56fabda6f66a178/File_in_database.mp4)
 
-### [Videos](https://www.notion.com/help/images-files-and-media#videos)
+### [Videos](https://www.notion.com/help/images-files-and-media?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#videos)
 
 To upload your own video files to play in our custom player:
 
@@ -137,7 +137,7 @@ You can also upload your own video files to play in our custom player.
 
 If your browser or OS **does not** support playback of this video/audio format, this content may not be directly playable.
 
-### [Audio](https://www.notion.com/help/images-files-and-media#audio)
+### [Audio](https://www.notion.com/help/images-files-and-media?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#audio)
 
 To add audio from other streaming platforms:
 
@@ -161,7 +161,7 @@ To upload an audio file directly from your computer:
 
 If your browser or OS **does not** support playback of this video/audio format, this content may not be directly playable.
 
-### [Web bookmarks](https://www.notion.com/help/images-files-and-media#web-bookmarks)
+### [Web bookmarks](https://www.notion.com/help/images-files-and-media?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#web-bookmarks)
 
 There are a few ways to add a web bookmark to a page:
 
@@ -177,13 +177,13 @@ Each method asks you to enter the URL. Press `enter` and your bookmark will po
 
 ## Media block options
 
-### [Arrange and resize](https://www.notion.com/help/images-files-and-media#arrange-and-resize)
+### [Arrange and resize](https://www.notion.com/help/images-files-and-media?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#arrange-and-resize)
 
 To arrange a media block, use drag and drop to move the block around your Notion page. You can drag them into columns as well.
 
 To resize a media block, hover over the block and you'll see two black guides appear on the left and right edges. Click either one and drag it to make your video bigger or smaller.
 
-### [Crop](https://www.notion.com/help/images-files-and-media#crop)
+### [Crop](https://www.notion.com/help/images-files-and-media?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#crop)
 
 To crop a media block:
 
@@ -191,7 +191,7 @@ To crop a media block:
 
 2. Once you’re finished, select `Save`.
 
-### [Mask](https://www.notion.com/help/images-files-and-media#mask)
+### [Mask](https://www.notion.com/help/images-files-and-media?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#mask)
 
 You can give your media block a different shape by masking it. To do this:
 
@@ -201,7 +201,7 @@ You can give your media block a different shape by masking it. To do this:
 
 3. Once you’re finished, select `Save`.
 
-### [Align](https://www.notion.com/help/images-files-and-media#align)
+### [Align](https://www.notion.com/help/images-files-and-media?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#align)
 
 To adjust your media block’s alignment in a page:
 
@@ -211,7 +211,7 @@ To adjust your media block’s alignment in a page:
 
 [](//videos.ctfassets.net/spoqsaf9291f/KiN3qqmBqIyezTe1iyRoK/a48ab7c77d408ba8b042dbd3d356aa14/image_alignment.mp4)
 
-### [Caption](https://www.notion.com/help/images-files-and-media#caption)
+### [Caption](https://www.notion.com/help/images-files-and-media?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#caption)
 
 To give your media block a caption:
 
@@ -219,7 +219,7 @@ To give your media block a caption:
 
 2. You'll see gray text appear below your image, file or media. You can edit and style this like any other text on your page.
 
-### [Alt text](https://www.notion.com/help/images-files-and-media#alt-text)
+### [Alt text](https://www.notion.com/help/images-files-and-media?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#alt-text)
 
 To provide alternative text for your media block:
 
@@ -231,13 +231,13 @@ To provide alternative text for your media block:
 
 Make sure your alt text is short and descriptive. You can also provide specific details based on the context of the page that your image is embedded in. For example, if you’re including an image in a page about teaching, you could say “Teacher talks to student in the classroom” instead of “Two people talk in a room”.
 
-### [Download](https://www.notion.com/help/images-files-and-media#download)
+### [Download](https://www.notion.com/help/images-files-and-media?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#download)
 
 To download media from a page on desktop or web, hover over any image, file, or media and click the download icon at the top right. This looks like a circle containing an arrow that’s pointing down.
 
 To download media from a page on your mobile device, tap `•••` at the top right of the image, file, or media block, then select `View original`. Long press on the media to add it to your camera roll.
 
-### [View original or full-screen](https://www.notion.com/help/images-files-and-media#view-original-or-full-screen)
+### [View original or full-screen](https://www.notion.com/help/images-files-and-media?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#view-original-or-full-screen)
 
 You can view images in Notion in a couple other ways — in its original format inside your browser, and in full screen mode. Here's how:
 
@@ -245,7 +245,7 @@ You can view images in Notion in a couple other ways — in its original format 
 
 2. For full screen, hover on the image and click `•••`. Choose `Full screen` from the dropdown. (You can also select the image and press `space`).
 
-### [Replace](https://www.notion.com/help/images-files-and-media#replace)
+### [Replace](https://www.notion.com/help/images-files-and-media?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#replace)
 
 To replace a media block with another piece of media:
 
@@ -255,7 +255,7 @@ To replace a media block with another piece of media:
 
 3. In the window that opens, upload another file from your computer or embed an image from elsewhere.
 
-### [Comment](https://www.notion.com/help/images-files-and-media#comment)
+### [Comment](https://www.notion.com/help/images-files-and-media?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#comment)
 
 To comment on a media block:
 
@@ -263,7 +263,7 @@ To comment on a media block:
 
 2. Or, hover over and click `•••`. Choose `Comment`. You can type `@` followed by someone's name to mention any of your teammates and call their attention to a question, suggestion or idea you have about the image.
 
-### [Delete](https://www.notion.com/help/images-files-and-media#delete)
+### [Delete](https://www.notion.com/help/images-files-and-media?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#delete)
 
 To delete a media block:
 

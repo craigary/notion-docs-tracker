@@ -181,7 +181,7 @@ Depending on how you're using your workspace, you may want to keep the data you 
 
 * `Allow page guests to request to be added as members to the workspace`: This setting is available to users on the Plus Plan or higher.
 
-### [Security settings available on Enterprise Plans only](https://www.notion.com/help/workspace-settings#security-settings-available-on-enterprise-plans-only)
+### [Security settings available on Enterprise Plans only](https://www.notion.com/help/workspace-settings?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#security-settings-available-on-enterprise-plans-only)
 
 * `Disable publishing sites and forms`: Don't let members publish [Notion Sites](https://www.notion.com/help/public-pages-and-web-publishing) or [forms](https://www.notion.com/help/forms) to the web. Any Sites or forms already live on the web will be taken down.
 

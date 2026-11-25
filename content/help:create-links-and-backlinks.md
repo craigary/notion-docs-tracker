@@ -11,7 +11,7 @@ categoryKey: "category:write-edit-and-customize"
 
 ## Link to a Notion page
 
-### [Inline in a paragraph](https://www.notion.com/help/create-links-and-backlinks#inline-in-a-paragraph)
+### [Inline in a paragraph](https://www.notion.com/help/create-links-and-backlinks?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#inline-in-a-paragraph)
 
 There are a few ways to link another Notion page inside a paragraph:
 
@@ -23,7 +23,7 @@ There are a few ways to link another Notion page inside a paragraph:
 
 * \+ command: Type `+`, then start entering the name of the page you want to link. Find and select it in the menu that appears.
 
-### [As a block](https://www.notion.com/help/create-links-and-backlinks#as-a-block)
+### [As a block](https://www.notion.com/help/create-links-and-backlinks?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#as-a-block)
 
 You can insert a link into a Notion page as a block so you can easily place it wherever you want in the page. To do this:
 

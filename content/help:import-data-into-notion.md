@@ -493,7 +493,7 @@ You can also select multiple .md/.txt files at once during import. If you want t
 
 * If links/anchors don’t work, recreate navigation in Notion using headings and a table of contents.
 
-### [Open Markdown files](https://www.notion.com/help/import-data-into-notion#open-markdown-files)
+### [Open Markdown files](https://www.notion.com/help/import-data-into-notion?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#open-markdown-files)
 
 You can open up to 10 Markdown files at once in Notion Desktop to read with Notion's formatting. Opening a Markdown file creates a read-only copy of the file in Notion.
 

@@ -13,7 +13,7 @@ Notion provides a fixed range of outgoing IP addresses, as well as domains that 
 
 These can't be managed in your Notion account, so please contact your security team to allowlist these IP addresses or domains.
 
-### [Notion IP addresses and domains](https://www.notion.com/help/allowlist-ip#notion-ip-addresses-and-domains)
+### [Notion IP addresses and domains](https://www.notion.com/help/allowlist-ip?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#notion-ip-addresses-and-domains)
 
 Notion is hosted in US-West-2 (Oregon), EU-Central-1 (Frankfurt), AP-Northeast-1 (Tokyo) and AP-Northeast-2 (Seoul).
 
@@ -50,6 +50,8 @@ Notion is hosted in US-West-2 (Oregon), EU-Central-1 (Frankfurt), AP-Northeast-1
 * notionusercontent.com
 
 * secure.notion-static.com
+
+* desktop-release.notion-static.com
 
 * audioprocessor.app.notion.com
 

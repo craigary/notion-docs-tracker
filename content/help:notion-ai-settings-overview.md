@@ -31,31 +31,31 @@ This article is for workspace owners on the Business or Enterprise plan. If you'
 
 ## What's in Notion AI settings
 
-### [Overview](https://www.notion.com/help/notion-ai-settings-overview#overview)
+### [Overview](https://www.notion.com/help/notion-ai-settings-overview?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#overview)
 
 See how your workspace uses credits by month, day, credit type (Standard, Select, or Notion), or feature. Find members who are nearing their limit or have requested more credits. The tab also lists each agent, its owner, type, number of runs, and credits used. You can change an agent’s model from the table.
 
-### [Controls](https://www.notion.com/help/notion-ai-settings-overview#controls)
+### [Controls](https://www.notion.com/help/notion-ai-settings-overview?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#controls)
 
 Choose which model providers and models people can use with [Notion Agent](https://www.notion.com/help/notion-agent) and Custom Agents. Set the default model for new Custom Agents, and choose who can create agents: everyone, workspace owners only, or selected members and groups. Restricting a model provider changes the quality and efficiency of Auto. Learn more about [restricting a model provider for your workspace →](https://www.notion.com/help/manage-ai-models-and-member-credit-spend#restrict-a-model-provider-for-your-workspace)
 
-### [Credits](https://www.notion.com/help/notion-ai-settings-overview#credits)
+### [Credits](https://www.notion.com/help/notion-ai-settings-overview?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#credits)
 
 See each credit type's balance, reset date, and expiration date. Buy more Notion credits, and set default or custom credit limits for members, groups, and agents. You can also choose `Unlimited` to remove an individual limit, and choose members to help manage and review credit requests.
 
-### [Usage](https://www.notion.com/help/notion-ai-settings-overview#usage)
+### [Usage](https://www.notion.com/help/notion-ai-settings-overview?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#usage)
 
 See a detailed breakdown of credit usage by member, group, and agent to understand where your workspace’s credits are going. Export usage data as a CSV or use the [Admin API](https://www.notion.com/help/admin-apis-for-enterprise-organizations) to create your own reports.
 
-### [Connectors](https://www.notion.com/help/notion-ai-settings-overview#connectors)
+### [Connectors](https://www.notion.com/help/notion-ai-settings-overview?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#connectors)
 
 See which apps your workspace can connect to Notion AI and which apps are already connected.
 
-### [Me](https://www.notion.com/help/notion-ai-settings-overview#me)
+### [Me](https://www.notion.com/help/notion-ai-settings-overview?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#me)
 
 Your own credit usage breakdown and personalization settings, plus a list of the agents you own. All members have this tab.
 
-### [Insights](https://www.notion.com/help/notion-ai-settings-overview#insights)
+### [Insights](https://www.notion.com/help/notion-ai-settings-overview?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#insights)
 
 **Insights is temporarily paused.&#x20;**&#x49;nsights help you understand how your team uses AI. This page is disabled for now, so use cases and conversation counts aren't available. Check back soon.
 

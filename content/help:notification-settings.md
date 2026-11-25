@@ -23,7 +23,7 @@ Here's when you will get a notification:
 
 Want fewer notifications in your inbox without turning any off? You can filter your inbox by notification type so it shows only the kinds you care about. [See how to filter your inbox →](https://www.notion.com/help/updates-and-notifications)
 
-### [Types and timing](https://www.notion.com/help/notification-settings#types-and-timing)
+### [Types and timing](https://www.notion.com/help/notification-settings?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#types-and-timing)
 
 There are several ways these notifications will reach you:
 
@@ -63,7 +63,7 @@ Go to `Settings` → `Notifications` to adjust your settings for:
 
 ![Notification settings - mobile](https://images.ctfassets.net/spoqsaf9291f/6oYlA5GJlSeirspGiu125l/907a6cba2499942ddf2c2a4e9c095e8a/Notifications_settings_mobile.png)
 
-### [Connect Microsoft Teams](https://www.notion.com/help/notification-settings#connect-microsoft-teams)
+### [Connect Microsoft Teams](https://www.notion.com/help/notification-settings?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#connect-microsoft-teams)
 
 You can send your Notion notifications to Microsoft Teams. A Notion bot will message you in Teams when there is activity you follow.
 
@@ -79,7 +79,7 @@ You can send your Notion notifications to Microsoft Teams. A Notion bot will mes
 
 You can also connect from the Notion mobile app. For the full walkthrough, see [Get Notion notifications in Microsoft Teams](https://www.notion.com/help/microsoft-teams-notifications).
 
-### [Turn Microsoft Teams notifications off](https://www.notion.com/help/notification-settings#turn-microsoft-teams-notifications-off)
+### [Turn Microsoft Teams notifications off](https://www.notion.com/help/notification-settings?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#turn-microsoft-teams-notifications-off)
 
 1. Go to `Settings` → `Notifications` → `Connected apps`.
 

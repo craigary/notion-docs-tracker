@@ -27,7 +27,7 @@ While in any database:
 
    * The prefix will be generated automatically based on the names of the teamspace and database, but you can change this anytime in the text box.
 
-### [**Unique ID URL**](https://www.notion.com/help/unique-id#unique-id-url)
+### [**Unique ID URL**](https://www.notion.com/help/unique-id?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#unique-id-url)
 
 All pages with the unique ID property can be accessed via a special URL with the ID number. For example, if a page has the ID: `TASK-123` you can get to that page through `notion.so/TASK-123`.
 

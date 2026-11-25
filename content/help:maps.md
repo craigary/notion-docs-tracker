@@ -17,7 +17,7 @@ Place properties can be populated by granting access to your current location, e
 
 **Note:** To deliver results, address search relies on a third-party provider that processes your query. As a result, data quality and coverage may vary by region.
 
-### [Create a place property](https://www.notion.com/help/maps#create-a-place-property)
+### [Create a place property](https://www.notion.com/help/maps?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#create-a-place-property)
 
 To add a place property to a database:
 

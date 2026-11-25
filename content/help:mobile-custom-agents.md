@@ -13,7 +13,7 @@ categoryKey: "category:custom-agents"
 
 With Custom Agents on mobile, you can quickly find agents, start or continue chats, and respond to notifications from the Notion app on iOS and Android.
 
-### [Find a Custom Agent in your workspace](https://www.notion.com/help/mobile-custom-agents#find-a-custom-agent-in-your-workspace)
+### [Find a Custom Agent in your workspace](https://www.notion.com/help/mobile-custom-agents?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#find-a-custom-agent-in-your-workspace)
 
 To locate and open an agent:
 
@@ -23,7 +23,7 @@ To locate and open an agent:
 
 3. Tap the agent to open it.
 
-### [Start a chat with a Custom Agent](https://www.notion.com/help/mobile-custom-agents#start-a-chat-with-a-custom-agent)
+### [Start a chat with a Custom Agent](https://www.notion.com/help/mobile-custom-agents?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#start-a-chat-with-a-custom-agent)
 
 To start a new conversation:
 
@@ -35,7 +35,7 @@ To start a new conversation:
 
 4. Type your message in the chat box and tap `Send`.
 
-### [Pick up a previous chat with a Custom Agent](https://www.notion.com/help/mobile-custom-agents#pick-up-a-previous-chat-with-a-custom-agent)
+### [Pick up a previous chat with a Custom Agent](https://www.notion.com/help/mobile-custom-agents?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#pick-up-a-previous-chat-with-a-custom-agent)
 
 To pick up where you left off:
 
@@ -49,7 +49,7 @@ To pick up where you left off:
 
 5. Type your message and tap `Send`.
 
-### [Respond to agent notifications](https://www.notion.com/help/mobile-custom-agents#respond-to-agent-notifications)
+### [Respond to agent notifications](https://www.notion.com/help/mobile-custom-agents?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#respond-to-agent-notifications)
 
 1. Tap the notification.
 

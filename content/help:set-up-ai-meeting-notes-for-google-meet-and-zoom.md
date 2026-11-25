@@ -41,7 +41,7 @@ To put people’s Zoom names on the transcript, Notion needs one Mac permission 
 
 Normally each person grants this permission the first time they turn on Zoom speaker labels. If you manage your team’s Macs with a device management (MDM) tool, you can approve it ahead of time so people don’t see a prompt.
 
-### [For macOS 26 & earlier](https://www.notion.com/help/set-up-ai-meeting-notes-for-google-meet-and-zoom#for-macos-26-&-earlier)
+### [For macOS 26 & earlier](https://www.notion.com/help/set-up-ai-meeting-notes-for-google-meet-and-zoom?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#for-macos-26-&-earlier)
 
 Upload this configuration profile to your MDM tool and deploy it to the Macs that should get Zoom speaker labels. Once it’s installed, Notion has Accessibility access and people aren’t asked to turn it on.
 
@@ -61,7 +61,7 @@ To build the profile in your MDM tool’s own settings instead, create a Privacy
 
 * **Access:** Allow
 
-### [For macOS 27 & later](https://www.notion.com/help/set-up-ai-meeting-notes-for-google-meet-and-zoom#for-macos-27-&-later)
+### [For macOS 27 & later](https://www.notion.com/help/set-up-ai-meeting-notes-for-google-meet-and-zoom?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#for-macos-27-&-later)
 
 On macOS 27, MDM can’t turn on Accessibility by itself. Deploy an app privacy permission defaults declaration (Declarative Device Management) instead. The first time someone opens Notion after it’s installed, macOS shows your organization’s reason and asks them to allow access.
 
