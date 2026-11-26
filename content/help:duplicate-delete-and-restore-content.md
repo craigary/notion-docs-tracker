@@ -11,21 +11,21 @@ categoryKey: "category:write-edit-and-customize"
 
 ## Delete blocks
 
-### [Click ⋮⋮](https://www.notion.com/help/duplicate-delete-and-restore-content?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#click-%E2%8B%AE%E2%8B%AE)
+### Click ⋮⋮
 
 The `⋮⋮` icon which we call the block handle, appears in the left margin when you hover over any line or content in Notion. Click it to see the `Delete` option.
 
-### [Click •••](https://www.notion.com/help/duplicate-delete-and-restore-content?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#click-%E2%80%A2%E2%80%A2%E2%80%A2)
+### Click •••
 
 When you hover over content like images, embeds, sub-pages, and web bookmarks, the `•••` icon appears in the top right corner of the block to let you `Delete`.
 
 **On mobile,** you'll see this symbol in the corner of many content blocks. Tapping it will open a menu that includes `Delete`. For text on mobile, tap on `•••` all the way to the right in the toolbar that appears above your keyboard. You'll see the same set of options.
 
-### [Right click](https://www.notion.com/help/duplicate-delete-and-restore-content?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#right-click)
+### Right click
 
 You can right click on any content in Notion (or use the gesture that corresponds to right click on your trackpad) to bring up a menu that includes `Delete`.
 
-### [Keyboard shortcut](https://www.notion.com/help/duplicate-delete-and-restore-content?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#keyboard-shortcut)
+### Keyboard shortcut
 
 To delete, select any content block or text and hit the `delete` key.
 
@@ -43,7 +43,7 @@ There are many ways to move pages to the trash in Notion:
 
 * You can always select any page block and press the `backspace` or `delete` keys.
 
-### [What happens when you move a page to the trash](https://www.notion.com/help/duplicate-delete-and-restore-content?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#what-happens-when-you-move-a-page-to-the-trash)
+### What happens when you move a page to the trash
 
 When you move a page to Trash, it isn't gone right away. Removing a page happens in stages:
 
@@ -81,7 +81,7 @@ Archive is only available for users on Business and Enterprise plans.
 
 Archiving a page allows you to mark pages as no longer current without deleting them.
 
-### [How to archive pages and databases:](https://www.notion.com/help/duplicate-delete-and-restore-content?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#how-to-archive-pages-and-databases-)
+### How to archive pages and databases:
 
 1. Open the page you want to archive.
 
@@ -93,7 +93,7 @@ After archiving a page, you will see a yellow banner at the top of the page. It 
 
 To unarchive a page, go to the banner at the top of the page and click Unarchive.
 
-### [What happens when a page is archived](https://www.notion.com/help/duplicate-delete-and-restore-content?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#what-happens-when-a-page-is-archived)
+### What happens when a page is archived
 
 Archiving is different from moving a page to the trash. Archived pages are still accessible. When you archive a page:
 
@@ -131,7 +131,7 @@ If you're not on the Enterprise Plan, a more limited history of changes made to 
 
 Need page history? [Upgrade](https://www.notion.com/help/upgrade-or-downgrade-your-plan#upgrade-your-plan) to our Enterprise Plan, or [contact our sales team](https://www.notion.com/contact-sales) to learn more about Enterprise features.
 
-### [See a page's version history](https://www.notion.com/help/duplicate-delete-and-restore-content?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#see-a-page's-version-history)
+### See a page's version history
 
 To access version history for a page, you will need at least `Can edit` access.
 
@@ -159,7 +159,7 @@ In version history, you’ll see changes like:
 
 - Detailed version comparison isn’t available on mobile.
 
-### [Restore past versions of a page](https://www.notion.com/help/duplicate-delete-and-restore-content?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#restore-past-versions-of-a-page)
+### Restore past versions of a page
 
 * To recover only specific content blocks from a previous version, click on a certain version of a page, copy those blocks, and paste them into your current page.
 
@@ -175,7 +175,7 @@ In version history, you’ll see changes like:
 
 If a database limits who can see or edit certain columns, those limits stay in place after a restore. The database keeps the column rules it has now, not the rules from the older version. So a restore won't show a hidden column to someone who shouldn't see it, and it won't bring back column rules you've changed. To learn how these rules work, see [Manage database property access →](https://www.notion.com/help/database-property-access)
 
-### [Version history on mobile](https://www.notion.com/help/duplicate-delete-and-restore-content?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#version-history-on-mobile)
+### Version history on mobile
 
 Version history works a bit differently on mobile that it does on the web or desktop. To access page history:
 
@@ -199,7 +199,7 @@ There are many ways to delete properties from a database in Notion.
 
 4. Select `Delete property.`
 
-### [What happens when a property is deleted](https://www.notion.com/help/duplicate-delete-and-restore-content?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#what-happens-when-a-property-is-deleted)
+### What happens when a property is deleted
 
 Deleted properties can be viewed, restored, or permanently deleted from the Settings menu. To view deleted properties in a database:
 

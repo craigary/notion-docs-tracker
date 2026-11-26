@@ -79,13 +79,13 @@ Notion periodically checks for new properties. A newly added property may remain
 
 ## How Salesforce syncs run
 
-### [The first import](https://www.notion.com/help/salesforce?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#the-first-import)
+### The first import
 
 Notion imports live records for each selected object type within your history window. Records already marked as deleted in Salesforce aren’t included in the initial import.
 
 The import runs in batches. Its duration depends on the number of records and Salesforce’s request limits. You can open the databases while the import continues.
 
-### [Ongoing updates](https://www.notion.com/help/salesforce?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#ongoing-updates)
+### Ongoing updates
 
 Notion checks for changes every minute. It uses the time Salesforce last changed a record to find new and updated records, then updates the matching Notion pages.
 
@@ -121,7 +121,7 @@ You can edit the sync name, selected object types, property selections, and hist
 
 * **Shorten history:** Notion removes records outside the new window.
 
-### [Add a synced property](https://www.notion.com/help/salesforce?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#add-a-synced-property)
+### Add a synced property
 
 1. Open the sync in **Settings** → **Connections** → **Salesforce** → **Database sync**, and edit it.
 
@@ -129,7 +129,7 @@ You can edit the sync name, selected object types, property selections, and hist
 
 3. Click **Save**. The new properties show up as columns in your database. Existing pages can stay empty until the source record changes or is imported again.
 
-### [Remove a synced property](https://www.notion.com/help/salesforce?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#remove-a-synced-property)
+### Remove a synced property
 
 1\. Open the sync and edit it.\
 2\. Deselect the properties you want to remove.\
@@ -152,27 +152,27 @@ Changes to Salesforce access may stop future updates without removing previously
 
 ## Troubleshoot a Salesforce sync
 
-### [I can’t connect or select an object type](https://www.notion.com/help/salesforce?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#i-can%E2%80%99t-connect-or-select-an-object-type)
+### I can’t connect or select an object type
 
 Ask your Salesforce administrator to confirm that your account has API access and permission to read the object. Your organization may also need to approve the connection.
 
-### [A field is missing or empty](https://www.notion.com/help/salesforce?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#a-field-is-missing-or-empty)
+### A field is missing or empty
 
 Check the object’s property selection and the connected account’s field access. Some field types aren’t supported. A new property may be present before its values appear on older records.
 
-### [An account relation is empty](https://www.notion.com/help/salesforce?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#an-account-relation-is-empty)
+### An account relation is empty
 
 Include **Accounts** in the same sync as the contacts or opportunities. Confirm that the account is within the history window and that the connected account can read the account reference field. The account may also still be importing.
 
-### [A deleted record is still present](https://www.notion.com/help/salesforce?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#a-deleted-record-is-still-present)
+### A deleted record is still present
 
 Salesforce must make the deletion available to the sync before Notion can process it. A deletion that was purged before detection may leave a page in Notion. Review the affected database if its contents must reflect that removal.
 
-### [Updates have stopped](https://www.notion.com/help/salesforce?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#updates-have-stopped)
+### Updates have stopped
 
 Open the sync’s status details. Reconnect or ask your Salesforce administrator to restore access if prompted. Salesforce request limits and temporary outages can delay updates while Notion retries.
 
-### [The database reached its property limit](https://www.notion.com/help/salesforce?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#the-database-reached-its-property-limit)
+### The database reached its property limit
 
 If a sync tries to add more properties than the database can hold, you’ll see a message saying the property limit was reached. To fix it, delete properties you don't need, or turn off properties you no longer sync. Turning a property off leaves its column in place, so deleting those unused columns can free up room.
 

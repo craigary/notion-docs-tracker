@@ -11,7 +11,7 @@ categoryKey: "category:notion-sites"
 
 ## Notion Sites features by plan type
 
-### [Free plan](https://www.notion.com/help/notion-sites-availability-and-pricing?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#free-plan)
+### Free plan
 
 The Free plan includes the ability to:
 
@@ -21,7 +21,7 @@ The Free plan includes the ability to:
 
 * Turn on search engine indexing for your Sites.
 
-### [Paid plans](https://www.notion.com/help/notion-sites-availability-and-pricing?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#paid-plans)
+### Paid plans
 
 Paid plans include the ability to:
 

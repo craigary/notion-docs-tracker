@@ -35,7 +35,7 @@ When chatting with Notion support via email or in-app chat, you may be asked for
 
 2. Under `Support`, toggle on `Support access`.
 
-### [Revoke account access](https://www.notion.com/help/data-access-consent?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#revoke-account-access)
+### Revoke account access
 
 After you've granted access, Notion's support team will have permission to access your content for 28 days, or until you revoke this access. This timeframe will be visible in-app. To revoke account access at any time:
 

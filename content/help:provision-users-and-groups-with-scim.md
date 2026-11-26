@@ -15,7 +15,7 @@ categoryKey: "category:enterprise-admin"
 
 Notion’s SCIM API allows you to do the following:
 
-### [User provisioning and management](https://www.notion.com/help/provision-users-and-groups-with-scim?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#user-provisioning-and-management)
+### User provisioning and management
 
 * Create and remove members in your workspace.
 
@@ -25,7 +25,7 @@ Notion’s SCIM API allows you to do the following:
 
 * Find members by email or name.
 
-### [Group provisioning and management](https://www.notion.com/help/provision-users-and-groups-with-scim?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#group-provisioning-and-management)
+### Group provisioning and management
 
 * Create and remove groups in your workspace.
 
@@ -45,7 +45,7 @@ We currently support Okta, OneLogin, Rippling, and custom SCIM applications. If 
 
 Check that your IdP manages the intended members, that their accounts are linked correctly, and that deprovisioning is turned on. We recommend testing your setup by provisioning and deprovisioning a test user to confirm that they were added and removed from the workspace.
 
-### [Prerequisites for SCIM with Notion](https://www.notion.com/help/provision-users-and-groups-with-scim?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#prerequisites-for-scim-with-notion)
+### Prerequisites for SCIM with Notion
 
 To use SCIM with Notion:
 
@@ -57,7 +57,7 @@ To use SCIM with Notion:
 
 * You must have verified ownership over an email domain if you want to use SCIM to modify a user's name or email address. [Learn more about domain verification →](https://www.notion.com/help/domain-management#verify-a-domain-for-your-workspace)
 
-### [Generate your SCIM API token](https://www.notion.com/help/provision-users-and-groups-with-scim?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#generate-your-scim-api-token)
+### Generate your SCIM API token
 
 Only Enterprise Plan [organization owners](https://www.notion.com/help/organization-level-controls#who-can-apply-organization-level-controls) can generate and view SCIM API tokens. To create a SCIM API token:
 
@@ -67,13 +67,13 @@ Only Enterprise Plan [organization owners](https://www.notion.com/help/organizat
 
 **Note:&#x20;**&#x46;or each workspace you want to manage via SCIM, you must generate a separate SCIM API token.
 
-### [Revoke tokens](https://www.notion.com/help/provision-users-and-groups-with-scim?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#revoke-tokens)
+### Revoke tokens
 
 When a workspace owner leaves the workspace or their role is changed, their token will be revoked. When this happens, an automated message will be sent to the remaining workspace owners to notify them to replace the revoked token.
 
 In addition, active tokens can be revoked by any of the workspace owners in the workspace. To revoke a token, click the `🗑` alongside the respective token.
 
-### [Replace existing tokens](https://www.notion.com/help/provision-users-and-groups-with-scim?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#replace-existing-tokens)
+### Replace existing tokens
 
 If a token is revoked, you will need to replace it in any existing integrations.
 
@@ -81,7 +81,7 @@ Any SCIM integration and user provisioning relying on the revoked token will be 
 
 **Note:** To avoid breaking existing integrations, make sure to replace any tokens associated with an admin before de-provisioning them.
 
-### [Suppress invite emails](https://www.notion.com/help/provision-users-and-groups-with-scim?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#suppress-invite-emails)
+### Suppress invite emails
 
 To control whether users will receive invitations to workspaces and groups via email when provisioned by SCIM, Enterprise Plan organization owners can:
 
@@ -89,7 +89,7 @@ To control whether users will receive invitations to workspaces and groups via e
 
 2. In the `General` tab, toggle on `Suppress invite emails from SCIM provisioning` if you don’t want to send emails to users.
 
-### [Provision restricted members through SCIM](https://www.notion.com/help/provision-users-and-groups-with-scim?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#provision-restricted-members-through-scim)
+### Provision restricted members through SCIM
 
 To provision a [restricted member](https://www.notion.com/help/whos-who-in-a-workspace#restricted-members) through SCIM, you must set the SCIM ‘role’ attribute to ‘restricted\_member’:
 

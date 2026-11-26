@@ -103,7 +103,7 @@ Below are instructions for setting up your CNAME and TXT records with some of th
 
 * For more help setting up, please reach out to your DNS provider.
 
-### [GoDaddy](https://www.notion.com/help/connect-a-custom-domain-with-notion-sites?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#godaddy)
+### GoDaddy
 
 1. Find your domain and select `Manage DNS`.
 
@@ -119,7 +119,7 @@ Below are instructions for setting up your CNAME and TXT records with some of th
 
    ![hc: godaddy step 4](https://images.ctfassets.net/spoqsaf9291f/1Ca4yObkf3hmGZk1xMsQh8/bbc65723529423392ecc3b11da0f96b7/Untitled__3_.png)
 
-### [Namecheap](https://www.notion.com/help/connect-a-custom-domain-with-notion-sites?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#namecheap)
+### Namecheap
 
 1. Go to your domain list and find the domain you want to set up with Notion.
 
@@ -133,7 +133,7 @@ Below are instructions for setting up your CNAME and TXT records with some of th
 
 5. Confirm the two records have been successfully added.
 
-### [Squarespace](https://www.notion.com/help/connect-a-custom-domain-with-notion-sites?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#squarespace)
+### Squarespace
 
 1. Open the `Domains` tab and select the domain you want to set up with Notion.
 
@@ -149,7 +149,7 @@ Below are instructions for setting up your CNAME and TXT records with some of th
 
    ![hc: squarespace step 5](https://images.ctfassets.net/spoqsaf9291f/63JHYpL5RseVUv9wzmlcUE/eaca30041666b279e626d2dae211eecc/Screenshot_2024-06-24_at_2.36.24_PM.png)
 
-### [Cloudflare](https://www.notion.com/help/connect-a-custom-domain-with-notion-sites?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#cloudflare)
+### Cloudflare
 
 1. Find `Websites` and select the domain you want to set up with Notion.
 
@@ -165,7 +165,7 @@ Below are instructions for setting up your CNAME and TXT records with some of th
 
    ![hc: cloudflare step 5](https://images.ctfassets.net/spoqsaf9291f/5FStvFMrALdy8J0N8a32MS/7151b88ad194134b4bb1a6cc3f95fa99/Untitled__5_.png)
 
-### [123-reg](https://www.notion.com/help/connect-a-custom-domain-with-notion-sites?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#123-reg)
+### 123-reg
 
 1. Find `My Products` and select the domain you want to set up with Notion.
 

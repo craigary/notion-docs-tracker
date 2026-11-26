@@ -93,7 +93,7 @@ For any page, choose which groups can read, comment, edit, and share it. To shar
 
    * Permissions on any page also apply to all of their sub-pages.
 
-### [Share a teamspace with groups](https://www.notion.com/help/create-and-manage-groups?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#share-a-teamspace-with-groups)
+### Share a teamspace with groups
 
 Teamspaces are a dedicated area for every team within your organization or company, and can be customized on an individual basis. [Learn more about teamspaces →](https://www.notion.com/help/intro-to-teamspaces)
 

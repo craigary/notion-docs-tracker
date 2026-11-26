@@ -109,7 +109,7 @@ The details panel on the right side of your database page can be opened and clos
 
 Select `Page settings` at the top of the layout builder to make further adjustments to your page.
 
-### [Structure](https://www.notion.com/help/layouts?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#structure)
+### Structure
 
 Layouts can take on different structures:
 
@@ -119,7 +119,7 @@ Layouts can take on different structures:
 
   ![hc: tabbed layout](https://images.ctfassets.net/spoqsaf9291f/5VR0XOwHpPQ3HyqjbmGjLc/acd6f076eaeeb01d92f1775fa998b552/tabbed_layout.gif)
 
-### [Options](https://www.notion.com/help/layouts?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#options)
+### Options
 
 There are a variety of options you can adjust:
 

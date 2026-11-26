@@ -55,7 +55,7 @@ Try using buttons to instantly notify people. Find out how in [this guide →](h
 
 * `Define variables` will allow you to create a custom variable using mentions and formulas. You can then use this variable in other button actions. Learn more about this below.
 
-### [Send mail to](https://www.notion.com/help/buttons?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#send-mail-to)
+### Send mail to
 
 **Note:**
 
@@ -91,7 +91,7 @@ This will send an email **from your Gmail account** to one or more email address
 
 4. Click `Done`.
 
-### [Define variables](https://www.notion.com/help/buttons?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#define-variables)
+### Define variables
 
 This will allow you to create a custom variable using mentions and formulas. You can then use this variable in other button actions. To define a variable:
 

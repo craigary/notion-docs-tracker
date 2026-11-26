@@ -35,7 +35,7 @@ You can add a feed view to an existing database to view its data in that format.
 
 ![HC: Feed view example](https://images.ctfassets.net/spoqsaf9291f/3f4CqDsH2bLJLROQK3s1rJ/3286d0a57c87a95981834557f427428d/Feed_View_Example__2_.png)
 
-### [Display & hide properties](https://www.notion.com/help/feeds?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#display-&-hide-properties)
+### Display & hide properties
 
 **To edit the properties that are visible from the feed:**
 

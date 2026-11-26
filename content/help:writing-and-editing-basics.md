@@ -59,7 +59,7 @@ There are three tools to familiarize yourself with in order to create any page y
 
 There are many different types of content blocks you can add to Notion, from bullet points to images to embeds to math equations. Here's a full list of content types, split into the same categories you'll find in our block menu (which can be opened with `/` or `+`).
 
-### [Basic blocks](https://www.notion.com/help/writing-and-editing-basics?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#basic-blocks)
+### Basic blocks
 
 * `Text`: Just your regular old plain text!
 
@@ -89,7 +89,7 @@ There are many different types of content blocks you can add to Notion, from bul
 
 * `Callout`: Creates boxed text for tips, warnings, disclaimers, etc. With emoji!
 
-### [Database](https://www.notion.com/help/writing-and-editing-basics?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#database)
+### Database
 
 Add a database inline in the body of a Notion page. A great way to create a page that includes both writing and databases. [Learn more about databases here →](https://www.notion.com/help/intro-to-databases)
 
@@ -103,7 +103,7 @@ Add a database inline in the body of a Notion page. A great way to create a page
 
 * `Calendar view`: Adds a calendar on your page.
 
-### [Media](https://www.notion.com/help/writing-and-editing-basics?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#media)
+### Media
 
 There are several types of media you can add, view, and play (audio/video) right in Notion.
 
@@ -119,7 +119,7 @@ There are several types of media you can add, view, and play (audio/video) right
 
 * `Web bookmark`: Add a clickable link preview of a URL to your page.
 
-### [Embeds](https://www.notion.com/help/writing-and-editing-basics?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#embeds)
+### Embeds
 
 You can embed content from 500+ apps directly into Notion. We created shortcuts for a few of the most popular apps, but `/embed` works for nearly any other. Here are our named embeds:
 
@@ -149,7 +149,7 @@ You can embed content from 500+ apps directly into Notion. We created shortcuts 
 
 Type `/` followed by the name of any embed to add it. All of these will prompt you to input the URL for the embed you want.
 
-### [Advanced blocks](https://www.notion.com/help/writing-and-editing-basics?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#advanced-blocks)
+### Advanced blocks
 
 * `Inline equation`: Displays beautifully formatted mathematical characters and expressions.
 
@@ -159,7 +159,7 @@ Type `/` followed by the name of any embed to add it. All of these will prompt
 
 * `Table of contents`: Adds a list of links to all the headings on your page.
 
-### [Inline options](https://www.notion.com/help/writing-and-editing-basics?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#inline-options)
+### Inline options
 
 The content menu includes a few options that aren't technically blocks. Instead, they're `/` commands that will add several other types of content to your page. For dates or mentions, you can also `@`.
 
@@ -207,7 +207,7 @@ Here are the basics for styling your writing in Notion. [Learn more about stylin
 
 Here are the basics for moving and structuring content around your page.
 
-### [Select content](https://www.notion.com/help/writing-and-editing-basics?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#select-content)
+### Select content
 
 * Click and drag from the left or right page margin to select an entire block of content, or multiple blocks at a time.
 
@@ -217,7 +217,7 @@ Here are the basics for moving and structuring content around your page.
 
 Partial text selection across blocks will be supported on all platforms except Firefox. We’re actively working with the Mozilla team to enable this feature in Firefox as soon as possible.
 
-### [Count the words in what you select](https://www.notion.com/help/writing-and-editing-basics?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#count-the-words-in-what-you-select)
+### Count the words in what you select
 
 You can check the length of one part of a page without copying the text into another app.
 
@@ -229,7 +229,7 @@ You can check the length of one part of a page without copying the text into ano
 
 **Note**: This count covers only the blocks you select. To see the count for a whole page, open the ••• menu at the top right of the page.
 
-### [Drag-and-drop](https://www.notion.com/help/writing-and-editing-basics?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#drag-and-drop)
+### Drag-and-drop
 
 Any content block in Notion (including lines of text) can be dragged and dropped around the page. This includes rows in tables and cards in boards and galleries!
 

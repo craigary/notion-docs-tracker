@@ -77,7 +77,7 @@ All newly added connections are internal initially. If you're a developer workin
 
 Then, follow the instructions in our [developer guide](https://developers.notion.com/docs/authorization) to convert it to a public connection.
 
-### [Choose where your public connection can be installed](https://www.notion.com/help/create-integrations-with-the-notion-api?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#choose-where-your-public-connection-can-be-installed)
+### Choose where your public connection can be installed
 
 When you create a public connection, you choose who can install it:
 
@@ -95,7 +95,7 @@ Only connections that anyone can install can be listed in the connections galler
 
 A connection you own shows up in the developer portal for every workspace that is allowed to install it, already has it installed, or is the workspace where you built it.
 
-### [Change the workspace where you build a public connection](https://www.notion.com/help/create-integrations-with-the-notion-api?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#change-the-workspace-where-you-build-a-public-connection)
+### Change the workspace where you build a public connection
 
 Every public connection has one workspace where you build and test it. You can switch to a different one without starting over.
 
@@ -137,7 +137,7 @@ Connection webhooks enable connections to monitor and respond to changes in Noti
 
 When changes occur in pages or databases shared with your [connection](https://www.notion.com/integrations/all), Notion automatically sends notifications to your webhook endpoint, allowing your connection to instantly update other tools, run automated tasks, or display the latest changes.
 
-### [Set up connection webhooks](https://www.notion.com/help/create-integrations-with-the-notion-api?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#set-up-connection-webhooks)
+### Set up connection webhooks
 
 For instructions, please visit our [developer docs](https://developers.notion.com/reference/webhooks).
 
@@ -149,7 +149,7 @@ For instructions, please visit our [developer docs](https://developers.notion.co
 
 For these types of notifications, use the [audit log](https://www.notion.com/help/audit-log) instead.
 
-### [Webhook actions vs. connection webhooks](https://www.notion.com/help/create-integrations-with-the-notion-api?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#webhook-actions-vs.-connection-webhooks)
+### Webhook actions vs. connection webhooks
 
 [Webhook actions](https://www.notion.com/help/webhook-actions#webhooks-limitations) and connection webhooks share some similarities—both have triggers and can send events to third-party services. However, connection webhooks offer broader capabilities:
 

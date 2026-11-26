@@ -65,13 +65,13 @@ Notion creates the databases in your **Private** sidebar section. The first impo
 
 ## How syncs run
 
-### [The first import](https://www.notion.com/help/sync-data-from-other-tools-to-notion?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#the-first-import)
+### The first import
 
 Notion creates the database structure, then imports the records that match your settings. Large imports can take longer because Notion reads data in batches and follows the source tool’s request limits.
 
 The database may show only part of your data while the first import is running. You don’t need to keep Notion open for the import to continue.
 
-### [Ongoing updates](https://www.notion.com/help/sync-data-from-other-tools-to-notion?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#ongoing-updates)
+### Ongoing updates
 
 After the first import, Notion regularly checks the connected tool for new or changed records and updates the synced properties. Syncs continue in the background even when no one is viewing the database.
 
@@ -81,7 +81,7 @@ Timing varies by connection, the amount of data, and the source tool’s availab
 
 When the source temporarily limits requests or becomes unavailable, Notion retries. If the sync needs a new authorization or different permissions, its status tells you what to do.
 
-### [History windows](https://www.notion.com/help/sync-data-from-other-tools-to-notion?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#history-windows)
+### History windows
 
 You can include all available history or limit the sync to records updated in the last 30, 90, or 365 days. A history window uses the source record’s last update time, rather than its creation date. Salesforce uses its system modification time.
 
@@ -137,23 +137,23 @@ For example, use a managed GitHub sync to track pull requests and issues in Noti
 
 ## Troubleshoot a sync
 
-### [Records are missing](https://www.notion.com/help/sync-data-from-other-tools-to-notion?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#records-are-missing)
+### Records are missing
 
 Check the selected repositories, spaces, or object types, your history window, and the connected account’s source permissions. Also check whether the first import is still running and whether a Notion view filter is hiding records.
 
-### [Relations are missing](https://www.notion.com/help/sync-data-from-other-tools-to-notion?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#relations-are-missing)
+### Relations are missing
 
 If a synced page should be related to another synced page but isn’t, it might be because of your history window, or the related page is still being imported. We only create relations when both pages are synced to Notion databases.
 
-### [Updates have stopped](https://www.notion.com/help/sync-data-from-other-tools-to-notion?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#updates-have-stopped)
+### Updates have stopped
 
 Open the sync’s status details. Reconnect if authorization has expired, or ask your source administrator to restore access. Temporary source outages and request limits can delay updates while Notion retries.
 
-### [The sync has reached a row limit](https://www.notion.com/help/sync-data-from-other-tools-to-notion?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#the-sync-has-reached-a-row-limit)
+### The sync has reached a row limit
 
 Reduce the selected data or choose a shorter history window. Review the effect before saving: removing a source or shortening history can remove synced pages. The connection-specific guides explain what happens when you change a selection.
 
-### [The sync has reached the property limit](https://www.notion.com/help/sync-data-from-other-tools-to-notion?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#the-sync-has-reached-the-property-limit)
+### The sync has reached the property limit
 
 Notion databases have a limit on how many properties they can hold. If a synced database reaches it, delete properties you don't need, or sync fewer properties. Turning a property off in the sync leaves its column in the database, so deleting those unused columns can free up room. Each connection's guide explains how to change what the sync includes.
 

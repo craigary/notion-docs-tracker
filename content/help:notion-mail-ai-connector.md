@@ -65,7 +65,7 @@ Yes. In Notion AI, click `All sources` and narrow your scope to only `Gmail`.
 
 ### How does Notion store or reference my email data in its systems?
 
-We don't store email data in vector databases, but we may temporarily cache email content to provide a faster search experience. Learn more about [Notion AI security and privacy](https://www.notion.com/help/notion-ai-security-practices?_gl=1*561poh*_gcl_au*MzMxNDM2MDIxLjE3ODY5OTI3NzEuOTE1OTIzODA3LjE3ODkxNTU0NzUuMTc4OTE1Njg3NS44OTI3NDE1MS4xNzg5MTU1NDc1LjE3ODkxNTY4NzU.*_ga*NDkxMzI5ODU3LjE3ODY5OTI3NzE.*_ga_9ZJ8CB186L*czE3OTAwOTY1NDkkbzExMSRnMSR0MTc5MDA5Nzg5OCRqNTUkbDAkaDA.).
+We don't store email data in vector databases, but we may temporarily cache email content to provide a faster search experience. Learn more about [Notion AI security and privacy](https://www.notion.com/help/notion-ai-security-practices).
 
 
 ### How can I disconnect my email from Notion?
