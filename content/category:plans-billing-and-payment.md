@@ -18,5 +18,5 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/4DbuU1bqunhT31CLKhcIfX/1c
 10 help:understanding-block-usage
 11 help:plan-downgrade
 12 help:sales-tax
-13 help:cant-upgrade-to-the-plus-plan-for-education
-14 help:file-storage-limits-in-notion
+13 help:file-storage-limits-in-notion
+14 help:cant-upgrade-to-the-plus-plan-for-education
