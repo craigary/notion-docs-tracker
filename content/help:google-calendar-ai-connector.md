@@ -41,7 +41,7 @@ The connection will be instant, but you might need to refresh your page to see G
 
 ![hc: confirm google calendar ai connector](https://images.ctfassets.net/spoqsaf9291f/5ikX5i4J2KIkIdH0X8Dldz/3a46ed688f8ce1f74e162a15aeaefea2/Google_Calendar_Connector_Step_4__1_.png)
 
-### [Which content from Google Drive can be connected to Notion AI?](https://www.notion.com/help/google-calendar-ai-connector?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#which-content-from-google-drive-can-be-connected-to-notion-ai)
+### [Which content from Google Drive can be connected to Notion AI?](https://www.notion.com/help/google-calendar-ai-connector?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#which-content-from-google-drive-can-be-connected-to-notion-ai)
 
 Notion AI can read all calendar data in your selected Google Workspace orgs. We maintain strict cross-user security; no user will see any other user’s private events in their search.
 

@@ -9,7 +9,7 @@ category: "Notion AI Connectors"
 categoryKey: "category:notion-ai-connectors"
 ---
 
-### [Who can connect Box to Notion AI?](https://www.notion.com/help/box-ai-connector?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#who-can-connect-box-to-notion-ai)
+### [Who can connect Box to Notion AI?](https://www.notion.com/help/box-ai-connector?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#who-can-connect-box-to-notion-ai)
 
 To connect Box to Notion AI:
 
@@ -19,7 +19,7 @@ To connect Box to Notion AI:
 
 * You must be on a Box plan that includes Extract Agents (API).
 
-### [How do I connect Box?](https://www.notion.com/help/box-ai-connector?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#how-do-i-connect-box)
+### [How do I connect Box?](https://www.notion.com/help/box-ai-connector?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#how-do-i-connect-box)
 
 To connect Box to your Notion workspace:
 

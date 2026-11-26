@@ -17,7 +17,7 @@ categoryKey: "category:databases"
 
 Sub-items allow you to break tasks into smaller, distinct pieces of work, so that they can be easily scoped out, assigned, and tracked. They are visible in all database views.
 
-### [Enable sub-items](https://www.notion.com/help/tasks-and-dependencies?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#enable-sub-items)
+### [Enable sub-items](https://www.notion.com/help/tasks-and-dependencies?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#enable-sub-items)
 
 To enable sub-items:
 
@@ -29,7 +29,7 @@ To enable sub-items:
 
 3. In the menu that appears, select `Sub-items` → `Turn on sub-items`.
 
-### [View and filter sub-items](https://www.notion.com/help/tasks-and-dependencies?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#view-and-filter-sub-items)
+### [View and filter sub-items](https://www.notion.com/help/tasks-and-dependencies?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#view-and-filter-sub-items)
 
 Depending on your database view, there are a few ways you can view your sub-items. To adjust the way sub-items show up in your database:
 
@@ -69,7 +69,7 @@ For table, list, and timeline views, you can choose:
 
 For board, calendar, and gallery views, only the `Parents only` filter option is supported.
 
-### [Move, duplicate, and delete items with sub-items](https://www.notion.com/help/tasks-and-dependencies?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#move-duplicate-and-delete-items-with-sub-items)
+### [Move, duplicate, and delete items with sub-items](https://www.notion.com/help/tasks-and-dependencies?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#move-duplicate-and-delete-items-with-sub-items)
 
 * When you move an item with sub-items, sub-items will be turned on for the target database if they aren’t already.
 
@@ -81,7 +81,7 @@ For board, calendar, and gallery views, only the `Parents only` filter option is
 
 * When you delete an item with sub-items, all of the sub-items will be deleted as well. Make sure to move your sub-items out of the parent item if you want to keep them.
 
-### [Edit and remove sub-items](https://www.notion.com/help/tasks-and-dependencies?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#edit-and-remove-sub-items)
+### [Edit and remove sub-items](https://www.notion.com/help/tasks-and-dependencies?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#edit-and-remove-sub-items)
 
 To change how sub-items and parent items are nested:
 
@@ -97,7 +97,7 @@ To change how sub-items and parent items are nested:
 
 5. You can also turn on `Show nesting toggle on title`.
 
-### [Turn off sub-items](https://www.notion.com/help/tasks-and-dependencies?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#turn-off-sub-items)
+### [Turn off sub-items](https://www.notion.com/help/tasks-and-dependencies?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#turn-off-sub-items)
 
 To turn sub-items off:
 
@@ -107,7 +107,7 @@ To turn sub-items off:
 
 3. In the menu that appears, select `Sub-items` → `Turn off sub-items`.
 
-### [Restricted pages](https://www.notion.com/help/tasks-and-dependencies?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#restricted-pages)
+### [Restricted pages](https://www.notion.com/help/tasks-and-dependencies?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#restricted-pages)
 
 Depending on the permissions of the database and the individual pages in the database, you may not be able to view all pages. `Nested in toggle` view will retain sub-item tree structure even if some pages are restricted.
 
@@ -115,7 +115,7 @@ Depending on the permissions of the database and the individual pages in the dat
 
 Adding a dependency lets you connect tasks to each other in a linear way. Use a dependency when you want to communicate related tasks to your team.
 
-### [Add a dependency](https://www.notion.com/help/tasks-and-dependencies?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#add-a-dependency)
+### [Add a dependency](https://www.notion.com/help/tasks-and-dependencies?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#add-a-dependency)
 
 1. Open the settings menu at the top of your database.
 
@@ -137,7 +137,7 @@ Adding a dependency lets you connect tasks to each other in a linear way. Use a 
 
 6. Select `Turn on dependencies`.
 
-### [Change your dependency date shifting settings](https://www.notion.com/help/tasks-and-dependencies?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#change-your-dependency-date-shifting-settings)
+### [Change your dependency date shifting settings](https://www.notion.com/help/tasks-and-dependencies?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#change-your-dependency-date-shifting-settings)
 
 Some things don't go quite as planned. You can automatically change the dates on dependencies when there are changes or conflicts. To change your dependency date shifting settings:
 

@@ -23,7 +23,7 @@ Here's when you will get a notification:
 
 Want fewer notifications in your inbox without turning any off? You can filter your inbox by notification type so it shows only the kinds you care about. [See how to filter your inbox →](https://www.notion.com/help/updates-and-notifications)
 
-### [Types and timing](https://www.notion.com/help/notification-settings?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#types-and-timing)
+### [Types and timing](https://www.notion.com/help/notification-settings?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#types-and-timing)
 
 There are several ways these notifications will reach you:
 
@@ -63,7 +63,7 @@ Go to `Settings` → `Notifications` to adjust your settings for:
 
 ![Notification settings - mobile](https://images.ctfassets.net/spoqsaf9291f/6oYlA5GJlSeirspGiu125l/907a6cba2499942ddf2c2a4e9c095e8a/Notifications_settings_mobile.png)
 
-### [Connect Microsoft Teams](https://www.notion.com/help/notification-settings?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#connect-microsoft-teams)
+### [Connect Microsoft Teams](https://www.notion.com/help/notification-settings?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#connect-microsoft-teams)
 
 You can send your Notion notifications to Microsoft Teams. A Notion bot will message you in Teams when there is activity you follow.
 
@@ -79,7 +79,7 @@ You can send your Notion notifications to Microsoft Teams. A Notion bot will mes
 
 You can also connect from the Notion mobile app. For the full walkthrough, see [Get Notion notifications in Microsoft Teams](https://www.notion.com/help/microsoft-teams-notifications).
 
-### [Turn Microsoft Teams notifications off](https://www.notion.com/help/notification-settings?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#turn-microsoft-teams-notifications-off)
+### [Turn Microsoft Teams notifications off](https://www.notion.com/help/notification-settings?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#turn-microsoft-teams-notifications-off)
 
 1. Go to `Settings` → `Notifications` → `Connected apps`.
 

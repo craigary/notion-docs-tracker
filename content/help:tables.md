@@ -21,7 +21,7 @@ If you want to create an inline table, type `/Table view` on any page and pres
 
 **Note:** Expand inline databases to full page by clicking `⤢` at the top right.
 
-### [Add table view to a database](https://www.notion.com/help/tables?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#add-table-view-to-a-database)
+### [Add table view to a database](https://www.notion.com/help/tables?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#add-table-view-to-a-database)
 
 You can add a table to an existing database to view its data in that format. 
 
@@ -45,7 +45,7 @@ You can select multiple rows in order to edit their properties.
 
 ## Customize your table
 
-### [Rearrange columns and rows](https://www.notion.com/help/tables?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#rearrange-columns-and-rows)
+### [Rearrange columns and rows](https://www.notion.com/help/tables?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#rearrange-columns-and-rows)
 
 Switch up how your table is ordered with drag-and-drop on desktop or browser.
 
@@ -57,11 +57,11 @@ Switch up how your table is ordered with drag-and-drop on desktop or browser.
 
 **Tip:** You can also rearrange your columns by clicking `Properties` at the top right, then using the **`⋮⋮`** icon next to the properties shown to drag them up or down.
 
-### [Wrap cell content](https://www.notion.com/help/tables?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#wrap-cell-content)
+### [Wrap cell content](https://www.notion.com/help/tables?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#wrap-cell-content)
 
 If your cells contain a lot of content, you can wrap the content to make it appear across multiple lines. To do this, click the name of a database property. In the menu that appears, select `Wrap text`.
 
-### [Calculations](https://www.notion.com/help/tables?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#calculations)
+### [Calculations](https://www.notion.com/help/tables?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#calculations)
 
 For each column in your database, you can run calculations that will show you information about the data contained in that column.
 

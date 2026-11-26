@@ -185,7 +185,7 @@ Events are split into the following categories:
 
 * **Deleted transcription from transcription block in {page name}**: That a transcript for AI Meeting Notes has been permanently deleted based on workspace settings.
 
-### [Page event audience](https://www.notion.com/help/audit-log?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#page-event-audience)
+### [Page event audience](https://www.notion.com/help/audit-log?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#page-event-audience)
 
 For page events, workspace owners can also view the audience or visibility level of each target page.
 

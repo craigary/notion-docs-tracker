@@ -47,7 +47,7 @@ Some Outlook-specific features (like Teams conferencing, shared and delegated ca
 
 **Tip:** Be specific in your instructions. For example: "Every morning at 8am, summarize today's meetings and send me a briefing" or "When a new external meeting is added, create a prep page in my Meetings database."
 
-### [Calendar triggers in Custom Agent](https://www.notion.com/help/connect-calendar-to-custom-agents?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#calendar-triggers-in-custom-agent)
+### [Calendar triggers in Custom Agent](https://www.notion.com/help/connect-calendar-to-custom-agents?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#calendar-triggers-in-custom-agent)
 
 Add a Calendar-based trigger in your Custom Agent’s **`Settings`**.
 
@@ -65,7 +65,7 @@ Add a Calendar-based trigger in your Custom Agent’s **`Settings`**.
 
 4. Add a **filter** to narrow which events fire a Calendar trigger. Each trigger can be filtered to only run when an event meets criteria for a specified **title**, **description**, **location**, **owner**, or **all-day status.**
 
-### [Calendar permissions in Custom Agent](https://www.notion.com/help/connect-calendar-to-custom-agents?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#calendar-permissions-in-custom-agent)
+### [Calendar permissions in Custom Agent](https://www.notion.com/help/connect-calendar-to-custom-agents?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#calendar-permissions-in-custom-agent)
 
 When you connect Calendar, you can choose which permissions your agent gets.
 

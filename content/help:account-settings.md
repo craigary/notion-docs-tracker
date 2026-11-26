@@ -89,7 +89,7 @@ If you change your password and don't already have two-step verification, you'll
 
 All passwords are encrypted on our servers, so we don't have access to any password data.
 
-### [Reset your password](https://www.notion.com/help/account-settings?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#reset-your-password)
+### [Reset your password](https://www.notion.com/help/account-settings?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#reset-your-password)
 
 If you forgot your password, follow the instructions to reset it [here →](https://www.notion.com/help/cant-log-in#if-you-forgot-your-password)
 
@@ -173,7 +173,7 @@ If you're on web and you want any links to Notion pages to open in your desktop 
 
 You'll need to have the desktop app already installed. You’ll also need to go to Notion in your desktop app and ensure that Open links in browser is turned off in your settings.
 
-### [If Notion links aren't automatically opening in the desktop app](https://www.notion.com/help/account-settings?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#if-notion-links-aren't-automatically-opening-in-the-desktop-app)
+### [If Notion links aren't automatically opening in the desktop app](https://www.notion.com/help/account-settings?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#if-notion-links-aren't-automatically-opening-in-the-desktop-app)
 
 If links to Notion pages aren't automatically opening in the desktop app, try following these steps:
 

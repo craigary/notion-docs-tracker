@@ -31,7 +31,7 @@ To use SSO with Notion:
 
 ## Set up SAML SSO for a workspace
 
-### [Business Plan](https://www.notion.com/help/saml-sso-configuration?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#business-plan)
+### [Business Plan](https://www.notion.com/help/saml-sso-configuration?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#business-plan)
 
 To set up SAML SSO for a Business workspace, a workspace owner can:
 
@@ -59,7 +59,7 @@ To set up SAML SSO for a Business workspace, a workspace owner can:
 
 **Note**: A Business plan workspace uses one SAML configuration. If you need more than one identity provider, you must upgrade to the Enterprise plan.
 
-### [Enterprise Plan](https://www.notion.com/help/saml-sso-configuration?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#enterprise-plan)
+### [Enterprise Plan](https://www.notion.com/help/saml-sso-configuration?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#enterprise-plan)
 
 Enterprise Plan [organization owners](https://www.notion.com/help/organization-level-controls#who-can-apply-organization-level-controls) can manage SAML SSO for every workspace in their organization. An organization can have more than one SAML configuration, so different groups of people can sign in with different identity providers. This is helpful when business units, regional IT teams, or companies you’ve acquired each have their own provider.
 
@@ -91,7 +91,7 @@ To add a new SAML configuration:
 
 **Note**: If your organization already uses SAML SSO, that setup carries over as your first configuration. Your verified domains stay attached to it, and no one has to sign in again.
 
-### [What signing in looks like](https://www.notion.com/help/saml-sso-configuration?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#what-signing-in-looks-like)
+### [What signing in looks like](https://www.notion.com/help/saml-sso-configuration?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#what-signing-in-looks-like)
 
 What people see depends on how many configurations use their email domain.
 
@@ -121,7 +121,7 @@ On the Enterprise Plan, this will look like this:
 
 ![hc: saml sso enforcement organization setting](https://images.ctfassets.net/spoqsaf9291f/v6eYrZNFUETHX7JhiO1RY/6eb3185218389c0d524e8991b702bd41/Reference_Visuals_Group_135.png)
 
-### [SSO bypass](https://www.notion.com/help/saml-sso-configuration?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#sso-bypass)
+### [SSO bypass](https://www.notion.com/help/saml-sso-configuration?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#sso-bypass)
 
 In the event of IdP or SAML failure, certain users will be able to bypass SAML SSO by using their email and password credentials. They’ll be able to log in and disable or update their configuration.
 

@@ -155,7 +155,7 @@ Organization owners can use the Notion credits dashboard to track credit usage a
 
 ![HC: org-level Notion credits dashboard](https://images.ctfassets.net/spoqsaf9291f/2nUZOdl2889Dpej0GAxk4d/46660de661c1f5c89deca6bb56cc02e7/Screenshot_2026-05-01_at_2.42.49%C3%A2__PM.png)
 
-### [Track credit usage across workspaces](https://www.notion.com/help/organization-level-controls?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#track-credit-usage-across-workspaces)
+### [Track credit usage across workspaces](https://www.notion.com/help/organization-level-controls?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#track-credit-usage-across-workspaces)
 
 From the Notion credits dashboard, organization owners can:
 
@@ -163,7 +163,7 @@ From the Notion credits dashboard, organization owners can:
 
 * Compare credit usage across workspaces
 
-### [Manage on-demand spend for all workspaces](https://www.notion.com/help/organization-level-controls?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#manage-on-demand-spend-for-all-workspaces)
+### [Manage on-demand spend for all workspaces](https://www.notion.com/help/organization-level-controls?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#manage-on-demand-spend-for-all-workspaces)
 
 Organization owners can manage whether on-demand spend is turned on for workspaces under the contract. <!-- -->Defaults vary by plan and contract, so on-demand spend may already be on for some workspaces. To monitor and control spending, review this setting and adjust it per workspace.
 
@@ -179,7 +179,7 @@ You can manage on-demand spend at two levels:
 
 If you turn off on-demand spend for the entire contract, it will be turned off for all workspaces.
 
-### [Set a credit limit per workspace](https://www.notion.com/help/organization-level-controls?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#set-a-credit-limit-per-workspace)
+### [Set a credit limit per workspace](https://www.notion.com/help/organization-level-controls?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#set-a-credit-limit-per-workspace)
 
 Organization owners can set a credit limit for each workspace under the contract. This prevents any one workspace from using more than its share of the credit pool.
 

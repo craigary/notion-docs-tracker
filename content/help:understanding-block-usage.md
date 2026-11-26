@@ -27,7 +27,7 @@ Block usage limits apply to workspaces on the Free Plan. How many blocks you can
 
 **Note**: Content added through the API and connected tools (like MCP) counts toward your block limit too, even when you don't have Notion open.
 
-We count blocks based on the amount of content created in your workspace since signing up — **deleting blocks, or emptying the trash, will not reduce your block count**.
+We count blocks based on the amount of content created in your workspace since signing up. Once you’v&#x65;**&#x20;reached your block limit,** deleting blocks or emptying the trash will not reduce your block count.
 
 ## Upgrade to another plan
 

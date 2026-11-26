@@ -193,7 +193,7 @@ To use webhooks, you must be a verified seller on the Marketplace.
 
 3. Click `Save` to finish registering the URL.
 
-### [Webhook data](https://www.notion.com/help/selling-on-marketplace?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#webhook-data)
+### [Webhook data](https://www.notion.com/help/selling-on-marketplace?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#webhook-data)
 
 There are two types of events you will receive once you have registered a webhook: `marketplace.purchase` and `marketplace.refund`.
 

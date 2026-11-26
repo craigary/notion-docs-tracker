@@ -91,7 +91,7 @@ When you first open the search window, you'll see a list of pages from your work
 
 * For example, if you search for "Urgent," your database will quickly filter to only display entries that contain "Urgent" in the title or property values:
 
-### [Database search vs. workspace search](https://www.notion.com/help/search?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#database-search-vs.-workspace-search)
+### [Database search vs. workspace search](https://www.notion.com/help/search?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#database-search-vs.-workspace-search)
 
 * Database search searches names of database pages, as well as property values such as a status of `In progress`.
 

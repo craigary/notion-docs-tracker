@@ -17,7 +17,7 @@ Once a domain is verified, you can add it to one or more SAML configurations. Th
 
 How you verify a domain depends on your plan.
 
-### [Business Plan](https://www.notion.com/help/domain-management?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#business-plan)
+### [Business Plan](https://www.notion.com/help/domain-management?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#business-plan)
 
 **Note**: To verify a domain on the Business Plan, you must be a workspace owner.
 
@@ -31,7 +31,7 @@ How you verify a domain depends on your plan.
 
 5. Select `Verify domain` to have Notion check your DNS record.
 
-### [Enterprise Plan](https://www.notion.com/help/domain-management?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#enterprise-plan)
+### [Enterprise Plan](https://www.notion.com/help/domain-management?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#enterprise-plan)
 
 **Note:&#x20;**&#x54;o verify a domain on the Enterprise Plan, you must be a&#x6E;**&#x20;**[organization owner](https://www.notion.com/help/organization-level-controls).
 
@@ -111,7 +111,7 @@ Enterprise organization owners can view all non-enterprise workspaces created by
 
 * Request ownership change for or delete single-member workspaces.
 
-### [Change workspace ownership](https://www.notion.com/help/domain-management?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#change-workspace-ownership)
+### [Change workspace ownership](https://www.notion.com/help/domain-management?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#change-workspace-ownership)
 
 With domain management, [organization owners](https://www.notion.com/help/organization-level-controls#who-can-apply-organization-level-controls) on the Enterprise Plan can request a change in ownership transfer on single-member workspaces using a verified domain to a non-corporate email address. This is especially helpful when users created a workspace using a corporate email address, but use the workspace primarily for personal projects.
 
@@ -143,7 +143,7 @@ When the change request is submitted, an email notification will be sent to the 
 
 4. An automated email will be sent once the change is complete.
 
-### [Notification period](https://www.notion.com/help/domain-management?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#notification-period)
+### [Notification period](https://www.notion.com/help/domain-management?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#notification-period)
 
 Once an [organization owner](https://www.notion.com/help/organization-level-controls#who-can-apply-organization-level-controls) verifies a domain, an automated email will be sent to all workspace owners of workspaces that already exist with that domain, notifying them that their workspaces are eligible to be claimed.
 
@@ -151,7 +151,7 @@ During this 14-day notification period, workspace owners can only request owners
 
 **Note:&#x20;**&#x54;his notification email is **only sent** when the domain is first verified, not when new workspaces are created later.
 
-### [Export list of claimable workspaces](https://www.notion.com/help/domain-management?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#export-list-of-claimable-workspaces)
+### [Export list of claimable workspaces](https://www.notion.com/help/domain-management?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#export-list-of-claimable-workspaces)
 
 [Organization owners](https://www.notion.com/help/organization-level-controls) can also export the list of claimable workspaces as a CSV. To do this:
 
@@ -163,7 +163,7 @@ During this 14-day notification period, workspace owners can only request owners
 
 The CSV export will be sent to you via email.
 
-### [Delete workspaces](https://www.notion.com/help/domain-management?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#delete-workspaces)
+### [Delete workspaces](https://www.notion.com/help/domain-management?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#delete-workspaces)
 
 With domain management, Enterprise [organization owners](https://www.notion.com/help/organization-level-controls) can more easily govern how a verified domain is used and where related projects are stored on Notion. For example, when an employee leaves a company, Enterprise organization owners can delete their single member workspaces to clean up old content while remaining compliant.
 
@@ -189,7 +189,7 @@ To delete a workspace, organization owners can follow these steps:
 
 5. Select `Schedule deletion`.
 
-### [Consolidate workspaces](https://www.notion.com/help/domain-management?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#consolidate-workspaces)
+### [Consolidate workspaces](https://www.notion.com/help/domain-management?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#consolidate-workspaces)
 
 The workspace consolidation tool is available to sales-assisted Enterprise customers through their Notion Account Management team. Learn more about workspace consolidation support [here](https://notion.notion.site/Notion-Workspace-Consolidation-Guide-0eca1f05f2614ff6818c86c3b3fb0357?pvs=4).
 

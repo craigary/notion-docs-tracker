@@ -65,7 +65,7 @@ If you already use Notion, your workspaces and account appear automatically afte
 
 Tap `+` to add image and PDF attachments. Granting access to your library will provide convenient access to recent images directly in the picker, but is not required.
 
-### [History](https://www.notion.com/help/notion-ai-app-for-ios?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#history)
+### [History](https://www.notion.com/help/notion-ai-app-for-ios?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#history)
 
 History provides access to Custom Agents and recent chat threads. To view history, go to the menu icon in the sidebar.
 
@@ -81,7 +81,7 @@ From History, you can:
 
 * **Manage your profile:** Tap your profile photo to review personal info, log out, or change the app's theme color.
 
-### [Interacting with messages](https://www.notion.com/help/notion-ai-app-for-ios?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#interacting-with-messages)
+### [Interacting with messages](https://www.notion.com/help/notion-ai-app-for-ios?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#interacting-with-messages)
 
 * **Copy user message:** Long press a user message to copy its content fully.
 

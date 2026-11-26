@@ -63,7 +63,7 @@ If you upgrade your plan in the middle of a billing interval:
 
 Note: If your Free workspace is out of file storage and new uploads have paused, moving to the Plus plan turns uploads back on right away. To learn more, see [File storage limits in Notion →](https://www.notion.com/help/file-storage-limits-in-notion)
 
-### [Upgrade on mobile](https://www.notion.com/help/upgrade-or-downgrade-your-plan?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#upgrade-on-mobile)
+### [Upgrade on mobile](https://www.notion.com/help/upgrade-or-downgrade-your-plan?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#upgrade-on-mobile)
 
 If you're the owner of a workspace with no other members, and the workspace doesn't already have a plan bought through Notion on desktop or web, you can subscribe to Notion Plus or Notion Business in the iOS or Android app. If you already have Notion Plus through the app, you can switch to Notion Business there too. On Android, in-app purchases are available only when Notion is installed from Google Play. Plan availability may vary by workspace.
 
@@ -97,7 +97,7 @@ You can manage subscriptions you buy on mobile through the Apple App Store or Go
 
 ## Upgrade & add-on requests
 
-### [Enable upgrade & add-on requests](https://www.notion.com/help/upgrade-or-downgrade-your-plan?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#enable-upgrade-&-add-on-requests)
+### [Enable upgrade & add-on requests](https://www.notion.com/help/upgrade-or-downgrade-your-plan?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#enable-upgrade-&-add-on-requests)
 
 To allow workspace members to request plan upgrades and add-ons, workspace owners can:
 
@@ -105,7 +105,7 @@ To allow workspace members to request plan upgrades and add-ons, workspace owner
 
 2. Toggle on `Allow members to request upgrades`.
 
-### [Request an upgrade or add-on](https://www.notion.com/help/upgrade-or-downgrade-your-plan?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#request-an-upgrade-or-add-on)
+### [Request an upgrade or add-on](https://www.notion.com/help/upgrade-or-downgrade-your-plan?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#request-an-upgrade-or-add-on)
 
 If you’re not a workspace owner but would like to request a plan upgrade or an add-on, you can do this by following these steps:
 
@@ -115,7 +115,7 @@ If you’re not a workspace owner but would like to request a plan upgrade or an
 
 This will notify your workspace owner, and you’ll be notified in your Notion `Inbox` when your request is approved or denied.
 
-### [Approve an upgrade or add-on](https://www.notion.com/help/upgrade-or-downgrade-your-plan?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#approve-an-upgrade-or-add-on)
+### [Approve an upgrade or add-on](https://www.notion.com/help/upgrade-or-downgrade-your-plan?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#approve-an-upgrade-or-add-on)
 
 To review and approve members’ requests, workspace owners can:
 
@@ -247,4 +247,4 @@ Yes! You can use the same email address to create and join multiple teams. Howev
 
 Plans bought through Notion on desktop or web can only be changed on desktop or web. If you subscribed in the iOS or Android app, manage your subscription through the Apple App Store or Google Play.
 
-[Learn more about upgrading on mobile →](https://www.notion.com/help/upgrade-or-downgrade-your-plan?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#upgrade-on-mobile)
+[Learn more about upgrading on mobile →](https://www.notion.com/help/upgrade-or-downgrade-your-plan?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#upgrade-on-mobile)

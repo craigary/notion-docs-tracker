@@ -27,7 +27,7 @@ Only Enterprise workspace owners can install workspace-wide security and complia
 
 Integrating with a DLP solution will help detect the use of sensitive data in your workspace and take automated action to remediate data breaches quickly by alerting workspace owners, redacting content, or restricting page access.
 
-### [Supported DLP partners](https://www.notion.com/help/add-security-and-compliance-integrations?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#supported-dlp-partners)
+### [Supported DLP partners](https://www.notion.com/help/add-security-and-compliance-integrations?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#supported-dlp-partners)
 
 **Nightfall AI**
 
@@ -39,7 +39,7 @@ Integrating with a DLP solution will help detect the use of sensitive data in yo
 
 4. You can find additional instructions [here](https://help.nightfall.ai/nightfall-ai/nightfall-for-notion), and learn more about the connection [here](https://www.nightfall.ai/integrations/notion).
 
-### [Disconnecting by partner](https://www.notion.com/help/add-security-and-compliance-integrations?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#disconnecting-by-partner)
+### [Disconnecting by partner](https://www.notion.com/help/add-security-and-compliance-integrations?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#disconnecting-by-partner)
 
 **Nightfall AI**
 
@@ -61,7 +61,7 @@ Integrating with a SIEM solution will bring your Notion audit log information in
 
 **Note:&#x20;**&#x4F;n the Notion end, we don’t support connecting to any SIEM partner until the partner instance is ready to handle events.
 
-### [Supported SIEM partners](https://www.notion.com/help/add-security-and-compliance-integrations?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#supported-siem-partners)
+### [Supported SIEM partners](https://www.notion.com/help/add-security-and-compliance-integrations?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#supported-siem-partners)
 
 **Datadog**
 
@@ -131,7 +131,7 @@ Integrating with a SIEM solution will bring your Notion audit log information in
 
 * You can find additional instructions [here](https://help.sumologic.com/docs/send-data/hosted-collectors/http-source/logs-metrics/upload-logs/).
 
-### [Setup tips by partner](https://www.notion.com/help/add-security-and-compliance-integrations?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#setup-tips-by-partner)
+### [Setup tips by partner](https://www.notion.com/help/add-security-and-compliance-integrations?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#setup-tips-by-partner)
 
 To set up most of this connection, you will need to manually provide a webhook URL or token.
 
@@ -151,7 +151,7 @@ The custom SIEM integration sends the same audit log events as the partner integ
 
 Custom SIEM does not support custom ports for HTTP or HTTPS traffic, and it does not support self-signed SSL certificates.
 
-### [Set up the custom SIEM integration](https://www.notion.com/help/add-security-and-compliance-integrations?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#set-up-the-custom-siem-integration)
+### [Set up the custom SIEM integration](https://www.notion.com/help/add-security-and-compliance-integrations?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#set-up-the-custom-siem-integration)
 
 To set up the custom SIEM integration:
 
@@ -163,7 +163,7 @@ To set up the custom SIEM integration:
 
 4. Select `Connect` to finish. All audit log events will now be sent to your endpoint in real-time as JSON payloads.
 
-### [What to know about the custom SIEM integration](https://www.notion.com/help/add-security-and-compliance-integrations?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#what-to-know-about-the-custom-siem-integration)
+### [What to know about the custom SIEM integration](https://www.notion.com/help/add-security-and-compliance-integrations?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#what-to-know-about-the-custom-siem-integration)
 
 * **All audit log event types** **are included**: The same events available in your Notion audit log are sent to your SIEM endpoint.
 
@@ -179,7 +179,7 @@ To set up the custom SIEM integration:
 
 * **Teamspace included**: Events that happen in a teamspace carry the teamspace that owns the content, so you can point rules and alerts at one teamspace. This starts with events recorded on August 9, 2026. Events that aren't tied to a teamspace don't carry this detail.
 
-### [Disconnect the custom SIEM integration](https://www.notion.com/help/add-security-and-compliance-integrations?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#disconnect-the-custom-siem-integration)
+### [Disconnect the custom SIEM integration](https://www.notion.com/help/add-security-and-compliance-integrations?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#disconnect-the-custom-siem-integration)
 
 To disconnect the custom SIEM integration:
 
@@ -193,7 +193,7 @@ To disconnect the custom SIEM integration:
 
 Below is a comprehensive list of webhook events that will be available in your SIEM platform once you set up the Notion SIEM connection. All events available in your SIEM platform will correspond to an audit log event. The glossary will help you understand the specific events that are being tracked and how they relate to your organization's security posture. Use this information to fine-tune your dashboards, alerts, and incident management processes.
 
-### [Event types](https://www.notion.com/help/add-security-and-compliance-integrations?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#event-types)
+### [Event types](https://www.notion.com/help/add-security-and-compliance-integrations?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#event-types)
 
 Events are split into six main categories:
 
@@ -209,7 +209,7 @@ Events are split into six main categories:
 
 * **Form events:** Events about forms in the workspace.
 
-### [Page audience](https://www.notion.com/help/add-security-and-compliance-integrations?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#page-audience)
+### [Page audience](https://www.notion.com/help/add-security-and-compliance-integrations?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#page-audience)
 
 For page events, the page audience describes the visibility level of the target page. The audience captured will be one of the following:
 
@@ -221,7 +221,7 @@ For page events, the page audience describes the visibility level of the target 
 
 * **Public**: The page is shared to the web.
 
-### [SIEM event glossary](https://www.notion.com/help/add-security-and-compliance-integrations?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#siem-event-glossary)
+### [SIEM event glossary](https://www.notion.com/help/add-security-and-compliance-integrations?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#siem-event-glossary)
 
 **Workspace**
 
@@ -411,7 +411,7 @@ For page events, the page audience describes the visibility level of the target 
 
 ## Compliance partner connections
 
-### [Drata](https://www.notion.com/help/add-security-and-compliance-integrations?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#drata)
+### [Drata](https://www.notion.com/help/add-security-and-compliance-integrations?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#drata)
 
 If your policy content lives in Notion, you can connect Notion with Drata to manage that content. Changes you make to policies in Notion will be synced with Drata.
 
