@@ -13,6 +13,23 @@ import { cleanImageUrl, genericHeaders, getHelpArticleUrl, normalizeNotionUrl } 
 import { sha } from '../utils/hash'
 import { buildFrontMatter, convertToMarkdown } from '../utils/markdown'
 
+function isArticleSelfLink(href: string | null | undefined, slug: string) {
+  if (!href) {
+    return false
+  }
+
+  if (href.startsWith('#')) {
+    return true
+  }
+
+  try {
+    const url = new URL(href, 'https://www.notion.com')
+    return url.pathname === `/help/${slug}` || url.pathname === `/help/${slug}/`
+  } catch {
+    return false
+  }
+}
+
 const articleHeroMediaSelector = 'helpArticleHeroMedia'
 const articleHeroMediaVideoSelector = 'videoContainer'
 const articleDescriptionSelector = 'helpArticlePrologueCopy'
@@ -117,6 +134,22 @@ export async function fetchArticleContent(article: Article): Promise<ArticleInfo
     }
 
     if (anchor.parentElement?.tagName === 'H2') {
+      const headingText = anchor.textContent
+      const parentHeading = anchor.parentElement as HTMLHeadingElement
+      anchor.remove()
+      parentHeading.textContent = headingText
+    }
+
+    // Heading self-links (H3/H4) carry a per-fetch `_ck` token in their href, so the
+    // same article hashes differently on every scrape and sync keeps flagging it as
+    // updated. The backend mirror does not need heading anchor links, so unwrap
+    // self-links in H3/H4 headings to plain text, the same treatment H2 already gets.
+    // Links to other pages inside a heading are content links and stay untouched.
+    const parentTagName = anchor.parentElement?.tagName
+    if (
+      (parentTagName === 'H3' || parentTagName === 'H4') &&
+      isArticleSelfLink(anchor.getAttribute('href'), article.slug)
+    ) {
       const headingText = anchor.textContent
       const parentHeading = anchor.parentElement as HTMLHeadingElement
       anchor.remove()
