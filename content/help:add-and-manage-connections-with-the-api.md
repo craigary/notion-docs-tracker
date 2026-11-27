@@ -43,7 +43,7 @@ Connections built with the API follow a similar permission system to the sharin
 
 * If you want to remove a connection from a page, hover over its name and then press `Disconnect`.
 
-### [Manage connections in pages](https://www.notion.com/help/add-and-manage-connections-with-the-api?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#manage-connections-in-pages)
+### Manage connections in pages
 
 **Note:** This feature is only available to users on the Enterprise Plan. Domain verification is not required to enable this feature.
 
@@ -129,7 +129,7 @@ Learn more about how to manage connections in [Enterprise connection settings](h
 
 Check out our [**Connections gallery →**](https://www.notion.com/integrations/all)
 
-### [Install directly from a partner platform via OAuth](https://www.notion.com/help/add-and-manage-connections-with-the-api?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#install-directly-from-a-partner-platform-via-oauth)
+### Install directly from a partner platform via OAuth
 
 Notion has partnered directly with several services (such as [Zapier](https://www.notion.com/integrations/zapier) and [Typeform](https://www.notion.com/integrations/typeform)). You can add our partners' public connections to your workspace directly through their sites via OAuth.
 
@@ -151,7 +151,7 @@ Notion has partnered directly with several services (such as [Zapier](https://w
 
 **Tip:** Want to see partner connections in action? [Check out this guide →](https://www.notion.com/help/guides/visual-link-previews-streamline-collaboration)
 
-### [Connect via API token](https://www.notion.com/help/add-and-manage-connections-with-the-api?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#connect-via-api-token)
+### Connect via API token
 
 Some partner platforms require an API token in order to link to your workspace.
 

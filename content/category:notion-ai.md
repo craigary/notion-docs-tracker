@@ -7,27 +7,27 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/7j6zHBFAMtPgTdqjZQq46w/c7
 ---
 
 1 help:notion-ai-faqs
-2 help:autofill
-3 help:notion-agent
+2 help:notion-agent
+3 help:autofill
 4 help:enterprise-search
 5 help:notion-mcp
-6 help:connect-mcp-servers-to-your-notion-agent
-7 help:choose-how-notion-agent-asks-for-your-approval
-8 help:create-and-manage-skills
-9 help:create-and-edit-images-with-notion-ai
-10 help:instructions-for-notion-agent
-11 help:connect-atlassian-to-notion-ai
-12 help:connect-your-agents-to-google-drive
-13 help:manage-ai-models-and-member-credit-spend
-14 help:slack-enterprise-grid-ai-connector
-15 help:set-up-enterprise-managed-connections-for-notion-mcp
-16 help:set-up-the-snowflake-mcp-for-notion
-17 help:manage-your-inbox-with-notion-agent
-18 help:use-your-chatgpt-plan-with-notion-agent
-19 help:view-your-notion-agent-memories
-20 help:turn-on-web-browser-for-notion-agent
-21 help:notion-ai-settings-overview
-22 help:use-notion-pages-in-chatgpt
+6 help:view-your-notion-agent-memories
+7 help:connect-atlassian-to-notion-ai
+8 help:notion-ai-settings-overview
+9 help:connect-mcp-servers-to-your-notion-agent
+10 help:connect-your-agents-to-google-drive
+11 help:manage-ai-models-and-member-credit-spend
+12 help:slack-enterprise-grid-ai-connector
+13 help:set-up-enterprise-managed-connections-for-notion-mcp
+14 help:set-up-the-snowflake-mcp-for-notion
+15 help:manage-your-inbox-with-notion-agent
+16 help:use-your-chatgpt-plan-with-notion-agent
+17 help:turn-on-web-browser-for-notion-agent
+18 help:use-notion-pages-in-chatgpt
+19 help:choose-how-notion-agent-asks-for-your-approval
+20 help:create-and-manage-skills
+21 help:create-and-edit-images-with-notion-ai
+22 help:instructions-for-notion-agent
 
 ## Video
 

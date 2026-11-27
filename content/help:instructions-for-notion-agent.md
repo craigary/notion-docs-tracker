@@ -27,7 +27,7 @@ Use Instructions when your preference is:
 
 A simple rule of thumb is that if you’d correct the same Notion Agent behavior twice, add it to your Instructions.
 
-### [Example use cases for Instructions](https://www.notion.com/help/instructions-for-notion-agent?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#example-use-cases-for-instructions)
+### Example use cases for Instructions
 
 * Setting a default tone (concise, friendly, formal)
 
@@ -45,7 +45,7 @@ A simple rule of thumb is that if you’d correct the same Notion Agent behavior
 
 2. Choose to `Create your own`, use a template, or `Use existing page`.
 
-### [From an existing page](https://www.notion.com/help/instructions-for-notion-agent?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#from-an-existing-page)
+### From an existing page
 
 From any page, go to ••• → `Use with AI` → `Use as Agent instructions`.
 

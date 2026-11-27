@@ -33,7 +33,7 @@ It’s separate from the Notion app, and it’s built for chat and on-the-go AI 
 
 There are a few ways to access Notion AI in a few different ways on mobile, depending on your device.
 
-### [Notion AI home screen widget](https://www.notion.com/help/notion-for-mobile?_ck=34f93fc9bcd426db13c090baa004a57da7d09f1177867418f10198e43b9d1d8a#notion-ai-home-screen-widget)
+### Notion AI home screen widget
 
 Add the [Notion AI home screen widget](https://www.notion.com/help/mobile-widgets) to open Notion AI from your home screen. From there, you can jump into AI chat, camera, or voice.
 

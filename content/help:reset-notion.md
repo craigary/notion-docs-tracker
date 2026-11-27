@@ -45,7 +45,7 @@ Then, try deleting the app again.
 
 ## Reset Notion for web
 
-### [Chrome and Microsoft Edge](https://www.notion.com/help/reset-notion?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#chrome-and-microsoft-edge)
+### Chrome and Microsoft Edge
 
 1. Open Developer Tools using `cmd + option + i` for Mac, or `ctrl + shift + i for Windows`.
 
@@ -57,7 +57,7 @@ Then, try deleting the app again.
 
 5. Right click on the Notion link and select `Clear`.
 
-### [**Safari**](https://www.notion.com/help/reset-notion?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#safari)
+### Safari
 
 1. Open the `Safari` menu in your system menu bar, and select `Preferences`.
 
@@ -65,7 +65,7 @@ Then, try deleting the app again.
 
 3. Find and select `Notion`, then select `Remove All`.
 
-### [Firefox](https://www.notion.com/help/reset-notion?_ck=604fef396d0577dc13849bd6c11893c9de55f26c49cf3f9b32927f5a77474714#firefox)
+### Firefox
 
 To the left of the URL, select `🔒` → `Clear Cookies and Site Data` → `Remove`.
 

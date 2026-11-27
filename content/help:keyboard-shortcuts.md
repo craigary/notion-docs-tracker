@@ -31,7 +31,7 @@ If you're not a born shortcutter, we get it. You can still work like a Notion po
 
 * Use `cmd/ctrl` + `shift` + `L` to toggle between dark mode and light mode.
 
-### [Desktop keyboard shortcuts](https://www.notion.com/help/keyboard-shortcuts?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#desktop-keyboard-shortcuts)
+### Desktop keyboard shortcuts
 
 * Use `cmd/ctrl` + `N` to create a new page.
 
@@ -225,7 +225,7 @@ Everything in Notion is a block — from a line of type (or paragraph) to an ima
 
 Pressing `/` in Notion brings up a full menu of content blocks you can choose to insert. You can shortcut this further by pressing `/` and then typing what you want. Here are your choices:
 
-### [Basic](https://www.notion.com/help/keyboard-shortcuts?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#basic)
+### Basic
 
 * `/text` or `/plain` creates a new text block.
 
@@ -253,7 +253,7 @@ Pressing `/` in Notion brings up a full menu of content blocks you can choose 
 
 * `esc` clears the `/` menu. Handy if you're just trying to use a / in your writing.
 
-### [Inline](https://www.notion.com/help/keyboard-shortcuts?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#inline)
+### Inline
 
 * `/mention` lets you mention a page or a person in your workspace
 
@@ -263,7 +263,7 @@ Pressing `/` in Notion brings up a full menu of content blocks you can choose 
 
 * `/emoji` brings up the emoji picker
 
-### [Media](https://www.notion.com/help/keyboard-shortcuts?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#media)
+### Media
 
 * `/image` will bring up the option to upload or embed an image, or add one from Unsplash.
 
@@ -281,7 +281,7 @@ Pressing `/` in Notion brings up a full menu of content blocks you can choose 
 
 * `/embed` lets you add any one of the 500+ embeds that work with Notion.
 
-### [Advanced](https://www.notion.com/help/keyboard-shortcuts?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#advanced)
+### Advanced
 
 * `/duplicate` creates an exact copy of the current block.
 

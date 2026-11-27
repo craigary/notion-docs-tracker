@@ -46,7 +46,7 @@ The following categories of Customer Data (as defined in Notion's [Master Subscr
 
 ## Data stored outside the data region
 
-Unless listed above as [data stored in the data region](https://www.notion.com/help/data-residency?_ck=bb12d75484663688acf8eaa43caa0f1ee40c3dfc789d795e8f79c7e9ef8fcfc6#data-stored-in-the-data-region), data may be stored in regions outside of the customer’s data region. Examples:
+Unless listed above as [data stored in the data region](https://www.notion.com/help/data-residency#data-stored-in-the-data-region), data may be stored in regions outside of the customer’s data region. Examples:
 
 * Account Information (as defined in Notion's [Master Subscription Agreement](https://www.notion.com/Master-Subscription-Agreement-4e1c5dd3e3de45dfa4a8ed60f1a43da0)).
 

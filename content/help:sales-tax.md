@@ -29,13 +29,13 @@ Notion manages tax exemptions on a case by case basis. Please send your tax exem
 
 ## Jurisdictions
 
-### [Australia (GST)](https://www.notion.com/help/sales-tax?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#australia-\(gst\))
+### Australia (GST)
 
 Notion is required to charge Australian Goods and Services Tax (GST) on services provided to consumers. If you're using Notion for business purposes and provide a valid Australian Business Number (ABN) found in Notion `Settings` → `Billing`, you will not be charged GST on subsequent invoices.
 
 When entering in your tax ID, the alphanumeric format to use is `12345678912`.
 
-### [Canada (GST, QST, HST, PST)](https://www.notion.com/help/sales-tax?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#canada-\(gst-qst-hst-pst\))
+### Canada (GST, QST, HST, PST)
 
 Notion is required to charge Goods and Services Tax (GST), Québec Sales Tax (QST), Harmonized Sales Tax (HST), and Provincial Sales Tax (PST) on services provided to consumers and businesses, depending on the Canadian Province.
 
@@ -61,7 +61,7 @@ When entering in your tax ID, the alphanumeric format to use is `123456-7`.
 
 When entering in your tax ID, the alphanumeric format to use is `1234567`.
 
-### [EU (VAT)](https://www.notion.com/help/sales-tax?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#eu-\(vat\))
+### EU (VAT)
 
 Notion is required to charge EU Value-added tax (VAT) on services provided to consumers in the EU. If you're using Notion for business purposes and provide a valid VAT Number found in Notion `Settings` → `Billing`, you will not be charged VAT on subsequent invoices.
 
@@ -84,19 +84,19 @@ When entering in your tax ID, the alphanumeric format to use depends on the EU c
 | Hungary        | `HU12345678`            | Sweden      | `SE123456789123`        |
 | Ireland        | `IE1234567AB`           |             |                         |
 
-### [India (GST)](https://www.notion.com/help/sales-tax?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#india-\(gst\))
+### India (GST)
 
 Notion is required to charge Goods and Services Tax (GST) on services provided to consumers in India. If you're using Notion for business purposes and provide a valid GST Number found in Notion `Settings` → `Billing`, you will not be charged GST on subsequent invoices.
 
 When entering in your tax ID, the alphanumeric format to use is `12ABCDE3456FGZH`.
 
-### [Indonesia (VAT)](https://www.notion.com/help/sales-tax?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#indonesia-\(vat\))
+### Indonesia (VAT)
 
 Notion is required to charge Value-added tax on services provided to consumers in Indonesia. VAT will be applied to all invoices, including those for businesses, even if you provide a valid Tax Identification Number (NPWP) in Notion `Settings` → `Billing`**.**
 
 When entering in your tax ID, the alphanumeric format to use is `012.345.678.9-012.345`.
 
-### [Japan (JCT)](https://www.notion.com/help/sales-tax?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#japan-\(jct\))
+### Japan (JCT)
 
 Notion is required to charge Japanese Consumption Tax (JCT) on services provided to consumers and businesses in Japan. If you're using Notion for business purposes and do not have JCT charged on your invoice, you are responsible for self-assessing and reporting JCT under the reverse charge mechanism. Customers can provide their JCT Number found in Notion `Settings` → `Billing`.
 
@@ -108,97 +108,97 @@ When entering in your tax ID, the alphanumeric format to use is:
 | Japanese Registered Foreign Businesses' Registration Number (\*Tōroku Kokugai Jigyōsha no Tōroku Bangō\*) | `12345`                 |
 | Japanese Tax Registration Number (\*Tōroku Bangō\*)                                                       | `T1234567891234`        |
 
-### [Republic of Korea (VAT)](https://www.notion.com/help/sales-tax?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#republic-of-korea-\(vat\))
+### Republic of Korea (VAT)
 
 Notion is required to charge Value-added tax (VAT) on services provided to consumers in the Republic of Korea. If you're using Notion for business purposes and provide a valid Business Registration Number found in Notion `Settings` → `Billing`, you will not be charged VAT on subsequent invoices.
 
 When entering in your tax ID, the alphanumeric format to use is `123-45-67890`.
 
-### [Malaysia (SST)](https://www.notion.com/help/sales-tax?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#malaysia-\(sst\))
+### Malaysia (SST)
 
 Notion is required to charge Sales and Service Tax on services provided to consumers in Malaysia. SST will be applied to all invoices, including those for businesses, even if you provide a valid tax ID Number in Notion `Settings` → `Billing`.
 
 When entering in your tax ID, the alphanumeric format to use is `A12-3456-78912345`.
 
-### [Mexico (VAT)](https://www.notion.com/help/sales-tax?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#mexico-\(vat\))
+### Mexico (VAT)
 
 Notion is required to charge Value-added Tax (VAT) on services provided to customers in Mexico. VAT will be applied to all invoices, including those for businesses, even if you provide a valid RFC ID Number in Notion `Settings` → `Billing`.
 
 When entering in your tax ID, the alphanumeric format to use is `ABC010203AB9`.
 
-### [New Zealand (GST)](https://www.notion.com/help/sales-tax?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#new-zealand-\(gst\))
+### New Zealand (GST)
 
 Notion is required to charge Goods and Services Tax (GST) on services provided to consumers in New Zealand. If you're using Notion for business purposes and provide a valid GST Number found in Notion `Settings` → `Billing`, you will not be charged GST on subsequent invoices.
 
 When entering in your tax ID, the alphanumeric format to use is `123456789`.
 
-### [Nigeria (VAT)](https://www.notion.com/help/sales-tax?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#nigeria-\(vat\))
+### Nigeria (VAT)
 
 Notion is required to charge Value-added Tax (VAT) on services provided to customers in Nigeria. VAT will be applied to all invoices, including those for businesses, even if you provide a valid Tax Identification Number (TIN) in Notion `Settings` → `Billing`.\
 \
 When entering in your tax ID, the alphanumeric format to use is `1234567890123`.
 
-### [Norway (VAT)](https://www.notion.com/help/sales-tax?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#norway-\(vat\))
+### Norway (VAT)
 
 Notion is required to charge Value-added tax (VAT) on services provided to consumers in Norway. If you're using Notion for business purposes and provide a valid VAT Number found in Notion `Settings` → `Billing`, you will not be charged VAT on subsequent invoices.
 
 When entering in your tax ID, the alphanumeric format to use is `123456789MVA`.
 
-### [Philippines (VAT)](https://www.notion.com/help/sales-tax?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#philippines-\(vat\))
+### Philippines (VAT)
 
 Notion is required to charge Value-Added Tax (VAT) on services provided to consumers in the Philippines. If you are using Notion for business purposes, you may be exempt from VAT by providing a valid Tax Identification Number found in Notion `Settings` → `Billing` along with a Certificate of Exemption, which should be emailed to email protected. Once submitted, you will not be charged VAT on subsequent invoices.
 
 When entering in your tax ID, the alphanumeric format to use is `123456789012`**.**
 
-### [Singapore (GST)](https://www.notion.com/help/sales-tax?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#singapore-\(gst\))
+### Singapore (GST)
 
 Notion is required to charge Goods and Services Tax (GST) on services provided to consumers in Singapore. If you're using Notion for business purposes and provide a valid GST Number found in Notion `Settings` → `Billing`, you will not be charged GST on subsequent invoices.
 
 When entering in your tax ID, the alphanumeric format to use is `M12345678X`.
 
-### [South Africa (VAT)](https://www.notion.com/help/sales-tax?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#south-africa-\(vat\))
+### South Africa (VAT)
 
 Notion is required to charge Value-added Tax on services provided to consumers in South Africa. If you're using Notion for business purposes and provide a valid VAT Number found in Notion `Settings` → `Billing`, you will not be charged VAT on subsequent invoices.
 
 When entering in your tax ID, the alphanumeric format to use is `4123456789`.
 
-### [Switzerland (VAT)](https://www.notion.com/help/sales-tax?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#switzerland-\(vat\))
+### Switzerland (VAT)
 
 Notion is required to charge Value-added tax (VAT) on services provided to consumers and businesses in Switzerland. Customers can provide their VAT Number found in Notion `Settings` → `Billing` to ensure your VAT number is included on your invoices.
 
 When entering in your tax ID, the alphanumeric format to use is `CHE-123.456.789 MWST`.
 
-### [**Taiwan (VAT)** ](https://www.notion.com/help/sales-tax?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#taiwan-\(vat\))
+### Taiwan (VAT)
 
 Notion is required to charge Value-added tax (VAT) on services provided to consumers in Taiwan. If you're using Notion for business purposes and provide a valid VAT Number found in Notion `Settings` → `Billing`, you will not be charged VAT on subsequent invoices.
 
 When entering in your tax ID, the alphanumeric format to use is `12345678`.
 
-### [Thailand (VAT)](https://www.notion.com/help/sales-tax?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#thailand-\(vat\))
+### Thailand (VAT)
 
 Notion is required to charge Value-added Tax on services provided to consumers in Thailand. If you're using Notion for business purposes and provide a valid Tax Identification Number found in Notion `Settings` → `Billing`, you will not be charged VAT on subsequent invoices.
 
 When entering in your tax ID, the alphanumeric format to use is `1234567891234`.
 
-### [Turkey (VAT)](https://www.notion.com/help/sales-tax?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#turkey-\(vat\))
+### Turkey (VAT)
 
 Notion is required to charge Value-added tax (VAT) on services provided to consumers in Turkey. If you're using Notion for business purposes and provide a valid Tax Identification Number found in Notion `Settings` → `Billing`, you will not be charged VAT on subsequent invoices.
 
 When entering in your tax ID, the alphanumeric format to use is `0123456789`**.**
 
-### [Ukraine (VAT)](https://www.notion.com/help/sales-tax?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#ukraine-\(vat\))
+### Ukraine (VAT)
 
 Notion is required to charge Value-added tax (VAT) on services provided to consumers in Ukraine. If you're using Notion for business purposes and provide a valid VAT Number found in Notion `Settings` → `Billing`, you will not be charged VAT on subsequent invoices.
 
 When entering in your tax ID, the alphanumeric format to use is `123456789`.
 
-### [United Arab Emirates (VAT)](https://www.notion.com/help/sales-tax?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#united-arab-emirates-\(vat\))
+### United Arab Emirates (VAT)
 
 Notion is required to charge Value-added Tax on services provided to consumers in the United Arab Emirates. If you're using Notion for business purposes and provide a valid Tax Registration Number found in Notion `Settings` → `Billing`, you will not be charged VAT on subsequent invoices.
 
 When entering in your tax ID, the alphanumeric format to use is `12345678912345`.
 
-### [United Kingdom (VAT)](https://www.notion.com/help/sales-tax?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#united-kingdom-\(vat\))
+### United Kingdom (VAT)
 
 Notion is required to charge Value-added tax (VAT) on services provided to consumers in the United Kingdom. If you're using Notion for business purposes and provide a valid VAT Number found in Notion `Settings` → `Billing`, you will not be charged VAT on subsequent invoices.
 
@@ -209,7 +209,7 @@ When entering in your tax ID, the alphanumeric format to use is:
 | Northern Ireland VAT number | `XI123456789`           |
 | United Kingdom VAT number   | `GB123456789`           |
 
-### [United States (U.S. Sales Tax)](https://www.notion.com/help/sales-tax?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#united-states-\(u.s.-sales-tax\))
+### United States (U.S. Sales Tax)
 
 Notion is required to charge sales or other transaction taxes on services provided to consumers and businesses in the following locations:
 

@@ -61,7 +61,7 @@ Want more real-life examples of how to use database buttons? [Read this guide â†
 
 * `Define variables` will allow you to create a custom variable using mentions and formulas. You can then use this variable in other database button actions. Learn more about this below.
 
-### [Send mail to](https://www.notion.com/help/database-buttons?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#send-mail-to)
+### Send mail to
 
 **Note:**
 
@@ -101,7 +101,7 @@ To set up a button to send an email:
 
    * `Send replies to`: If you want replies to your email to be sent to someone other than the email address you used to send it, you can use this optional setting to send the reply to a person property, or a person in your workspace.
 
-### [Define variables](https://www.notion.com/help/database-buttons?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#define-variables)
+### Define variables
 
 You can define a custom variable with mentions and formulas. You can then use this variable in other database button actions. To define a variable:
 

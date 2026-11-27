@@ -25,7 +25,7 @@ This connection is tied to the person who set it up. When your agent uses Google
 
 * If your workspace controls which connections are allowed, a workspace owner may need to turn on Google Drive for Custom Agents.
 
-* Connecting Custom Agents to Google Drive is different from the [Notion AI Google Drive connector](https://www.notion.com/help/notion-ai-connectors-for-google-drive) which is for [Notion Agent](https://www.notion.com/help/notion-agent?_gl=1*1oedpsa*_gcl_au*NzYxMjYyNDY4LjE3ODI4NjIyNzI.*_ga*MTMyNTc2MTE1NC4xNzgyODYyMjcy*_ga_9ZJ8CB186L*czE3ODQwNjc2NDMkbzQ2JGcxJHQxNzg0MDY4OTg5JGo1NyRsMCRoMA..).
+* Connecting Custom Agents to Google Drive is different from the [Notion AI Google Drive connector](https://www.notion.com/help/notion-ai-connectors-for-google-drive) which is for [Notion Agent](https://www.notion.com/help/notion-agent).
 
 ## Connect an agent to Google Drive
 

@@ -92,6 +92,17 @@ export function normalizeNotionUrl(href: string) {
 
   const url = new URL(href, 'https://www.notion.com')
   url.hostname = 'www.notion.com'
+
+  // Help links carry per-fetch tracking params (`_ck`, `_gl`, `g-exp`) whose values
+  // change between scrapes. Left in, they change the content hash on every sync even
+  // when the article itself is unchanged, so strip them and keep the rest of the
+  // URL (including the #anchor) intact.
+  if (url.pathname.startsWith('/help/')) {
+    url.searchParams.delete('_ck')
+    url.searchParams.delete('_gl')
+    url.searchParams.delete('g-exp')
+  }
+
   return url.href
 }
 

@@ -59,7 +59,7 @@ There are a few ways that restricted members are different from regular workspac
 
 You can find controls related to restricted members in `Settings`. Learn more: [Workspace security](https://www.notion.com/help/workspace-settings#workspace-security)
 
-### [Restricted members in teamspaces](https://www.notion.com/help/whos-who-in-a-workspace?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#restricted-members-in-teamspaces)
+### Restricted members in teamspaces
 
 The teamspace member role encapsulates both members and restricted members. This means that a restricted member can’t have a lower level of access than a regular member.
 
@@ -89,7 +89,7 @@ Guests are individuals **external to your company or organization** who you invi
 
 * Friends, family, or mentors that you want to have contribute to or review your work.
 
-### [Guests vs. members](https://www.notion.com/help/whos-who-in-a-workspace?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#guests-vs.-members)
+### Guests vs. members
 
 Guests share many capabilities with members, except:
 

@@ -141,7 +141,7 @@ You could try prompting Notion AI with the following:
 
 More resources
 
-* There are many other ways to use Slack and Notion together. Learn how to integrate Slack [in this article →](https://www.notion.com/help/slack?_gl=1*1lyima*_gcl_aw*R0NMLjE3NzIwNTU1MTAuQ2owS0NRanc5b2JJQmhDQUFSSXNBR0htMW1UXzBndlhBVF9XUXBnVG1Ed2dIZEtoa3FaZEF6S183WjVuRF9Yc2pyVFdJRWRYWTRxWmZRRWFBbF96RUFMd193Y0I.*_gcl_au*MTcyNzQ5MTgwMC4xNzY5NjQ3MTQ3LjE0MTU1NDU5MTIuMTc3Njc5ODg5OS4xNzc2Nzk4ODk4*_ga*MTg3MDc4NzEwMS4xNzY5NjQzODc4*_ga_9ZJ8CB186L*czE3NzczOTMyMjYkbzE3NiRnMSR0MTc3NzQwMjExMiRqNjAkbDAkaDA.)
+* There are many other ways to use Slack and Notion together. Learn how to integrate Slack [in this article →](https://www.notion.com/help/slack)
 
 * [Notion AI Connectors](https://www.notion.com/help/notion-ai-connectors)
 

@@ -56,7 +56,7 @@ It's important to have all your data in one spot. Here's a helpful tutorial for 
 
 ## Import from Confluence into Notion
 
-### [Import with .zip files](https://www.notion.com/help/import-from-confluence?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#import-with-.zip-files)
+### Import with .zip files
 
 **Export your Confluence space to HTML**
 
@@ -86,7 +86,7 @@ It's important to have all your data in one spot. Here's a helpful tutorial for 
 
 5. When your import completes, you'll be taken to your newly imported content.
 
-### [Import with Confluence API](https://www.notion.com/help/import-from-confluence?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#import-with-confluence-api)
+### Import with Confluence API
 
 **Connect Confluence and Notion**
 
@@ -124,7 +124,7 @@ It's important to have all your data in one spot. Here's a helpful tutorial for 
 
 3. Repeat this section if you want to import more than one Confluence space.
 
-### [Import by URL or ID](https://www.notion.com/help/import-from-confluence?_ck=cadf9ee9a526d5c7c35f39e58e0b46f2abfb8222ce1fd1e85bbf1234bcf33dbf#import-by-url-or-id)
+### Import by URL or ID
 
 **Connect Confluence and Notion**
 

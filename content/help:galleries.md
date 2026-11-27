@@ -19,7 +19,7 @@ Here's how to to add a database in gallery view to Notion:
 
 If you want to create an inline gallery, type `/Gallery view` on any page and press `enter`.
 
-### [Add gallery view to a database](https://www.notion.com/help/galleries?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#add-gallery-view-to-a-database)
+### Add gallery view to a database
 
 You can add a gallery to an existing database to view its data in that format.
 
@@ -31,7 +31,7 @@ You can add a gallery to an existing database to view its data in that format.
 
 Edit your gallery so it does the job you need it to do. There are several ways to change its organization and appearance to fit the task at hand.
 
-### [Change card preview](https://www.notion.com/help/galleries?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#change-card-preview)
+### Change card preview
 
 To change the card preview:
 
@@ -51,11 +51,11 @@ To change the card preview:
 
    * When turned off, the image will be cropped to fill the entire card frame.
 
-### [Rearrange cards](https://www.notion.com/help/galleries?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#rearrange-cards)
+### Rearrange cards
 
 To reorder the cards in your gallery, just click and hold, then drag left, right, up, or down.
 
-### [Change card size](https://www.notion.com/help/galleries?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#change-card-size)
+### Change card size
 
 To change the size of your cards:
 
@@ -65,7 +65,7 @@ To change the size of your cards:
 
 **Tip:** You can also hide the name of any card in your gallery, allowing you to show the image as a standalone element. In the `Properties` menu, switch off `Name`. Helpful for simple and elegant mood boards and photo collections.
 
-### [Display, hide, and order properties](https://www.notion.com/help/galleries?_ck=96b118330f51d334c638363ca3131e0cd8a2c0aa408e0868bfff5a4a3a3c7dff#display-hide-and-order-properties)
+### Display, hide, and order properties
 
 To choose how properties are displayed in your gallery:
 
