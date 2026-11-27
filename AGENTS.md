@@ -48,7 +48,7 @@ The loop is always: `bun run translate:context <identifier>` → read the workpa
 
 **Never use `replace_content` on Frontend pages.** Pages can contain blocks that `retrieveMarkdown` cannot represent (they surface as `<unknown .../>`), and a full-page replace deletes them. Only targeted `update_content` patches are safe. Note that `content/` files are CRLF/LF mixed; normalize newlines before splitting them by heading.
 
-**Links stay as English URLs.** Do not map `notion.com/help/<slug>` to Frontend pages or `/p/<id>?pvs=25`. Target pages may be missing, stale, or lack the anchored heading, so auto-mapping produces dead links. The user converts them to internal Notion links himself during maintenance. Do not revert existing `/p/` links back to English either. Every internal link must be listed in the report so he can work through them.
+**Links: agent converts no-anchor links itself.** Map `notion.com/help/<slug>` links that have no `#anchor` to Frontend pages (`https://app.notion.com/p/<pageId>`), looking up the page by its `Identifier` property. Link targets with an anchor stay as English URLs — the anchored heading may not exist on the Chinese page, so auto-mapping would produce dead links; list those in the report instead. Report only failures and kept-English links. `help:guides/*` links are never converted or reported. Do not revert existing `/p/` links back to English.
 
 **Never touch the `Status` property.** The user sets it manually.
 

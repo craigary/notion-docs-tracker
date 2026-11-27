@@ -382,11 +382,11 @@ async function buildWorkpack(identifier: string) {
   )
   lines.push('')
   lines.push(
-    '**策略**：英文 help 链接原样保留，用户在维护时自己转成 Notion 内部链接；已有的 `/p/` 内部链接不要反向改回英文。'
+    '**策略**：无锚点英文 help 链接由我转成 `https://app.notion.com/p/<pageId>`，交付时这里应为 0 条；有锚点的保留英文并列进汇报；已有的 `/p/` 内部链接不要反向改回英文。'
   )
   lines.push('')
   if (englishLinks.length > 0) {
-    lines.push('### 英文 help 链接（需用户手动改）')
+    lines.push('### 英文 help 链接（无锚点需转内部链接，有锚点保留英文）')
     lines.push('')
     lines.push('| # | 链接文字 | 锚点 | 目标 | 出现在 |')
     lines.push('| --- | --- | --- | --- | --- |')
