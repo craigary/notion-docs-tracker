@@ -7,12 +7,12 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/7j6zHBFAMtPgTdqjZQq46w/c7
 ---
 
 1 help:notion-ai-faqs
-2 help:notion-agent
-3 help:autofill
+2 help:autofill
+3 help:notion-agent
 4 help:enterprise-search
 5 help:notion-mcp
-6 help:view-your-notion-agent-memories
-7 help:connect-atlassian-to-notion-ai
+6 help:instructions-for-notion-agent
+7 help:view-your-notion-agent-memories
 8 help:notion-ai-settings-overview
 9 help:connect-mcp-servers-to-your-notion-agent
 10 help:connect-your-agents-to-google-drive
@@ -22,12 +22,12 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/7j6zHBFAMtPgTdqjZQq46w/c7
 14 help:set-up-the-snowflake-mcp-for-notion
 15 help:manage-your-inbox-with-notion-agent
 16 help:use-your-chatgpt-plan-with-notion-agent
-17 help:turn-on-web-browser-for-notion-agent
+17 help:connect-atlassian-to-notion-ai
 18 help:use-notion-pages-in-chatgpt
-19 help:choose-how-notion-agent-asks-for-your-approval
-20 help:create-and-manage-skills
-21 help:create-and-edit-images-with-notion-ai
-22 help:instructions-for-notion-agent
+19 help:turn-on-web-browser-for-notion-agent
+20 help:choose-how-notion-agent-asks-for-your-approval
+21 help:create-and-manage-skills
+22 help:create-and-edit-images-with-notion-ai
 
 ## Video
 
