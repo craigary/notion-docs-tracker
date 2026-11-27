@@ -1,17 +1,24 @@
 /**
- * 只读审计脚本：找出被"标题锚点"抓取故障误标为 In Progress 的页面。
+ * 只读审计脚本：找出被抓取噪声误标为 In Progress 的页面。
  *
- * 背景：Notion 帮助站改版后把 H3 标题文字包进 <a> 锚点，而 src/sources/article.ts
- * 的标题解包逻辑只处理 H2，导致每篇文章的每个 H3 都变成 `### [标题](锚点链接)`。
- * 一次故障同步（ed285d1，2026-10-22）让 135 篇文章的 hash 全部变化，同步逻辑随即
- * 把对应 Backend / Frontend 页面的 Status 推成 In Progress，但英文正文其实一个字没改。
+ * 背景（两波噪声，同一个根源：抓取产物里混入了不稳定的链接形态）：
+ *   1. 2026-10-22（ed285d1）：Notion 帮助站把 H3 标题包进自链接，
+ *      `### **标题**` 一夜之间变成 `### [**标题**](锚点链接)`，135 篇 hash 齐变。
+ *   2. 2026-11-25 起：标题自链接的 href 里多了每次抓取都会变的 `_ck` 参数
+ *      （另有 `_gl`、`g-exp`），hash 每次同步必变，前后端状态被反复误翻。
+ * 2026-11-26 已修复抓取（9b0d666：H3/H4 标题自链接拆为纯文本；
+ * normalizeNotionUrl 剥离 /help/ 链接上的易变参数），并跑过一轮清理同步。
  *
- * 四路独立证据交叉判定：
- *   L1  git 历史：该文件最近一次变动是否只有标题行（纯噪声），以及最近一次实质变动日期
- *   L2  Backend Content 是否含标题锚点（故障指纹已永久写入 Notion，不用翻 git 也能筛）
+ * 本版判定核心（替代旧版的"标题行启发式"）：
+ *   L1  归一化 git 历史：把每个历史版本的内容先归一化再比较——
+ *       剥离 `_ck`/`_gl`/`g-exp` 参数、把标题自链接还原成标题文字、
+ *       解码数字 HTML 实体、忽略空行与行尾空白。归一化后仍有差异，
+ *       才算"实质变更"。由此得到每个文件可复核的最后一次实质变更
+ *       （提交 + 日期），以及其后每一次变动均为噪声的事实。
+ *   L2  Backend Content 里标题锚点出现次数（旧指纹，清理后应为 0，保留作参考）
  *   L3  Frontend 正文中文占比（译文是否真的存在）
- *   L4  时序：Frontend 的 last_edited_time 就是"翻牌"时间（同步写属性才会改它），
- *       与噪声提交日期、最近实质变更日期对齐即可钉死是哪次变更导致的
+ *   L4  时序：Frontend 的 last_edited_time 即"翻牌"时间，与最后一次
+ *       实质变更日期对齐，判断这次 In Progress 是不是噪声翻的。
  *
  * 附加保险：若 Frontend 页面的最后编辑者是人而非机器人，说明正在翻译，一律不自动判定。
  *
@@ -51,18 +58,18 @@ const REPO_ROOT = fileURLToPath(new URL('../', import.meta.url))
 const CONTENT_DIR = 'content'
 const REPORTS_DIR = 'reports'
 
-/** 一次提交改动多少个 content 文件以上才怀疑是批量故障（正常同步只碰个位数） */
-const NOISE_COMMIT_FILE_THRESHOLD = 15
+/** 逐文件回溯 git 历史时最多检查多少个提交 */
+const GIT_HISTORY_DEPTH = 60
 
-/** 逐文件分析 git 历史时最多回溯多少个提交 */
-const GIT_HISTORY_DEPTH = 80
+/** 附录里"批量噪声提交"的门槛：同一次提交对多少个文件是纯噪声 */
+const NOISE_COMMIT_FILE_THRESHOLD = 15
 
 const CJK_STRONG = 0.15
 const CJK_WEAK = 0.05
 
 /**
- * 若最近一次实质变更发生在噪声提交前这么多天以内，则无法排除 In Progress
- * 本来就来自那次真实变更，保守降级为 REVIEW。
+ * 若最近一次实质变更发生在翻牌日之前这么多天以内，则无法排除 In Progress
+ * 本来就来自那次真实变更，保守降级。
  */
 const RECHECK_WINDOW_DAYS = 3
 
@@ -83,20 +90,21 @@ type Verdict =
   | 'NO_FRONTEND'
   | 'NO_LOCAL_FILE'
 
-type NoiseScanResult = {
-  /** commit hash -> 日期 */
-  noiseCommits: Map<string, string>
-  /** 落在噪声提交里的 content 文件路径 */
-  noiseFiles: Set<string>
-  /** 噪声提交的最晚日期 */
-  latestNoiseDate: string | null
-}
-
 type FileHistory = {
-  mostRecentChangeIsHeadingOnly: boolean
+  /** 最近一次变动是否为纯噪声（归一化后无差异） */
+  mostRecentChangeIsNoise: boolean
+  /** 最后一次实质变更日期（归一化后仍有差异） */
   lastRealChangeDate: string | null
+  /** 最后一次实质变更的提交 */
+  lastRealChangeCommit: string | null
+  /** 最后一次变动的日期（不论实质与否） */
   lastAnyChangeDate: string | null
-  realChangeCount: number
+  /** 最后一次实质变更之后的纯噪声变动次数 */
+  noiseChangeCount: number
+  /** 最后一次纯噪声变动的日期 */
+  lastNoiseChangeDate: string | null
+  /** 第一次纯噪声变动的日期（最后一次实质变更之后） */
+  firstNoiseChangeDate: string | null
 }
 
 type PageRecord = {
@@ -125,11 +133,11 @@ type AuditRow = {
   /** L3：中文占比 */
   cjk_ratio: string
   cjk_chars: number
-  /** L1a：落在纯噪声提交里 */
+  /** L1：该文件在最后一次实质变更之后是否有纯噪声变动 */
   in_noise_commit: boolean
-  /** L1b：该文件最近一次变动只有标题行 */
+  /** L1：该文件最近一次变动是否为纯噪声 */
   recent_heading_only: boolean
-  /** L4：翻牌日期 >= 噪声提交日期，且无更晚的实质变更 */
+  /** L4：翻牌时间落在噪声变动区间内，且其前没有未处理的实质变更 */
   flip_matches_noise: boolean
   flip_date: string
   last_real_change: string
@@ -140,6 +148,12 @@ type AuditRow = {
   note: string
   frontend_page_id: string
   backend_page_id: string
+  /** 新证据列：最后一次实质变更的提交（短 hash） */
+  last_real_change_commit: string
+  /** 新证据列：最后一次实质变更之后的纯噪声变动次数 */
+  noise_change_count: number
+  /** 新证据列：最后一次纯噪声变动日期 */
+  last_noise_change: string
 }
 
 // ---------------------------------------------------------------------------
@@ -182,148 +196,177 @@ function mapIdentifierToContentFile(identifier: string) {
   return `${CONTENT_DIR}/${identifier}.md`
 }
 
-function isHeadingLine(line: string) {
-  return /^#{1,6}\s/.test(line)
+function identifierToSlug(identifier: string) {
+  return identifier.split(':').slice(1).join(':')
+}
+
+function identifierToSelfPath(identifier: string) {
+  const slug = identifierToSlug(identifier)
+  return identifier.startsWith('category:') ? `help/category/${slug}` : `help/${slug}`
 }
 
 // ---------------------------------------------------------------------------
-// L1：git 历史
+// L1：归一化内容比较
 // ---------------------------------------------------------------------------
+
+const VOLATILE_PARAMS = ['_ck', '_gl', 'g-exp']
+
+/** 剥离 URL 查询串里的易变参数，其余部分（含 #锚点）原样保留 */
+function stripVolatileParams(text: string) {
+  let out = text
+  for (const param of VOLATILE_PARAMS) {
+    out = out.replace(new RegExp(`[?&]${param}=[^&#\\s)\\]]+`, 'g'), match =>
+      match.startsWith('?') ? '?' : ''
+    )
+  }
+  return out.replaceAll('?#', '#').replaceAll('?)', ')').replaceAll('?]', ']')
+}
+
+/** 解码数字 HTML 实体（&#x6E; / &#110;），抓取器不同时期的编码差异不算内容变更 */
+function decodeNumericEntities(text: string) {
+  return text
+    .replace(/&#x([0-9a-fA-F]+);/g, (_, hex: string) => String.fromCodePoint(parseInt(hex, 16)))
+    .replace(/&#(\d+);/g, (_, dec: string) => String.fromCodePoint(parseInt(dec, 10)))
+}
 
 /**
- * 扫描全部 content 提交，找出"纯噪声提交"：
- * 一次改动 >= NOISE_COMMIT_FILE_THRESHOLD 个文件，且所有 +/- 行都只是标题行。
+ * 把一个历史版本的内容归一化：只保留"内容本身"，抹掉抓取形态差异。
+ * 归一化后仍不同的，才算实质变更。
  */
-async function detectNoiseCommits(): Promise<NoiseScanResult> {
-  const result: NoiseScanResult = {
-    noiseCommits: new Map(),
-    noiseFiles: new Set(),
-    latestNoiseDate: null
-  }
+export function normalizeContent(raw: string, selfPath: string) {
+  let text = raw.replaceAll('\r\n', '\n')
+  text = stripVolatileParams(text)
+  text = decodeNumericEntities(text)
 
-  const { out, code } = await runGit([
-    'log',
-    '--format=@@COMMIT@@%H|%ad',
-    '--date=short',
-    '--name-only',
-    '--',
-    CONTENT_DIR
-  ])
-
-  if (code !== 0) {
-    console.warn('[L1] git log 失败，跳过噪声提交检测')
-    return result
-  }
-
-  const commits: { hash: string; date: string; files: string[] }[] = []
-  let current: { hash: string; date: string; files: string[] } | null = null
-
-  for (const line of out.split('\n')) {
-    if (line.startsWith('@@COMMIT@@')) {
-      const [hash = '', date = ''] = line.replace('@@COMMIT@@', '').split('|')
-      current = { hash, date, files: [] }
-      commits.push(current)
-      continue
+  const marker = `](https://www.notion.com/${selfPath}`
+  const lines = text.split('\n').map(line => {
+    const heading = line.match(/^(#{1,6})\s+(.*)$/)
+    if (!heading) {
+      return line
     }
-    if (current && line.startsWith(`${CONTENT_DIR}/`)) {
-      current.files.push(line.trim())
-    }
-  }
-
-  const candidates = commits.filter(commit => commit.files.length >= NOISE_COMMIT_FILE_THRESHOLD)
-
-  for (const commit of candidates) {
-    const patch = await runGit(['show', commit.hash, '--', CONTENT_DIR])
-    if (patch.code !== 0) {
-      continue
-    }
-
-    const substantive = patch.out
-      .split('\n')
-      .filter(line => line.startsWith('+') || line.startsWith('-'))
-      .filter(line => !line.startsWith('+++') && !line.startsWith('---'))
-      .map(line => line.slice(1))
-      .filter(line => !isHeadingLine(line))
-
-    if (substantive.length === 0) {
-      result.noiseCommits.set(commit.hash, commit.date)
-      commit.files.forEach(file => result.noiseFiles.add(file))
-      if (!result.latestNoiseDate || commit.date > result.latestNoiseDate) {
-        result.latestNoiseDate = commit.date
+    const rest = (heading[2] ?? '').trim()
+    // 标题自链接（容忍锚点里的括号/转义）：[**T**](本站本文链接) / [T](本站本文链接） -> T
+    if (rest.startsWith('[') && rest.endsWith(')') && rest.includes(marker)) {
+      const close = rest.lastIndexOf('](')
+      if (close > 0) {
+        const inner = rest.slice(1, close).replaceAll('**', '').trim()
+        return `${heading[1]} ${inner}`
       }
     }
-  }
+    // 旧式加粗纯文本标题：**T** -> T
+    const bold = rest.match(/^\*\*(.+?)\*\*$/)
+    if (bold) {
+      return `${heading[1]} ${bold[1]}`
+    }
+    return line
+  })
 
-  return result
+  // 空行与行尾空白不承载内容
+  return lines
+    .map(line => line.trimEnd())
+    .filter(line => line.trim() !== '')
+    .join('\n')
 }
 
-/** 解析单个 content 文件的补丁历史，判断最近一次变动是不是纯标题噪声 */
-async function analyzeFileHistory(filePath: string): Promise<FileHistory> {
+/** 全局统计：每个提交对多少个文件是纯噪声（供报告附录） */
+const noiseCommitFileCount = new Map<string, { date: string; count: number }>()
+
+function tallyNoiseCommit(hash: string, date: string) {
+  const entry = noiseCommitFileCount.get(hash) ?? { date, count: 0 }
+  entry.count += 1
+  noiseCommitFileCount.set(hash, entry)
+}
+
+/**
+ * 回溯单个文件的 git 历史（新到旧），逐版做归一化比较，
+ * 找出最后一次实质变更，以及它之后的纯噪声变动。
+ */
+async function analyzeFileHistory(filePath: string, selfPath: string): Promise<FileHistory> {
   const empty: FileHistory = {
-    mostRecentChangeIsHeadingOnly: false,
+    mostRecentChangeIsNoise: false,
     lastRealChangeDate: null,
+    lastRealChangeCommit: null,
     lastAnyChangeDate: null,
-    realChangeCount: 0
+    noiseChangeCount: 0,
+    lastNoiseChangeDate: null,
+    firstNoiseChangeDate: null
   }
 
-  const { out, code } = await runGit([
+  const log = await runGit([
     'log',
-    '-p',
     `-n${GIT_HISTORY_DEPTH}`,
-    '--format=@@COMMIT@@%H|%ad',
+    '--format=%H|%ad',
     '--date=short',
     '--',
     filePath
   ])
 
-  if (code !== 0 || !out.trim()) {
+  if (log.code !== 0 || !log.out.trim()) {
     return empty
   }
 
-  const blocks: { date: string; lines: string[] }[] = []
-  let block: { date: string; lines: string[] } | null = null
+  const commits = log.out
+    .trim()
+    .split('\n')
+    .map(line => {
+      const [hash = '', date = ''] = line.split('|')
+      return { hash, date }
+    })
+    .filter(commit => commit.hash)
 
-  for (const line of out.split('\n')) {
-    if (line.startsWith('@@COMMIT@@')) {
-      const date = line.replace('@@COMMIT@@', '').split('|')[1] ?? ''
-      block = { date, lines: [] }
-      blocks.push(block)
-      continue
-    }
-    if (!block) {
-      continue
-    }
-    if (!line.startsWith('+') && !line.startsWith('-')) {
-      continue
-    }
-    if (line.startsWith('+++') || line.startsWith('---')) {
-      continue
-    }
-    block.lines.push(line.slice(1))
+  if (commits.length === 0) {
+    return empty
   }
 
   const history = { ...empty }
-  let firstSeen = false
+  history.lastAnyChangeDate = commits[0]?.date ?? null
 
-  for (const item of blocks) {
-    if (item.lines.length === 0) {
-      continue
-    }
-
-    if (!firstSeen) {
-      firstSeen = true
-      history.lastAnyChangeDate = item.date
-      history.mostRecentChangeIsHeadingOnly = item.lines.every(isHeadingLine)
-    }
-
-    if (item.lines.some(line => !isHeadingLine(line))) {
-      history.realChangeCount += 1
-      if (history.lastRealChangeDate === null) {
-        history.lastRealChangeDate = item.date
-      }
-    }
+  const showContent = async (hash: string) => {
+    const shown = await runGit(['show', `${hash}:${filePath}`])
+    return shown.code === 0 ? shown.out : null
   }
 
+  // 逐版（新 -> 旧）比较相邻版本：某个提交引入的差异在归一化后消失，
+  // 说明该提交对这个文件是纯噪声；第一个归一化后仍有差异的提交，
+  // 就是最后一次实质变更。
+  let prevNormalized: string | null = null
+  let prevCommit: { hash: string; date: string } | null = null
+  let foundRealChange = false
+
+  for (const commit of commits) {
+    const raw = await showContent(commit.hash)
+    if (raw === null) {
+      continue
+    }
+    const normalized = normalizeContent(raw, selfPath)
+
+    if (prevNormalized !== null && prevCommit) {
+      if (normalized === prevNormalized) {
+        if (!foundRealChange) {
+          history.noiseChangeCount += 1
+          history.lastNoiseChangeDate ??= prevCommit.date
+          history.firstNoiseChangeDate = prevCommit.date
+          tallyNoiseCommit(prevCommit.hash, prevCommit.date)
+        }
+      } else {
+        history.lastRealChangeDate = prevCommit.date
+        history.lastRealChangeCommit = prevCommit.hash
+        foundRealChange = true
+        break
+      }
+    }
+
+    prevNormalized = normalized
+    prevCommit = commit
+  }
+
+  if (!foundRealChange && prevCommit) {
+    // 回溯到底都没找到实质变更：最老的那个提交（创建或回溯下限）即最后一次实质变更
+    history.lastRealChangeDate = prevCommit.date
+    history.lastRealChangeCommit = prevCommit.hash
+  }
+
+  history.mostRecentChangeIsNoise = history.noiseChangeCount > 0
   return history
 }
 
@@ -430,7 +473,7 @@ function daysBetween(earlier: string, later: string) {
 // ---------------------------------------------------------------------------
 
 async function main() {
-  console.log('=== Notion 文档状态审计（只读）===\n')
+  console.log('=== Notion 文档状态审计（只读 · 归一化判定版）===\n')
 
   console.log('[1/6] 读取集成身份...')
   const me = await notionClient.users.me({})
@@ -493,20 +536,13 @@ async function main() {
     `\n      共 ${records.length} 条记录，其中任一状态为 ${IN_PROGRESS} 的：${inProgress.length} 条`
   )
 
-  console.log('\n[4/6] 扫描 git 历史，识别纯噪声提交...')
-  const noise = await detectNoiseCommits()
-  console.log(`      识别到 ${noise.noiseCommits.size} 个纯噪声提交，涉及 ${noise.noiseFiles.size} 个文件`)
-  for (const [hash, date] of noise.noiseCommits) {
-    console.log(`        - ${hash.slice(0, 7)} ${date}`)
-  }
-
+  console.log('\n[4/6] 归一化回溯 git 历史（逐文件找最后一次实质变更）...')
   console.log('\n[5/6] 逐条收集证据...')
   let done = 0
 
   const rows = await mapWithConcurrency(inProgress, 4, async record => {
     const filePath = mapIdentifierToContentFile(record.identifier)
-    const inNoiseCommit = noise.noiseFiles.has(filePath)
-    const history = await analyzeFileHistory(filePath)
+    const history = await analyzeFileHistory(filePath, identifierToSelfPath(record.identifier))
     const anchorCount = countAnchorHeadings(record.backendContent)
 
     const frontendPage = frontendByIdentifier.get(record.identifier)
@@ -527,20 +563,19 @@ async function main() {
       record.frontendLastEditedBy && record.frontendLastEditedBy !== botId
     )
 
-    // L4：翻牌时间不早于噪声提交，且没有更晚的实质变更 → 这次翻牌是噪声造成的
-    const flipMatchesNoise = Boolean(
-      noise.latestNoiseDate &&
-        flipDate &&
-        flipDate >= noise.latestNoiseDate &&
-        (history.lastRealChangeDate === null || history.lastRealChangeDate < noise.latestNoiseDate)
+    const hasNoiseAfterReal = history.noiseChangeCount > 0
+    // 翻牌发生在最后一次实质变更之后，且那之后的变动全是噪声
+    const flipAfterRealChange = Boolean(
+      flipDate && history.lastRealChangeDate && flipDate > history.lastRealChangeDate
     )
+    const flipMatchesNoise = hasNoiseAfterReal && flipAfterRealChange
 
-    // 最近实质变更紧贴噪声提交，无法排除 In Progress 本来就来自那次真实变更
-    const nearNoiseRealChange = Boolean(
-      noise.latestNoiseDate &&
-        history.lastRealChangeDate &&
-        daysBetween(history.lastRealChangeDate, noise.latestNoiseDate) >= 0 &&
-        daysBetween(history.lastRealChangeDate, noise.latestNoiseDate) <= RECHECK_WINDOW_DAYS
+    // 实质变更与翻牌/首次噪声翻牌的间隔太近，无法排除 In Progress 本就来自那次真实变更
+    const nearRealChange = Boolean(
+      history.lastRealChangeDate &&
+        history.firstNoiseChangeDate &&
+        daysBetween(history.lastRealChangeDate, history.firstNoiseChangeDate) >= 0 &&
+        daysBetween(history.lastRealChangeDate, history.firstNoiseChangeDate) <= RECHECK_WINDOW_DAYS
     )
 
     let verdict: Verdict
@@ -555,23 +590,25 @@ async function main() {
     } else if (ratio < CJK_WEAK) {
       verdict = 'UNTRANSLATED'
       note = '前端正文几乎无中文，尚未翻译，In Progress 属实'
-    } else if (!history.mostRecentChangeIsHeadingOnly) {
+    } else if (
+      history.lastRealChangeDate &&
+      flipDate &&
+      history.lastRealChangeDate >= flipDate
+    ) {
       verdict = 'REAL_CHANGE'
-      note = `最近一次变动含正文改动（${history.lastRealChangeDate ?? '未知'}），In Progress 可能属实`
+      note = `最后一次实质变更（${history.lastRealChangeDate}，${(history.lastRealChangeCommit ?? '').slice(0, 7)}）不早于翻牌日，In Progress 可能属实`
     } else if (humanEditedLast) {
       verdict = 'REVIEW'
       note = 'Frontend 最后编辑者是人，可能正在翻译，不自动判定'
-    } else if (nearNoiseRealChange) {
+    } else if (nearRealChange && flipMatchesNoise) {
       verdict = 'REVIEW'
-      note = `最近实质变更距故障日太近（${history.lastRealChangeDate}），无法排除 In Progress 来自该次变更`
-    } else if (ratio >= CJK_STRONG && (flipMatchesNoise || inNoiseCommit)) {
+      note = `实质变更（${history.lastRealChangeDate}）距首次噪声翻牌太近，无法排除 In Progress 来自该次变更`
+    } else if (ratio >= CJK_STRONG && flipMatchesNoise) {
       verdict = 'FALSE_POSITIVE'
-      note = `最近一次变动纯为标题锚点噪声${
-        flipMatchesNoise ? `（翻牌于 ${flipDate}）` : ''
-      }，且前端正文已是中文`
-    } else if (ratio >= CJK_STRONG) {
+      note = `最后一次实质变更在 ${history.lastRealChangeDate}（${(history.lastRealChangeCommit ?? '').slice(0, 7)}），其后 ${history.noiseChangeCount} 次变动归一化后均无差异，翻牌于 ${flipDate}，且前端正文已是中文`
+    } else if (ratio >= CJK_STRONG && hasNoiseAfterReal) {
       verdict = 'LIKELY_FALSE_POSITIVE'
-      note = '最近一次变动为标题噪声且译文存在，但时序对不上噪声提交日期'
+      note = '实质变更之后的变动均为噪声且译文存在，但翻牌时序对不齐'
     } else {
       verdict = 'REVIEW'
       note = '信号不足，建议人工确认'
@@ -590,24 +627,27 @@ async function main() {
       anchor_headings: anchorCount,
       cjk_ratio: ratio.toFixed(4),
       cjk_chars: cjk,
-      in_noise_commit: inNoiseCommit,
-      recent_heading_only: history.mostRecentChangeIsHeadingOnly,
+      in_noise_commit: hasNoiseAfterReal,
+      recent_heading_only: history.mostRecentChangeIsNoise,
       flip_matches_noise: flipMatchesNoise,
       flip_date: flipDate,
       last_real_change: history.lastRealChangeDate ?? '',
       last_any_change: history.lastAnyChangeDate ?? '',
-      real_change_count: history.realChangeCount,
+      real_change_count: history.lastRealChangeDate ? 1 : 0,
       human_edited_last: humanEditedLast,
       note,
       frontend_page_id: record.frontendPageId ?? '',
-      backend_page_id: record.backendPageId
+      backend_page_id: record.backendPageId,
+      last_real_change_commit: (history.lastRealChangeCommit ?? '').slice(0, 7),
+      noise_change_count: history.noiseChangeCount,
+      last_noise_change: history.lastNoiseChangeDate ?? ''
     } satisfies AuditRow
   })
 
   process.stdout.write('\r' + ' '.repeat(40) + '\r')
 
   console.log('\n[6/6] 生成报告...')
-  await writeReports(rows, noise)
+  await writeReports(rows)
   summarize(rows)
 }
 
@@ -640,10 +680,13 @@ const CSV_COLUMNS: (keyof AuditRow)[] = [
   'human_edited_last',
   'note',
   'frontend_page_id',
-  'backend_page_id'
+  'backend_page_id',
+  'last_real_change_commit',
+  'noise_change_count',
+  'last_noise_change'
 ]
 
-async function writeReports(rows: AuditRow[], noise: NoiseScanResult) {
+async function writeReports(rows: AuditRow[]) {
   mkdirSync(`${REPO_ROOT}${REPORTS_DIR}`, { recursive: true })
 
   const stamp = new Date().toISOString().replace(/[:.]/g, '-').slice(0, 19)
@@ -654,13 +697,13 @@ async function writeReports(rows: AuditRow[], noise: NoiseScanResult) {
   const body = rows.map(row => CSV_COLUMNS.map(column => csvEscape(row[column])).join(',')).join('\n')
 
   await Bun.write(csvPath, `${header}\n${body}\n`)
-  await Bun.write(mdPath, buildMarkdown(rows, noise, stamp))
+  await Bun.write(mdPath, buildMarkdown(rows, stamp))
 
   console.log(`      CSV: ${csvPath}`)
   console.log(`      MD : ${mdPath}`)
 }
 
-function buildMarkdown(rows: AuditRow[], noise: NoiseScanResult, stamp: string) {
+function buildMarkdown(rows: AuditRow[], stamp: string) {
   const pick = (verdict: Verdict) => rows.filter(row => row.verdict === verdict)
 
   const falsePositive = pick('FALSE_POSITIVE')
@@ -675,16 +718,16 @@ function buildMarkdown(rows: AuditRow[], noise: NoiseScanResult, stamp: string) 
       return ['_无_', '']
     }
     const out = [
-      '| Identifier | 标题 | Backend | Frontend | 中文 | 锚点 | 翻牌日 | 最近实质变动 | 备注 |',
+      '| Identifier | 标题 | Backend | Frontend | 中文 | 翻牌日 | 最近实质变动 | 实质变更提交 | 备注 |',
       '| --- | --- | --- | --- | --- | --- | --- | --- | --- |'
     ]
     for (const row of items) {
       out.push(
         `| \`${row.identifier}\` | ${row.title.replaceAll('|', '\\|')} | ${row.backend_status || '-'} | ${
           row.frontend_status || '-'
-        } | ${(Number(row.cjk_ratio) * 100).toFixed(0)}% | ${row.anchor_headings} | ${
-          row.flip_date || '-'
-        } | ${row.last_real_change || '-'} | ${row.note} |`
+        } | ${(Number(row.cjk_ratio) * 100).toFixed(0)}% | ${row.flip_date || '-'} | ${
+          row.last_real_change || '-'
+        } | ${row.last_real_change_commit || '-'} | ${row.note} |`
       )
     }
     out.push('')
@@ -713,12 +756,11 @@ function buildMarkdown(rows: AuditRow[], noise: NoiseScanResult, stamp: string) 
 
   lines.push('## 判定依据')
   lines.push('')
-  lines.push('四路独立证据：')
+  lines.push('核心证据是**归一化 git 历史**（本版替代旧版的"标题行启发式"）：')
   lines.push('')
-  lines.push('1. **L1a** `in_noise_commit` — 该文件落在"纯噪声提交"里（一次改 >= 15 个文件且全部只改标题行）')
-  lines.push('2. **L1b** `recent_heading_only` — 该文件最近一次变动只有标题行')
-  lines.push('3. **L3** `cjk_ratio` — Frontend 正文中文占比（判断译文是否真的存在）')
-  lines.push('4. **L4** `flip_matches_noise` — Frontend `last_edited_time` 即"翻牌"时间，不早于噪声提交且无更晚实质变更')
+  lines.push('逐个文件回溯 content 的提交历史，把相邻两个版本先归一化再比较。归一化会抹掉抓取形态差异：剥离 `_ck`/`_gl`/`g-exp` 参数、把标题自链接还原成标题文字、解码数字 HTML 实体、忽略空行与行尾空白。归一化后仍有差异的，才记为一次**实质变更**，并记录其提交与日期；其后每一次变动若归一化后无差异，即为纯噪声。')
+  lines.push('')
+  lines.push('辅助证据：Frontend 正文中文占比（译文是否存在）、Frontend `last_edited_time`（翻牌时间）、最后编辑者是否为人（正在翻译则不自动判定）。')
   lines.push('')
   lines.push('判定顺序（先命中先返回）：')
   lines.push('')
@@ -726,10 +768,11 @@ function buildMarkdown(rows: AuditRow[], noise: NoiseScanResult, stamp: string) 
   lines.push('无 Frontend 页            -> NO_FRONTEND')
   lines.push('无本地 content 文件       -> NO_LOCAL_FILE')
   lines.push('中文占比 < 5%             -> UNTRANSLATED      （没翻译过，In Progress 属实）')
-  lines.push('最近变动含正文改动         -> REAL_CHANGE       （内容真变了，In Progress 属实）')
+  lines.push('最后实质变更 >= 翻牌日    -> REAL_CHANGE       （实质变更未被处理，In Progress 属实）')
   lines.push('最后编辑者是人            -> REVIEW            （正在翻译，不动）')
-  lines.push('中文 > 15% 且时序对得上    -> FALSE_POSITIVE')
-  lines.push('中文 > 15% 但时序对不上    -> LIKELY_FALSE_POSITIVE')
+  lines.push('实质变更距噪声翻牌 <= 3 天 -> REVIEW            （无法排除 In Progress 来自该次变更）')
+  lines.push('中文 > 15% 且翻牌在实质变更之后的噪声区间 -> FALSE_POSITIVE')
+  lines.push('中文 > 15% 且实质变更后只有噪声变动       -> LIKELY_FALSE_POSITIVE')
   lines.push('其余                      -> REVIEW')
   lines.push('```')
   lines.push('')
@@ -753,28 +796,24 @@ function buildMarkdown(rows: AuditRow[], noise: NoiseScanResult, stamp: string) 
   lines.push('')
   lines.push(...table(noLocalFile))
 
-  lines.push('## 附：修复顺序提醒')
+  lines.push('## 附：批量噪声提交清单')
   lines.push('')
-  lines.push(
-    '`src/sources/article.ts` 的标题解包只处理 `H2`，H3/H4 未覆盖，故障仍在。' +
-      '若在状态重置之后再修这个 bug，下一轮同步会把 `### [标题](锚点)` 还原成 `### 标题`，' +
-      'hash 再次变化，这批页面会被**再翻一次**成 In Progress。'
-  )
+  lines.push('同一次提交对至少 ' + NOISE_COMMIT_FILE_THRESHOLD + ' 个文件是纯噪声（归一化后无差异）的提交：')
   lines.push('')
-  lines.push('因此顺序应为：**先完成手头翻译 → 修 bug → 跑一次同步让 hash 稳定 → 最后批量重置状态**，或者改 bug 时同步改写 Backend 的 `Hash` 字段对齐干净版本。')
-  lines.push('')
-
-  lines.push('## 附：噪声提交清单')
-  lines.push('')
-  if (noise.noiseCommits.size === 0) {
+  const noiseCommits = [...noiseCommitFileCount.entries()]
+    .filter(([, entry]) => entry.count >= NOISE_COMMIT_FILE_THRESHOLD)
+    .sort((a, b) => b[1].count - a[1].count)
+  if (noiseCommits.length === 0) {
     lines.push('_无_')
   } else {
-    lines.push('| Commit | 日期 |')
-    lines.push('| --- | --- |')
-    for (const [hash, date] of noise.noiseCommits) {
-      lines.push(`| \`${hash.slice(0, 7)}\` | ${date} |`)
+    lines.push('| Commit | 日期 | 纯噪声文件数 |')
+    lines.push('| --- | --- | --- |')
+    for (const [hash, entry] of noiseCommits) {
+      lines.push(`| \`${hash.slice(0, 7)}\` | ${entry.date} | ${entry.count} |`)
     }
   }
+  lines.push('')
+  lines.push('注：抓取侧已于 2026-11-26 修复（提交 `9b0d666`：标题自链接拆纯文本 + 剥离易变参数），此类噪声不应再产生。')
   lines.push('')
 
   return lines.join('\n')
