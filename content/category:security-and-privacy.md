@@ -8,17 +8,17 @@ coverImage: "https://images.ctfassets.net/spoqsaf9291f/3YdwMwZLM4TOOtw3zhRapu/92
 
 1 help:privacy
 2 help:gdpr-at-notion
-3 help:custom-agents-security-features
-4 help:security-best-practices-for-agent-connections
+3 help:security-best-practices-for-agent-connections
+4 help:custom-agents-security-features
 5 help:allowlist-ip
 6 help:data-accessible-by-your-workspace-owner
 7 help:report-inappropriate-content
-8 help:how-notion-protects-against-prompt-injection-risks
+8 help:security-incident-involving-a-third-party-ai-vendor
 9 help:dormant-account-policy
-10 help:shared-responsibilities-model
-11 help:how-to-protect-yourself-from-malvertising
-12 help:security-incident-involving-a-third-party-ai-vendor
-13 help:data-residency
+10 help:how-to-protect-yourself-from-malvertising
+11 help:data-residency
+12 help:how-notion-protects-against-prompt-injection-risks
+13 help:shared-responsibilities-model
 
 ## Guides
 
